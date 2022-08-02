@@ -17,7 +17,7 @@ tags:								#标签
 
 As Terrence Tao pointed out in the book... (three kinds of integrals)
 
-Introduce the measure theory here, the $\sigma-$algebra, where $sigma$ stands for the union.
+Introduce the measure theory here, the $\sigma$-algebra, where $sigma$ stands for the union, and the measureble sets $\mathfrak{m}$.
 
 ## Distributions against Test function in $l^n$ and $L^n$
 
