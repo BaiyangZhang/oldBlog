@@ -1,7 +1,7 @@
 # Site settings
 title: Limbo
 SEOTitle: 柏阳的博客 | Baiyang Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/Raphael_School_of_Athens.jpg
 email: astris.dei@gmail.com
 description: "De omnibus dubitandum est"
 keyword: "Baiyang, baiyangzhang"
@@ -58,22 +58,3 @@ kramdown:
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
-
-
-
-# Friends
-friends: [
-    {
-        title: "WY",
-        href: "http://zhengwuyang.com"
-    },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
-    }
-]
