@@ -3,7 +3,7 @@ layout:     post   				    # 使用的布局（不需要改）
 title:      反对个人崇拜及其后果 				# 标题 
 subtitle:   赫鲁晓夫在苏共二十大上的秘密报告 #副标题
 date:       2022-07-30 				# 时间
-author:     苏共政治局 						# 作者
+author:     Baiyang Zhang 						# 作者
 header-img: img/20th_CPSU_Congress.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
