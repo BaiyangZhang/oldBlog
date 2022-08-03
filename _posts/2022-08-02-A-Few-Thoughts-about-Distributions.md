@@ -24,7 +24,7 @@ tags:								#标签
     </script>
 </head>
 
-## There are so much more to integrals than just Reimannian integral
+## There are so much more to integrals than just Riemann integral
 
 As Terrence Tao pointed out in the book... (three kinds of integrals)
 
