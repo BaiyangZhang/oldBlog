@@ -1,6 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      反对个人崇拜及其后果 				# 标题 
+title:      关于个人崇拜及其后果 				# 标题 
 subtitle:   赫鲁晓夫在苏共二十大上的秘密报告 #副标题
 date:       2022-07-30 				# 时间
 author:     Baiyang Zhang 						# 作者
