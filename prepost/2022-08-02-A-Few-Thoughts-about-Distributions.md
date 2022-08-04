@@ -4,7 +4,7 @@ title:      A few thoughts about distributions 				# 标题
 subtitle:    #副标题
 date:       2022-08-02 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/functioanAnalysys.png 	#这篇文章标题背景图片
+header-img: img/functionalAnalysis.png 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - 数学
@@ -24,9 +24,11 @@ tags:								#标签
     </script>
 </head>
 
+
+
 ## There are so much more to integrals than just Riemann integral
 
-As Terrence Tao pointed out in the book... (three kinds of integrals)
+As Terence Tao pointed out in the book... (three kinds of integrals)
 
 Introduce the measure theory here, the $\sigma$-algebra, where $sigma$ stands for the union, and the measureble sets $\mathfrak{m}$.
 
