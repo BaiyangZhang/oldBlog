@@ -1,11 +1,11 @@
 # Site settings
-title: Baiyang Zhang
-SEOTitle: 柏阳的博客 | Baiyang Blog
+title: Math Limbo
+SEOTitle: 张柏阳的博客 | Baiyang Blog
 header-img: img/Raphael_School_of_Athens.jpg
 email: astris.dei@gmail.com
 description: "De omnibus dubitandum est"
 keyword: "Baiyang, baiyangzhang"
-url: "http://baiyangzhang.github.io"          # your host, for absolute URL
+url: "https://inspirehep.net/authors/1635412?ui-citation-summary=true"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/baiyangzhang/baiyangzhang.github.io.git" # you code repository
 
