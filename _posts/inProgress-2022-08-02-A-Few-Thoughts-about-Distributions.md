@@ -28,6 +28,8 @@ tags:								#标签
 
 ## There are so much more to integrals than just Riemann integral
 
+The concept of integral is deceptively simple -- just summation at its finest.
+
 As Terence Tao pointed out in the book... (three kinds of integrals)
 
 Introduce the measure theory here, the $\sigma$-algebra, where $sigma$ stands for the union, and the measureble sets $\mathfrak{m}$.
