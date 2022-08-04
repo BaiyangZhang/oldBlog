@@ -19,7 +19,7 @@ sidebar-about-description: "De omnibus dubitandum est"
 # SNS settings
 RSS: false
 # weibo_username:
-inspireHEP:         
+inspireHEP:     authors/1635412?ui-citation-summary=true    
 zhihu_username:     
 github_username:    BaiyangZhang
 facebook_username:  baiyang.zhang.96
