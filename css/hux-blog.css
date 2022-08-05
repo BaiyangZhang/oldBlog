@@ -506,17 +506,21 @@ pre code {
   margin-bottom: 0px;
   /* 0 on mobile, modify by Hux */
 }
+h1 {
+    color: darkgoldenrod;
+}
 @media only screen and (min-width: 768px) {
   .intro-header {
     margin-bottom: 20px;
     /* response on desktop */
   }
 }
+
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 85px 0 55px;
-  color: white;
+  color: darkgoldenrod;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -555,6 +559,9 @@ pre code {
   display: block;
   font-weight: 300;
   margin: 10px 0 0;
+}
+span.subheading {
+    color: ivory;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,

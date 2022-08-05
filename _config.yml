@@ -3,7 +3,7 @@ title: Math Limbo
 SEOTitle: 张柏阳的博客 | Baiyang Blog
 header-img: img/Raphael_School_of_Athens.jpg
 email: astris.dei@gmail.com
-description: "De omnibus dubitandum est"
+description: "De omnibus dubitandum"
 keyword: "Baiyang, baiyangzhang"
 url: "https://inspirehep.net/authors/1635412?ui-citation-summary=true"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -11,14 +11,15 @@ github_repo: "https://github.com/baiyangzhang/baiyangzhang.github.io.git" # you 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "De omnibus dubitandum est"
+sidebar-about-description: "De omnibus dubitandum"
 #sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     
+# weibo_username:
+inspireHEP:     authors/1635412?ui-citation-summary=true    
 zhihu_username:     
 github_username:    BaiyangZhang
 facebook_username:  baiyang.zhang.96
