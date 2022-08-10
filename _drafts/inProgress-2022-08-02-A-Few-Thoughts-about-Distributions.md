@@ -12,24 +12,18 @@ tags:								#标签
     - 分布
 ---
 
-<head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
-            }
-        });
-    </script>
-</head>
 
+## There are so much more to integrals...
 
+The concept of integral is deceptively simple --  at least for me. I used to think that integral is just summation at its finest. For example, if one is given the velosity as a function of time $v(t)$ and one want to know the total distanced traveled, one just integrate velosity from initial and final time, 
 
-## There are so much more to integrals than just Riemann integral
+$$\text{distance} = \int_{t_i}^{t_f} {v}(t) dt.$$
 
-The concept of integral is deceptively simple -- just summation at its finest.
+In another word, time is into inifnite intervals, each with time length $\Delta t$, so short that the velosicy is assumed to be a constant, and we sum it up. In the $\Delta t \to 0$ limit, this should give us the acurate result,  
+$$\sum_i {v}(t_i) \Delta t \to \int_{t_i}^{t_f} {v}(t) dt.$$  
+That is the basic idea of Riemann integral.
 
+However, there is more to the story.
 As Terence Tao pointed out in the book... (three kinds of integrals)
 
 Introduce the measure theory here, the $\sigma$-algebra, where $sigma$ stands for the union, and the measureble sets $\mathfrak{m}$.
