@@ -16,13 +16,11 @@ tags:								#标签
 ## There are so much more to integrals...
 
 The concept of integral is deceptively simple --  at least for me. I used to think that integral is just summation at its finest. For example, if one is given the velosity as a function of time $v(t)$ and one want to know the total distanced traveled, one just integrate velosity from initial and final time, 
-$$
-  \text{distance} = \int_{t_i}^{t_f} \bm{v} dt.
-$$
-In another word, time is into inifnite intervals, each with time length $\Delta t$, so short that the velosicy is assumed to be a constant, and we sum it up. In the $\Delta t \to 0$ limit, this should give us the acurate result,
-$$
-  \sum_i \bm{v}(t_i) \Delta t \to \int \bm{v}(t) dt.
-$$
+
+$$\text{distance} = \int_{t_i}^{t_f} {v}(t) dt.$$
+
+In another word, time is into inifnite intervals, each with time length $\Delta t$, so short that the velosicy is assumed to be a constant, and we sum it up. In the $\Delta t \to 0$ limit, this should give us the acurate result,  
+$$\sum_i {v}(t_i) \Delta t \to \int_{t_i}^{t_f} {v}(t) dt.$$  
 That is the basic idea of Riemann integral.
 
 However, there is more to the story.
