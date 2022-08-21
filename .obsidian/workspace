@@ -1,0 +1,134 @@
+{
+  "main": {
+    "id": "23f339f33f61b230",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c49498e9631efd0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_drafts/2022-08-02-A-Few-Thoughts-about-Distributions.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b5d28b9b38e585a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "6fd188710c195186",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ceae3b0dabefa2f6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0a157de84fd0b7eb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7722c5ae46c4d126",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "2bef9386e1e7d93e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a224adfc8d6b09d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a02a11c35e5ab731",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_drafts/2022-08-02-A-Few-Thoughts-about-Distributions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a8bfa6c58d70b048",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_drafts/2022-08-02-A-Few-Thoughts-about-Distributions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "639ee59b2fec605b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fcf3bc7c5d4e7f8c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_drafts/2022-08-02-A-Few-Thoughts-about-Distributions.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1c49498e9631efd0",
+  "lastOpenFiles": []
+}

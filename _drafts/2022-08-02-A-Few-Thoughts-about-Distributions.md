@@ -7,9 +7,9 @@ author:     Baiyang Zhang 						# 作者
 header-img: img/functionalAnalysis.png 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
-    - 数学
-    - 泛函分析
-    - 分布
+    - math
+    - functional analysis
+    - distribution
 ---
 
 
