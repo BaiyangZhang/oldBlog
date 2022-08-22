@@ -35,8 +35,8 @@ A $C^*-$algebra is a Banach algebra with an involution, which means that for any
 - $x^* =x$,
 - $||x^*|| = ||x||$,
 - $(x+y)^*=x^*+y^*$,
-- $(xy)^*=y^*x^*$,
-- the $C^*-$identity, $x^* x = ||x^2||$.
+- $(xy)^*=y^* x^*$,
+- the $C^*$-identity, $x^* x = ||x^2||$.
 
 An example of $C^*-$algebra is the space of all the continuous linear maps on a Hilbert space, $B(H)$. For an element $T\in B(H)$, $T^*$ is defined to be $\langle x,Ty \rangle = \langle T^*x,y \rangle$ , and the norm is defined to be the smallest const M such that $||Tx||\leq M ||x||$.
 
