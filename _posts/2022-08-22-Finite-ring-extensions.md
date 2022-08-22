@@ -28,8 +28,9 @@ So, similar to saying "y is algebraic over k", we can also say things like "y is
 
 The following definition will be important.
 
+- A Banach space is both a *vector space* and a *measure space*. 
 
-A Banach space is both a *vector space* and a *measure space*. Being a vector space means that one can add two elements in a Banach space together, but in general not multiply them. A vector space with a multiplicative structure is called an **algebra**, and if the space is a Banach space, and the multiplication satisfies $||xy||\le ||x|| ||y||$ for any two elements, then it is called a **Banach algebra**.
+Being a vector space means that one can add two elements in a Banach space together, but in general not multiply them. A vector space with a multiplicative structure is called an **algebra**, and if the space is a Banach space, and the multiplication satisfies $||xy||\le ||x|| ||y||$ for any two elements, then it is called a **Banach algebra**.
 
 A $C^*-$algebra is a Banach algebra with an involution, which means that for any elements x in the space, it is associated with another element $x^*$ that satisfies 
 - $x^* =x$,
