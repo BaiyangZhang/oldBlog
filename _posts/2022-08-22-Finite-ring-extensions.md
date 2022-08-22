@@ -12,7 +12,7 @@ tags:								    #标签
     - distribution
 ---
 
-## Finite ring extensions and Noether normalization
+## Finite ring extensions
 
 First we need to know what is a field extension. The definition is quite straightforward: if you can construct a new field $K$ from old field $k$ so that $k$ is a subset of $K$, then $K$ is an extension field over $k$, denoted as $K/k$.
 
@@ -30,10 +30,7 @@ The following definition will be important.
 
 - A Banach space is both a *vector space* and a *measure space*. 
 
-Being a vector space means that one can add two elements in a Banach space together, but in general not multiply them. A vector space with a multiplicative structure is called an **algebra**, and if the space is a Banach space, and the multiplication satisfies 
-
-
-$||xy||\le ||x|| ||y||$ for any two elements, then it is called a **Banach algebra**.
+Being a vector space means that one can add two elements in a Banach space together, but in general not multiply them. A vector space with a multiplicative structure is called an **algebra**, and if the space is a Banach space, and the multiplication satisfies $ \lVert xy \rVert \le \lVert x \rVert \lVert y \rVert $ for any two elements, then it is called a **Banach algebra**.
 
 A $C^*-$algebra is a Banach algebra with an involution, which means that for any elements x in the space, it is associated with another element $x^*$ that satisfies 
 - $x^* =x$,
