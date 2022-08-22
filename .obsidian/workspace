@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "1c49498e9631efd0",
+        "id": "c0b0cb3519e0a7e2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_drafts/2022-08-02-A-Few-Thoughts-about-Distributions.md",
+            "file": "_posts/2022-08-22-Finite-ring-extensions.md",
             "mode": "source",
             "source": false
           }
@@ -73,29 +73,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a02a11c35e5ab731",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "_drafts/2022-08-02-A-Few-Thoughts-about-Distributions.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "a8bfa6c58d70b048",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-08-02-A-Few-Thoughts-about-Distributions.md",
+                "file": "_posts/2022-08-22-Finite-ring-extensions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +101,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-08-02-A-Few-Thoughts-about-Distributions.md"
+                "file": "_posts/2022-08-22-Finite-ring-extensions.md"
+              }
+            }
+          },
+          {
+            "id": "4b53abc2119f9f54",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2022-08-22-Finite-ring-extensions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -129,6 +129,8 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1c49498e9631efd0",
-  "lastOpenFiles": []
+  "active": "c0b0cb3519e0a7e2",
+  "lastOpenFiles": [
+    "_drafts/2022-08-02-A-Few-Thoughts-about-Distributions.md"
+  ]
 }

@@ -15,15 +15,15 @@ tags:								#标签
 
 ## There are so much more to integrals...
 
-The concept of integral is deceptively simple --  at least for me. I used to think that integral is just summation at its finest. For example, if one is given the velosity as a function of time $v(t)$ and one want to know the total distanced traveled, one just integrate velosity from initial and final time, 
+The concept of integral is deceptively simple --  at least for me when I just learnt about the Riemann integral. I used to think that integral is just summation at its finest. For example, if one is given the velocity as a function of time $v(t)$ and one want to know the total distanced traveled, one just integrate velocity from initial to final time, 
 
 $$\text{distance} = \int_{t_i}^{t_f} {v}(t) dt.$$
 
-In another word, time is into inifnite intervals, each with time length $\Delta t$, so short that the velosicy is assumed to be a constant, and we sum it up. In the $\Delta t \to 0$ limit, this should give us the acurate result,  
-$$\sum_i {v}(t_i) \Delta t \to \int_{t_i}^{t_f} {v}(t) dt.$$  
+The idea is that, time is split into infinite intervals, each time slice has length $\Delta t$, so short that the velocity is assumed to be a constant in any time slice, and we just sum up the distance travelled in each time slice. In the $\Delta t \to 0$ limit, this should give us the accurate result,  
+$$\sum_i {v}(t_i) \Delta t \to \int_{t_i}^{t_f} {v}(t) dt, \quad \sum \Delta t \to \int dt.$$  
 That is the basic idea of Riemann integral.
 
-However, there is more to the story.
+However, there is more to the story. 
 As Terence Tao pointed out in the book... (three kinds of integrals)
 
 Introduce the measure theory here, the $\sigma$-algebra, where $sigma$ stands for the union, and the measureble sets $\mathfrak{m}$.
