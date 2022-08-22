@@ -21,8 +21,8 @@ If $K/k$ is a field, and element $y$ in K is said to be *algebraic* over $k$ if 
 A polynomial $a_n y^n + \cdots + a_1 y + a_0$ is said to be *monic* if $a_n = 1$.
 
 We have two different dependence relations:
-- algebraic dependence relation: $f(y) = a_n y^n + \cdots + a_1 y + a_0 = 0,\, f\in k[Y]$, and
-- integral dependence relation: $f(y) = y^n + a_{n-1} y^{n-1}\cdots + a_1 y + a_0 = 0,\, f\in A[Y]$, where $A$ is a ring"".
+- algebraic dependence relation: $f(y) = a_n y^n + \cdots + a_1 y + a_0 = 0,\quad f\in k[Y]$, and
+- integral dependence relation: $f(y) = y^n + a_{n-1} y^{n-1}\cdots + a_1 y + a_0 = 0,\quad f\in A[Y]$, where $A$ is a ring.
 
 So, similar to saying "y is algebraic over k", we can also say things like "y is integral over S, for $S\subset R$ is ring extension".
 
