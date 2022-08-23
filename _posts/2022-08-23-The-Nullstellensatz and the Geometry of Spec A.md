@@ -114,14 +114,14 @@ Therefore, Spec $k[X_{1},\dots,X_{n}]$ corresponds to the irreducible varieties.
 ## The Zariski topology on a variety
 
 The varieties form  the *closed* sets of a topology on $k^n$, since 
-- The union of two varieties is again a variety,
+- The union of two varieties is again a variety,  
 $$
 V(I) \cup V(J) = V(I\cap J) = V(IJ),
 $$
-- The intersection of any varieties is again a variety, 
+- The intersection of any varieties is again a variety,   
 $$
 \cap X_{i} = V\left( \sum J_{i} \right)
-$$
+$$  
 The Zariski topology on a variety Y is defined by taking the subvarieties $X \subset Y$ as the closed sets.
 
 The Zariski topology is a very weak topology, that is, it has very few closed sets.
