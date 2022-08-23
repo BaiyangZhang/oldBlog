@@ -12,3 +12,6 @@ tags:								#标签
     - ring
 ---
 
+## Weak Nullstellensatz
+
+Let $k$ be a field,  
