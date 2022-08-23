@@ -12,6 +12,9 @@ tags:								    #标签
     - distribution
 ---
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 ## $C^*$-algebra and Finite ring extensions
 
 First we need to know what is a field extension. The definition is quite straightforward: if you can construct a new field $K$ from old field $k$ so that $k$ is a subset of $K$, then $K$ is an extension field over $k$, denoted as $K/k$.
