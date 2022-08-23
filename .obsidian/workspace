@@ -7,8 +7,12 @@
         "id": "bcf0e125ba02492b",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "_posts/2022-08-22-Finite-ring-extensions.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2022-08-22-Finite-ring-extensions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -94,7 +99,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2022-08-22-Finite-ring-extensions.md"
+              }
             }
           },
           {
@@ -103,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2022-08-22-Finite-ring-extensions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
