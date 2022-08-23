@@ -65,7 +65,7 @@ Take $A=k[X]$ for example, $X-a_{1}$ is irreducible, $X^2+a_{2}X+a_{3}$ is not i
 
 Let $k$ be a closed field. A *variety* is a subset of $k^n$, a geometric shape of the form 
 $$
-V = V(J) = \{ (a_{1},\dots,a_{n}) | f(a_{1},\dots,a_{n})=0 \text{ for all} f\in J  \},
+V = V(J) = \{ (a_{1},\dots,a_{n}) | f(a_{1},\dots,a_{n})=0 \text{ for all } f\in J  \},
 $$
 where $J$ is an ideal of $k[X_{1},\dots,X_{n}]$. Note that $J=(f_{1},\dots,f_{n})$ is finitely generated. The variety of $J$ is nothing but the zero locus of $f_{1},\dots,f_{n}$. 
 
