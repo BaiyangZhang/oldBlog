@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6bc77395a2ed4fc8",
+        "id": "bcf0e125ba02492b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "_posts/2022-08-23-The-Nullstellensatz and the Geometry of Spec A.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-08-23-The-Nullstellensatz and the Geometry of Spec A.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,9 +94,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2022-08-23-The-Nullstellensatz and the Geometry of Spec A.md"
-              }
+              "state": {}
             }
           },
           {
@@ -110,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-08-23-The-Nullstellensatz and the Geometry of Spec A.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +120,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6bc77395a2ed4fc8",
+  "active": "bcf0e125ba02492b",
   "lastOpenFiles": [
     "_posts/2022-08-23-The-Nullstellensatz and the Geometry of Spec A.md",
     "_posts/2022-08-22-Finite-ring-extensions.md",
