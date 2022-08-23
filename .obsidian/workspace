@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "_posts/2022-08-23-The-Nullstellensatz and the Geometry of Spec A.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -128,7 +128,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ceae3b0dabefa2f6",
+  "active": "e83c1a03802d3a28",
   "lastOpenFiles": [
     "_posts/2022-08-22-Finite-ring-extensions.md",
     "_posts/2022-07-30-The-Secret-Speech.md",

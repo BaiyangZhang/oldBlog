@@ -95,18 +95,19 @@ A variety is irreducible if it is non-empty and not the union of two proper subv
 
 **Proposition** A variety $X=V(J)$ is only irreducible if $I(X)$ is prime, namely irreducible.  
 
-```
-% https://q.uiver.app/?q=WzAsNCxbMCwwLCJcXHRleHR7cmFkaWNhbCBpZGVhbCB9IGoiXSxbMiwwLCJcXHRleHR7dmFyaWV0aWVzIH1YXFxzdWJzZXQga15uIl0sWzAsMiwiXFx0ZXh0e3ByaW1lIGlkZWFsIH0gUCJdLFsyLDIsIlxcdGV4dHtpcnJlZHVjaWJsZSB2YXJpZXRpZXMgfVhcXHN1YnNldCBrXm4iXSxbMiwwLCJcXGN1cCJdLFszLDEsIlxcY3VwIl0sWzAsMSwiIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV0sWzIsMywiIiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV1d
-\[\begin{tikzcd}
-	{\text{radical ideal } j} && {\text{varieties }X\subset k^n} \\
+<center>
+<img src="https://i.upmath.me/svg/%0A%5Cbegin%7Btikzcd%7D%0A%09%7B%5Ctext%7Bradical%20ideal%20%7D%20j%7D%20%26%26%20%7B%5Ctext%7Bvarieties%20%7DX%5Csubset%20k%5En%7D%20%5C%5C%0A%09%5C%5C%0A%09%7B%5Ctext%7Bprime%20ideal%20%7D%20P%7D%20%26%26%20%7B%5Ctext%7Birreducible%20varieties%20%7DX%5Csubset%20k%5En%7D%0A%09%5Carrow%5B%22%5Ccup%22%2C%20from%3D3-1%2C%20to%3D1-1%5D%0A%09%5Carrow%5B%22%5Ccup%22%2C%20from%3D3-3%2C%20to%3D1-3%5D%0A%09%5Carrow%5Btail%20reversed%2C%20from%3D1-1%2C%20to%3D1-3%5D%0A%09%5Carrow%5Btail%20reversed%2C%20from%3D3-1%2C%20to%3D3-3%5D%0A%5Cend%7Btikzcd%7D%0A" alt="
+\begin{tikzcd}
+	{\text{radical ideal } j} &amp;&amp; {\text{varieties }X\subset k^n} \\
 	\\
-	{\text{prime ideal } P} && {\text{irreducible varieties }X\subset k^n}
-	\arrow["\cup", from=3-1, to=1-1]
-	\arrow["\cup", from=3-3, to=1-3]
+	{\text{prime ideal } P} &amp;&amp; {\text{irreducible varieties }X\subset k^n}
+	\arrow[&quot;\cup&quot;, from=3-1, to=1-1]
+	\arrow[&quot;\cup&quot;, from=3-3, to=1-3]
 	\arrow[tail reversed, from=1-1, to=1-3]
 	\arrow[tail reversed, from=3-1, to=3-3]
-\end{tikzcd}\]
-```
+\end{tikzcd}
+" />
+</center>
 
 Therefore, Spec $k[X_{1},\dots,X_{n}]$ corresponds to the irreducible varieties.
 
