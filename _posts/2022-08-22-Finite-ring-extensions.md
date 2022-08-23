@@ -1,6 +1,6 @@
 ---
 layout:     post   				        # 使用的布局（不需要改）
-title:      $C^*$-algebra and Finite Ring Extensions 	    # 标题 
+title:      $C^\star$-algebra and Finite Ring Extensions 	    # 标题 
 subtitle:                               #副标题
 date:       2022-08-22 				    # 时间
 author:     Baiyang Zhang 				# 作者
@@ -23,7 +23,7 @@ tags:								    #标签
   });
 </script>
 
-## $C^*$-algebra and Finite ring extensions
+## $C\star*$-algebra and Finite ring extensions
 
 First we need to know what is a field extension. The definition is quite straightforward: if you can construct a new field $K$ from old field $k$ so that $k$ is a subset of $K$, then $K$ is an extension field over $k$, denoted as $K/k$.
 
@@ -43,14 +43,14 @@ The following definition will be important.
 
 Being a vector space means that one can add two elements in a Banach space together, but in general not multiply them. A vector space with a multiplicative structure is called an **algebra**, and if the space is a Banach space, and the multiplication satisfies $\lVert xy \rVert \le \lVert x \rVert \lVert y \rVert$ for any two elements, then it is called a **Banach algebra**.
 
-A $C^*-$algebra is a Banach algebra with an involution, which means that for any elements x in the space, it is associated with another element $x^*$ that satisfies 
+A $C^\star$-algebra is a Banach algebra with an involution, which means that for any elements x in the space, it is associated with another element $x^*$ that satisfies 
 - $x^* =x$,
 - $\lVert x^\star \rVert = \lVert x \rVert$,
-- $(x+y)^*=x^*+y^*$,
-- $(xy)^*=y^* x^*$,
-- the $C^*$-identity, $x^* x = \lVert x^2 \rVert$.
+- $(x+y)^\star =x^* +y^* $,
+- $(xy)^\star=y^\* x^* $,
+- the $C^* $-identity, $x^* x = \lVert x^2 \rVert$.
 
-An example of $C^*-$algebra is the space of all the continuous linear maps on a Hilbert space, $B(H)$. For an element $T\in B(H)$, $T^*$ is defined to be $\langle x,Ty \rangle = \langle T^*x,y \rangle$ , and the norm is defined to be the smallest const M such that $\lVert Tx \rVert\leq M \lVert x \rVert$.
+An example of $C^\star$-algebra is the space of all the continuous linear maps on a Hilbert space, $B(H)$. For an element $T\in B(H)$, $T^\star$ is defined to be $\langle x,Ty \rangle = \langle T^\star x,y \rangle$, and the norm is defined to be the smallest const M such that $\lVert Tx \rVert\leq M \lVert x \rVert$.
 
 A fundamental theorem of Gelfand and Naimark states that every $C^*$-algebra can be represented as a subalgebra of $B(H)$ for some Hilbert space $H$. I don't know either how to prove it or the significance of it.
 
