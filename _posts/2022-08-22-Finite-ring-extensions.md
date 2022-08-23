@@ -34,7 +34,7 @@ Being a vector space means that one can add two elements in a Banach space toget
 
 A $C^*-$algebra is a Banach algebra with an involution, which means that for any elements x in the space, it is associated with another element $x^*$ that satisfies 
 - $x^* =x$,
-- $\lVert x^* \rVert = \lVert x \rVert$,
+- $\lVert x^\star \rVert = \lVert x \rVert$,
 - $(x+y)^*=x^*+y^*$,
 - $(xy)^*=y^* x^*$,
 - the $C^*$-identity, $x^* x = \lVert x^2 \rVert$.
