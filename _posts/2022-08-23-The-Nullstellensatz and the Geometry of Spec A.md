@@ -1,6 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      The-Nullstellensatz and the Geometry of Spec A	# 标题 
+title:      The Nullstellensatz and the Geometry of Spec A	# 标题 
 subtitle:    #副标题
 date:       2022-08-23 				# 时间
 author:     Baiyang Zhang 						# 作者
@@ -77,10 +77,10 @@ where m-Spec is the set of maximal ideals.
 
 ## The correspondences V and I
 
-A variety $X \subset k^n$ is by definition the same as $V(J)$ for some ideal $J$. We can regard V as a function that maps an ideal to its variety. There is another function doing the inverse: maps a variety to an ideal:
+A variety $X \subset k^n$ is by definition the same as $V(J)$ for some ideal $J$. We can regard V as a function that maps an ideal to its variety. There is another function doing the inverse: maps a variety to an ideal:  
 $$
   I: \{ \text{subsets X of } k^n \} \to \{ \text{ideals of } k[X_{1},\dots,X_{n}]\},
-$$
+$$  
 defined by taking a variety into the *maximal* ideal.
 
 But, what is the relation between $V(J)$ and the corresponding maximal ideal, namely $I(V(J))$? Are the always the same? That question is answered by 
