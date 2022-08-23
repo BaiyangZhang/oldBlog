@@ -1,6 +1,6 @@
 ---
 layout:     post   				        # 使用的布局（不需要改）
-title:      $C^*$-algebra and Finite Ring Extensions 	    # 标题 
+title:      $C^\star$-algebra and Finite Ring Extensions 	    # 标题 
 subtitle:                               #副标题
 date:       2022-08-22 				    # 时间
 author:     Baiyang Zhang 				# 作者
@@ -12,7 +12,18 @@ tags:								    #标签
     - distribution
 ---
 
-## $C^*$-algebra and Finite ring extensions
+<!-- 数学公式 -->
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      inlineMath: [['$','$']]
+    }
+  });
+</script>
+
+## $C^\star$-algebra and Finite ring extensions
 
 First we need to know what is a field extension. The definition is quite straightforward: if you can construct a new field $K$ from old field $k$ so that $k$ is a subset of $K$, then $K$ is an extension field over $k$, denoted as $K/k$.
 
@@ -32,16 +43,16 @@ The following definition will be important.
 
 Being a vector space means that one can add two elements in a Banach space together, but in general not multiply them. A vector space with a multiplicative structure is called an **algebra**, and if the space is a Banach space, and the multiplication satisfies $\lVert xy \rVert \le \lVert x \rVert \lVert y \rVert$ for any two elements, then it is called a **Banach algebra**.
 
-A $C^*-$algebra is a Banach algebra with an involution, which means that for any elements x in the space, it is associated with another element $x^*$ that satisfies 
-- $x^* =x$,
-- $\lVert x^* \rVert = \lVert x \rVert$,
-- $(x+y)^*=x^*+y^*$,
-- $(xy)^*=y^* x^*$,
-- the $C^*$-identity, $x^* x = \lVert x^2 \rVert$.
+A $C^\star$-algebra is a Banach algebra with an involution, which means that for any elements x in the space, it is associated with another element $x^*$ that satisfies 
+- $x^\star =x$,
+- $\lVert x^\star \rVert = \lVert x \rVert$,
+- $(x+y)^\star =x^\star +y^\star$,
+- $(xy)^\star = y^\star x^\star$,
+- the $C^\star$-identity, $x^\star x = \lVert x^2 \rVert$.
 
-An example of $C^*-$algebra is the space of all the continuous linear maps on a Hilbert space, $B(H)$. For an element $T\in B(H)$, $T^*$ is defined to be $\langle x,Ty \rangle = \langle T^*x,y \rangle$ , and the norm is defined to be the smallest const M such that $\lVert Tx \rVert\leq M \lVert x \rVert$.
+An example of $C^\star$-algebra is the space of all the continuous linear maps on a Hilbert space, $B(H)$. For an element $T\in B(H)$, $T^\star$ is defined to be $\langle x,Ty \rangle = \langle T^\star x,y \rangle$, and the norm is defined to be the smallest const M such that $\lVert Tx \rVert\leq M \lVert x \rVert$.
 
-A fundamental theorem of Gelfand and Naimark states that every $C^*$-algebra can be represented as a subalgebra of $B(H)$ for some Hilbert space $H$. I don't know either how to prove it or the significance of it.
+A fundamental theorem of Gelfand and Naimark states that every $C^\star$-algebra can be represented as a subalgebra of $B(H)$ for some Hilbert space $H$. I don't know either how to prove it or the significance of it.
 
 Let A be a ring, by definition, an A-algebra is a ring B with a given ring homomorphism $\phi:A\to B$. Let B be an A-algebra, 
 - B is a finite A-algebra (or is finite over A) if it is finite as an A-module. Recall that we say B is a finite A-module, or finitely generated A-module if there exists finite $b_1,\dots,b_n, n\in N$ such that every element of B is an A-linear combination of the $b_i$, $b = x_1 r_1 + \dots x_n r_n, \, r_i \in A$.
