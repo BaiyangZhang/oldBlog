@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2022-08-22-Finite-ring-extensions.md",
+            "file": "_posts/2022-08-25-韩钢中国当代史阅读书目.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-08-22-Finite-ring-extensions.md",
+                "file": "_posts/2022-08-25-韩钢中国当代史阅读书目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-08-22-Finite-ring-extensions.md"
+                "file": "_posts/2022-08-25-韩钢中国当代史阅读书目.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-08-22-Finite-ring-extensions.md",
+                "file": "_posts/2022-08-25-韩钢中国当代史阅读书目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,9 +131,10 @@
   "active": "bcf0e125ba02492b",
   "lastOpenFiles": [
     "_posts/2022-08-23-The-Nullstellensatz and the Geometry of Spec A.md",
+    "_posts/2022-08-25-韩钢中国当代史阅读书目.md",
+    "_drafts/draft-2022-08-02-A-Few-Thoughts-about-Distributions.md",
     "_posts/2022-08-22-Finite-ring-extensions.md",
     "_posts/2022-07-30-The-Secret-Speech.md",
-    "_drafts/draft-2022-08-02-A-Few-Thoughts-about-Distributions.md",
     "_drafts/2022-08-02-A-Few-Thoughts-about-Distributions.md"
   ]
 }
