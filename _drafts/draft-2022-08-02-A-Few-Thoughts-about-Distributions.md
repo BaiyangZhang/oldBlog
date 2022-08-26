@@ -33,7 +33,7 @@ The indefinite integral is connected with the signed definite integral via the f
 
 These three different kinds of integrals are almost the same in single-variable calculus, and it seems to be a matter of convenience as to which kind of integral to use. However, when move to multi-variable calculus, things become more complicated, also more interesting. Different kinds of integrals will generalize to different things, the indefinite integral, or anti-derivative, generalizes to the notion of a *solution to a differential equation*, or I guess one could call it anti-differential-equation for fun.  It appears more often as anti-something, meaning that if you differentiate it, you get something else. The signed integral generalizes to the integration of forms, which is arguably the most important application in physics.  The notion of differential form is also of fundamental importance in differential geometry, geometry and de Rham cohomology. This topic is super fun but it's for another day, here I will only mention one interesting fact about differential form.
 
-We know that in calculus of two variables, the integration is against $dx dy$, namely the integral is of the form $\int f(x,y) \, dx dy$. To perform a change of coordinates to, say, $r,\theta$, we need Jacobi determinant
+We know that in calculus of two variables, the integration is against $dx dy$, namely the integral is of the form $\int f(x,y) \, dx dy$. To perform a change of coordinates to, say, $r,\theta$, we need Jacobi determinant  
 $$\left|    \begin{matrix} 
 \frac{\partial x}{\partial r} & \frac{\partial x}{\partial \theta}\\
 \frac{\partial y}{\partial r} & \frac{\partial y}{\partial \theta}
