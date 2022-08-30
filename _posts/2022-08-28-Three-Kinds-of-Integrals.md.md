@@ -17,7 +17,9 @@ tags:								#标签
 
 The concept of integral is deceptively simple --  at least for me when I just learnt about the Riemann integral. I used to think that integral is just summation at its finest. For example, if one is given the velocity as a function of time $v(t)$ and one want to know the total distanced traveled, one just integrate velocity from initial to final time, 
 
-$$\text{distance} = \int_{t_i}^{t_f} {v}(t) dt.$$
+$$
+\text{distance} = \int_{t_i}^{t_f} {v}(t) dt.
+$$
 
 The idea is that, time is split into infinite intervals, each time slice has length $\Delta t$, so short that the velocity is assumed to be a constant in any time slice, and we just sum up the distance travelled in each time slice. In the $\Delta t \to 0$ limit, this should give us the accurate result,  
 $$\sum_i {v}(t_i) \Delta t \to \int_{t_i}^{t_f} {v}(t) dt, \quad \sum \Delta t \to \int dt.$$  
