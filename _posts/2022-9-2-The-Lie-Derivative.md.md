@@ -5,9 +5,9 @@ title:      The Lie Derivative			# 标题
 subtitle:   Based on the book by Theodore Frankel
 date:       2022-09-2 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/mathArt6.jpg 	#这篇文章标题背景图片
+header-img: img/mathArt6.jpg 	# 这篇文章标题背景图片
 catalog: true 						# 是否归档
-tags:								#标签
+tags:								# 标签
     - Math
     - Lie Derivative
     - Notes
@@ -192,4 +192,10 @@ Consider a nonautonomous flow of water in $\mathbb{R}^3$, that is, a flow of wat
 
 **A time dependent vector field on a manifold $M^n$ does not generate a flow since it doesn't satisfy the 1-parameter group property.**
 
-Suppose that 
+Suppose we have a time-dependent vector field $v = v(t,x)$ on $M^n$. We apply a simple classical trick: any tensor field $A(x,t)$ on $M^n$ that is time-dependent should be considered as a tensor field on the product manifold $\mathbb{R} \times M^n$, where $t$ is the coordinate for $\mathbb{R}$. A time dependent vector field is now an ordinary vector field on the space-time. To parametrize the flow given by the $n+1$ dimensional vector field, we introduce a new parameter $s$ such that 
+$$
+\begin{align}
+\frac{d x^i}{ds} &= v(t,x),\quad x^i\rvert_{s=0} = x_{0}^i, i = 1,\dots,n,  \\
+\frac{dt}{ds} &= 1, \quad t|_{s=t} = t_{0}.
+\end{align}
+$$

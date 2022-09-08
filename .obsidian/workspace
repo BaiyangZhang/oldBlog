@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_drafts/2022-9-2-The-Lie-Derivative.md.md",
+            "file": "_posts/2022-9-2-The-Lie-Derivative.md.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#使用的布局（不需要改）",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,11 +57,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 323
+    "width": 323,
+    "collapsed": true
   },
   "right": {
     "id": "2bef9386e1e7d93e",
@@ -77,7 +79,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-9-2-The-Lie-Derivative.md.md",
+                "file": "_posts/2022-9-2-The-Lie-Derivative.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-9-2-The-Lie-Derivative.md.md"
+                "file": "_posts/2022-9-2-The-Lie-Derivative.md.md"
               }
             }
           },
@@ -110,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-9-2-The-Lie-Derivative.md.md",
+                "file": "_posts/2022-9-2-The-Lie-Derivative.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +136,7 @@
     "_drafts/draft-2022-08-02-A-Few-Thoughts-about-Distributions.md.md",
     "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md.md",
     "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md.md",
-    "_drafts/2022-9-2-The-Lie-Derivative.md.md",
+    "_posts/2022-9-2-The-Lie-Derivative.md.md",
     "_drafts/2022-9-2-Basic-Cumutative-Algebra-Class-1.md 1.md",
     "_posts/2022-08-09-回国之旅.md",
     "_posts/2022-08-28-Three-Kinds-of-Integrals.md.md",
