@@ -1,5 +1,4 @@
 ---
----
 layout:     post   				    # 使用的布局（不需要改）
 title:      The Poincare Lemma and Potentials			# 标题 
 subtitle:   Based on the book by Theodore Frankel
