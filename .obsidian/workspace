@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2022-9-2-The-Lie-Derivative.md.md",
+            "file": "_posts/2022-9-2-The-Lie-Derivative.md",
             "mode": "source",
             "source": false
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-9-2-The-Lie-Derivative.md.md",
+                "file": "_posts/2022-9-2-The-Lie-Derivative.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-9-2-The-Lie-Derivative.md.md"
+                "file": "_posts/2022-9-2-The-Lie-Derivative.md"
               }
             }
           },
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-9-2-The-Lie-Derivative.md.md",
+                "file": "_posts/2022-9-2-The-Lie-Derivative.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,15 +131,15 @@
   },
   "active": "634fd02ea1596e79",
   "lastOpenFiles": [
-    "_posts/2022-9-8-罗莎-卢森堡.md.md",
-    "_posts/2022-9-2-The-Lie-Derivative.md.md",
-    "_posts/2022-9-10-The-Poncare-Lemma-and-Potentials.md.md",
-    "_drafts/draft-2022-08-02-A-Few-Thoughts-about-Distributions.md.md",
-    "_drafts/君主论书摘.md.md",
-    "_posts/2022-08-04-幼儿园毕业感言.md.md",
-    "_posts/2022-07-30-The-Secret-Speech.md.md",
-    "_posts/2022-08-09-回国之旅.md.md",
-    "_posts/2022-08-23-The-Nullstellensatz and-the-Geometry-of-Spec-A.md.md",
-    "_posts/2022-08-25-韩钢中国当代史阅读书目.md.md"
+    "_posts/2022-08-09-回国之旅.md",
+    "_posts/2022-08-04-幼儿园毕业感言.md",
+    "_posts/2022-07-30-The-Secret-Speech.md",
+    "_drafts/君主论书摘.md",
+    "_drafts/draft-2022-08-02-A-Few-Thoughts-about-Distributions.md",
+    "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md",
+    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
+    "_posts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
+    "_posts/2022-9-8-罗莎-卢森堡.md",
+    "_posts/2022-9-2-The-Lie-Derivative.md"
   ]
 }
