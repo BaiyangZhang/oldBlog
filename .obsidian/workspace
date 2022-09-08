@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2022-9-8-罗莎-卢森堡.md.md",
+            "file": "_posts/2022-9-2-The-Lie-Derivative.md.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323
+    "width": 323,
+    "collapsed": true
   },
   "right": {
     "id": "2bef9386e1e7d93e",
@@ -77,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-9-8-罗莎-卢森堡.md.md",
+                "file": "_posts/2022-9-2-The-Lie-Derivative.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-9-8-罗莎-卢森堡.md.md"
+                "file": "_posts/2022-9-2-The-Lie-Derivative.md.md"
               }
             }
           },
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-9-8-罗莎-卢森堡.md.md",
+                "file": "_posts/2022-9-2-The-Lie-Derivative.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,9 +131,9 @@
   },
   "active": "634fd02ea1596e79",
   "lastOpenFiles": [
-    "_posts/2022-9-10-The-Poncare-Lemma-and-Potentials.md.md",
-    "_posts/2022-9-2-The-Lie-Derivative.md.md",
     "_posts/2022-9-8-罗莎-卢森堡.md.md",
+    "_posts/2022-9-2-The-Lie-Derivative.md.md",
+    "_posts/2022-9-10-The-Poncare-Lemma-and-Potentials.md.md",
     "_drafts/draft-2022-08-02-A-Few-Thoughts-about-Distributions.md.md",
     "_drafts/君主论书摘.md.md",
     "_posts/2022-08-04-幼儿园毕业感言.md.md",
