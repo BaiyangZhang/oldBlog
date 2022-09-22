@@ -10,6 +10,7 @@ tags:								# 标签
     - Math
     - Lie Derivative
     - Notes
+    - TheodoreFrankel
 ---
 
 ### Lie Derivative

@@ -1,6 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      A few thoughts about distributions 				# 标题 
+title:      Basic Measure Theory 				# 标题 
 subtitle:    #副标题
 date:       2022-08-02 				# 时间
 author:     Baiyang Zhang 						# 作者
@@ -8,8 +8,9 @@ header-img: img/functionalAnalysis.png 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - math
-    - functional analysis
+    - functionalAnalysis
     - distribution
+    - measureTheory
 ---
 
 

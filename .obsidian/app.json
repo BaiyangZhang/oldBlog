@@ -8,5 +8,8 @@
     "downscalePercent": 100
   },
   "autoPairMarkdown": false,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "spellcheckLanguages": [
+    "en-US"
+  ]
 }
