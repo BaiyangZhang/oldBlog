@@ -88,8 +88,7 @@ $$
 \mathcal{L}_{X} (\alpha^p \wedge \beta^q) = (\mathcal{L}_{X} \alpha^p) \wedge \beta^q + \alpha^p \wedge \mathcal{L}_{X} (\beta^q).
 $$
 
-**Theorem** $\mathcal{L}_{X}$ commutes with exterior differentiation $d$, 
-
+**Theorem** $\mathcal{L}_ {X}$ commutes with exterior differentiation $d$,
 $$
 \mathcal{L}_{X} \circ d = d \circ \mathcal{L}_{X}.
 $$
