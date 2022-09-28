@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323
+    "width": 323,
+    "collapsed": true
   },
   "right": {
     "id": "2bef9386e1e7d93e",
@@ -128,7 +129,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ceae3b0dabefa2f6",
+  "active": "634fd02ea1596e79",
   "lastOpenFiles": [
     "_drafts/temLaTeX.md",
     "_drafts/draft-2022-08-02-Basic-Measure-Theory.md",
