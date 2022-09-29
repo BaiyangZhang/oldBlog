@@ -168,3 +168,46 @@ This is similar in the case of Riemann integral of a function.
 
 ### Positive Measure
 
+Measure is the generalization of concepts such as length, weight, probability. Thus it is natural to supposed the the measure assign to a set to be positive definite. 
+
+**Definition**  Let $(X,\mathcal{A})$ be a measurable space, a *positive measure* on $(X,\mathcal{A})$ is a mapping $\mu:\mathcal{A}\to \overline{R}^+$ such that
+1. the measure of the empty set is zero, $\mu(\emptyset) = 0$.
+2. If $\{A_{n}\}$ is a countable collection of pairwise disjoint elements of $\mathcal{A}$, then 
+$$
+\mu\left(\bigcup_{n}A_{n}\right) = \sum_{n} \mu(A_{n}).
+$$
+
+The triple $(X,\mathcal{A},\mu)$ is called a measure space. Recall that $(X, \mathcal{A})$ , namely a space with a sigma algebra, is called a measurable space. A tiny and perhaps insignificant difference in naming. 
+
+Note that property number 2 is sometimes called $\sigma$-additivity, it is crucial to measure space. 
+
+There are different quantities which can be used as measure, may it be the length, weight, probability, etc. Thus there exists different ways to construct measure spaces. Below we provide some example of measure spaces. 
+
+- **Counting measure**. Given a space $X$, for any subset $A\subset X$, define $\mu(A)$ to be she number of points in $A$ if A is finite, $\mu(A) = \infty$ if $A$ is infinite. This is called the counting measure on $(X,\mathcal{A})$.
+- **Dirac measure**. Let $X,\mathcal{A}$ be a measure space, and $a\in X$ a fixed point in X. For any set $A$, define $\mu(A) = 0$ if point $a$ is not in set $A$, $\mu(A) = 1$ if $a$ is in $A$. 
+- **Lebesgue measure**. Lebesgue measure is essential to define Lebesgue integral. Given a function from $\mathbb{R}$ to $\mathbb{R}$, we need to generalized the concept of length for a given subset of $\mathbb{R}$, no matter how weird it is, such as the set of all the rational points. On the other hand, the generalized concept of length should be invariant under translation, and satisfy other naturalness requirements. Let $A$ be a subset of $\mathbb{R}$, we first find some open sets to cover $A$ fully, namely find $I_{j},j\in J$ so that $A \subset \cup_{j\in J} I_{j}$, where $J$ is some index set. Note that $I_{j}, j\in J$ is *not* a partition of $A$, far from it, the unions of all the $I_{j}$ just need to cover $A$. As you can imagine, the unions of all the $I$'s will most likely over-cover $A$, then if we sum the measure of all $I$'s, we will get a measure which is larger than the measure of actual $A$. The real size, or measure, of $A$ is roughly speaking given by the lower bound of the measure of all the possible $I_{j}$'s. Out of this spirit we define the outer measure of $A$,
+$$
+m^\ast (A) = \text{inf } \sum_{j\in J} l(I_{j})
+$$
+
+where $l(I)$ denotes the length of $I$, and the infimum is taken over all finite or countable collections of open intervals $\{ I_{j} \mid j\in J \}$ such that $A\subseteq \cup_{j\in J} I_{j}$. Although the outer measure is not really a measure, it still satisfies some of the properties that real measures satisfy, for instance,
+1. $m^\ast(\emptyset) = 0$,
+2. $m^\ast(A) \geq 0$,  
+3. $m^\ast(\{ x \}) = 0$, the length of a single point is zero.  
+Note that the outer measure is defined for all subsets of $\mathbb{R}$.
+
+We then define the inner measure of $A$, which in a sense is the dual notion of outer measure. The outer notion approaches the real size of $A$ from above, and the inner measure approaches the real size of $A$ from below. The inner measure of $A$ is 
+$$
+	m_{\ast } (A) = \text{sup } m^\ast (K), \quad K \text{ is closed and } K\subseteq A, 
+$$
+
+The supremum is taken over all such subsets $K$. For any $A$ we have $m_{\ast} A \leq m^\ast(A)$.
+
+A subset $A\subset \mathbb{R}$ is said to be Lebesgue measurable if 
+$$
+m_{\ast } A = m^\ast  A < \infty.
+$$
+
+This finite number is called the Lebesgue measure of $A$. It is denoted $m(A)$, $m$ for measure.  the Lebesgue measure is the real size of $A$. 
+
+
