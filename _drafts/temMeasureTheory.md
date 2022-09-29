@@ -89,7 +89,31 @@ Before we continue with more measure theory, we stop to introduce some more term
 
 Note that neither $\text{sup } S$ or $\text{inf }S$ needs not to be in $S$, as contrast to minimum and maximum.  Supremum and infimum are more useful in analysis because they apply to special sets which may not have maximum or minimum. For example, the set of positive real numbers $\mathbb{R}^+$ (not including 0) does not have a minimum, since any element in $\mathbb{R}^+$ can be divided by two resulting in a smaller number still in $\mathbb{R}^+$. However $\mathbb{R}^+$ does has exactly one infimum, 0.
 
-Then there are a pair of 
+There are a pair of related concepts, lim sup and lim inf. Let $s_{n}$ be a sequence in $\mathbb{R}$, we define 
 
+$$
+\text{lim sup } s_{n} = \lim_{ N \to \infty } \text{sup } \{ s_{n} \mid n>N \}
+$$
 
+and 
+$$
+\text{lim inf } s_{n} = \lim_{ N \to \infty } \text{inf } \{ s_{n} \mid n>N \}.
+$$
+
+In other words, lim sup and lim inf of a sequence is the supremum or infimum of all the terms larger than $N$, where $N$ is taken to be $\infty$ eventually. 
+
+**Definition** Let $\phi$ be a function which is 
+1. measurable, and
+2. only takes finite number of values,   
+then $\phi$ is said to be a simple function. 
+
+For instance, if $A$ is a measurable set, then the characteristic function $1_{A}$ is a simple function. 
+
+The sum and product of two simple functions are simple functions. 
+
+**Theorem** Any measurable function is the limit of a sequence of simple functions. 
+
+This is similar in the case of Riemann integral of a function. 
+
+### Positive Measure
 
