@@ -1,8 +1,8 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      Basic Measure Theory 				# 标题 
+title:      Distributions and What They Are Good For 				# 标题 
 subtitle:    #副标题
-date:       2022-08-02 				# 时间
+date:       2022-09-29 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/functionalAnalysis.png 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -13,11 +13,6 @@ tags:								#标签
     - measureTheory
 ---
 
-
-
-## Some measure theory
-
-Introduce the measure theory here, the $\sigma$-algebra, where $sigma$ stands for the union, and the measurable sets $\mathfrak{m}$. 
 
 ## Distributions against Test function in $l^n$ and $L^n$
 
