@@ -193,8 +193,9 @@ $$
 where $l(I)$ denotes the length of $I$, and the infimum is taken over all finite or countable collections of open intervals $\{ I_{j} \mid j\in J \}$ such that $A\subseteq \cup_{j\in J} I_{j}$. Although the outer measure is not really a measure, it still satisfies some of the properties that real measures satisfy, for instance,
 1. $m^\ast(\emptyset) = 0$,
 2. $m^\ast(A) \geq 0$,  
-3. $m^\ast(\{ x \}) = 0$, the length of a single point is zero.  
-Note that the outer measure is defined for all subsets of $\mathbb{R}$.
+3. $m^\ast(\{ x \}) = 0$, the length of a single point is zero.
+
+Note that the outer measure is defined for all subsets of $\mathbb{R}$, no matter how weird they are, since any subset of $\mathbb{R}$ can be cover by some open sets. 
 
 We then define the inner measure of $A$, which in a sense is the dual notion of outer measure. The outer notion approaches the real size of $A$ from above, and the inner measure approaches the real size of $A$ from below. The inner measure of $A$ is 
 $$
