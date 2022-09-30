@@ -118,6 +118,26 @@
               "type": "outline",
               "state": {
                 "file": "_drafts/2022-08-02-Basic-Measure-Theory.md"
+<<<<<<< HEAD
+=======
+              }
+            }
+          },
+          {
+            "id": "4b53abc2119f9f54",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_drafts/2022-08-02-Basic-Measure-Theory.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+>>>>>>> 69a6924ebf6779cec661d487a4015e9704d3b078
               }
             }
           }
@@ -128,6 +148,22 @@
     "width": 300,
     "collapsed": true
   },
+<<<<<<< HEAD
   "active": "7f85d46d5feab599",
   "lastOpenFiles": []
+=======
+  "active": "634fd02ea1596e79",
+  "lastOpenFiles": [
+    "_drafts/temMeasureTheory.md",
+    "_drafts/2022-08-02-Basic-Measure-Theory.md",
+    "_drafts/temLaTeX.md",
+    "_drafts/draft-2022-08-02-Basic-Measure-Theory.md",
+    "_posts/2022-9-2-The-Lie-Derivative.md",
+    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
+    "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
+    "_drafts/2022-09-09-Manifesto-of-the-Communist-Party.md",
+    "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md",
+    "_drafts/君主论书摘.md"
+  ]
+>>>>>>> 69a6924ebf6779cec661d487a4015e9704d3b078
 }
