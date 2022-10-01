@@ -209,6 +209,6 @@ $$
 m_{\ast } A = m^\ast  A < \infty.
 $$
 
-This finite number is called the Lebesgue measure of $A$. It is denoted $m(A)$, $m$ for measure.  the Lebesgue measure is the real size of $A$. 
+This finite number is called the Lebesgue measure of $A$. It is denoted $m(A)$, $m$ for measure.   
 
  
