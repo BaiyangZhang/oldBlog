@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "e043c8dfd2becb65",
+    "id": "6bd24154e78dbf09",
     "type": "split",
     "children": [
       {
-        "id": "7f85d46d5feab599",
+        "id": "e58ab8cd557e40d2",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "89ec2169a82c74c3",
+    "id": "62ee1b8f7fb8be74",
     "type": "split",
     "children": [
       {
-        "id": "8418135a0632bce2",
+        "id": "29c2ee8e75be6c88",
         "type": "tabs",
         "children": [
           {
-            "id": "6543708b79e1c1e8",
+            "id": "957cfa2362e38596",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "7a4dbc884c333db4",
+            "id": "2f11af2c6dde2321",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "71350a3b02f91654",
+            "id": "e1e3b9eeb40d5006",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,15 +64,15 @@
     "width": 300
   },
   "right": {
-    "id": "d6093c1af5d3d708",
+    "id": "5f16c9608f79f67e",
     "type": "split",
     "children": [
       {
-        "id": "82a4bb0f9851aedf",
+        "id": "e66e9811e83cbd89",
         "type": "tabs",
         "children": [
           {
-            "id": "9f8f65594275e515",
+            "id": "03a27f6b06c37378",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -89,7 +89,7 @@
             }
           },
           {
-            "id": "23b5b50d9690b862",
+            "id": "d138c67792dc588f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -101,7 +101,7 @@
             }
           },
           {
-            "id": "a4e15bc85a82ece8",
+            "id": "4c9bf76b3fd9086e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -112,32 +112,12 @@
             }
           },
           {
-            "id": "556c27d3e47dc8df",
+            "id": "6664d3c3c1b838e2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
                 "file": "_drafts/2022-08-02-Basic-Measure-Theory.md"
-<<<<<<< HEAD
-=======
-              }
-            }
-          },
-          {
-            "id": "4b53abc2119f9f54",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "_drafts/2022-08-02-Basic-Measure-Theory.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
->>>>>>> 69a6924ebf6779cec661d487a4015e9704d3b078
               }
             }
           }
@@ -148,22 +128,6 @@
     "width": 300,
     "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "7f85d46d5feab599",
+  "active": "e58ab8cd557e40d2",
   "lastOpenFiles": []
-=======
-  "active": "634fd02ea1596e79",
-  "lastOpenFiles": [
-    "_drafts/temMeasureTheory.md",
-    "_drafts/2022-08-02-Basic-Measure-Theory.md",
-    "_drafts/temLaTeX.md",
-    "_drafts/draft-2022-08-02-Basic-Measure-Theory.md",
-    "_posts/2022-9-2-The-Lie-Derivative.md",
-    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
-    "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
-    "_drafts/2022-09-09-Manifesto-of-the-Communist-Party.md",
-    "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md",
-    "_drafts/君主论书摘.md"
-  ]
->>>>>>> 69a6924ebf6779cec661d487a4015e9704d3b078
 }
