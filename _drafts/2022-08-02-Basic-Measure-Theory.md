@@ -81,8 +81,6 @@ Back to $\sigma$-algebra. Le $\mathcal{E}$ be a class of subsets of $X$.
 
 It means that everything in $\mathcal{E}$ is also in the $\sigma$-algebra. $S(\mathcal{E})$ consists of all the subsets of $X$ that can be made from elements of $\mathcal{E}$ by a countable union, complement and intersection. For example, if $\mathcal{E}$ is empty, then $S(\mathcal{E}) = \{ \emptyset, X \}$.  
 
-
-
 **Theorem** Let $f: X \to Y$, $\mathcal{B}$ a $\sigma$-algebra in $Y$, then $\mathcal{A} := f^{-1} \mathcal{B}$ is a $\sigma$-algebra in $X$. 
 
 The reader can check that $\mathcal{A}$ does satisfy all the requirements for a $\sigma$-algebra. For example, since $Y$ is contained in $\mathcal{B}$, and $f$ maps the entirety of $X$ to $Y$, then $f^{-1} \mathcal{B}$ contains $X$. 
@@ -211,4 +209,22 @@ $$
 
 This finite number is called the Lebesgue measure of $A$. It is denoted $m(A)$, $m$ for measure.   
 
- 
+ Any open set on $\mathbb{R}$ is by definition the union of open intervals, thus Lebesgue measurable. Any bounded interval is Lebesgue measurable and, thanks to the use of infimum and supremum instead of minimum and maximum, we have 
+$$
+m(a,b) = m(a,b] = m[a,b) = m[a,b] = b-a.
+$$
+
+All Borel sets are Lebesgue measurable.
+
+Intuitively, the Lebesgue measure is translation invariant, $m(A) = m(A+\text{const})$. This property can be useful in proving that not all subsets of $\mathbb{R}$ are measurable, as given the the following.
+
+Define a set $V := [0,1] / \sim$, where the equivalence relation $\sim$ is given by $x\sim y$ if $y-x\in \mathbb{Q}$. Thus the set $V$ can also be written as 
+$$
+V := [0,1] / \mathbb{Q}.
+$$
+
+Each equivalence class is $x+\mathbb{Q}\cap [0,1]$ for some $x\in [0,1]$. Any element in an equivalence class can be the representation of that class. The set $V$ can also be seen as the set of all the representative elements, one for each equivalence class. We shall prove that $V$ is not Lebesgue measurable. 
+
+$V$ is an example of so-called Vitali set. a Vitali set is an elementary example of a set of [real numbers](https://en.wikipedia.org/wiki/Real_number "Real number") that is not [Lebesgue measurable](https://en.wikipedia.org/wiki/Lebesgue_measure "Lebesgue measure"), found by [Giuseppe Vitali](https://en.wikipedia.org/wiki/Giuseppe_Vitali "Giuseppe Vitali") in 1905.[[1]](https://en.wikipedia.org/wiki/Vitali_set#cite_note-1) The Vitali theorem is the [existence theorem](https://en.wikipedia.org/wiki/Existence_theorem "Existence theorem") that there are such sets. There are [uncountably many](https://en.wikipedia.org/wiki/Uncountably_many "Uncountably many") Vitali sets, and their existence depends on the [axiom of choice](https://en.wikipedia.org/wiki/Axiom_of_choice "Axiom of choice").
+
+Let $\mathbb{Q}_{[-1,1]}$ be the set of rational numbers belonging to the interval $[-1,1]$
