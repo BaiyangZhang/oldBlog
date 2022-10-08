@@ -181,6 +181,8 @@ Note that property number 2 is sometimes called $\sigma$-additivity, it is cruci
 
 There are different quantities which can be used as measure, may it be the length, weight, probability, etc. Thus there exists different ways to construct measure spaces. Below we provide some example of measure spaces. 
 
+- - -
+
 - **Counting measure**. Given a space $X$, for any subset $A\subset X$, define $\mu(A)$ to be she number of points in $A$ if A is finite, $\mu(A) = \infty$ if $A$ is infinite. This is called the counting measure on $(X,\mathcal{A})$.
 - **Dirac measure**. Let $X,\mathcal{A}$ be a measure space, and $a\in X$ a fixed point in X. For any set $A$, define $\mu(A) = 0$ if point $a$ is not in set $A$, $\mu(A) = 1$ if $a$ is in $A$. 
 - **Lebesgue measure**. Lebesgue measure is essential to define Lebesgue integral. Given a function from $\mathbb{R}$ to $\mathbb{R}$, we need to generalized the concept of length for a given subset of $\mathbb{R}$, no matter how weird it is, such as the set of all the rational points. On the other hand, the generalized concept of length should be invariant under translation, and satisfy other naturalness requirements. Let $A$ be a subset of $\mathbb{R}$, we first find some open sets to cover $A$ fully, namely find $I_{j},j\in J$ so that $A \subset \cup_{j\in J} I_{j}$, where $J$ is some index set. Note that $I_{j}, j\in J$ is *not* a partition of $A$, far from it, the unions of all the $I_{j}$ just need to cover $A$. As you can imagine, the unions of all the $I$'s will most likely over-cover $A$, then if we sum the measure of all $I$'s, we will get a measure which is larger than the measure of actual $A$. The real size, or measure, of $A$ is roughly speaking given by the lower bound of the measure of all the possible $I_{j}$'s. Out of this spirit we define the outer measure of $A$,
@@ -218,13 +220,15 @@ All Borel sets are Lebesgue measurable.
 
 Intuitively, the Lebesgue measure is translation invariant, $m(A) = m(A+\text{const})$. This property can be useful in proving that not all subsets of $\mathbb{R}$ are measurable, as given the the following.
 
-Define a set $V := [0,1] / \sim$, where the equivalence relation $\sim$ is given by $x\sim y$ if $y-x\in \mathbb{Q}$. Thus the set $V$ can also be written as 
+Define a set $V := [0,1] / \sim$, where the equivalence relation $\sim$ is given by $x\sim y$ if $y-x\in \mathbb{Q}$. Thus the set $V$ can be written as 
 $$
 V := [0,1] / \mathbb{Q}.
 $$
 
 Each equivalence class is $x+\mathbb{Q}\cap [0,1]$ for some $x\in [0,1]$. Any element in an equivalence class can be the representation of that class. The set $V$ can also be seen as the set of all the representative elements, one for each equivalence class. We shall prove that $V$ is not Lebesgue measurable. 
 
-$V$ is an example of so-called Vitali set. a Vitali set is an elementary example of a set of [real numbers](https://en.wikipedia.org/wiki/Real_number "Real number") that is not [Lebesgue measurable](https://en.wikipedia.org/wiki/Lebesgue_measure "Lebesgue measure"), found by [Giuseppe Vitali](https://en.wikipedia.org/wiki/Giuseppe_Vitali "Giuseppe Vitali") in 1905.[[1]](https://en.wikipedia.org/wiki/Vitali_set#cite_note-1) The Vitali theorem is the [existence theorem](https://en.wikipedia.org/wiki/Existence_theorem "Existence theorem") that there are such sets. There are [uncountably many](https://en.wikipedia.org/wiki/Uncountably_many "Uncountably many") Vitali sets, and their existence depends on the [axiom of choice](https://en.wikipedia.org/wiki/Axiom_of_choice "Axiom of choice").
+$V$ is an example of so-called Vitali set. a Vitali set is an elementary example of a set of [real numbers](https://en.wikipedia.org/wiki/Real_number "Real number") that is not [Lebesgue measurable](https://en.wikipedia.org/wiki/Lebesgue_measure "Lebesgue measure"), found by [Giuseppe Vitali](https://en.wikipedia.org/wiki/Giuseppe_Vitali "Giuseppe Vitali") in 1905.[^1] The Vitali theorem is the [existence theorem](https://en.wikipedia.org/wiki/Existence_theorem "Existence theorem") that there are such sets. There are [uncountably many](https://en.wikipedia.org/wiki/Uncountably_many "Uncountably many") Vitali sets, and their existence depends on the [axiom of choice](https://en.wikipedia.org/wiki/Axiom_of_choice "Axiom of choice").
 
-Let $\mathbb{Q}_{[-1,1]}$ be the set of rational numbers belonging to the interval $[-1,1]$
+[^1]: https://en.wikipedia.org/wiki/Vitali_set#cite_note-1
+
+Let $\mathbb{Q}_{[-1,1]}$ be the set of rational numbers belonging to the interval $[-1,1]$. 
