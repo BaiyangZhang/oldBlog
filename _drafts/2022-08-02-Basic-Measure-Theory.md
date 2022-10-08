@@ -184,7 +184,12 @@ There are different quantities which can be used as measure, may it be the lengt
 - - -
 
 - **Counting measure**. Given a space $X$, for any subset $A\subset X$, define $\mu(A)$ to be she number of points in $A$ if A is finite, $\mu(A) = \infty$ if $A$ is infinite. This is called the counting measure on $(X,\mathcal{A})$.
+ 
+- - -
 - **Dirac measure**. Let $X,\mathcal{A}$ be a measure space, and $a\in X$ a fixed point in X. For any set $A$, define $\mu(A) = 0$ if point $a$ is not in set $A$, $\mu(A) = 1$ if $a$ is in $A$. 
+
+- - -
+
 - **Lebesgue measure**. Lebesgue measure is essential to define Lebesgue integral. Given a function from $\mathbb{R}$ to $\mathbb{R}$, we need to generalized the concept of length for a given subset of $\mathbb{R}$, no matter how weird it is, such as the set of all the rational points. On the other hand, the generalized concept of length should be invariant under translation, and satisfy other naturalness requirements. Let $A$ be a subset of $\mathbb{R}$, we first find some open sets to cover $A$ fully, namely find $I_{j},j\in J$ so that $A \subset \cup_{j\in J} I_{j}$, where $J$ is some index set. Note that $I_{j}, j\in J$ is *not* a partition of $A$, far from it, the unions of all the $I_{j}$ just need to cover $A$. As you can imagine, the unions of all the $I$'s will most likely over-cover $A$, then if we sum the measure of all $I$'s, we will get a measure which is larger than the measure of actual $A$. The real size, or measure, of $A$ is roughly speaking given by the lower bound of the measure of all the possible $I_{j}$'s. Out of this spirit we define the outer measure of $A$,
 $$
 m^\ast (A) = \text{inf } \sum_{j\in J} l(I_{j})
@@ -225,10 +230,49 @@ $$
 V := [0,1] / \mathbb{Q}.
 $$
 
-Each equivalence class is $x+\mathbb{Q}\cap [0,1]$ for some $x\in [0,1]$. Any element in an equivalence class can be the representation of that class. The set $V$ can also be seen as the set of all the representative elements, one for each equivalence class. We shall prove that $V$ is not Lebesgue measurable. 
+Note that this is different from the set of all the irrational numbers in $[0,1]$, since the difference of two irrational numbers can be rational, e.g. $\pi+\frac{2}{3}$ is still irrational. 
+
+Each equivalence class is $(x+\mathbb{Q})\cap [0,1]$ for some $x\in [0,1]$. Any element in an equivalence class can be the representation of that class. The set $V$ can also be seen as the set of all the representative elements, one for each equivalence class. We shall prove that $V$ is not Lebesgue measurable. 
 
 $V$ is an example of so-called Vitali set. a Vitali set is an elementary example of a set of [real numbers](https://en.wikipedia.org/wiki/Real_number "Real number") that is not [Lebesgue measurable](https://en.wikipedia.org/wiki/Lebesgue_measure "Lebesgue measure"), found by [Giuseppe Vitali](https://en.wikipedia.org/wiki/Giuseppe_Vitali "Giuseppe Vitali") in 1905.[^1] The Vitali theorem is the [existence theorem](https://en.wikipedia.org/wiki/Existence_theorem "Existence theorem") that there are such sets. There are [uncountably many](https://en.wikipedia.org/wiki/Uncountably_many "Uncountably many") Vitali sets, and their existence depends on the [axiom of choice](https://en.wikipedia.org/wiki/Axiom_of_choice "Axiom of choice").
 
 [^1]: https://en.wikipedia.org/wiki/Vitali_set#cite_note-1
 
-Let $\mathbb{Q}_{[-1,1]}$ be the set of rational numbers belonging to the interval $[-1,1]$. 
+Let $\mathbb{Q}_{[-1,1]}$ be the set of rational numbers belonging to the interval $[-1,1]$. Let $r_{n},\, n \in \mathbb{N}$ be the elements in $\mathbb{Q}_{[-1,1]}$, it is possible to label rational numbers using $\mathbb{N}$ because rational numbers are *countably* infinite. Denote $V_{n}:=V + r_{n}$, namely shifting $V$ by some rational number, we have
+1. $m^\ast(V_{n}) = m^\ast (V)$, due to the translational invariance of outer measure,
+2. $[0,1]\subset \cup_{n=1}^\infty V_{n} \subset [-1,2]$,
+3. if $n\neq m$, then $V_{n} \neq V_{m}$.
+
+Now the question is, is the set $V$ measurable. As you might have guessed, the answer is no, but it is not supposed to be obvious. We will prove this by proof of contradiction. 
+
+Suppose $V$ is Lebesgue measurable, then each $V_{i}$ is also measurable since they are just $V$ translated by $r_{i}$. We know from the property $[0,1]\subset \cup_{n=1}^\infty V_{n} \subset [-1,2]$, take the measure of these sets we get 
+$$
+1 \leq \sum_{n}^\infty V_{n} \leq 3,
+$$
+
+But we have $m(V_{n}) = m(V)$, thus
+$$
+1 \leq \sum_{n}^\infty V = m(V) \times \infty \leq 3,
+$$
+
+However, the infinite copy of any constant can only be zero or infinity, thus $m(V)$ does not exist. In other words, $V$ is not Lebesgue measurable.
+
+Once we know the Lebesgue measure of subsets of $\mathbb{R}$, it can be naturally extended to the subsets of $\mathbb{R}^n$, using the Lebesgue measure of product space.
+
+- - -
+
+- **Probability measure**. The axiomatic formulation of probability theory is based on measure theory. A measure space $(\Omega, \mathcal{E}, P)$ such that $P(\Omega)=1$ is a probabilistic model, it is called a probability space. The elements of the sigma algebra are called events, and the bounded measure $P$ is a probability measure. The events $\emptyset, \Omega$ are called impossible and certain respectively. If $A,B$ are two events, $A \cap B$ consists of the realization of both $A$ and $B$, and the event of $A \cup B$ consists of the realization of either $A$ or $B$.
+
+- - -
+
+Next, we list some properties of a measure space. Let $(X, \mathcal{A}, \mu)$ be a measure space. 
+
+1. $\mu$ is an increasing function of $\mathcal{A}$, that is, for $A,B \in \mathcal{A}$, $A \subset B$  implies $\mu(A) \leq \mu(B)$.
+2. Given an increasing sequence of measurable sets, the measure of the limit of the sets equals to the limit of the measure of the sets.
+3. The same is true for a decreasing sequence of measurable sets.
+
+**Definition** Let $(X,\mathcal{A},\mu)$ be a measure space, a subset $N\subset X$ is said to be $\mu$-negligible if $N$ belongs to some set that has zero $\mu$-measure. Furthermore, if a property holds except on a negligible set, it is said to hold *almost everywhere*, sometimes abbreviated to a.e.
+
+Note that $N$ is not necessarily a measurable set, it just needs to be the subset of some zero measure sets. 
+
+If all the negligible sets (zero measure) are measurable, the measure $\mu$ is said to be 
