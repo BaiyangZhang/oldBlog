@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_drafts/2022-08-02-Basic-Measure-Theory.md",
+            "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-08-02-Basic-Measure-Theory.md",
+                "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-08-02-Basic-Measure-Theory.md",
+                "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-08-02-Basic-Measure-Theory.md"
+                "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md"
               }
             }
           }
@@ -129,6 +128,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e58ab8cd557e40d2",
-  "lastOpenFiles": []
+  "active": "957cfa2362e38596",
+  "lastOpenFiles": [
+    "_drafts/2022-08-02-Basic-Measure-Theory-Part-II.md",
+    "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+    "_drafts/2022-10-3-共和国史笔记.md"
+  ]
 }

@@ -275,4 +275,12 @@ Next, we list some properties of a measure space. Let $(X, \mathcal{A}, \mu)$ be
 
 Note that $N$ is not necessarily a measurable set, it just needs to be the subset of some zero measure sets. 
 
-If all the negligible sets (zero measure) are measurable, the measure $\mu$ is said to be 
+If all the negligible sets (zero measure) are measurable, the measure $\mu$ is said to be *complete*. The Lebesgue measure is always complete since any zero measure set by definition has an outer measure which is zero, an inner measure which is zero and thus a measure which is zero. 
+
+E.g. the Lebesgue measure of a countable subset of $\mathbb{R}$ is always zero, since the each element of the countable subset has measure zero and countably infinite copies of zero is still zero. 
+
+A fascinating example of an uncountable set is the Cantor set. It satisfies
+1. the set is uncountable, it can be proved by the genius diagonalization method. 
+2. The Lebesgue measure is zero.
+
+Unfortunately I don't have the time or energy to introduce it here.
