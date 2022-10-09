@@ -284,4 +284,6 @@ A fascinating example of an uncountable set is the Cantor set. It satisfies
 1. the set is uncountable, it can be proved by the genius diagonalization method. 
 2. The Lebesgue measure is zero.
 
-Unfortunately I don't have the time or energy to introduce it here.
+Unfortunately I don't have the time or energy to go to details, there exists a lot of nice blogs on this topic.
+
+In Part-II we will talk about the integral of measurable functions, and under what circumstances can we exchange the order of two integrals.
