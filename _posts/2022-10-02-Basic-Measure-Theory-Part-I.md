@@ -25,18 +25,18 @@ Here $f_{n}$ is a **non-uniformly** convergent sequence of functions which are R
 
 **Definition.** A sequence of functions $\{ f_{n}(x) \}$ is said to converge uniformly to $f$ on a set $S$ if for every $\epsilon > 0$ there exists an N such that for all $n>N$ we have 
 $$
-\text{sup}\left| f_{n}(x) - f(x) \right| < \epsilon \, \text{ for all } x\in S, 
+\text{sup} \left\lvert f_{n}(x) - f(x) \right\rvert < \epsilon \, \text{ for all } x\in S, 
 $$
 
-where sup is the supremum. Uniform convergence means that for a given $\epsilon$, one $N$ works for every $x$. You can regard $\left| f_{n}(x) - f(x) \right|$ as a set where each element is given by different $x$, then sup$\left| f_{n}(x) - f(x) \right|$ is the supremum of this set. 
+where sup is the supremum. Uniform convergence means that for a given $\epsilon$, one $N$ works for every $x$. You can regard $\left\lvert f_{n}(x) - f(x) \right\rvert$ as a set where each element is given by different $x$, then sup$\left\lvert f_{n}(x) - f(x) \right\rvert$ is the supremum of this set. 
 
-*Uniform convergence* is in contrast to *pointwise convergence*. Pointwise convergence means that  $\lim_{ n \to \infty } f_{n}(x) = f(x)$ for every $x$ in the domain of $f$. Note that, this limit process is defined at each point, namely for every $x$, there exists $N(x)$ which depends on $x$, such that $\left| f_{n} - f \right|,\,n>N$ is smaller than a given $\epsilon$. This is different from the uniform convergence, where the $N$ is independent of $x$, once $N$ is given it must apply for all $x$ in the domain. 
+*Uniform convergence* is in contrast to *pointwise convergence*. Pointwise convergence means that  $\lim_{ n \to \infty } f_{n}(x) = f(x)$ for every $x$ in the domain of $f$. Note that, this limit process is defined at each point, namely for every $x$, there exists $N(x)$ which depends on $x$, such that $\left\lvert f_{n} - f \right\rvert,\,n>N$ is smaller than a given $\epsilon$. This is different from the uniform convergence, where the $N$ is independent of $x$, once $N$ is given it must apply for all $x$ in the domain. 
 
 Uniform convergence is a stronger condition than pointwise convergence, especially that uniform convergence preserves the **continuity**,
 
 **Theorem** If the functions $f_{n}$ are continuous and they uniformly converges to $f(x)$, namely 
 $$
-\lim_{ n \to \infty } \text{sup} \left| f_{n}(x) - f(x) \right| = 0,
+\lim_{ n \to \infty } \text{sup} \left\lvert f_{n}(x) - f(x) \right\rvert = 0,
 $$
 
 Then $f(x)$ is also continuous on the domain.
@@ -127,7 +127,7 @@ A complex function is measurable if both the real and imaginary parts are measur
 
 **Theorem** Let $f,g$ be measurable function from $X$ to $\mathbb{R}$ (or $\mathbb{C}$).
 
-1. for any $\alpha \in \mathbb{R}^+$, $\left| f \right|^\alpha$ is also measurable,
+1. for any $\alpha \in \mathbb{R}^+$, $\left\lvert f \right\rvert^\alpha$ is also measurable,
 2. if ${1}/{f}$ is defined everywhere, it is also measurable,
 3. $f+g, fg$ are both measurable. 
 
