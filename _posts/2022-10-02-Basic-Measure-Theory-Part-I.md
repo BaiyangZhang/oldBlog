@@ -239,7 +239,7 @@ $V$ is an example of so-called Vitali set. a Vitali set is an elementary examp
 
 [^1]: https://en.wikipedia.org/wiki/Vitali_set#cite_note-1
 
-Let $\mathbb{Q}_{[-1,1]}$ be the set of rational numbers belonging to the interval $[-1,1]$. Let $r_{n},\, n \in \mathbb{N}$ be the elements in $\mathbb{Q}_{[-1,1]}$, it is possible to label rational numbers using $\mathbb{N}$ because rational numbers are *countably* infinite. Denote $V_{n}:=V + r_{n}$, namely shifting $V$ by some rational number, we have
+Let $\mathbb{Q}_ {[-1,1]}$ be the set of rational numbers belonging to the interval $[-1,1]$. Let $r_{n},\, n \in \mathbb{N}$ be the elements in $\mathbb{Q}_ {[-1,1]}$, it is possible to label rational numbers using $\mathbb{N}$ because rational numbers are *countably* infinite. Denote $V_{n}:=V + r_{n}$, namely shifting $V$ by some rational number, we have
 1. $m^\ast(V_{n}) = m^\ast (V)$, due to the translational invariance of outer measure,
 2. $[0,1]\subset \cup_{n=1}^\infty V_{n} \subset [-1,2]$,
 3. if $n\neq m$, then $V_{n} \neq V_{m}$.
