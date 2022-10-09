@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
+            "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
+                "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md"
+                "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
+                "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,8 +128,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ceae3b0dabefa2f6",
+  "active": "634fd02ea1596e79",
   "lastOpenFiles": [
+    "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
     "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
     "_posts/2022-9-2-The-Lie-Derivative.md",
     "_drafts/2022-08-02-Basic-Measure-Theory.md",
@@ -138,7 +139,6 @@
     "_drafts/draft-2022-08-02-Basic-Measure-Theory.md",
     "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
     "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
-    "_drafts/2022-09-09-Manifesto-of-the-Communist-Party.md",
-    "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md"
+    "_drafts/2022-09-09-Manifesto-of-the-Communist-Party.md"
   ]
 }
