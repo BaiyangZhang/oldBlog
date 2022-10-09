@@ -23,7 +23,7 @@ $$
 
 Here $f_{n}$ is a **non-uniformly** convergent sequence of functions which are Riemann-integrable. Recall the meaning of uniformly convergence,
 
-**Definition.** A sequence of functions $\left\{ f_{n}(x) \right\}$ is said to converge uniformly to $f$ on a set $S$ if for every $\epsilon > 0$ there exists an N such that for all $n>N$ we have 
+**Definition.** A sequence of functions $\{ f_{n}(x) \}$ is said to converge uniformly to $f$ on a set $S$ if for every $\epsilon > 0$ there exists an N such that for all $n>N$ we have 
 $$
 \text{sup}\left| f_{n}(x) - f(x) \right| < \epsilon \, \text{ for all } x\in S, 
 $$
