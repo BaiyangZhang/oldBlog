@@ -48,7 +48,9 @@ On the other hand, pointwise convergence does not preserve continuity. We will g
 Consider function
 $$f_{n}(x) : x \mapsto x^n$$
 
-defined on $[0,1)$ . Since as long as $x<1$, there exists $N$ such that $x^n < \epsilon$, $f_{n}$ pointwise converges to step function $x \mapsto 0$ on $[0,1)$ and $f(1) = 1$. However, we know that that can't be the case for uniform convergence since $f_{n}(x)$ is continuous on $[0,1]$ but the step function is not, and uniform convergence must preserve the continuity. Indeed, given $N\in \mathbb{N}$, no matter how large it is, there exists $\delta$ small enough such that $(1-\delta)^N = f_{N}(1-\delta)$ is some value between 0 and 1. So, the set made by $f_{N}(x) - 0$ on $[0,1)$, namely $\{ f_{N}(x) - 0 \mid x \in [0,1)  \}$ is $[0,1)$ and the supremum of it is not zero everywhere, hence there is no uniform convergence. 
+defined on $[0,1)$ . Since as long as $x<1$, there exists $N$ such that $x^n < \epsilon$, $f_{n}$ pointwise converges to step function $x \mapsto 0$ on $[0,1)$ and $f(1) = 1$. However, we know that that can't be the case for uniform convergence since $f_{n}(x)$ is continuous on $[0,1]$ but the step function is not, and uniform convergence must preserve the continuity. Indeed, given $N\in \mathbb{N}$, no matter how large it is, there exists $\delta$ small enough such that $(1-\delta)^N = f_{N}(1-\delta)$ is some value between 0 and 1. So, the set made by $f_{N}(x) - 0$ on $[0,1)$, namely 
+$$\{ f_{N}(x) - 0 \mid x \in [0,1)  \}$$
+is $[0,1)$ and the supremum of it is not zero everywhere, hence there is no uniform convergence. 
 
 Anyway, after some close analysis of integrals, Lebesgue and others came up with their theory of integration. Lebesgue's integration is more general and better adapt to deal with limit processes.
 
@@ -127,7 +129,7 @@ A complex function is measurable if both the real and imaginary parts are measur
 
 **Theorem** Let $f,g$ be measurable function from $X$ to $\mathbb{R}$ (or $\mathbb{C}$).
 
-1. for any $\alpha \in \mathbb{R}^+$, $\left\lvert f \right\rvert^\alpha$ is also measurable,
+1. for any $\alpha \in \mathbb{R}^+$, $\left\lvert f \right\rvert ^\alpha$ is also measurable,
 2. if ${1}/{f}$ is defined everywhere, it is also measurable,
 3. $f+g, fg$ are both measurable. 
 
@@ -139,7 +141,6 @@ Before we continue with more measure theory, we stop to introduce some more term
 Note that neither $\text{sup } S$ or $\text{inf }S$ needs not to be in $S$, as contrast to minimum and maximum.  Supremum and infimum are more useful in analysis because they apply to special sets which may not have maximum or minimum. For example, the set of positive real numbers $\mathbb{R}^+$ (not including 0) does not have a minimum, since any element in $\mathbb{R}^+$ can be divided by two resulting in a smaller number still in $\mathbb{R}^+$. However $\mathbb{R}^+$ does has exactly one infimum, 0.
 
 There are a pair of related concepts, lim sup and lim inf. Let $s_{n}$ be a sequence in $\mathbb{R}$, we define 
-
 $$
 \text{lim sup } s_{n} = \lim_{ N \to \infty } \text{sup } \{ s_{n} \mid n>N \}
 $$
@@ -168,7 +169,7 @@ This is similar in the case of Riemann integral of a function.
 
 Measure is the generalization of concepts such as length, weight, probability. Thus it is natural to supposed the the measure assign to a set to be positive definite. 
 
-**Definition**  Let $(X,\mathcal{A})$ be a measurable space, a *positive measure* on $(X,\mathcal{A})$ is a mapping $\mu:\mathcal{A}\to \overline{R}^+$ such that
+**Definition**  Let $(X,\mathcal{A})$ be a measurable space, a *positive measure* on $(X,\mathcal{A})$ is a mapping $\mu:\mathcal{A}\to \mathbb{R}^+$ such that
 1. the measure of the empty set is zero, $\mu(\emptyset) = 0$.
 2. If $\{A_{n}\}$ is a countable collection of pairwise disjoint elements of $\mathcal{A}$, then 
 $$
