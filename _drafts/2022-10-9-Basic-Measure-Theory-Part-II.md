@@ -15,3 +15,130 @@ tags:								#标签
 
 ### Integral of Measurable Functions
 
+In what follows, we suppose that all function are measurable and defined on the measure space $(X,\mathcal{A},\mu)$. 
+
+First we define the integral with respect to some measure $\mu$,
+**Definition** Let $\phi=\sum_{i=1}^n \alpha_{i} 1_ {A_{i}}$ be a simple function; then 
+$$
+\int \phi \, d\mu=\sum_{i-1}^n \alpha_{i} \mu(A_{i})
+$$
+is called the integral of $\phi$ with respect to the measure $\mu$. 
+
+Recall that function is simple if it is measurable and takes finite number of values, such as the step function defined on $[-1,1]$.
+
+The integral of $\mu$ with respect to $\mu$ is finite if and only if the measure of the set where $\phi(x) \neq 0$ is finite. In other words, the measure of the support of $\phi$ must be zero. 
+
+This definition is quite intuitive, for example, if we want to know how expensive a bag of fruit is, we just count the number of certain kind of fruit (the measure of the set), multiply it by the price (value of the function on this set), and sum over all kinds of the fruits. 
+
+Whatever properties for integrals certainly hold for integral with respect to measure $\mu$ as well, for example 
+$$
+\int (\phi_{1}+\phi_{2}) \, d\mu =  \int (\phi_{1}) \, d\mu + \int (\phi_{2}) \, d\mu,
+$$
+I am too lazy to list all of them here.
+
+Now we need to generalize this concept to continuous functions, say $f(x)$. Starting from the simplest case, for now we will assume $f(x)\geq 0$.
+
+**Definition** Let $f$ be a position measurable function, then the integral of $f$ with respect to the measure of $f$ is 
+$$
+\int f \, d\mu = \text{sup} \int \psi \, d\mu, 
+$$
+where the supremum is taken over all positive simple functions $\phi$ such that $\phi<f$ everywhere. This means we are limiting function $f$ from below. $f$ is said to be $\mu$ integrable if its integral is *finite*.
+
+$f$ is only integrable if the the set 
+$$
+\{ x \mid f(x) = \infty \} 
+$$
+is $\mu$-negligible. Note that this condition is necessary but not sufficient. 
+
+Next we give the monotone convergence theorem without proof.
+
+**Theorem** Monotone convergence theorem. Let $(f_{n})$ be a sequence of positive measurable functions such that 
+$$
+f_{n}(x) < f_{n+1}(x) \quad \forall n\in \mathbb{N} \quad \forall x\in X
+$$
+and 
+$$
+\forall x\in X \quad \lim_{ n \to \infty } f_{n}(x) = f(x).
+$$
+Then 
+$$
+\lim_{ n \to \infty } \int f_{n} \, d\mu = \int f \, d\mu.  
+$$
+
+This theorem is also called the Beppo Levi theorem. 
+
+The integral of a positive function is only zero if the function is zero almost everywhere.
+
+What about functions that are not positive? The solution is rather intuitive: We separate positive and negative parts and treat them both as positive functions. Given a real-valued function $f$, define 
+$$
+f^+ = \begin{cases}
+f(x)  &  f(x) >0  \\
+0  &  f(x) < 0
+\end{cases}
+$$
+and 
+$$
+f^- = \begin{cases}
+-f(x)  &  f(x) < 0  \\
+0  &  f(x) > 0
+\end{cases}
+$$
+where both $f^{\pm}$ are positive functions. $f$ is said to be $\mu$-integrable if both $f^+$ and $f^-$ are integrable, and the integral of $f$ is 
+$$
+\int f \, d\mu = \int f^+ \, d\mu - \int f^- \, d\mu.   
+$$
+
+Quite intuitive, isn't it? For complex-valued functions, we just need to treat its real and imaginary part as real functions, everything follows from that of a real-valued function. 
+
+The interesting thing is that, as far as integral is concerned, we can neglect the sets with zero measure. Traditionally, any function has an operation called evaluation which is defined pointwise, e.g. given a real-valued function $f(x)$, we can evaluate it at point $x = x_{0}$, which gives us a real number. However, a point has measure zero, so, again, as far as integral is concerned, evaluation is not needed. You could perfectly come up with a function which can't be evaluated at some point, for instance a function at $x=x_{0}$ might not be defined, but still the function could be integrable. To say a function is $\mu$-integrable just means that $f^{+,-}$ are $\mu$-integrable respectively. 
+
+Two functions $f,g$ has the same integral if they equal to each other almost everywhere, and this is a equivalence relation. 
+
+The sum of a convergent series is nothing but an integral on the counting measure. Recall that give an finite set $S$ and $A \subseteq S$ then the *cardinality* of $A$ is the number of elements in $A$, sometimes denoted by $\#(A)$. Then $\#$ regarded as a measure is called the counting measure. 
+
+**Theorem** The set of all $\mu$-integral functions form a vector space, it is denoted by $\mathcal{L}_{\mu}^1$.
+
+The superscript $1$ denotes the power of the function. $\mathcal{L}^2_{\mu}$ would mean the square of the functions are integrable. This theorem is easy to verify since addition, subtraction and number-production of an element in $\mathcal{L}_{\mu}^1$ is still in $\mathcal{L}_{\mu}^1$. 
+
+**Theorem** If $f$ is $\mu$-integrable, so is $\lvert f \rvert$, and we have 
+$$
+\left\lvert \int f \, d\mu  \right\rvert \leq \int \left\lvert f \right\rvert  \, d\mu.  
+$$
+
+Recall that for $f$ to be $\mu$-integrable, by definition both $f^+$ and $f^-$ are required to be finite.
+
+A measurable function is $\mu$-integrable if and only if $\left\lvert f \right\rvert$ is $\mu$-integrable. 
+
+If a function is Riemann integrable on $[a,b]$ then it is also Lebesgue integrable on $[a,b]$, and the two results agree. Indeed, if $f$ is Riemann integrable then we can always find two limiting step functions sandwiching $f$ from above and below, 
+$$
+g_{\epsilon} \leq f \leq h_{\epsilon}
+$$
+where $g,h _{\epsilon}$ are step functions and 
+$$
+\int (g_{\epsilon} - h_{\epsilon}) \, d\mu < \epsilon. 
+$$
+
+Step function are always Lebesgue integrable, plus the function is bounded, thus $f$ is also Lebesgue integrable. To summarize we have 
+$$
+ \text{Riemann integrable} \implies \text{Lebesgue integrable}.
+$$
+
+The inverse, however, is not necessarily true. A famous example is the Dirichlet function, defined on $[0,1]$ and 
+$$
+f(x) = \begin{cases}
+0  &  \text{if x is rational}, \\
+1  &  \text{if x is irrational}.
+\end{cases}
+$$
+
+Since $f=1$ almost everywhere, the Lebesgue measure is $1$. Recall that $f=1$ almost everywhere means that the set on which $f=0$ has measure zero, and this is true since $f(ratioanl)=0$ and rational numbers are countable, plus each point has zero measure, and countable many zeros are still zero. However, it is impossible to find two step function to sandwich Dirichlet function, thus it is not Riemann integrable. 
+
+The class of Riemann integrable functions is quite restricted. Of course a continuous, bounded function on a finite interval $[a,b]$ is Riemann integrable, but being Riemann integrable actually requires less – any bounded function on $[a,b]$ which is continuous *almost everywhere* is Riemann integral. For example, the $\theta(x)$ function defined on $[-2,2]$ is continuous except at $x=0$, so it is continuous almost everywhere, thus Riemann integrable. 
+
+E.g. The function 
+$$
+f: x \mapsto \frac{\sin x}{x}
+$$
+is not integrable with respect to the Lebesgue measure on $\mathbb{R}^+$ since $\left\lvert f \right\rvert$ is not integrable on $\mathbb{R}^+$.
+
+We know that $\frac{\sin x}{x}$ is conditionally convergent, such notion does not exist in Lebesgue theory of integral. 

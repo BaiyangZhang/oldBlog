@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+            "file": "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323
+    "width": 323,
+    "collapsed": true
   },
   "right": {
     "id": "2bef9386e1e7d93e",
@@ -77,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+                "file": "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md"
+                "file": "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md"
               }
             }
           },
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+                "file": "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,10 +129,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "634fd02ea1596e79",
+  "active": "ceae3b0dabefa2f6",
   "lastOpenFiles": [
-    "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
     "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+    "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
     "_posts/2022-9-2-The-Lie-Derivative.md",
     "_drafts/2022-08-02-Basic-Measure-Theory.md",
     "_drafts/temMeasureTheory.md",
