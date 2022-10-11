@@ -142,3 +142,75 @@ $$
 is not integrable with respect to the Lebesgue measure on $\mathbb{R}^+$ since $\left\lvert f \right\rvert$ is not integrable on $\mathbb{R}^+$.
 
 We know that $\frac{\sin x}{x}$ is conditionally convergent, such notion does not exist in Lebesgue theory of integral. 
+
+### Lebesgue's Dominated Convergence Theorem
+
+According to my mathematical friends, the dominated convergence theorem is one of the most important results of Lebesgue's integration theorem. It tells us how to deal with the limit of a sequence of functions under the integral sign, and it might be trickier than some physicist might have thought.
+
+To understand Lebesgue's theorem we need the following lemma.
+
+**Fatou's lemma.** Let $(f_{n})$ be a sequence of functions which are nonnegative and measurable on $(X,\mathcal{A},\mu)$. Then
+$$
+\boxed{
+\int \lim_{ n \to \infty } \text{inf } f_{n} \, d\mu \leq \lim_{ n \to \infty } \text{inf } \int f_{n} \, d\mu . 
+}
+$$
+
+The equal sign is not surprising at all, what usually surprises people is the less than sign, for Fatou's lemma tells us that if you first take pointwise limit of a sequence of functions, then integrate the limit, what you get might be less than integrate each function in the sequence and take the limit later.
+
+To have an intuitive feeling about the lemma, consider an example where the less-than-relation holds. Consider a sequence of functions $(f_{n}),\,n\in \mathbb{N}$ defined on $\mathbb{R}$ with Borel $\sigma$-set,
+$$
+f_{n}(x) = 
+\begin{cases}
+\frac{1}{n}  &  x\in (0,n), \\
+0   &  \text{otherwise}.
+\end{cases}
+$$
+This sequence uniformly converges to zero function on $\mathbb{R}$, Thus 
+$$
+\int  \lim_{ n \to \infty } \text{ inf } f_{n} \, d\mu = \int_{0}^n \lim_{ n \to \infty } \text{ inf }\frac{1}{n} \, d\mu = \int 0 \, d\mu = 0,  
+$$
+On the other hand, the integral of $f_{n}$ on $\mathbb{R}$ is always $1$, thus
+$$
+\lim_{ n \to \infty } \text{ inf } \int   f_{n} \, dx = \lim_{ n \to \infty } \text{ inf } \int_{0}^{n} \frac{1}{n} \, d\mu  = \lim_{ n \to \infty } \text{ inf } 1 = 1,
+$$
+and $0<1$. 
+
+The integral of a function not only depends on its pointwise value, but also the support. In this context, taking the pointwise limit of a function might give you different results because the limit procedure might give you some function value which is qualitative different, for example $\frac{1}{n}$ is qualitatively different from $0$ because there is a number that multiplies $\frac{1}{n}$ could give you $1$ but there is no such number for $0$. By taking the limit under the integral sign, we might miss the information about the support of the function, while taking the limit of the integral will not. That's why these two results could be different. 
+
+The condition that $(f_{n})$ being non-negative is also important, it is necessary for the $\leq$ sign to hold.
+
+To prove the lemma, define
+$$
+g_{n} := \underset{k\geq n}{\text{ inf }} f_{k},
+$$
+then $g_{n}$ is 1)measurable since $f_{n}$'s are measurable, 2) non-decreasing and 3) $g_{n} \leq f_{n}$ by construction. Properties 2) and 3) are pointwise. We have 
+$$
+\lim_{ n \to \infty } \int g_{n} \, d\mu = \int \lim_{ n \to \infty } \text{ inf } f_{n} \, d\mu,  
+$$
+Where we have interchanged the order of $\lim_{ n \to \infty }$ and $\int  \, d\mu$. This is allowed since both sides are $<\infty$. Since $g_{n} \leq f_{n}$, we have 
+$$
+\int g_{n} \, d\mu \leq \int f_{n} \, d\mu \implies \lim_{ n \to \infty } \int g_{n} \, d\mu \leq \lim_{ n \to \infty } \int f_{n} \, d\mu = \lim_{ n \to \infty } \text{ inf } \int f_{n} \, d\mu.      
+$$
+The lemma follows.
+
+**Theorem** Lebesgue's dominated convergence theorem. Let $(X,\mathcal{A},\mu)$ be a measure space, let $(f_{n})$ be a sequence of measurable functions from $X$ to $\mathbb{R}$ or $\mathbb{C}$ that converge to $f$ almost everywhere. If there exists $\mu$-integral function $g$ such that, for all positive integers $n$, $\left\lvert f_{n} \right\rvert \leq g$, then
+$$
+\lim_{ n \to \infty }  \int f_{n} \, d\mu = \int f \, d\mu. 
+$$
+
+$f$ is measurable since $g$ is and
+$$\left\lvert f_{n} \right\rvert \leq g \implies \left\lvert f \right\rvert \leq g.
+$$
+For the same reason $f$ is integrable. Since $\left\lvert f_{n} - f \right\rvert \leq 2g$, the sequence of functions 
+$$
+2g - \left\lvert f_{n}-f \right\rvert
+$$
+are non-negative. Then Fatou's lemma applies and yields 
+$$
+\int \lim_{ n \to \infty } \text{ inf } (2g-\left\lvert f_{n}-f \right\rvert ) \, d\mu \leq \lim_{ n \to \infty } \text{ inf } \int (2g-\left\lvert f_{n}-f \right\rvert ) \, d\mu.
+$$
+Moving everything $n$-dependent to the right hand side, we have 
+$$
+2\int g \, d\mu \leq 2 \int g \, d\mu   
+$$

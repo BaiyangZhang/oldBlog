@@ -150,12 +150,12 @@ Note that neither $\text{sup } S$ or $\text{inf }S$ needs not to be in $S$, as c
 
 There are a pair of related concepts, lim sup and lim inf. Let $s_{n}$ be a sequence in $\mathbb{R}$, we define 
 $$
-\text{lim sup } s_{n} = \lim_{ N \to \infty } \text{sup } \{ s_{n} \mid n>N \}
+\text{lim sup } s_{n} = \lim_{ N \to \infty } \text{sup } \{ s_{n} \mid n \geq  N \}
 $$
 
 and 
 $$
-\text{lim inf } s_{n} = \lim_{ N \to \infty } \text{inf } \{ s_{n} \mid n>N \}.
+\text{lim inf } s_{n} = \lim_{ N \to \infty } \text{inf } \{ s_{n} \mid n\geq N \}.
 $$
 
 In other words, lim sup and lim inf of a sequence is the supremum or infimum of all the terms larger than $N$, where $N$ is taken to be $\infty$ eventually. 
