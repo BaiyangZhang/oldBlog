@@ -276,3 +276,5 @@ $$
 F: y \mapsto \int f(x,y) \, dy
 $$
 is differentiable. 
+
+As an example, let's take a look at the 
