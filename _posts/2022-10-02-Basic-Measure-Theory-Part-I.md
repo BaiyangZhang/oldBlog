@@ -1,10 +1,10 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      Basic Measure Theory 				# 标题 
+title:      Basic Measure Theory Part I		# 标题 
 subtitle:    #副标题
-date:       2022-08-02 				# 时间
+date:       2022-10-02 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/functionalAnalysis.png 	#这篇文章标题背景图片
+header-img: img/mathArt11.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - math
@@ -23,20 +23,22 @@ $$
 
 Here $f_{n}$ is a **non-uniformly** convergent sequence of functions which are Riemann-integrable. Recall the meaning of uniformly convergence,
 
-**Definition.** A sequence of functions $\left\{ f_{n}(x) \right\}$ is said to converge uniformly to $f$ on a set $S$ if for every $\epsilon > 0$ there exists an N such that for all $n>N$ we have 
+**Definition.** A sequence of functions 
+$$\{ f_{n}(x) \}$$
+is said to converge uniformly to $f$ on a set $S$ if for every $\epsilon > 0$ there exists an N such that for all $n>N$ we have 
 $$
-\text{sup}\left| f_{n}(x) - f(x) \right| < \epsilon \, \text{ for all } x\in S, 
+\text{sup} \left\lvert f_{n}(x) - f(x) \right\rvert < \epsilon \, \text{ for all } x\in S, 
 $$
 
-where sup is the supremum. Uniform convergence means that for a given $\epsilon$, one $N$ works for every $x$. You can regard $\left| f_{n}(x) - f(x) \right|$ as a set where each element is given by different $x$, then sup$\left| f_{n}(x) - f(x) \right|$ is the supremum of this set. 
+where sup is the supremum. Uniform convergence means that for a given $\epsilon$, one $N$ works for every $x$. You can regard $\left\lvert f_{n}(x) - f(x) \right\rvert$ as a set where each element is given by different $x$, then sup$\left\lvert f_{n}(x) - f(x) \right\rvert$ is the supremum of this set. 
 
-*Uniform convergence* is in contrast to *pointwise convergence*. Pointwise convergence means that  $\lim_{ n \to \infty } f_{n}(x) = f(x)$ for every $x$ in the domain of $f$. Note that, this limit process is defined at each point, namely for every $x$, there exists $N(x)$ which depends on $x$, such that $\left| f_{n} - f \right|,\,n>N$ is smaller than a given $\epsilon$. This is different from the uniform convergence, where the $N$ is independent of $x$, once $N$ is given it must apply for all $x$ in the domain. 
+*Uniform convergence* is in contrast to *pointwise convergence*. Pointwise convergence means that  $\lim_{ n \to \infty } f_{n}(x) = f(x)$ for every $x$ in the domain of $f$. Note that, this limit process is defined at each point, namely for every $x$, there exists $N(x)$ which depends on $x$, such that $\left\lvert f_{n} - f \right\rvert,\,n>N$ is smaller than a given $\epsilon$. This is different from the uniform convergence, where the $N$ is independent of $x$, once $N$ is given it must apply for all $x$ in the domain. 
 
 Uniform convergence is a stronger condition than pointwise convergence, especially that uniform convergence preserves the **continuity**,
 
 **Theorem** If the functions $f_{n}$ are continuous and they uniformly converges to $f(x)$, namely 
 $$
-\lim_{ n \to \infty } \text{sup} \left| f_{n}(x) - f(x) \right| = 0,
+\lim_{ n \to \infty } \text{sup} \left\lvert f_{n}(x) - f(x) \right\rvert = 0,
 $$
 
 Then $f(x)$ is also continuous on the domain.
@@ -48,7 +50,9 @@ On the other hand, pointwise convergence does not preserve continuity. We will g
 Consider function
 $$f_{n}(x) : x \mapsto x^n$$
 
-defined on $[0,1)$ . Since as long as $x<1$, there exists $N$ such that $x^n < \epsilon$, $f_{n}$ pointwise converges to step function $x \mapsto 0$ on $[0,1)$ and $f(1) = 1$. However, we know that that can't be the case for uniform convergence since $f_{n}(x)$ is continuous on $[0,1]$ but the step function is not, and uniform convergence must preserve the continuity. Indeed, given $N\in \mathbb{N}$, no matter how large it is, there exists $\delta$ small enough such that $(1-\delta)^N = f_{N}(1-\delta)$ is some value between 0 and 1. So, the set made by $f_{N}(x) - 0$ on $[0,1)$, namely $\{ f_{N}(x) - 0 \mid x \in [0,1)  \}$ is $[0,1)$ and the supremum of it is not zero everywhere, hence there is no uniform convergence. 
+defined on $[0,1)$ . Since as long as $x<1$, there exists $N$ such that $x^n < \epsilon$, $f_{n}$ pointwise converges to step function $x \mapsto 0$ on $[0,1)$ and $f(1) = 1$. However, we know that that can't be the case for uniform convergence since $f_{n}(x)$ is continuous on $[0,1]$ but the step function is not, and uniform convergence must preserve the continuity. Indeed, given $N\in \mathbb{N}$, no matter how large it is, there exists $\delta$ small enough such that $(1-\delta)^N = f_{N}(1-\delta)$ is some value between 0 and 1. So, the set made by $f_{N}(x) - 0$ on $[0,1)$, namely 
+$$\{ f_{N}(x) - 0 \mid x \in [0,1)  \}$$
+is $[0,1)$ and the supremum of it is not zero everywhere, hence there is no uniform convergence. 
 
 Anyway, after some close analysis of integrals, Lebesgue and others came up with their theory of integration. Lebesgue's integration is more general and better adapt to deal with limit processes.
 
@@ -79,8 +83,8 @@ Back to $\sigma$-algebra. Le $\mathcal{E}$ be a class of subsets of $X$.
 
 **Definition** The smallest $\sigma$-algebra containing $\mathcal{E}$ is the $\sigma$-algebra generated by $\mathcal{E}$, denoted $S(\mathcal{E})$.
 
-It means that everything in $\mathcal{E}$ is also in the $\sigma$-algebra. $S(\mathcal{E})$ consists of all the subsets of $X$ that can be made from elements of $\mathcal{E}$ by a countable union, complement and intersection. For example, if $\mathcal{E}$ is empty, then $S(\mathcal{E}) = \{ \emptyset, X \}$.  
-
+It means that everything in $\mathcal{E}$ is also in the $\sigma$-algebra. $S(\mathcal{E})$ consists of all the subsets of $X$ that can be made from elements of $\mathcal{E}$ by a countable union, complement and intersection. For example, if $\mathcal{E}$ is empty, then 
+$$S(\mathcal{E}) = \{ \emptyset, X \}.$$
 **Theorem** Let $f: X \to Y$, $\mathcal{B}$ a $\sigma$-algebra in $Y$, then $\mathcal{A} := f^{-1} \mathcal{B}$ is a $\sigma$-algebra in $X$. 
 
 The reader can check that $\mathcal{A}$ does satisfy all the requirements for a $\sigma$-algebra. For example, since $Y$ is contained in $\mathcal{B}$, and $f$ maps the entirety of $X$ to $Y$, then $f^{-1} \mathcal{B}$ contains $X$. 
@@ -110,7 +114,13 @@ After all the definitions and theorems, let's actually try to construct a $\sigm
 
 Any topological space can be regarded as measurable sets where the Borel sets play the role of $\sigma$-algebra. Let $X,Y$ be two topological spaces, a measurable map $f:X\to Y$ is said to be Borel measurable. For instance, any continuous map is Borel measurable. 
 
-A function is in general a map from any space $X$ to $\mathbb{R},\mathbb{C}$. Convince yourself that a function is measurable if for any $a \in \mathbb{R}$, the set $\{ x \mid f(x) >a \}$ is measurable. Here we treat $\mathbb{R}$ as a measurable set with Borel sets as its $\sigma$-algebra, then measurable functions are just special kinds of measurable maps. Then the set $\{ x \mid f(x) \geq a \}$ is also measurable, hence the set $\{ x\mid f(x) = a \}$ is a Borel set.
+A function is in general a map from any space $X$ to $\mathbb{R},\mathbb{C}$. Convince yourself that a function is measurable if for any $a \in \mathbb{R}$, the set 
+$$\{ x \mid f(x) >a \}$$
+is measurable. Here we treat $\mathbb{R}$ as a measurable set with Borel sets as its $\sigma$-algebra, then measurable functions are just special kinds of measurable maps. Then the set 
+$$\{ x \mid f(x) \geq a \}$$
+is also measurable, hence the set 
+$$\{ x\mid f(x) = a \}$$
+is a Borel set.
 
 **Definition** The characteristic function $1_{A}$ of a set $A$ is defined as
 $$
@@ -127,7 +137,7 @@ A complex function is measurable if both the real and imaginary parts are measur
 
 **Theorem** Let $f,g$ be measurable function from $X$ to $\mathbb{R}$ (or $\mathbb{C}$).
 
-1. for any $\alpha \in \mathbb{R}^+$, $\left| f \right|^\alpha$ is also measurable,
+1. for any $\alpha \in \mathbb{R}^+$, $\left\lvert f \right\rvert ^\alpha$ is also measurable,
 2. if ${1}/{f}$ is defined everywhere, it is also measurable,
 3. $f+g, fg$ are both measurable. 
 
@@ -139,14 +149,13 @@ Before we continue with more measure theory, we stop to introduce some more term
 Note that neither $\text{sup } S$ or $\text{inf }S$ needs not to be in $S$, as contrast to minimum and maximum.  Supremum and infimum are more useful in analysis because they apply to special sets which may not have maximum or minimum. For example, the set of positive real numbers $\mathbb{R}^+$ (not including 0) does not have a minimum, since any element in $\mathbb{R}^+$ can be divided by two resulting in a smaller number still in $\mathbb{R}^+$. However $\mathbb{R}^+$ does has exactly one infimum, 0.
 
 There are a pair of related concepts, lim sup and lim inf. Let $s_{n}$ be a sequence in $\mathbb{R}$, we define 
-
 $$
-\text{lim sup } s_{n} = \lim_{ N \to \infty } \text{sup } \{ s_{n} \mid n>N \}
+\text{lim sup } s_{n} = \lim_{ N \to \infty } \text{sup } \{ s_{n} \mid n \geq  N \}
 $$
 
 and 
 $$
-\text{lim inf } s_{n} = \lim_{ N \to \infty } \text{inf } \{ s_{n} \mid n>N \}.
+\text{lim inf } s_{n} = \lim_{ N \to \infty } \text{inf } \{ s_{n} \mid n\geq N \}.
 $$
 
 In other words, lim sup and lim inf of a sequence is the supremum or infimum of all the terms larger than $N$, where $N$ is taken to be $\infty$ eventually. 
@@ -168,9 +177,11 @@ This is similar in the case of Riemann integral of a function.
 
 Measure is the generalization of concepts such as length, weight, probability. Thus it is natural to supposed the the measure assign to a set to be positive definite. 
 
-**Definition**  Let $(X,\mathcal{A})$ be a measurable space, a *positive measure* on $(X,\mathcal{A})$ is a mapping $\mu:\mathcal{A}\to \overline{R}^+$ such that
+**Definition**  Let $(X,\mathcal{A})$ be a measurable space, a *positive measure* on $(X,\mathcal{A})$ is a mapping $\mu:\mathcal{A}\to \mathbb{R}^+$ such that
 1. the measure of the empty set is zero, $\mu(\emptyset) = 0$.
-2. If $\{A_{n}\}$ is a countable collection of pairwise disjoint elements of $\mathcal{A}$, then 
+2. If 
+$$\{A_{n}\}$$
+is a countable collection of pairwise disjoint elements of $\mathcal{A}$, then 
 $$
 \mu\left(\bigcup_{n}A_{n}\right) = \sum_{n} \mu(A_{n}).
 $$
@@ -195,10 +206,13 @@ $$
 m^\ast (A) = \text{inf } \sum_{j\in J} l(I_{j})
 $$
 
-where $l(I)$ denotes the length of $I$, and the infimum is taken over all finite or countable collections of open intervals $\{ I_{j} \mid j\in J \}$ such that $A\subseteq \cup_{j\in J} I_{j}$. Although the outer measure is not really a measure, it still satisfies some of the properties that real measures satisfy, for instance,
+where $l(I)$ denotes the length of $I$, and the infimum is taken over all finite or countable collections of open intervals 
+$$\{ I_{j} \mid j\in J \}$$
+such that $A\subseteq \cup_{j\in J} I_{j}$. Although the outer measure is not really a measure, it still satisfies some of the properties that real measures satisfy, for instance,
 1. $m^\ast(\emptyset) = 0$,
 2. $m^\ast(A) \geq 0$,  
-3. $m^\ast(\{ x \}) = 0$, the length of a single point is zero.
+3. $$m^\ast(\{ x \}) = 0$$
+the length of a single point is zero.
 
 Note that the outer measure is defined for all subsets of $\mathbb{R}$, no matter how weird they are, since any subset of $\mathbb{R}$ can be cover by some open sets. 
 
@@ -238,7 +252,7 @@ $V$ is an example of so-called Vitali set. a Vitali set is an elementary examp
 
 [^1]: https://en.wikipedia.org/wiki/Vitali_set#cite_note-1
 
-Let $\mathbb{Q}_{[-1,1]}$ be the set of rational numbers belonging to the interval $[-1,1]$. Let $r_{n},\, n \in \mathbb{N}$ be the elements in $\mathbb{Q}_{[-1,1]}$, it is possible to label rational numbers using $\mathbb{N}$ because rational numbers are *countably* infinite. Denote $V_{n}:=V + r_{n}$, namely shifting $V$ by some rational number, we have
+Let $\mathbb{Q}_ {[-1,1]}$ be the set of rational numbers belonging to the interval $[-1,1]$. Let $r_{n},\, n \in \mathbb{N}$ be the elements in $\mathbb{Q}_ {[-1,1]}$, it is possible to label rational numbers using $\mathbb{N}$ because rational numbers are *countably* infinite. Denote $V_{n}:=V + r_{n}$, namely shifting $V$ by some rational number, we have
 1. $m^\ast(V_{n}) = m^\ast (V)$, due to the translational invariance of outer measure,
 2. $[0,1]\subset \cup_{n=1}^\infty V_{n} \subset [-1,2]$,
 3. if $n\neq m$, then $V_{n} \neq V_{m}$.
@@ -283,4 +297,6 @@ A fascinating example of an uncountable set is the Cantor set. It satisfies
 1. the set is uncountable, it can be proved by the genius diagonalization method. 
 2. The Lebesgue measure is zero.
 
-Unfortunately I don't have the time or energy to introduce it here.
+Unfortunately I don't have the time or energy to go to details, there exists a lot of nice blogs on this topic.
+
+In Part-II we will talk about the integral of measurable functions, and under what circumstances can we exchange the order of two integrals.
