@@ -198,6 +198,7 @@ The lemma follows.
 $$
 \lim_{ n \to \infty }  \int f_{n} \, d\mu = \int f \, d\mu. 
 $$
+Note the position of the limit, it is in front of the integral not under it, so information about the support of the function is already included in the integral. 
 
 $f$ is measurable since $g$ is and
 $$\left\lvert f_{n} \right\rvert \leq g \implies \left\lvert f \right\rvert \leq g.
@@ -228,4 +229,50 @@ $$
 
 The $n$-independent function $g$ is said to *dominate* the sequence $(f_{n})$. Roughly speaking it provides some kind of an upper limit so the sequence of functions behave nicely under limiting procedure. 
 
-There indeed exists functions that can not be dominated by other functions, such as our old friend $x \mapsto \frac{1}{n} 1_{[0,n]}$
+There indeed exists functions that can not be dominated by other functions, such as our old friend $f_{n}: x \mapsto \frac{1}{n} 1_{[0,n]}$. To see that $f: x \mapsto \frac{1}{n} 1_{[0,n]}$ has no dominating function $g(x)$ we notice that the support of the function goes to $\infty$ as $n \to \infty$. Of course you can find a function so that $\left\lvert f_{n} \right\rvert \leq g$ for all $n$, such as $g = 1$ on $\mathbb{R}$, but then $g$ wouldn't be measurable. Thus dominated convergence theorem doesn't apply here. The theorem applies to function $f: x\mapsto x^n$ defined on $[0,1]$, since it is dominated by $1_{[0,1]}$. The takeaway is that, the support of a function matters!
+
+In Riemann's integral theory there is something called the improper integral, such as infinite integral, or when the integrand is discontinuous. They generalize Riemann's integral theory. There is no such thing in Lebesgue's integral theory. 
+
+**Example** Consider the sequence of functions defined on $[0,1]$,
+$$
+f_{n}: x \mapsto \frac{n^{3/2}x}{1+n^2 x^2}
+$$
+which tends to zero at large $n$. However, the convergence is not uniform since no matter how large $n$ is, there always exists a very small $x \sim \frac{1}{n}$ where $f_{n} \sim \frac{\sqrt{ n }}{2}$. Thus it is not clear that its Riemann integral is zero or not, 
+$$
+\lim_{ n \to \infty } \int_{0}^1 f_{n} \, dx  \overset{?}{=} 0.
+$$
+Here is where the dominated convergence theorem come to aid. We can find a measurable function $\frac{~1}{\sqrt{ x }}$ that dominates $f_{n}$, thus
+$$
+\lim_{ n \to \infty } \int_{0}^1  \, f_{n}dx = \int_{0}^{1} \lim_{ n \to \infty } f_{n} \, dx =0.
+$$
+
+The following results are important to study a function defined by an integral. Since summation is just a discrete form of integral, the results apply equally to functions defined by a series. 
+
+**Theorem**  Let $(X,\mathcal{A},\mu)$ be a measure space and $(Y,d)$ be a metric space; if $f$ is a function defined on $X \times Y$ such that 
+1. for all $y \in Y$, $x \mapsto f(x,y)$ as a function of $x$ is measurable,
+2. for all $x\in X$, $y \mapsto f(x,y)$ as a function of $y$ is continuous at $y_{0}$,
+3. there exists an integrable function $g$ on $X \times Y$ such that for all $x\in X$ and $y \in Y$, $\left\lvert f(x,y) \right\rvert\leq g$.
+
+Then, for all $y\in Y$, $x \mapsto f(x,y)$ is integrable, and the function defined by integral 
+$$
+F: y \to \int f(x,y) \, d\mu
+$$
+is continuous at $y=y_{0}$.
+
+The proof can be found in textbooks. The proof of course uses the Lebesgue's dominance convergence theorem. 
+
+There is a similar theorem, 
+**Theorem** let $(X,\mathcal{A},\mu)$ be a measure space and $\mathbb{I}$ an open interval of $\mathbb{R}$, if $f$ is a function defined on $X \times \mathbb{I}$ and satisfies 
+1. $x \mapsto f(x,y)$ is integrable for all $x\in X$,
+2. $y\mapsto f(x,y)$ is differentiable for $x$ almost everywhere, 
+3. there exists a function defined on $X \times \mathbb{I}$ that dominates $f(x,y)$,
+
+then for all $y \in \mathbb{I}$, the function 
+$$
+x \mapsto \frac{d}{dy} f(x,y)
+$$
+is integrable, and the function 
+$$
+F: y \mapsto \int f(x,y) \, dy
+$$
+is differentiable. 
