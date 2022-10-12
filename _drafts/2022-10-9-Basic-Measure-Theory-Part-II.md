@@ -210,7 +210,22 @@ are non-negative. Then Fatou's lemma applies and yields
 $$
 \int \lim_{ n \to \infty } \text{ inf } (2g-\left\lvert f_{n}-f \right\rvert ) \, d\mu \leq \lim_{ n \to \infty } \text{ inf } \int (2g-\left\lvert f_{n}-f \right\rvert ) \, d\mu.
 $$
-Moving everything $n$-dependent to the right hand side, we have 
+Since $\lim \text{ inf } f_{n} = f$, we have 
 $$
-2\int g \, d\mu \leq 2 \int g \, d\mu   
+2\int g \, d\mu \leq 2 \int g \, d\mu - \lim_{ n \to \infty } \text{ inf }\int  \left\lvert f_{n}-f \right\rvert  \, d\mu. 
 $$
+Since $\int g \, d\mu < \infty$, we can subtract it on both sides,
+$$
+\lim_{ n \to \infty } \text{ inf }\int  \left\lvert f_{n}-f \right\rvert  \, d\mu \leq 0,
+$$
+however the integral of a non-negative must be non-negative, thus 
+$$
+\lim_{ n \to \infty } \text{ inf }\int  \left\lvert f_{n}-f \right\rvert  \, d\mu = 0 \implies 
+\boxed{
+\lim_{ n \to \infty } \int f_{n} \, d\mu = \int f \, d\mu  
+}.
+$$
+
+The $n$-independent function $g$ is said to *dominate* the sequence $(f_{n})$. Roughly speaking it provides some kind of an upper limit so the sequence of functions behave nicely under limiting procedure. 
+
+There indeed exists functions that can not be dominated by other functions, such as our old friend $x \mapsto \frac{1}{n} 1_{[0,n]}$
