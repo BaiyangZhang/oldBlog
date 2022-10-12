@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e58ab8cd557e40d2",
+        "id": "1cc135b704daeef3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+            "file": "_drafts/2022-10-12-罗马人的一天笔记.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+                "file": "_drafts/2022-10-12-罗马人的一天笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+                "file": "_drafts/2022-10-12-罗马人的一天笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md"
+                "file": "_drafts/2022-10-12-罗马人的一天笔记.md"
               }
             }
           }
@@ -128,10 +128,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "957cfa2362e38596",
+  "active": "1cc135b704daeef3",
   "lastOpenFiles": [
-    "_drafts/2022-08-02-Basic-Measure-Theory-Part-II.md",
+    "1.md",
+    "_drafts/2022-10-12-罗马人的一天笔记.md",
+    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
     "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+    "_drafts/2022-08-02-Basic-Measure-Theory-Part-II.md",
     "_drafts/2022-10-3-共和国史笔记.md"
   ]
 }

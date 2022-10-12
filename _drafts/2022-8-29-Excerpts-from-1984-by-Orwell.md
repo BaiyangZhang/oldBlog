@@ -1,4 +1,5 @@
 ---
+---
 layout:     post   				    # 使用的布局（不需要改）
 title:      Excerpts from 1984  				# 标题 
 subtitle:   by Geroge Orwell
