@@ -342,3 +342,21 @@ $$
 
 This theorem is important but the proof is not (for physicists at least) so we will skip it, interested readers can refer to textbooks on measure theory. 
 
+**Fubini's theorem.** Let $(X,\mathcal{A},\mu)$ and $(Y,\mathcal{B},\nu)$ be two measure spaces, measure $\mu,\nu$ being $\sigma$-finite. Let $f$ be a $\mu \otimes \nu$-integrable function defined on $X \times Y$. The function
+$$
+x \mapsto \int f(x,y) \, d\nu(y)
+$$
+as a function of $x$ is $\mu$-integrable. Namely, we can first perform the integral over $y$, the remaining function of $x$ is $\mu$-integrable.  Similarly, we can perform the integral over $x$ first and the remaining function of $y$ is still integrable, namely the function
+$$
+y \mapsto \int f(x,y) \, d\mu(x)
+$$
+is $\nu$-integrable. The order of integral is exchangeable,
+$$
+\begin{align}
+\int f \, d\mu(x)\otimes \nu  & = \int \left[ \int f(x,y) \, d\nu(y)  \right] \,  \, d\mu(x)   \\
+ & = \int \left[ \int f(x,y) \, d\mu(x)  \right] \, d\nu(y) .
+\end{align}
+$$
+
+The proof is also skipped here, we only mentioned that the definition of Lebesgue integral, namely liming the real integral of a function by the infimum of simple functions, is used, as well as the monotone convergence theorem.
+
