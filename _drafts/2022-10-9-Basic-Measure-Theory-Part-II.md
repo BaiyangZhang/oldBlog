@@ -327,5 +327,18 @@ As a corollary, given a function $f$ on $X \times Y$, for all $x \in X$, the fun
 
 We distinguish two closely related concepts, namely *finite measure* and *$\sigma$-finite measure, the extra $\sigma$- makes all the difference.
 
-given a measure space $(X,\mathcal{A},\mu)$, we say the measure is 
-- finite measure, if the measure of the entire $X$ is finite, and a subset $A \subset X$ is of finite measure if $\mu(A) < \infty$.
+given a measure space $(X,\mathcal{A},\mu)$, 
+- the measure is called finite measure, if the measure of the entire $X$ is finite, and a subset $A \subset X$ is of finite measure if $\mu(A) < \infty$. This is quite self-explanatory. On the other hand, 
+- The measure is called $\sigma$-finite if $X$ is a union of countable (could be infinite) subsets, each subset has a finite measure. A subset of $X$ is said to have finite $\sigma$-measure if it is countable union of measurable sets with finite measure. 
+
+$\sigma$-finite is a weaker condition than finite measure. For example, $\mathbb{R}$ under the Lebesgue is NOT a finite measure since $\mu(\mathbb{R}) = \infty$, however it is $\sigma$-finite, since we can separate $\mathbb{R}$ into countable intervals, each with finite $\sigma$-measure. 
+
+The next theorem deals with the order of double integrals, and it makes use of the concept of $\sigma$-finiteness. 
+
+**Theorem** Let $(X,\mathcal{A},\mu)$ and $(Y,\mathcal{B},\nu)$ be two measure spaces, the measure $\mu$ and $\nu$ being $\sigma$-finite. If $E$ belong to the $\sigma$-algebra $\mathcal{A} \otimes \mathcal{B}$, then, for all $x \in X$ and $y \in Y$, 
+$$
+\int \nu(E_{x}) \, d\mu(x) = \int \mu(E^y) \, d\nu(y).
+$$
+
+This theorem is important but the proof is not (for physicists at least) so we will skip it, interested readers can refer to textbooks on measure theory. 
+
