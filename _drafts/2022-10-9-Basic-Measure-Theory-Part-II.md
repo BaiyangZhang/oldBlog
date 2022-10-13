@@ -1,10 +1,10 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      Basic Measure Theory 				# 标题 
+title:      Basic Measure Theory Part II 				# 标题 
 subtitle:    #副标题
-date:       2022-10-9 				# 时间
+date:       2022-10-13 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/mathArt15.jpg 	#这篇文章标题背景图片
+header-img: img/mathArt14.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - math
@@ -277,4 +277,55 @@ F: y \mapsto \int f(x,y) \, dy
 $$
 is differentiable. 
 
-As an example, let's take a look at the 
+As an example, let's look at the Bessel function of the first kind, defined by
+$$
+J_{n}(x) = \frac{1}{\pi} \int_{0}^{\pi} \cos(n\theta-x\sin \theta) \, d\theta 
+$$
+Since $x \mapsto \cos(n\theta-x\sin \theta)$ is continuous with absolute value $\leq 1$ (being dominated by a measurable function),  $J_{n}$ is continuous. It is also differentiable, hence $J_{n}$ is also differentiable. It is actually infinitely differentiable, it is the solution of equation 
+$$
+y'' + \frac{1}{x} y' +\left( 1-\frac{n^2}{x^2} \right)y = 0.
+$$
+
+Within the framework of Lebesgue's integral theory, differentiation under the integral sign is not permitted. 
+Consider the function $F$ defined by 
+$$
+F(x) = \int_{-\infty}^{\infty} \frac{e^{ixy}}{1+y^2} \, dy,
+$$
+the integrand is bounded by $\frac{1}{1+y^2}$, which is integrable on $\mathbb{R}$. Follow the same arguing we see that $F(x)$ is continuous. If we differentiate under the integral sign, we obtain
+$$
+F(x) = \int_{-\infty}^{\infty} \frac{iy e^{ixy}}{1+y^2} \, dy,
+$$
+which is bounded by 
+$$
+\frac{y}{1+y^2}
+$$
+which is not measurable, thus the theorem we introduced before doesn't apply, and $F'(x)$ can not be expressed by the above integral. In fact the original integral can be calculated using the residue theorem yielding 
+$$
+F(x) = \pi e^{-\left\lvert x \right\rvert }
+$$
+and the absolute value is where the problem arises. This function is not differentiable at $x=0$ but infinitely differentiable at the complement of the origin.
+
+### Fubini's Theorem
+
+We often meet double integrals, that is integrals of measurable functions defined on some product space $X \times Y$ where both $X$ and $Y$ are measurable spaces, $(X,\mathcal{A},\mu)$ and $(Y, \mathcal{B},\nu)$. The product $\sigma$-algebra is denoted $\mathcal{A} \otimes \mathcal{B}$ and product measure $\mu \otimes \nu$. 
+
+Let $E$ be a subset of $X \times Y$, the sets
+$$
+E_{x} := \{ y \mid (x,y) \in E \} \quad \text{ and }\quad E^y := \{ x \mid (x,y)\in E \}
+$$
+are called the $x$-section and $y$-section of $E$. It is called a section since, given a map $\pi_{x}: (x,y)\mapsto x$, and regard $E\xrightarrow{  \pi_{x}  } x$  as a fiber bundle then $E_{x}$ is just the section of $\pi_{x}$. Similar for $E_{y}$.
+
+Without proof, we claim that measurable sets have measurable sections. This should be intuitive since the section is a subset of the product space, and the $\sigma$-algebra of the product space still applies to the subset. I am not sure why in $E_{x}$, $x$ appears in the subscript while in $E^y$, $y$ appears in the superscript. 
+
+To put the above claim in mathematical language, we have 
+
+**Theorem** Let $(X \times Y, \mathcal{A} \otimes \mathcal{B})$ be the product measurable space, if $E$ belong to $X \times Y$ then 
+$$
+\text{for all } x \in X, \quad y \in Y, \quad \text{ we have }  E^{y} \in \mathcal{A} \text{  and  } E_{x} \in \mathcal{B}.
+$$
+As a corollary, given a function $f$ on $X \times Y$, for all $x \in X$, the function $f_{x}(y):= y \mapsto f(x,y)$ is measurable, as it is nothing but the $x$-section.
+
+We distinguish two closely related concepts, namely *finite measure* and *$\sigma$-finite measure, the extra $\sigma$- makes all the difference.
+
+given a measure space $(X,\mathcal{A},\mu)$, we say the measure is 
+- finite measure, if the measure of the entire $X$ is finite, and a subset $A \subset X$ is of finite measure if $\mu(A) < \infty$.
