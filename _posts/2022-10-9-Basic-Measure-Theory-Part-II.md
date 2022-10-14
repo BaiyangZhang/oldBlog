@@ -360,3 +360,189 @@ $$
 
 The proof is also skipped here, we only mentioned that the definition of Lebesgue integral, namely liming the real integral of a function by the infimum of simple functions, is used, as well as the monotone convergence theorem.
 
+Since the two measures $\mu,\nu$ play a symmetric role, we can also write 
+$$
+\int f \, d\mu \otimes \nu = \int f \, d\mu(x) d\nu(y)
+$$
+If the function is $\mu \otimes \nu$-integrable, Fubini's theorem is often used to justify interchanging the order of the integrals. 
+
+To apply Fubini's theorem, it is essential to verify that the function $f$ is $\mu \otimes \nu$ integrable, that is, $f$ has to be measurable, and $\left\lvert f \right\rvert$ is also measurable, which means one of the three following things,
+- $\int \left\lvert f \right\rvert \, d\mu \otimes \nu < \infty,$
+- $\int d\mu(x) \, \int d\nu(y) \,  \left\lvert f(x,y) \right\rvert < \infty,$
+- $\int d\nu(y)\, \int d\mu(x)  \,  \left\lvert f(x,y) \right\rvert < \infty.$
+
+Fubini's theorem for positive functions is also known as the **Fubini-Tonelli** theorem.
+
+Since summation is just integral with counting measure, we could replace one or both of the integral signs as summation. Then Fubini's theorem states that we can interchange the order of summation (or of summation and integral) in the case of absolutely convergent double series (or summation of integrals, etc.). An counter example is 
+$$
+\int_{-\infty}^{\infty} e^{ -x^2-\lambda x^4 } \, d = \int_{-\infty}^{\infty} e^{ -x^2 } e^{ -\lambda x^4 } \, dx = \int_{-\infty}^{\infty} e^{ -x^2 }\sum_{n=0}^\infty \frac{(-\lambda)^n}{n!}x^{-4n} \, dx,
+$$
+the radius of convergence of the summation is $\infty$. However if we interchange the order of integral and summation, namely move the summation in from of the integral sign, we have 
+$$
+\sum_{n=0}^\infty \frac{(-\lambda)^n}{n!}\int_{-\infty}^{\infty} e^{ -x^2 }x^{-4n}  \, dx 
+$$
+where the integral can be performed with the help of Gamma function, then  after some calculation we have a divergent power series, thus not measurable. Then Fubini's theorem does not apply to this situation. 
+
+When applicable, Fubini's theorem can be used to integral a function defined by another integral. However, it is possible that interchanging the order of integrals gives two different results. For example, consider function 
+$$
+f: x \mapsto \frac{x^2-y^2}{(x^2+y^2)^2}
+$$
+defined on $[0,1]\times[0,1]\backslash (0,0)$ where $(0,0)$ is the origin where the function blows up, and $A\backslash B$ means $A$ minus $B$. Since $(0,0)$ is a point and points have measure zero, it is not necessary to define $f$ for $(x,y) = (0,0)$. Since 
+$$
+\frac{d}{dx} \frac{-x}{x^2 + y^2} = \frac{x^2-y^2}{(x^2+y^2)^2},
+$$
+we have 
+$$
+\int_{0}^{1} dy \, \int_{0}^{1} dx\, f(x,y) = - \frac{\pi}{4},
+$$
+however if we interchange the order of integral, we have 
+$$
+\int_{0}^{1} dx \, \int_{0}^{1} dy\, f(x,y) =  \frac{\pi}{4},
+$$
+note the extra minus sign. Hence $f$ is not integrable. As a matter of fact we have 
+$$
+\int_{0}^{1} dy \int_{0}^{1} dx \, \left\lvert \frac{x^2-y^2}{(x^2+y^2)^2} \right\rvert = \infty.
+$$
+
+If interchanging the order of the repeated integrals gives identical results, that doesn't prove that Fubini's theorem applies, for the integral of the absolute value of the function might not be convergent. Consider, for example, function $f$ defined on $R_{+}^2$, $f:(x,y)\mapsto \sin(x^2+y^2)$. Expanding $\sin(x^2+y^2)$ and taking into consideration the Fresnel's integral
+$$
+\int_{0}^{\infty} e^{ ix^2 } \, dx =\sqrt{ 2\pi }(1+i) / 4
+$$
+we have 
+$$
+\int_{0}^{\infty}  dy\, \int_{0}^{\infty} dx \, \sin(x^2+y^2) = \int_{0}^{\infty}  dx\, \int_{0}^{\infty} dy \, \sin(x^2+y^2) = \frac{\pi}{4}.
+$$
+However, $\sin(x^2+y^2)$ is not measurable on $R_{+}^2$ since the integral of its absolute value is divergent, 
+$$
+\int_{0}^{\infty} dy \, \int_{0}^{\infty} dx \,\left\lvert \sin(x^2+y^2) \right\rvert =\infty,
+$$
+this result if readily obtained using the change of variables: $x = \rho \cos \theta, y = \rho \sin \theta$.
+
+Note that the for Fubini's theorem to be valid, the measure $\mu,\nu$ have to be $\sigma$-finite.  The most popular example for a non-sigma-finite measure maybe the counting measure on $\mathbb{R}$. The counting measure gives the cardinal (number of elements) of a set, and the set of all the real numbers is uncountable. On the contrary, the set of rational numbers $\mathbb{Q}$ in countable.
+
+Consider a function $f$ defined on $[0,1]\times[o,1]$ by 
+$$
+f(x,y) = 
+\begin{cases}
+1, & x=y, \\
+0, & \text{otherwise.}
+\end{cases}
+$$
+Here comes the interesting part: on the $y$-axis we adopt the counting measure $\nu(y)$ instead of the familiar Lebesgue measure, while on the $x$-axis we still use the Lebesgue measure $\mu(x)$. Recall that $\nu(\text{point}) = 1$, we have 
+$$
+\int_{0}^{1} f(x,y) \, d\nu(y) = 1, 
+$$
+if we integrate with respect to $y$ first then to $x$, we have 
+$$
+\int_{0}^{1} d\mu(x) \, \int_{0}^{1} d\nu(y) \,   f(x,y) = \int_{0}^{1} d\mu(x) \,1 = 1.
+$$
+But if we integrate with respect to $x$ first, we get
+$$
+\int_{0}^{1} d\nu(y) \,\int_{0}^{1} d\mu(x) \,    f(x,y) = \int_{0}^{1} d\mu(x) \, 0 = 0,
+$$
+Apparently the Fubini's theorem doesn't apply here. 
+
+The convolution of two real-valued integrable (with respect to Lebesgue measure) functions $f,g$ is defined as 
+$$
+f\ast g (x) = \int_{-\infty}^{\infty} f(x-y)g(y) \, dy ,
+$$
+which is also integrable, since 
+$$
+\int \left\lvert f\ast g \right\rvert  \, dm \leq \int \left\lvert f \right\rvert  \, dm \int \left\lvert g \right\rvert  \, dm,
+$$
+where $dm$ is whatever measure used for the integral. 
+
+Next we give an example where the interchange of integral and summation makes sense. Consider the integral 
+$$
+\int_{0}^{\infty} \frac{\sin x}{e^{ x }-1} \, dx 
+$$
+which is convergent. We may write
+$$
+\begin{align}
+\int_{0}^{\infty} \frac{\sin x}{e^{ x }-1} \, dx  & = \int_{0}^{\infty} \frac{\sin x}{e^{ x }(1-e^{-x})} \, dx  \\
+&= \int_{0}^{\infty} dx \, \sum_{k=1}^\infty e^{ -kx }\sin x \\
+&= \sum_{k=1}^\infty \int_{0}^{\infty} dx \, e^{ -kx }\sin x,
+\end{align}
+$$
+where we have used 
+$$
+(1-e^{ -x })^{-1} = \sum_{n=0}^\infty e^{ -(n+1)x }.
+$$
+The interchange of the sign $\sum$ and $\int$ is justified, since the Fubini theorem applies to the function $(x,k)\mapsto e^{ -kx }\sin x$, which is due to the fact that 
+$$
+\int e^{ -kx } \sin x \, dx <\infty
+$$
+the exponential suppression makes the integrand Lebesgue integrable. By the end of the day we get
+$$
+\int_{0}^{\infty} \frac{\sin x}{e^{ x }-1} \, dx = \sum_{k=1}^\infty \frac{1}{1+k^2}.
+$$
+The right hand side of the above expression can be calculated by the residual theorem. Finally, we have 
+$$
+\int_{0}^{\infty} \frac{\sin x}{e^{ x }-1} \, dx = \frac{1}{2} (\pi \coth \pi-1).
+$$
+
+As we can see, Lebesgue's theory is kind of a generalization of Riemann's theory in term of the concept of measure. Lebesgue's theorem can be stated as follows,
+
+**Theorem** A function defined on a *bounded* interval $[a,b]$ is Riemann integrable if and only if it is bounded and continuous *almost everywhere*.
+
+### Notes
+
+Given a map $f$ from a set $X$ into a set $Y$, the preimage of a $\sigma$-algebra in $Y$ is a $\sigma$-algebra in $X$ but the inverse is not necessary true. However, if $\mathcal{A}$ is a $\sigma$-algebra in $X$, the set of all the subsets of $Y$ such that their preimage is in $\mathcal{A}$ forms as $\sigma$-algebra and is called the induced $\sigma$-algebra.
+
+Let $(a_{n})$ be a sequence of $\mathbb{R}$ and for any $k \in \mathbb{N}$, define 
+$$
+b_{k} = \text{inf }(a_{k},a_{k+1},\dots) = \text{inf }\{ a_{n} \mid n\geq k \}
+$$
+and 
+$$
+B_{k} = \text{sup }(a_{k},a_{k+1},\dots) = \text{sup }\{ a_{n} \mid n\geq k \}
+$$
+then 
+$$
+\lim_{ n \to \infty } \text{inf }a_{n} = \text{sup } (b_{1},b_{2},\dots)
+$$
+and 
+$$
+\lim_{ n \to \infty } \text{sup }a_{n} = \text{inf }(B_{1},B_{2},\dots).
+$$
+lim inf is called the lower limit of the sequence $a_{n}$, respectively lim sup is called the upper limit. 
+
+As the last part of the note, let's briefly summarize the integration theory for function defined on a finite interval $[a,b]$.
+
+By a partition $\pi$ of a closed interval $[a,b]$ we mean the *finite* set 
+$$
+\pi = \{ a=x_{0},x_{1},\dots,x_{m-1}, x_{m}=b\}
+$$
+where $x_{0}<x_{1}<\dots <x_{m}$. In other words, a partition is a way to divide an interval into finite disjoint subsets without neglecting anything.
+
+The norm of the partition is 
+$$
+\delta(\pi) = \text{sup }(x_{k} - x_{k-1}).
+$$
+Given a continuous function on $[a,b]$, the Cauchy sum associated to $f$ and $\pi$ is defined as 
+$$
+S_{\pi}(f) := \sum_{k=1}^m f(x_{k-1})(x_{k}-x_{k-1}).
+$$
+$f$ being continuous, it can be shown that as long as the norm of the partition is sufficiently small, the difference between Riemann integral and Cauchy sum is arbitrarily small. To be more specific, if $(\pi_{n})$ is a sequence of partitions of $[a,b]$ such that $\lim_{ n \to \infty }\delta(\pi_{n})=0$, then $(S_{\pi_{n}}(f))$ is a Cauchy sequence. Cauchy sequence is a sequence whose elements become arbitrarily close to each other as the  sequence progresses. This limit is called the Cauchy integral of $f$ on $[a,b]$, denoted by 
+$$
+\int_{a}^{b} f(x) \, dx .
+$$
+The class of Cauchy integrable functions is much larger than the class of continuous functions. 
+
+Any finite linear combination of characteristic functions of open bounded intervals of $\mathbb{R}$ is called a step function, and the step functions on $\mathbb{R}$ form a vector space. Given a step function $s(x)$, the mapping 
+$$
+s \mapsto \left\lVert s \right\rVert =\text{sup }s(x) \text{ for all } x\in\mathbb{R}
+$$
+is called the norm of the uniform convergence. If a sequence of step functions converges uniformly to a function $f$, this function is said to be *regulated*. Obviously regulated function has Cauchy integrals. 
+
+A regulated function can be discontinuous at countable number of points.
+
+A function is Cauchy integrable if and only if it is regulated. Riemann integrability applies to a slightly larger class of functions. Recall that a function $f$ defined on $[a,b]$ is said to be Riemann integrable if, for all positive $\epsilon$, there exists two step function $g_{\epsilon},h_{\epsilon}$ such that 
+$$
+g_{\epsilon} \leq f \leq h_{\epsilon}
+$$
+and 
+$$
+\left\lvert \int h_{\epsilon} \, dx - \int g_{\epsilon} \, dx  \right\rvert <\epsilon.
+$$
+If a function is bounded and Cauchy integrable, then it is also Riemann integrable. 
