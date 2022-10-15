@@ -98,7 +98,7 @@ The sum of a convergent series is nothing but an integral on the counting measur
 
 **Theorem** The set of all $\mu$-integral functions form a vector space, it is denoted by $\mathcal{L}_{\mu}^1$.
 
-The superscript $1$ denotes the power of the function. $\mathcal{L}^2_{\mu}$ would mean the square of the functions are integrable. This theorem is easy to verify since addition, subtraction and number-production of an element in $\mathcal{L}_{\mu}^1$ is still in $\mathcal{L}_{\mu}^1$. 
+The superscript $1$ denotes the power of the function. $\mathcal{L}^2_ {\mu}$ would mean the square of the functions are integrable. This theorem is easy to verify since addition, subtraction and number-production of an element in $\mathcal{L}_ {\mu}^1$ is still in $\mathcal{L}_{\mu}^1$. 
 
 **Theorem** If $f$ is $\mu$-integrable, so is $\lvert f \rvert$, and we have 
 $$
