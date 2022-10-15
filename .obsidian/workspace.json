@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fc048b53566a7f67",
+        "id": "470da2a6f5639cee",
         "type": "tabs",
         "children": [
           {
-            "id": "1cc135b704daeef3",
+            "id": "fd937ca9dd92a93d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-10-9-Basic-Measure-Theory-Part-II.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7837c123ff03de3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discussion/AndyJarahDiscussion1.md",
+                "file": "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discussion/AndyJarahDiscussion1.md",
+                "file": "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discussion/AndyJarahDiscussion1.md",
+                "file": "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discussion/AndyJarahDiscussion1.md"
+                "file": "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md"
               }
             }
           }
@@ -152,17 +140,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f7837c123ff03de3",
+  "active": "fd937ca9dd92a93d",
   "lastOpenFiles": [
-    "fonts/glyphicons-halflings-regular.svg",
-    "0014BEDA.png",
-    "2022-08-31-Test.md.md",
-    "README.md",
-    "Untitled.md",
-    "functionalAnalysis.png",
-    "1.md",
+    "_drafts/调档函.md",
+    "_drafts/君主论书摘.md",
+    "_drafts/2022-10-11-Montesquieu.md",
+    "_drafts/draft-2022-09-29-Distributions-and-What-They-Are-Good-For.md",
+    "_drafts/2022-10-12-罗马人的一天笔记.md",
+    "_drafts/2022-10-3-共和国史笔记.md",
+    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
+    "Discussion/AndyJarahDiscussion1.md",
     "_posts/2022-10-9-Basic-Measure-Theory-Part-II.md",
-    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
-    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md"
+    "Hui-Jarah discussion.md"
   ]
 }

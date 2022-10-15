@@ -131,7 +131,7 @@ f(x) = \begin{cases}
 \end{cases}
 $$
 
-Since $f=1$ almost everywhere, the Lebesgue measure is $1$. Recall that $f=1$ almost everywhere means that the set on which $f=0$ has measure zero, and this is true since $f(ratioanl)=0$ and rational numbers are countable, plus each point has zero measure, and countable many zeros are still zero. However, it is impossible to find two step function to sandwich Dirichlet function, thus it is not Riemann integrable. 
+$f=1$ almost everywhere, since the Lebesgue measure of the rational numbers in $[0,1]$ is $0$. Recall that $f=1$ almost everywhere means that the set on which $f=0$ has measure zero, and this is true since $f(ratioanl)=0$ and rational numbers are countable, plus each point has zero measure, and countable many zeros are still zero. However, it is impossible to find two step function to sandwich Dirichlet function, thus it is not Riemann integrable. 
 
 The class of Riemann integrable functions is quite restricted. Of course a continuous, bounded function on a finite interval $[a,b]$ is Riemann integrable, but being Riemann integrable actually requires less – any bounded function on $[a,b]$ which is continuous *almost everywhere* is Riemann integral. For example, the $\theta(x)$ function defined on $[-2,2]$ is continuous except at $x=0$, so it is continuous almost everywhere, thus Riemann integrable. 
 
