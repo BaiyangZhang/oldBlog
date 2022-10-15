@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "6bd24154e78dbf09",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc048b53566a7f67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cc135b704daeef3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-10-9-Basic-Measure-Theory-Part-II.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7837c123ff03de3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-10-9-Basic-Measure-Theory-Part-II.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "62ee1b8f7fb8be74",
+    "type": "split",
+    "children": [
+      {
+        "id": "29c2ee8e75be6c88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "957cfa2362e38596",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2f11af2c6dde2321",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e1e3b9eeb40d5006",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 283.5
+  },
+  "right": {
+    "id": "5f16c9608f79f67e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e66e9811e83cbd89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03a27f6b06c37378",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2022-10-9-Basic-Measure-Theory-Part-II.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d138c67792dc588f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2022-10-9-Basic-Measure-Theory-Part-II.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4c9bf76b3fd9086e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6664d3c3c1b838e2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2022-10-9-Basic-Measure-Theory-Part-II.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "f7837c123ff03de3",
+  "lastOpenFiles": [
+    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
+    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
+    "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
+    "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md",
+    "_drafts/调档函.md",
+    "_drafts/君主论书摘.md",
+    "_drafts/temLaTeX.md",
+    "_posts/2022-10-9-Basic-Measure-Theory-Part-II.md",
+    "_drafts/2022-10-3-共和国史笔记.md",
+    "_drafts/2022-10-10-Manifesto-of-the-Communist-Party.md"
+  ]
+}

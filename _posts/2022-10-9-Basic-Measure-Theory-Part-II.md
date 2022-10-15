@@ -94,7 +94,7 @@ The interesting thing is that, as far as integral is concerned, we can neglect t
 
 Two functions $f,g$ has the same integral if they equal to each other almost everywhere, and this is a equivalence relation. 
 
-The sum of a convergent series is nothing but an integral on the counting measure. Recall that give an finite set $S$ and $A \subseteq S$ then the *cardinality* of $A$ is the number of elements in $A$, sometimes denoted by $\#(A)$. Then $\#$ regarded as a measure is called the counting measure. 
+The sum of a convergent series is nothing but an integral on the counting measure. Recall that give an finite set $S$ and $A \subseteq S$ then the *cardinality* of $A$ is the number of elements in $A$, sometimes denoted by $\text{Num}(A)$. Then $\text{Num}$ as a measure is called the counting measure. 
 
 **Theorem** The set of all $\mu$-integral functions form a vector space, it is denoted by $\mathcal{L}_{\mu}^1$.
 
