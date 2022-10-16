@@ -3,7 +3,7 @@ layout:     post   				    # 使用的布局（不需要改）
 title:      Manifesto of the Communist Party	# 标题 
 subtitle:   Re-reading the Classics
 date:       2022-10-1 				# 时间
-author:     Karl Marx & Friedrich Engels # 作者
+author:     Baiyang # 作者
 header-img: img/marxAndEngels.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
@@ -39,6 +39,7 @@ The first Russian edition of the Manifesto, translated by Mikhail Bakunin[^2]
 
 [^2]: Mikhail Alexandrovich Bakunin (30 May 1814 – 1 July 1876) was a Russian revolutionary anarchist, socialist and founder of collectivist anarchism. He is considered among the most influential figures of anarchism and a major founder of the revolutionary socialist and social anarchist tradition. Bakunin's prestige as a revolutionary also made him one of the most famous ideologues in Europe, gaining substantial influence among radicals throughout Russia and Europe.
 with some distortions, appeared in Geneva in 1869. The faults of this edition were removed in the 1882 edition (translation by Georgi Plekhanov,[^3]
+
 [^3]: 普列汉诺夫, Georgi Valentinovich Plekhanov (11 December 1856 – 30 May 1918) was a Russian revolutionary, philosopher and Marxist theoretician. He was a founder of the social-democratic movement in Russia and was one of the first Russians to identify himself as ``Marxist''. Plekhanov is known as the ``father of Russian Marxism''. 
 
 for which Marx and Engels, who attributed great significance to the dissemination of Marxism in Russia, had written a special preface.
@@ -56,10 +57,13 @@ The "Third Address to the International Workingmen's Association" is included be
 #### Manifesto of the Communist Party
 
 A spectre[^4]
+
 [^4]: Spectre, 幽灵，此处应有双重含义，一方面指 "something unpleasant that people are afraid might happen in the future"（quoted from Oxford dict），即引人不快、令人恐惧的恶兆（周孝正认为此处真应该翻译为"魔鬼"，1920年首版中文翻译中直接把spectre翻译成"怪物"，略显滑稽），当然这是对仇视共产主义之流而言。另一方面可能是指"ghost"(Oxford dict)，即鬼魂、幽灵之属，从下文可以看出指的是童话、童谣（nursery tale）中的幽灵，引申为模模糊糊、只存在于传说中、并没有明确的定义的事物，正如一八四七年的"社会主义"在欧洲。} 
 is haunting Europe — the spectre of communism. All the powers of old Europe have entered into a holy alliance to exorcise this spectre: Pope and Tsar, Metternich[^5] 
+
 [^5]: 梅特涅（德语：Klemens Wenzel von Metternich；1773年5月15日－1859年6月11日）神圣罗马帝国时期奥地利政治家，也是当时最重要的外交家。梅特涅曾在萨克森、普鲁士及巴黎担任公使。1809年任奥地利帝国外交大臣，首要工作是与拿破仑法国构和。他促成了奥地利公主，女公爵玛丽·路易莎与拿破仑的婚姻，拿破仑为此抛弃了约瑟芬。不久后梅特涅推动奥地利加入了第六次反法同盟，签署《枫丹白露条约》，促成拿破仑流亡。随着奥地利、俄国和较小的普鲁士的结盟，"梅特涅体系"持续了数十年，这是奥地利外交的高峰。1859年梅特涅逝世，享年86岁，乃同時代知名政治家之最。作为保皇派，梅特涅热衷于保持权利平衡，特別是通过抵抗俄国在中欧和奥斯曼帝国领土上的野心。他反对自由主义，镇压北意大利和德意志的民族主义叛乱；在国内，他利用书报检查制度和间谍网络进行镇压。他因扑灭欧洲革命之火，被称为「消防队长」。
 and Guizot[^6],
+
 [^6]: Guizot (基佐, 4 October 1787 – 12 September 1874) was a French historian, orator, and statesman. Guizot was a dominant figure in French politics prior to the Revolution of 1848. A moderate liberal who opposed the attempt by King Charles X to usurp legislative power, he worked to sustain a constitutional monarchy following the July Revolution of 1830. He then served the "citizen king" Louis Philippe, as Minister of Education, 1832–37, ambassador to London, Foreign Minister 1840–1847, and finally Prime Minister of France from 19 September 1847 to 23 February 1848. Guizot's influence was critical in expanding public education, which under his ministry saw the creation of primary schools in every French commune. As a leader of the "Doctrinaires", committed to supporting the policies of Louis Phillipe and limitations on further expansion of the political franchise, he earned the hatred of more left-leaning liberals and republicans through his unswerving support for restricting suffrage to propertied men(有产者), advising those who wanted the vote to "enrich yourselves" (enrichissez-vous) through hard work and thrift. As Prime Minister, it was Guizot's ban on the political meetings (called the campagne des banquets or the Paris Banquets, which were held by moderate liberals who wanted a larger extension of the franchise) of an increasingly vigorous opposition in January 1848 that catalyzed the revolution that toppled Louis Philippe in February and saw the establishment of the French Second Republic. Marx and Engels published the Manifesto just days before Guizot's overthrow in the 1848 Revolution. 
 French Radicals and German police-spies.
 
