@@ -16,15 +16,17 @@ tags:								# 标签
 
 ### A More General Stokes's Theorem
 
-Recall that there are three kinds of integrals, the indefinite, the signed and the unsigned. In this section we will only consider the signed integral. We are familiar with the notion of a multiple integral of a function $f$ over a region in $\mathbb{R}^p$, 
+Recall that there are three kinds of integrals, the indefinite, the definite signed and the definite unsigned. In this section we will only consider the signed integral and it's generalization to a manifold, namely the integral of forms. 
+
+We are familiar with the notion of a multiple integral of a function $f$ over a region in $\mathbb{R}^p$, 
 $$
 \int_{U} \, du^1 \dots du^p f(u),
 $$
-it doesn't matter in what order the $du^i$'s appear. This definition also neglects information about the orientation of the manifold. So we generalize the above mentioned multiple integral to the integral of differential forms, $\alpha^p = a(u) du^1 \wedge \dots \wedge du^p$ over an **oriented** region $(U,o)\subset \mathbb{R}^p$. 
+it doesn't matter in what order the $du^i$'s appear. This definition also neglects information about the orientation of the manifold. So we generalize the above mentioned multiple integral to the integral of differential forms, $\alpha^p = a(u) du^1 \wedge \dots \wedge du^p$ over an **oriented** region $(U,o)\subset \mathbb{R}^p$, 
 $$
 \int _{(U,o)} \, \alpha = \int_{(U,o)} a(u) \,du^1 \wedge \dots \wedge du^p := o(U) \int _{U} a(u) \, du^1 \dots du^p
 $$
-where the last integral is the ordinary multiple integral of an ordinary function $a(U)$ over the region $U$, disregarding the orientation, and $o(U)=\pm 1$ is the orientation of the region. 
+where the last integral is the ordinary multiple integral of an ordinary function $a(U)$ over the region $U$, and $o(U)=\pm 1$ is the orientation of the region. 
 
 Next, some terminologies. We define an **oriented parameterized p-subset** of a manifold $M^n$ to be a pair $(U,o;F)$ consisting of an oriented region $(U,o)$ in $\mathbb{R}^p$ and a diffeomorphism 
 $$
@@ -67,3 +69,4 @@ $$
 }.
 $$
 How to understand this formula? Well, $\sigma$ can be considered as a (almost-everywhere) p-dimensional subset of $M$, furthermore, it is parameterized (roughly speaking, given coordinates) and oriented. A differentiable map $\phi$ makes it possible to pull back forms defined on $W$ to $M$, and what is the integral of $\phi ^\ast\alpha$ over $\sigma$? Just that of $\alpha$ over the image of $\phi$! It is in spirit very similar to the definition of the action of pull-back forms on vectors, where $\phi ^\ast\alpha(X) = \alpha(\phi_{\ast} X)$, where $X\in T(M)$ is a vector in the tangent space of $M$. But I have to say the general pull-back formula is not as symmetric, hence, beautiful. 
+
