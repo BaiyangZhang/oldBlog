@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
+                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
+                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
+                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md"
+                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md"
               }
             }
           }
@@ -140,13 +139,13 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "fd937ca9dd92a93d",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
+    "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
     "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
     "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md",
     "_drafts/2022-10-12-罗马人的一天笔记.md",
     "_posts/2022-10-9-Basic-Measure-Theory-Part-II.md",
-    "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
     "_drafts/调档函.md",
     "_drafts/君主论书摘.md",
     "_drafts/2022-10-11-Montesquieu.md",
