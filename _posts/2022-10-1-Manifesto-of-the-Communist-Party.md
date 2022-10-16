@@ -40,7 +40,7 @@ The first Russian edition of the Manifesto, translated by Mikhail Bakunin[^2]
 [^2]: Mikhail Alexandrovich Bakunin (30 May 1814 – 1 July 1876) was a Russian revolutionary anarchist, socialist and founder of collectivist anarchism. He is considered among the most influential figures of anarchism and a major founder of the revolutionary socialist and social anarchist tradition. Bakunin's prestige as a revolutionary also made him one of the most famous ideologues in Europe, gaining substantial influence among radicals throughout Russia and Europe.
 with some distortions, appeared in Geneva in 1869. The faults of this edition were removed in the 1882 edition (translation by Georgi Plekhanov,[^3]
 
-[^3]: 普列汉诺夫, Georgi Valentinovich Plekhanov (11 December 1856 – 30 May 1918) was a Russian revolutionary, philosopher and Marxist theoretician. He was a founder of the social-democratic movement in Russia and was one of the first Russians to identify himself as ``Marxist''. Plekhanov is known as the ``father of Russian Marxism''. 
+[^3]: 普列汉诺夫, Georgi Valentinovich Plekhanov (11 December 1856 – 30 May 1918) was a Russian revolutionary, philosopher and Marxist theoretician. He was a founder of the social-democratic movement in Russia and was one of the first Russians to identify himself as "Marxist". Plekhanov is known as the "father of Russian Marxism". 
 
 for which Marx and Engels, who attributed great significance to the dissemination of Marxism in Russia, had written a special preface.
 
@@ -312,14 +312,10 @@ In place of the old bourgeois society, with its classes and class antagonisms, w
 
 #### Note
 
-1. By bourgeoisie is meant the class of modern capitalists, owners of the means of social production and employers of wage labour.
-
-By proletariat, the class of modern wage labourers who, having no means of production of their own, are reduced to selling their labour power in order to live. [Engels, 1888 English edition]
+1. By bourgeoisie is meant the class of modern capitalists, owners of the means of social production and employers of wage labour. By proletariat, the class of modern wage labourers who, having no means of production of their own, are reduced to selling their labour power in order to live. [Engels, 1888 English edition]
 
 2. That is, all written history. In 1847, the pre-history of society, the social organisation existing previous to recorded history, all but unknown. Since then, August von Haxthausen (1792-1866) discovered common ownership of land in Russia, Georg Ludwig von Maurer proved it to be the social foundation from which all Teutonic races started in history, and, by and by, village communities were found to be, or to have been, the primitive form of society everywhere from India to Ireland. The inner organisation of this primitive communistic society was laid bare, in its typical form, by Lewis Henry Morgan's (1818-1881) crowning discovery of the true nature of the gens and its relation to the tribe. With the dissolution of the primeval communities, society begins to be differentiated into separate and finally antagonistic classes. I have attempted to retrace this dissolution in The Origin of the Family, Private Property, and the State, second edition, Stuttgart, 1886. [Engels, 1888 English Edition and 1890 German Edition (with the last sentence omitted)]
 
 3. Guild-master, that is, a full member of a guild, a master within, not a head of a guild. [Engels, 1888 English Edition]
 
-4. This was the name given their urban communities by the townsmen of Italy and France, after they had purchased or conquered their initial rights of self-government from their feudal lords. [Engels, 1890 German edition]
-
-"Commune" was the name taken in France by the nascent towns even before they had conquered from their feudal lords and masters local self-government and political rights as the "Third Estate." Generally speaking, for the economical development of the bourgeoisie, England is here taken as the typical country, for its political development, France. [Engels, 1888 English Edition]
+4. This was the name given their urban communities by the townsmen of Italy and France, after they had purchased or conquered their initial rights of self-government from their feudal lords. [Engels, 1890 German edition]. "Commune" was the name taken in France by the nascent towns even before they had conquered from their feudal lords and masters local self-government and political rights as the "Third Estate." Generally speaking, for the economical development of the bourgeoisie, England is here taken as the typical country, for its political development, France. [Engels, 1888 English Edition]
