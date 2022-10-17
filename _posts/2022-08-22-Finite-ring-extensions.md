@@ -14,7 +14,7 @@ tags:								    #标签
 
 ## $C^\star$-algebra and Finite ring extensions
 
-First we need to know what is a field extension. The definition is quite straightforward: if you can construct a new field $K$ from old field $k$ so that $k$ is a subset of $K$, then $K$ is an extension field over $k$, denoted as $K/k$.
+First we need to know what a field extension is. The definition is quite straightforward: if you can construct a new field $K$ from old field $k$ so that $k$ is a subset of $K$, then $K$ is an extension field over $k$, denoted as $K/k$.
 
 If $K/k$ is a field, and element $y$ in K is said to be *algebraic* over $k$ if $y$ is the solution of some equation $k[x]=0$.
 

@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
+                "file": "_posts/2022-08-22-Finite-ring-extensions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3b4102fbaf518e87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-10-17-Conventions-and-Formula.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
+                "file": "_posts/2022-10-17-Conventions-and-Formula.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
+                "file": "_posts/2022-10-17-Conventions-and-Formula.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md"
+                "file": "_posts/2022-10-17-Conventions-and-Formula.md"
               }
             }
           }
@@ -141,6 +154,8 @@
   },
   "active": "957cfa2362e38596",
   "lastOpenFiles": [
+    "_posts/2022-08-22-Finite-ring-extensions.md",
+    "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
     "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
     "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
     "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md",
@@ -148,8 +163,6 @@
     "_posts/2022-10-9-Basic-Measure-Theory-Part-II.md",
     "_drafts/调档函.md",
     "_drafts/君主论书摘.md",
-    "_drafts/2022-10-11-Montesquieu.md",
-    "_drafts/draft-2022-09-29-Distributions-and-What-They-Are-Good-For.md",
-    "_drafts/2022-10-3-共和国史笔记.md"
+    "_drafts/2022-10-11-Montesquieu.md"
   ]
 }
