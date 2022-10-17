@@ -42,7 +42,7 @@ For the other case where $\mu^2<0$ the potential takes the shape of a double wel
 
 Since the medium of the interaction is massive, we expect a Yukawa-kind interaction, $V(r) \sim e^{ -r/M }$.
 
-Again, this conclusion is altered by instanton-induced effects.
+Again, this conclusion is altered by instanton-induced effects. 
 
 
 
