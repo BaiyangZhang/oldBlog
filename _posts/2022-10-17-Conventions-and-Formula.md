@@ -73,6 +73,8 @@ $$
 $$
 where again $\psi,\phi$ are fields in the fundamental and adjoint representation respectively.
 
+- - -
+
 The gauge transformation for various fields are
 
 - gauge field: $A_\mu \to \Omega (A_\mu + i \partial_\mu) \Omega^\dagger,\, \Omega=e^{i \omega^i T^i} \in SU(N)$
