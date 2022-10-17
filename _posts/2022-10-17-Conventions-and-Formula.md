@@ -35,6 +35,7 @@ The gauge Lie group $G$ has an underlying Lie algebra $\mathfrak{g}$, whose gene
 $$
   [T^a,T^b] = i f^{abc} T^c
 $$
+- - -
 
 We require the generators in the fundamental representations to satisfy normalization condition
 $$
@@ -45,12 +46,17 @@ Gauge field is a $\mathfrak{g}$-valued field,
 $$
  A_\mu = A_\mu^a T^a, \, T^a \in \mathfrak{g}.
 $$
-4
 The $\mathfrak{g}$-valued field strength is
 $$
-  4F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu -i[A_\mu, A_\nu],
+  F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu -i[A_\mu, A_\nu],
 $$
-our convention for covariant derivative acting on a field in the fundamental representation is
+which in the language of differential forms is 
+$$
+\boxed{
+F = dA-iA \wedge A
+}.
+$$
+Our convention for covariant derivative acting on a field in the fundamental representation is
 $$
   D_{\mu}{\psi} \equiv \partial_\mu \psi -i A_\mu \psi,
 $$
