@@ -42,8 +42,25 @@ For the other case where $\mu^2<0$ the potential takes the shape of a double wel
 
 Since the medium of the interaction is massive, we expect a Yukawa-kind interaction, $V(r) \sim e^{ -r/M }$.
 
-Again, this conclusion is altered by instanton-induced effects. 
+Again, this conclusion is altered by instanton-induced effects. Instantons change the force between the particles and imply confinement. 
 
+To sum up, in both $\mu^2>0$ and $\mu^2<0$ cases in $1+1$ dimension, the force is independent of the separation, the only difference is that for the case $\mu^2<0$ the force is exponentially smaller. 
+
+### The Euclidean theory and Finite Action
+
+To have instantons we turn to Euclidean theory, which is 
+$$
+\mathcal{L} = \left\lvert D_{\mu}\phi \right\rvert^2 + \frac{\lambda}{4}(\phi^\ast \phi - v^2 )^2 + \frac{1}{4e^2}F_{\mu \nu} F^{\mu \nu}.
+$$
+It is comprised of three positive definite terms. The requirement of finite action puts strong constraints on the asymptotic behavior of the fields. For example, the gauge field must go to a pure gauge as $r\to \infty$,
+$$
+A_{\mu} \to g(\theta)\partial_{\mu}g^{-1}(\theta), \quad g\in U(1).
+$$
+The function $g(\theta)$ gives a map from the boundary of $\mathbb{R}^2$, namely $\mathbb{S}^1$ into the group $U(1)$, that is 
+$$
+g: \partial \mathbb{R}^2 \cong \mathbb{S}^1 \to U(1)\cong\mathbb{S}^1.
+$$
+Maps from $\mathbb{S}^1$ to $\mathbb{S}^1$ are classified by the first homotopy group $\pi_{1}(\mathbb{S}^1).$
 
 
 
