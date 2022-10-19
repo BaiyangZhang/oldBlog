@@ -101,6 +101,44 @@ f(r)  & \to a, \\
 $$
 $\Phi(r)$ has the interpretation of being equal to the magnetic flux inside the radius $r$ while $\Phi$ is the total magnetic flux in the soliton, which is quantized in units of $2\pi$. 
 
+The magnetic field is concentrated around the origin and decreases exponentially outwards. 
+
+Remember that one of the 2 dimensions is actually time dimension, the instanton solution spans in both space and time. The instanton solution mediates between two topologically different vacuums, both with zero energy. Where does the degenerate vacua come from? To answer that question, first we need to take a look at the Hamiltonian, or energy density. 
+
+**Switch back to the Minkowski metric.** In the $A_{0} = 0$ gauge (sometimes called the temporal gauge), the energy is given by 
+$$
+\mathcal{E} = \int dx \, \frac{1}{2e^2} (\partial_{0}A_{1})^2 + \left\lvert \partial_{0}\phi \right\rvert^2 +\left\lvert D_{1}\phi \right\rvert^2 + \lambda(\phi^\ast \phi)^2.
+$$
+An obvious vacuum is $A = 0, \phi = v$, which we call the trivial vacuum. However, don't forget that the model has $U(1)$ gauge symmetry, hence any gauge transformation of the trivial vacuum is itself another vacuum. You might ask, but haven't we already adopted the temporal gauge? Isn't the gauge already fixed？ Yes and no. The time-component of the gauge field is of course fixed, but the space component is still free from a gauge fixing. Thus we are still give the freedom to fix the gauge in the spacial direction. 
+
+We impose the additional condition, 
+$$
+\lim_{ x \to \infty } g(x) = 1.
+$$
+This will force the function $g(x)$ to see the 1-D space as a circle. What I mean here is that, since $g(x)$ takes the same value on both ends, we can compactify the two ends of spacial direction $\mathbb{R}$ and make it into the circle, as far as $g(x)$ is concerned, they are the same. Since $g(x)$ takes value in $U(1)\cong \mathbb{S}^1$, the map 
+$$
+g:\mathbb{S}^1 \to \mathbb{S}^1
+$$
+is again classified topologically by the homotopy group, a winding number. Thus the classical vacua 
+$$
+\begin{align}
+  \phi &= g_{n}(x) v, \\
+  A_{1}  &= ig_{n}^{-1}(x)\frac{d}{dx} g_{n}(x)
+\end{align}
+$$
+are indexed by winding number $n\in\mathbb{N}$ and different vacua are homotopically inequivalent. 
+
+However, the transition amplitude from one vacuum to another is not infinite anymore, for the energy barrier between them are now finite. This is because we can find a finite action solution in the Euclidean spacetime. The Nielson-Oleson vortices interpolate between these vacua. This is not supposed to be obvious the the naked eyes though, to see that we first need to convert the Nielson-Oleson vortices into the temporal gauge. 
+
+We can approximate the spacetime, whether Euclidean or Minkowski, as a square, where the $x$-axis is space and $y$-axis is the time. We call it the spacetime square. 
+
+We first perform a gauge transformation $g(\theta)=e^{ -i\Lambda(\theta) }$. We can construct a function $\Lambda(\theta)$ such that it is topological trivial on the boundary of spacetime square, $\partial\mathbb{R}^2$ so that it can be continuated to everywhere on the square, and the resulting gauge field satisfy
+- At the past, namely the bottom line of the spacetime square, the gauge field is zero everythere,
+- at the future boundary, namely the top line of the square, the gauge field $A_{\mu}$ is not zero. 
+
+
+
+
 
 
 ### Georgi-Glashow Model
