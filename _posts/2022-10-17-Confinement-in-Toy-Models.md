@@ -128,17 +128,28 @@ $$
 $$
 are indexed by winding number $n\in\mathbb{N}$ and different vacua are homotopically inequivalent. 
 
-However, the transition amplitude from one vacuum to another is not infinite anymore, for the energy barrier between them are now finite. This is because we can find a finite action solution in the Euclidean spacetime. The Nielson-Oleson vortices interpolate between these vacua. This is not supposed to be obvious the the naked eyes though, to see that we first need to convert the Nielson-Oleson vortices into the temporal gauge. 
+However, the transition amplitude from one vacuum to another is not infinite anymore, for the energy barrier between them are now finite. This is because we can find a finite action solution in the Euclidean spacetime. The Nielson-Olesen vortices interpolate between these vacua. This is not supposed to be obvious the the naked eyes though, to see that we first need to convert the Nielson-Olesen vortices into the temporal gauge. 
 
 We can approximate the spacetime, whether Euclidean or Minkowski, as a square, where the $x$-axis is space and $y$-axis is the time. We call it the spacetime square. 
 
 We first perform a gauge transformation $g(\theta)=e^{ -i\Lambda(\theta) }$. We can construct a function $\Lambda(\theta)$ such that it is topological trivial on the boundary of spacetime square, $\partial\mathbb{R}^2$ so that it can be continuated to everywhere on the square, and the resulting gauge field satisfy
-- At the past, namely the bottom line of the spacetime square, the gauge field is zero everythere,
-- at the future boundary, namely the top line of the square, the gauge field $A_{\mu}$ is not zero. 
+- At the past, namely the bottom line of the spacetime square, the gauge field is zero everywhere,
+- at the future boundary, namely the top line of the square, the gauge field $A_{1}$ is not zero but $A_{0}$ is zero, as required by the temporal gauge. 
 
+As the result, we can put the Nielson-Olesen vortex in a gauge such that all the nontrivial winding only appears in the spatial line $x$ at the top line of the spacetime square. 
 
+The Nielson-Olesen vortex now interprets between two different vacua,
+- at the past boundary is the trivial vacuum, $g(x) =1$,
+- at the future boundary, the vacuum is given by some gauge transformation $g(x) \neq 1$.
 
+### Tunneling transition
 
+We can calculate the matrix element 
+$$
+\bra{n}e^{ -HT/\hbar }\ket{0} = \mathcal{N}\int_{n[\phi_{\text{in}}=0]}^{[\phi_{\text{out}}=n]} \mathcal{D}A_{1} \mathcal{D}\phi^\ast \mathcal{D}\phi \, e^{\frac{-S_{E}[\phi]}{\hbar}}
+$$
+using semi-classical methods. The functional integral is over all the field configurations with winding number $n$. This of course includes the configuration with one instanton with winding number $n$, but that is by no means the only, or even the most important, configuration. There could as well be $n_{+}$ instantons with winding number $1$ and $n_{-}$ anti-instantons with winding number $-1$. Assume these instanton and anti-instantons are separated far enough (instanton gas) so the total configuration can be approximated by simple superposition of single instanton solutions. The contribution will include two parts, 
+- Each configuration has action $(n_{+}+n_{-})e^{ -S[\text{ins}] }$, where $S[\text{ins}]$  is the action of a single $n=\pm 1$ instanton.
 
 
 ### Georgi-Glashow Model
