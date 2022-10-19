@@ -60,7 +60,46 @@ The function $g(\theta)$ gives a map from the boundary of $\mathbb{R}^2$, namely
 $$
 g: \partial \mathbb{R}^2 \cong \mathbb{S}^1 \to U(1)\cong\mathbb{S}^1.
 $$
-Maps from $\mathbb{S}^1$ to $\mathbb{S}^1$ are classified by the first homotopy group $\pi_{1}(\mathbb{S}^1).$
+Maps from $\mathbb{S}^1$ to $\mathbb{S}^1$ are classified by the first homotopy group $\pi_{1}(\mathbb{S}^1)$, by winding number $n\in \mathbb{N}$. Given the explicit form of $g(\theta)$, the winding number can be read off from the exponential part, for instance $g(\theta) = e^{ i n \theta }$ has winding number $n$. The winding number can be also calculated using the formula
+$$
+n = \frac{i}{2\pi}\int_{0}^{2\pi} g(\theta)dg^{-1}(\theta) \, d\theta.
+$$
+The winding number, like any other topological numbers, are invariant under continuous variance. 
+
+The map from $g(\theta)$ to the winding number also maps multiplication to addition, like exponents, where $e^{ a }\times e^{ b }=e^{ a+b }$. To see this, just verify that 
+$$
+g(\theta) = g_{n_{1}}(\theta)g_{n_{2}}(\theta) \implies \text{ winding number of }g(\theta) = n_{1}+n_{2}.
+$$
+Finally, using $iA_{\mu} = g \partial_{\mu}g^{-1}+\mathcal{O}(1 / r^2)$, we have 
+$$
+n = -\frac{1}{2\pi}\int dx^2 \, \partial_{\mu}\epsilon_{\mu \nu}A_{\nu} := - \frac{1}{4\pi}\int dx^2 \, \epsilon_{\mu \nu}F_{\mu \nu}=-\frac{\Phi}{2\pi},
+$$
+where $\Phi$ is the flux. The flux in quantized in units of $2\pi$.
+
+### Nielson-Olsen Vortices
+
+The solution for each winding number $n$ are knowns to exist and are called the Nilson-Olesen vortices. They are described by two radial functions
+$$
+A_{\mu} = \epsilon_{\mu \nu} r_{\nu} \frac{\Phi(r)}{2\pi r^2}
+$$
+for the gauge field and 
+$$
+\phi(t) = e^{ i\theta }f(r)
+$$
+for the scalar field. Substitute them in the equation of motion we will have the equation of motion in terms of $\Phi$ and $f$. A solution exists, the shape can be found easily online so we won't present it here. 
+
+The interesting part is that the solution actually has non-zero magnetic field! Recall that the magnetic field can be written in terms of $A_{\mu}$ and now $A_{\mu}$ is given in terms of $\Phi(t)$, thus we can just write down the magnetic field in terms of $\Phi(t)$, after some derivation we have 
+$$
+B(r) = \frac{1}{2\pi r} \frac{d}{dr} \frac{\Phi(r)}{2\pi} \to C e^{ -erf(r) }.
+$$
+The boundary condition is that 
+$$
+\begin{align}
+f(r)  & \to a, \\
+\Phi(r)  &  \to \Phi.
+\end{align}
+$$
+$\Phi(r)$ has the interpretation of being equal to the magnetic flux inside the radius $r$ while $\Phi$ is the total magnetic flux in the soliton, which is quantized in units of $2\pi$. 
 
 
 
