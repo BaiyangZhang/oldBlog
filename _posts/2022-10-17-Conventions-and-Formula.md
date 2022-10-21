@@ -194,4 +194,11 @@ $$
 The super-generalization of field strength is a left-chiral superfield, 
 $$
   W_a \equiv \frac{1}{8} \bar{D}^2 D_a V,
-$$ to derive it, go to $\{y^\mu, \theta, \theta\}$ coordinates and note that $\bar{D}_{\dot{a}} \to - \bar\partial_{\dot{a}}$ and $\bar\partial^2 \bar\theta^2 = -4$.
+$$ to derive it, go to $\{y^\mu, \theta, \theta\}$ coordinates and note that 
+$$
+\bar{D}_ {\dot{a}} \to -\bar\partial_ {\dot{a}}
+$$
+and 
+$$
+\bar\partial^2 \bar\theta^2 = -4.
+$$
