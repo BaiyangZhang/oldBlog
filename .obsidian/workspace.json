@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-10-17-Confinement-in-Toy-Models.md",
+                "file": "_posts/2022-10-17-Conventions-and-Formula.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-10-17-Confinement-in-Toy-Models.md",
+                "file": "_posts/2022-10-17-Conventions-and-Formula.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-10-17-Confinement-in-Toy-Models.md",
+                "file": "_posts/2022-10-17-Conventions-and-Formula.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-10-17-Confinement-in-Toy-Models.md"
+                "file": "_posts/2022-10-17-Conventions-and-Formula.md"
               }
             }
           }
@@ -167,6 +166,7 @@
   },
   "active": "5cd2b9e04decb1c5",
   "lastOpenFiles": [
+    "_posts/2022-10-17-Confinement-in-Toy-Models.md",
     "_drafts/2022-10-12-罗马人的一天笔记.md",
     "_drafts/2022-10-11-Montesquieu.md",
     "_drafts/2022-10-3-共和国史笔记.md",
@@ -175,7 +175,6 @@
     "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md",
     "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
     "_drafts/draft-2022-09-29-Distributions-and-What-They-Are-Good-For.md",
-    "_posts/2022-10-17-Conventions-and-Formula.md",
-    "_posts/2022-10-17-Confinement-in-Toy-Models.md"
+    "_posts/2022-10-17-Conventions-and-Formula.md"
   ]
 }
