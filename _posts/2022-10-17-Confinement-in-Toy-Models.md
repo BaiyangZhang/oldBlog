@@ -150,7 +150,52 @@ $$
 $$
 using semi-classical methods. The functional integral is over all the field configurations with winding number $n$. This of course includes the configuration with one instanton with winding number $n$, but that is by no means the only, or even the most important, configuration. There could as well be $n_{+}$ instantons with winding number $1$ and $n_{-}$ anti-instantons with winding number $-1$. Assume these instanton and anti-instantons are separated far enough (instanton gas) so the total configuration can be approximated by simple superposition of single instanton solutions. The contribution will include two parts, 
 - Each configuration has action $(n_{+}+n_{-})e^{ -S[\text{ins}] }$, where $S[\text{ins}]$  is the action of a single $n=\pm 1$ instanton.
+- There is a entropy factor summing over all the possible locations of the instantons, $\frac{(TL)^{n_{+}+n_{-}}}{n_{+}! N_{-}!}$.
 
+Long story short, by calculating the transition amplitude, also with the help of identity
+$$
+\delta_{a,b} = \frac{1}{2\pi}\int_{0}^{2\pi} d\theta \, e^{ i\theta(a-b) }
+$$
+we find that the real vacua with the presence of instantons are label by $\theta$ angle, with energy
+$$
+\frac{\mathcal{E(\theta)}}{L} = -2Ke^{ -S_{0}/\hbar }\cos \theta
+$$
+and the matrix element
+$$
+\braket{ n | \theta } =\frac{e^{ i n \theta }}{\sqrt{ 2\pi }}. 
+$$
+
+### The Wilson loop
+
+The rearrangement of the vacuum has important consequences for the force between charges. A charged particle, when moving in the electromagnetic field, along the way acquires a phase 
+$$
+e^{ -iq/e \int dx_{\mu} \, A_{\mu}  }
+$$
+where $q$ is the charge of the particle and $\frac{q}{e}$ is dimensionless. To see this, consider an charged particle governed by the Lagrangian
+$$
+L = \frac{1}{2} \dot{x}^2 + q \dot{x}_{i} A_{i} -qA_{0} - V(x_{i}),
+$$
+a easy way to remember (part of) the Lagrangian is to replace $\partial$ by covariant derivatives. From the Lagrangian we get the equation of motion which is coupled to the gauge fields. The gauge fields can also be written in terms of electric and magnetic fields. Thus the path integral is augmented by the extra gauge-coupling term
+$$
+\boxed{
+e^{ -i S_{0}/\hbar } = (\text{old terms}) \times e^{ -i \frac{q}{e} \int dt \dot{x}_{i}A_{i}-qA_{0} }
+= (\text{old terms}) \times e^{ -i \frac{q}{e} \int dx^\mu A_{\mu}}.
+}
+$$
+For an antiparticle we just need to change the sign of the charge.
+
+Next we introduce one of the most concepts in quantum field theory, the Wilson loop, which is indispensable in studying confinement, or interactions in general, in any quantum field theoretic model. 
+
+Imagine that we create a pair of charged particles from the thin air. These test particles are put in by hand, their position and motion are fixed by the creators, us. They behave as we want them to, yet still coupled to the gauge fields, experiencing all the interactions. They are sometimes referred to as external charges. So, after we create the pair, we force them to separate by a large distance $R$. Then we keep the particles there for a while, say for time $T'$, so they could have long enough time to fully appreciate the interaction in between. After the time $T'$, since their job is done, we send them back to where they were created and annihilate them into nothing, dust to dust. The trajectory of these two particles will form a `square`, as shown in the below. [wilson]
+![The Wilson Loop]: (img/wilson.jpg)
+
+![here](img/wilson.jpg)
+
+Now the question is: for the Wilson loop shown above, what is the phase factor associated? The phase factor is integrated along the trajectory, which is a closed loop in our case, thus the integral becomes a closed integral, as shown below.
+$$
+\text{Phase factor } = e^{ -i \frac{q}{e}\oint dx^\mu A_{\mu}} = e^{ -i \frac{q}{e} \oint A }, \quad A := A_{\mu}dx^\mu,
+$$
+where we have used some differential form notation. 
 
 ### Georgi-Glashow Model
 
