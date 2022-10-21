@@ -80,8 +80,7 @@ The gauge transformation for various fields are
 - gauge field: $A_\mu \to \Omega (A_\mu + i \partial_\mu) \Omega^\dot{a}gger,\, \Omega=e^{i \omega^i T^i} \in SU(N)$
 - fundamental scalar field:  $\phi \to \Omega \phi$
 - fundamental spinor field:  $\psi \to \Omega \psi$
-- adjoint scalar field:      $\phi \to \Omega \phi \Omega^\dot{a}gger$
-
+- adjoint scalar field:      $\phi \to \Omega \phi \Omega^\dagger$
 
 The non-abelian, gauge dependent magnetic field (chromo-magnetic field) is
 $$
