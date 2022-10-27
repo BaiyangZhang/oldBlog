@@ -76,7 +76,7 @@ $$
 \psi_{1}^+ = \psi_{1}^e + i \frac{1+(ka)^{2}}{ka}\psi_{i}^o = 
 \left[ 1+\frac{i}{ka}\tanh\left( \frac{x}{a} \right) \right]e^{ ikx },
 $$
-Here I am a little confused, in what sense is the state a right-moving eigen state? It is not in the form of a shape-preserving wave packet, which should be $f(x-vt)$ for some function $f$, does it mean that during the propagation the shape changes?  Also I guess the complex conjugate of $\psi^+$ will be $\psi^-$, that wave packet that moves to the $-x$ direction?
+Here I am a little confused, in what sense is the state $\psi^+_{\nu}$ a right-moving eigen state? It is not in the form of a shape-preserving wave packet, which should be $f(x-vt)$ for some function $f$, does it mean that during the propagation the shape changes?  Also I guess the complex conjugate of $\psi^+$ will be $\psi^-$, that wave packet that moves to the $-x$ direction?
 
 - - -
 
