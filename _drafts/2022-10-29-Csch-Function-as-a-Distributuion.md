@@ -43,7 +43,111 @@ Next we shall calculate the Fourier transform of $\sin x / x$ as an example of t
 $$
 \mathcal{F}\left\{ \frac{\sin z}{z} \right\} (\omega) = \int_{-\infty}^{\infty} dz \, \frac{\sin z}{z}e^{ -i\omega z },
 $$
-where we change the variable from $x$ to $z$ as a hint that the integral in carried out on the complex plane. Writing 
+where we change the variable from $x$ to $z$ as a hint that the integral could be carried out on the complex plane. 
+
+Let's try to calculate the first term in the last line using principal value method, then the contour integral.
+
+- - -
+### Principal value method
+
+We want to evaluate
+$$
+\mathcal{F}\left\{ \frac{\sin z}{z} \right\} (\omega) =\text{Pv.} \int_{-\infty}^{\infty} dz \, \frac{\sin z}{z}e^{ -i\omega z },
+$$It can be regarded as a distribution defined by $\frac{1}{x}$ acting on a regular function $\sin(z) e^{-i\omega z}$. Note that $\sin(z) e^{-i\omega z}$ is NOT Borel integrable since $\lvert  \sin(z) e^{-i\omega z} \rvert$ is not Borel integrable (for details refer to the notes on measure theory) but it doesn't matter to us. Not being Borel integrable only means that we need to be extra careful when applying, e.g., Fubini's theorem to the integral. 
+
+The problem is that $\frac{1}{x}$ is not locally integrable, recall that a function is called locally integrable if, around every point in the domain, there is a neighborhood on which the function is integrable, which is clearly not the case for $\frac{1}{x}$ since it is not integrable in the neighborhood of $x=0$. 
+
+We can simplify the above integral as follows,
+$$
+\mathcal{F}\left\{ \frac{\sin z}{z} \right\} (\omega) = \text{Pv.}\int_{-\infty}^{\infty} dz \, \frac{\sin z}{z} [\cos(\omega z)-i\sin(\omega z)] 
+=\text{Pv.} \int_{-\infty}^{\infty} dz \, \frac{\sin z}{z} \cos(\omega z)
+$$
+since $\sin z / z$ is even, cosine is even and sine is odd. Then the Cauchy principal value is 
+$$
+\text{Pv.} \int_{-\infty}^{\infty} dz \, \frac{\sin z}{z} \cos(\omega z)
+= \lim_{ \epsilon \to 0 } \left( \int_{-\infty}^{-\epsilon} +\int_{\epsilon}^{\infty} \right) dz \, \frac{\sin z}{z} \cos(\omega z) = 2 \lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} \frac{\sin z}{z} \cos(\omega z),
+$$
+which can be calculated using Feynman's trick. This trick involved taking derivatives under the integral notation. It goes as follows.
+
+We define a new integral with an extra parameter $\lambda$, 
+$$
+H(\lambda) = 2 \lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} \frac{\sin z}{z} \cos(\omega z)e^{ -\lambda z },
+$$
+clearly $H(\lambda)$ goes to zero if $\lambda$ goes to infinity. We can not calculate $H(\lambda)$ directly but we can calculate the derivative of it with respect to $\lambda$, that is why we defined $H(\lambda)$ as we did. Writing $\cos x$ as $(e^{ ix }+e^{ -x }) / 2$
+, we have
+$$
+H(\lambda) = 2 \lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} \frac{\sin z}{z} \frac{1}{2}(e^{ i\omega z }+e^{ -i\omega z }) e^{ -\lambda z }:= H_{I}(\lambda) + H_{I I}(\lambda)
+$$
+where
+$$
+\begin{align}
+H_{I}(\lambda) &= 2 \lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} \frac{\sin z}{z} \frac{1}{2}e^{ i\omega z } e^{ -\lambda z }, \\
+H_{I I}(\lambda) &= 2 \lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} \frac{\sin z}{z} \frac{1}{2}e^{ -i\omega z } e^{ -\lambda z } = H_{I}(\lambda)^\ast. 
+\end{align}
+$$
+Finally, let's take the derivative of $H(\lambda)$ w.r.t. $\lambda$, we obtain
+$$
+\begin{align}
+\frac{d}{d \lambda}H(\lambda) &= 2 \frac{d}{d \lambda}  \lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} \frac{\sin z}{z} \cos(\omega z)e^{ -\lambda z }  \\
+&= 2  \lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty}\frac{d}{d \lambda}  \frac{\sin z}{z} \cos(\omega z)e^{ -\lambda z } \\ 
+&= -2  \lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} \sin z \cos(\omega z)e^{ -\lambda z } \\
+&= -2  \lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} \sin z \frac{1}{2}(e^{ i\omega z } + e^{ -i\omega z })e^{ -\lambda z } \\
+&= -  \lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} \sin z (e^{ i\omega z -\lambda z} + e^{ -i\omega z -\lambda z}).
+\end{align}
+$$
+Writing
+$$
+\frac{d}{d \lambda}H(\lambda) = \frac{d}{d \lambda}H_{I}(\lambda) + \frac{d}{d \lambda}H_{I I}(\lambda),
+$$
+we just need to calculate one of them since they are complex conjugate to each other. Let's calculate $d H_{I} / d \lambda$, With the help of $\sin x = (e^{ ix } - e^{ -ix }) / 2i$, we have 
+$$
+\begin{align}
+\frac{d}{d \lambda}H_{I}(\lambda) &= -\frac{1}{2} \lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dz \, \frac{1}{2i} (e^{ iz }-e^{ -iz })e^{ i\omega z }e^{ -\lambda z } \\
+&= \frac{i}{4}  \lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dz \, 
+ \left\{ e^{ z[i(\omega+1)-\lambda] } - e^{ z[i(\omega-1)-\lambda] } \right\}  \\
+&=  \frac{i}{4}  \lim_{ \epsilon \to 0 }  
+\left. \left( \frac{e^{ z[i(\omega+1)-\lambda] }}{i(\omega+1)-\lambda} - \frac{e^{ z[i(\omega-1)-\lambda] }}{i(\omega-1)-\lambda} \right) \right\rvert_{\epsilon}^\infty \\
+&= -\frac{1}{2} \frac{1}{(i\omega-\lambda)^{2}+1},
+\end{align}
+$$
+Note that we have taken the $\epsilon \to 0$ limit. What we want to know is the value of $H_{I}(\lambda=0)$, which can be obtained from the identity
+$$
+H_{I}(0) + \int_{0}^{\infty} d\lambda \, \frac{dH_{I}(\lambda)}{d\lambda} = H_{I}(\infty)=0.  
+$$
+However, here is where the troublesome begins, it is actually nontrivial to calculate the definite integral! I will just throw at your face the useful result,
+$$
+\int_{-\infty+i\omega}^{\infty+i\omega} \frac{ dz }{1+z^{2}}= 
+\begin{cases}
+0 & \lvert\text{Im}(z)\rvert>1, \\
+\pi & \lvert\text{Im}(z)\rvert<1, \\
+\frac{1}{2} & \lvert\text{Im}(z)\rvert=1.
+\end{cases}
+$$
+To obtain this result we need to use the contour integral, then why don't we use the contour integral at the first place, right? It makes no sense... 
+
+Anyway, we have already marched this far and for the sake of completement, let me just write down the result for $H_{I}(0)$. When $\left\lvert \omega \right\rvert<1$, we have 
+$$
+H_{I}(0) = \frac{\pi}{2} + \text{arctan}(i\omega) = \frac{\pi}{2} + \text{arctanh}(\omega).
+$$
+By substitute $\omega\to -\omega$ we have $H_{I I}$, putting them together we find the arctanh$(\omega)$ term cancels and we have 
+$$
+\mathcal{F}\left\{ \frac{\sin x}{x}(\omega) \right\} = \pi \text{  for  } \left\lvert \omega \right\rvert <1
+$$
+while 
+$$
+\mathcal{F}\left\{ \frac{\sin x}{x}(\omega) \right\} = 0 \text{  for  } \left\lvert \omega \right\rvert > 1
+$$
+and
+$$
+\mathcal{F}\left\{ \frac{\sin x}{x}(\omega) \right\} = \frac{1}{2} \text{  for  } \left\lvert \omega \right\rvert = 1.
+$$
+The last part is not important at all, since it is defined on $\omega = \pm 1$ which are just two points, they are $\mu$-negligible so don't contribute anything in the $\int d \omega$ integral.
+
+- - -
+
+### Contour integral method
+
+Writing 
 $$
 \sin z = \frac{1}{2i} (e^{ iz }-e^{ -iz }), 
 $$
@@ -55,26 +159,6 @@ $$
 &= \int_{-\infty}^{\infty} dz \, \frac{1}{2iz}e^{ -i(\omega-1) z} -\int_{-\infty}^{\infty} dz \, \frac{1}{2iz}e^{ -i(\omega+1) z}. 
 \end{align}
 $$
-Let's try to calculate the first term in the last line using principal value method, then the contour integral.
-
-- - -
-### Principal value method
-
-We want to evaluate
-$$
-\int_{-\infty}^{\infty} dz \, \frac{1}{2iz}e^{ -i(\omega-1) z},
-$$
-It can be regarded as a distribution defined by $\frac{1}{x}$ acting on a regular function $e^{ -i(\omega-1)z }$. Note that $e^{ -i(\omega-1)z }$ is NOT Borel integrable since $\lvert e^{ -i(\omega-1)z }\rvert=1$ is not Borel integrable (for details refer to the notes on measure theory) but it doesn't matter to us, not being Borel integrable only means that we need to be extra careful when applying, e.g., Fubini's theorem to the integral. 
-
-The problem is that $\frac{1}{x}$ is not locally integrable, recall that a function is called locally integrable if, around every point in the domain, there is a neighborhood on which the function is integrable, which is clearly not the case for $\frac{1}{x}$ since it is not integrable in the neighborhood of $x=0$. 
-
-the integral into
-$$
-\begin{align}
-\text{Pv.}\int_{-\infty}^{\infty} dz \, \frac{1}{2iz}e^{ -i(\omega-1) z} &=\frac{1}{2i} \lim_{ \epsilon \to 0 } \int_{-\infty}^{\epsilon} dz \,  \frac{e^{ -i(\omega-1)z }}{z} + \frac{1}{2i} \lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dz \,  \frac{e^{ -i(\omega-1)z }}{z},
-\end{align}
-$$
-on the RHS each integral blows up near $z=0$ but with different signs so they actually cancel each other. To 
 
 
 Using [Jordan's Lemma](https://mathworld.wolfram.com/JordansLemma.html).
