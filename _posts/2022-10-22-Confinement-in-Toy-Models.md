@@ -187,9 +187,8 @@ For an antiparticle we just need to change the sign of the charge.
 Next we introduce one of the most concepts in quantum field theory, the Wilson loop, which is indispensable in studying confinement, or interactions in general, in any quantum field theoretic model. 
 
 Imagine that we create a pair of charged particles from the thin air. These test particles are put in by hand, their position and motion are fixed by the creators, us. They behave as we want them to, yet still coupled to the gauge fields, experiencing all the interactions. They are sometimes referred to as external charges. So, after we create the pair, we force them to separate by a large distance $R$. Then we keep the particles there for a while, say for time $T'$, so they could have long enough time to fully appreciate the interaction in between. After the time $T'$, since their job is done, we send them back to where they were created and annihilate them into nothing, dust to dust. The trajectory of these two particles will form a `square`, as shown in the below. 
-![TheWilsonLoop]: (img/wilson.jpg)
 
-![here](img/wilson.jpg)
+![TheWilsonLoop](https://github.com/BaiyangZhang/BaiyangZhang.github.io/blob/master/img/wilson.jpg?raw=true)
 
 Now the question is: for the Wilson loop shown above, what is the phase factor associated? The phase factor is integrated along the trajectory, which is a closed loop in our case, thus the integral becomes a closed integral, as shown below.
 $$
