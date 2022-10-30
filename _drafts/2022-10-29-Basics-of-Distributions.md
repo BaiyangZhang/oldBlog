@@ -17,7 +17,7 @@ tags:								#标签
 ## Distributions against Test function in $l^n$ and $L^n$
 
 
-Classically, function are defined set-theoretically. For example, on the Wiki page of function it says 
+Classically, function are defined set-theoretically, I quote from Wiki:
 
 >In mathematics, a function from a set X to a set Y assigns to each element of X exactly one element of Y. The set X is called the domain of the function and the set Y is called the codomain of the function. Functions were originally the idealization of how a varying quantity depends on another quantity. For example, the position of a planet is a function of time. Historically, the concept was elaborated with the infinitesimal calculus at the end of the 17th century, and, until the 19th century, the functions that were considered were differentiable (that is, they had a high degree of regularity). The concept of a function was formalized at the end of the 19th century in terms of set theory, and this greatly enlarged the domains of application of the concept.
 >
@@ -27,7 +27,7 @@ Classically, function are defined set-theoretically. For example, on the Wiki pa
 
 The most important operation for a function is *evaluation*.
 
-Two evaluations are not defined for test functions in $L^2(\Omega)$. First is the evaluation. *Evaluation is not important for test functions*! Second is the *point-wise operations between two functions*, such as point-wise multiplication or division or additions or subtraction, precicely because evaluation is not defined!
+Two evaluations are not defined for test functions in $L^2(\Omega)$. First is the evaluation. *Evaluation is not important for test functions*! Second is the *point-wise operations between two functions*, such as point-wise multiplication or division or additions or subtraction, precisely because evaluation is not defined!
 
 There are various kinds of functions, they could be very smooth hence quite special, or very general but don't have any of the nice properties such as smoothness or continuity.
 
@@ -35,7 +35,15 @@ So what is Dirac $\delta$ function? It's better to consider it as an abstract th
 
 First explain the name, why are they called distributions. Then introduce it as the dual space of test functions. 
 
-Distributions can also be treated as the weak limit of functions. Explain what is weak limit and strong limit in a vector space. Example 1, $\sin(nx)$ on $[0,2\pi]$ weakly converges to $0$. In this sense, the inner product is degenerate, it's not a psudo-Riemann space.
+Distributions can also be treated as the weak limit of functions. Explain what is weak limit and strong limit in a vector space. Example 1, $\sin(nx)$ on $[0,2\pi]$ weakly converges to $0$. In this sense, the inner product is degenerate, it's not a pseudo-Riemann space.
+
+## Differentiation
+
+A function being locally integrable doesn't guarantee that it is differentiable at all points, sometimes it is not differentiable at all. On the contrary, a distribution is always differentiable by construction, and its derivative is a distribution. 
+
+
+
+- - -
 
 ## Schwartz functions and tempered distribution. What are they and why we need them.
 

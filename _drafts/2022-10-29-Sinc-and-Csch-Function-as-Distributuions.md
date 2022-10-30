@@ -48,7 +48,7 @@ where we change the variable from $x$ to $z$ as a hint that the integral could b
 Let's try to calculate the first term in the last line using principal value method, then the contour integral.
 
 - - -
-### Principal value method
+#### Principal value method
 
 We want to evaluate
 $$
@@ -131,21 +131,21 @@ H_{I}(0) = \frac{\pi}{2} + \text{arctan}(i\omega) = \frac{\pi}{2} + \text{arctan
 $$
 By substitute $\omega\to -\omega$ we have $H_{I I}$, putting them together we find the arctanh$(\omega)$ term cancels and we have 
 $$
-\mathcal{F}\left\{ \frac{\sin x}{x}(\omega) \right\} = \pi \text{  for  } \left\lvert \omega \right\rvert <1
+\mathcal{F}\left\{ \frac{\sin x}{x} \right\}(\omega) = \pi \text{  for  } \left\lvert \omega \right\rvert <1
 $$
 while 
 $$
-\mathcal{F}\left\{ \frac{\sin x}{x}(\omega) \right\} = 0 \text{  for  } \left\lvert \omega \right\rvert > 1
+\mathcal{F}\left\{ \frac{\sin x}{x} \right\}(\omega) = 0 \text{  for  } \left\lvert \omega \right\rvert > 1
 $$
 and
 $$
-\mathcal{F}\left\{ \frac{\sin x}{x}(\omega) \right\} = \frac{1}{2} \text{  for  } \left\lvert \omega \right\rvert = 1.
+\mathcal{F}\left\{ \frac{\sin x}{x} \right\} (\omega)= \frac{1}{2} \text{  for  } \left\lvert \omega \right\rvert = 1.
 $$
 The last part is not important at all, since it is defined on $\omega = \pm 1$ which are just two points, they are $\mu$-negligible so don't contribute anything in the $\int d \omega$ integral.
 
 - - -
 
-### Contour integral method
+#### Contour integral method
 
 Writing 
 $$
@@ -159,6 +159,12 @@ $$
 &= \int_{-\infty}^{\infty} dz \, \frac{1}{2iz}e^{ -i(\omega-1) z} -\int_{-\infty}^{\infty} dz \, \frac{1}{2iz}e^{ -i(\omega+1) z}. 
 \end{align}
 $$
+There is a pole at $z=0$, which we can by pass with a contour shown in the picture before, for our convenience I copy it here again. 
+![contour](img/contour.png)
+We want the integral on the infinite semi-circle, namely arc D to vanish. If $\omega-1>0$, with the help of [Jordan's Lemma](https://mathworld.wolfram.com/JordansLemma.html) we can show that the integral actually vanishes on D. If $\omega-1<0$ then we will need to choose another contour. 
 
+I will not go to details since it can be easily found elsewhere, for example [here](https://eagle.lamost.org/2012/05/the-frourier-transform-of-a-sinc-function/) is a pretty clear note. I just wanna point out that the **results are the same as principal value method**, and I strongly suggest to start with contour integral in the first place.
 
-Using [Jordan's Lemma](https://mathworld.wolfram.com/JordansLemma.html).
+## $\text{csch} x$ as a distribution
+
+Just like $\text{sinc}(x)$, $\text{csch}(x)=1 / \sinh(x)$ is singular at $x=0$ and defines a singular distribution. 

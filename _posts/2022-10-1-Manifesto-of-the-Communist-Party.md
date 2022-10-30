@@ -58,10 +58,12 @@ The "Third Address to the International Workingmen's Association" is included be
 
 A spectre[^4]
 
-[^4]: Spectre, 幽灵，此处应有双重含义，一方面指 "something unpleasant that people are afraid might happen in the future"（quoted from Oxford dict），即引人不快、令人恐惧的恶兆（周孝正认为此处真应该翻译为"魔鬼"，1920年首版中文翻译中直接把spectre翻译成"怪物"，略显滑稽），当然这是对仇视共产主义之流而言。另一方面可能是指"ghost"(Oxford dict)，即鬼魂、幽灵之属，从下文可以看出指的是童话、童谣（nursery tale）中的幽灵，引申为模模糊糊、只存在于传说中、并没有明确的定义的事物，正如一八四七年的"社会主义"在欧洲。} 
+[^4]: Spectre, 幽灵，此处应有双重含义，一方面指 "something unpleasant that people are afraid might happen in the future"（quoted from Oxford dict），即引人不快、令人恐惧的恶兆（周孝正认为此处真应该翻译为"魔鬼"，1920年首版中文翻译中直接把spectre翻译成"怪物"，略显滑稽），当然这是对仇视共产主义之流而言。另一方面可能是指"ghost"(Oxford dict)，即鬼魂、幽灵之属，从下文可以看出指的是童话、童谣（nursery tale）中的幽灵，引申为模模糊糊、只存在于传说中、并没有明确的定义的事物，正如一八四七年的"社会主义"在欧洲。
+
 is haunting Europe — the spectre of communism. All the powers of old Europe have entered into a holy alliance to exorcise this spectre: Pope and Tsar, Metternich[^5] 
 
 [^5]: 梅特涅（德语：Klemens Wenzel von Metternich；1773年5月15日－1859年6月11日）神圣罗马帝国时期奥地利政治家，也是当时最重要的外交家。梅特涅曾在萨克森、普鲁士及巴黎担任公使。1809年任奥地利帝国外交大臣，首要工作是与拿破仑法国构和。他促成了奥地利公主，女公爵玛丽·路易莎与拿破仑的婚姻，拿破仑为此抛弃了约瑟芬。不久后梅特涅推动奥地利加入了第六次反法同盟，签署《枫丹白露条约》，促成拿破仑流亡。随着奥地利、俄国和较小的普鲁士的结盟，"梅特涅体系"持续了数十年，这是奥地利外交的高峰。1859年梅特涅逝世，享年86岁，乃同時代知名政治家之最。作为保皇派，梅特涅热衷于保持权利平衡，特別是通过抵抗俄国在中欧和奥斯曼帝国领土上的野心。他反对自由主义，镇压北意大利和德意志的民族主义叛乱；在国内，他利用书报检查制度和间谍网络进行镇压。他因扑灭欧洲革命之火，被称为「消防队长」。
+
 and Guizot[^6],
 
 [^6]: Guizot (基佐, 4 October 1787 – 12 September 1874) was a French historian, orator, and statesman. Guizot was a dominant figure in French politics prior to the Revolution of 1848. A moderate liberal who opposed the attempt by King Charles X to usurp legislative power, he worked to sustain a constitutional monarchy following the July Revolution of 1830. He then served the "citizen king" Louis Philippe, as Minister of Education, 1832–37, ambassador to London, Foreign Minister 1840–1847, and finally Prime Minister of France from 19 September 1847 to 23 February 1848. Guizot's influence was critical in expanding public education, which under his ministry saw the creation of primary schools in every French commune. As a leader of the "Doctrinaires", committed to supporting the policies of Louis Phillipe and limitations on further expansion of the political franchise, he earned the hatred of more left-leaning liberals and republicans through his unswerving support for restricting suffrage to propertied men(有产者), advising those who wanted the vote to "enrich yourselves" (enrichissez-vous) through hard work and thrift. As Prime Minister, it was Guizot's ban on the political meetings (called the campagne des banquets or the Paris Banquets, which were held by moderate liberals who wanted a larger extension of the franchise) of an increasingly vigorous opposition in January 1848 that catalyzed the revolution that toppled Louis Philippe in February and saw the establishment of the French Second Republic. Marx and Engels published the Manifesto just days before Guizot's overthrow in the 1848 Revolution. 
@@ -171,7 +173,7 @@ Of all the classes that stand face to face with the bourgeoisie today, the prole
 
 The lower middle class, the small manufacturer, the shopkeeper, the artisan, the peasant, all these fight against the bourgeoisie, to save from extinction their existence as fractions of the middle class. They are therefore not revolutionary, but conservative. Nay more, they are reactionary, for they try to roll back the wheel of history. If by chance, they are revolutionary, they are only so in view of their impending transfer into the proletariat; they thus defend not their present, but their future interests, they desert their own standpoint to place themselves at that of the proletariat.
 
-The "dangerous class", [lumpenproletariat] the social scum, that passively rotting mass thrown off by the lowest layers of the old society, may, here and there, be swept into the movement by a proletarian revolution; its conditions of life, however, prepare it far more for the part of a bribed tool of reactionary intrigue.
+The "dangerous class", lumpenproletariat the social scum, that passively rotting mass thrown off by the lowest layers of the old society, may, here and there, be swept into the movement by a proletarian revolution; its conditions of life, however, prepare it far more for the part of a bribed tool of reactionary intrigue.
 
 In the condition of the proletariat, those of old society at large are already virtually swamped. The proletarian is without property; his relation to his wife and children has no longer anything in common with the bourgeois family relations; modern industry labour, modern subjection to capital, the same in England as in France, in America as in Germany, has stripped him of every trace of national character. Law, morality, religion, are to him so many bourgeois prejudices, behind which lurk in ambush just as many bourgeois interests.
 
@@ -187,8 +189,7 @@ Hitherto, every form of society has been based, as we have already seen, on the 
 
 The essential conditions for the existence and for the sway of the bourgeois class is the formation and augmentation of capital; the condition for capital is wage-labour. Wage-labour rests exclusively on competition between the labourers. The advance of industry, whose involuntary promoter is the bourgeoisie, replaces the isolation of the labourers, due to competition, by the revolutionary combination, due to association. The development of Modern Industry, therefore, cuts from under its feet the very foundation on which the bourgeoisie produces and appropriates products. What the bourgeoisie therefore produces, above all, are its own grave-diggers. Its fall and the victory of the proletariat are equally inevitable.
 
-
-\section{Proletarians and Communists}
+### Proletarians and Communists
 
 In what relation do the Communists stand to the proletarians as a whole?
 
@@ -198,7 +199,7 @@ They have no interests separate and apart from those of the proletariat as a who
 
 They do not set up any sectarian principles of their own, by which to shape and mould the proletarian movement.
 
-The Communists are distinguished from the other working-class parties by this only： 1. In the national struggles of the proletarians of the different countries, they point out and bring to the front the common interests of the entire proletariat, independently of all nationality. 2. In the various stages of development which the struggle of the working class against the bourgeoisie has to pass through, they always and everywhere represent the interests of the movement as a whole.
+The Communists are distinguished from the other working-class parties by this only：1. In the national struggles of the proletarians of the different countries, they point out and bring to the front the common interests of the entire proletariat, independently of all nationality. 2. In the various stages of development which the struggle of the working class against the bourgeoisie has to pass through, they always and everywhere represent the interests of the movement as a whole.
 
 The Communists, therefore, are on the one hand, practically, the most advanced and resolute section of the working-class parties of every country, that section which pushes forward all others; on the other hand, theoretically, they have over the great mass of the proletariat the advantage of clearly understanding the line of march, the conditions, and the ultimate general results of the proletarian movement. The immediate aim of the communists is the same as that of all other proletarian parties: formation of the proletariat into a class, overthrow of the bourgeois supremacy, conquest of political power by the proletariat.
 
@@ -225,7 +226,7 @@ But don't wrangle with us so long as you apply, to our intended abolition of bou
 
 The selfish misconception that induces you to transform into eternal laws of nature and of reason, the social forms springing from your present mode of production and form of property – historical relations that rise and disappear in the progress of production – this misconception you share with every ruling class that has preceded you. What you see clearly in the case of ancient property, what you admit in the case of feudal property, you are of course forbidden to admit in the case of your own bourgeois form of property.
 
-Abolition [Aufhebung] of the family! Even the most radical flare up at this infamous proposal of the Communists.
+Abolition (Aufhebung) of the family! Even the most radical flare up at this infamous proposal of the Communists.
 
 On what foundation is the present family, the bourgeois family, based? On capital, on private gain. In its completely developed form, this family exists only among the bourgeoisie. But this state of things finds its complement in the practical absence of the family among the proletarians, and in public prostitution.
 
@@ -319,3 +320,55 @@ In place of the old bourgeois society, with its classes and class antagonisms, w
 3. Guild-master, that is, a full member of a guild, a master within, not a head of a guild. [Engels, 1888 English Edition]
 
 4. This was the name given their urban communities by the townsmen of Italy and France, after they had purchased or conquered their initial rights of self-government from their feudal lords. [Engels, 1890 German edition]. "Commune" was the name taken in France by the nascent towns even before they had conquered from their feudal lords and masters local self-government and political rights as the "Third Estate." Generally speaking, for the economical development of the bourgeoisie, England is here taken as the typical country, for its political development, France. [Engels, 1888 English Edition]
+
+## Socialist and Communist Literature
+
+### 1. Reactionary Socialism
+
+#### A. Feudal Socialism
+
+Owing to their historical position, it became the vocation of the aristocracies of France and England to write pamphlets against modern bourgeois society. In the French Revolution of July 1830,[^5]
+
+[5]: The French Revolution of 1830, also known as the July Revolution (French: révolution de Juillet), Second French Revolution, or Trois Glorieuses ("Three Glorious Days"), was a second French Revolution after the first in 1789. It led to the overthrow of King Charles X, the French Bourbon monarch, and the ascent of his cousin Louis Philippe, Duke of Orleans. After 18 precarious years on the throne, Louis-Philippe was overthrown in the French Revolution of 1848. The 1830 Revolution marked a shift from one constitutional monarchy, under the restored House of Bourbon, to another, the July Monarchy; the transition of power from the House of Bourbon to its cadet branch, the House of Orleans; and the replacement of the principle of hereditary right by that of popular sovereignty. Supporters of the Bourbons would be called Legitimists, and supporters of Louis Philippe were known as Orleanists. In addition, there continued to be Bonapartists supporting the return of Napoleon's descendants.
+
+and in the English reform agitation, [^6]
+
+[^6]: A reference to the movement for an electoral reform which, under the pressure of the working class, was passed by the British House of Commons in 1831 and finally endorsed by the House of Lords in June, 1832. The reform was directed against monopoly rule of the landed and finance aristocracy and opened the way to Parliament for the representatives of the industrial bourgeoisie. Neither workers nor the petty-bourgeois were allowed electoral rights, despite assurances they would.
+
+these aristocracies again succumbed to the hateful upstart. Thenceforth, a serious political struggle was altogether out of the question. A literary battle alone remained possible. But even in the domain of literature the old cries of the restoration period had become impossible. [^7]
+
+[^7]: Not the English Restoration (1660-1689), but the French Restoration (1814-1830). [Note by Engels to the English edition of 1888.]
+
+In order to arouse sympathy, the aristocracy was obliged to lose sight, apparently, of its own interests, and to formulate their indictment against the bourgeoisie in the interest of the exploited working class alone. Thus, the aristocracy took their revenge by singing lampoons on their new masters and whispering in his ears sinister prophesies of coming catastrophe.
+In this way arose feudal Socialism: half lamentation, half lampoon; half an echo of the past, half menace of the future; at times, by its bitter, witty and incisive criticism, striking the bourgeoisie to the very heart’s core; but always ludicrous in its effect, through total incapacity to comprehend the march of modern history.
+
+The aristocracy, in order to rally the people to them, waved the proletarian alms-bag in front for a banner. But the people, so often as it joined them, saw on their hindquarters the old feudal coats of arms, and deserted with loud and irreverent laughter.
+
+One section of the French Legitimists and “Young England” exhibited this spectacle.
+
+In pointing out that their mode of exploitation was different to that of the bourgeoisie, the feudalists forget that they exploited under circumstances and conditions that were quite different and that are now antiquated. In showing that, under their rule, the modern proletariat never existed, they forget that the modern bourgeoisie is the necessary offspring of their own form of society.
+
+For the rest, so little do they conceal the reactionary character of their criticism that their chief accusation against the bourgeois amounts to this, that under the bourgeois regime a class is being developed which is destined to cut up root and branch the old order of society.
+
+What they upbraid the bourgeoisie with is not so much that it creates a proletariat as that it creates a revolutionary proletariat. 
+
+In political practice, therefore, they join in all coercive measures against the working class; and in ordinary life, despite their high-falutin phrases, they stoop to pick up the golden apples dropped from the tree of industry, and to barter truth, love, and honour, for traffic in wool, beetroot-sugar, and potato spirits.\footnote{This applies chiefly to Germany, where the landed aristocracy and squirearchy have large portions of their estates cultivated for their own account by stewards, and are, moreover, extensive beetroot-sugar manufacturers and distillers of potato spirits. The wealthier British aristocracy are, as yet, rather above that; but they, too, know how to make up for declining rents by lending their names to floaters or more or less shady joint-stock companies. [Note by Engels to the English edition of 1888.]}
+
+As the parson has ever gone hand in hand with the landlord, so has Clerical Socialism with Feudal Socialism.
+
+Nothing is easier than to give Christian asceticism a Socialist tinge. Has not Christianity declaimed against private property, against marriage, against the State? Has it not preached in the place of these, charity and poverty, celibacy and mortification of the flesh, monastic life and Mother Church? Christian Socialism is but the holy water with which the priest consecrates the heart-burnings of the aristocrat. 
+
+
+#### Petty-Bourgeois Socialism
+
+The feudal aristocracy was not the only class that was ruined by the bourgeoisie, not the only class whose conditions of existence pined and perished in the atmosphere of modern bourgeois society. The medieval burgesses and the small peasant proprietors were the precursors of the modern bourgeoisie. In those countries which are but little developed, industrially and commercially, these two classes still vegetate side by side with the rising bourgeoisie.
+
+In countries where modern civilisation has become fully developed, a new class of petty
+bourgeois has been formed, fluctuating between proletariat and bourgeoisie, and ever renewing itself as a supplementary part of bourgeois society. The individual members of this class, however, are being constantly hurled down into the proletariat by the action of competition, and, as modern industry develops, they even see the moment approaching when they will completely disappear as an independent section of modern society, to be replaced in manufactures, agriculture and commerce, by overlookers, bailiffs and shopmen.
+
+In countries like France, where the peasants constitute far more than half of the population, it was natural that writers who sided with the proletariat against the bourgeoisie should use, in their criticism of the bourgeois régime, the standard of the peasant and petty bourgeois, and from the standpoint of these intermediate classes, should take up the cudgels for the working class. Thus arose petty-bourgeois Socialism. Sismondi was the head of this school, not only in France but also in England. This school of Socialism dissected with great acuteness the contradictions in the conditions of modern production. It laid bare the hypocritical apologies of economists. It proved,
+incontrovertibly, the disastrous effects of machinery and division of labour; the concentration of capital and land in a few hands; overproduction and crises; it pointed out the inevitable ruin of the petty bourgeois and peasant, the misery of the proletariat, the anarchy in production, the crying inequalities in the distribution of wealth, the industrial war of extermination between nations, the dissolution of old moral bonds, of the old family relations, of the old nationalities.
+
+In its positive aims, however, this form of Socialism aspires either to restoring the old means of production and of exchange, and with them the old property relations, and the old society, or to cramping the modern means of production and of exchange within the framework of the old property relations that have been, and were bound to be, exploded by those means. In either case, it is both reactionary and Utopian.
+
+Its last words are: corporate guilds for manufacture; patriarchal relations in agriculture. Ultimately, when stubborn historical facts had dispersed all intoxicating effects of self-deception, this form of Socialism ended in a miserable fit of the blues. 
