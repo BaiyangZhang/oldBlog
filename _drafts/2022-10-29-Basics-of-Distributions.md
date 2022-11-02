@@ -235,6 +235,7 @@ $$
 &= \int_{0}^{1} dx \, x^\alpha [\phi(x)-\phi(0)] +  \int_{1}^{\infty} dx \, x^\alpha \phi(x) +\int_{0}^{1} dx \, x^\alpha \phi(0) \\
 &= \boxed{\int_{0}^{1} dx \, x^\alpha [\phi(x)-\phi(0)]} +  \int_{1}^{\infty} dx \, x^\alpha \phi(x) + \frac{\phi(0)}{\alpha+1}
 \end{align}
+\tag{1}
 $$
 Here comes the interesting part: the integral in the box is analytic not in $\text{Re }\alpha>-1$, but in $\text{Re }\alpha>-2$! To see that, note
 $$
@@ -246,7 +247,28 @@ $$
 $$
 which is well defined at $0^+$ if $\alpha+1>-1 \implies \alpha>-2$.
 
-We have analytically continued the original defining integral! Now, don't forget the last term is not defined at $\alpha=-1$, so the new defining integral is analytic in $\{\text{Re }\alpha>-1 \} \backslash \{ -1 \}$. 
+Note there is a subtle issue: in the derivation above we have used the relation 
+$$
+\int_{0}^{1} dx \, x^\alpha \phi(0) = \left. \frac{\phi(0)}{\alpha+1} 
+ x^{\alpha+1}\right\rvert_{0}^1 = \frac{\phi(0)}{\alpha+1} 
+ \lim_{ \epsilon \to 0 }  (1-\epsilon^{\alpha+1}), 
+$$
+where the limit only goes to $1$ if $\text{Re}(\epsilon+1) > 0$. If, say, $\epsilon = -1.5$, we would get 
+$$
+\lim_{ \epsilon \to 0 } \epsilon^{-0.5} = \lim_{ \epsilon \to 0 } \frac{1}{\epsilon^{0.5}}=\frac{1}{0}
+$$
+and results in an error. Nevertheless, we just throw away this divergence anyway even when $-2<\text{Re }\alpha<-1$, as the definition of the analytical continuation. We have secretly performed a renormalization! 
+
+Taking into account the relation 
+$$
+\frac{1}{\alpha+k+1} = -\int_{1}^{\infty} dx \, x^{\alpha+k}, \quad k\in \mathbb{N} 
+$$
+then this renormalization amounts to
+$$
+\int_{0}^{\infty} dx \, x^\alpha \phi(x) \to \int_{0}^{\infty} dx \, x^\alpha [\phi(x)-\phi(0)].
+$$
+
+So, by the end of the day, we have analytically continued the original defining integral to a bigger region! Now, don't forget the last term in Eq. (1) is not defined at $\alpha=-1$, so the new defining integral is meromorphic with singularity at $\alpha=-1$. 
 
 This procedure can be repeated to get linear form 
 $$
