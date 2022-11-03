@@ -149,9 +149,9 @@ or
 $$
 \frac{d}{dx} \ln \left\lvert {x} \right\rvert  = \text{Pf.} \frac{1}{x}
 $$
-where the symbol $\text{Pf}$ is read pseudofunction. Note that $\text{Pv.} \frac{1}{x}$ is NOT a regular distribution. 
+where the symbol $\text{Pf}$ is read pseudofunction. Note that $\text{Pv.} \frac{1}{x}$ is NOT a regular distribution, instead a singular distribution. It is called a singular distribution because it can't just integrating a function against some test function, but some extra operations needs done, like taking the Cauchy principal value. Next we will meet more singular distributions. 
 
-**Example** Recall that the principal branch of the logarithm function is defined to be 
+**Example.** Recall that the principal branch of the logarithm function is defined to be 
 $$
 \ln z = \ln \left\lvert {z} \right\rvert +i \text{ arg}(z), \quad \text{arg}(z)\in(-\pi,\pi)
 $$
@@ -223,6 +223,8 @@ The result is written
 $$
 \frac{d}{dx} x^\alpha_{+} = \alpha \text{ Pf.} x^{\alpha-1}_{+}.
 $$
+Again, this pseudo function defines a singular distribution, singular in the sense that his distribution is not written as the integral of $x^{\alpha-1}_{+}$ against a test function, but extra operation is needed, in our case subtract $\phi(x)$ by $\phi(0)$.
+
 There is an interesting alternative way to look at the pseudofunction $x_{+}^\alpha$. We can regard it as a function of $\alpha$ instead of $x$, that is 
 $$
 x_{+}^\alpha: \alpha \mapsto \int_{0}^{\infty} dx \, x^\alpha \phi(x), 
@@ -247,25 +249,25 @@ $$
 $$
 which is well defined at $0^+$ if $\alpha+1>-1 \implies \alpha>-2$.
 
-Note there is a subtle issue: in the derivation above we have used the relation 
+However, there is something fishy about our derivation: we have used the relation 
 $$
 \int_{0}^{1} dx \, x^\alpha \phi(0) = \left. \frac{\phi(0)}{\alpha+1} 
  x^{\alpha+1}\right\rvert_{0}^1 = \frac{\phi(0)}{\alpha+1} 
  \lim_{ \epsilon \to 0 }  (1-\epsilon^{\alpha+1}), 
 $$
-where the limit only goes to $1$ if $\text{Re}(\epsilon+1) > 0$. If, say, $\epsilon = -1.5$, we would get 
+where the limit is $1$ only if $\text{Re }(\epsilon+1) > 0 \implies \text{Re }\epsilon>-1$. If $\text{Re }\epsilon<-1$, say, $\epsilon = -1.5$, we would get 
 $$
 \lim_{ \epsilon \to 0 } \epsilon^{-0.5} = \lim_{ \epsilon \to 0 } \frac{1}{\epsilon^{0.5}}=\frac{1}{0}
 $$
-and results in an error. Nevertheless, we just throw away this divergence anyway even when $-2<\text{Re }\alpha<-1$, as the definition of the analytical continuation. We have secretly performed a renormalization! 
+and results in an error. Nevertheless, we just throw away this divergence anyway even when $-2<\text{Re }\alpha<-1$, as the definition of the analytical continuation. We have secretly renormalized the integral! 
 
 Taking into account the relation 
 $$
-\frac{1}{\alpha+k+1} = -\int_{1}^{\infty} dx \, x^{\alpha+k}, \quad k\in \mathbb{N} 
+\frac{1}{\alpha+k+1} = -\int_{1}^{\infty} dx \, x^{\alpha+k},\quad \text{Re }\alpha < -k-1, \quad k\in \mathbb{N} 
 $$
 then this renormalization amounts to
 $$
-\int_{0}^{\infty} dx \, x^\alpha \phi(x) \to \int_{0}^{\infty} dx \, x^\alpha [\phi(x)-\phi(0)].
+\int_{0}^{\infty} dx \, x^\alpha \phi(x) \to \int_{0}^{\infty} dx \, x^\alpha [\phi(x)-\phi(0)],\quad -2<\text{Re }\alpha<-1.
 $$
 
 So, by the end of the day, we have analytically continued the original defining integral to a bigger region! Now, don't forget the last term in Eq. (1) is not defined at $\alpha=-1$, so the new defining integral is meromorphic with singularity at $\alpha=-1$. 
@@ -276,18 +278,18 @@ $$
 $$
 defined on larger and larger domain. 
 
-Coming back to $x^\alpha_{+}$, recall that 
+Coming back to $x^\alpha_{+}$, recall that we defined the continuation
 $$
 \int_{0}^{\infty} dx \, x^\alpha \phi(x) = \int_{0}^{1} dx \, x^\alpha [\phi(x)-\phi(0)] +  \int_{1}^{\infty} dx \, x^\alpha \phi(x) + \boxed{\frac{\phi(0)}{\alpha+1}}
 $$
-where the boxed term is divergent at $\alpha=-1$. In a sense we have regularized the integral, namely we have separated it into finite and infinite parts. Now we can continue to "renormalize" it, by simply discard the boxed term. Therefore, we shall define 
+where we still have a divergent term, namely that the boxed term is divergent at $\alpha=-1$. In a sense we have regularized the integral, namely we have separated it into finite and infinite parts. Now we can continue to "renormalize" it, by simply discard the boxed term. Therefore, we shall define 
 $$
 \begin{align}
 \left\langle x^{-1}_{+}, \phi(x) \right\rangle & := \int_{0}^{1} dx \, x^\alpha [\phi(x)-\phi(0)] +  \int_{1}^{\infty} dx \, x^\alpha \phi(x)\\ 
 &= \int_{0}^{\infty} dx \, x^\alpha [\phi(x)-\phi(0)\theta(1-x)] .
 \end{align}
 $$
-The choice of $1$ in $\theta(1-x)$ is kind of arbitrary, there is no reason why it shouldn't be $0.999$ or $1.001$. This is similar to all regularizations: there is always something arbitrary involved in separating finite part from the infinite. 
+The choice of $1$ in $\theta(1-x)$ is kind of arbitrary, I don't see any reasons why it shouldn't be $0.999$ or $1.001$. It can be regarded as an arbitrary choice in the regularization, in separating finite part from the infinite. 
 
 Using 
 $$
@@ -297,6 +299,10 @@ we have
 $$
 \frac{d}{dx} \text{Pf. }x^{-1}_{+} = -\text{Pf. }x_{+}^{-2} + \delta(x).
 $$
+
+
+
+
 In the above examples, we have used Hadamard's method to define singular distributions corresponding to certain nonlocally integrable functions. 
 
 
