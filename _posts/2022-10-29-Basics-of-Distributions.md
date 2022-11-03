@@ -111,7 +111,7 @@ $$
 \int_{\left\lvert {x} \right\rvert \geq \epsilon} dx \, \ln \left\lvert {x} \right\rvert \phi'(x) = \int_{-\infty}^{-\epsilon} dx \, \ln \left\lvert {x} \right\rvert \phi'(x)
 +\int_{\epsilon}^\infty dx \, \ln \left\lvert {x} \right\rvert \phi'(x),
 $$
-now we can integrate by parts, for instance
+now we can integrate by part, for instance
 $$
 \int_ {\epsilon}^\infty dx \, \ln \left\lvert {x} \right\rvert \phi'(x) = - \int_ {\epsilon}^\infty dx \, \ln' \left\lvert {x} \right\rvert \phi(x)+\ln(\epsilon)\phi(\epsilon),
 $$
@@ -119,12 +119,8 @@ we have
 $$
 \begin{align}
 \left\langle (\ln \left\lvert {x} \right\rvert)' , \phi(x) \right\rangle  
-&= \ln(\epsilon)(\phi(\epsilon)-\phi(-\epsilon)) 
-- \left( \int_{-\infty}^{-\epsilon} dx \, \ln' \left\lvert {x} \right\rvert \phi(x)
-+\int_{\epsilon}^\infty dx \, \ln' \left\lvert {x} \right\rvert \phi(x) \right) \\
-&= \ln(\epsilon)(\phi(\epsilon)-\phi(-\epsilon)) 
-- \left( \int_{-\infty}^{-\epsilon} dx \, \frac{\phi(x)}{x}
-+\int_{\epsilon}^\infty dx \, \frac{\phi(x)}{x} \right) 
+&= \ln(\epsilon)(\phi(\epsilon)-\phi(-\epsilon)) - \left( \int_{-\infty}^{-\epsilon} dx \, \ln' \left\lvert {x} \right\rvert \phi(x)+\int_{\epsilon}^\infty dx \, \ln' \left\lvert {x} \right\rvert \phi(x) \right) \\
+&= \ln(\epsilon)(\phi(\epsilon)-\phi(-\epsilon)) - \left( \int_{-\infty}^{-\epsilon} dx \, \frac{\phi(x)}{x}+\int_{\epsilon}^\infty dx \, \frac{\phi(x)}{x} \right) 
 \end{align}
 $$
 where the limit $\epsilon\to 0$ is understood. Since $\phi$ is continuous at $x=0$, we have 
@@ -172,7 +168,7 @@ $$
 \frac{d}{dx}\ln(x+i\epsilon) = \ln \left\lvert {x} \right\rvert -i\pi \delta(x) 
 }.
 $$
-If you want, you can follow the procedure as before and arrive at the same conclusion.
+If you want, you can follow the procedure as before and arrive at the same conclusion. 
 
 Changing $i$ in $-i$, we have 
 $$
