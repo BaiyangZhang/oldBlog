@@ -111,11 +111,9 @@ $$
 \int_{\left\lvert {x} \right\rvert \geq \epsilon} dx \, \ln \left\lvert {x} \right\rvert \phi'(x) = \int_{-\infty}^{-\epsilon} dx \, \ln \left\lvert {x} \right\rvert \phi'(x)
 +\int_{\epsilon}^\infty dx \, \ln \left\lvert {x} \right\rvert \phi'(x),
 $$
-now we ca te by parts, for instance
+now we can integrate by parts, for instance
 $$
-\int_{\epsilon}^\infty dx \, \ln \left\lvert {x} \right\rvert \phi'(x) 
-= -\int_{\epsilon}^\infty dx \, \ln' \left\lvert {x} \right\rvert \phi(x) 
-+ \ln(\epsilon)\phi(\epsilon),
+\int_ {\epsilon}^\infty dx \, \ln \left\lvert {x} \right\rvert \phi'(x) = - \int_ {\epsilon}^\infty dx \, \ln' \left\lvert {x} \right\rvert \phi(x)+\ln(\epsilon)\phi(\epsilon),
 $$
 we have 
 $$
@@ -199,10 +197,7 @@ $$
 $$
 what happens if we substitute $\phi$ with $\phi+C$, where $C$ is any constant *a priori*? Nothing! Because the differentiation $d / dx$ kills any constant! This naïve observation turns out to be quite helpful. We can substitute $\phi$ with $\phi+C$ and integrate by part, which yields
 $$
--\lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dx \,  x^\alpha \frac{d}{dx} (\phi(x)+C)
-=-\lim_{ \epsilon \to 0 }  \left\{  
-x^\alpha (\phi(x)+C)\mid_{\epsilon}^\infty
- - \int_{\epsilon}^{\infty} dx \,  (\phi(x)+C) \alpha x^{\alpha-1}
+-\lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dx \,  x^\alpha \frac{d}{dx} (\phi(x)+C) =-\lim_{ \epsilon \to 0 }  \left\{ x^\alpha (\phi(x)+C)\mid_{\epsilon}^\infty - \int_{\epsilon}^{\infty} dx \,  (\phi(x)+C) \alpha x^{\alpha-1}
 \right\} ,
 $$
 now, how can we make the integral on the right hand side finite? It can be achieved by setting  
