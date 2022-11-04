@@ -216,6 +216,9 @@ $$
 $$
 Again, this pseudo function defines a singular distribution, singular in the sense that his distribution is not written as the integral of $x^{\alpha-1}_{+}$ against a test function, but extra operation is needed, in our case subtract $\phi(x)$ by $\phi(0)$.
 
+- - -
+
+*A different definition.*
 There is an interesting alternative way to look at the pseudofunction $x_{+}^\alpha$. We can regard it as a function of $\alpha$ instead of $x$, that is 
 $$
 x_{+}^\alpha: \alpha \mapsto \int_{0}^{\infty} dx \, x^\alpha \phi(x), 
@@ -248,9 +251,9 @@ $$
 $$
 where the limit is $1$ only if $\text{Re }(\epsilon+1) > 0 \implies \text{Re }\epsilon>-1$. If $\text{Re }\epsilon<-1$, say, $\epsilon = -1.5$, we would get 
 $$
-\lim_{ \epsilon \to 0 } \epsilon^{-0.5} = \lim_{ \epsilon \to 0 } \frac{1}{\epsilon^{0.5}}=\frac{1}{0}
+\lim_{ \epsilon \to 0 } \epsilon^{-0.5} = \lim_{ \epsilon \to 0 } \frac{1}{\epsilon^{0.5}}=\frac{1}{0}.
 $$
-and results in an error. Nevertheless, we just throw away this divergence anyway even when $-2<\text{Re }\alpha<-1$, as the definition of the analytical continuation. We have secretly renormalized the integral! 
+Nevertheless, we just throw away this divergence anyway even when $-2<\text{Re }\alpha<-1$, as the definition of the analytical continuation. We have secretly renormalized the integral! 
 
 Taking into account the relation 
 $$
@@ -288,7 +291,7 @@ $$
 $$
 we have 
 $$
-\frac{d}{dx} \text{Pf. }x^{-1}_{+} = -\text{Pf. }x_{+}^{-2} + \delta(x).
+\frac{d}{dx} \text{Pf. }x^{-1}_{+} = -\text{Pf. }x_{+}^{-2}.
 $$
 
 
