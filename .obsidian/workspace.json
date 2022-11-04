@@ -4,100 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "470da2a6f5639cee",
+        "id": "fb7b345d31d508cd",
         "type": "tabs",
         "children": [
           {
-            "id": "fd937ca9dd92a93d",
+            "id": "1308ad2ac4c80a10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-11-4-俄乌战争前普京的演讲.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b4102fbaf518e87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-10-17-Conventions-and-Formula.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5cd2b9e04decb1c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b1637f567179826",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd8390cb9c72a0af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "437064f475093769",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/paperDrafts/Renormalization method in PDF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4c665e046f74c3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-9-8-罗莎-卢森堡.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d47f283af37c8396",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-11-4-俄乌战争前普京的演讲.md",
+                "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
                 "mode": "source",
                 "source": false
               }
@@ -153,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -169,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-4-俄乌战争前普京的演讲.md",
+                "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-4-俄乌战争前普京的演讲.md",
+                "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-4-俄乌战争前普京的演讲.md"
+                "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md"
               }
             }
           }
@@ -220,8 +137,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fd937ca9dd92a93d",
+  "active": "1308ad2ac4c80a10",
   "lastOpenFiles": [
+    "_posts/2022-11-4-俄乌战争前普京的演讲.md",
+    "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
     "_drafts/2022-10-29-Basics-of-Distributions.md",
     "img/lib1.jpg",
     "img/background8.jpg",
@@ -229,8 +148,6 @@
     "img/background5.jpg",
     "img/background4.jpg",
     "img/background3.jpg",
-    "img/background2.jpg",
-    "img/background1.jpg",
-    "img/background9.jpg"
+    "img/background2.jpg"
   ]
 }

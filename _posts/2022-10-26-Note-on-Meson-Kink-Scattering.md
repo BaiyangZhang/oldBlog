@@ -80,4 +80,27 @@ Here I am a little confused, in what sense is the state $\psi^+_{\nu}$ a right-m
 
 - - -
 
-Kiriushcheva and Kuzmin studied the propagation of the wave packet numerically, 
+Kiriushcheva and Kuzmin studied the propagation of the wave packet numerically.
+
+- - -
+
+### 1+1 dimensional QFT with kinks
+
+Consider a $1+1$ dimensional model with scalar fields $\phi$ only, in the Schrodinger picture. Schrodinger picture means that operator are constants in time while the wave function evolves. Since the scalar field is a operator in quantum field theory, $\phi(x)$ is constant in time so $\partial_{t}\phi$ makes no sense, hence we need the canonical momentum $\pi(x)$. The Hamiltonian is 
+$$
+H=\int d x: \mathcal{H}(x):_a, \quad \mathcal{H}(x)=\frac{\pi^2(x)}{2}+\frac{\left(\partial_x \phi(x)\right)^2}{2}+\frac{V(\sqrt{\lambda} \phi(x))}{\lambda}.
+$$
+The notation $:\bullet:_{a}$ denotes the normal ordering with respect to ladder operators $A,A^{\dagger}$, we will have more to say about it later. The parameter of potential is written as $\sqrt{ \lambda }\phi(x)$ not because we like to make our lives complicated, but for semi-classical expansion reasons. By semi-classical expansion we mean the to take the limit $\hbar\to 0$. Putting $\hbar$ back to the action we have roughly 
+$$
+Z = \int \mathcal{D}\phi \mathcal{D}\pi \, e^{ iS/\hbar }, \quad S = \int dx^2 \,\mathcal{L} .
+$$
+We can stick to the natural units and consider $\hbar$ not the Plank constant with non-trivial dimension, but just a parameter which is dimensionless. Now we ask, if we want the action kept unchanged as we vary the value $\hbar$, how would various parameters in the Lagrangian vary? The field operator $\phi$ multiplies $\hbar$ as $\frac{\phi^2}{\hbar}$, thus when we change $\hbar$,
+$$
+\text{const action} \implies \frac{\phi^2}{\hbar} \text{ is const} \implies \phi \sim \sqrt{ \hbar },
+$$
+where tilde means the $\phi$ scales as $\sqrt{ \hbar }$. Similarly we have $\lambda \sim \hbar^{-1 / 2}$. We find that the combination
+$$
+\sqrt{ \lambda }\phi = \text{const} \text{ under the variatio of } \hbar,
+$$
+which means $\sqrt{ \lambda }\phi$ is const in the semi-classical limit, and that's why we define the potential in that specific combination. 
+
