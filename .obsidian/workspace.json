@@ -85,14 +85,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "file": "_posts/2022-9-8-罗莎-卢森堡.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d47f283af37c8396",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-11-4-俄乌战争前普京的演讲.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -142,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -159,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "file": "_posts/2022-11-4-俄乌战争前普京的演讲.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "file": "_posts/2022-11-4-俄乌战争前普京的演讲.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md"
+                "file": "_posts/2022-11-4-俄乌战争前普京的演讲.md"
               }
             }
           }
@@ -212,15 +223,15 @@
   },
   "active": "957cfa2362e38596",
   "lastOpenFiles": [
+    "_posts/2022-9-8-罗莎-卢森堡.md",
+    "_drafts/2022-10-29-Basics-of-Distributions.md",
     "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md",
     "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
     "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md",
-    "_drafts/2022-10-29-Basics-of-Distributions.md",
     "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
     "_drafts/2022-10-12-《罗马人的故事》笔记.md",
     "_drafts/2022-10-3-共和国史笔记.md",
     "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
-    "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
-    "_posts/2022-10-9-Basic-Measure-Theory-Part-II.md"
+    "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md"
   ]
 }
