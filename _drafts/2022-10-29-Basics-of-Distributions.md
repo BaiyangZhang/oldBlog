@@ -301,10 +301,12 @@ In the above examples, we have used Hadamard's method to define singular distrib
 
 
 
+- - -
 
 Next we shall study in more detail the finite part of a divergent integral and its main properties. 
 
 Let $f$ be a function nonlocally integrable on $[a,b]$ but integrable on $[a+\epsilon,b]$, where $\epsilon$ is positively infinitesimal. 
+
 
 
 

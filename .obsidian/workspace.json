@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fb7b345d31d508cd",
+        "id": "706badd5f88b8d00",
         "type": "tabs",
         "children": [
           {
-            "id": "1308ad2ac4c80a10",
+            "id": "81dcda1021ccf75a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md",
+                "file": "_posts/2022-11-4-俄乌战争前普京的演讲.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md",
+                "file": "_posts/2022-11-4-俄乌战争前普京的演讲.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md",
+                "file": "_posts/2022-11-4-俄乌战争前普京的演讲.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md"
+                "file": "_posts/2022-11-4-俄乌战争前普京的演讲.md"
               }
             }
           }
@@ -137,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1308ad2ac4c80a10",
+  "active": "81dcda1021ccf75a",
   "lastOpenFiles": [
+    "_drafts/2022-10-29-Basics-of-Distributions.md",
+    "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md",
+    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
     "img/background8.jpg",
     "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
     "_posts/2022-11-4-俄乌战争前普京的演讲.md",
-    "_drafts/2022-10-29-Basics-of-Distributions.md",
     "img/lib1.jpg",
     "img/background6.jpg",
     "img/background5.jpg",
-    "img/background4.jpg",
-    "img/background3.jpg",
-    "img/background2.jpg"
+    "img/background4.jpg"
   ]
 }

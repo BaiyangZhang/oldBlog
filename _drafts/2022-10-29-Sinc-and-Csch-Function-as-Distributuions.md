@@ -14,7 +14,7 @@ tags:								#标签
 ---
 
 
-## $\frac{\sin x}{x}$ as a distribution
+### 1. $\frac{\sin x}{x}$ as a distribution
 
 Sinc function, or sine cardinal function, also called the sampling function, is an important function in physics and engineering.  There are more than one definitions in common use, here we will adopt 
 $$
@@ -48,7 +48,7 @@ where we change the variable from $x$ to $z$ as a hint that the integral could b
 Let's try to calculate the first term in the last line using principal value method, then the contour integral.
 
 - - -
-#### Principal value method
+#### 1.1 Principal value method
 
 We want to evaluate
 $$
@@ -165,6 +165,6 @@ We want the integral on the infinite semi-circle, namely arc D to vanish. If $\o
 
 I will not go to details since it can be easily found elsewhere, for example [here](https://eagle.lamost.org/2012/05/the-frourier-transform-of-a-sinc-function/) is a pretty clear note. I just wanna point out that the **results are the same as principal value method**, and I strongly suggest to start with contour integral in the first place.
 
-## $\text{csch} x$ as a distribution
+### $\text{csch} x$ as a distribution
 
 Just like $\text{sinc}(x)$, $\text{csch}(x)=1 / \sinh(x)$ is singular at $x=0$ and defines a singular distribution. 
