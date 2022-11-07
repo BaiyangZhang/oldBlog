@@ -167,4 +167,34 @@ I will not go to details since it can be easily found elsewhere, for example [he
 
 ### $\text{csch} x$ as a distribution
 
-Just like $\text{sinc}(x)$, $\text{csch}(x)=1 / \sinh(x)$ is singular at $x=0$ and defines a singular distribution. 
+Like $\text{sinc}(x)$, $\text{csch}(x)=1 / \sinh(x)$ is singular at $x=0$ and defines a singular distribution. Unlike $\text{sinc}(x)$ which approaches a constant at $x=0$, the limit 
+$$
+\lim_{ x \to 0 } \text{csch}(x) = \lim_{ x \to 0 }  \frac{1}{x} = \infty.
+$$
+
+Thanks to the the fact that $\text{csch } x$ is an odd function, when integrated against a regular function (recall that a regular function is a single valued function with finite order of derivatives),  the final result is finite, thus $\text{csch } x$ defines a singular distribution, which we write as $\text{csch}$ to avoid introducing new notations. To see that, let $\phi(x) \in L^1$ be a test function, and assume $\phi(x)$ has Taylor expansion around $x=0$ with non-zero radius of convergence, we have 
+$$
+\begin{align} 
+\left\langle \text{csch },\phi \right\rangle &= \int_{-\infty}^{\infty} dx \, \text{csch}(x) \phi(x) \\
+&= \int_{-\infty}^{-\delta} dx \, \text{csch}(x) \phi(x) + \int_{-\delta}^{+\delta} dx \, \text{csch}(x) \phi(x) + \int_{+\delta}^{\infty} dx \, \text{csch}(x) \phi(x)
+\end{align}
+$$
+where $\delta$ is less than the radius of convergence. In the last line both the first and last terms are finite, the divergence comes from the second term, so we expand the test function and $\text{csch}$ around $x=0$,
+$$
+\begin{align}
+\int_{-\delta}^{+\delta} dx \, \text{csch}(x) \phi(x) &= \int_{-\delta}^{+\delta} dx \, \text{csch}(x) \left( \phi(0) + \sum_{n=1}^\infty \frac{\phi^{(n)}(0)}{n!}  x^n \right)  \\
+&= \int_{-\delta}^{+\delta} dx\, \left( \frac{1}{x}-\frac{x}{6}+ \frac{7x^3}{360}+\dots \right)\left( \phi(0) + \sum_{n=1}^\infty \frac{\phi^{(n)}(0)}{n!}  x^n \right)  \\
+&= \int_{-\delta}^{+\delta} dx\, \left\{ \frac{1}{x}\phi(0) + \mathcal{O}(x^0) \right\} 
+\end{align}
+$$
+where we have singled out the singular part at $x=0$. Fortunately the singular part gives zero since $\phi(0)$ is a constant and $\frac{1}{x}$ is an odd function, so 
+$$
+\int_{-\delta}^{+\delta} dx\, \frac{1}{x}\phi(0) =0
+$$
+and we are left with a finite integral. The same reasoning also applies to $\text{csch}(x)$, thus the distribution can be defined by
+$$
+\boxed{
+\left\langle \text{csch },\phi \right\rangle = \int_{-\infty}^{\infty} dx \, \text{csch}(x) [\phi(x)-\phi(0)]
+}.
+$$
+There is a systematic way to separate the infinite part from the finite part in an integral, due to Hadamard, which can be applied to $\text{csch}(x)$. The advantage of Hadamard's method is that is not only applies to  
