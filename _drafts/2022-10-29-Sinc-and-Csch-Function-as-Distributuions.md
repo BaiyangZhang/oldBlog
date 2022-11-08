@@ -145,7 +145,7 @@ The last part is not important at all, since it is defined on $\omega = \pm 1$ w
 
 - - -
 
-#### Contour integral method
+#### 1.2 Contour integral method
 
 Writing 
 $$
@@ -165,7 +165,7 @@ We want the integral on the infinite semi-circle, namely arc D to vanish. If $\o
 
 I will not go to details since it can be easily found elsewhere, for example [here](https://eagle.lamost.org/2012/05/the-frourier-transform-of-a-sinc-function/) is a pretty clear note. I just wanna point out that the **results are the same as principal value method**, and I strongly suggest to start with contour integral in the first place.
 
-### $\text{csch} x$ as a distribution
+### 2. $\text{csch} x$ as a distribution
 
 Like $\text{sinc}(x)$, $\text{csch}(x)=1 / \sinh(x)$ is singular at $x=0$ and defines a singular distribution. Unlike $\text{sinc}(x)$ which approaches a constant at $x=0$, the limit 
 $$
@@ -197,4 +197,98 @@ $$
 \left\langle \text{csch },\phi \right\rangle = \int_{-\infty}^{\infty} dx \, \text{csch}(x) [\phi(x)-\phi(0)]
 }.
 $$
-There is a systematic way to separate the infinite part from the finite part in an integral, due to Hadamard, which can be applied to $\text{csch}(x)$. The advantage of Hadamard's method is that is not only applies to  
+There is a systematic way to separate the infinite part from the finite part in an integral, due to Hadamard, which can be applied to $\text{csch}(x)$. The advantage of Hadamard's method is it also applies to "more" singular function such as $1 / x^2$. 
+
+**Hadamard's finite part**
+
+Suppose we want to define a distribution from a singular function $f(x)$. Given a test function $\phi(x)$, the integral $\int dx \, f(x) \phi(x)$ is divergent, so in order to make sense of such integrals, we need to regularize it first.
+
+There are in general more than one way to regularized a divergent integral. Sometimes, it happens that $f(x)$ can be readily written as the derivative of some function,
+$$
+f(x) = \frac{d}{dx} F(x)
+$$
+Then the integral can be written as 
+$$
+\int dx \, f(x) \phi(x) = \int dx \, F'(x)\phi(x) = -\int dx \, F(x)\phi'(x) + \text{ surface terms}. 
+$$
+Where we have integrated by part. With any luck, the integral $\int dx \, F(x)\phi'(x)$ will be locally integrable. Here the surface term might be divergent so 
+$$
+\begin{align}
+\tag{1}
+\left\langle \frac{1}{x}\theta(x),\phi \right\rangle &=\int_{0}^{\infty} dx \, \frac{1}{x} \phi(x)   \\ 
+&=\int_{0}^{\infty} dx \, \ln'(x) \phi(x) \\
+&= \ln(x)\phi(x)\mid_{0}^\infty - \int_{0}^{\infty} dx \, \ln(x) \phi'(x) \\
+&= \ln(0)\phi(0)- \int_{0}^{\infty} dx \, \ln(x) \phi'(x)
+\end{align}
+$$
+where the first term in the last line is divergent, and we have exploited the assumption that $\phi(x)$ decrease fast enough at $x\to \infty$. Throw it away we obtain the so-called Hadamard finite part of the integral $\int dx \,\theta(x)\phi(x) / x$, sometimes written as 
+$$
+\mathcal{H.}\int_{0}^{\infty} dx \, \frac{1}{x} \phi(x) := - \int_{0}^{\infty} dx \, \ln(x) \phi'(x).
+$$
+Sometimes the singular function defined by its Hadamard finite part of an integral is called pseudo-function, denoted by $\text{Pf.}$ Then we may write
+$$
+\left\langle \text{Pf.}\frac{1}{x},\phi \right\rangle := \mathcal{H.}\int_{0}^{\infty} dx \, \frac{1}{x} \phi(x) := - \int_{0}^{\infty} dx \, \ln(x) \phi'(x),
+$$
+we will use notation $\text{Pf.}$ from time to time in this note. 
+
+Recall that the derivative of a distribution is defined to be 
+$$
+\left\langle T',\phi \right\rangle := -\left\langle T,\phi' \right\rangle 
+$$
+which is the same as integral by part but  without the boundary terms. Substitute $T$ with $\ln(x)$ we have 
+$$
+\left\langle \ln'(x),\phi(x) \right\rangle = \left\langle \ln(x),-\phi'(x) \right\rangle  = - \int_{0}^{\infty} dx \, \ln(x) \phi'(x) = \left\langle \text{Pf. } x^{-1}, \phi(x) \right\rangle, 
+$$
+thus we arrive at the conclusion that as distributions,  
+$$
+\ln\left\lvert x \right\rvert  = \text{Pf.} x^{-1}.
+$$
+
+Starting from Eq. (1) there is another way to separate the infinite part. Write $x^{-1}\theta(x)$ as $x_{+}^{-1}$ for the sake of simplicity. In the place of $\pi(x)$, we want construct a function that goes to zero as $x\to 0$ so that the integral is finite around zero. One way is to write $\phi(x)$ as $\phi(x) - \phi(0) + \phi(0)$ and separate the integral into two domains, $[0,1] \cup [1,\infty]$,
+$$
+\begin{align}
+\left\langle x_{+}^{-1},\phi \right\rangle &=\int_{0}^{\infty} dx \, \frac{1}{x} \phi(x) = \int_{0}^{1} dx \, \frac{1}{x} \phi(x) + \int_{1}^{\infty} dx \, \frac{1}{x} \phi(x)   \\
+&= \int_{0}^{1} dx \, \frac{1}{x} [\phi(x)-\phi(0)+\phi(0)] + \int_{1}^{\infty} dx \, \frac{1}{x} \phi(x) \\
+&= \int_{0}^{1} dx \, \frac{1}{x} [\phi(x)-\phi(0)] + \int_{1}^{\infty} dx \, \frac{1}{x} \phi(x)+\int_{0}^{1} dx \, \frac{1}{x} \phi(0) \\
+&= -\phi(0)\ln(0^+)+\int_{0}^{1} dx \, \frac{1}{x} [\phi(x)-\phi(0)] + \int_{1}^{\infty} dx \, \frac{1}{x} \phi(x)
+\end{align}
+$$
+where the first term in the last line again can be tossed away to give a finite result. Readers can verify that this method is equivalent to the previous one. 
+
+A third way to obtain the Hadamard finite part is similar to Feynman's trick: taking derivatives under the integration sign. The integral
+$$
+\int_{0}^{\infty} dx \, \ln(x+a)\phi(x), \quad a>0
+$$
+is locally integrable. Taking derivative with respect to $a$, then take the limit $a\to 0$, we get
+$$
+\begin{align}
+\lim_{ a \to 0 } \frac{d}{da} \int_{0}^{\infty} dx \, \ln(x+a)\phi(x) &= \lim_{ a \to 0 }\int_{0}^{\infty} dx \,\frac{d}{da} \ln(x+a)\phi(x)  \\
+&= \lim_{ a \to 0 }\int_{0}^{\infty} dx \, \phi(x) \frac{1}{x+a} \\
+&:= \mathcal{H.}\,\lim_{ a \to 0 }\int_{0}^{\infty} dx \, \frac{1}{x}
+\phi(x) \end{align}
+$$
+that is, if the limit exists. This method can be used to obtain the Hadamard finite part of integrals that blows up at some point, such as 
+$$
+\int_{a}^{b} dx \,  \frac{\phi(x)}{(x-t)^2}, \quad a<t<b.
+$$
+
+Coming back to $\text{csch}(x)$. When regarded as a distribution, acting on a regular function it automatically yields the Hadamard finite part, just some minor modifications are needed, such as the Cauchy principal value. What if acting on a function that blows up at some point? 
+
+**Example** Find the Hadamard finite part of 
+$$
+\left\langle \text{csch} ,\text{csch}  \right\rangle = \int_{-\infty}^{\infty} dx \, \text{csch} (x)\text{csch} (x) = \int_{-\infty}^{\infty} dx \, \text{csch} ^2(x). 
+$$
+There are two $\text{csch}$ functions in the integral, one is regarded as a singular distribution, the other a test function. Note that $\text{csch}$ function decays fast enough at large $\left\lvert {x} \right\rvert$ but is not locally integral at the neighborhood thus is not really a legit $L^1$ test function, but it does not change our argument. We can also circumvent this issue by either consider $\text{csch}^2$ as the singular distribution or confine the integral to $[\epsilon,\infty]$. 
+
+Since $\text{csch}^2$ is an even function on $[-\infty,\infty]$ we have 
+$$
+\left\langle \text{csch} ,\text{csch}  \right\rangle = 2 \int_{0}^{\infty} dx \, \text{csch} ^2(x), 
+$$
+Hadamard's method suggests us to subtract the singular part of the test function,
+$$
+\begin{align}
+\left\langle \text{csch} ,\text{csch}  \right\rangle &= 2 \int_{0}^{\infty} dx \, \text{csch} ^2(x),  \\
+&= 2\int_{0}^{\infty} dx \, \text{csch} (x)[\text{csch} (x)-\text{csch} (0)] 
+\end{align}
+$$
+
