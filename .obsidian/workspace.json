@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "706badd5f88b8d00",
+        "id": "076385e0ca06d794",
         "type": "tabs",
         "children": [
           {
-            "id": "81dcda1021ccf75a",
+            "id": "844cb096eaedee82",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md"
+              }
             }
           }
         ]
@@ -129,17 +136,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "81dcda1021ccf75a",
+  "active": "844cb096eaedee82",
   "lastOpenFiles": [
-    "_drafts/Sinc-and-Csch-Function-as-Distributuions.md",
-    "_posts/2022-11-4-俄乌战争前普京的演讲.md",
-    "_drafts/2022-10-29-Basics-of-Distributions.md",
+    "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
+    "_drafts/2022-10-12-罗马人的一天笔记.md",
+    "1.md",
     "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
-    "img/background8.jpg",
-    "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
-    "img/lib1.jpg",
-    "img/background6.jpg",
-    "img/background5.jpg",
-    "img/background4.jpg"
+    "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+    "_drafts/2022-08-02-Basic-Measure-Theory-Part-II.md",
+    "_drafts/2022-10-3-共和国史笔记.md"
   ]
 }

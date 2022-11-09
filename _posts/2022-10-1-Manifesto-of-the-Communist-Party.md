@@ -19,7 +19,7 @@ Author: Karl Marx and Frederick Engels
 February 1848
 
 
-#### abstract
+### abstract
 The "Manifesto of the Communist Party" was written by Marx and Engels as the Communist League's programme on the instruction of its Second Congress (London, November 29-December 8, 1847), which signified a victory for the followers of a new proletarian line during the discussion of the programme questions.
 
 When Congress was still in preparation, Marx and Engels arrived at the conclusion that the final programme document should be in the form of a Party manifesto (see Engels' letter to Marx of November 23-24, 1847). The catechism form usual for the secret societies of the time and retained in the "Draft of a Communist Confession of Faith" and "Principles of Communism", was not suitable for a full and substantial exposition of the new revolutionary world outlook, for a comprehensive formulation of the proletarian movement's aims and tasks. See also "Demands of the Communist Party in Germany", issued by Marx soon after publication of the Manifesto, which addressed the immediate demands of the movement.
@@ -54,7 +54,7 @@ The "Third Address to the International Workingmen's Association" is included be
 
 - - -
 
-#### Manifesto of the Communist Party
+### Manifesto of the Communist Party
 
 A spectre[^4]
 
@@ -79,7 +79,7 @@ II. It is high time that Communists should openly, in the face of the whole worl
 
 To this end, Communists of various nationalities have assembled in London and sketched the following manifesto, to be published in the English, French, German, Italian, Flemish and Danish languages.
 
-#### Bourgeois and Proletarians
+### Bourgeois and Proletarians
 
 The history of all hitherto existing society is the history of class struggles.
 
@@ -189,6 +189,10 @@ Hitherto, every form of society has been based, as we have already seen, on the 
 
 The essential conditions for the existence and for the sway of the bourgeois class is the formation and augmentation of capital; the condition for capital is wage-labour. Wage-labour rests exclusively on competition between the labourers. The advance of industry, whose involuntary promoter is the bourgeoisie, replaces the isolation of the labourers, due to competition, by the revolutionary combination, due to association. The development of Modern Industry, therefore, cuts from under its feet the very foundation on which the bourgeoisie produces and appropriates products. What the bourgeoisie therefore produces, above all, are its own grave-diggers. Its fall and the victory of the proletariat are equally inevitable.
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ### Proletarians and Communists
 
 In what relation do the Communists stand to the proletarians as a whole?

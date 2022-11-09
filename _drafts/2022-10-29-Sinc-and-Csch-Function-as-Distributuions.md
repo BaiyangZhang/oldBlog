@@ -284,11 +284,20 @@ Since $\text{csch}^2$ is an even function on $[-\infty,\infty]$ we have
 $$
 \left\langle \text{csch} ,\text{csch}  \right\rangle = 2 \int_{0}^{\infty} dx \, \text{csch} ^2(x), 
 $$
-Hadamard's method suggests us to subtract the singular part of the test function,
+Hadamard's method suggests us to subtract the singular part of the test function at origin,
 $$
 \begin{align}
-\left\langle \text{csch} ,\text{csch}  \right\rangle &= 2 \int_{0}^{\infty} dx \, \text{csch} ^2(x),  \\
-&= 2\int_{0}^{\infty} dx \, \text{csch} (x)[\text{csch} (x)-\text{csch} (0)] 
+\left\langle \text{csch} ,\text{csch}  \right\rangle &= 2 \,\mathcal{H}.\int_{0}^{\infty} dx \, \text{csch} ^2(x),  \\
+&= 2\int_{0}^{\infty} dx \, \text{csch} (x)[\text{csch} (x)-\text{csch} (0)]. 
 \end{align}
 $$
-
+However, Since 
+$$\text{csch}(x)= \frac{1}{x}-\frac{x}{6}+\frac{7x^3}{360}+\dots$$it blows up at the origin. We can set the lower bound of the integral to $\epsilon$,
+$$
+\begin{align}
+\left\langle \text{csch} ,\text{csch}  \right\rangle &= 2 \,\mathcal{H.}\int_{0}^{\infty} dx \, \text{csch} ^2(x),  \\
+&= 2\, \int_{0}^{\infty} dx \, \text{csch} (x)[\text{csch} (x)-\text{csch} (0)]  \\
+&= 2\lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dx \,  \text{csch}(x) \left[ \text{csch}(x)-\frac{1}{x} \right] \\
+&= 
+\end{align}
+$$
