@@ -11,9 +11,11 @@
             "id": "844cb096eaedee82",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "img/background8.jpg"
+                "file": "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "img/background8.jpg",
+                "file": "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "img/background8.jpg",
+                "file": "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "img/background8.jpg"
+                "file": "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md"
               }
             }
           }
@@ -136,6 +138,8 @@
   },
   "active": "844cb096eaedee82",
   "lastOpenFiles": [
+    "_posts/2022-08-23-The-Nullstellensatz and-the-Geometry-of-Spec-A.md",
+    "img/background8.jpg",
     "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
     "_posts/2022-10-22-Confinement-in-Toy-Models.md",
     "_posts/2022-10-17-Conventions-and-Formula.md",
@@ -143,8 +147,6 @@
     "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
     "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
     "_posts/2022-9-8-罗莎-卢森堡.md",
-    "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md",
-    "img/background10.jpg",
-    "_posts/2022-11-4-俄乌战争前普京的演讲.md"
+    "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md"
   ]
 }
