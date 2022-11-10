@@ -160,7 +160,7 @@ $$
 \end{align}
 $$
 There is a pole at $z=0$, which we can by pass with a contour shown in the picture before, for our convenience I copy it here again. 
-![contour](img/contour.png)
+![contour](/img/contour.png)
 We want the integral on the infinite semi-circle, namely arc D to vanish. If $\omega-1>0$, with the help of [Jordan's Lemma](https://mathworld.wolfram.com/JordansLemma.html) we can show that the integral actually vanishes on D. If $\omega-1<0$ then we will need to choose another contour. 
 
 I will not go to details since it can be easily found elsewhere, for example [here](https://eagle.lamost.org/2012/05/the-frourier-transform-of-a-sinc-function/) is a pretty clear note. I just wanna point out that the **results are the same as principal value method**, and I strongly suggest to start with contour integral in the first place.
