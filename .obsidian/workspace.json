@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md",
+                "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md",
+                "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md",
+                "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md"
+                "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md"
               }
             }
           }
@@ -138,6 +138,8 @@
   },
   "active": "844cb096eaedee82",
   "lastOpenFiles": [
+    "_posts/2022-11-4-俄乌战争前普京的演讲.md",
+    "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md",
     "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
     "img/background8.jpg",
     "img/background6.jpg",
@@ -145,8 +147,6 @@
     "img/background4.jpg",
     "img/background3.jpg",
     "img/background2.jpg",
-    "img/background1.jpg",
-    "img/background11.jpg",
-    "img/background10.jpg"
+    "img/background1.jpg"
   ]
 }

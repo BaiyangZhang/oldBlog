@@ -4,7 +4,7 @@ title:      Csch Function as a Distributuion 				# 标题
 subtitle:    #副标题
 date:       2022-11-10 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/background9.png 	#这篇文章标题背景图片
+header-img: /img/background9.png 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - math

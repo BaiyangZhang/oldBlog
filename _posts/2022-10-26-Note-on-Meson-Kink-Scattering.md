@@ -4,7 +4,7 @@ title:      Note on Meson-Kink Scattering		# 标题
 subtitle:   
 date:       2022-10-26 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/background8.jpg 	#这篇文章标题背景图片
+header-img: /img/background8.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - QuantumFieldTheory
