@@ -11,11 +11,9 @@
             "id": "844cb096eaedee82",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md",
-                "mode": "source",
-                "source": false
+                "file": "img/background8.jpg"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md",
+                "file": "img/background8.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md",
+                "file": "img/background8.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md"
+                "file": "img/background8.jpg"
               }
             }
           }
@@ -139,14 +137,14 @@
   "active": "844cb096eaedee82",
   "lastOpenFiles": [
     "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
-    "_posts/2022-11-4-俄乌战争前普京的演讲.md",
+    "_posts/2022-10-22-Confinement-in-Toy-Models.md",
+    "_posts/2022-10-17-Conventions-and-Formula.md",
+    "_posts/2022-10-9-Basic-Measure-Theory-Part-II.md",
+    "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+    "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
+    "_posts/2022-9-8-罗莎-卢森堡.md",
     "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md",
     "img/background10.jpg",
-    "img/background9.jpg",
-    "img/background6.jpg",
-    "_posts/2022-08-22-Finite-ring-extensions.md",
-    "_posts/2022-08-09-回国之旅.md",
-    "img/background8.jpg",
-    "img/background5.jpg"
+    "_posts/2022-11-4-俄乌战争前普京的演讲.md"
   ]
 }
