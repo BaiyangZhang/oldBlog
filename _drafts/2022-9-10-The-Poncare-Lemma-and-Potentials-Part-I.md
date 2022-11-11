@@ -1,12 +1,12 @@
 ---
-layout:     post   				    # 使用的布局（不需要改）
-title:      The Poincare Lemma and Potentials			# 标题 
-subtitle:   Based on the book by Theodore Frankel
-date:       2022-09-10 				# 时间
-author:     Baiyang Zhang 						# 作者
-header-img: img/mathArt7.jpg 	# 这篇文章标题背景图片
-catalog: true 						# 是否归档
-tags:								# 标签
+layout:     post   				                 # 使用的布局（不需要改）
+title:      The Poincare Lemma and Potentials I	 # 标题 
+subtitle:   
+date:       2022-11-10 				             # 时间
+author:     Baiyang Zhang 						 # 作者
+header-img: img/mathArt7.jpg 	                 # 这篇文章标题背景图片
+catalog: true 						             # 是否归档
+tags:								             # 标签
     - Math
     - Poincare Lemma
     - Potentials
@@ -68,5 +68,13 @@ $$
 \int _{\phi(\sigma)} \, \alpha = \int_{\sigma}  \, \phi^\ast \alpha 
 }.
 $$
-How to understand this formula? Well, $\sigma$ can be considered as a (almost-everywhere) p-dimensional subset of $M$, furthermore, it is parameterized (roughly speaking, given coordinates) and oriented. A differentiable map $\phi$ makes it possible to pull back forms defined on $W$ to $M$, and what is the integral of $\phi ^\ast\alpha$ over $\sigma$? Just that of $\alpha$ over the image of $\phi$! It is in spirit very similar to the definition of the action of pull-back forms on vectors, where $\phi ^\ast\alpha(X) = \alpha(\phi_{\ast} X)$, where $X\in T(M)$ is a vector in the tangent space of $M$. But I have to say the general pull-back formula is not as symmetric, hence, beautiful. 
+$\sigma$ can be considered as a (almost-everywhere) p-dimensional subset of $M$, furthermore, it is parameterized and oriented. A differentiable map $\phi$ makes it possible to pull back forms defined on $W$ to $M$, and what is the integral of $\phi ^\ast\alpha$ over $\sigma$? Just that of $\alpha$ over the image of $\phi$! It is in spirit very similar to the definition of the action of pull-back forms on vectors, where $\phi ^\ast\alpha(X) = \alpha(\phi_{\ast} X)$, where $X\in T(M)$ is a vector in the tangent space of $M$. 
 
+- - -
+
+### Generalized Stokes's theorem
+
+Let $V^p$ be a compact oriented manifold with or without boundary, which is also the sub manifold of $M^n$. Let $F: M^n \to W^m$ to be a smooth map, the image $F(V)$ in $W$ need not be a submanifold, for example it could intersect with itself or have other kinks of pathologies. Still, if $\beta \in \Omega^p(W)$ is a $p$-form on $W$, it makes sense to talk of the integral of $\beta$ over $F(V)$, and in fact
+$$
+\int_{F(V)} 
+$$
