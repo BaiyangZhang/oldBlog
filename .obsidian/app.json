@@ -8,9 +8,10 @@
     "margin": "2",
     "downscalePercent": 75
   },
-  "autoPairMarkdown": false,
+  "autoPairMarkdown": true,
   "showLineNumber": true,
   "spellcheckLanguages": [
     "en-US"
-  ]
+  ],
+  "livePreview": true
 }

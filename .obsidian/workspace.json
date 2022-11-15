@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "470da2a6f5639cee",
+        "id": "07dd611cdc6bebf4",
         "type": "tabs",
         "children": [
           {
-            "id": "fd937ca9dd92a93d",
+            "id": "897de84443857d61",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-08-22-Finite-ring-extensions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b4102fbaf518e87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-10-17-Conventions-and-Formula.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5cd2b9e04decb1c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -161,20 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "5cd2b9e04decb1c5",
+  "active": "897de84443857d61",
   "lastOpenFiles": [
-    "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
+    "_posts/2022-08-22-Finite-ring-extensions.md",
     "_posts/2022-10-17-Conventions-and-Formula.md",
+    "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md",
+    "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
     "_posts/2022-10-22-Confinement-in-Toy-Models.md",
     "_drafts/2022-10-12-罗马人的一天笔记.md",
     "_drafts/2022-10-11-Montesquieu.md",
     "_drafts/2022-10-3-共和国史笔记.md",
     "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
-    "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md",
-    "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md",
-    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md"
+    "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md"
   ]
 }
