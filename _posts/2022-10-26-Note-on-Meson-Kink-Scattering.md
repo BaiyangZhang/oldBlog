@@ -4,7 +4,7 @@ title:      Note on Meson-Kink Scattering		# 标题
 subtitle:   
 date:       2022-10-26 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/mathArt13.jpg 	#这篇文章标题背景图片
+header-img: img/background8.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - QuantumFieldTheory
@@ -64,7 +64,7 @@ $$
 \psi^o_{2}  & = \frac{1}{ka(4+(ka)^{2})^{2}}\left\{ \left[ 1+(ka)^{2}-3\tanh ^{2}\left( \frac{x}{a} \right) \right] \sin kx + 3ka\tanh\left( \frac{x}{a} \right)\cos kx\right\} .
 \end{align}
 $$
-
+Note that above expressions are different from the ones we are using by somewhere a different factor. 
 - - -
 
 The eigenstates we listed above can be used to construct propagating waves. For example, the waves moving to the $+x$ direction can be defined by 
@@ -76,11 +76,51 @@ $$
 \psi_{1}^+ = \psi_{1}^e + i \frac{1+(ka)^{2}}{ka}\psi_{i}^o = 
 \left[ 1+\frac{i}{ka}\tanh\left( \frac{x}{a} \right) \right]e^{ ikx },
 $$
-Here I am a little confused, in what sense is the state $\psi^+_{\nu}$ a right-moving eigen state? It is not in the form of a shape-preserving wave packet, which should be $f(x-vt)$ for some function $f$, does it mean that during the propagation the shape changes?  Also I guess the complex conjugate of $\psi^+$ will be $\psi^-$, that wave packet that moves to the $-x$ direction?
+It is not in the form of a shape-preserving wave packet, which should be $f(x-vt)$ for some function $f$, does it mean that during the propagation the shape changes?  The complex conjugate of $\psi^+$ will be $\psi^-$, the wave packet that moves to the $-x$ direction.
 
 - - -
 
-Kiriushcheva and Kuzmin studied the propagation of the wave packet numerically.
+Kiriushcheva and Kuzmin studied the propagation of the wave packet numerically for $\nu=1$ sech square potential. [^2] They found that the wave packet narrows and accelerates. Their wave packet was taken to be the Gaussian shape at the initial time,  
+$$
+\Phi_{0}(x,t=0) = \exp \left\{ ik_{0}(x-x_{0})-\frac{(x-x_{0})^2}{2b^2} \right\} 
+\tag{1}
+$$
+where $x_{0}$ is the center position of the wave packet and $b$ the width. The reason for the imaginary part in the exponential is such that the wave packet has momentum centered at $k_{0}$, as we shall see below. To be specific, the momentum is $k_{0} \pm b$ where $\pm b$ denotes the error. The same wavefunction in the momentum space looks like
+$$
+\tilde{\Phi}_{0}(p) = \int dx \, \Phi_{0}(x) e^{ -ipx },
+$$
+for the convention refer to note [[2022-10-17-Conventions-and-Formula]]. We have 
+$$
+\tilde{\Phi}_{0}(p) = \sqrt{ 2\pi }b \exp \left\{ -\frac{b^2}{2}(p-k_{0})^{2}-ipx_{0} \right\} .
+\tag{2}
+$$
+We can now evolve the state with the Hamiltonian, for a given wavefunction $\psi(x,t)$, in terms of momentum eigenstates we have 
+$$
+\psi(x,t) = \int \frac{dp}{2\pi} \, \phi(p) e^{ -iH(p)t+ipx }  
+$$
+where $H(p)$ is the Hamiltonian. Apply it to $\Phi(x,t=0)$ we have
+$$
+\Phi(x,t) = \frac{b}{\sqrt{ b^{2}+\frac{it}{m} }}\exp \left\{ -\frac{1}{2} \frac{(x-x_{0}-vt)^{2}}{b^{2}+\frac{it}{m}} + ip\left( x-x_{0}-\frac{1}{2}vt \right) \right\} .
+$$
+
+Now, to see how the wave packet moves through time, we need to know how the density evolves, which is 
+$$
+\left\lvert \Phi(x,t) \right\rvert ^2 = \frac{b}{\sqrt{ b^{2}+\frac{t^{2}}{b^{2}m^{2}} }}\exp \left\{ - \frac{(x-x_{0}-vt)^{2}}{b^{2}+\frac{t^{2}}{b^{2}m^{2}}} \right\} ,
+$$
+we can see clearly that the peak of the Gaussian wave packet moves with velocity $v= p / m$, since the time-dependent position of the peak is $x_{0}+vt$. Taking into consideration the error, the center of position will be $x_{0}+vt \pm \sqrt{ b^{2}+t^{2} / b^{2}m^{2} }$. 
+
+The initial position is $x_{0} \pm b$, the momentum is $k_{0}\pm \frac{1}{b}$, which can be read off from Eq. (2).
+
+We notice two things,
+1. Heisenberg uncertainty principle is saturated in this case, $\Delta x \Delta p = b \times\frac{1}{b} =1$ (note we have set $\hbar=1$),
+2. the variance in the initial position and velocity are independent, thus can be compounded by squares, the variance in position at time $t$ will be 
+$$
+\Delta x(t)^{2}=(\Delta x_{0})^{2}+(t\Delta v)^{2}=b^{2}+\left( \frac{t}{mb} \right)^{2}.
+$$
+
+
+
+[^2]: N. Kiriushcheva and S. Kuzmin, “Scattering of a Gaussian wave packet by a reflectionless potential,” Am. J. Phys. 66, 867–872 (1998)
 
 - - -
 

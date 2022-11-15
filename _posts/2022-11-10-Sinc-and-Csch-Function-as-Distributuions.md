@@ -1,18 +1,16 @@
 ---
-layout:     post   				    # 使用的布局（不需要改）
-title:      Csch Function as a Distributuion 				# 标题 
-subtitle:    #副标题
-date:       2022-10-29 				# 时间
-author:     Baiyang Zhang 						# 作者
-header-img: img/functionalAnalysis.png 	#这篇文章标题背景图片
-catalog: true 						# 是否归档
-tags:								#标签
+layout:     post   				             # 使用的布局（不需要改）
+title:      Csch Function as a Distributuion # 标题 
+subtitle:                                    # 副标题
+date:       2022-11-10 				         # 时间
+author:     Baiyang Zhang 					 # 作者
+header-img: img/mathArt2.jpg                 # 这篇文章标题背景图片
+catalog: true 						         # 是否归档
+tags:								         # 标签
     - math
     - functionalAnalysis
     - distribution
-    - measureTheory
 ---
-
 
 ### 1. $\frac{\sin x}{x}$ as a distribution
 
@@ -37,7 +35,7 @@ $$
 \left\langle \frac{\sin x}{x},f(x) \right\rangle := \text{Pv.}\int_{-\infty}^{\infty} dx \, \frac{\sin x}{x}f(x) :=\lim_{ \epsilon \to 0 } \left( \int_{-\infty}^{\epsilon} +\int_{\epsilon}^{\infty}  \right)dx  \,   \frac{\sin x}{x}f(x).
 $$
 The other way is to adopt contour integral, the integration goes from $-\infty$ to $\rho$ which is infinitesimal, goes a half-circle above the origin, then goes from $\rho$ to $\infty$. Suppose the integral is zero on the upper infinite half-circle, then we can form a closed loop and the residual theorem can be applied. The contour is shown in the figure below.
-![contour](img/contour.png)
+![contour](/img/contour.png)
 
 Next we shall calculate the Fourier transform of $\sin x / x$ as an example of the two prescriptions. The Fourier transform is 
 $$
@@ -160,19 +158,21 @@ $$
 \end{align}
 $$
 There is a pole at $z=0$, which we can by pass with a contour shown in the picture before, for our convenience I copy it here again. 
-![contour](img/contour.png)
+![contour](/img/contour.png)
 We want the integral on the infinite semi-circle, namely arc D to vanish. If $\omega-1>0$, with the help of [Jordan's Lemma](https://mathworld.wolfram.com/JordansLemma.html) we can show that the integral actually vanishes on D. If $\omega-1<0$ then we will need to choose another contour. 
 
 I will not go to details since it can be easily found elsewhere, for example [here](https://eagle.lamost.org/2012/05/the-frourier-transform-of-a-sinc-function/) is a pretty clear note. I just wanna point out that the **results are the same as principal value method**, and I strongly suggest to start with contour integral in the first place.
 
-### 2. $\text{csch} x$ as a distribution
+### 2. $\text{csch} (x)$ as a distribution
+
+#### 2.1 Principal value and Hadamard's method
 
 Like $\text{sinc}(x)$, $\text{csch}(x)=1 / \sinh(x)$ is singular at $x=0$ and defines a singular distribution. Unlike $\text{sinc}(x)$ which approaches a constant at $x=0$, the limit 
 $$
 \lim_{ x \to 0 } \text{csch}(x) = \lim_{ x \to 0 }  \frac{1}{x} = \infty.
 $$
 
-Thanks to the the fact that $\text{csch } x$ is an odd function, when integrated against a regular function (recall that a regular function is a single valued function with finite order of derivatives),  the final result is finite, thus $\text{csch } x$ defines a singular distribution, which we write as $\text{csch}$ to avoid introducing new notations. To see that, let $\phi(x) \in L^1$ be a test function, and assume $\phi(x)$ has Taylor expansion around $x=0$ with non-zero radius of convergence, we have 
+Due to the the fact that $\text{csch } x$ is an odd function, when integrated against a regular function (recall that a regular function is a single valued function with finite order of derivatives),  the final result is finite, thus $\text{csch } x$ defines a singular distribution, which we write as $\text{csch}$ to avoid introducing new notations. To see that, let $\phi(x) \in L^1$ be a test function, and assume $\phi(x)$ has Taylor expansion around $x=0$ with non-zero radius of convergence, we have 
 $$
 \begin{align} 
 \left\langle \text{csch },\phi \right\rangle &= \int_{-\infty}^{\infty} dx \, \text{csch}(x) \phi(x) \\
@@ -298,6 +298,63 @@ $$
 \left\langle \text{csch} ,\text{csch}  \right\rangle &= 2 \,\mathcal{H.}\int_{0}^{\infty} dx \, \text{csch} ^2(x),  \\
 &= 2\, \int_{0}^{\infty} dx \, \text{csch} (x)[\text{csch} (x)-\text{csch} (0)]  \\
 &= 2\lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dx \,  \text{csch}(x) \left[ \text{csch}(x)-\frac{1}{x} \right] \\
-&= 
+&= -0.6137\dots
 \end{align}
+$$
+Where I have used numerical method in the last step, since I can't get an analytical one. The closed attempt to a analytical result is to make use of the following integral formulae, [^2_1]
+$$
+\begin{align}
+\int dx \, \text{csch}^2(ax) &= -\frac{\text{coth}(ax)}{a}, \\
+\int dx \, \frac{\text{csch}(ax)}{x} &= -\frac{1}{ax} -\frac{ax}{6}+\frac{7(ax)^3}{1080}+\dots+\frac{(-1)^n 2 (2^{(2n-1)}-1)B_{n+1}(ax)^{2n-1}}{(2n-1)(2n)!}\dots 
+\end{align}
+$$
+where $B_{n}$ is the Bernoulli number give by the exponential generating function [^2_2]
+$$
+  \frac{x}{e^{ x }-1}\equiv \sum_{n=0}^\infty \frac{B_{n}}{n!} x^n.
+$$
+Putting them together we get an infinite series form of the integral, but it seems only useful when dealing with numerical calculations.
+
+[^2_1]: Schaum's Mathematical Handbook of Formulas and Tables.
+[^2_2]: In the original reference it has $B_{n}$ instead of $B_{n+1}$ which seems to be a mistake since then the first few terms can not be obtained from the general term formula.
+
+#### 2.2 The contour integral method
+
+We could try to construct the same contour as we did for $\sin x /x$ function, which is shown in the figure previously, where the contour was divided in to four parts. However a major difference is that $\text{csch}(z)=1 / \sinh(z)$  has infinite poles on the upper-half imaginary axis, $z = i\pi \mathbb{N}$ where $\mathbb{N}$ denotes the natural numbers. Thus, even though the integral is zero on the great half-circle, namely part D in the figure, we still need to deal with an infinite sum from the residuals, complicating the situation unnecessarily. 
+
+Forget about the great half-circle and residual theorem, just consider the infinitesimal half-circle and the real-axis In a sense it is the completion of the Cauchy principal value. When integrated against a regular function, writing $z = \rho e^{ i\theta }$ on arc B,
+$$
+\begin{align}
+\int_{B} dz \, \frac{1}{\sinh z} \phi(x) &= \lim_{ \rho \to 0 } \int_{\pi}^{0} d\theta \, i\rho e^{ i\theta }\left( \frac{1}{\rho e^{ i\theta }} + \frac{\rho e^{ i\theta }}{6} +\dots \right)(\phi(0)+\phi'(0)\rho e^{ i\theta } + \dots)   \\
+ &= \lim_{ \rho \to 0 } \int_{\pi}^{0} d\theta \, i\rho e^{ i\theta }\frac{1}{\rho e^{ i\theta }}\phi(0)\\ 
+&=\int_{\pi}^0 id\theta \,  \phi(0) \\
+&=-i\pi \phi(0).
+\end{align}
+$$
+Recall that the Cauchy principal value is defined by considering the path $A \cup C$ only, we come to the conclusion that 
+$$
+\int_{A\cup B \cup C} dx \,  \text{csch}(x)\phi(x) = \text{Pv. }  \int_{-\infty}^{\infty} dx \, \text{csch}(x)\phi(x) - i\pi \phi(0). 
+$$
+If we define a new distribution $T'_{\text{csch}}$ by
+$$
+\langle T'_{\text{csch}}, \bullet \rangle := \int_{A\cup B \cup C} dx \,  \text{csch}(x) \bullet
+$$
+and compare to the widely accepted definition of the distribution given by $\text{csch}$ via the Cauchy Principal value, 
+$$
+\langle T_{\text{csch}},\bullet \rangle := \text{Pv. } \int_{-\infty}^{\infty} dx \, \text{csch}(x) \bullet \;,  
+$$
+we have 
+$$
+\boxed{
+T'_{\text{csch}} = T_{\text{csch}} -i\pi \delta.
+}
+$$
+where $\delta$ is the Dirac delta distribution.
+
+It can be shown that including an infinitesimal half-circle (path $B$) in the integration path is equivalent as adding to the denominator a small factor $+i\epsilon$, i.e.
+$$
+\int_{A\cup B \cup C} dx \,  \text{csch}(x)\phi(x) = \int_{-\infty}^{\infty} dx \, \frac{1}{\text{csch}(x) + i \epsilon}\phi(x) 
+$$
+Thus $T'$ can also be defined as 
+$$
+\langle T'_{\text{csch}} ,\bullet\rangle := \int_{-\infty}^{\infty} dx \, \frac{1}{\text{csch}+i\delta}  \bullet \; .
 $$
