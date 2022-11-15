@@ -14,7 +14,7 @@ tags:								             # 标签
     - TheodoreFrankel
 ---
 
-### A More General Stokes's Theorem
+### Review
 
 Recall that there are three kinds of integrals, the indefinite, the definite signed and the definite unsigned. In this section we will only consider the signed integral and it's generalization to a manifold, namely the integral of forms. 
 
@@ -76,5 +76,31 @@ $\sigma$ can be considered as a (almost-everywhere) p-dimensional subset of $M$,
 
 Let $V^p$ be a compact oriented manifold with or without boundary, which is also the sub manifold of $M^n$. Let $F: M^n \to W^m$ to be a smooth map, the image $F(V)$ in $W$ need not be a submanifold, for example it could intersect with itself or have other kinks of pathologies. Still, if $\beta \in \Omega^p(W)$ is a $p$-form on $W$, it makes sense to talk of the integral of $\beta$ over $F(V)$, and in fact
 $$
-\int_{F(V)} 
+\int_{F(V)} \beta = \int_{V} \, F^\ast \beta, 
 $$
+which is more or less the definition of pullback of forms. 
+
+Recall that pullback and exterior derivative are commute, namely for a form $\alpha$ we have $df^\ast \alpha = f^\ast (d\alpha)$, thus
+$$
+\begin{align}
+\int_{\partial F(V)} \beta=\int_{F(V)} d\beta  &= \int_{V} \, F^\ast d\beta =  \int_{V} \, d(F^\ast \beta) = \int_{\partial V} \, F^\ast \beta = \int_{F(\partial V)} \, \beta  
+\end{align}
+$$
+And since this relations holds for any $V$ and $\beta$, we can conclude that
+$$
+\partial F(V) = F(\partial V).
+$$
+In other words, taking boundary and continuous map are commute. And since we have added an arbitrary continuous map into the Stokes's theorem, it is called 
+
+**generalized Stokes's theorem**：
+$$
+\int_{F(V)} \, d\beta = \int_{\partial F(V)} \, \beta.  
+$$
+The only thing worth mentioning here is that $F(V)$ need not to be a manifold, as long as the integral makes sense. 
+
+Actually one needs to integrate over the piecewise smooth manifolds, such as a solid cone.  
+
+- - -
+
+### Closed forms and exact forms
+

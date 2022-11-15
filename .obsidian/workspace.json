@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "076385e0ca06d794",
+        "id": "bc6900597c3e689d",
         "type": "tabs",
         "children": [
           {
-            "id": "844cb096eaedee82",
+            "id": "74ae28148ecde074",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9cd6e2786bfd38b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials-Part-I.md",
+                "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials-Part-I.md",
+                "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials-Part-I.md",
+                "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials-Part-I.md"
+                "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md"
               }
             }
           }
@@ -149,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9cd6e2786bfd38b0",
+  "active": "74ae28148ecde074",
   "lastOpenFiles": [
+    "_posts/2022-10-17-Conventions-and-Formula.md",
+    "_posts/2022-10-22-Confinement-in-Toy-Models.md",
+    "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
+    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
+    "2.md",
+    "_posts/2022-9-8-罗莎-卢森堡.md",
+    "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials-Part-I.md",
     "_drafts/2022-10-29-Basics-of-Distributions.md",
     "_drafts/2022-11-12-Duality-Part-I.md",
-    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
-    "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials-Part-I.md",
-    "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md",
-    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
-    "_posts/2022-11-10-Sinc-and-Csch-Function-as-Distributuions.md",
-    "_posts/2022-08-23-The-Nullstellensatz and-the-Geometry-of-Spec-A.md",
-    "img/background8.jpg",
-    "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md"
+    "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md"
   ]
 }
