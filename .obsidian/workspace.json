@@ -12,6 +12,7 @@
             "id": "897de84443857d61",
             "type": "leaf",
             "state": {
+<<<<<<< Updated upstream
               "type": "empty",
               "state": {}
 =======
@@ -29,6 +30,14 @@
                 "source": false
               }
 >>>>>>> 350ced39d47d580e597d22b5da10439827052919
+=======
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "mode": "source",
+                "source": false
+              }
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -98,10 +107,14 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
                 "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
 >>>>>>> 350ced39d47d580e597d22b5da10439827052919
+=======
+                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,10 +131,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
                 "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
 >>>>>>> 350ced39d47d580e597d22b5da10439827052919
+=======
+                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,6 +160,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
               "state": {}
 =======
@@ -150,6 +168,11 @@
                 "file": "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md"
               }
 >>>>>>> 350ced39d47d580e597d22b5da10439827052919
+=======
+              "state": {
+                "file": "_drafts/2022-10-29-Basics-of-Distributions.md"
+              }
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -162,6 +185,7 @@
 <<<<<<< HEAD
   "active": "897de84443857d61",
   "lastOpenFiles": [
+    "_drafts/2022-10-11-Montesquieu.md",
     "_posts/2022-08-22-Finite-ring-extensions.md",
 =======
   "active": "74ae28148ecde074",
@@ -171,7 +195,12 @@
     "_drafts/2022-10-29-Sinc-and-Csch-Function-as-Distributuions.md",
     "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
     "_posts/2022-10-22-Confinement-in-Toy-Models.md",
+<<<<<<< Updated upstream
     "_posts/2022-10-26-Note-on-Meson-Kink-Scattering.md",
+=======
+    "_drafts/2022-10-12-罗马人的一天笔记.md",
+    "_drafts/2022-10-3-共和国史笔记.md",
+>>>>>>> Stashed changes
     "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
 <<<<<<< HEAD
     "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials.md"
