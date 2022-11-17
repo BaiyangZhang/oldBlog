@@ -19,11 +19,19 @@ tags:								#标签
 
 Commutative algebra is the basic of many other fields in mathematics. You need to know quite a lot of commutative algebra if you want to understand algebraic geometry, which is the study of the geometry of polynomial rings, or number theory which I know nothing about, or Invariant theory which is a little out-fashioned nowadays.
 
+<<<<<<< Updated upstream:_drafts/2022-11-17-Basic-Cumutative-Algebra-Class-1.md
 I supposed you know the definition of commutative rings already, if not, you can easily find the definition on the internet. Two textbooks are strongly recommended for complete beginners,
 - [*A First Course in Abstract Algebra*](https://www.amazon.com/First-Course-Abstract-Algebra-7th/dp/0201763907) by  John Fraleigh,
 - [*An Introductory Course in Commutative Algebra*](https://www.amazon.com/Introductory-Commutative-Algebra-Science-Publications/dp/0198501447/ref=sr_1_1?crid=GZ3K9KD5JH2I&keywords=an+introductory+course+in+commutative+algebra&qid=1661817436&s=books&sprefix=an+introductory+course+in+commutative+algeb%2Cstripbooks%2C446&sr=1-1) by A. W. Chatters and C. R. Hajanavis
 and the all-time most classic 
 -  *Introduction to Commutative Algebra* by M.F.Atiyah and I.G.Macdonald.
+=======
+I assume the reader is familiar with the definition of commutative rings, if not, it's a rather simple algebraic thing and you can easily find the definition on the internet. Two textbooks are strongly recommended for complete beginners,
+- [*A First Course in Abstract Algebra*](https://www.amazon.com/First-Course-Abstract-Algebra-7th/dp/0201763907) by  John Fraleigh,
+- [An Introductory Course in Commutative Algebra](https://www.amazon.com/Introductory-Commutative-Algebra-Science-Publications/dp/0198501447/ref=sr_1_1?crid=GZ3K9KD5JH2I&keywords=an+introductory+course+in+commutative+algebra&qid=1661817436&s=books&sprefix=an+introductory+course+in+commutative+algeb%2Cstripbooks%2C446&sr=1-1) by A. W. Chatters and C. R. Hajanavis.
+
+Starting with some examples of commutative rings. 
+>>>>>>> Stashed changes:_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md
 
 Let's start with some examples of commutative rings,
 - The ring of integers $\mathbb{Z}$, for plus, minus and multiplication is defined but not division.

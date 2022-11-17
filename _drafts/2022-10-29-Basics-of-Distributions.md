@@ -149,7 +149,7 @@ where the symbol $\text{Pf}$ is read pseudofunction. Note that $\text{Pv.} \frac
 $$
 \ln z = \ln \left\lvert {z} \right\rvert +i \text{ arg}(z), \quad \text{arg}(z)\in(-\pi,\pi)
 $$
-where $\text{arg}(z)$ is the angle in the complex plane of $z$. Apply this to $\ln(x+i\epsilon)$, from now on $\epsilon$ will be assumed to be infinitesimal unless said otherwise, we have 
+Apply this to $\ln(x+i\epsilon)$, from now on $\epsilon$ will be assumed to be infinitesimal unless said otherwise, we have 
 $$
 \ln(x+i\epsilon) = 
 \begin{cases}
@@ -158,7 +158,7 @@ $$
 \end{cases}
 = \ln(\left\lvert {x} \right\rvert ) + i\pi \theta(-x), \quad x\in \mathbb{R}.
 $$
-What about $d \ln(x+i\epsilon) / dx$? We see that compare to $d\ln(\left\lvert {x} \right\rvert) / dx$, there is a new term, 
+What about $d \ln(x+i\epsilon) / dx$? Compare to $d\ln(\left\lvert {x} \right\rvert) / dx$, there is a new term, 
 $$
 \frac{d}{dx} i\pi \theta(-x) = -i\pi \delta(x).
 $$
