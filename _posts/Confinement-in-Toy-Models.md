@@ -31,13 +31,13 @@ $$
 If we require $g(x,t)\mid_{x=\infty} = 0$ at the boundary, then in the eyes of $g(x,t)$, the boundary of space is compactified to a single point. For example, supposed the space is a two dimensional plane, then in the eyes of $g$, the boundary of the plane, namely $\mathbb{S}^1$ is effectively the same as a point, since $g(x,t)$ is force to take the same value everywhere on the $\mathbb{S}^1$, and the topology of the space will be $\mathbb{R}^2$ with its boundary compactified to a single point, namely 
 $$\mathbb{R}^{2}\cup \text{boundary}\cong\mathbb{S}^2.$$
 
-Depend on the sign of $\mu^2$ in the Lagrangian, there are two possibilities. If $\mu^2$ is positive, we have a massive scalar $\phi$ and a massless gauge field $A^\mu$. The interaction is the usual Coulomb interaction. In $1+1$ dimension, the Gauss's law suggest that the force between two charges does not decrease as the distance increases, consequently it costs infinite energy to separate two charges infinite far away, which is called confinement. Note that different people might use different definitions of confinement and sometimes it becomes pointless to discuss whether there exists confinement or not. 
+Depend on the sign of $\mu^2$ in the Lagrangian, there are two possibilities. If $\mu^2$ is positive, we have a massive scalar $\phi$ and a massless gauge field $A^\mu$. The interaction is the usual Coulomb interaction. In $1+1$ dimension, the Gauss's law suggest that the force between two charges does not decrease as the distance increases, consequently it costs infinite energy to separate two charges infinite far away, which is called confinement. Note that different people might use different definitions of confinement and it can by annoying. 
 
 In $1+1$ dimensions there is also no photon. An easy way to see this is to go back to the classical electrodynamics, where photons are electro-magnetic waves vibrating in the transverse direction as opposed to its propagating direction. However in 1-dimensional space there is no such thing as "transverse direction", thus there can be no electro-magnetic wave solutions. This suggests that there is also no photon in $1+1$ dimension. 
 
-The spectrum in $1+1$ dimension consists of bound states of particle-anti-particle pairs, which are stable due to the confinement, and the fact that they cannot decay into pair of photons, for there exists no photon.
+The spectrum in $1+1$ dimension consists of bound states of particle-antiparticle pairs, which are stable due to the confinement, and the fact that they cannot decay into pair of photons, since there exists no photon.
 
-For the other case where $\mu^2<0$ the potential takes the shape of a double well in $1+1$ dimension, or a Mexico hat in $2+1$ dimension. The spontaneous symmetry breaking has many consequences,
+Where $\mu^2<0$ the potential takes the shape of a double well in $1+1$ dimension, or a Mexico hat in $2+1$ dimension. The spontaneous symmetry breaking has many consequences,
 - the scalar particle has mass $\frac{\mu}{\sqrt{ 2 }}$,
 - the gauge boson has mass $\frac{\mu e}{\sqrt{ \lambda }}$.
 
@@ -49,11 +49,11 @@ To sum up, in both $\mu^2>0$ and $\mu^2<0$ cases in $1+1$ dimension, the force i
 
 ### The Euclidean theory and Finite Action
 
-To have instantons we turn to Euclidean theory, which is 
+To have instantons we turn to 2-dimensional Euclidean theory, the Lagrangian is 
 $$
 \mathcal{L} = \left\lvert D_{\mu}\phi \right\rvert^2 + \frac{\lambda}{4}(\phi^\ast \phi - v^2 )^2 + \frac{1}{4e^2}F_{\mu \nu} F^{\mu \nu}.
 $$
-It is comprised of three positive definite terms. The requirement of finite action puts strong constraints on the asymptotic behavior of the fields. For example, the gauge field must go to a pure gauge as $r\to \infty$,
+It is comprised of three positive definite terms. The requirement of finite action puts strong constraints on the asymptotic behavior of the fields. For instance, the gauge field must go to a pure gauge as $r\to \infty$,
 $$
 A_{\mu} \to g(\theta)\partial_{\mu}g^{-1}(\theta), \quad g\in U(1).
 $$
@@ -79,7 +79,7 @@ where $\Phi$ is the flux. The flux in quantized in units of $2\pi$.
 
 ### Nielson-Olsen Vortices
 
-The solution for each winding number $n$ are knowns to exist and are called the Nilson-Olesen vortices. They are described by two radial functions
+The solution for each winding number $n$ are known to exist and called the Nilson-Olesen vortices. They are described by two radial functions (the profile functions)
 $$
 A_{\mu} = \epsilon_{\mu \nu} r_{\nu} \frac{\Phi(r)}{2\pi r^2}
 $$
@@ -87,9 +87,9 @@ for the gauge field and
 $$
 \phi(t) = e^{ i\theta }f(r)
 $$
-for the scalar field. Substitute them in the equation of motion we will have the equation of motion in terms of $\Phi$ and $f$. A solution exists, the shape can be found easily online so we won't present it here. 
+for the scalar field. Substitute them in the equation of motion we will have the equation of motion in terms of $\Phi$ and $f$. A solution exists, the shape of the profile functions can be found easily online so we won't present it here. 
 
-The interesting part is that the solution actually has non-zero magnetic field! Recall that the magnetic field can be written in terms of $A_{\mu}$ and now $A_{\mu}$ is given in terms of $\Phi(t)$, thus we can just write down the magnetic field in terms of $\Phi(t)$, after some derivation we have 
+The interesting part is that the solution actually has non-zero magnetic field! Recall that the magnetic field can be written in terms of $A_{\mu}$ and now $A_{\mu}$ is given in terms of $\Phi(t)$, thus we can write down the magnetic field in terms of $\Phi(t)$, after some derivation we have 
 $$
 B(r) = \frac{1}{2\pi r} \frac{d}{dr} \frac{\Phi(r)}{2\pi} \to C e^{ -erf(r) }.
 $$
@@ -104,32 +104,32 @@ $\Phi(r)$ has the interpretation of being equal to the magnetic flux inside the 
 
 The magnetic field is concentrated around the origin and decreases exponentially outwards. 
 
-Remember that one of the 2 dimensions is actually time dimension, the instanton solution spans in both space and time. The instanton solution mediates between two topologically different vacuums, both with zero energy. Where does the degenerate vacua come from? To answer that question, first we need to take a look at the Hamiltonian, or energy density. 
+Remember that one of the 2 dimensions was originally time, thus going back to the Minkowski spacetime, the instanton solution spans in both space and time. The instanton solution mediates between two topologically different vacuums, both with zero energy. Where does the degenerate vacua come from? To answer that question, first we need to take a look at the Hamiltonian (energy) density. 
 
-**Switch back to the Minkowski metric.** In the $A_{0} = 0$ gauge (sometimes called the temporal gauge), the energy is given by 
+*Switch back to the Minkowski metric.* In the $A_{0} = 0$ gauge (sometimes called the temporal gauge), the energy is given by 
 $$
 \mathcal{E} = \int dx \, \frac{1}{2e^2} (\partial_{0}A_{1})^2 + \left\lvert \partial_{0}\phi \right\rvert^2 +\left\lvert D_{1}\phi \right\rvert^2 + \lambda(\phi^\ast \phi)^2.
 $$
-An obvious vacuum is $A = 0, \phi = v$, which we call the trivial vacuum. However, don't forget that the model has $U(1)$ gauge symmetry, hence any gauge transformation of the trivial vacuum is itself another vacuum. You might ask, but haven't we already adopted the temporal gauge? Isn't the gauge already fixed？ Yes and no. The time-component of the gauge field is of course fixed, but the space component is still free from a gauge fixing. Thus we are still give the freedom to fix the gauge in the spacial direction. 
+An obvious vacuum is $A = 0, \phi = v$, which we call the trivial vacuum. However, don't forget that the model has $U(1)$ gauge symmetry, hence any gauge transformation of the trivial vacuum is itself another vacuum. You might ask, but haven't we already adopted the temporal gauge, thus fixing the gauge altogether? Yes and no. The time-component of the gauge field is fixed, but the space component is not. We still have the freedom to fix the gauge in the spatial direction! 
 
 We impose the additional condition, 
 $$
 \lim_{ x \to \infty } g(x) = 1.
 $$
-This will force the function $g(x)$ to see the 1-D space as a circle. What I mean here is that, since $g(x)$ takes the same value on both ends, we can compactify the two ends of spacial direction $\mathbb{R}$ and make it into the circle, as far as $g(x)$ is concerned, they are the same. Since $g(x)$ takes value in $U(1)\cong \mathbb{S}^1$, the map 
+This will force the function $g(x)$ to see the 1-D space as a circle. What I mean here is that, since $g(x)$ takes the same value on both ends, we can compactify the two ends of spatial direction $\mathbb{R}$ and make it into the circle, as far as $g(x)$ is concerned, they are the same. Since $g(x)$ takes value in $U(1)\cong \mathbb{S}^1$, the map 
 $$
 g:\mathbb{S}^1 \to \mathbb{S}^1
 $$
-is again classified topologically by the homotopy group, a winding number. Thus the classical vacua 
+is again classified topologically by the homotopy group, by winding numbers. In other words, the classical vacua 
 $$
 \begin{align}
   \phi &= g_{n}(x) v, \\
   A_{1}  &= ig_{n}^{-1}(x)\frac{d}{dx} g_{n}(x)
 \end{align}
 $$
-are indexed by winding number $n\in\mathbb{N}$ and different vacua are homotopically inequivalent. 
+are indexed by winding number $n\in\mathbb{N}$ and different vacua are *homotopy inequivalent*. 
 
-However, the transition amplitude from one vacuum to another is not infinite anymore, for the energy barrier between them are now finite. This is because we can find a finite action solution in the Euclidean spacetime. The Nielson-Olesen vortices interpolate between these vacua. This is not supposed to be obvious the the naked eyes though, to see that we first need to convert the Nielson-Olesen vortices into the temporal gauge. 
+However, unlike in the double well QFT model, the transition amplitude from one vacuum to another is not infinite anymore, for the energy barrier between them are now finite. This is because we can find a finite action solution in the Euclidean spacetime. The Nielson-Olesen vortices interpolate between these vacua. This is not supposed to be obvious the the naked eyes though, to see that we first need to convert the Nielson-Olesen vortices into the temporal gauge. 
 
 We can approximate the spacetime, whether Euclidean or Minkowski, as a square, where the $x$-axis is space and $y$-axis is the time. We call it the spacetime square. 
 
