@@ -29,8 +29,10 @@ Let's start with some examples of commutative rings,
 - The ring of integers $\mathbb{Z}$, for plus, minus and multiplication is defined but not division.
 - The Gaussian integer $\mathbb{Z}[i]$, it is the set of complex integers of form $m + i n$ where $m,n$ are integers and $i^{2}=-1$.
 
+
+
 **Definition.** 
-- A *Domain* is a nonzero ring with in which $ab = 0$ implies $a=0$ or $b=0$ or both. If $ab=0$ and $a,b=0$, then $a,b$ are called *zero devisors*, so a domain can be said to be a non-zero ring without zero devisors. It makes a lot of operations familiar to us from the manipulation of integer numbers still valid. For example $\mathbb{Z}$ is a Domain. 
+- A *Domain* is a nonzero ring with in which $ab = 0$ implies $a=0$ or $b=0$ or both. If $ab=0$ and $a,b\neq 0$, then $a,b$ are called *zero devisors*, so a domain can be said to be a non-zero ring without zero devisors. It makes a lot of operations familiar to us from the manipulation of integer numbers still valid. For example $\mathbb{Z}$ is a Domain. 
 - An integral domain is just a commutative domain.
 - A *prime element* is an element which is not zero or a unit (defined next), satisfying $p | ab$ implies that $p | a$ or $p|b$, where $p|a$ means $p$ divides $a$.
 - A unit of a ring is an invertible element for the multiplication of the ring. That is, an element $u$ of a ring is a unit if there exists $v$ in the same ring such that $uv = vu =1$.
