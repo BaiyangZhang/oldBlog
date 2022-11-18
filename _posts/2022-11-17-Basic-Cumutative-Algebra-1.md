@@ -1,8 +1,7 @@
-
 ---
-layout:     post   				    # 使用的布局（不需要改）
-title:      Basic Commutative Algebra Class 1			# 标题 
-subtitle:   Inspired by the lectures by Richard E. Borcherds
+layout:     post   				                    # 使用的布局（不需要改）
+title:      Basic Commutative Algebra Class 1		# 标题 
+subtitle:   Class 1
 date:       2022-11-17 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/mathArt5.jpg 	#这篇文章标题背景图片
