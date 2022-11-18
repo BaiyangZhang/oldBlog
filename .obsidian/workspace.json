@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -151,15 +152,15 @@
   },
   "active": "3cb2266bcf41da62",
   "lastOpenFiles": [
+    "img/mathArt9.jpg",
+    "img/mathArt8.jpg",
+    "img/mathArt7.jpg",
     "_posts/2022-11-17-Basic-Cumutative-Algebra-1.md",
     "_posts/2022-11-17-Basic-Cumutative-Algebra-2.md",
     "_posts/2022-11-17-Confinement-in-Toy-Models.md",
     "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md",
     "_drafts/2022-11-12-Duality-Part-I.md",
     "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials-Part-I.md",
-    "_drafts/2022-10-29-Basics-of-Distributions.md",
-    "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
-    "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
-    "_drafts/2022-10-12-罗马人的一天笔记.md"
+    "_drafts/2022-10-29-Basics-of-Distributions.md"
   ]
 }
