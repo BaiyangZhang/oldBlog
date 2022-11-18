@@ -57,10 +57,13 @@ By taking the quotient $A / \frak{a}$, we are essentially treating all the eleme
 
 If an ideals $\frak{a}$ is a virus in a ring $A$ and "infection" is "multiplication", then the quotient ring $A / \frak{a}$ is what we get after killing the virus. 
 
-**Proposition.** There is a one-to-one order-preserving, correspondence between the ideals $\frak{b}$ of $A$ which contain $\frak{a}$, and the ideal $\overline{\frak{b}}$ of $A / \frak{a}$, given by $\frak{b} = \phi^{-1}(\overline{\frak{b}})$.  
+**Proposition.** There is a one-to-one order-preserving, correspondence between the ideals $\frak{b}$ of $A$ which contain $\frak{a}$, and the ideal $\overline{\frak{b}}$ of $A / \frak{a}$, given by $\frak{b} = \phi^{-1}(\overline{\frak{b}})$, where the ring *homomorphism* $\phi:A \to {A} / {\frak{a}}$ maps each $x$ in $A$ to its coset $x+\frak{a}$. 
 
+In the above proposition, the `order` is given by set inclusion, for example $A \subset B$ defines an order between $A$ and $B$. To understand the correspondences consider the simples example, $\frak{a}$ itself. $\frak{a}$ is an ideal in $A$ and $\phi(\frak{a})$ is an ideal in $A / \frak{a}$, the zero ideal. Conversely, the pre-image of zero ideal in $A / \frak{a}$, i.e., $\phi^{-1}(0)$ is $\{ x\in A \mid \phi(x)=0 \}=\frak{a}$ by construction. There is a one-to-one correspondence between $\frak{a}$ as an ideal in $A$ and $0$ as the zero ideal in $A / \frak{a}$. Given a bigger ideal $\frak{b}$ which contains $\frak{a}$, we can "cure" $\frak{b}$ of virus $\frak{a}$ and get another ideal, but in $A / \frak{a}$, and the converse also holds. 
 
+- - -
 
+Preview of class 2
 
 **Definition.** 
 - A *Domain* is a nonzero ring with in which $ab = 0$ implies $a=0$ or $b=0$ or both. If $ab=0$ and $a,b\neq 0$, then $a,b$ are called *zero devisors*, so a domain can be said to be a non-zero ring without zero devisors. It makes a lot of operations familiar to us from the manipulation of integer numbers still valid. For example $\mathbb{Z}$ is a Domain. 
@@ -68,4 +71,3 @@ If an ideals $\frak{a}$ is a virus in a ring $A$ and "infection" is "multiplicat
 - A *prime element* is an element which is not zero or a unit (defined next), satisfying $p | ab$ implies that $p | a$ or $p|b$, where $p|a$ means $p$ divides $a$.
 - A unit of a ring is an invertible element for the multiplication of the ring. That is, an element $u$ of a ring is a unit if there exists $v$ in the same ring such that $uv = vu =1$.
 
-A question people usually ask about these rings is: Is it a Unique Factorization Domain, U.F.D. for short? Meaning that can every element in it be uniquely factorized as a product of primes up to order units. 
