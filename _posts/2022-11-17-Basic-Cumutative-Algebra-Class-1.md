@@ -1,4 +1,4 @@
----
+
 ---
 layout:     post   				    # 使用的布局（不需要改）
 title:      Basic Commutative Algebra Class 1			# 标题 
