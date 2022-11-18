@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-Class-1.md",
+                "file": "_posts/2022-11-17-Basic-Cumutative-Algebra-Class-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-Class-1.md",
+                "file": "_posts/2022-11-17-Basic-Cumutative-Algebra-Class-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-Class-1.md",
+                "file": "_posts/2022-11-17-Basic-Cumutative-Algebra-Class-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-Class-1.md"
+                "file": "_posts/2022-11-17-Basic-Cumutative-Algebra-Class-1.md"
               }
             }
           }
@@ -136,7 +136,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1cc135b704daeef3",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
     "_drafts/2022-8-30-Basic-Cumutative-Algebra-Class-1.md",
     "_posts/2022-11-17-Confinement-in-Toy-Models.md",
