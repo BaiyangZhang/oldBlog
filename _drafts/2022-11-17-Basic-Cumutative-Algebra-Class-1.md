@@ -26,7 +26,8 @@ I supposed you know the definition of commutative rings already, if not, you can
 and the all-time most classic 
 -  *Introduction to Commutative Algebra* by M.F.Atiyah and I.G.Macdonald.
 =======
-I assume the reader is familiar with the definition of commutative rings, if not, it's a rather simple algebraic thing and you can easily find the definition on the internet. Two textbooks are strongly recommended for complete beginners,
+
+I assume the reader is familiar with the definition of commutative rings, which can be easily find the definition on the internet. Two textbooks are strongly recommended for complete beginners,
 - [*A First Course in Abstract Algebra*](https://www.amazon.com/First-Course-Abstract-Algebra-7th/dp/0201763907) by  John Fraleigh,
 - [An Introductory Course in Commutative Algebra](https://www.amazon.com/Introductory-Commutative-Algebra-Science-Publications/dp/0198501447/ref=sr_1_1?crid=GZ3K9KD5JH2I&keywords=an+introductory+course+in+commutative+algebra&qid=1661817436&s=books&sprefix=an+introductory+course+in+commutative+algeb%2Cstripbooks%2C446&sr=1-1) by A. W. Chatters and C. R. Hajanavis.
 

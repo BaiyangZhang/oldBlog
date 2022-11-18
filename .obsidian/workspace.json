@@ -11,8 +11,12 @@
             "id": "1cc135b704daeef3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-Class-1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-Class-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-Class-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-Class-1.md"
+              }
             }
           }
         ]
