@@ -374,3 +374,178 @@ In its positive aims, however, this form of Socialism aspires either to restorin
 
 Its last words are: corporate guilds for manufacture; patriarchal relations in agriculture. Ultimately, when stubborn historical facts had dispersed all intoxicating effects of self-deception, this form of Socialism ended in a miserable fit of the blues. 
 
+
+#### German or “True” Socialism 
+
+The Socialist and Communist literature of France, a literature that originated under the pressure of a bourgeoisie in power, and that was the expressions of the struggle against this power, was introduced into Germany at a time when the bourgeoisie, in that country, had just begun its contest with feudal absolutism.
+
+German philosophers, would-be philosophers, and beaux esprits (men of letters), eagerly seized on this literature, only forgetting, that when these writings immigrated from France into Germany, French social conditions had not immigrated along with them. In contact with German social conditions, this French literature lost all its immediate practical significance and assumed a purely literary aspect. Thus, to the German philosophers of the Eighteenth Century, the demands of the first French Revolution were nothing more than the demands of “Practical Reason” in general, and the utterance of the will of the revolutionary French bourgeoisie signified, in their eyes, the laws of pure Will, of Will as it was bound to be, of true human Will generally.
+The work of the German literati consisted solely in bringing the new French ideas into harmony with their ancient philosophical conscience, or rather, in annexing the French ideas without deserting their own philosophic point of view.
+
+This annexation took place in the same way in which a foreign language is appropriated, namely, by translation.
+
+It is well known how the monks wrote silly lives of Catholic Saints over the manuscripts on which the classical works of ancient heathendom had been written. The German literati reversed this process with the profane French literature. They wrote their philosophical nonsense beneath the French original. For instance, beneath the French criticism of the economic functions of money, they wrote “Alienation of Humanity”, and beneath the French criticism of the bourgeois state they wrote “Dethronement of the Category of the General”, and so forth.
+
+The introduction of these philosophical phrases at the back of the French historical criticisms, they dubbed “Philosophy of Action”, “True Socialism”, “German Science of Socialism”, “Philosophical Foundation of Socialism”, and so on.
+
+The French Socialist and Communist literature was thus completely emasculated. And, since it ceased in the hands of the German to express the struggle of one class with the other, he felt conscious of having overcome “French one-sidedness” and of representing, not true requirements, but the requirements of Truth; not the interests of the proletariat, but the interests of Human Nature, of Man in general, who belongs to no class, has no reality, who exists only in the misty realm of philosophical fantasy.
+
+This German socialism, which took its schoolboy task so seriously and solemnly, and extolled its poor stock-in-trade in such a mountebank fashion, meanwhile gradually lost its pedantic innocence.
+
+The fight of the Germans, and especially of the Prussian bourgeoisie, against feudal aristocracy and absolute monarchy, in other words, the liberal movement, became more earnest.
+
+By this, the long-wished for opportunity was offered to “True” Socialism of confronting the political movement with the Socialist demands, of hurling the traditional anathemas against liberalism, against representative government, against bourgeois competition, bourgeois freedom of the press, bourgeois legislation, bourgeois liberty and equality, and of preaching to the masses that they had nothing to gain, and everything to lose, by this bourgeois movement. German Socialism forgot, in the nick of time, that the French criticism, whose silly echo it was, presupposed the existence of modern bourgeois society, with its corresponding economic conditions of existence, and the political constitution adapted thereto, the very things those attainment was the object of the pending struggle in Germany.
+
+To the absolute governments, with their following of parsons, professors, country squires, and officials, it served as a welcome scarecrow against the threatening bourgeoisie.
+
+It was a sweet finish, after the bitter pills of flogging and bullets, with which these same governments, just at that time, dosed the German working-class risings.
+
+While this “True” Socialism thus served the government as a weapon for fighting the German bourgeoisie, it, at the same time, directly represented a reactionary interest, the interest of German Philistines. In Germany, the petty-bourgeois class, a relic of the sixteenth century, and since then constantly cropping up again under the various forms, is the real social basis of the existing state of things. 
+
+To preserve this class is to preserve the existing state of things in Germany. The industrial and
+political supremacy of the bourgeoisie threatens it with certain destruction – on the one hand,
+from the concentration of capital; on the other, from the rise of a revolutionary proletariat. “True” Socialism appeared to kill these two birds with one stone. It spread like an epidemic.
+The robe of speculative cobwebs, embroidered with flowers of rhetoric, steeped in the dew of
+sickly sentiment, this transcendental robe in which the German Socialists wrapped their sorry
+“eternal truths”, all skin and bone, served to wonderfully increase the sale of their goods amongst such a public.
+
+And on its part German Socialism recognised, more and more, its own calling as the bombastic
+representative of the petty-bourgeois Philistine.
+
+It proclaimed the German nation to be the model nation, and the German petty Philistine to be the
+typical man. To every villainous meanness of this model man, it gave a hidden, higher, Socialistic interpretation, the exact contrary of its real character. It went to the extreme length of directly opposing the “brutally destructive” tendency of Communism, and of proclaiming its supreme and impartial contempt of all class struggles. With very few exceptions, all the so-called Socialist and Communist publications that now (1847) circulate in Germany belong to the domain of this foul and enervating literature.[^8]
+
+[^8]: The revolutionary storm of 1848 swept away this whole shabby tendency and cured its protagonists of the desire to dabble in socialism. The chief representative and classical type of this tendency is Mr Karl Gruen. [Note by Engels tothe German edition of 1890.]}
+
+#### Conservative or Bourgeois Socialism
+
+A part of the bourgeoisie is desirous of redressing social grievances in order to secure the
+continued existence of bourgeois society.
+
+To this section belong economists, philanthropists, humanitarians, improvers of the condition of
+the working class, organisers of charity, members of societies for the prevention of cruelty to
+animals, temperance fanatics, hole-and-corner reformers of every imaginable kind. This form of
+socialism has, moreover, been worked out into complete systems.
+
+We may cite Proudhon’s Philosophie de la Mis\'ere as an example of this form.
+
+The Socialistic bourgeois want all the advantages of modern social conditions without the struggles and dangers necessarily resulting therefrom. They desire the existing state of society,
+minus its revolutionary and disintegrating elements. They wish for a bourgeoisie without a
+proletariat. The bourgeoisie naturally conceives the world in which it is supreme to be the best;
+and bourgeois Socialism develops this comfortable conception into various more or less complete
+systems. In requiring the proletariat to carry out such a system, and thereby to march straightway into the social New Jerusalem, it but requires in reality, that the proletariat should remain within the bounds of existing society, but should cast away all its hateful ideas concerning the bourgeoisie.
+
+A second, and more practical, but less systematic, form of this Socialism sought to depreciate
+every revolutionary movement in the eyes of the working class by showing that no mere political
+reform, but only a change in the material conditions of existence, in economical relations, could
+be of any advantage to them. By changes in the material conditions of existence, this form of
+Socialism, however, by no means understands abolition of the bourgeois relations of production,
+an abolition that can be affected only by a revolution, but administrative reforms, based on the
+continued existence of these relations; reforms, therefore, that in no respect affect the relations between capital and labour, but, at the best, lessen the cost, and simplify the administrative work, of bourgeois government. 
+
+Bourgeois Socialism attains adequate expression when, and only when, it becomes a mere figure
+of speech.
+
+Free trade: for the benefit of the working class. Protective duties: for the benefit of the working class. Prison Reform: for the benefit of the working class. This is the last word and the only seriously meant word of bourgeois socialism.
+
+It is summed up in the phrase: the bourgeois is a bourgeois – for the benefit of the working class. 
+
+
+#### Critical-Utopian Socialism and Communism 
+
+We do not here refer to that literature which, in every great modern revolution, has always given
+voice to the demands of the proletariat, such as the writings of Babeuf and others.
+
+The first direct attempts of the proletariat to attain its own ends, made in times of universal
+excitement, when feudal society was being overthrown, necessarily failed, owing to the then
+undeveloped state of the proletariat, as well as to the absence of the economic conditions for its emancipation, conditions that had yet to be produced, and could be produced by the impending
+bourgeois epoch alone. The revolutionary literature that accompanied these first movements of
+the proletariat had necessarily a reactionary character. It inculcated universal asceticism and
+social levelling in its crudest form.
+
+The Socialist and Communist systems, properly so called, those of Saint-Simon, Fourier, Owen,
+and others, spring into existence in the early undeveloped period, described above, of the struggle between proletariat and bourgeoisie (see Section I. Bourgeois and Proletarians).
+The founders of these systems see, indeed, the class antagonisms, as well as the action of the
+decomposing elements in the prevailing form of society. But the proletariat, as yet in its infancy, offers to them the spectacle of a class without any historical initiative or any independent political movement.
+
+Since the development of class antagonism keeps even pace with the development of industry, the
+economic situation, as they find it, does not as yet offer to them the material conditions for the emancipation of the proletariat. They therefore search after a new social science, after new social laws, that are to create these conditions.
+
+Historical action is to yield to their personal inventive action; historically created conditions of emancipation to fantastic ones; and the gradual, spontaneous class organisation of the proletariat to an organisation of society especially contrived by these inventors. Future history resolves itself, in their eyes, into the propaganda and the practical carrying out of their social plans.
+
+In the formation of their plans, they are conscious of caring chiefly for the interests of the
+working class, as being the most suffering class. Only from the point of view of being the most
+suffering class does the proletariat exist for them.
+
+The undeveloped state of the class struggle, as well as their own surroundings, causes Socialists
+of this kind to consider themselves far superior to all class antagonisms. They want to improve
+the condition of every member of society, even that of the most favoured. Hence, they habitually
+appeal to society at large, without the distinction of class; nay, by preference, to the ruling class.
+
+For how can people, when once they understand their system, fail to see in it the best possible
+plan of the best possible state of society?
+
+Hence, they reject all political, and especially all revolutionary action; they wish to attain their ends by peaceful means, necessarily doomed to failure, and by the force of example, to pave the way for the new social Gospel.
+
+Such fantastic pictures of future society, painted at a time when the proletariat is still in a very undeveloped state and has but a fantastic conception of its own position, correspond with the first instinctive yearnings of that class for a general reconstruction of society. 
+
+But these Socialist and Communist publications contain also a critical element. They attack every
+principle of existing society. Hence, they are full of the most valuable materials for the
+enlightenment of the working class. The practical measures proposed in them – such as the
+abolition of the distinction between town and country, of the family, of the carrying on of
+industries for the account of private individuals, and of the wage system, the proclamation of
+social harmony, the conversion of the function of the state into a mere superintendence of
+production – all these proposals point solely to the disappearance of class antagonisms which
+were, at that time, only just cropping up, and which, in these publications, are recognised in their earliest indistinct and undefined forms only. These proposals, therefore, are of a purely Utopian character.
+
+The significance of Critical-Utopian Socialism and Communism bears an inverse relation to
+historical development. In proportion as the modern class struggle develops and takes definite
+shape, this fantastic standing apart from the contest, these fantastic attacks on it, lose all practical value and all theoretical justification. Therefore, although the originators of these systems were, in many respects, revolutionary, their disciples have, in every case, formed mere reactionary sects. They hold fast by the original views of their masters, in opposition to the progressive historical development of the proletariat. They, therefore, endeavour, and that consistently, to deaden the class struggle and to reconcile the class antagonisms. They still dream of experimental realisation of their social Utopias, of founding isolated “phalansteres”, of establishing “Home Colonies”, or setting up a “Little Icaria”.[^9]
+
+[^9]: Phalanstéres were Socialist colonies on the plan of Charles Fourier; Icaria was the name given by Cabet to his Utopia and, later on, to his American Communist colony. [Note by Engels to the English edition of 1888.] “Home Colonies” were what Owen called his Communist model societies. Phalanstéres was the name of the public palaces planned by Fourier. Icaria was the name given to the Utopian land of fancy, whose Communist institutions Cabet portrayed. [Note by Engels to the German edition of 1890.] - duodecimo editions of the New Jerusalem – and to realise all these castles in the air, they are compelled to appeal to the feelings and purses of the bourgeois. By degrees, they sink into the category of the reactionary or conservative Socialists depicted above, differing from these only by more systematic pedantry, and by their fanatical and superstitious belief in the miraculous effects of their social science.
+
+They, therefore, violently oppose all political action on the part of the working class; such action, according to them, can only result from blind unbelief in the new Gospel.
+
+The Owenites in England, and the Fourierists in France, respectively, oppose the Chartists and the Réformistes. 
+
+### Position of the Communists in Relation to the Various Existing Opposition Parties
+
+Section II has made clear the relations of the Communists to the existing working-class parties,
+such as the Chartists in England and the Agrarian Reformers in America.
+
+The Communists fight for the attainment of the immediate aims, for the enforcement of the
+momentary interests of the working class; but in the movement of the present, they also represent
+and take care of the future of that movement. In France, the Communists ally with the social Democrats[^10] against the conservative and radical bourgeoisie, reserving, however, the right to take up a critical position in regard to phases and illusions traditionally handed down from the great
+Revolution.
+
+[^10]: The party then represented in Parliament by Ledru-Rollin, in literature by Louis Blanc, in the daily press by the R\'eforme. The name of Social-Democracy signifies, with these its inventors, a section of the Democratic or Republican Party more or less tinged with socialism. [Engels, English Edition1888]
+
+In Switzerland, they support the Radicals, without losing sight of the fact that this party consists of antagonistic elements, partly of Democratic Socialists, in the French sense, partly of radical bourgeois.
+
+In Poland, they support the party that insists on an agrarian revolution as the prime condition for national emancipation, that party which fomented the insurrection of Cracow in 1846.
+
+In Germany, they fight with the bourgeoisie whenever it acts in a revolutionary way, against the absolute monarchy, the feudal squirearchy[^11] , and the petty bourgeoisie.
+
+[^11]: (in the past in England) the people of high social status who owned large areas of land, considered as a social or political group.
+
+But they never cease, for a single instant, to instil into the working class the clearest possible recognition of the hostile antagonism between bourgeoisie and proletariat, in order that the German workers may straightway use, as so many weapons against the bourgeoisie, the social and political conditions that the bourgeoisie must necessarily introduce along with its supremacy, and in order that, after the fall of the reactionary classes in Germany, the fight against the bourgeoisie itself may immediately begin.
+
+The Communists turn their attention chiefly to Germany, because that country is on the eve of a
+bourgeois revolution that is bound to be carried out under more advanced conditions of European
+civilisation and with a much more developed proletariat than that of England was in the seventeenth, and France in the eighteenth century, and because the bourgeois revolution in Germany will be but the prelude to an immediately following proletarian revolution.
+
+In short, the Communists everywhere support every revolutionary movement against the existing
+social and political order of things.
+
+In all these movements, they bring to the front, as the leading question in each, the property
+question, no matter what its degree of development at the time.
+
+Finally, they labour everywhere for the union and agreement of the democratic parties of all
+countries.
+
+The Communists disdain to conceal their views and aims. They openly declare that their ends can
+be attained only by the forcible overthrow of all existing social conditions. Let the ruling classes tremble at a Communistic revolution. The proletarians have nothing to lose but their chains. They have a world to win.
+
+Working Men of All Countries, Unite![^12]
+
+[^12]: The famous final phrase of the Manifesto, “Working Men of All Countries, Unite!”, in the original German is: “Proletarier aller Länder, vereinigt euch!” Thus, a more correct translation would be “Proletarians of all countries, Unite!”. “Workers of the World, Unite. You have nothing to lose but your chains!” is a popularisation of the last three sentences, and is not found in any official translation. Since this English translation was approved by Engels, we have kept the original intact.
