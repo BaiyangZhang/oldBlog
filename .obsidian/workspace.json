@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-3.md",
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-3.md",
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,14 +73,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-3.md",
+                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "90ef594f9831f37e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b80c90a3625ef9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -147,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-3.md",
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-3.md",
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-3.md"
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md"
               }
             }
           }
@@ -198,17 +222,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "257366344cf32c9c",
+  "active": "2b80c90a3625ef9b",
   "lastOpenFiles": [
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n 2.md",
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n 1.md",
+    "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
     "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
-    "_drafts/2022-11-17-Basic-Cumutative-Algebra-3.md",
     "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials-Part-I.md",
     "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",
-    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
     "img/mathArt9.jpg",
-    "img/mathArt8.jpg",
-    "img/mathArt7.jpg",
-    "_posts/2022-11-17-Basic-Cumutative-Algebra-1.md"
+    "img/mathArt8.jpg"
   ]
 }
