@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+                "file": "_posts/2022-11-21-Confinement-in-Toy-Models.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.50152587890625,
+    "width": 308.5069465637207,
     "collapsed": true
   },
   "right": {
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+                "file": "_posts/2022-11-21-Confinement-in-Toy-Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+                "file": "_posts/2022-11-21-Confinement-in-Toy-Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md"
+                "file": "_posts/2022-11-21-Confinement-in-Toy-Models.md"
               }
             }
           }
@@ -224,10 +224,10 @@
   },
   "active": "2b80c90a3625ef9b",
   "lastOpenFiles": [
+    "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-n 2.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-n 1.md",
-    "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
     "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
     "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials-Part-I.md",
     "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",

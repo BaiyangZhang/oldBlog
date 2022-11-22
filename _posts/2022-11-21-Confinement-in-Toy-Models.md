@@ -2,7 +2,7 @@
 layout:     post   				        # 使用的布局（不需要改）
 title:      Confinement in Toy Models 	# 标题 
 subtitle:   The role of Instantons      # 副标题
-date:       2022-11-17			        # 时间
+date:       2022-11-21			        # 时间
 author:     Baiyang Zhang 				# 作者
 header-img: img/mathArt3.jpg 	        # 这篇文章标题背景图片
 catalog: true 						    # 是否归档
@@ -147,11 +147,11 @@ The Nielson-Olesen vortex now interprets between two different vacua,
 
 We can calculate the matrix element 
 $$
-\left\langle n \right\rvert e^{ -HT/\hbar } \left\lvert{0}\right\rangle = \mathcal{N}\int_{n[\phi_{\text{in}}=0]}^{[\phi_{\text{out}}=n]} \mathcal{D}A_{1} \mathcal{D}\phi^\ast \mathcal{D}\phi \, e^{\frac{-S_{E}[\phi]}{\hbar}}
+\left\langle n \right\rvert e^{ -HT/\hbar } \left\lvert{0}\right\rangle = \mathcal{N}\int_{\nu[\phi_{\text{in}}]=0}^{\nu[\phi_{\text{out}}]=n} \mathcal{D}A_{1} \mathcal{D}\phi^\ast \mathcal{D}\phi \, e^{\frac{-S_{E}[\phi]}{\hbar}}
 $$
-using semi-classical methods. The functional integral is over all the field configurations with winding number $n$. This of course includes the configuration with one instanton with winding number $n$, but that is by no means the only, or even the most important, configuration. There could as well be $n_{+}$ instantons with winding number $1$ and $n_{-}$ anti-instantons with winding number $-1$. Assume these instanton and anti-instantons are separated far enough (instanton gas) so the total configuration can be approximated by simple superposition of single instanton solutions. The contribution will include two parts, 
-- Each configuration has action $(n_{+}+n_{-})e^{ -S[\text{ins}] }$, where $S[\text{ins}]$  is the action of a single $n=\pm 1$ instanton.
-- There is a entropy factor summing over all the possible locations of the instantons, $\frac{(TL)^{n_{+}+n_{-}}}{n_{+}! N_{-}!}$.
+using semi-classical methods. The functional integral is over all the field configurations with winding number $n$. This of course includes the configuration with one instanton with winding number $n$, but that is by no means the only, or even the most important, configuration. There could as well be $n_{+}$ instantons with winding number $1$ and $n_{-}$ anti-instantons with winding number $-1$. Assume these instanton and anti-instantons are separated far enough (the so-called instanton gas model) so the total configuration can be approximated by simple superposition of single instanton solutions. The action should include 
+- configurations with action $(n_{+}+n_{-})e^{ -S[\text{ins}] }$, where $S[\text{ins}]$  is the action of a single $n=\pm 1$ instanton, and
+- There is a entropy factor summing over all the possible locations of the instantons, $\frac{(TL)^{n_{+}+n_{-}}}{(n_{+})! (n_{-})!}$.
 
 Long story short, by calculating the transition amplitude, also with the help of identity
 $$
@@ -172,30 +172,52 @@ The rearrangement of the vacuum has important consequences for the force between
 $$
 e^{ -iq/e \int dx_{\mu} \, A_{\mu}  }
 $$
-where $q$ is the charge of the particle and $\frac{q}{e}$ is dimensionless. To see this, consider an charged particle governed by the Lagrangian
+where $q$ is the charge of the particle and $\frac{q}{e}$ is dimensionless. To see this, consider an charged particle governed by the gauged Lagrangian
 $$
 L = \frac{1}{2} \dot{x}^2 + q \dot{x}_{i} A_{i} -qA_{0} - V(x_{i}),
 $$
-a easy way to remember (part of) the Lagrangian is to replace $\partial$ by covariant derivatives. From the Lagrangian we get the equation of motion which is coupled to the gauge fields. The gauge fields can also be written in terms of electric and magnetic fields. Thus the path integral is augmented by the extra gauge-coupling term
+From the Lagrangian we get the equation of motion where the particle is coupled to the gauge field. The gauge field can also be written in terms of electric and magnetic fields. Thus, in comparison to the not-gauged case, the now gauged path integral is augmented by the extra gauge-coupling term
 $$
 \boxed{
-e^{ -i S_{0}/\hbar } = (\text{old terms}) \times e^{ -i \frac{q}{e} \int dt \dot{x}_{i}A_{i}-qA_{0} }
+e^{ -i S_{0}/\hbar } = (\text{old terms}) \times e^{ -i \frac{q}{e} \int dt \,(A_{0}-\dot{x}_{i}A_{i}) }
 = (\text{old terms}) \times e^{ -i \frac{q}{e} \int dx^\mu A_{\mu}}.
 }
 $$
 For an antiparticle we just need to change the sign of the charge.
 
-Next we introduce one of the most concepts in quantum field theory, the Wilson loop, which is indispensable in studying confinement, or interactions in general, in any quantum field theoretic model. 
+Next we introduce one of the most important concepts in quantum field theory, the Wilson loop, which is indispensable in the study of confinement, or interactions in general, in any quantum field theoretic model. 
 
-Imagine that we create a pair of charged particles from the thin air. These test particles are put in by hand, their position and motion are fixed by the creators, us. They behave as we want them to, yet still coupled to the gauge fields, experiencing all the interactions. They are sometimes referred to as external charges. So, after we create the pair, we force them to separate by a large distance $R$. Then we keep the particles there for a while, say for time $T'$, so they could have long enough time to fully appreciate the interaction in between. After the time $T'$, since their job is done, we send them back to where they were created and annihilate them into nothing, dust to dust. The trajectory of these two particles will form a `square`, as shown in the below. 
+Imagine that we create a pair of charged particles from the thin air. These test particles are put in by hand, their position and motion fixed by hand. They behave as we want them to, yet still coupled to the gauge fields, experiencing all the interactions. They are sometimes referred to as external charges. So, after we create the pair, we force them to separate by a large distance $R$. Then we hold the particles fixed for time $T'$, so they could have a long enough time to fully appreciate the interaction between them. After time $T'$, we send them back to where they were created and annihilate them into nothing, dust to dust. The trajectory of these two particles will form a `loop`, as shown in the below. It is the Wilson loop.
 
 ![TheWilsonLoop](/img/wilson.jpg)
 
-Now the question is: for the Wilson loop shown above, what is the phase factor associated? The phase factor is integrated along the trajectory, which is a closed loop in our case, thus the integral becomes a closed integral, as shown below.
+Now the question is: for the Wilson loop shown above, what is the phase factor associated? The phase factor is integrated along the trajectory, which is a closed loop in our case, thus the integral becomes a closed integral, 
 $$
-\text{Phase factor } = e^{ -i \frac{q}{e}\oint dx^\mu A_{\mu}} = e^{ -i \frac{q}{e} \oint A }, \quad A := A_{\mu}dx^\mu,
+\text{Phase factor } = e^{ -i \frac{q}{e}\oint dx^\mu A_{\mu}} = e^{ -i \frac{q}{e} \oint A }, \quad A := A_{\mu}dx^\mu.
+$$ 
+The associated operator
 $$
-where we have used some differential form notation. 
+W = e^{ - \frac{q}{e} \oint A }
+$$
+is called the Wilson operator. The vacuum expectation value (VEV), also called the matrix element, of Wilson operator can be compared to the time evolution of a pair of (anti-)particles and annihilate them after time $T$, in the language of Hamiltonian is proportional to $e^{ - Ht }$, the minus sign since we are now working in the Euclidean metric. Thus the VEV of Wilson loop has the interpretation of $e^{ -E(R)T }$, where $E(R)$ is the energy of a particle-antiparticle pair separated by distance $R$. 
+
+If $E(R)\sim cR$ for some constant $c$, the interaction between two charges is said to be *confining*, since the energy needed to separated them increases linearly with distance, eventually the energy between then will be enough to create another pair of particle-antiparticle. The VEV of Wilson loop operator will behave like
+$$
+\left\langle W \right\rangle \sim e^{ -c A }
+$$
+where $A$ is the area of the loop. This is the celebrated area law criterion of area law behavior of the Wilson loop for confining interactions. 
+
+If the potential behaviors like $E(r)\sim D$ for some constant D, we get
+$$
+\left\langle W \right\rangle \sim e^{ -DT }\sim e^{ -D(2T)/2 }\sim e^{ -D (2T+2R)/2 }\sim e^{ -D'P }
+$$
+where $D'$ is some constant and $P$ the perimeter of the loop. Such behavior is called the perimeter law, and does not imply confining interactions.
+
+### VEV of Wilson loop in instantons background
+
+
+
+
 
 ### Georgi-Glashow Model
 
