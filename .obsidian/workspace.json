@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
+                "file": "_drafts/2022-10-12-《罗马人的故事》笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.50152587890625
+    "width": 365.50152587890625,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -138,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
+                "file": "_drafts/2022-10-12-《罗马人的故事》笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
+                "file": "_drafts/2022-10-12-《罗马人的故事》笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md"
+                "file": "_drafts/2022-10-12-《罗马人的故事》笔记.md"
               }
             }
           }
@@ -191,15 +192,15 @@
   },
   "active": "257366344cf32c9c",
   "lastOpenFiles": [
+    "_drafts/2022-10-11-Montesquieu.md",
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-3.md",
     "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
     "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials-Part-I.md",
     "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
-    "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
     "img/mathArt9.jpg",
     "img/mathArt8.jpg",
-    "img/mathArt7.jpg",
-    "_posts/2022-11-17-Basic-Cumutative-Algebra-1.md"
+    "img/mathArt7.jpg"
   ]
 }
