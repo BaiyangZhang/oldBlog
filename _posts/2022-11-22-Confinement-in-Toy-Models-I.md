@@ -1,8 +1,8 @@
 ---
 layout:     post   				        # 使用的布局（不需要改）
 title:      Confinement in Toy Models 	# 标题 
-subtitle:   The role of Instantons      # 副标题
-date:       2022-11-21			        # 时间
+subtitle:   Part I      # 副标题
+date:       2022-11-22			        # 时间
 author:     Baiyang Zhang 				# 作者
 header-img: img/mathArt3.jpg 	        # 这篇文章标题背景图片
 catalog: true 						    # 是否归档
@@ -159,9 +159,14 @@ $$
 $$
 we find that the real vacua with the presence of instantons are label by $\theta$ angle, with energy
 $$
-\frac{\mathcal{E(\theta)}}{L} = -2Ke^{ -S_{0}/\hbar }\cos \theta
+{\mathcal{E(\theta)}} = -2KL\,e^{ -S_{0}/\hbar }\cos \theta
 $$
-and the matrix element
+**Remarks.**
+- The total energy assigned with each $\theta$ is proportional to the total volume, as expected.
+- Theta-energy is proportional to $\cos \theta$
+- Due to the $e^{ -S_{0} }$ factor, it is exponentially suppressed.
+
+The matrix element
 $$
 \langle n \mid \theta \rangle  =\frac{e^{ i n \theta }}{\sqrt{ 2\pi }}. 
 $$
@@ -215,8 +220,56 @@ where $D'$ is some constant and $P$ the perimeter of the loop. Such behavior is 
 
 ### VEV of Wilson loop in instantons background
 
+Since the behavior of Wilson loop show whether the system is confined or not, we want to evaluate the expectation value of it in the theta vacuum, so we would know what effects can instanton gas has to the confinement,
+$$
+\bra{\theta} W \ket{\theta} = \frac{1}{Z_{\theta}}\int D[A_{\mu},\phi^\ast ,\phi] \, e^{ -S_{E} }e^{ i\nu \theta }\;W 
+\tag{1}
+$$
+where $S_{E}$ is the Euclidean action, and since we are working in the Euclidean metric, the field configuration with winding number $n$ contribute a factor $e^{ i\nu \theta }$ instead of $e^{ \nu \theta }$, notice the difference of a factor of $i$. $Z_{\theta}$ is the partition function in the background of $\theta$-vacuum, which we will just call theta-vacuum. You might be wondering why there is a factor $e^{ i\nu \theta }$ in the integrand, to understand why, we must first determine the form of the partition function.
 
+The partition function in the background of theta vacuum is 
+$$
+Z_{\theta} = \sum_{n} Z_{n}e^{ i n \theta },\quad Z_{n} = \int_{\nu=n} D[A_{\mu},\phi^\ast ,\phi]e^{ -S_{E} } ,\,  
+$$
+To simplify the notation we could write 
+$$
+Z_{\theta} = \int D[A_{\mu},\phi^\ast ,\phi]e^{ -S_{E} }e^{ i n \theta }
+$$
+which means that we integrate over all the field configurations, each configuration has a winding number $n$, and contributes a factor $e^{ i n \theta }$ accordingly. 
 
+This is also the reason why we have the same factor $e^{ i\nu \theta }$ in Eq. (1). Simply put it, the $e^{ i\nu \theta }$ factor is there because we are evaluating stuff in the theta vacuum. 
+
+Now, the expectation value of the Wilson loop is the vev of 
+$$
+e^{ -iq\int_{D} \, F_{12}d^2x } = e^{ 2\pi q \nu_{in} }
+\tag{2}
+$$
+where we have used the expression for winding number 
+$$
+\nu = -\frac{1}{2\pi}\int d^2x \, F_{12}
+$$
+and $\nu_{in}$ is the number of instantons *in the domain circled by the Wilson loop*.
+
+Equation (2) tells us that, we want to evaluate the expectation value of $e$ to the instanton number in Wilson loop. Given the fact that the average density of instantons is constant in space, clearly the instanton number in  Wilson loop is proportional to the area of the loop, 
+$$
+\nu_{in} \propto \text{ Area of Wilson loop},
+$$
+Thus
+$$
+\left\langle W \right\rangle \sim e^{ \text{Area of wilson loop} }
+$$
+and we have the area law! It means that, *the existence of instanton gas caused the confinement*!
+
+We may also calculate the vev of $F_{12}$ in the background of theta vacuum, using the trick of taking derivatives, which we won't do here. We claim without proof that 
+$$
+\bra{\theta} F_{12} \ket{\theta} \propto \sin \theta \;e^{ -S_E }
+$$
+
+If we have actually calculated the energy between two external charges, (by separating the integral domain into two parts, inside and outside the Wilson loop,) we will find 
+$$
+E(R) \propto R \left( \cos(\theta)-\cos\left( \theta+\frac{2\pi q}{e} \right) \right)\;e^{ -S_{0} }
+$$
+We notice that the charge of the particle appears in cosine function, thus it is defined modulo $e$, the electric charge of the electron. Physically, it is because between the pair of external particles with charge $q$, pairs of electron with charge $e$ can be created, then can migrate to the opposite charges, neutralizing the external charges. Hence, *the charge of the external particles are equivalent modulo $e$.* This is caused by the non-perturbative effects. 
 
 
 ### Georgi-Glashow Model

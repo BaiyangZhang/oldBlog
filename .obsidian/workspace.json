@@ -35,8 +35,12 @@
             "id": "0e4c7d9aaafe1e17",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -55,8 +59,12 @@
             "id": "e3a25a9ac8fc1046",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -65,7 +73,6 @@
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
                 "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
                 "mode": "source",
                 "source": false
@@ -90,17 +97,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-11-21-Confinement-in-Toy-Models.md",
-=======
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
->>>>>>> a06bd22fe5ef2f347cd66b3992338e2b48766e47
+                "file": "_posts/2022-11-22-Confinement-in-Toy-Models-I.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4aa4f0ec1e3747ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2022-11-22-Confinement-in-Toy-Models-II.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -150,12 +166,7 @@
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 308.5069465637207,
-    "collapsed": true
-=======
-    "width": 365.50152587890625
->>>>>>> a06bd22fe5ef2f347cd66b3992338e2b48766e47
+    "width": 308.5069465637207
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -171,11 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "_posts/2022-11-21-Confinement-in-Toy-Models.md",
-=======
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
->>>>>>> a06bd22fe5ef2f347cd66b3992338e2b48766e47
+                "file": "_drafts/2022-11-22-Confinement-in-Toy-Models-II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,11 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "_posts/2022-11-21-Confinement-in-Toy-Models.md",
-=======
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
->>>>>>> a06bd22fe5ef2f347cd66b3992338e2b48766e47
+                "file": "_drafts/2022-11-22-Confinement-in-Toy-Models-II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,11 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "_posts/2022-11-21-Confinement-in-Toy-Models.md"
-=======
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md"
->>>>>>> a06bd22fe5ef2f347cd66b3992338e2b48766e47
+                "file": "_drafts/2022-11-22-Confinement-in-Toy-Models-II.md"
               }
             }
           }
@@ -234,24 +233,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "257366344cf32c9c",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
-<<<<<<< HEAD
+    "_posts/2022-11-22-Confinement-in-Toy-Models-I.md",
+    "_drafts/2022-11-22-Confinement-in-Toy-Models-II.md",
+    "_drafts/2022-11-22-Montesquieu.md",
+    "_drafts/君主论书摘.md",
+    "_drafts/调档函.md",
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
     "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-n 2.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
-    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n 1.md",
-=======
-    "_drafts/2022-11-17-Basic-Cumutative-Algebra-3.md",
->>>>>>> a06bd22fe5ef2f347cd66b3992338e2b48766e47
-    "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
-    "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials-Part-I.md",
-    "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",
-    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
-    "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
-    "img/mathArt9.jpg",
-    "img/mathArt8.jpg",
-    "img/mathArt7.jpg",
-    "_posts/2022-11-17-Basic-Cumutative-Algebra-1.md"
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n 1.md"
   ]
 }

@@ -1,12 +1,12 @@
 ---
-layout:     post   				    # 使用的布局（不需要改）
-title:      Baron de Montesquieu, Charles-Louis de Secondat  				# 标题 
+layout:     post   	                            			    # 使用的布局（不需要改）
+title:      Baron de Montesquieu, Charles-Louis de Secondat		# 标题 
 subtitle:   Stanford Encyclopedia of Philosophy
-date:       2022-10-15 				# 时间
-author:     Baiyang Zhang 						# 作者
-header-img: img/lib1.jpg 	#这篇文章标题背景图片
-catalog: true 						# 是否归档
-tags:								#标签
+date:       2022-11-22 				                            # 时间
+author:     Baiyang Zhang 						                # 作者
+header-img: img/lib1.jpg                                    	# 这篇文章标题背景图片
+catalog: true 						                            # 是否归档
+tags:								                            # 标签
     - political philosophy
     - Classical
     - Montesquieu
