@@ -35,12 +35,8 @@
             "id": "0e4c7d9aaafe1e17",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -59,12 +55,8 @@
             "id": "e3a25a9ac8fc1046",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -73,6 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
                 "mode": "source",
                 "source": false
@@ -98,13 +91,16 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/2022-11-21-Confinement-in-Toy-Models.md",
+=======
+                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
+>>>>>>> a06bd22fe5ef2f347cd66b3992338e2b48766e47
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -154,8 +150,12 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
     "width": 308.5069465637207,
     "collapsed": true
+=======
+    "width": 365.50152587890625
+>>>>>>> a06bd22fe5ef2f347cd66b3992338e2b48766e47
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -171,7 +171,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "_posts/2022-11-21-Confinement-in-Toy-Models.md",
+=======
+                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
+>>>>>>> a06bd22fe5ef2f347cd66b3992338e2b48766e47
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +192,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "_posts/2022-11-21-Confinement-in-Toy-Models.md",
+=======
+                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
+>>>>>>> a06bd22fe5ef2f347cd66b3992338e2b48766e47
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +219,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "_posts/2022-11-21-Confinement-in-Toy-Models.md"
+=======
+                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md"
+>>>>>>> a06bd22fe5ef2f347cd66b3992338e2b48766e47
               }
             }
           }
@@ -222,17 +234,24 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2b80c90a3625ef9b",
+  "active": "257366344cf32c9c",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-n 2.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-n 1.md",
+=======
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-3.md",
+>>>>>>> a06bd22fe5ef2f347cd66b3992338e2b48766e47
     "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
     "_drafts/2022-9-10-The-Poncare-Lemma-and-Potentials-Part-I.md",
     "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
     "img/mathArt9.jpg",
-    "img/mathArt8.jpg"
+    "img/mathArt8.jpg",
+    "img/mathArt7.jpg",
+    "_posts/2022-11-17-Basic-Cumutative-Algebra-1.md"
   ]
 }
