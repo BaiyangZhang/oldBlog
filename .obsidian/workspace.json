@@ -35,8 +35,12 @@
             "id": "0e4c7d9aaafe1e17",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -55,8 +59,12 @@
             "id": "e3a25a9ac8fc1046",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -65,7 +73,47 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "_drafts/2022-10-12-《罗马人的故事》笔记.md",
+=======
+                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "90ef594f9831f37e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b80c90a3625ef9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-11-22-Confinement-in-Toy-Models-I.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4aa4f0ec1e3747ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2022-11-22-Confinement-in-Toy-Models-II.md",
+>>>>>>> 5724651e3169125aaa00d273bdf9d560a4ed3343
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +149,11 @@
             }
           }
         ],
+<<<<<<< HEAD
         "currentTab": 7
+=======
+        "currentTab": 8
+>>>>>>> 5724651e3169125aaa00d273bdf9d560a4ed3343
       }
     ],
     "direction": "vertical"
@@ -151,7 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.50152587890625
+    "width": 308.5069465637207
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -167,10 +219,14 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
                 "file": "_drafts/2022-11-12-Aspects-of-Symmetry.md",
 >>>>>>> Stashed changes
+=======
+                "file": "_drafts/2022-11-22-Confinement-in-Toy-Models-II.md",
+>>>>>>> 5724651e3169125aaa00d273bdf9d560a4ed3343
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,10 +243,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
                 "file": "_drafts/2022-11-12-Aspects-of-Symmetry.md",
 >>>>>>> Stashed changes
+=======
+                "file": "_drafts/2022-11-22-Confinement-in-Toy-Models-II.md",
+>>>>>>> 5724651e3169125aaa00d273bdf9d560a4ed3343
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +276,11 @@
               "state": {}
 =======
               "state": {
+<<<<<<< HEAD
                 "file": "_drafts/2022-11-12-Aspects-of-Symmetry.md"
+=======
+                "file": "_drafts/2022-11-22-Confinement-in-Toy-Models-II.md"
+>>>>>>> 5724651e3169125aaa00d273bdf9d560a4ed3343
               }
 >>>>>>> Stashed changes
             }
@@ -228,6 +292,7 @@
     "width": 300,
     "collapsed": true
   },
+<<<<<<< HEAD
   "active": "e3aad8d041fd5549",
   "lastOpenFiles": [
 <<<<<<< Updated upstream
@@ -248,5 +313,19 @@
     "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md"
 >>>>>>> Stashed changes
+=======
+  "active": "957cfa2362e38596",
+  "lastOpenFiles": [
+    "_posts/2022-11-22-Confinement-in-Toy-Models-I.md",
+    "_drafts/2022-11-22-Confinement-in-Toy-Models-II.md",
+    "_drafts/2022-11-22-Montesquieu.md",
+    "_drafts/君主论书摘.md",
+    "_drafts/调档函.md",
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-4.md",
+    "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n 2.md",
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n 1.md"
+>>>>>>> 5724651e3169125aaa00d273bdf9d560a4ed3343
   ]
 }

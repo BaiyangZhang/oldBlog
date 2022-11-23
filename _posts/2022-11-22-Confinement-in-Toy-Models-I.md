@@ -1,8 +1,8 @@
 ---
 layout:     post   				        # 使用的布局（不需要改）
 title:      Confinement in Toy Models 	# 标题 
-subtitle:   The role of Instantons      # 副标题
-date:       2022-11-17			        # 时间
+subtitle:   Part I      # 副标题
+date:       2022-11-22			        # 时间
 author:     Baiyang Zhang 				# 作者
 header-img: img/mathArt3.jpg 	        # 这篇文章标题背景图片
 catalog: true 						    # 是否归档
@@ -147,11 +147,11 @@ The Nielson-Olesen vortex now interprets between two different vacua,
 
 We can calculate the matrix element 
 $$
-\left\langle n \right\rvert e^{ -HT/\hbar } \left\lvert{0}\right\rangle = \mathcal{N}\int_{n[\phi_{\text{in}}=0]}^{[\phi_{\text{out}}=n]} \mathcal{D}A_{1} \mathcal{D}\phi^\ast \mathcal{D}\phi \, e^{\frac{-S_{E}[\phi]}{\hbar}}
+\left\langle n \right\rvert e^{ -HT/\hbar } \left\lvert{0}\right\rangle = \mathcal{N}\int_{\nu[\phi_{\text{in}}]=0}^{\nu[\phi_{\text{out}}]=n} \mathcal{D}A_{1} \mathcal{D}\phi^\ast \mathcal{D}\phi \, e^{\frac{-S_{E}[\phi]}{\hbar}}
 $$
-using semi-classical methods. The functional integral is over all the field configurations with winding number $n$. This of course includes the configuration with one instanton with winding number $n$, but that is by no means the only, or even the most important, configuration. There could as well be $n_{+}$ instantons with winding number $1$ and $n_{-}$ anti-instantons with winding number $-1$. Assume these instanton and anti-instantons are separated far enough (instanton gas) so the total configuration can be approximated by simple superposition of single instanton solutions. The contribution will include two parts, 
-- Each configuration has action $(n_{+}+n_{-})e^{ -S[\text{ins}] }$, where $S[\text{ins}]$  is the action of a single $n=\pm 1$ instanton.
-- There is a entropy factor summing over all the possible locations of the instantons, $\frac{(TL)^{n_{+}+n_{-}}}{n_{+}! N_{-}!}$.
+using semi-classical methods. The functional integral is over all the field configurations with winding number $n$. This of course includes the configuration with one instanton with winding number $n$, but that is by no means the only, or even the most important, configuration. There could as well be $n_{+}$ instantons with winding number $1$ and $n_{-}$ anti-instantons with winding number $-1$. Assume these instanton and anti-instantons are separated far enough (the so-called instanton gas model) so the total configuration can be approximated by simple superposition of single instanton solutions. The action should include 
+- configurations with action $(n_{+}+n_{-})e^{ -S[\text{ins}] }$, where $S[\text{ins}]$  is the action of a single $n=\pm 1$ instanton, and
+- There is a entropy factor summing over all the possible locations of the instantons, $\frac{(TL)^{n_{+}+n_{-}}}{(n_{+})! (n_{-})!}$.
 
 Long story short, by calculating the transition amplitude, also with the help of identity
 $$
@@ -159,9 +159,14 @@ $$
 $$
 we find that the real vacua with the presence of instantons are label by $\theta$ angle, with energy
 $$
-\frac{\mathcal{E(\theta)}}{L} = -2Ke^{ -S_{0}/\hbar }\cos \theta
+{\mathcal{E(\theta)}} = -2KL\,e^{ -S_{0}/\hbar }\cos \theta
 $$
-and the matrix element
+**Remarks.**
+- The total energy assigned with each $\theta$ is proportional to the total volume, as expected.
+- Theta-energy is proportional to $\cos \theta$
+- Due to the $e^{ -S_{0} }$ factor, it is exponentially suppressed.
+
+The matrix element
 $$
 \langle n \mid \theta \rangle  =\frac{e^{ i n \theta }}{\sqrt{ 2\pi }}. 
 $$
@@ -172,30 +177,100 @@ The rearrangement of the vacuum has important consequences for the force between
 $$
 e^{ -iq/e \int dx_{\mu} \, A_{\mu}  }
 $$
-where $q$ is the charge of the particle and $\frac{q}{e}$ is dimensionless. To see this, consider an charged particle governed by the Lagrangian
+where $q$ is the charge of the particle and $\frac{q}{e}$ is dimensionless. To see this, consider an charged particle governed by the gauged Lagrangian
 $$
 L = \frac{1}{2} \dot{x}^2 + q \dot{x}_{i} A_{i} -qA_{0} - V(x_{i}),
 $$
-a easy way to remember (part of) the Lagrangian is to replace $\partial$ by covariant derivatives. From the Lagrangian we get the equation of motion which is coupled to the gauge fields. The gauge fields can also be written in terms of electric and magnetic fields. Thus the path integral is augmented by the extra gauge-coupling term
+From the Lagrangian we get the equation of motion where the particle is coupled to the gauge field. The gauge field can also be written in terms of electric and magnetic fields. Thus, in comparison to the not-gauged case, the now gauged path integral is augmented by the extra gauge-coupling term
 $$
 \boxed{
-e^{ -i S_{0}/\hbar } = (\text{old terms}) \times e^{ -i \frac{q}{e} \int dt \dot{x}_{i}A_{i}-qA_{0} }
+e^{ -i S_{0}/\hbar } = (\text{old terms}) \times e^{ -i \frac{q}{e} \int dt \,(A_{0}-\dot{x}_{i}A_{i}) }
 = (\text{old terms}) \times e^{ -i \frac{q}{e} \int dx^\mu A_{\mu}}.
 }
 $$
 For an antiparticle we just need to change the sign of the charge.
 
-Next we introduce one of the most concepts in quantum field theory, the Wilson loop, which is indispensable in studying confinement, or interactions in general, in any quantum field theoretic model. 
+Next we introduce one of the most important concepts in quantum field theory, the Wilson loop, which is indispensable in the study of confinement, or interactions in general, in any quantum field theoretic model. 
 
-Imagine that we create a pair of charged particles from the thin air. These test particles are put in by hand, their position and motion are fixed by the creators, us. They behave as we want them to, yet still coupled to the gauge fields, experiencing all the interactions. They are sometimes referred to as external charges. So, after we create the pair, we force them to separate by a large distance $R$. Then we keep the particles there for a while, say for time $T'$, so they could have long enough time to fully appreciate the interaction in between. After the time $T'$, since their job is done, we send them back to where they were created and annihilate them into nothing, dust to dust. The trajectory of these two particles will form a `square`, as shown in the below. 
+Imagine that we create a pair of charged particles from the thin air. These test particles are put in by hand, their position and motion fixed by hand. They behave as we want them to, yet still coupled to the gauge fields, experiencing all the interactions. They are sometimes referred to as external charges. So, after we create the pair, we force them to separate by a large distance $R$. Then we hold the particles fixed for time $T'$, so they could have a long enough time to fully appreciate the interaction between them. After time $T'$, we send them back to where they were created and annihilate them into nothing, dust to dust. The trajectory of these two particles will form a `loop`, as shown in the below. It is the Wilson loop.
 
 ![TheWilsonLoop](/img/wilson.jpg)
 
-Now the question is: for the Wilson loop shown above, what is the phase factor associated? The phase factor is integrated along the trajectory, which is a closed loop in our case, thus the integral becomes a closed integral, as shown below.
+Now the question is: for the Wilson loop shown above, what is the phase factor associated? The phase factor is integrated along the trajectory, which is a closed loop in our case, thus the integral becomes a closed integral, 
 $$
-\text{Phase factor } = e^{ -i \frac{q}{e}\oint dx^\mu A_{\mu}} = e^{ -i \frac{q}{e} \oint A }, \quad A := A_{\mu}dx^\mu,
+\text{Phase factor } = e^{ -i \frac{q}{e}\oint dx^\mu A_{\mu}} = e^{ -i \frac{q}{e} \oint A }, \quad A := A_{\mu}dx^\mu.
+$$ 
+The associated operator
 $$
-where we have used some differential form notation. 
+W = e^{ - \frac{q}{e} \oint A }
+$$
+is called the Wilson operator. The vacuum expectation value (VEV), also called the matrix element, of Wilson operator can be compared to the time evolution of a pair of (anti-)particles and annihilate them after time $T$, in the language of Hamiltonian is proportional to $e^{ - Ht }$, the minus sign since we are now working in the Euclidean metric. Thus the VEV of Wilson loop has the interpretation of $e^{ -E(R)T }$, where $E(R)$ is the energy of a particle-antiparticle pair separated by distance $R$. 
+
+If $E(R)\sim cR$ for some constant $c$, the interaction between two charges is said to be *confining*, since the energy needed to separated them increases linearly with distance, eventually the energy between then will be enough to create another pair of particle-antiparticle. The VEV of Wilson loop operator will behave like
+$$
+\left\langle W \right\rangle \sim e^{ -c A }
+$$
+where $A$ is the area of the loop. This is the celebrated area law criterion of area law behavior of the Wilson loop for confining interactions. 
+
+If the potential behaviors like $E(r)\sim D$ for some constant D, we get
+$$
+\left\langle W \right\rangle \sim e^{ -DT }\sim e^{ -D(2T)/2 }\sim e^{ -D (2T+2R)/2 }\sim e^{ -D'P }
+$$
+where $D'$ is some constant and $P$ the perimeter of the loop. Such behavior is called the perimeter law, and does not imply confining interactions.
+
+### VEV of Wilson loop in instantons background
+
+Since the behavior of Wilson loop show whether the system is confined or not, we want to evaluate the expectation value of it in the theta vacuum, so we would know what effects can instanton gas has to the confinement,
+$$
+\bra{\theta} W \ket{\theta} = \frac{1}{Z_{\theta}}\int D[A_{\mu},\phi^\ast ,\phi] \, e^{ -S_{E} }e^{ i\nu \theta }\;W 
+\tag{1}
+$$
+where $S_{E}$ is the Euclidean action, and since we are working in the Euclidean metric, the field configuration with winding number $n$ contribute a factor $e^{ i\nu \theta }$ instead of $e^{ \nu \theta }$, notice the difference of a factor of $i$. $Z_{\theta}$ is the partition function in the background of $\theta$-vacuum, which we will just call theta-vacuum. You might be wondering why there is a factor $e^{ i\nu \theta }$ in the integrand, to understand why, we must first determine the form of the partition function.
+
+The partition function in the background of theta vacuum is 
+$$
+Z_{\theta} = \sum_{n} Z_{n}e^{ i n \theta },\quad Z_{n} = \int_{\nu=n} D[A_{\mu},\phi^\ast ,\phi]e^{ -S_{E} } ,\,  
+$$
+To simplify the notation we could write 
+$$
+Z_{\theta} = \int D[A_{\mu},\phi^\ast ,\phi]e^{ -S_{E} }e^{ i n \theta }
+$$
+which means that we integrate over all the field configurations, each configuration has a winding number $n$, and contributes a factor $e^{ i n \theta }$ accordingly. 
+
+This is also the reason why we have the same factor $e^{ i\nu \theta }$ in Eq. (1). Simply put it, the $e^{ i\nu \theta }$ factor is there because we are evaluating stuff in the theta vacuum. 
+
+Now, the expectation value of the Wilson loop is the vev of 
+$$
+e^{ -iq\int_{D} \, F_{12}d^2x } = e^{ 2\pi q \nu_{in} }
+\tag{2}
+$$
+where we have used the expression for winding number 
+$$
+\nu = -\frac{1}{2\pi}\int d^2x \, F_{12}
+$$
+and $\nu_{in}$ is the number of instantons *in the domain circled by the Wilson loop*.
+
+Equation (2) tells us that, we want to evaluate the expectation value of $e$ to the instanton number in Wilson loop. Given the fact that the average density of instantons is constant in space, clearly the instanton number in  Wilson loop is proportional to the area of the loop, 
+$$
+\nu_{in} \propto \text{ Area of Wilson loop},
+$$
+Thus
+$$
+\left\langle W \right\rangle \sim e^{ \text{Area of wilson loop} }
+$$
+and we have the area law! It means that, *the existence of instanton gas caused the confinement*!
+
+We may also calculate the vev of $F_{12}$ in the background of theta vacuum, using the trick of taking derivatives, which we won't do here. We claim without proof that 
+$$
+\bra{\theta} F_{12} \ket{\theta} \propto \sin \theta \;e^{ -S_E }
+$$
+
+If we have actually calculated the energy between two external charges, (by separating the integral domain into two parts, inside and outside the Wilson loop,) we will find 
+$$
+E(R) \propto R \left( \cos(\theta)-\cos\left( \theta+\frac{2\pi q}{e} \right) \right)\;e^{ -S_{0} }
+$$
+We notice that the charge of the particle appears in cosine function, thus it is defined modulo $e$, the electric charge of the electron. Physically, it is because between the pair of external particles with charge $q$, pairs of electron with charge $e$ can be created, then can migrate to the opposite charges, neutralizing the external charges. Hence, *the charge of the external particles are equivalent modulo $e$.* This is caused by the non-perturbative effects. 
+
 
 ### Georgi-Glashow Model
 
