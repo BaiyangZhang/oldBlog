@@ -4,9 +4,9 @@ title:      Basic Commutative Algebra		# 标题
 subtitle:   Class 3
 date:       2022-11-21 				        # 时间
 author:     Baiyang Zhang 					# 作者
-header-img: img/mathArt8.jpg 	            #这篇文章标题背景图片
+header-img: img/mathArt8.jpg 	            # 这篇文章标题背景图片
 catalog: true 			        			# 是否归档
-tags:							        	#标签
+tags:							        	# 标签
     - Math
     - Commutative Algebra
     - Notes
