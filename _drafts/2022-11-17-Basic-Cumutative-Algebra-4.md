@@ -23,5 +23,6 @@ If ${\frak b}$ is an ideal of B, then $f^{-1}({\frak b})$ is always an ideal of 
 
 We can factorize $f$ as follows:
 $$
-A \xrightarrow{\text{p}} 
+A \xrightarrow{\text{p}} f(A)\xrightarrow{j}B
 $$
+where $p$ is surjective and $j$ is injective. 
