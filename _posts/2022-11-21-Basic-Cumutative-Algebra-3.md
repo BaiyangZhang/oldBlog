@@ -115,7 +115,7 @@ $$
 $$
 which is an ideal, as can be easily verified, and justifies the usage of parenthesis. 
 
-$({\frak a:b})$ is useful when ${\frak a<b}$, where the ordering is given by inclusion. Particularly, $(0: {\frak b})$ is called the `annihilator` of ${\frak b}$ and is sometimes denoted by $\text{Ann}({\frak b})$: it is the set of all $x\in A$ such that $x{\frak b}=0$. In this notation the zero-divisors of $A$ are denoted by 
+$({\frak a:b})$ is useful when ${\frak a}<{\frak b}$, where the ordering is given by inclusion. Particularly, $(0: {\frak b})$ is called the `annihilator` of ${\frak b}$ and is sometimes denoted by $\text{Ann}({\frak b})$: it is the set of all $x\in A$ such that $x{\frak b}=0$. In this notation the zero-divisors of $A$ are denoted by 
 $$
 D = \bigcup_{x\neq 0} \text{Ann}(x).
 $$
