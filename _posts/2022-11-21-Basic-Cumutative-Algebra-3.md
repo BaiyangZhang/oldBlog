@@ -16,7 +16,7 @@ The set ${\frak R}$ of all nilpotent elements in ring $A$ is an ideal, and $A / 
 
 **Definition.** The ideal ${\frak R}$ of nilpotent elements of $A$ is called the `nilradical`. The nilradical is also the intersection of all the prime ideals of $A$. 
 
-*Proof.* Let ${\frak R}'$ be the intersection of all the prime ideals of $A$. If $f\in A$ is nilpotent, then for some $n$ we have $f^n=0\in {\frak p}$, where ${\frak p}$ is a prime ideal. hence ${\frak p}$ is prime, $f$ must be in ${\frak p}$ as well, i.e., a nilpotent must be an element all the prime ideals, $f\in {\frak R}'$.  Conversely, we shall show that if $f$ is not nilpotent,  $f$ is not in ${\frak R'}$. Suppose $f$ is not nilpotent, let $\Sigma$ be all the ideals that does not contain multiples of $f$, each element of $\Sigma$ is an ideal ${\frak a}$ such that 
+*Proof.* Let ${\frak R}'$ be the intersection of all the prime ideals of $A$. If $f\in A$ is nilpotent, then for some $n$ we have $f^n=0\in {\frak p}$, where ${\frak p}$ is a prime ideal. hence ${\frak p}$ is prime, $f$ must be in ${\frak p}$ as well, i.e., a nilpotent must be an element all the prime ideals, $f\in {\frak R}'$.  Conversely, we shall show that if $f$ is not nilpotent,  $f$ is not in ${\frak R}'$. Suppose $f$ is not nilpotent, let $\Sigma$ be all the ideals that does not contain multiples of $f$, each element of $\Sigma$ is an ideal ${\frak a}$ such that 
 $$
 n>0 \implies f^n \notin {\frak a}.
 $$
@@ -30,7 +30,7 @@ x,y\notin {\frak p} \implies xy\notin {\frak p},
 $$
 it follows that ${\frak p}$ is prime. Q.E.D.
 
-**Definition.** The `Jacobson radical` $\frak{R}$ of $A$ is defined to be the intersection of all the maximal ideals. 
+**Definition.** The `Jacobson radical` ${\frakR}$ of $A$ is defined to be the intersection of all the maximal ideals. 
 
 **Proposition.** Leg ${\frak R}$ be Jacobson radical of ring $R$. 
 $$
@@ -44,20 +44,20 @@ Next we discuss operations allowed on ideals. Ideals are sets, naively we would 
 
 **Sum**
 
-Let ${\frak a,b}$ be two ideals of ring $R$. The sum ${\frak a+b}$ is defined element-wise, namely 
+Let ${\frak a}{\frak b}$ be two ideals of ring $R$. The sum ${\frak a}+{\frak b}$ is defined element-wise, namely 
 $$
-{\frak a+b} := \{ x+y \mid x\in {\frak a}, \,y\in {\frak b} \}. 
+{\frak a}+{\frak b} := \{ x+y \mid x\in {\frak a}, \,y\in {\frak b} \}. 
 $$
-Note ${\frak a+b}$ is different from ${\frak a} \cup {\frak b}$. The sum of ${\frak a,b}$ is the smallest ideal containing ${\frak a}$ and ${\frak b}$. This definition can be generalized to the sum of arbitrary numbers of ideals. 
+Note ${\frak a}+{\frak b}$ is different from ${\frak a} \cup {\frak b}$. The sum of ${\frak a},{\frak b}$ is the smallest ideal containing ${\frak a}$ and ${\frak b}$. This definition can be generalized to the sum of arbitrary numbers of ideals. 
 
 **Intersection**
 The intersection of any family of ideals are also ideals. Thus the ideals of $A$ form a complete lattice with respect to inclusion. Recall that a [partially ordered set](https://encyclopediaofmath.org/wiki/Partially_ordered_set "Partially ordered set") is called a complete lattice if every subset has a supremum and infimum. 
 
 **Product**
 
-The product of two ideals ${\frak a,b}$ is defined similarly to the sum, 
+The product of two ideals ${\frak a},{\frak b}$ is defined similarly to the sum, 
 $$
-{\frak ab} := \{ xy \mid x\in {\frak a}, \,y\in {\frak b} \}. 
+{\frak a}{\frak b} := \{ xy \mid x\in {\frak a}, \,y\in {\frak b} \}. 
 $$
 This definition can ben generalized to *finite* products of ideals. Especially we can define the power of an ideal, ${\frak a}^n$, conventionally ${\frak a}^0=1$.
 
@@ -65,26 +65,28 @@ Examples are important to understand these operations. If $A = \mathbb{Z}$, $m,n
 
 The three operations defined so far (sum, intersection and product) are all commutative and associative. Also there is the *distributive law*,
 $$
-{\frak a}({\frak b+c}) = {\frak ab}+{\frak ac}.
+{\frak a}({\frak b}+{\frak c}) = {\frak a}{\frak b}+{\frak a}{\frak c}.
 $$
 
 In the integer ring $\mathbb{Z}$, intersection $\cap$ and addition $+$ are distributive over each other. This is not the case in general, the best we have in this direction is the *modular law*, 
 $$
-{\frak a} \cap ({\frak b+c}) = {\frak a}\cap {\frak b} + {\frak a}\cap {\frak c} \quad\text{if}\quad {\frak b}\subseteq  {\frak a}\text{ or }{\frak c}\subseteq  {\frak a},
+{\frak a} \cap ({\frak b}+{\frak c}) = {\frak a}\cap {\frak b} + {\frak a}\cap {\frak c} \quad\text{if}\quad {\frak b}\subseteq  {\frak a}\text{ or }{\frak c}\subseteq  {\frak a},
 $$
-since there might be elements in ${\frak b+c}$ that is neither in ${\frak b}$ and ${\frak c}$.
+since there might be elements in ${\frak b}+{\frak c}$ that is neither in ${\frak b}$ and ${\frak c}$.
 
 Again, in $\mathbb{Z}$ we have 
 $$
-({\frak a+b})({\frak a}\cap {\frak b}) = ({\frak ab}),
+({\frak a}+{\frak b})({\frak a}\cap {\frak b}) = ({\frak a}{\frak b}),
 $$
 for example $(4)+(6)=(2)$, $(4)\cap(6)=(12)$, thus $((4)+(6))((4)\cap(6))=(24)$, which equals $(4)(6)$. However, in general we have only 
+$$
+({\frak a}+{\frak b})({\frak a}\cap {\frak b}) \subseteq ({\frak a}{\frak b}),
+$$
+On the other hand, clearly $({\frak ab})\subseteq({\frak a})\cap({\frak b})$, thus if $({\frak a}+{\frak b})=(1)$ then we have both  $({\frak a}\cap {\frak b}) \subseteq ({\frak ab})$ and $({\frak ab})\subseteq({\frak a})\cap({\frak b})$, hence $({\frak ab}) = ({\frak a})\cap({\frak b})$.
 
-On the other hand, clearly $({\frak ab})\subseteq({\frak a})\cap({\frak b})$, thus if $({\frak a+b})=(1)$ then we have both  $({\frak a}\cap {\frak b}) \subseteq ({\frak ab})$ and $({\frak ab})\subseteq({\frak a})\cap({\frak b})$, hence $({\frak ab}) = ({\frak a})\cap({\frak b})$.
+**Definition.** Two ideals ${\frak a},{\frak b}$ are said to be `coprime` if ${\frak a}+{\frak b}=(1)$.
 
-**Definition.** Two ideals ${\frak a,b}$ are said to be `coprime` if ${\frak a+b}=(1)$.
-
-If ${\frak a,b}$ are coprime then $({\frak ab}) = ({\frak a})\cap({\frak b})$.
+If ${\frak a},{\frak b}$ are coprime then $({\frak ab}) = ({\frak a})\cap({\frak b})$.
 
 **Definition.** The `direct product` of rings $A_{1},\dots,A_{n}$ is denoted by 
 $$
@@ -107,13 +109,13 @@ $$
 $$
 If $\phi$ is injective, meaning the kernel has only one element, then $\cap_{i}{\frak a}_{i}=0$.
 
-**Definition.** Let ${\frak a,b}$ be ideals of a ring $A$. Their `ideal quotient` is 
+**Definition.** Let ${\frak a},{\frak b}$ be ideals of a ring $A$. Their `ideal quotient` is 
 $$
-({\frak a:b})=\{ x\in A \mid x{\frak b}\subset {\frak a} \}
+({\frak a}: {\frak b})=\{ x\in A \mid x{\frak b}\subset {\frak a} \}
 $$
 which is an ideal, as can be easily verified, and justifies the usage of parenthesis. 
 
-$({\frak a:b})$ is useful when ${\frak a}<{\frak b}$, where the ordering is given by inclusion. Particularly, $(0: {\frak b})$ is called the `annihilator` of ${\frak b}$ and is sometimes denoted by $\text{Ann}({\frak b})$: it is the set of all $x\in A$ such that $x{\frak b}=0$. In this notation the zero-divisors of $A$ are denoted by 
+$({\frak a}: {\frak b})$ is useful when ${\frak a}<{\frak b}$, where the ordering is given by inclusion. Particularly, $(0: {\frak b})$ is called the `annihilator` of ${\frak b}$ and is sometimes denoted by $\text{Ann}({\frak b})$: it is the set of all $x\in A$ such that $x{\frak b}=0$. In this notation the zero-divisors of $A$ are denoted by 
 $$
 D = \bigcup_{x\neq 0} \text{Ann}(x).
 $$
