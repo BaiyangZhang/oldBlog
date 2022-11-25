@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+                "file": "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+                "file": "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+                "file": "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md"
+                "file": "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md"
               }
             }
           }
@@ -214,8 +214,8 @@
   },
   "active": "1cc135b704daeef3",
   "lastOpenFiles": [
-    "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",
     "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+    "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",
     "_posts/2022-11-17-Basic-Cumutative-Algebra-1.md",
     "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md",
     "_posts/2022-11-22-Confinement-in-Toy-Models-I.md",
