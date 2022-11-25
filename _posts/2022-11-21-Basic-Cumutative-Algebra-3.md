@@ -2,7 +2,7 @@
 layout:     post   		                    # 使用的布局（不需要改）
 title:      Basic Commutative Algebra		# 标题 
 subtitle:   Class 3
-date:       2022-11-19 				        # 时间
+date:       2022-11-21 				        # 时间
 author:     Baiyang Zhang 					# 作者
 header-img: img/mathArt8.jpg 	            # 这篇文章标题背景图片
 catalog: true 			        			# 是否归档
@@ -80,7 +80,7 @@ $$
 $$
 for example $(4)+(6)=(2)$, $(4)\cap(6)=(12)$, thus $((4)+(6))((4)\cap(6))=(24)$, which equals $(4)(6)$. However, in general we have only 
 $$
-({\frak a+b})({\frak a}\cap {\frak b}) \subseteq ({\frak ab}),
+({\frak a}+{\frak b})({\frak a}\cap {\frak b}) \subseteq ({\frak a}{\frak b}),
 $$
 On the other hand, clearly $({\frak ab})\subseteq({\frak a})\cap({\frak b})$, thus if $({\frak a+b})=(1)$ then we have both  $({\frak a}\cap {\frak b}) \subseteq ({\frak ab})$ and $({\frak ab})\subseteq({\frak a})\cap({\frak b})$, hence $({\frak ab}) = ({\frak a})\cap({\frak b})$.
 

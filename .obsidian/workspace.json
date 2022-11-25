@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md",
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.50152587890625
+    "width": 264.504695892334
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md",
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md",
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md"
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md"
               }
             }
           }
@@ -214,15 +214,15 @@
   },
   "active": "1cc135b704daeef3",
   "lastOpenFiles": [
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n 2.md",
     "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
-    "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",
-    "_posts/2022-11-17-Basic-Cumutative-Algebra-1.md",
     "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md",
     "_posts/2022-11-22-Confinement-in-Toy-Models-I.md",
+    "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",
+    "_posts/2022-11-17-Basic-Cumutative-Algebra-1.md",
     "_drafts/2022-11-22-Montesquieu.md",
     "_drafts/2022-11-12-Aspects-of-Symmetry.md",
     "_drafts/2022-11-12-Duality-Part-I.md",
-    "_drafts/2022-11-23-《师哲回忆录》.md",
-    "_drafts/2022-10-12-《罗马人的故事》笔记.md"
+    "_drafts/2022-11-23-《师哲回忆录》.md"
   ]
 }
