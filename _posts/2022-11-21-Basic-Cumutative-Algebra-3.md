@@ -76,3 +76,12 @@ $$
 {\frak a} \cap ({\frak b}+{\frak c}) = {\frak a}\cap {\frak b} + {\frak a}\cap {\frak c} \quad\text{if}\quad {\frak b}\subseteq  {\frak a}\text{ or }{\frak c}\subseteq  {\frak a},
 $$
 since there might be elements in ${\frak b}+{\frak c}$ that is neither in ${\frak b}$ and ${\frak c}$.
+
+Again, in $\mathbb{Z}$ we have 
+$$
+({\frak a} + {\frak b})({\frak a} \cap {\frak b}) = ({\frak a}{\frak b}),
+$$
+for example $(4)+(6)=(2)$, $(4)\cap(6)=(12)$, thus $((4)+(6))((4)\cap(6))=(24)$, which equals $(4)(6)$. However, in general we have only 
+$$
+({\frak a} + {\frak b})({\frak a}\cap {\frak b}) \subseteq ({\frak a}{\frak b}),
+$$
