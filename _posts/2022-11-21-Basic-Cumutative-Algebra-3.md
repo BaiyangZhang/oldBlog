@@ -38,3 +38,17 @@ $$
 x\in {\frak R} \Leftrightarrow 1-xy \text{ is a unit } \forall y \in R 
 $$
 The proof can be found in Atiyah's textbook.
+
+
+- - -
+
+Next we discuss operations allowed on ideals. Ideals are sets, naively we would think that all the operations defined for ideals are naturally defined for ideals as well, however, the question is whether the result is still an ideal?
+
+**Sum**
+
+Let ${\frak a}{\frak b}$ be two ideals of ring $R$. The sum ${\frak a}+{\frak b}$ is defined element-wise, namely 
+$$
+{\frak a}+{\frak b} := \{ x+y \mid x\in {\frak a}, \,y\in {\frak b} \}. 
+$$
+Note ${\frak a}+{\frak b}$ is different from ${\frak a} \cup {\frak b}$. The sum of ${\frak a},{\frak b}$ is the smallest ideal containing ${\frak a}$ and ${\frak b}$. This definition can be generalized to the sum of arbitrary numbers of ideals. 
+
