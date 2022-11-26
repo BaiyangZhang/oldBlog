@@ -92,3 +92,9 @@ On the other hand, clearly $({\frak ab})\subseteq({\frak a})\cap({\frak b})$, th
 **Definition.** Two ideals ${\frak a},{\frak b}$ are said to be `coprime` if ${\frak a} + {\frak b}=(1)$.
 
 If ${\frak a}, {\frak b}$ are coprime then $({\frak ab}) = ({\frak a}) \cap ({\frak b})$.
+
+**Definition.** The `direct product` of rings $A_{1},\dots,A_{n}$ is denoted by 
+$$
+A = \prod_{i=1}^n A_{i}
+$$
+which is comprised of element $x = (x_{1},\dots,x_{n})$ where $x_{i} \in A_{i}$. Addition and multiplication is defined componentwise. A is a commutative ring with identity $(1,\dots,1)$. We have projections $p_{i}:A\to A_{i}$ which projects $x$ to its $i$-th component.
