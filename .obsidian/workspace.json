@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.504695892334
+    "width": 264.504695892334,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -161,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-11-21-Basic-Cumutative-Algebra-3.md"
+                "file": "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md"
               }
             }
           }
@@ -212,10 +213,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "957cfa2362e38596",
+  "active": "1cc135b704daeef3",
   "lastOpenFiles": [
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-n 2.md",
-    "_drafts/2022-11-21-Basic-Cumutative-Algebra-3.md",
+    "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
     "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md",
     "_posts/2022-11-22-Confinement-in-Toy-Models-I.md",
     "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",

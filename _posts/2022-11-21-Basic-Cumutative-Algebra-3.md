@@ -30,7 +30,7 @@ x,y\notin {\frak p} \implies xy\notin {\frak p},
 $$
 it follows that ${\frak p}$ is prime. Q.E.D.
 
-**Definition.** The `Jacobson radical` ${\frakR}$ of $A$ is defined to be the intersection of all the maximal ideals. 
+**Definition.** The `Jacobson radical` ${\frak R}$ of $A$ is defined to be the intersection of all the maximal ideals. 
 
 **Proposition.** Leg ${\frak R}$ be Jacobson radical of ring $R$. 
 $$
@@ -97,7 +97,7 @@ which is comprised of element $x = (x_{1},\dots,x_{n})$ where $x_{i} \in A_{i}$.
 Let $A$ be a ring (any ring, not necessarily a product ring) and ${\frak a}_{i}$ ideals of $A$, we can first make a list of rings ${A} / {{\frak a}_{i}}$ then multiply them together to form a product ring $\prod_{i} A / {\frak a}_{i}$. There is a ring homomorphism from $A$ to this product ring, denoted by $\phi$,
 $$
 \begin{align}
-\phi : &A \to \prod_{i=1}^n A / {\frak a}_{i},\\ \\
+\phi : &A \to \prod_{i=1}^n A / {\frak a}_{i},\\
        & x \mapsto (x+{\frak a}_{1},\dots,x+{\frak a}_{n}),
 \end{align}
 $$
