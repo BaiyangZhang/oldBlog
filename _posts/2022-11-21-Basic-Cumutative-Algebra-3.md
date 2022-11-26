@@ -98,3 +98,12 @@ $$
 A = \prod_{i=1}^n A_{i}
 $$
 which is comprised of element $x = (x_{1},\dots,x_{n})$ where $x_{i} \in A_{i}$. Addition and multiplication is defined componentwise. A is a commutative ring with identity $(1,\dots,1)$. We have projections $p_{i}:A\to A_{i}$ which projects $x$ to its $i$-th component.
+
+Let $A$ be a ring (any ring, not necessarily a product ring) and ${\frak a}_{i}$ ideals of $A$, we can first make a list of rings ${A} / {{\frak a}_{i}}$ then multiply them together to form a product ring $\prod_{i} A / {\frak a}_{i}$. There is a ring homomorphism from $A$ to this product ring, denoted by $\phi$,
+$$
+\begin{align}
+\phi : &A \to \prod_{i=1}^n A / {\frak a}_{i},\\
+       & x \mapsto (x+{\frak a}_{1},\dots,x+{\frak a}_{n}),
+\end{align}
+$$
+which maps each element of $A$ to a n-tuple. 
