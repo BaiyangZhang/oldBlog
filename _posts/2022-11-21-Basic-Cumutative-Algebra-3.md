@@ -12,4 +12,6 @@ tags:							        	# 标签
     - Notes
 ---
 
-afjkldjfklsdfklasjflaskjkfdfdfdf
+The set ${\frak R}$ of all nilpotent elements in ring $A$ is an ideal, and $A / {\frak R}$ has no nilpotent elements. To see that ${\frak R}$ form an ideal, convince yourself that the addition of two nilpotents is still a nilpotent. 
+
+**Definition.** The ideal ${\frak R}$ of nilpotent elements of $A$ is called the `nilradical`. The nilradical is also the intersection of all the prime ideals of $A$. 
