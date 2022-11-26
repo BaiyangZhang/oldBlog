@@ -79,9 +79,7 @@ $$
 ({\frak a}+{\frak b})({\frak a}\cap {\frak b}) = ({\frak a}{\frak b}),
 $$
 for example $(4)+(6)=(2)$, $(4)\cap(6)=(12)$, thus $((4)+(6))((4)\cap(6))=(24)$, which equals $(4)(6)$. However, in general we have only 
-$$
-({\frak a}+{\frak b})({\frak a}\cap {\frak b}) \subseteq ({\frak a}{\frak b}),
-$$
+
 On the other hand, clearly $({\frak ab})\subseteq({\frak a})\cap({\frak b})$, thus if $({\frak a}+{\frak b})=(1)$ then we have both  $({\frak a}\cap {\frak b}) \subseteq ({\frak ab})$ and $({\frak ab})\subseteq({\frak a})\cap({\frak b})$, hence $({\frak ab}) = ({\frak a})\cap({\frak b})$.
 
 **Definition.** Two ideals ${\frak a},{\frak b}$ are said to be `coprime` if ${\frak a}+{\frak b}=(1)$.
