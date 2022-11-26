@@ -85,3 +85,17 @@ for example $(4)+(6)=(2)$, $(4)\cap(6)=(12)$, thus $((4)+(6))((4)\cap(6))=(24)$,
 $$
 ({\frak a} + {\frak b})({\frak a}\cap {\frak b}) \subseteq ({\frak a}{\frak b}),
 $$
+
+
+On the other hand, clearly $({\frak ab})\subseteq({\frak a})\cap({\frak b})$, thus if $({\frak a}+{\frak b})=(1)$ then we have both  $({\frak a}\cap {\frak b}) \subseteq ({\frak ab})$ and $({\frak ab})\subseteq({\frak a})\cap({\frak b})$, hence $({\frak ab}) = ({\frak a})\cap({\frak b})$.
+
+**Definition.** Two ideals ${\frak a},{\frak b}$ are said to be `coprime` if ${\frak a}+{\frak b}=(1)$.
+
+If ${\frak a},{\frak b}$ are coprime then $({\frak ab}) = ({\frak a}) \cap ({\frak b})$.
+
+**Definition.** The `direct product` of rings $A_{1},\dots,A_{n}$ is denoted by 
+$$
+A = \prod_{i=1}^n A_{i}
+$$
+which is comprised of element $x = (x_{1},\dots,x_{n})$ where $x_{i} \in A_{i}$. Addition and multiplication is defined componentwise. A is a commutative ring with identity $(1,\dots,1)$. We have projections $p_{i}:A\to A_{i}$ which projects $x$ to its $i$-th component.
+
