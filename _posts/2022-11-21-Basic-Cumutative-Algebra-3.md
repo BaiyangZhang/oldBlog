@@ -16,6 +16,7 @@ The set ${\frak R}$ of all nilpotent elements in ring $A$ is an ideal, and $A / 
 
 **Definition.** The ideal ${\frak R}$ of nilpotent elements of $A$ is called the `nilradical`. The nilradical is also the intersection of all the prime ideals of $A$. 
 
+
 *Proof.* Let ${\frak R}'$ be the intersection of all the prime ideals of $A$. If $f\in A$ is nilpotent, then for some $n$ we have $f^n=0\in {\frak p}$, where ${\frak p}$ is a prime ideal. hence ${\frak p}$ is prime, $f$ must be in ${\frak p}$ as well, i.e., a nilpotent must be an element all the prime ideals, $f\in {\frak R}'$.  Conversely, we shall show that if $f$ is not nilpotent,  $f$ is not in ${\frak R}'$. Suppose $f$ is not nilpotent, let $\Sigma$ be all the ideals that does not contain multiples of $f$, each element of $\Sigma$ is an ideal ${\frak a}$ such that 
 $$
 n>0 \implies f^n \notin {\frak a}.
@@ -38,6 +39,7 @@ x\in {\frak R} \Leftrightarrow 1-xy \text{ is a unit } \forall y \in R
 $$
 The proof can be found in Atiyah's textbook.
 
+
 - - -
 
 Next we discuss operations allowed on ideals. Ideals are sets, naively we would think that all the operations defined for ideals are naturally defined for ideals as well, however, the question is whether the result is still an ideal?
@@ -49,6 +51,7 @@ $$
 {\frak a}+{\frak b} := \{ x+y \mid x\in {\frak a}, \,y\in {\frak b} \}. 
 $$
 Note ${\frak a}+{\frak b}$ is different from ${\frak a} \cup {\frak b}$. The sum of ${\frak a},{\frak b}$ is the smallest ideal containing ${\frak a}$ and ${\frak b}$. This definition can be generalized to the sum of arbitrary numbers of ideals. 
+
 
 **Intersection**
 The intersection of any family of ideals are also ideals. Thus the ideals of $A$ form a complete lattice with respect to inclusion. Recall that a [partially ordered set](https://encyclopediaofmath.org/wiki/Partially_ordered_set "Partially ordered set") is called a complete lattice if every subset has a supremum and infimum. 
@@ -76,17 +79,19 @@ since there might be elements in ${\frak b}+{\frak c}$ that is neither in ${\fra
 
 Again, in $\mathbb{Z}$ we have 
 $$
-({\frak a}+{\frak b})({\frak a}\cap {\frak b}) = ({\frak a}{\frak b}),
+({\frak a} + {\frak b})({\frak a} \cap {\frak b}) = ({\frak a}{\frak b}),
 $$
 for example $(4)+(6)=(2)$, $(4)\cap(6)=(12)$, thus $((4)+(6))((4)\cap(6))=(24)$, which equals $(4)(6)$. However, in general we have only 
 $$
-({\frak a}+{\frak b})({\frak a}\cap {\frak b}) \subseteq ({\frak a}{\frak b}),
+({\frak a} + {\frak b})({\frak a}\cap {\frak b}) \subseteq ({\frak a}{\frak b}),
 $$
+
+
 On the other hand, clearly $({\frak ab})\subseteq({\frak a})\cap({\frak b})$, thus if $({\frak a}+{\frak b})=(1)$ then we have both  $({\frak a}\cap {\frak b}) \subseteq ({\frak ab})$ and $({\frak ab})\subseteq({\frak a})\cap({\frak b})$, hence $({\frak ab}) = ({\frak a})\cap({\frak b})$.
 
-**Definition.** Two ideals ${\frak a},{\frak b}$ are said to be `coprime` if ${\frak a}+{\frak b}=(1)$.
+**Definition.** Two ideals ${\frak a},{\frak b}$ are said to be `coprime` if ${\frak a} + {\frak b}=(1)$.
 
-If ${\frak a},{\frak b}$ are coprime then $({\frak ab}) = ({\frak a})\cap({\frak b})$.
+If ${\frak a}, {\frak b}$ are coprime then $({\frak ab}) = ({\frak a}) \cap ({\frak b})$.
 
 **Definition.** The `direct product` of rings $A_{1},\dots,A_{n}$ is denoted by 
 $$
@@ -94,20 +99,21 @@ A = \prod_{i=1}^n A_{i}
 $$
 which is comprised of element $x = (x_{1},\dots,x_{n})$ where $x_{i} \in A_{i}$. Addition and multiplication is defined componentwise. A is a commutative ring with identity $(1,\dots,1)$. We have projections $p_{i}:A\to A_{i}$ which projects $x$ to its $i$-th component.
 
-Let $A$ be a ring (any ring, not necessarily a product ring) and ${\frak a}_{i}$ ideals of $A$, we can first make a list of rings ${A} / {{\frak a}_{i}}$ then multiply them together to form a product ring $\prod_{i} A / {\frak a}_{i}$. There is a ring homomorphism from $A$ to this product ring, denoted by $\phi$,
+Let $A$ be a ring (any ring, not necessarily a product ring) and ${\frak a}_ {i}$ be ideals of $A$, we can first make a list of rings ${A} / {\frak a}_ i$ then  multiply them together to form a product ring $\prod_{i} A / {\frak a}_ {i}$. There is a ring homomorphism from $A$ to this product ring, denoted by $\phi$,
 $$
 \begin{align}
-\phi : &A \to \prod_{i=1}^n A / {\frak a}_{i},\\
+\phi : &A \to \prod_{i=1}^n A / {\frak a}_ {i}, \\
        & x \mapsto (x+{\frak a}_{1},\dots,x+{\frak a}_{n}),
 \end{align}
 $$
 which maps each element of $A$ to a n-tuple. 
 
-Let's take a look at the kernel of $\phi$, which is comprised of the elements that are send to zero in the product ring. Take a look at the first component, for $x+{\frak a}_{1}$ to be zero in $A / {\frak a}_{1}$, $x$ must be an element of ${\frak a}_{1}$. Then,
+Let's take a look at the kernel of $\phi$, which is comprised of the elements that are send to zero in the product ring. Take a look at the first component, for $x+{\frak a}_{1}$ to be zero in $A / {\frak a}_{1}$, $x$ must be an element of ${\frak a}_ {1}$. Then,
 $$
-\text{ker}(\phi) = \{ x\in A \mid x\in {\frak a}_{i},\,i=1,\dots,n \} \implies \text{ker}(\phi)={\frak a}_{1}\cap\dots \cap {\frak a}_{n}. 
+\text{ker}(\phi) = \{ x\in A \mid x\in {\frak a}_{i},\,i=1,\dots,n \} \implies \text{ker}(\phi)={\frak a}_{1}\cap\dots \cap {\frak a}_ {n}. 
 $$
 If $\phi$ is injective, meaning the kernel has only one element, then $\cap_{i}{\frak a}_{i}=0$.
+ 
 
 **Definition.** Let ${\frak a},{\frak b}$ be ideals of a ring $A$. Their `ideal quotient` is 
 $$
@@ -148,3 +154,7 @@ The radical of an ideal has the following properties:
 **Proposition.** The radical of an ideal ${\frak a}$ is the intersection of all the prime ideals containing ${\frak a}$. 
 
 More generally, we can define the radical of any subset $E$ of ring $A$ in the same way. It is not necessarily an ideal. 
+
+
+
+
