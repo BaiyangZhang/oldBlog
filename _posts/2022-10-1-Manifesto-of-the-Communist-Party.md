@@ -549,3 +549,100 @@ be attained only by the forcible overthrow of all existing social conditions. Le
 Working Men of All Countries, Unite![^12]
 
 [^12]: The famous final phrase of the Manifesto, “Working Men of All Countries, Unite!”, in the original German is: “Proletarier aller Länder, vereinigt euch!” Thus, a more correct translation would be “Proletarians of all countries, Unite!”. “Workers of the World, Unite. You have nothing to lose but your chains!” is a popularisation of the last three sentences, and is not found in any official translation. Since this English translation was approved by Engels, we have kept the original intact.
+
+
+- - -
+
+### Draft of a Communist Confession of Faith
+
+Question 1: *Are you a Communist?* 
+Answer: Yes. 
+
+Question 2: *What is the aim of the Communists?* 
+Answer: To organise society in such a way that every member of it can develop and use all his capabilities and powers in complete freedom and without thereby infringing the basic conditions of this society. 
+
+Question 3: *How do you wish to achieve this aim?* 
+Answer: By the elimination of private property and its replacement by community of property. 
+
+Question 4: *On what do you base your community of property?* 
+Answer: Firstly, on the mass of productive forces and means of subsistence resulting from the development of industry, agriculture, trade and colonisation, and on the possibility inherent in machinery, chemical and other resources of their infinite extension. Secondly, on the fact that in the consciousness or feeling of every individual **there exist certain irrefutable basic principles which**, being the result of the whole of historical development, require no proof. 
+
+Question 5: *What are such principles?* 
+Answer: **For example, every individual strives to be happy**. The happiness of the individual is inseparable from the happiness of all, etc. 
+
+Question 6: How do you wish to prepare the way for your community of property? Answer: By enlightening and uniting the proletariat. 
+
+Question 7: *What is the proletariat?* 
+Answer: The proletariat is that class of society which lives exclusively by its labour and not on the profit from any kind of capital; that class whose weal and woe, whose life and death, therefore, depend on the alternation of times of good and bad business;. in a word, on the fluctuations of competition. 
+
+Question 8: *Then there have not always been proletarians?* 
+Answer: No. There have always been poor and working classes; and those who worked were almost always the poor. But there have not always been proletarians, just as competition has not always been free. 
+
+Question 9: *How did the proletariat arise?* 
+Answer: The proletariat came into being as a result of the introduction of the machines which have been invented since the middle of the last century and the most important of which are: the steam-engine, the spinning machine and the power loom. These machines, which were very expensive and could therefore only be purchased by rich people, supplanted the workers of the time, because by the use of machinery it was possible to produce commodities more quickly and cheaply than could the workers with their imperfect spinning wheels and handlooms. The machines thus delivered industry entirely into the hands of the big capitalists and rendered the workers’ scanty property which consisted mainly of their tools, looms, etc., quite worthless, so that the capitalist was left with everything, the worker with nothing. In this way the factory system was introduced. Once the capitalists saw how advantageous this was for them, they sought to extend it to more and more branches of labour. They divided work more and more between the workers so that workers who formerly had made a whole article now produced only a part of it. Labour simplified in this way produced goods more quickly and therefore more cheaply and only now was it found in almost every branch of labour that here also machines could be used. As soon as any branch of labour went over to factory production it ended up, just as in the case of spinning and weaving. in the hands of the big capitalists, and the workers were deprived of the last remnants of their independence. We have gradually arrived at the position where almost all branches of labour are run on a factory basis. This has increasingly brought about the ruin of the previously existing middle class, especially of the small master craftsmen, completely transformed the previous position of the workers, and two new classes which are gradually swallowing up all other classes have come into being, namely: 
+
+I. The, class of the big capitalists, who in all advanced countries are in almost exclusive possession of the means of subsistence and those means (machines, factories, workshops, etc.) by which these means of subsistence are produced. This is the bourgeois class, or the bourgeoisie. 
+
+II. The class of the completely propertyless, who are compelled to sell their labour to the first class, the bourgeois, simply to obtain from them in return their means of subsistence. Since the parties to this trading in labour are not equal, but the bourgeois have the advantage, the propertyless must submit to the bad conditions laid down by the bourgeois. This class, dependent on the bourgeois, is called the class of the proletarians or the proletariat.
+
+Question 10: *In what way does the proletarian differ from the slave?* 
+Answer: The slave is sold once and for all, the proletarian has to sell himself by the day and by the hour. The slave is the property of one master and for that very reason has a guaranteed subsistence, however wretched it may be. The proletarian is, so to speak, the slave of the entire bourgeois class, not of one master, and therefore has no guaranteed subsistence, since nobody buys his labour if he does not need it. The slave is accounted a thing and not a member of civil society. The proletarian is recognised as a person, as a member of civil society. The slave may, therefore, have a better subsistence than the proletarian but the latter stands at a higher stage of development. The slave frees himself by becoming a proletarian, abolishing from the totality of property relationships only the relationship of slavery. The proletarian can free himself only by abolishing property in general.
+
+Question 11: *In what way does the proletarian differ from the serf?* 
+Answer: The serf has the use of a piece of land, that is, of an instrument of production, in return for handing over a greater or lesser portion of the yield. The proletarian works with instruments of production which belong to someone else who, in return for his labour, hands over to him a portion, determined by competition, of the products. In the case of the serf, the share of the labourer is determined by his own labour, that is, by himself. In the case of the proletarian it is determined by competition, therefore in the first place by the bourgeois. The serf has guaranteed subsistence, the proletarian has not. The serf frees himself by driving out his feudal lord and becoming a property owner himself, thus entering into competition and joining for the time being the possessing class, the privileged class. The proletarian frees himself by doing away with property, competition, and all class differences.
+
+Question 12: *In what way does the proletarian differ from the handicraftsman?* 
+Answer: As opposed to the proletarian, the so-called handicraftsman, who still existed nearly everywhere during the last century and still exists here and there, is at most a temporary proletarian. His aim is to acquire capital himself and so to exploit other workers. He can often achieve this aim where the craft guilds still exist or where freedom to follow a trade has not yet led to the organisation of handwork on a factory basis and to intense competition. But as soon as the factory system is introduced into handwork and competition is in full swing, this prospect is eliminated and the handicraftsman becomes more and more a proletarian. The handicraftsman therefore frees himself either by becoming a bourgeois or in general passing over into the middle class, or, by becoming a proletarian as a result of competition (as now happens in most cases) and joining the movement of the proletariat – i. e., the more or less conscious communist movement.
+
+Question 13: *Then you do not believe that community of property has been possible at any time?* 
+Answer: No. Communism has only arisen since machinery and other inventions made it possible to hold out the prospect of an all-sided development, a happy existence, for all members of society. Communism is the theory of a liberation which was not possible for the slaves, the serfs, or the handicraftsmen, but only for the proletarians and hence it belongs of necessity to the 19th century and was not possible in any earlier period.
+
+Question 14: *Let me go back to the sixth question. As you wish to prepare for community of property by the enlightening and uniting of the proletariat, then you reject revolution?* 
+Answer: We are convinced not only of the uselessness but even of the harmfulness of all conspiracies. We are also aware that revolutions are not made deliberately and arbitrarily but that everywhere and at all times they are the necessary consequence of circumstances which are not in any way whatever dependent either on the will or on the leadership of individual parties or of whole classes. But we also see that the development of the proletariat in almost all countries of the world is forcibly repressed by the possessing classes and that thus a revolution is being forcibly worked for by the opponents of communism. If, in the end, the oppressed proletariat is thus driven into a revolution, then we will defend the cause of the proletariat just as well by our deeds as now by our words.
+
+Question 15: *Do you intend to replace the existing social order by community of Property at one stroke?* 
+Answer: We have no such intention. The development of the masses cannot he ordered by decree. It is determined by the development of the conditions in which these masses live, and therefore proceeds gradually. 
+
+Question 16: *How do you think the transition from the present situation to community of Property is to be effected?* Answer: The first, fundamental condition for the introduction of community of property is the political liberation of the proletariat through a democratic constitution. 
+
+Question 17: *What will be your first measure once you have established democracy?* 
+Answer: Guaranteeing the subsistence of the proletariat. 
+
+Question 18: *How will you do this?*
+Answer. I. By limiting private property in such a way that it gradually prepares the way for its transformation into social property, e. g., by progressive taxation, limitation of the right of inheritance in favour of the state, etc., etc. 
+II. By employing workers in national workshops and factories and on national estates. 
+III. By educating all children at the expense of the state.
+
+Question 19: *How will you arrange this kind of education during the period of transition?* 
+Answer: All children will be educated in state establishments from the time when they can do without the first maternal care. 
+
+Question 20: *Will not the introduction of community of property be accompanied by the proclamation of the community of women?* 
+Answer: By no means. We will only interfere in the personal relationship between men and women or with the family in general to the extent that the maintenance of the existing institution would disturb the new social order. Besides, we are well aware that the family relationship has been modified in the course of history by the property relationships and by periods of development, and that consequently the ending of private property will also have a most important influence on it. 
+
+Question 21: *Will nationalities continue to exist under communism?* 
+Answer: The nationalities of the peoples who join together according to the principle of community will be just as much compelled by this union to merge with one another and thereby supersede themselves as the various differences between estates and classes disappear through the superseding of their basis – private property. 
+
+Question 22. *Do Communists reject existing religions?* 
+Answer: All religions which have existed hitherto were expressions of historical stages of development of individual peoples or groups of peoples. But communism is that stage of historical development which makes all existing religions superfluous and supersedes them. 
+
+In the name and on the mandate of the Congress. Secretary: Heide [Alias of Wilhelm Wolff in the League of the Just] President: Karl Schill [Alias of Karl Schapper in the League of the Just] London, June 9, 1847
+
+- - -
+
+In 1847 Engels wrote two draft programmes for the Communist League in the form of a catechism, one in June and the other in October. The latter, which is known as Principles of Communism, was first published in 1914. The earlier document “Draft of the Communist Confession of Faith”, was only found in 1968. It was first published in 1969 in Hamburg, together with four other documents pertaining to the first congress of the Communist League, in a booklet entitled Gründungs Dokumente des Bundes der Kommunisten (Juni bis September 1847) [Founding Documents of the Communist League]. At the June 1847 Congress of the League of the Just, which was also the founding conference of the Communist League, it was decided to issue a draft “confession of faith” to be submitted for discussion to the sections of the League. The document which has now come to light is almost certainly this draft. Comparison of the two documents shows that Principles of Communism is a revised edition of this earlier draft. In Principles of Communism, Engels left three questions unanswered, in two cases with the notation “unchanged” (bleibt); this clearly refers to the answers provided in the earlier draft. The new draft for the programme was worked out by Engels on the instructions of the leading body of the Paris circle of the Communist League. The instructions were decided on after Engels’ sharp criticism at the committee meeting, on October 22, 1847, of the draft programme drawn up by the “true socialist“ Moses Hess, which was then rejected. Still considering Principles of Communism as a preliminary draft, Engels expressed the view, in a letter to Marx dated November 23-24 1847, that it would be best to drop the old catechistic form and draw up a programme in the form of a manifesto. At the second congress of the Communist League (November 29-December 8, 1847) Marx and Engels defended the fundamental scientific principles of communism and were trusted with drafting a programme in the form of a manifesto of the Communist Party. In writing the manifesto the founders of Marxism made use of the propositions enunciated in Principles of Communism. Engels uses the term Manufaktur, and its derivatives, which have been translated “manufacture”, “manufacturing”, etc., Engels used this word literally, to indicate production by hand, not factory production for which Engels uses “big industry”. Manufaktur differs from handicraft (guild production in mediaeval towns), in that the latter was carried out by independent artisans. Manufacktur is carried out by homeworkers working for merchant capitalists, or by groups of craftspeople working together in large workshops owned by capitalists. It is therefore a transitional mode of production, between guild (handicraft) and modern (capitalist) forms of production.
+
+### The Principles of Communism
+
+1. What is Communism? 
+
+Communism is the doctrine of the conditions of the liberation of the proletariat.
+
+2. What is the proletariat? 
+
+The proletariat is that class in society which lives entirely from the sale of its labor and does not draw profit from any kind of capital; whose weal and woe, whose life and death, whose sole existence depends on the demand for labor – hence, on the changing state of business, on the vagaries of unbridled competition. The proletariat, or the class of proletarians, is, in a word, the working class of the 19th century.[^13]
+
+[^13]: In their works written in later periods, Marx and Engels substituted the more accurate concepts of “sale of labour power”, “value of labour power” and “price of labour power” (first introduced by Marx) for “sale of labour”, “value of labour” and “price of labour”, as used here.
+
+3. Proletarians, then, have not always existed?
+
+No. There have always been poor and working classes; and the working class have mostly been poor. But there have not always been workers and poor people living under conditions as they are today; in other words, there have not always been proletarians, any more than there has always been free unbridled competitions.

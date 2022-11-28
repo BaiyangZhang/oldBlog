@@ -104,3 +104,8 @@ Actually one needs to integrate over the piecewise smooth manifolds, such as a s
 
 ### Closed forms and exact forms
 
+
+
+
+- - -
+
