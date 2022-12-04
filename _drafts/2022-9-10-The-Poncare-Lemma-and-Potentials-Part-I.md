@@ -104,9 +104,46 @@ Actually one needs to integrate over the piecewise smooth manifolds, such as a s
 
 ### Closed forms and exact forms
 
+A form $\beta\in\Omega^p(M)$ is **closed** if $d\beta=0$. For instance,
 
+- zero-forms are just scalar functions, a function $f$ is closed if $df=0=\partial f$, meaning $f$ is a constant;
+- for 1-forms, $d\beta^1=0\implies(\partial_{i}\beta_{j}-\partial_{j}\beta_{i})=0$, hence $\beta$ as a vector is curl free;
+- similarly, for 3-forms closeness implies divergence free.
 
+A form $\beta$ is said to be **exact** if it is the derivative of some other forms, namely $\beta=d\alpha$ for some $\alpha\in\Omega^{p-1}(M)$.
 
+It is important to recall that 
+$$
+d^{2}\equiv {0},\quad d(d(\text{anything}))=0.
+$$
+We present the following statements without proof, 
+1. every exact form is closed;
+2. the product of two closed forms is closed;
+3. the product of a closed form and an exact form is exact, $\beta d\alpha=d(\beta \alpha)$ is $\beta$ is closed.
+4. The integral of an exact form over an orientable **closed** manifold is zero;
+5. The integral of a closed form over the **boundary** of an **oriented compact manifold** is zero. 
+
+Some of them are obvious and all of them can be proved as an exercise.
+
+The etymology is probably that people borrowed it from homology, we there is a close relationship between exterior forms and homology. Think of boundary operation when you see the exterior differentiation, $\partial\sim d$, then the terminologies start to make sense, for example,
+1. A curve with zero boundary is closed, and we san a form with zero derivative is closed;
+2. the boundary of a closed curve is zero, namely $\partial(\text{closed})=0$ $\Longleftrightarrow$ $d(\text{closed forms})=0$
+
+We say that a differential is exact when $\partial_{i}\partial_{j}f = \partial_{j}\partial_{i}f$, this is what happens to an exact 2-form, justifying the use of terminology *exact*.
+
+**A closed form is not always exact**, being exact is a much stronger condition. To fully understand it, it is useful to see an example:
+$$
+\boxed{
+\beta=\frac{xdy-ydx}{x^{2}+y^{2}}
+}
+$$
+which is closed as can be verified by direct evaluation. Note that it is not defined at the origin. Now the question is, is it exact? The "inverse derivative" of $\beta$ is 
+$$
+\arctan\left( \frac{y}{x} \right)
+$$
+It looks like it is exact, but it only looks like so. The problem is that, the original form is defined on $\mathbb{R}^{2}-0$, however the arctan function is not a single-valued function on this manifold! 
+
+ 
 
 
 
