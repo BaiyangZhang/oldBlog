@@ -141,7 +141,7 @@ which is closed as can be verified by direct evaluation. Note that it is not def
 $$
 \arctan\left( \frac{y}{x} \right)
 $$
-It looks like it is exact, but it only looks like so. The problem is that, the original form is defined on $\mathbb{R}^{2}-0$, however the arctan function is not a single-valued function on this manifold! 
+It looks like it is exact, but it only looks like so. The problem is that, the original form is defined on $\mathbb{R}^{2}-0$, however the arctan function is not a single-valued function on this manifold! From complex analysis we know that $\arctan$ is single-valued only on one of the many branches of the Riemann plane. This is an example of differential forms that is exact **locally** but not globally. In general when we refer to a differential form as being exact, we mean globally. 
 
  
 
