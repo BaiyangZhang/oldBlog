@@ -252,3 +252,27 @@ To summarize, **we associate a residual to a 1-form, not a function**, which is 
 
 ### The converse to the Poincare Lemma
 
+The question we wanted to ask is, under what circumstance is a closed 1-form always exact? That is, let $\beta$ be a 1-form, when does $d\beta=0$ implies $\beta=d\alpha$ for some function $\alpha$? Now we know that it depends on the topology of the manifold $M$ on which $\beta$ is defined. If the first Betti number of $M$ is zero, that is, if every 1-dimensional loop is the boundary of some 2-dimensional oriented surface. Note that this condition is stronger than saying that there is no hole in the manifold, for sometimes a manifold has no hole but still has non-zero first Betti number, as we shall see in the below example. 
+
+**Example.** Let's take a look at 2-dimensional torus, sometimes denoted by $\mathbb{T}^2$. In the figure below two closed curves are shown, $C$ and $C'$, but non of them are the boundary of any surface. On way to see it is that non of the $C$ and $C'$ can ben shrunk to a point without leaving the torus. Thus, we don't expect every closed form to be exact. For instance, consider two forms $d\theta$ and $d\phi$, where $\theta$ parametrized $C$ and $\phi$ parametrizes $C'$, they are closed but not exact, for 
+
+$$
+\oint_{C}d\theta=2\pi\neq 0
+$$
+which can only be true if $d\theta$ is not exact. The same goes for $d\phi$.
+
+![torus](/img/torus.png "torus")
+
+For historical reasons, that fact that $dd=0$ is called the Poincare's lemma (not Poincare's Theorem), even though Poincare utilized this result before the invention of exterior calculus! There is a partial converse to this result, practically says that the converse to Poincare lemma is locally true.
+
+**Theorem.** For a *closed* differential form with degree no less than $1$, namely $\beta\in\Omega^p(M)$ and $p\geq {1}$, then there exists a neighborhood $U$ of $x\in M$ and a $(p-1)$-form $\alpha\in\Omega^{p-1}(M)$ such that $\beta =d\alpha$.
+
+**Proof.** It's enough to consider $R^n$ instead of $M^n$ since on a small-enough neighborhood $U_{x}$, there is always an diffeomorphism between $U_{x}$ and $R^n$, denoted by 
+$$
+\phi:U_{x}\to B^n
+$$
+where $B^n$ is a $n$-dimensional open ball in $R^n$. 
+
+Since $\phi$ is diffeomorphic, $\phi^{-1}$ exists. Then we can use $\phi^{-1}$ to pull back a closed p-form $\beta\in\Omega^p(M)$ from $M$ to $R^n$. $(\phi^{-1})^\ast \beta$ is also closed, since pullback and $d$ commute with each other.  So we just need to find the potential for $(\phi^{-1})^\ast \beta$.
+
+
