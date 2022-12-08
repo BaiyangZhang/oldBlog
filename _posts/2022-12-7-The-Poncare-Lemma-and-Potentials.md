@@ -273,6 +273,72 @@ $$
 $$
 where $B^n$ is a $n$-dimensional open ball in $R^n$. 
 
-Since $\phi$ is diffeomorphic, $\phi^{-1}$ exists. Then we can use $\phi^{-1}$ to pull back a closed p-form $\beta\in\Omega^p(M)$ from $M$ to $R^n$. $(\phi^{-1})^\ast \beta$ is also closed, since pullback and $d$ commute with each other.  So we just need to find the potential for $(\phi^{-1})^\ast \beta$.
+Since $\phi$ is diffeomorphic, $\phi^{-1}$ exists. Then we can use $\phi^{-1}$ to pull back a closed p-form $\beta\in\Omega^p(M)$ from $M$ to $R^n$. $(\phi^{-1})^\ast \beta$ is also closed, since pullback and $d$ commute with each other.  So we just need to find the potential for $(\phi^{-1})^\ast \beta$, call it $\alpha$, then $\phi^\ast\alpha$ is the potential we are looking for.
+
+We may assume the $\beta$ is a closed $p$-form on an open ball $U$ of $\mathbb{R}^n$. Consider the deformation
+$$
+\phi_{t}: \mathbf{x} \to(1-t)\mathbf{x}
+$$
+with velocity 
+$$
+\mathbf{v}(t,\mathbf{y}) = \frac{d}{dt} \mathbf{y}(t) = -\mathbf{y}(t=0) = - \frac{\mathbf{y}}{(1-t)}
+$$
+for $t\neq 1$. Note that $\phi_{0}$ is the identity map that maps a point in $\mathbb{R}^n$ to itself, thus $\phi_{0}^\ast$ is the identity pullback map that maps a differential form to itself, similarly $\phi_{1}^\ast$ is the zero map.
+
+By introducing parameter $t$ we have effectively extended the "spatial" manifold $\mathbb{R}^n$ to the "spacetime" manifold $\mathbb{R}^{n+1}$, a time dependent tensor field in $\mathbb{R}^n$ can be regarded as a tensor field in spacetime. 
+
+Considering $\beta = \beta(\mathbf{x})$ as a *time-independent* $p$-form on $\mathbb{R}^n$, we have 
+$$
+\beta(\mathbf{x}) = \phi_{0}^\ast \beta(\mathbf{x}) = \phi_{0}^\ast \beta(\mathbf{x})-\phi_{1}^\ast \beta(\mathbf{\phi_{1}x}) = \int_{1}^{0} ds \, \frac{d}{ds}  \phi_{s}^\ast \beta(\mathbf{\phi_{s}x}) .
+\tag{1}
+$$
+Using 
+$$
+\frac{ \partial  }{ \partial t } \phi_{t}^\ast \alpha = \phi_{t}^\ast \left\{ \frac{ \partial \alpha }{ \partial t } + i_{\mathbf{v}} d\alpha + d i_{\mathbf{v}}\alpha  \right\} 
+$$
+where $\mathbf{v}=\partial\phi_{t}(x) / \partial t$ is the velocity field. Together with $d\beta=0$ and $\partial\beta / \partial t=0$, Eq. (1) becomes
+$$
+\beta(\mathbf{x}) = \int_{1}^{0} ds \, \phi_{s}^\ast d[i_{\mathbf{v}(\phi_{s}\mathbf{x})}\beta(\phi_{s}(\mathbf{x}))] = d \int_{1}^{0} ds \, \phi_{s}^\ast [i_{\mathbf{v}(\phi_{s}\mathbf{x})}\beta(\phi_{s}(\mathbf{x}))] 
+$$
+where we first exchanged $d$ and $\phi_{s}^\ast$ then moved $d$ outside of the integral sign, which is allowed since the integral domain is unchanged. Thus 
+$$
+\beta = d\alpha,\quad \alpha = \int_{1}^{0} ds \, \phi_{s}^\ast [i_{\mathbf{v}(\phi_{s}\mathbf{x})}\beta(\phi_{s}(\mathbf{x}))] 
+$$
+
+Note that the proof stands because for every point in $\mathbb{R}^n$ is associated a neighborhood that can be contracted to the point; that is, there is a **deformation** given by $\mathbf{x}\mapsto(1-t)\mathbf{x}$ that collapses the neighborhood to the point.   
+
+Let us now write down the expression for $\alpha$ in detail. Let $\mathbf{y}:=\phi_{s}(\mathbf{x})=(1-t)\mathbf{x}$, then
+$$
+i_{\mathbf{v}(\phi_{s}\mathbf{x})}\beta(s,\mathbf{y}) = i_{\mathbf{v}(\mathbf{y})}\beta(s,\mathbf{y}) = v^j(\mathbf{y})\beta_{jK}(\mathbf{y})dy^K = -\frac{y^i}{1-s}b_{jK}(\mathbf{y})dy^K
+$$
+where we require the indices in $K$ increases monotonically, this saves as the annoying factors like ${1} / {n!}$. 
+
+To take $\phi_{s}^\ast$ of this (p-1)-form is to change the coordinates from $\{y\}$ to $\left\{ x \right\}$. Putting $\tau=1-s$ we have 
+$$
+\alpha = \int_{0}^{1} d\tau \, \tau^{p-1}x^jb_{jK}(\tau \mathbf{x})dx^K 
+$$
+where the increasing order in the index set $K$ is understood.
+
+- - -
+
+Since all of $\mathbb{R}^n$ can be contracted to a point, the conclusion holds for $\mathbb{R}^n$ globally. If $\beta$ is closed in $\mathbb{R}^n$, then it is also globally exact.
+
+**Corollary.** If $\text{div } \mathbf{B} = 0$ in $\mathbb{R}^3$ then $\mathbf{B}= \text{curl }\mathbf{A}$ for some $\mathbf{A}$.
 
 
+### Find Potentials
+
+
+Consider the electric field due to a charge $q$ at the origin. In spherical coordinates 
+$$
+\mathbf{E}=\frac{q}{r^{2}}\partial_{r}
+$$
+for $r>0$. Using the Euclidean metric in spherical coordinates,
+$$
+ds^{2} = dr^{2}+r^{2}(d\theta^{2}+\sin ^{2}\theta d\phi^{2})
+$$
+we find 
+$$
+\mathcal{E}=\mathbf{d}(-q / r),\quad \mathbf{d} = dx\wedge \partial_{x}+dy\wedge \partial_{y}+dz\wedge \partial_{z}
+$$
+where $\mathcal{E}:=E_{i}dx^i$ is the electric field intensity 1-form, and $q / r$ is the familiar scalar potential. 
