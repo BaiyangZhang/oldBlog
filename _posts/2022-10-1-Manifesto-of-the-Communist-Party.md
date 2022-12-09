@@ -19,7 +19,7 @@ Author: Karl Marx and Frederick Engels
 February 1848
 
 
-### abstract
+### Abstract
 The "Manifesto of the Communist Party" was written by Marx and Engels as the Communist League's programme on the instruction of its Second Congress (London, November 29-December 8, 1847), which signified a victory for the followers of a new proletarian line during the discussion of the programme questions.
 
 When Congress was still in preparation, Marx and Engels arrived at the conclusion that the final programme document should be in the form of a Party manifesto (see Engels' letter to Marx of November 23-24, 1847). The catechism form usual for the secret societies of the time and retained in the "Draft of a Communist Confession of Faith" and "Principles of Communism", was not suitable for a full and substantial exposition of the new revolutionary world outlook, for a comprehensive formulation of the proletarian movement's aims and tasks. See also "Demands of the Communist Party in Germany", issued by Marx soon after publication of the Manifesto, which addressed the immediate demands of the movement.
@@ -56,18 +56,7 @@ The "Third Address to the International Workingmen's Association" is included be
 
 ### Manifesto of the Communist Party
 
-A spectre[^4]
-
-[^4]: Spectre, 幽灵，此处应有双重含义，一方面指 "something unpleasant that people are afraid might happen in the future"（quoted from Oxford dict），即引人不快、令人恐惧的恶兆（周孝正认为此处真应该翻译为"魔鬼"，1920年首版中文翻译中直接把spectre翻译成"怪物"，略显滑稽），当然这是对仇视共产主义之流而言。另一方面可能是指"ghost"(Oxford dict)，即鬼魂、幽灵之属，从下文可以看出指的是童话、童谣（nursery tale）中的幽灵，引申为模模糊糊、只存在于传说中、并没有明确的定义的事物，正如一八四七年的"社会主义"在欧洲。
-
-is haunting Europe — the spectre of communism. All the powers of old Europe have entered into a holy alliance to exorcise this spectre: Pope and Tsar, Metternich[^5] 
-
-[^5]: 梅特涅（德语：Klemens Wenzel von Metternich；1773年5月15日－1859年6月11日）神圣罗马帝国时期奥地利政治家，也是当时最重要的外交家。梅特涅曾在萨克森、普鲁士及巴黎担任公使。1809年任奥地利帝国外交大臣，首要工作是与拿破仑法国构和。他促成了奥地利公主，女公爵玛丽·路易莎与拿破仑的婚姻，拿破仑为此抛弃了约瑟芬。不久后梅特涅推动奥地利加入了第六次反法同盟，签署《枫丹白露条约》，促成拿破仑流亡。随着奥地利、俄国和较小的普鲁士的结盟，"梅特涅体系"持续了数十年，这是奥地利外交的高峰。1859年梅特涅逝世，享年86岁，乃同時代知名政治家之最。作为保皇派，梅特涅热衷于保持权利平衡，特別是通过抵抗俄国在中欧和奥斯曼帝国领土上的野心。他反对自由主义，镇压北意大利和德意志的民族主义叛乱；在国内，他利用书报检查制度和间谍网络进行镇压。他因扑灭欧洲革命之火，被称为「消防队长」。
-
-and Guizot[^6],
-
-[^6]: Guizot (基佐, 4 October 1787 – 12 September 1874) was a French historian, orator, and statesman. Guizot was a dominant figure in French politics prior to the Revolution of 1848. A moderate liberal who opposed the attempt by King Charles X to usurp legislative power, he worked to sustain a constitutional monarchy following the July Revolution of 1830. He then served the "citizen king" Louis Philippe, as Minister of Education, 1832–37, ambassador to London, Foreign Minister 1840–1847, and finally Prime Minister of France from 19 September 1847 to 23 February 1848. Guizot's influence was critical in expanding public education, which under his ministry saw the creation of primary schools in every French commune. As a leader of the "Doctrinaires", committed to supporting the policies of Louis Phillipe and limitations on further expansion of the political franchise, he earned the hatred of more left-leaning liberals and republicans through his unswerving support for restricting suffrage to propertied men(有产者), advising those who wanted the vote to "enrich yourselves" (enrichissez-vous) through hard work and thrift. As Prime Minister, it was Guizot's ban on the political meetings (called the campagne des banquets or the Paris Banquets, which were held by moderate liberals who wanted a larger extension of the franchise) of an increasingly vigorous opposition in January 1848 that catalyzed the revolution that toppled Louis Philippe in February and saw the establishment of the French Second Republic. Marx and Engels published the Manifesto just days before Guizot's overthrow in the 1848 Revolution. 
-French Radicals and German police-spies.
+A spectre[^4] is haunting Europe — the spectre of communism. All the powers of old Europe have entered into a holy alliance to exorcise this spectre: Pope and Tsar, Metternich[^5] and Guizot[^6], French Radicals and German police-spies.
 
 Where is the party in opposition that has not been decried as communistic by its opponents in power? Where is the opposition that has not hurled back the branding reproach of communism, against the more advanced opposition parties, as well as against its reactionary adversaries?
 
@@ -78,6 +67,13 @@ I. Communism is already acknowledged by all European powers to be itself a power
 II. It is high time that Communists should openly, in the face of the whole world, publish their views, their aims, their tendencies, and meet this nursery tale of the Spectre of Communism with a manifesto of the party itself.
 
 To this end, Communists of various nationalities have assembled in London and sketched the following manifesto, to be published in the English, French, German, Italian, Flemish and Danish languages.
+
+
+[^4]: Spectre, 幽灵，此处应有双重含义，一方面指 "something unpleasant that people are afraid might happen in the future"（quoted from Oxford dict），即引人不快、令人恐惧的恶兆（周孝正认为此处真应该翻译为"魔鬼"，1920年首版中文翻译中直接把spectre翻译成"怪物"，略显滑稽），当然这是对仇视共产主义之流而言。另一方面可能是指"ghost"(Oxford dict)，即鬼魂、幽灵之属，从下文可以看出指的是童话、童谣（nursery tale）中的幽灵，引申为模模糊糊、只存在于传说中、并没有明确的定义的事物，正如一八四七年的"社会主义"在欧洲。
+
+[^5]: 梅特涅（德语：Klemens Wenzel von Metternich；1773年5月15日－1859年6月11日）神圣罗马帝国时期奥地利政治家，也是当时最重要的外交家。梅特涅曾在萨克森、普鲁士及巴黎担任公使。1809年任奥地利帝国外交大臣，首要工作是与拿破仑法国构和。他促成了奥地利公主，女公爵玛丽·路易莎与拿破仑的婚姻，拿破仑为此抛弃了约瑟芬。不久后梅特涅推动奥地利加入了第六次反法同盟，签署《枫丹白露条约》，促成拿破仑流亡。随着奥地利、俄国和较小的普鲁士的结盟，"梅特涅体系"持续了数十年，这是奥地利外交的高峰。1859年梅特涅逝世，享年86岁，乃同時代知名政治家之最。作为保皇派，梅特涅热衷于保持权利平衡，特別是通过抵抗俄国在中欧和奥斯曼帝国领土上的野心。他反对自由主义，镇压北意大利和德意志的民族主义叛乱；在国内，他利用书报检查制度和间谍网络进行镇压。他因扑灭欧洲革命之火，被称为「消防队长」。
+
+[^6]: Guizot (基佐, 4 October 1787 – 12 September 1874) was a French historian, orator, and statesman. Guizot was a dominant figure in French politics prior to the Revolution of 1848. A moderate liberal who opposed the attempt by King Charles X to usurp legislative power, he worked to sustain a constitutional monarchy following the July Revolution of 1830. He then served the "citizen king" Louis Philippe, as Minister of Education, 1832–37, ambassador to London, Foreign Minister 1840–1847, and finally Prime Minister of France from 19 September 1847 to 23 February 1848. Guizot's influence was critical in expanding public education, which under his ministry saw the creation of primary schools in every French commune. As a leader of the "Doctrinaires", committed to supporting the policies of Louis Phillipe and limitations on further expansion of the political franchise, he earned the hatred of more left-leaning liberals and republicans through his unswerving support for restricting suffrage to propertied men(有产者), advising those who wanted the vote to "enrich yourselves" (enrichissez-vous) through hard work and thrift. As Prime Minister, it was Guizot's ban on the political meetings (called the campagne des banquets or the Paris Banquets, which were held by moderate liberals who wanted a larger extension of the franchise) of an increasingly vigorous opposition in January 1848 that catalyzed the revolution that toppled Louis Philippe in February and saw the establishment of the French Second Republic. Marx and Engels published the Manifesto just days before Guizot's overthrow in the 1848 Revolution. 
 
 ### Bourgeois and Proletarians
 
@@ -747,4 +743,10 @@ In 1847 Engels wrote two draft programmes for the Communist League in the form o
 
 20. Will not the introduction of community of property be accompanied by the proclamation of the community of women? 
 
->Answer: By no means. We will only interfere in the personal relationship between men and women or with the family in general to the extent that the maintenance of the existing institution would disturb the new social order. Besides, we are well aware that the family relationship has been modified in the course of history by the property relationships and by periods of development, and that consequently the ending of private property will also have a most important influence on it. Question 21: Will nationalities continue to exist under communism? Answer: The nationalities of the peoples who join together according to the principle of community will be just as much compelled by this union to merge with one another and thereby supersede themselves as the various differences between estates and classes disappear through the superseding of their basis – private property. Question 22. Do Communists reject existing religions? Answer: All religions which have existed hitherto were expressions of historical stages of development of individual peoples or groups of peoples. But communism is that stage of historical development which makes all existing religions superfluous and supersedes them. In the name and on the mandate of the Congress. Secretary: Heide [Alias of Wilhelm Wolff in the League of the Just] President: Karl Schill [Alias of Karl Schapper in the League of the Just] London, June 9, 1847
+>Answer: By no means. We will only interfere in the personal relationship between men and women or with the family in general to the extent that the maintenance of the existing institution would disturb the new social order. Besides, we are well aware that the family relationship has been modified in the course of history by the property relationships and by periods of development, and that consequently the ending of private property will also have a most important influence on it. 
+
+21. Will nationalities continue to exist under communism? 
+
+The nationalities of the peoples who join together according **to the principle of community** will be just as much compelled by this union to merge with one another and thereby supersede themselves as the various differences between estates and classes disappear through the superseding of their basis – private property. 
+
+Question 22. Do Communists reject existing religions? Answer: All religions which have existed hitherto were expressions of historical stages of development of individual peoples or groups of peoples. But communism is that stage of historical development which makes all existing religions superfluous and supersedes them. In the name and on the mandate of the Congress. Secretary: Heide [Alias of Wilhelm Wolff in the League of the Just] President: Karl Schill [Alias of Karl Schapper in the League of the Just] London, June 9, 1847
