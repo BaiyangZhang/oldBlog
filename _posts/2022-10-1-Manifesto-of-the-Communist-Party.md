@@ -749,4 +749,6 @@ In 1847 Engels wrote two draft programmes for the Communist League in the form o
 
 The nationalities of the peoples who join together according **to the principle of community** will be just as much compelled by this union to merge with one another and thereby supersede themselves as the various differences between estates and classes disappear through the superseding of their basis – private property. 
 
-Question 22. Do Communists reject existing religions? Answer: All religions which have existed hitherto were expressions of historical stages of development of individual peoples or groups of peoples. But communism is that stage of historical development which makes all existing religions superfluous and supersedes them. In the name and on the mandate of the Congress. Secretary: Heide [Alias of Wilhelm Wolff in the League of the Just] President: Karl Schill [Alias of Karl Schapper in the League of the Just] London, June 9, 1847
+22. Do Communists reject existing religions? 
+
+>All religions which have existed hitherto were expressions of historical stages of development of individual peoples or groups of peoples. But communism is that stage of historical development which makes all existing religions superfluous and supersedes them. In the name and on the mandate of the Congress. Secretary: Heide [Alias of Wilhelm Wolff in the League of the Just] President: Karl Schill [Alias of Karl Schapper in the League of the Just] London, June 9, 1847
