@@ -218,7 +218,6 @@ Again, this pseudo function defines a singular distribution, singular in the sen
 
 - - -
 
-*A different definition.*
 There is an interesting alternative way to look at the pseudofunction $x_{+}^\alpha$. We can regard it as a function of $\alpha$ instead of $x$, that is 
 $$
 x_{+}^\alpha: \alpha \mapsto \int_{0}^{\infty} dx \, x^\alpha \phi(x), 
@@ -294,6 +293,11 @@ $$
 \frac{d}{dx} \text{Pf. }x^{-1}_{+} = -\text{Pf. }x_{+}^{-2}.
 $$
 
+
+We have discussed the situation where $x$ is positive, now let's turn to negative $x$. Similarly to $x_{+}$ we can define function
+$$
+x\mapsto \theta(-x) \left\lvert x \right\rvert ^\alpha
+$$
 
 
 

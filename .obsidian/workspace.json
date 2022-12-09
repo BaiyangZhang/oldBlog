@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-12-7-The-Poncare-Lemma-and-Potentials.md",
+                "file": "_drafts/2022-11-12-Duality-Part-I.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b8f5490e99116a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2022-12-12-Holonomic and Nonholonomic Constraints.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a87c24cc2bc0ddc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2022-12-13-Basic-Category-Theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d903c13d79231aa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-12-7-The-Poncare-Lemma-and-Potentials.md",
+                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-12-7-The-Poncare-Lemma-and-Potentials.md",
+                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-12-7-The-Poncare-Lemma-and-Potentials.md"
+                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md"
               }
             }
           }
@@ -137,17 +174,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cdb0e68c88b384aa",
+  "active": "d903c13d79231aa3",
   "lastOpenFiles": [
     "_drafts/2022-11-23-《师哲回忆录》.md",
-    "_posts/2022-12-7-The-Poncare-Lemma-and-Potentials.md",
-    "img/torus.png 1.md",
-    "img/torus.png.md",
-    "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",
-    "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md",
-    "_drafts/2022-10-12-《罗马人的故事》笔记.md",
+    "_drafts/2022-10-29-Basics-of-Distributions.md",
+    "_drafts/2022-12-13-Introduction-to-Transseries.md",
+    "_drafts/2022-12-13-Basic-Category-Theory.md",
+    "_drafts/2022-12-12-Holonomic and Nonholonomic Constraints.md",
     "_drafts/2022-11-12-Duality-Part-I.md",
-    "_drafts/2022-10-3-共和国史笔记.md",
-    "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md"
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-5.md",
+    "_drafts/调档函.md",
+    "_drafts/君主论书摘.md",
+    "_drafts/2022-11-24-Aspects-of-Symmetry.md"
   ]
 }

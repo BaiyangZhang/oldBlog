@@ -189,10 +189,6 @@ Hitherto, every form of society has been based, as we have already seen, on the 
 
 The essential conditions for the existence and for the sway of the bourgeois class is the formation and augmentation of capital; the condition for capital is wage-labour. Wage-labour rests exclusively on competition between the labourers. The advance of industry, whose involuntary promoter is the bourgeoisie, replaces the isolation of the labourers, due to competition, by the revolutionary combination, due to association. The development of Modern Industry, therefore, cuts from under its feet the very foundation on which the bourgeoisie produces and appropriates products. What the bourgeoisie therefore produces, above all, are its own grave-diggers. Its fall and the victory of the proletariat are equally inevitable.
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 ### Proletarians and Communists
 
 In what relation do the Communists stand to the proletarians as a whole?
@@ -635,9 +631,11 @@ In 1847 Engels wrote two draft programmes for the Communist League in the form o
 
 1. What is Communism? 
 
+
 	Communism is the doctrine of the conditions of the liberation of the proletariat.
 
 2. What is the proletariat? 
+
 
 	The proletariat is that class in society which lives entirely from the sale of its labor and does not draw profit from any kind of capital; whose weal and woe, whose life and death, whose sole existence depends on the demand for labor – hence, on the changing state of business, on the vagaries of unbridled competition. The proletariat, or the class of proletarians, is, in a word, the working class of the 19th century.[^13]
 
@@ -645,9 +643,11 @@ In 1847 Engels wrote two draft programmes for the Communist League in the form o
 
 3. Proletarians, then, have not always existed?
 
+
 	No. There have always been poor and working classes; and the working class have mostly been poor. But there have not always been workers and poor people living under conditions as they are today; in other words, there have not always been proletarians, any more than there has always been free unbridled competitions.
 
 4.  How did the proletariat originate? 
+
 
 	The Proletariat originated in the industrial revolution, which took place in England in the last half of the last (18th) century, and which has since then been repeated in all the civilized countries of the world. This industrial revolution was precipitated by the discovery of the steam engine, various spinning machines, the mechanical loom, and a whole series of other mechanical devices. These machines, which were very expensive and hence could be bought only by big capitalists, altered the whole mode of production and displaced the former workers, because the machines turned out cheaper and better commodities than the workers could produce with their inefficient spinning wheels and handlooms. The machines delivered industry wholly into the hands of the big capitalists and rendered entirely worthless the meagre property of the workers (tools, looms, etc.). The result was that the capitalists soon had everything in their hands and nothing remained to the workers. This marked the introduction of the factory system into the textile industry. Once the impulse to the introduction of machinery and the factory system had been given, this system spread quickly to all other branches of industry, especially cloth- and book-printing, pottery, and the metal industries. Labor was more and more divided among the individual workers so that the worker who previously had done a complete piece of work now did only a part of that piece. This division of labor made it possible to produce things faster and cheaper. It reduced the activity of the individual worker to simple, endlessly repeated mechanical motions which could be performed not only as well but much better by a machine. In this way, all these industries fell, one after another, under the dominance of steam, machinery, and the factory system, just as spinning and weaving had already done. But at the same time, they also fell into the hands of big capitalists, and their workers were deprived of whatever independence remained to them. Gradually, not only genuine manufacture but also handicrafts came within the province of the factory system as big capitalists increasingly 43 Draft of a Communist Confession of Faith displaced the small master craftsmen by setting up huge workshops, which saved many expenses and permitted an elaborate division of labor. This is how it has come about that in civilized countries at the present time nearly all kinds of labor are performed in factories – and, in nearly all branches of work, handicrafts and manufacture have been superseded. This process has, to an ever greater degree, ruined the old middle class, especially the small handicraftsmen; it has entirely transformed the condition of the workers; and two new classes have been created which are gradually swallowing up all the others. These are: 
 		(i) The class of big capitalists, who, in all civilized countries, are already in almost exclusive possession of all the means of subsistence and of the instruments (machines, factories) and materials necessary for the production of the means of subsistence. This is the bourgeois class, or the bourgeoisie. 
@@ -655,9 +655,11 @@ In 1847 Engels wrote two draft programmes for the Communist League in the form o
 
 5. Under what conditions does this sale of the labor of the proletarians to the bourgeoisie take place? 
 
+
 	Labor is a commodity, like any other, and its price is therefore determined by exactly the same laws that apply to other commodities. In a regime of big industry or of free competition – as we shall see, the two come to the same thing – the price of a commodity is, on the average, always equal to its cost of production. Hence, the price of labor is also equal to the cost of production of labor. But, the costs of production of labor consist of precisely the quantity of means of subsistence necessary to enable the worker to continue working, and to prevent the working class from dying out. The worker will therefore get no more for his labor than is necessary for this purpose; the price of labor, or the wage, will, in other words, be the lowest, the minimum, required for the maintenance of life. However, since business is sometimes better and sometimes worse, it follows that the worker sometimes gets more and sometimes gets less for his commodities. But, again, just as the industrialist, on the average of good times and bad, gets no more and no less for his commodities than what they cost, similarly on the average the worker gets no more and no less than his minimum. This economic law of wages operates the more strictly the greater the degree to which big industry has taken possession of all branches of production.
 
 6. What working classes were there before the industrial revolution? 
+
 
 	The working classes have always, according to the different stages of development of society, lived in different circumstances and had different relations to the owning and ruling classes. In antiquity, the workers were the slaves of the owners, just as they still are in many backward countries and even in the southern part of the United States. In the Middle Ages, they were the serfs of the land-owning nobility, as they still are in Hungary, Poland, and Russia. In the Middle Ages, and indeed right up to the industrial revolution, there were also journeymen in the cities who worked in the service of petty bourgeois masters.
 	
@@ -665,13 +667,16 @@ In 1847 Engels wrote two draft programmes for the Communist League in the form o
 
 7. In what way do proletarians differ from slaves? 
 
+
 	The slave is sold once and for all; the proletarian must sell himself daily and hourly. The individual slave, property of one master, is assured an existence, however miserable it may be, because of the master’s interest. The individual proletarian, property as it were of the entire bourgeois class which buys his labor only when someone has need of it, has no secure existence. This existence is assured only to the class as a whole. The slave is outside competition; the proletarian is in it and experiences all its vagaries. The slave counts as a thing, not as a member of society. Thus, the slave can have a better existence than the proletarian, while the proletarian belongs to a higher stage of social development and, himself, stands on a higher social level than the slave. The slave frees himself when, of all the relations of private property, he abolishes only the relation of slavery and thereby becomes a proletarian; the proletarian can free himself only by abolishing private property in general.
 
 8. In what way do proletarians differ from serfs? 
 
+
 	The serf possesses and uses an instrument of production, a piece of land, in exchange for which he gives up a part of his product or part of the services of his labor. The proletarian works with the instruments of production of another, for the account of this other, in exchange for a part of the product. The serf gives up, the proletarian receives. The serf has an assured existence, the proletarian has not. The serf is outside competition, the proletarian is in it. The serf liberates himself in one of three ways: either he runs away to the city and there becomes a handicraftsman; or, instead of products and services, he gives money to his lord and thereby becomes a free tenant; or he overthrows his feudal lord and himself becomes a property owner. In short, by one route or another, he gets into the owning class and enters into competition. The proletarian liberates himself by abolishing competition, private property, and all class differences.
 
 9. In what way do proletarians differ from handicraftsmen? 
+
 
 	In contrast to the proletarian, the so-called handicraftsman, as he still existed almost everywhere in the past (eighteenth) century and still exists here and there at present, is a proletarian at most temporarily. His goal is to acquire capital himself wherewith to exploit other workers. He can often achieve this goal where guilds still exist or where freedom from guild restrictions has not yet led to the introduction of factory-style methods into the crafts nor yet to fierce competition But as soon as the factory system has been introduced into the crafts and competition flourishes fully, this perspective dwindles away and the handicraftsman becomes more and more a proletarian. The handicraftsman therefore frees himself by becoming either bourgeois or entering the middle class in general, or becoming a proletarian because of competition (as is now more often the case). In which case he can free himself by joining the proletarian movement, i.e., the more or less communist movement.[^14]
 
@@ -679,9 +684,11 @@ In 1847 Engels wrote two draft programmes for the Communist League in the form o
 
 10. In what way do proletarians differ from manufacturing workers? 
 
+
 	The manufacturing worker of the 16th to the 18th centuries still had, with but few exception, an instrument of production in his own possession – his loom, the family spinning wheel, a little plot of land which he cultivated in his spare time. The proletarian has none of these things. The manufacturing worker almost always lives in the countryside and in a more or less *patriarchal* relation to his landlord or employer; the proletarian lives, for the most part, in the city and his relation to his employer is *purely a cash relation*. The manufacturing worker is torn out of his patriarchal relation by big industry, loses whatever property he still has, and in this way becomes a proletarian.
 
 11. What were the immediate consequences of the industrial revolution and of the division of society into bourgeoisie and proletariat? 
+
 
 	First, the lower and lower prices of industrial products brought about by machine labor totally destroyed, in all countries of the world, the old system of manufacture or industry based upon hand labor. 
 	
@@ -700,7 +707,8 @@ In 1847 Engels wrote two draft programmes for the Communist League in the form o
 	Third, everywhere the proletariat develops in step with the bourgeoisie. In proportion, as the bourgeoisie grows in wealth, the proletariat grows in numbers. For, since the proletarians can be employed only by capital, and since capital extends only through employing labor, it follows that the growth of the proletariat proceeds at precisely the same pace as the growth of capital. Simultaneously, this process draws members of the bourgeoisie and proletarians together into the great cities where industry can be carried on most profitably, and by thus throwing great masses in one spot it gives to the proletarians a consciousness of their own strength. Moreover, the further this process advances, the more new labor-saving machines are invented, the greater is the pressure exercised by big industry on wages, which, as we have seen, sink to their minimum and therewith render the condition of the proletariat increasingly unbearable. The growing dissatisfaction of the proletariat thus joins with its rising power to prepare a proletarian social revolution. 	
  
  12. What were the further consequences of the industrial revolution? 
- 
+
+
 	 Big industry created in the steam engine, and other machines, the means of endlessly expanding industrial production, speeding it up, and cutting its costs. With production thus facilitated, the free competition, which is necessarily bound up with big industry, assumed the most extreme forms; a multitude of capitalists invaded industry, and, in a short while, *more was produced than was needed*. As a consequence, *finished commodities could not be sold, and a so-called commercial crisis broke out*. Factories had to be closed, their owners went bankrupt, and the workers were without bread. Deepest misery reigned everywhere. 
 	 
 	 After a time, the superfluous products were sold, the factories began to operate again, wages rose, and gradually business got better than ever. But it was not long before too many commodities were again produced and a new crisis broke out, only to follow the same course as its predecessor. 
@@ -708,6 +716,7 @@ In 1847 Engels wrote two draft programmes for the Communist League in the form o
 	 Ever since the beginning of this (19th) century, the condition of industry has constantly fluctuated between periods of prosperity and periods of crisis; *nearly every five to seven years, a fresh crisis has intervened*, always with the greatest hardship for workers, and always accompanied by general revolutionary stirrings and the direct peril to the whole existing order of things. 
 
 13. What follows from these periodic commercial crises? 
+
 
 	First: 
 	
@@ -721,11 +730,13 @@ In 1847 Engels wrote two draft programmes for the Communist League in the form o
 
 14. What will this new social order have to be like? 
 
+
 	Above all, it will have to *take the control of industry and of all branches of production out of the hands of mutually competing individuals, and instead institute a system in which all these branches of production are operated by society as a whole* – that is, for the common account, according to a common plan, and with the participation of all members of society. It will, in other words, *abolish competition and replace it with association*. Moreover, since the management of industry by individuals necessarily implies private property,[^15] and since competition is in reality merely the manner and form in which the control of industry by private property owners expresses itself, it follows that *private property cannot be separated from competition and the individual management of industry*. *Private property must, therefore, be abolished and in its place must come the common utilization of all instruments of production and the distribution of all products according to common agreement* – in a word, what is called the **communal ownership of goods**. In fact, *the abolition of private property is, doubtless, the shortest and most significant way to characterize the revolution* in the whole social order which has been made necessary by the development of industry – and for this reason *it is rightly advanced by communists as their main demand*. 
 
 [^15]: BYZ: Here I think the logic is that, the reason why some individuals have the right (or power) to privately manage the industry is that, the industry they are managing is their own private property. Thus by law, or by the social convention, they can do whatever they want with the industry in question.
 
 15. Was not the abolition of private property possible at an earlier time? 
+
 
 	No. Every change in the social order, *every revolution in property relations, is the necessary consequence of the creation of new forces of production which no longer fit into the old property relations*. 
 	
@@ -737,18 +748,40 @@ In 1847 Engels wrote two draft programmes for the Communist League in the form o
 
 16. Will the peaceful abolition of private property be possible? 
 
+
 	It would be desirable if this could happen, and *the communists would certainly be the last to oppose it*. **Communists know only too well that all conspiracies are not only useless, but even harmful**. **They know all too well that revolutions are not made intentionally and arbitrarily**, but that, everywhere and always, they have been the necessary consequence of conditions which were wholly independent of the will and direction of individual parties and entire classes. 
 	
 	But they also see that the development of the proletariat in nearly all civilized countries has been violently suppressed, and that in this way the opponents of communism have been working toward a revolution with all their strength. If the oppressed proletariat is finally driven to revolution, then we communists will defend the interests of the proletarians with deeds as we now defend them with words. 
 
  17. Will it be possible for private property to be abolished at one stroke? 
- 
+
+
 	 No, no more than existing forces of production can at one stroke be multiplied to the extent necessary for the creation of a communal society. In all probability, the *proletarian revolution will transform existing society gradually and will be able to abolish private property only when the means of production are available in sufficient quantity*.
 
 18. What will be the course of this revolution? 
 
-	Above all, it will establish a *democratic constitution*, and through this, the direct or indirect dominance of the proletariat. Direct in England, where the proletarians are already a majority of the people. Indirect in France and Germany, where the majority of the people consists not only of proletarians, but also of small peasants and petty bourgeois who are in the process of falling into the proletariat, who are more and more dependent in all their political interests on the proletariat, and who must, therefore, soon adapt to the demands of the proletariat. Perhaps this will cost a second struggle, but the outcome can only be the victory of the proletariat.
+
+	Above all, it will establish a *democratic constitution*, and through this, the **direct or indirect dominance of the proletariat**. Direct in England, where the proletarians are already a majority of the people. Indirect in France and Germany, where the majority of the people consists not only of proletarians, but also of small peasants and petty bourgeois who are in the process of falling into the proletariat, who are more and more dependent in all their political interests on the proletariat, and who must, therefore, soon adapt to the demands of the proletariat. Perhaps this will cost a second struggle, but the outcome can only be the victory of the proletariat.
 	
 	Democracy would be wholly valueless to the proletariat if it were not immediately used as a means for putting through measures directed **against private property** and ensuring the livelihood of the proletariat. The main measures, emerging as the necessary result of existing relations, are the following:
 	
-	(i) Limitation of private property through progressive taxation, heavy inheritance taxes, abolition of inheritance through collateral lines (brothers, nephews, etc.) forced loans, etc. (ii) Gradual expropriation of landowners, industrialists, railroad magnates and shipowners, partly through competition by state industry, partly directly through compensation in the form of bonds. (iii) Confiscation of the possessions of all emigrants and rebels against the majority of the people. (iv) Organization of labor or employment of proletarians on publicly owned land, in factories and workshops, with competition among the workers being abolished and with the factory owners, in so far as they still exist, being obliged to pay the same high wages as those paid by the state. (v) An equal obligation on all members of society to work until such time as private property has been completely abolished. Formation of industrial armies, especially for agriculture. (vi) Centralization of money and credit in the hands of the state through a national bank with state capital, and the suppression of all private banks and bankers. (vii) Increase in the number of national factories, workshops, railroads, ships; bringing new lands into cultivation and improvement of land already under cultivation – all in proportion to the growth of the capital and labor force at the disposal of the nation. (viii) Education of all children, from the moment they can leave their mother’s care, in national establishments at national cost. Education and production together.
+	(i) **Limitation of private property through progressive taxation, heavy inheritance taxes, abolition of inheritance through collateral lines (brothers, nephews, etc.) forced loans, etc.** [^16]
+	(ii) Gradual expropriation of landowners, industrialists, railroad magnates and shipowners, partly through competition by state industry, partly directly through compensation in the form of bonds. 
+	(iii) Confiscation of the possessions of all emigrants and rebels against the majority of the people. 
+	(iv) *Organization of labor or employment of proletarians on publicly owned land, in factories and workshops, with competition among the workers being abolished and with the factory owners*, in so far as they still exist, being obliged to pay the same high wages as those paid by the state. 
+	(v) An *equal obligation on all members of society to work* until such time as private property has been completely abolished. Formation of industrial armies, especially for agriculture. 
+	(vi) Centralization of money and credit *in the hands of the state* through a *national bank* with state capital, and the suppression of all private banks and bankers. 
+	(vii) Increase in the number of **national** factories, workshops, railroads, ships; bringing new lands into cultivation and improvement of land already under cultivation – all in proportion to the growth of the capital and labor force at the disposal of the nation. 
+	(viii) *Education of all children, from the moment they can leave their mother’s care, in national establishments at national cost. Education and production together.*
+
+[^16]: Non of the measures are violent, or mentioning the nowadays so dangerously misunderstood concept of *dictatorship*.
+
+19. How will you arrange this kind of education during the period of transition? 
+
+
+	Answer: All children will be educated in state establishments from the time when they can do without the first maternal care. 
+
+20. Will not the introduction of community of property be accompanied by the proclamation of the community of women? 
+
+
+	Answer: By no means. We will only interfere in the personal relationship between men and women or with the family in general to the extent that the maintenance of the existing institution would disturb the new social order. Besides, we are well aware that the family relationship has been modified in the course of history by the property relationships and by periods of development, and that consequently the ending of private property will also have a most important influence on it. Question 21: Will nationalities continue to exist under communism? Answer: The nationalities of the peoples who join together according to the principle of community will be just as much compelled by this union to merge with one another and thereby supersede themselves as the various differences between estates and classes disappear through the superseding of their basis – private property. Question 22. Do Communists reject existing religions? Answer: All religions which have existed hitherto were expressions of historical stages of development of individual peoples or groups of peoples. But communism is that stage of historical development which makes all existing religions superfluous and supersedes them. In the name and on the mandate of the Congress. Secretary: Heide [Alias of Wilhelm Wolff in the League of the Just] President: Karl Schill [Alias of Karl Schapper in the League of the Just] London, June 9, 1847
