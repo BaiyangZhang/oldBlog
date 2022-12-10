@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "file": "_posts/2022-12-7-The-Poncare-Lemma-and-Potentials.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.504695892334,
-    "collapsed": true
+    "width": 264.504695892334
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "file": "_posts/2022-12-7-The-Poncare-Lemma-and-Potentials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "file": "_posts/2022-12-7-The-Poncare-Lemma-and-Potentials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md"
+                "file": "_posts/2022-12-7-The-Poncare-Lemma-and-Potentials.md"
               }
             }
           }
@@ -176,9 +175,9 @@
   },
   "active": "d903c13d79231aa3",
   "lastOpenFiles": [
+    "_drafts/2022-10-29-Basics-of-Distributions.md",
     "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
     "_drafts/2022-11-23-《师哲回忆录》.md",
-    "_drafts/2022-10-29-Basics-of-Distributions.md",
     "_drafts/2022-12-13-Introduction-to-Transseries.md",
     "_drafts/2022-12-13-Basic-Category-Theory.md",
     "_drafts/2022-12-12-Holonomic and Nonholonomic Constraints.md",
