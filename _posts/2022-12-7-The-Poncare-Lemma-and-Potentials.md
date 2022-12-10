@@ -182,3 +182,161 @@ Since $\mathbf{v}$ is arbitrary, $\beta$ must be equal to $df$. Q.E.D.
 
 One last terminology for this section: if $\alpha$ is a p-form and exact, meaning $\alpha = d\beta$ for some $(p-1)$-form $\beta$, then we say $\alpha$ is derivable from the **potential** $\beta$.
 
+### Complex analysis
+
+One complex dimensional manifold has two real dimensions. In the complex plane $M^2\cong \mathbb{C}$, it is convenient to introduce two **independent** complex coordinates, $z$ and $\overline{z}$. By independent, we require $\partial \overline{z} / \partial z\equiv {0}$ and vice versa. It might be confusing at the first look, since we are more used to write $z = x + iy$ and treat $x,y$ to be independent, then $\overline{z} = x-iy$ is not really an independent variable from $z = x+iy$. However choosing $z,\overline{z}$ to be independent variables mounts to choosing a different convention, and greatly simplifies our discussion. 
+
+The complex 1-form $dz = dx + idy$ has values $1$ and $i$ respectively on $\partial_{x}$ and $\partial_{y}$. Similarly, $d \overline{z} = dx -idy$ is the complex conjugate 1-form. Then 
+$$
+dz \wedge d \overline{z}=-2idx\wedge dy.
+$$
+A complex-valued function can ben written both in terms of $x,y$ or $z,\overline{z}$, we will usually work with the latter. Given a complex function $f(z,\overline{z})=u(x,y)+iv(x,y)$ defined on an open subset $U$ of $\mathbb{C}$, we can consider the 1 form 
+$$
+f(z,\overline{z})dz = (u+iv)(dx+idy) = (udx-vdy)+i(udy+vdx)
+$$
+where the combination of $u,v,dx,dy$ reminds us of the Cauchy-Riemann condition. This 1-form is important because it usually appears under the integral sign. Let $C$ be a curve on the complex plane, parametrized by $z=z(t)$, then we can form the integral
+$$
+\int_{C} \, f(z,\overline{z})dz := \int_{C} \, (udx-vdy)+i \int_{C} \,  (udy+vdx) ,
+$$
+which should be familiar from the complex analysis classes.
+
+Next let us consider the exterior differential of $fdz$. We get
+$$
+d(fdz) = d[(udx-vdy)+i(udy+vdx)]= -(\partial_{y}u+\partial_{x}v)dx \wedge dy + i(\partial_{x}u-\partial_{y}v)dx \wedge dy
+$$
+we see that $fdz$ is closed if $f$ satisfies the Cauchy-Riemann condition. Thus, $fdz$ is closed iff $u,v$ satisfy the Cauchy-Riemann equations, in $U$, that is if and only if $f$ is **complex analytical** or **holomorphic**.
+
+It is interesting to note the difference between analytic and holomorphic functions. Technically speaking, to say $f$ is holomorphic is to say that $f$ is differential in an open set, which implies and is implied by the condition $\partial f /\partial\, \overline{z}\equiv 0$, which is implied by the Cauchy-Riemann conditions. On the other hand, a function $f$ is analytical if $f$ can be **locally** expanded in convergent power series, sometimes also called a germ. In complex analysis, these two definitions are equivalent, every holomorphic function is analytical and vise versa. 
+
+We can also evaluate $d(fdz)$ using a second set of basis, $dz$ and $d\overline{z}$. By the chain rules we have 
+$$
+\begin{align}
+\frac{ \partial  }{ \partial z } &:= \frac{1}{2} \left( \frac{ \partial  }{ \partial x } -i\frac{ \partial  }{ \partial y }  \right), \\
+\frac{ \partial  }{ \partial \overline{z} } &:= \frac{1}{2} \left( \frac{ \partial  }{ \partial x } +i\frac{ \partial  }{ \partial y }  \right),
+\end{align}
+$$
+this can be regarded as the definition of $\frac{\partial}{\partial z}, \frac{\partial}{\partial \overline{z}}$, thus the notation $:=$ which means "defined to be". We have 
+$$
+d(fdz) = df \wedge dz = \frac{\partial}{\partial _{\overline{z}}} f(z,\overline{z})\; d\overline{z}\wedge dz
+$$
+thus for $d(fdz)$ to be zero we have 
+$$
+\frac{\partial f(z,\overline{z})}{\partial {\bar{z}}}  = 0.
+$$
+
+This is another form of the Cauchy-Riemann relation. 
+
+If $fdz$ is closed, we can choose any reference point $z_{0}$ and define a function 
+$$
+\alpha(z) := \int_{z_{0}}^z \, f(z') dz' 
+$$
+along an arbitrary path. Then $\alpha$ is a potential, provided it is a single-valued function, and $d\alpha=fdz$. If the first Betti number of the manifold is zero, $b_{1}(M)=0$, then $\alpha$ is always a single-valued function. We shall see that $b_{1}(M)=0$ is a weaker condition than demanding that the manifold be **simply connected**. Simple connectivity is the usual condition imposed in complex analysis to ensure that $\alpha$ is single-valued and is indeed a potential. 
+
+- - -
+
+To consider the behavior of $f$ at infinity, we should consider $f$ as being a function defined on the **Riemann sphere** except perhaps at $\infty$ itself, that is, except at $w={1} / {z}=0$. Reader can verify that 
+$$
+\frac{ \partial f }{ \partial \bar{z} } = 0 \quad \Longleftrightarrow \quad \frac{ \partial f }{ \partial \bar{w} } = 0  
+$$
+which means that, the notion of a function being complex analytic is well defined on the Riemann sphere. 
+
+When thinking in the context of Riemann sphere, it is important to keep in mind that it is the 1-form that matters, not the component. To better understand the statement, recall that in complex analysis the poles of a function $f$ is important in evaluating the line integrals. For example ,the function $1 / z$ has a simple pole at $z=0$ with residual $1$, thus the contour integral encircling the pole $\oint_{C} fdz$ has value $2\pi i$ according to the residual theorem. However, in the context of Riemann sphere, the contour which circles $z=0$ once also circles $z=\infty$ in the opposite direction. The function $1 / z$ goes to zero at $z=\infty$, its "residual" there is zero. One might then be mistakenly let to the conclusion that  $\oint_{C} fdz$ is zero, in contradiction to the previous result. Where did we do wrong? The problem is that, when dealing with the infinity $z=\infty$ as a point (on the Riemann sphere), we need to switch to the variable $w=1 / z$. We need to write $f(z,\overline{z})dz$ in terms of $(\dots)dw$. We have 
+$$
+\oint_{C} \frac{1}{z}dz = \oint_{C} w \,d(1 / w) = -\oint_{C} \frac{1}{w} dw
+$$
+the infinity at $z=\infty$ corresponds to the zero point of $w,$ $w=0$, which is a pole with residual $1$, and the minus sign comes from the fact the the "positive" direction in variable $z$ around $z=0$ corresponds to the "negative" direction in variable $w$ around $w=0$.
+
+To summarize, **we associate a residual to a 1-form, not a function**, which is at best the component of the 1-form!
+
+### The converse to the Poincare Lemma
+
+The question we wanted to ask is, under what circumstance is a closed 1-form always exact? That is, let $\beta$ be a 1-form, when does $d\beta=0$ implies $\beta=d\alpha$ for some function $\alpha$? Now we know that it depends on the topology of the manifold $M$ on which $\beta$ is defined. If the first Betti number of $M$ is zero, that is, if every 1-dimensional loop is the boundary of some 2-dimensional oriented surface. Note that this condition is stronger than saying that there is no hole in the manifold, for sometimes a manifold has no hole but still has non-zero first Betti number, as we shall see in the below example. 
+
+**Example.** Let's take a look at 2-dimensional torus, sometimes denoted by $\mathbb{T}^2$. In the figure below two closed curves are shown, $C$ and $C'$, but non of them are the boundary of any surface. On way to see it is that non of the $C$ and $C'$ can ben shrunk to a point without leaving the torus. Thus, we don't expect every closed form to be exact. For instance, consider two forms $d\theta$ and $d\phi$, where $\theta$ parametrized $C$ and $\phi$ parametrizes $C'$, they are closed but not exact, for 
+
+$$
+\oint_{C}d\theta=2\pi\neq 0
+$$
+which can only be true if $d\theta$ is not exact. The same goes for $d\phi$.
+
+![torus](img/torus.png)
+
+For historical reasons, that fact that $dd=0$ is called the Poincare's lemma (not Poincare's Theorem), even though Poincare utilized this result before the invention of exterior calculus! There is a partial converse to this result, practically says that the converse to Poincare lemma is locally true.
+
+**Theorem.** For a *closed* differential form with degree no less than $1$, namely $\beta\in\Omega^p(M)$ and $p\geq {1}$, then there exists a neighborhood $U$ of $x\in M$ and a $(p-1)$-form $\alpha\in\Omega^{p-1}(M)$ such that $\beta =d\alpha$.
+
+**Proof.** It's enough to consider $R^n$ instead of $M^n$ since on a small-enough neighborhood $U_{x}$, there is always an diffeomorphism between $U_{x}$ and $R^n$, denoted by 
+$$
+\phi:U_{x}\to B^n
+$$
+where $B^n$ is a $n$-dimensional open ball in $R^n$. 
+
+Since $\phi$ is diffeomorphic, $\phi^{-1}$ exists. Then we can use $\phi^{-1}$ to pull back a closed p-form $\beta\in\Omega^p(M)$ from $M$ to $R^n$. $(\phi^{-1})^\ast \beta$ is also closed, since pullback and $d$ commute with each other.  So we just need to find the potential for $(\phi^{-1})^\ast \beta$, call it $\alpha$, then $\phi^\ast\alpha$ is the potential we are looking for.
+
+We may assume the $\beta$ is a closed $p$-form on an open ball $U$ of $\mathbb{R}^n$. Consider the deformation
+$$
+\phi_{t}: \mathbf{x} \to(1-t)\mathbf{x}
+$$
+with velocity 
+$$
+\mathbf{v}(t,\mathbf{y}) = \frac{d}{dt} \mathbf{y}(t) = -\mathbf{y}(t=0) = - \frac{\mathbf{y}}{(1-t)}
+$$
+for $t\neq 1$. Note that $\phi_{0}$ is the identity map that maps a point in $\mathbb{R}^n$ to itself, thus $\phi_{0}^\ast$ is the identity pullback map that maps a differential form to itself, similarly $\phi_{1}^\ast$ is the zero map.
+
+By introducing parameter $t$ we have effectively extended the "spatial" manifold $\mathbb{R}^n$ to the "spacetime" manifold $\mathbb{R}^{n+1}$, a time dependent tensor field in $\mathbb{R}^n$ can be regarded as a tensor field in spacetime. 
+
+Considering $\beta = \beta(\mathbf{x})$ as a *time-independent* $p$-form on $\mathbb{R}^n$, we have 
+$$
+\beta(\mathbf{x}) = \phi_{0}^\ast \beta(\mathbf{x}) = \phi_{0}^\ast \beta(\mathbf{x})-\phi_{1}^\ast \beta(\mathbf{\phi_{1}x}) = \int_{1}^{0} ds \, \frac{d}{ds}  \phi_{s}^\ast \beta(\mathbf{\phi_{s}x}) .
+\tag{1}
+$$
+Using 
+$$
+\frac{ \partial  }{ \partial t } \phi_{t}^\ast \alpha = \phi_{t}^\ast \left\{ \frac{ \partial \alpha }{ \partial t } + i_{\mathbf{v}} d\alpha + d i_{\mathbf{v}}\alpha  \right\} 
+$$
+where $\mathbf{v}=\partial\phi_{t}(x) / \partial t$ is the velocity field. Together with $d\beta=0$ and $\partial\beta / \partial t=0$, Eq. (1) becomes
+$$
+\beta(\mathbf{x}) = \int_{1}^{0} ds \, \phi_{s}^\ast d[i_{\mathbf{v}(\phi_{s}\mathbf{x})}\beta(\phi_{s}(\mathbf{x}))] = d \int_{1}^{0} ds \, \phi_{s}^\ast [i_{\mathbf{v}(\phi_{s}\mathbf{x})}\beta(\phi_{s}(\mathbf{x}))] 
+$$
+where we first exchanged $d$ and $\phi_{s}^\ast$ then moved $d$ outside of the integral sign, which is allowed since the integral domain is unchanged. Thus 
+$$
+\beta = d\alpha,\quad \alpha = \int_{1}^{0} ds \, \phi_{s}^\ast [i_{\mathbf{v}(\phi_{s}\mathbf{x})}\beta(\phi_{s}(\mathbf{x}))] 
+$$
+
+Note that the proof stands because for every point in $\mathbb{R}^n$ is associated a neighborhood that can be contracted to the point; that is, there is a **deformation** given by $\mathbf{x}\mapsto(1-t)\mathbf{x}$ that collapses the neighborhood to the point.   
+
+Let us now write down the expression for $\alpha$ in detail. Let $\mathbf{y}:=\phi_{s}(\mathbf{x})=(1-t)\mathbf{x}$, then
+$$
+i_{\mathbf{v}(\phi_{s}\mathbf{x})}\beta(s,\mathbf{y}) = i_{\mathbf{v}(\mathbf{y})}\beta(s,\mathbf{y}) = v^j(\mathbf{y})\beta_{jK}(\mathbf{y})dy^K = -\frac{y^i}{1-s}b_{jK}(\mathbf{y})dy^K
+$$
+where we require the indices in $K$ increases monotonically, this saves as the annoying factors like ${1} / {n!}$. 
+
+To take $\phi_{s}^\ast$ of this (p-1)-form is to change the coordinates from $\{y\}$ to $\left\{ x \right\}$. Putting $\tau=1-s$ we have 
+$$
+\alpha = \int_{0}^{1} d\tau \, \tau^{p-1}x^jb_{jK}(\tau \mathbf{x})dx^K 
+$$
+where the increasing order in the index set $K$ is understood.
+
+- - -
+
+Since all of $\mathbb{R}^n$ can be contracted to a point, the conclusion holds for $\mathbb{R}^n$ globally. If $\beta$ is closed in $\mathbb{R}^n$, then it is also globally exact.
+
+**Corollary.** If $\text{div } \mathbf{B} = 0$ in $\mathbb{R}^3$ then $\mathbf{B}= \text{curl }\mathbf{A}$ for some $\mathbf{A}$.
+
+
+### Find Potentials
+
+
+Consider the electric field due to a charge $q$ at the origin. In spherical coordinates 
+$$
+\mathbf{E}=\frac{q}{r^{2}}\partial_{r}
+$$
+for $r>0$. Using the Euclidean metric in spherical coordinates,
+$$
+ds^{2} = dr^{2}+r^{2}(d\theta^{2}+\sin ^{2}\theta d\phi^{2})
+$$
+we find 
+$$
+\mathcal{E}=\mathbf{d}(-q / r),\quad \mathbf{d} = dx\wedge \partial_{x}+dy\wedge \partial_{y}+dz\wedge \partial_{z}
+$$
+where $\mathcal{E}:=E_{i}dx^i$ is the electric field intensity 1-form, and $q / r$ is the familiar scalar potential. 
