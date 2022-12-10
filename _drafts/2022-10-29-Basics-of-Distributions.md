@@ -195,7 +195,7 @@ Here comes the interesting part: we have secretly smuggled in a redundancy! In t
 $$
 -\lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dx \,  x^\alpha \frac{d}{dx} \phi(x),
 $$
-what happens is that we can substitute $\phi$ with $\phi+C$, where $C$ is any constant *a priori*, and nothing happens. Because the differentiation $d / dx$ kills any constant! This naïve observation turns out to be quite helpful. We can substitute $\phi$ with $\phi+C$ and integrate by part, which yields
+what happens is that we can substitute $\phi$ with $\phi+C$, where $C$ is any constant *a priori*, and nothing happens, because the differentiation $d / dx$ kills any constant! This naïve observation turns out to be quite useful. We can substitute $\phi$ with $\phi+C$ and integrate by part, which yields
 $$
 -\lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dx \,  x^\alpha \frac{d}{dx} (\phi(x)+C) =-\lim_{ \epsilon \to 0 }  \left\{ x^\alpha (\phi(x)+C)\mid_{\epsilon}^\infty - \int_{\epsilon}^{\infty} dx \,  (\phi(x)+C) \alpha x^{\alpha-1}
 \right\} ,
