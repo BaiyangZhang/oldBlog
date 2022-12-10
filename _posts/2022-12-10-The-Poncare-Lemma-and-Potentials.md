@@ -2,7 +2,7 @@
 layout:     post   				                 # 使用的布局（不需要改）
 title:      The Poincare Lemma and Potentials	 # 标题 
 subtitle:   
-date:       2022-12-7				             # 时间
+date:       2022-12-10				             # 时间
 author:     Baiyang Zhang 						 # 作者
 header-img: img/mathArt7.jpg 	                 # 这篇文章标题背景图片
 catalog: true 						             # 是否归档
@@ -259,7 +259,7 @@ $$
 $$
 which can only be true if $d\theta$ is not exact. The same goes for $d\phi$.
 
-The torus picture goes here
+![torus](img/torus.png)
 
 For historical reasons, that fact that $dd=0$ is called the Poincare's lemma (not Poincare's Theorem), even though Poincare utilized this result before the invention of exterior calculus! There is a partial converse to this result, practically says that the converse to Poincare lemma is locally true.
 
