@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "file": "_posts/2022-12-7-The-Poncare-Lemma-and-Potentials.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "file": "_posts/2022-12-7-The-Poncare-Lemma-and-Potentials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "file": "_posts/2022-12-7-The-Poncare-Lemma-and-Potentials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md"
+                "file": "_posts/2022-12-7-The-Poncare-Lemma-and-Potentials.md"
               }
             }
           }
@@ -176,15 +176,15 @@
   },
   "active": "d903c13d79231aa3",
   "lastOpenFiles": [
+    "_drafts/2022-12-13-Introduction-to-Transseries.md",
+    "_drafts/2022-12-13-Basic-Category-Theory.md",
+    "_drafts/2022-10-29-Basics-of-Distributions.md",
     "_posts/2022-12-7-The-Poncare-Lemma-and-Potentials.md",
     "_posts/2022-11-22-Confinement-in-Toy-Models-I.md",
     "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md",
     "_posts/2022-11-17-Basic-Cumutative-Algebra-1.md",
-    "_drafts/2022-10-29-Basics-of-Distributions.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-5.md",
-    "_drafts/2022-12-13-Introduction-to-Transseries.md",
     "_drafts/君主论书摘.md",
-    "_drafts/2022-11-23-《师哲回忆录》.md",
-    "_drafts/2022-10-3-共和国史笔记.md"
+    "_drafts/2022-11-23-《师哲回忆录》.md"
   ]
 }

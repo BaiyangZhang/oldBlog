@@ -261,7 +261,7 @@ $$
 $$
 which can only be true if $d\theta$ is not exact. The same goes for $d\phi$.
 
-![torus](/img/torus.png)
+![torus](img/torus.png)
 
 For historical reasons, that fact that $dd=0$ is called the Poincare's lemma (not Poincare's Theorem), even though Poincare utilized this result before the invention of exterior calculus! There is a partial converse to this result, practically says that the converse to Poincare lemma is locally true.
 

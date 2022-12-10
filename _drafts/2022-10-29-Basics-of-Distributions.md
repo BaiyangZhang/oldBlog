@@ -197,7 +197,7 @@ $$
 $$
 what happens is that we can substitute $\phi$ with $\phi+C$, where $C$ is any constant *a priori*, and nothing happens, because the differentiation $d / dx$ kills any constant! This naïve observation turns out to be quite useful. We can substitute $\phi$ with $\phi+C$ and integrate by part, which yields
 $$
--\lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dx \,  x^\alpha \frac{d}{dx} (\phi(x)+C) =-\lim_{ \epsilon \to 0 }  \left\{ x^\alpha (\phi(x)+C)\mid_{\epsilon}^\infty - \int_{\epsilon}^{\infty} dx \,  (\phi(x)+C) \alpha x^{\alpha-1}
+-\lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dx \,  x^\alpha \frac{d}{dx} (\phi(x)+C) =-\lim_{ \epsilon \to 0 }  \left\{ x^\alpha (\phi(x)+C)\mid _{\epsilon}^\infty - \int_{\epsilon}^{\infty} dx \,  (\phi(x)+C) \alpha x^{\alpha-1}
 \right\} ,
 $$
 now, how can we make the integral on the right hand side finite? It can be achieved by setting  
@@ -302,8 +302,10 @@ We have discussed the situation where $x$ is positive, now let's turn to negativ
 $$
 x\mapsto \theta(-x) \left\lvert x \right\rvert ^\alpha
 $$
-
-
+which is locally integrable if $0>\alpha>-1$, in which case a regular distribution is defined,
+$$
+\left\langle x_{-}^\alpha \mid \phi(x) \right\rangle := 
+$$
 
 In the above examples, we have used Hadamard's method to define singular distributions corresponding to certain nonlocally integrable functions. 
 
