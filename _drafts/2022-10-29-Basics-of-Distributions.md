@@ -98,15 +98,15 @@ $$
 = -\left\langle \ln \left\lvert {x} \right\rvert ,\phi'(x) \right\rangle 
 = -\int_{-\infty}^{\infty} dx \,  \ln \left\lvert {x} \right\rvert \phi'(x),
 $$
-Here we can not use the integrate by part trick since $\ln'x = \frac{1}{x}$ is not locally integrable. It shows that although $\ln \left\lvert {x} \right\rvert$ is a regular distribution, its derivative is not. To repeat, the derivative of a regular distribution
+Here we can not use the integrate by part trick since $\ln'x = \frac{1}{x}$ is not locally integrable. It shows that although $\ln \left\lvert {x} \right\rvert$ is a regular distribution, its derivative is not. To repeat, **the derivative of a regular distribution may not be a regular distribution**.
 
-To find the derivative of $\ln \left\lvert {x} \right\rvert$ we shall use a technique due to Hadamard, which is widely used for singular distributions given by function that are not locally integrable. Given a divergent integral, the idea is to extract the finite part of this integral to define a singular distribution. 
+To find the derivative of $\ln \left\lvert {x} \right\rvert$ we shall use a technique due to Hadamard, which is widely used for singular distributions given by function that are not locally integrable. Given a divergent integral, the idea is to extract the finite part of this integral to define a *singular* distribution. 
 
-First we write
+First write
 $$
 \int dx \, \ln \left\lvert {x} \right\rvert \phi'(x) = \lim_{ \epsilon \to 0 } \int_{\left\lvert {x} \right\rvert \geq \epsilon} dx \, \ln \left\lvert {x} \right\rvert \phi'(x),
 $$
-for readers who are after mathematical rigor, above relation holds due to Lebesgue's dominated convergence theorem. 
+the limit exists due to Lebesgue's dominated convergence theorem. 
 $$
 \int_{\left\lvert {x} \right\rvert \geq \epsilon} dx \, \ln \left\lvert {x} \right\rvert \phi'(x) = \int_{-\infty}^{-\epsilon} dx \, \ln \left\lvert {x} \right\rvert \phi'(x)
 +\int_{\epsilon}^\infty dx \, \ln \left\lvert {x} \right\rvert \phi'(x),
@@ -177,21 +177,25 @@ $$
 }.
 $$
 
-We know that $\frac{1}{x}$ is not locally integrable, however $\theta(x) x^{\alpha}, -1<\alpha<0$ is. It defines a regular distribution denoted $x^\alpha_{+}$. The derivative of $x_{+}^\alpha$ is $x_{+}^{\alpha-1}$, which in general diverges when integrated against a test function. Nevertheless it defines a singular distribution. To determine this derivative we shall proceed as in the previous examples, write
+- - -
+
+**Example.** 
+
+We know that $\frac{1}{x}$ is not locally integrable, however $\theta(x) x^{\alpha}, -1<\alpha<0$ is. It defines a regular distribution denoted by $x^\alpha_{+}$. The derivative of $x_{+}^\alpha$ is $x_{+}^{\alpha-1}$, which in general diverges when integrated against a test function. Nevertheless it defines a singular distribution, as we shall see. To determine this derivative we shall proceed as in the previous example, write
 $$
 \begin{align}
-\left\langle \frac{d}{dx} (x_{+}^\alpha), \phi \right\rangle &= \int_{-\infty}^{\infty} dx \, \left( \frac{d}{dx}   x_{+}^\alpha \right) \phi(x) \\
-&= - \int_{0}^{\infty} dx \,  x^\alpha \frac{d}{dx} \phi(x)  \\
+\left\langle \frac{d}{dx} (x_{+}^\alpha), \phi \right\rangle &:= \int_{-\infty}^{\infty} dx \, \left( \frac{d}{dx}   x_{+}^\alpha \right) \phi(x) \\
+&:= - \int_{0}^{\infty} dx \,  x^\alpha \frac{d}{dx} \phi(x)  \\
 &= -\lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dx \,  x^\alpha \frac{d}{dx} \phi(x),
 \end{align}
 $$
 Note that by changing the integral domain we got rid of the plus sign in the subscript. 
 
-Here comes the interesting part, we have secretly smuggled in a redundancy! Look at the term 
+Here comes the interesting part: we have secretly smuggled in a redundancy! In the last line we have
 $$
 -\lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dx \,  x^\alpha \frac{d}{dx} \phi(x),
 $$
-what happens if we substitute $\phi$ with $\phi+C$, where $C$ is any constant *a priori*? Nothing! Because the differentiation $d / dx$ kills any constant! This naïve observation turns out to be quite helpful. We can substitute $\phi$ with $\phi+C$ and integrate by part, which yields
+what happens is that we can substitute $\phi$ with $\phi+C$, where $C$ is any constant *a priori*, and nothing happens. Because the differentiation $d / dx$ kills any constant! This naïve observation turns out to be quite helpful. We can substitute $\phi$ with $\phi+C$ and integrate by part, which yields
 $$
 -\lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dx \,  x^\alpha \frac{d}{dx} (\phi(x)+C) =-\lim_{ \epsilon \to 0 }  \left\{ x^\alpha (\phi(x)+C)\mid_{\epsilon}^\infty - \int_{\epsilon}^{\infty} dx \,  (\phi(x)+C) \alpha x^{\alpha-1}
 \right\} ,
