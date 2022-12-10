@@ -218,7 +218,7 @@ Again, this pseudo function defines a singular distribution, singular in the sen
 
 - - -
 
-There is an interesting alternative way to look at the pseudofunction $x_{+}^\alpha$. We can regard it as a function of $\alpha$ instead of $x$, that is 
+There is an alternative way to look at the pseudofunction $x_{+}^\alpha$. We can regard it as a function of $\alpha$ instead of $x$, that is 
 $$
 x_{+}^\alpha: \alpha \mapsto \int_{0}^{\infty} dx \, x^\alpha \phi(x), 
 $$

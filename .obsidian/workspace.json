@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
+                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.504695892334
+    "width": 264.504695892334,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
+                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
+                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md"
+                "file": "_drafts/2022-10-29-Basics-of-Distributions.md"
               }
             }
           }
@@ -175,6 +176,7 @@
   },
   "active": "d903c13d79231aa3",
   "lastOpenFiles": [
+    "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
     "_drafts/2022-11-23-《师哲回忆录》.md",
     "_drafts/2022-10-29-Basics-of-Distributions.md",
     "_drafts/2022-12-13-Introduction-to-Transseries.md",
@@ -183,7 +185,6 @@
     "_drafts/2022-11-12-Duality-Part-I.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-5.md",
     "_drafts/调档函.md",
-    "_drafts/君主论书摘.md",
-    "_drafts/2022-11-24-Aspects-of-Symmetry.md"
+    "_drafts/君主论书摘.md"
   ]
 }
