@@ -92,13 +92,13 @@ where the bullet is a place holder to be replaced by whatever is been acted on.
 
 - - -
 
-Bellow we give a very important example of the application of derivative of distributions. Consider function $x\mapsto \ln \left\lvert {x} \right\rvert$, it is locally integrable (note that $\int_{0} dx \, \ln x$ is finite). It defines a regular distribution and its derivative must be a distribution as well, but what exactly is it? Let us act its derivative on a test function,
+Bellow we give an example for the application of derivative of distributions. Consider function $x\mapsto \ln \left\lvert {x} \right\rvert$, it is locally integrable (note that $\int_{0} dx \, \ln x$ is finite). This function defines a regular distribution and its derivative must be a distribution as well, but what exactly is it? Let us act its derivative on a test function, following the definition we have
 $$
 \left\langle (\ln \left\lvert {x} \right\rvert)' , \phi(x) \right\rangle  
 = -\left\langle \ln \left\lvert {x} \right\rvert ,\phi'(x) \right\rangle 
 = -\int_{-\infty}^{\infty} dx \,  \ln \left\lvert {x} \right\rvert \phi'(x),
 $$
-Here we can not use the integrate by part trick since $\ln'x = \frac{1}{x}$ is not locally integrable. It shows that although $\ln \left\lvert {x} \right\rvert$ is a regular distribution, its derivative is not. 
+Here we can not use the integrate by part trick since $\ln'x = \frac{1}{x}$ is not locally integrable. It shows that although $\ln \left\lvert {x} \right\rvert$ is a regular distribution, its derivative is not. To repeat, the derivative of a regular distribution
 
 To find the derivative of $\ln \left\lvert {x} \right\rvert$ we shall use a technique due to Hadamard, which is widely used for singular distributions given by function that are not locally integrable. Given a divergent integral, the idea is to extract the finite part of this integral to define a singular distribution. 
 
