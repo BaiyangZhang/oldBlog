@@ -550,29 +550,37 @@ Working Men of All Countries, Unite![^12]
 ### Draft of a Communist Confession of Faith
 
 Question 1: *Are you a Communist?* 
+
 Answer: Yes. 
 
 Question 2: *What is the aim of the Communists?* 
+
 Answer: To organise society in such a way that every member of it can develop and use all his capabilities and powers in complete freedom and without thereby infringing the basic conditions of this society. 
 
 Question 3: *How do you wish to achieve this aim?* 
+
 Answer: By the elimination of private property and its replacement by community of property. 
 
 Question 4: *On what do you base your community of property?* 
+
 Answer: Firstly, on the mass of productive forces and means of subsistence resulting from the development of industry, agriculture, trade and colonisation, and on the possibility inherent in machinery, chemical and other resources of their infinite extension. Secondly, on the fact that in the consciousness or feeling of every individual **there exist certain irrefutable basic principles which**, being the result of the whole of historical development, require no proof. 
 
 Question 5: *What are such principles?* 
+
 Answer: **For example, every individual strives to be happy**. The happiness of the individual is inseparable from the happiness of all, etc. 
 
 Question 6: How do you wish to prepare the way for your community of property? Answer: By enlightening and uniting the proletariat. 
 
 Question 7: *What is the proletariat?* 
+
 Answer: The proletariat is that class of society which lives exclusively by its labour and not on the profit from any kind of capital; that class whose weal and woe, whose life and death, therefore, depend on the alternation of times of good and bad business;. in a word, on the fluctuations of competition. 
 
 Question 8: *Then there have not always been proletarians?* 
+
 Answer: No. There have always been poor and working classes; and those who worked were almost always the poor. But there have not always been proletarians, just as competition has not always been free. 
 
 Question 9: *How did the proletariat arise?* 
+
 Answer: The proletariat came into being as a result of the introduction of the machines which have been invented since the middle of the last century and the most important of which are: the steam-engine, the spinning machine and the power loom. These machines, which were very expensive and could therefore only be purchased by rich people, supplanted the workers of the time, because by the use of machinery it was possible to produce commodities more quickly and cheaply than could the workers with their imperfect spinning wheels and handlooms. The machines thus delivered industry entirely into the hands of the big capitalists and rendered the workers’ scanty property which consisted mainly of their tools, looms, etc., quite worthless, so that the capitalist was left with everything, the worker with nothing. In this way the factory system was introduced. Once the capitalists saw how advantageous this was for them, they sought to extend it to more and more branches of labour. They divided work more and more between the workers so that workers who formerly had made a whole article now produced only a part of it. Labour simplified in this way produced goods more quickly and therefore more cheaply and only now was it found in almost every branch of labour that here also machines could be used. As soon as any branch of labour went over to factory production it ended up, just as in the case of spinning and weaving. in the hands of the big capitalists, and the workers were deprived of the last remnants of their independence. We have gradually arrived at the position where almost all branches of labour are run on a factory basis. This has increasingly brought about the ruin of the previously existing middle class, especially of the small master craftsmen, completely transformed the previous position of the workers, and two new classes which are gradually swallowing up all other classes have come into being, namely: 
 
 I. The, class of the big capitalists, who in all advanced countries are in almost exclusive possession of the means of subsistence and those means (machines, factories, workshops, etc.) by which these means of subsistence are produced. This is the bourgeois class, or the bourgeoisie. 
@@ -580,43 +588,56 @@ I. The, class of the big capitalists, who in all advanced countries are in almos
 II. The class of the completely propertyless, who are compelled to sell their labour to the first class, the bourgeois, simply to obtain from them in return their means of subsistence. Since the parties to this trading in labour are not equal, but the bourgeois have the advantage, the propertyless must submit to the bad conditions laid down by the bourgeois. This class, dependent on the bourgeois, is called the class of the proletarians or the proletariat.
 
 Question 10: *In what way does the proletarian differ from the slave?* 
+
 Answer: The slave is sold once and for all, the proletarian has to sell himself by the day and by the hour. The slave is the property of one master and for that very reason has a guaranteed subsistence, however wretched it may be. The proletarian is, so to speak, the slave of the entire bourgeois class, not of one master, and therefore has no guaranteed subsistence, since nobody buys his labour if he does not need it. The slave is accounted a thing and not a member of civil society. The proletarian is recognised as a person, as a member of civil society. The slave may, therefore, have a better subsistence than the proletarian but the latter stands at a higher stage of development. The slave frees himself by becoming a proletarian, abolishing from the totality of property relationships only the relationship of slavery. The proletarian can free himself only by abolishing property in general.
 
 Question 11: *In what way does the proletarian differ from the serf?* 
+
 Answer: The serf has the use of a piece of land, that is, of an instrument of production, in return for handing over a greater or lesser portion of the yield. The proletarian works with instruments of production which belong to someone else who, in return for his labour, hands over to him a portion, determined by competition, of the products. In the case of the serf, the share of the labourer is determined by his own labour, that is, by himself. In the case of the proletarian it is determined by competition, therefore in the first place by the bourgeois. The serf has guaranteed subsistence, the proletarian has not. The serf frees himself by driving out his feudal lord and becoming a property owner himself, thus entering into competition and joining for the time being the possessing class, the privileged class. The proletarian frees himself by doing away with property, competition, and all class differences.
 
 Question 12: *In what way does the proletarian differ from the handicraftsman?* 
+
 Answer: As opposed to the proletarian, the so-called handicraftsman, who still existed nearly everywhere during the last century and still exists here and there, is at most a temporary proletarian. His aim is to acquire capital himself and so to exploit other workers. He can often achieve this aim where the craft guilds still exist or where freedom to follow a trade has not yet led to the organisation of handwork on a factory basis and to intense competition. But as soon as the factory system is introduced into handwork and competition is in full swing, this prospect is eliminated and the handicraftsman becomes more and more a proletarian. The handicraftsman therefore frees himself either by becoming a bourgeois or in general passing over into the middle class, or, by becoming a proletarian as a result of competition (as now happens in most cases) and joining the movement of the proletariat – i. e., the more or less conscious communist movement.
 
 Question 13: *Then you do not believe that community of property has been possible at any time?* 
+
 Answer: No. Communism has only arisen since machinery and other inventions made it possible to hold out the prospect of an all-sided development, a happy existence, for all members of society. Communism is the theory of a liberation which was not possible for the slaves, the serfs, or the handicraftsmen, but only for the proletarians and hence it belongs of necessity to the 19th century and was not possible in any earlier period.
 
 Question 14: *Let me go back to the sixth question. As you wish to prepare for community of property by the enlightening and uniting of the proletariat, then you reject revolution?* 
+
 Answer: We are convinced not only of the uselessness but even of the harmfulness of all conspiracies. We are also aware that revolutions are not made deliberately and arbitrarily but that everywhere and at all times they are the necessary consequence of circumstances which are not in any way whatever dependent either on the will or on the leadership of individual parties or of whole classes. But we also see that the development of the proletariat in almost all countries of the world is forcibly repressed by the possessing classes and that thus a revolution is being forcibly worked for by the opponents of communism. If, in the end, the oppressed proletariat is thus driven into a revolution, then we will defend the cause of the proletariat just as well by our deeds as now by our words.
 
 Question 15: *Do you intend to replace the existing social order by community of Property at one stroke?* 
+
 Answer: We have no such intention. The development of the masses cannot he ordered by decree. It is determined by the development of the conditions in which these masses live, and therefore proceeds gradually. 
 
-Question 16: *How do you think the transition from the present situation to community of Property is to be effected?* Answer: The first, fundamental condition for the introduction of community of property is the political liberation of the proletariat through a democratic constitution. 
+Question 16: *How do you think the transition from the present situation to community of Property is to be effected?* 
+Answer: The first, fundamental condition for the introduction of community of property is the political liberation of the proletariat through a democratic constitution. 
 
 Question 17: *What will be your first measure once you have established democracy?* 
+
 Answer: Guaranteeing the subsistence of the proletariat. 
 
 Question 18: *How will you do this?*
+
 Answer. I. By limiting private property in such a way that it gradually prepares the way for its transformation into social property, e. g., by progressive taxation, limitation of the right of inheritance in favour of the state, etc., etc. 
 II. By employing workers in national workshops and factories and on national estates. 
 III. By educating all children at the expense of the state.
 
 Question 19: *How will you arrange this kind of education during the period of transition?* 
+
 Answer: All children will be educated in state establishments from the time when they can do without the first maternal care. 
 
 Question 20: *Will not the introduction of community of property be accompanied by the proclamation of the community of women?* 
+
 Answer: By no means. We will only interfere in the personal relationship between men and women or with the family in general to the extent that the maintenance of the existing institution would disturb the new social order. Besides, we are well aware that the family relationship has been modified in the course of history by the property relationships and by periods of development, and that consequently the ending of private property will also have a most important influence on it. 
 
 Question 21: *Will nationalities continue to exist under communism?* 
+
 Answer: The nationalities of the peoples who join together according to the principle of community will be just as much compelled by this union to merge with one another and thereby supersede themselves as the various differences between estates and classes disappear through the superseding of their basis – private property. 
 
 Question 22. *Do Communists reject existing religions?* 
+
 Answer: All religions which have existed hitherto were expressions of historical stages of development of individual peoples or groups of peoples. But communism is that stage of historical development which makes all existing religions superfluous and supersedes them. 
 
 In the name and on the mandate of the Congress. Secretary: Heide [Alias of Wilhelm Wolff in the League of the Just] President: Karl Schill [Alias of Karl Schapper in the League of the Just] London, June 9, 1847
@@ -737,20 +758,23 @@ In 1847 Engels wrote two draft programmes for the Communist League in the form o
 
 [^16]: Non of the measures are violent, or mentioning the nowadays so dangerously misunderstood concept of *dictatorship*.
 
-19. How will you arrange this kind of education during the period of transition? 
+19. Will it be possible for this revolution to take place in one country alone?
 
->Answer: All children will be educated in state establishments from the time when they can do without the first maternal care. 
+>No. By creating the world market, big industry has already brought all the peoples of the Earth, and especially the civilized peoples, into such close relation with one another that none is independent of what happens to the others.
+>Further, it has co-ordinated the social development of the civilized countries to such an extent that, in all of them, bourgeoisie and proletariat have become the decisive classes, and the struggle between them the great struggle of the day. It follows that the communist revolution will not merely be a national phenomenon but must take place simultaneously in all civilized countries – that is to say, at least in England, America, France, and Germany.
+>It will develop in each of the these countries more or less rapidly, according as one country or the other has a more developed industry, greater wealth, a more significant mass of productive forces. Hence, it will go slowest and will meet most obstacles in Germany, most rapidly and with the fewest difficulties in England. It will have a powerful impact on the other countries of the world, and will radically alter the course of development which they have followed up to now, while greatly stepping up its pace.
+>It is a universal revolution and will, accordingly, have a universal range.
 
-20. Will not the introduction of community of property be accompanied by the proclamation of the community of women? 
+20. What will be the consequences of the ultimate disappearance of private property?
 
->Answer: By no means. We will only interfere in the personal relationship between men and women or with the family in general to the extent that the maintenance of the existing institution would disturb the new social order. Besides, we are well aware that the family relationship has been modified in the course of history by the property relationships and by periods of development, and that consequently the ending of private property will also have a most important influence on it. 
+>Society will take all forces of production and means of commerce, as well as the exchange and distribution of products, out of the hands of private capitalists and will manage them in accordance with a plan based on the availability of resources and the needs of the whole society. In this way, most important of all, the evil consequences which are now associated with the conduct of big industry will be abolished.
+>There will be no more crises; the expanded production, which for the present order of society is overproduction and hence a prevailing cause of misery, will then be insufficient and in need of being expanded much further. Instead of generating misery, overproduction will reach beyond the elementary requirements of society to assure the satisfaction of the needs of all; it will create new needs and, at the same time, the means of satisfying them. It will become the condition of, and the stimulus to, new progress, which will no longer throw the whole social order into confusion, as progress has always done in the past. Big industry, freed from the pressure of private property, will undergo such an expansion that what we now see will seem as petty in comparison as manufacture seems when put beside the big industry of our own day. This development of industry will make available to society a sufficient mass of products to satisfy the needs of everyone.
+>The same will be true of agriculture, which also suffers from the pressure of private property and is held back by the division of privately owned land into small parcels. Here, existing improvements and scientific procedures will be put into practice, with a resulting leap forward which will assure to society all the products it needs.
+>In this way, such an abundance of goods will be able to satisfy the needs of all its members. The division of society into different, mutually hostile classes will then become unnecessary. Indeed, it will be not only unnecessary but intolerable in the new social order. The existence of classes originated in the division of labor, and the division of labor, as it has been known up to the present, will completely disappear. For mechanical and chemical processes are not enough to bring industrial and agricultural production up to the level we have described; the capacities of the men who make use of these processes must undergo a corresponding development.
+>Just as the peasants and manufacturing workers of the last century changed their whole way of life and became quite different people when they were drawn into big industry, in the same way, communal control over production by society as a whole, and the resulting new development, will both require an entirely different kind of human material.
+>People will no longer be, as they are today, subordinated to a single branch of production, bound to it, exploited by it; they will no longer develop one of their faculties at the expense of all others; they will no longer know only one branch, or one branch of a single branch, of production as a whole. Even industry as it is today is finding such people less and less useful. Industry controlled by society as a whole, and operated according to a plan, presupposes wellrounded human beings, their faculties developed in balanced fashion, able to see the system of production in its entirety.
+>The form of the division of labor which makes one a peasant, another a cobbler, a third a factory worker, a fourth a stock-market operator, has already been undermined by machinery and will completely disappear. Education will enable young people quickly to familiarize themselves with the whole system of production and to pass from one branch of production to another in response to the needs of society or their own inclinations. It will, therefore, free them from the one-sided character which the present-day division of labor impresses upon every individual. Communist society will, in this way, make it possible for its members to put their comprehensively developed faculties to full use. But, when this happens, classes will necessarily disappear. It follows that society organized on a communist basis is incompatible with the existence of classes on the one hand, and that the very building of such a society provides the means of abolishing class differences on the other.
+>A corollary of this is that the difference between city and country is destined to disappear. The management of agriculture and industry by the same people rather than by two different classes of people is, if only for purely material reasons, a necessary condition of communist association. The dispersal of the agricultural population on the land, alongside the crowding of the industrial population into the great cities, is a condition which corresponds to an undeveloped state of both agriculture and industry and can already be felt as an obstacle to further development.
+>The general co-operation of all members of society for the purpose of planned exploitation of the forces of production, the expansion of production to the point where it will satisfy the needs of all, the abolition of a situation in which the needs of some are satisfied at the expense of the needs of others, the complete liquidation of classes and their conflicts, the rounded development of the capacities of all members of society through the elimination of the present division of labor, through industrial education, through engaging in varying activities, through the participation by all in the enjoyments produced by all, through the combination of city and country – these are the main consequences of the abolition of private property.
 
-21. Will nationalities continue to exist under communism? 
-
-The nationalities of the peoples who join together according **to the principle of community** will be just as much compelled by this union to merge with one another and thereby supersede themselves as the various differences between estates and classes disappear through the superseding of their basis – private property. 
-
-22. Do Communists reject existing religions? 
-
->All religions which have existed hitherto were expressions of historical stages of development of individual peoples or groups of peoples. But communism is that stage of historical development which makes all existing religions superfluous and supersedes them. 
-
-In the name and on the mandate of the Congress. Secretary: Heide [Alias of Wilhelm Wolff in the League of the Just] President: Karl Schill [Alias of Karl Schapper in the League of the Just] London, June 9, 1847
+21. What will be the influence of communist society on the family? 
