@@ -223,20 +223,3 @@ thus for $d(fdz)$ to be zero we have
 $$
 \frac{\partial f(z,\overline{z})}{\partial {\bar{z}}}  = 0.
 $$
-
-This is another form of the Cauchy-Riemann relation. 
-
-If $fdz$ is closed, we can choose any reference point $z_{0}$ and define a function 
-$$
-\alpha(z) := \int_{z_{0}}^z \, f(z') dz' 
-$$
-along an arbitrary path. Then $\alpha$ is a potential, provided it is a single-valued function, and $d\alpha=fdz$. If the first Betti number of the manifold is zero, $b_{1}(M)=0$, then $\alpha$ is always a single-valued function. We shall see that $b_{1}(M)=0$ is a weaker condition than demanding that the manifold be **simply connected**. Simple connectivity is the usual condition imposed in complex analysis to ensure that $\alpha$ is single-valued and is indeed a potential. 
-
-- - -
-
-To consider the behavior of $f$ at infinity, we should consider $f$ as being a function defined on the **Riemann sphere** except perhaps at $\infty$ itself, that is, except at $w={1} / {z}=0$. Reader can verify that 
-$$
-\frac{ \partial f }{ \partial \bar{z} } = 0 \quad \Longleftrightarrow \quad \frac{ \partial f }{ \partial \bar{w} } = 0  
-$$
-which means that, the notion of a function being complex analytic is well defined on the Riemann sphere. 
-
