@@ -42,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d903c13d79231aa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "file": "_drafts/2022-12-13-Basic-Category-Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "file": "_drafts/2022-12-13-Basic-Category-Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md"
+                "file": "_drafts/2022-12-13-Basic-Category-Theory.md"
               }
             }
           }
@@ -174,17 +162,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d903c13d79231aa3",
+  "active": "9a87c24cc2bc0ddc",
   "lastOpenFiles": [
+    "_drafts/2022-11-23-《师哲回忆录》.md",
+    "_drafts/2022-10-29-Basics-of-Distributions.md",
     "_drafts/2022-11-22-Confinement-in-Toy-Models-II.md",
     "_drafts/2022-11-22-Montesquieu.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-5.md",
     "_posts/2022-12-10-The-Poncare-Lemma-and-Potentials.md",
-    "_drafts/2022-10-29-Basics-of-Distributions.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
     "_drafts/2022-12-13-Introduction-to-Transseries.md",
     "_drafts/2022-12-13-Basic-Category-Theory.md",
-    "img/WeChat Image_20220309214353.jpg",
-    "img/torus.png 1.md"
+    "img/WeChat Image_20220309214353.jpg"
   ]
 }
