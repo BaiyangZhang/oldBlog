@@ -236,7 +236,7 @@ $$
 \end{align}
 \tag{1}
 $$
-Here comes the interesting part: the integral in the box is analytic not in $\text{Re }\alpha>-1$, but in $\text{Re }\alpha>-2$! To see that, note
+Here comes the interesting part: Let us **regard the last line as the defining expression** of $x_{+}^\alpha$.  The integral in the box is analytic not in $\text{Re }\alpha>-1$, but in $\text{Re }\alpha>-2$! To see that, note
 $$
 \begin{align}
 \int_{0}^{1} dx \, x^\alpha [\phi(x)-\phi(0)] & = \int_{0}^{1} dx \, x^\alpha \left( \phi(0) + x \frac{d}{dx} \phi(0) + \mathcal{O}(x^2) - \phi(0)\right) \\
