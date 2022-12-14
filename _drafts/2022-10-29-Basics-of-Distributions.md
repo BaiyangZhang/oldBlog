@@ -198,9 +198,10 @@ $$
 what happens is that we can substitute $\phi$ with $\phi+C$, where $C$ is any constant *a priori*, and nothing happens, because the differentiation $d / dx$ kills any constant! This naïve observation turns out to be quite useful. We can substitute $\phi$ with $\phi+C$ and integrate by part, which yields
 $$
 -\lim_{ \epsilon \to 0 } \int_{\epsilon}^{\infty} dx \,  x^\alpha \frac{d}{dx} (\phi(x)+C) =-\lim_{ \epsilon \to 0 }  \left\{ x^\alpha (\phi(x)+C)\mid _{\epsilon}^\infty - \int_{\epsilon}^{\infty} dx \,  (\phi(x)+C) \alpha x^{\alpha-1}
-\right\} ,
+\right\} .
 $$
-now, how can we make the integral on the right hand side finite? It can be achieved by setting  
+
+Now, how can we make the integral on the right hand side finite? It can be achieved by setting  
 $$
 C = -\phi(0)
 $$
@@ -220,6 +221,14 @@ $$
 $$
 Again, this pseudo function defines a singular distribution, singular in the sense that his distribution is not written as the integral of $x^{\alpha-1}_{+}$ against a test function, but extra operation is needed, in our case subtract $\phi(x)$ by $\phi(0)$.
 
+More generally, for negative non-integer $\alpha$, the singular distribution $\text{Pf. }x_{+}^{\alpha}$ is defined by 
+$$
+\boxed{
+\left\langle \text{Pf. }x_{+}^{\alpha}, \phi \right\rangle := \int_{0}^{\infty} dx \, x^{\alpha}\left[ \phi(x)-\phi(0)-x\phi'(0)-\cdots - \frac{x^{m}}{m!} \phi^{(m)} (0)\right]
+}.
+$$
+where $-m-2<\alpha<-m-1$.
+
 - - -
 
 There is an alternative way to look at the pseudofunction $x_{+}^\alpha$. We can regard it as a function of $\alpha$ instead of $x$, that is 
@@ -236,7 +245,7 @@ $$
 \end{align}
 \tag{1}
 $$
-Here comes the interesting part: Let us **regard the last line as the defining expression** of $x_{+}^\alpha$.  The integral in the box is analytic not in $\text{Re }\alpha>-1$, but in $\text{Re }\alpha>-2$! To see that, note
+Here comes the interesting part: the integral in the box is analytic not in $\text{Re }\alpha>-1$, but in $\text{Re }\alpha>-2$! To see that, note
 $$
 \begin{align}
 \int_{0}^{1} dx \, x^\alpha [\phi(x)-\phi(0)] & = \int_{0}^{1} dx \, x^\alpha \left( \phi(0) + x \frac{d}{dx} \phi(0) + \mathcal{O}(x^2) - \phi(0)\right) \\
@@ -256,20 +265,22 @@ where the limit is $1$ only if $\text{Re }(\epsilon+1) > 0 \implies \text{Re }\e
 $$
 \lim_{ \epsilon \to 0 } \epsilon^{-0.5} = \lim_{ \epsilon \to 0 } \frac{1}{\epsilon^{0.5}}=\frac{1}{0}.
 $$
-Nevertheless, we just throw away this divergence anyway even when $-2<\text{Re }\alpha<-1$, as the definition of the analytical continuation. We have secretly renormalized the integral! 
+It would seem that we've just thrown away this divergence, even when $-2<\text{Re }\alpha<-1$, as the definition of the analytical continuation. In a sense, we have secretly renormalized the integral!  Let us **regard the last line in Eq.(1) as the defining expression** of $x_{+}^\alpha$. 
 
 Taking into account the relation 
 $$
 \frac{1}{\alpha+k+1} = -\int_{1}^{\infty} dx \, x^{\alpha+k},\quad \text{Re }\alpha < -k-1, \quad k\in \mathbb{N} 
 $$
-then this renormalization amounts to
+which is valid if $\text{Re}(\alpha)<-k-1$, then this renormalization (Hadamard's method) amounts to
 $$
+\boxed{
 \int_{0}^{\infty} dx \, x^\alpha \phi(x) \to \int_{0}^{\infty} dx \, x^\alpha [\phi(x)-\phi(0)],\quad -2<\text{Re }\alpha<-1.
+}
 $$
 
-So, by the end of the day, we have analytically continued the original defining integral to a bigger region! Now, don't forget the last term in Eq. (1) is not defined at $\alpha=-1$, so the new defining integral is meromorphic with singularity at $\alpha=-1$. 
+By the end of the day, we have analytically continued the original defining integral to a larger region. Now, don't forget the last term in Eq. (1) is not defined at $\alpha=-1$, so the new defining integral is meromorphic with singularity at $\alpha=-1$. 
 
-This procedure can be repeated to get linear form 
+This procedure can be repeated to get the linear form 
 $$
 \phi \mapsto \int_{0}^{\infty} dx \, x^\alpha \phi(x) 
 $$
@@ -286,17 +297,18 @@ $$
 &= \int_{0}^{\infty} dx \, x^\alpha [\phi(x)-\phi(0)\theta(1-x)] .
 \end{align}
 $$
-The choice of $1$ in $\theta(1-x)$ is kind of arbitrary, I don't see any reasons why it shouldn't be $0.999$ or $1.001$. It can be regarded as an arbitrary choice in the regularization, in separating finite part from the infinite. 
+The choice of $1$ in $\theta(1-x)$ is kind of arbitrary, I don't see any reasons why it shouldn't be $0.9$ or $1.1$. It can be regarded as an arbitrary choice in the regularization, in separating finite part from the infinite. 
 
-Using 
+More generally, the linear form
 $$
-\left\langle \frac{d}{dx} T, \phi(x) \right\rangle = -\left\langle T, \frac{d}{dx} \phi(x) \right\rangle
+\begin{align}
+\phi\mapsto &\int_{0}^{1} dx \, x^{\alpha}\left[ \phi(x)-\phi(0)-\dots-\frac{x^{m}}{m!}\phi^{(m)}(0) \right]  \\
+&+\int_{1}^{\infty} dx \, x^{\alpha}\phi(x)+\sum_{k=0}^{m} \frac{\phi^{(k)}(0)}{k!(k+\alpha+1)} 
+\end{align}
 $$
-we have 
-$$
-\frac{d}{dx} \text{Pf. }x^{-1}_{+} = -\text{Pf. }x_{+}^{-2}.
-$$
+is defined for $\text{Re}(\alpha)>-m-2$ and $\alpha \neq -1,-2,\dots,-m-1$. 
 
+Since the function $\alpha\mapsto \left\langle \text{Pf. }x_{+}^{\alpha},\phi \right\rangle$ has poles at $\alpha=-1,-2,\dots$, in order to define the distribution $\text{Pf.}x_{+}^{n}$ where $n$ is an integer, we shall remove the divergent term when $\alpha\to-n$. 
 
 We have discussed the situation where $x$ is positive, now let's turn to negative $x$. Similarly to $x_{+}$ we can define function
 $$
@@ -304,13 +316,86 @@ x\mapsto \theta(-x) \left\lvert x \right\rvert ^\alpha
 $$
 which is locally integrable if $0>\alpha>-1$, in which case a regular distribution is defined,
 $$
-\left\langle x_{-}^\alpha \mid \phi(x) \right\rangle := 
+\left\langle x_{-}^\alpha , \phi(x) \right\rangle := \int_{-\infty}^{0} dx \, \left\lvert x \right\rvert ^\alpha \phi(x) =  \int_{0}^{\infty} dx \, \phi(-x)x^\alpha. 
 $$
 
-In the above examples, we have used Hadamard's method to define singular distributions corresponding to certain nonlocally integrable functions. 
+This can be generalized to negative non-integer $\alpha$, the pseudo-function $\text{Pf. }x_{-}^{\alpha}$ is defined by
+$$
+\left\langle \text{Pf. }x_{-}^{\alpha} , \phi \right\rangle := \int_{0}^{\infty} dx \, x^{\alpha} \left[ \phi(-x)-\phi(0)+x\phi'(0)-\dots- \frac{(-1)^{m}x^{m}}{m!} \phi^{(m)}(0) \right] ,
+$$
+where $m$ is such that $-m-2<\alpha<-m-1$. The idea is exactly the same as $\text{Pf. }x_{+}^{\alpha}$ where we used terms such as $\phi(0),x\phi'(0),$ etc. to cancel the divergence at $x=0$. With this definition we have 
+$$
+\frac{d}{dx} \text{Pf. }x_{-}^{\alpha} = -\alpha\, \text{Pf. }x_{-}^{\alpha-1},
+$$
+note the extra minus sign.
 
+We could also define $\text{Pf. }x_{-}^{\alpha}$ as regarding $\alpha$ as a complex number, using analytical continuation and extract the divergent part at $\alpha \to -n$ for some positive integer $n$, as we did with $\text{Pf. }x_{+}^{\alpha}$. We shall not go into details
 
+Now we can put $\text{Pf. }x_{+}^{\alpha}$ and $\text{Pf. }x_{-}^{\alpha}$ together when $\alpha = -n$ is a negative integer. According to the parity of $n$, $\text{Pf. }x^{-n}$ is defined by 
+$$
+\text{Pf. }x^{-n} := \begin{cases}
+\text{Pf. }x_{+}^{-n}+\text{Pf. }x_{-}^{-n},\quad n\text{ is even, }  \\
+\text{Pf. }x_{+}^{-n}-\text{Pf. }x_{-}^{-n},\quad n\text{ is odd. }
+\end{cases}
+$$
 
+In particular, 
+$$
+\left\langle \text{Pf. } \frac{1}{x}, \phi \right\rangle= \int_{0}^{\infty} dx \, \frac{\phi(x)-\phi(-x)}{x},
+$$
+that is 
+$$
+\text{Pf. } \frac{1}{x} = \text{Pv. } \frac{1}{x}.
+$$
+
+We leave it to the readers to prove that 
+$$
+\left\langle \text{Pf. } \frac{1}{x^{2}}, \phi \right\rangle= \int_{0}^{\infty} dx \, \frac{\phi(x)+\phi(-x)-2\phi(0)}{x^{2}}.
+\tag{2}
+$$
+
+- - -
+
+In the above examples, we have used Hadamard's method to define singular distributions corresponding to certain nonlocally integrable functions. Next we shall give a more general definition of the finite part of a divergent integral and study briefly its main properties.
+
+Let $f(x)$ be a function non-locally integrable on $[a,b]$ but locally integral on $[a+\epsilon,b]$, namely $x=a$ is a singular point of $f(x)$. Assume that $f(x)$ can be written as 
+$$
+f(x) = g(x) + \sum_{i=1}^{m} \frac{A_{i}}{(x-a)^{\lambda_{i}}},
+$$
+where $g(x)$ is locally integrable on $[a,b]$. Let the exponents are non-integers such that $\text{Re }\lambda_{i}\geq1$, for reasons will be clear later. The integral gives 
+$$
+\int_{a+\epsilon}^{b} dx \, f(x) = I(\epsilon)+F(a,b) 
+$$
+where 
+$$
+I(\epsilon) = \sum_{i=1}^{m} \frac{1}{\epsilon^{\lambda_{i}-1}} \frac{A_{i}}{\lambda_{i}-1}
+$$
+is the infinite part and 
+$$
+F(a,b) = \int_{a+\epsilon}^{b} dx \, g(x) - \sum_{i=1}^{m} \frac{1}{(b-a)^{\lambda_{i}-1}} \frac{A_{i}}{\lambda_{i}-1} 
+$$
+is the finite part, called the **Hadamard's finite part** of the divergent integral, denoted by 
+$$
+\boxed{
+\text{Fp.} \int_{a}^{b} dx \, f(x) := F(a,b)
+}
+$$
+
+The generalized integral has the following two important properties,
+1. We can change variables to compute the finite part of a divergent integral, namely given $t=t(x)$ we have
+$$
+\text{Fp.} \int_{a}^{b} dx \, f(x) =  \text{Fp.} \int_{t(a)}^{t(b)}f(t) x'(t)dt.
+$$
+2. The finite part of a divergent integral is the the **analytical continuation** of an ordinary integral.
+
+These considerations are valid if non of the exponents $\lambda_{i}$ are equal to $1$. If one of the $\lambda_{i}$ is equal to one, the advent of logarithmic function will ruin the argument.
+
+The linear form
+$$
+\phi\mapsto \text{Fp.} \int_{a}^{b} dx \, f(x)\phi(x) 
+$$
+being continuous, defines the singular distribution $\text{Pf.}f$ namely the pseudofunction given by $f$.
+ 
 - - -
 
 Next we shall study in more detail the finite part of a divergent integral and its main properties. 
