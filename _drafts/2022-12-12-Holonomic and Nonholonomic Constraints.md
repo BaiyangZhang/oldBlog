@@ -89,4 +89,9 @@ we can pullback $\nu$ to the $\left\{ u^{I} \right\}$ coordinate system and clai
 
 Before we go further it is convenient to introduce the definitions of $k$-distribution and $k$-integral manifold,
 
-**Definition.** 
+**Definition.** A **$k$-dimensional distribution** $\Delta_{k}$ on $M^{n}$ assigns in a smooth fashion to each $x \in M^{n}$ a $k$-dimensional subspace $\Delta_{k}$ of the tangent space to $M^{n}$. An **$r$-dimensional integral manifold** of $\Delta_{k}$ is a $r$-dimensional submanifold of $M$ such that it is tangent to $\Delta_{k}$ everywhere. The $k$-distribution $\Delta_{k}$ is said to be **(completely) integrable** if locally there are coordinates $x^{1},\dots,x^k,y^{1},\dots,y^{n-k}$ for $M$ such that the **coordinate slices** $y^{1}=\text{const},\dots,y^{n-k}=\text{const}$ are $k$-dimensional integral manifolds of $\Delta_{k}$. Such a coordinate system $\left\{ x,y \right\}$ will be called a **Frobenius chart** for M.
+
+In this note our fundamental question is, when is $\Delta_{k}$ integrable?
+
+- - -
+
