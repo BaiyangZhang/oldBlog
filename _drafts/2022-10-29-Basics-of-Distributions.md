@@ -20,14 +20,12 @@ tags:								#标签
 Classically, function are defined set-theoretically, I quote from Wiki:
 
 >In mathematics, a function from a set X to a set Y assigns to each element of X exactly one element of Y. The set X is called the domain of the function and the set Y is called the codomain of the function. Functions were originally the idealization of how a varying quantity depends on another quantity. For example, the position of a planet is a function of time. Historically, the concept was elaborated with the infinitesimal calculus at the end of the 17th century, and, until the 19th century, the functions that were considered were differentiable (that is, they had a high degree of regularity). The concept of a function was formalized at the end of the 19th century in terms of set theory, and this greatly enlarged the domains of application of the concept.
->
 >A function is most often denoted by letters such as $f$, $g$ and $h$, and the value of a function f at an element $x$ of its domain is denoted by $f(x)$; the numerical value resulting from the function evaluation at a particular input value is denoted by replacing $x$ with this value; for example, the value of $f$ at $x = 4$ is denoted by $f(4)$. When the function is not named and is represented by an expression $E$, the value of the function at, say, $x = 4$ may be denoted by $E\rvert_x=4$. For example, the value at $4$ of the function that maps $x$ to $(x+1)^{2}$ may be denoted by $\left.(x+1)^{2}\right\rvert _{x=4}$ (which results in 25).
->
 >A function is uniquely represented by the set of all pairs (x, f (x)), called the *graph* of the function, a popular means of illustrating the function. When the domain and the codomain are sets of real numbers, each such pair may be thought of as the Cartesian coordinates of a point in the plane.
 
 The most important operation for a function is *evaluation*.
 
-Two evaluations are not defined for test functions in $L^2(\Omega)$. First is the evaluation. *Evaluation is not important for test functions*! Second is the *point-wise operations between two functions*, such as point-wise multiplication or division or additions or subtraction, precisely because evaluation is not defined!
+Let $L^2(\Omega)$ be the space of square-integrable functions on manifold $\Omega$. Surprisingly, *point-wise operations* are not necessiray for test functions in $L^2(\Omega)$, such as point-wise multiplication or division or additions or subtraction, especially evaluation is not defined. 
 
 There are various kinds of functions, they could be very smooth hence quite special, or very general but don't have any of the nice properties such as smoothness or continuity.
 
