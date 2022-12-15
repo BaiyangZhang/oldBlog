@@ -23,15 +23,32 @@ Classically, function are defined set-theoretically, I quote from Wiki:
 >A function is most often denoted by letters such as $f$, $g$ and $h$, and the value of a function f at an element $x$ of its domain is denoted by $f(x)$; the numerical value resulting from the function evaluation at a particular input value is denoted by replacing $x$ with this value; for example, the value of $f$ at $x = 4$ is denoted by $f(4)$. When the function is not named and is represented by an expression $E$, the value of the function at, say, $x = 4$ may be denoted by $E\rvert_x=4$. For example, the value at $4$ of the function that maps $x$ to $(x+1)^{2}$ may be denoted by $\left.(x+1)^{2}\right\rvert _{x=4}$ (which results in 25).
 >A function is uniquely represented by the set of all pairs (x, f (x)), called the *graph* of the function, a popular means of illustrating the function. When the domain and the codomain are sets of real numbers, each such pair may be thought of as the Cartesian coordinates of a point in the plane.
 
-The most important operation for a function is *evaluation*.
+The most important operation for a function is *evaluation*. However, as we shall see, sometimes evaluation is not needed at all for certain purposes, especially when we are interested in "non-local" properties of functions. Non-locally is probably the wrong word, a more accurate one is non-pointwise. The best example might be the Lebesgue integral of a function on the real axis. We know that $\mu$-negligible sets are, as the name suggests, negligible in integral, however every point on the real axis is $\mu$-negligible, hence when talking about $\int dx \, fg$ where $f,g$ are two real-valued functions, if we change the value of $f$ at a single point $x_{0}$, it doesn't affect the result of the integral, however it entirely changes the value of the function evaluated at $x_{0}$!
 
-Let $L^2(\Omega)$ be the space of square-integrable functions on manifold $\Omega$. Surprisingly, *point-wise operations* are not necessiray for test functions in $L^2(\Omega)$, such as point-wise multiplication or division or additions or subtraction, especially evaluation is not defined. 
+One might argue that by changing the value of $f(x)$ at $x_{0}$ alone, we are messing up the function, for example the continuity of $f$ would be entirely destroyed. It is true that in physics we seldomly need to deal with anything that is not continuous at a point, but in mathematics there is no reason why such weird function should be excluded from the beginning of the discussion. In general, among various kinds of functions, some might be smooth hence quite special, some very general but not smooth. Both should be included.
 
-There are various kinds of functions, they could be very smooth hence quite special, or very general but don't have any of the nice properties such as smoothness or continuity.
+Next we give a real-life case where functions need not be defined pointwise. Let $L^2(\Omega)$ be the space of square-integrable functions on manifold $\Omega$. Surprisingly, *point-wise operations* are not necessiray for test functions in $L^2(\Omega)$, such as point-wise multiplication or division or additions or subtraction, especially evaluation is not defined. 
 
-So what is Dirac $\delta$ function? It's better to consider it as an abstract things that, when given a function, it spits out a real or complex number.
+Having that in mind, let us move to the definition of distributions.
 
-First explain the name, why are they called distributions. Then introduce it as the dual space of test functions. 
+### What are distributions?
+
+Distribution is some physics books are also called "singular functions" or "generalized function", the latter was used a lot by Russian mathematicians. Consider probably the most famous example of distribution for physicist, the Dirac $\delta$ function (defined on $\mathbb{R}$):
+$$
+\delta(x) = 
+\begin{cases}
+0, \quad x\neq 0; \\
+\infty,\quad x=0
+\end{cases}\quad\text{ and }\quad \int_{-\infty}^{\infty} dx \, \delta(x)=1 .
+$$
+It follows that 
+$$
+\int_{-\infty}^{\infty} dx \, \delta(x)\phi(x)=\phi(0)
+$$
+where $\phi(x)$ is a "well-behaving" function.
+
+
+
 
 Distributions can also be treated as the weak limit of functions. Explain what is weak limit and strong limit in a vector space. Example 1, $\sin(nx)$ on $[0,2\pi]$ weakly converges to $0$. In this sense, the inner product is degenerate, it's not a pseudo-Riemann space.
 
