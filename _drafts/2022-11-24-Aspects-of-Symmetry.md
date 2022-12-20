@@ -12,7 +12,7 @@ tags:								#标签
     - Notes
 ---
 
-### An introduction to unitary symmetry
+## An introduction to unitary symmetry
 
 The story begins with the observation that, there exists eight baryons, namely eight positive-parity particles with isospin one and nucleon number 1, they are the nucleons, the $\Lambda$, the $\Sigma$s, the $\Xi$s. The masses of these particles are close together, all lying within 20% of their common mean mass. There are essentially two method to explain it,
 - only some of these eight particles are fundamental. In the original Sakata model, the nucleons and the $\Lambda$ are taken to be fundamental, other particles are composite baryon-meson states, mesons are light in comparison with baryons thus explains the closeness of the masses of the eight baryons. Not very successful. 
@@ -38,3 +38,4 @@ $$
 G_{0} = SU(2)\otimes SU(2)\otimes SU(2)
 $$
 
+## Soft Pions

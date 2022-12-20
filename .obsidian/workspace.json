@@ -13,7 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "_drafts/2022-12-15-Basics-of-Distributions.md",
+=======
+                "file": "_drafts/2022-11-24-Aspects-of-Symmetry.md",
+>>>>>>> c32de6272d1d6083cfc0dc9a22d8c3ac0579c4d4
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +114,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "_drafts/2022-12-15-Basics-of-Distributions.md",
+=======
+                "file": "_drafts/2022-11-24-Aspects-of-Symmetry.md",
+>>>>>>> c32de6272d1d6083cfc0dc9a22d8c3ac0579c4d4
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +135,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "_drafts/2022-12-15-Basics-of-Distributions.md",
+=======
+                "file": "_drafts/2022-11-24-Aspects-of-Symmetry.md",
+>>>>>>> c32de6272d1d6083cfc0dc9a22d8c3ac0579c4d4
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "_drafts/2022-12-15-Basics-of-Distributions.md"
+=======
+                "file": "_drafts/2022-11-24-Aspects-of-Symmetry.md"
+>>>>>>> c32de6272d1d6083cfc0dc9a22d8c3ac0579c4d4
               }
             }
           }
@@ -163,8 +179,13 @@
   },
   "active": "cdb0e68c88b384aa",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "_posts/2022-12-15-《师哲回忆录》.md",
     "_drafts/2022-12-15-Basics-of-Distributions.md",
+=======
+    "_drafts/2022-10-29-Basics-of-Distributions.md",
+    "_posts/2022-12-15-《师哲回忆录》.md",
+>>>>>>> c32de6272d1d6083cfc0dc9a22d8c3ac0579c4d4
     "_drafts/2022-12-12-Holonomic and Nonholonomic Constraints.md",
     "_drafts/2022-12-13-Basic-Category-Theory.md",
     "_drafts/2022-11-12-Duality-Part-I.md",
