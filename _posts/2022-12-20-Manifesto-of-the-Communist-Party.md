@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:      Manifesto of the Communist Party	# 标题 
 subtitle:   Re-reading the Classics
-date:       2022-10-1 				# 时间
+date:       2022-12-20				# 时间
 author:     Baiyang # 作者
 header-img: img/MarxAndEngels.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -820,4 +820,92 @@ The general co-operation of all members of society for the purpose of planned ex
 
 -21- **What will be the influence of communist society on the family?** 
 
+It will transform the relations between the sexes into a purely private matter which concerns only the persons involved and into which society has no occasion to intervene. It can do this since it does away with private property and educates children on a communal basis, and in this way removes the two bases of traditional marriage – the dependence rooted in *private property, of the women on the man, and of the children on the parents*.
+
+And here is the answer to the outcry of the highly moral philistines against the “community of women”. Community of women is a condition which belongs entirely to bourgeois society and which today finds its complete expression in prostitution. But prostitution is based on private property and falls with it. Thus, communist society, instead of introducing community of women, in fact abolishes it.
+
+-22- **What will be the attitude of communism to existing nationalities?**
+
+The nationalities of the peoples associating themselves in accordance with the principle of community will be compelled to mingle with each other as a result of this association and thereby to *dissolve themselves*, just as the various estate and class distinctions must disappear through the abolition of their basis, private property. [^20]
+
+[^20]: Engels’ put “unchanged” here, referring to the answer in the June draft under No. 21 as shown.
+
+-23- **What will be its attitude to existing religions?**
+
+All religions so far have been the expression of historical stages of development of individual peoples or groups of peoples. But communism is the stage of historical development which makes all existing religions superfluous and brings about their disappearance.[^21]
+
+[^21]: Similarly, this refers to the answer to Question 23 in the June draft.
+
+-24- **How do communists differ from socialists?**
+
+The so-called socialists are divided into three categories.
+
+**Reactionary Socialists:** 
+
+The first category consists of adherents of a feudal and patriarchal society which has already been destroyed, and is still daily being destroyed, by big industry and world trade and their creation, bourgeois society. This category concludes, from the evils of existing society, that feudal and patriarchal society must be restored because it was free of such evils. In one way or another, all their proposals are directed to this end.
+
+This category of reactionary socialists, for all their seeming partisanship and their scalding tears for the misery of the proletariat, is nevertheless energetically opposed by the communists for the following reasons:
+
+(i) It strives for something which is entirely impossible.
+
+(ii) It seeks to establish the rule of the aristocracy, the guildmasters, the small producers, and their retinue of absolute or feudal monarchs, officials, soldiers, and priests – a society which was, to be sure, free of the evils of present-day society but which brought it at least as many evils without even offering to the oppressed workers the prospect of liberation through a communist revolution.
+
+(iii) As soon as the proletariat becomes revolutionary and communist, these reactionary socialists show their true colors by immediately making common cause with the bourgeoisie against the proletarians.
+
+**Bourgeois Socialists:**
+
+The second category consists of adherents of present-day society who have been frightened for its future by the evils to which it necessarily gives rise. What they want, therefore, is to maintain this society while getting rid of the evils which are an inherent part of it.
+
+To this end, some propose mere welfare measures – while others come forward with grandiose systems of reform which, under the pretense of re-organizing society, are in fact intended to preserve the foundations, and hence the life, of existing society.
+
+Communists must unremittingly struggle against these bourgeois socialists because they work for the enemies of communists and protect the society which communists aim to overthrow.
+
+**Democratic Socialists:**
+
+Finally, the third category consists of democratic socialists who favor some of the same measures the communists advocate, as described in Question 18, not as part of the transition to communism, however, but as measures which they believe will be sufficient to abolish the misery and evils of present-day society.
+
+These democratic socialists are either proletarians who are not yet sufficiently clear about the conditions of the liberation of their class, or they are representatives of the petty bourgeoisie, a class which, prior to the achievement of democracy and the socialist measures to which it gives rise, has many interests in common with the proletariat.
+
+It follows that, in moments of action, the communists will have to come to an understanding with these democratic socialists, and in general to follow as far as possible a common policy with them – provided that these socialists do not enter into the service of the ruling bourgeoisie and attack the communists.
+
+It is clear that this form of *co-operation in action does not exclude the discussion of differences*.
+
+-25- **What is the attitude of the communists to the other political parties of our time?**
+
+This attitude is different in the different countries.
+
+In England, France, and Belgium, where the bourgeoisie rules, the communists still have a common interest with the various *democratic parties*, an interest which is all the greater the more closely the socialistic measures they champion approach the aims of the communists – that is, the more clearly and definitely they represent the interests of the proletariat and the more they depend on the proletariat for support. In England, for example, the working-class Chartists[^22] are infinitely closer to the communists than the democratic petty bourgeoisie or the so-called Radicals.
+
+In America, where a democratic constitution has already been established, the communists must make the common cause with the party which will turn this constitution against the bourgeoisie and use it in the interests of the proletariat – that is, with the agrarian National Reformers.[^23] In Switzerland, the Radicals, though a very mixed party, are the only group with which the communists can co-operate, and, among these Radicals, the Vaudois and Genevese are the most advanced.
+
+In Germany, finally, the decisive struggle now on the order of the day is that between the bourgeoisie and the absolute monarchy. Since the communists cannot enter upon the decisive struggle between themselves and the bourgeoisie until the bourgeoisie is in power, it follows that *it is in the interest of the communists to help the bourgeoisie to power as soon as possible in order the sooner to be able to overthrow it*. Against the governments, therefore, the communists must continually support the radical liberal party, taking care to avoid the self-deceptions of the bourgeoisie and not fall for the enticing promises of benefits which a victory for the bourgeoisie would allegedly bring to the proletariat. The sole advantages which the proletariat would derive from a bourgeois victory would consist
+
+(i) in various concessions which would facilitate the unification of the proletariat into a closely knit, battle-worthy, and organized class; and
+
+(ii) in the certainly that, on the very day the absolute monarchies fall, the struggle between bourgeoisie and proletariat will start. From that day on, the policy of the communists will be the same as it now is in the countries where the bourgeoisie is already in power.
+
+[^22]: The Chartists were the participants in the political movement of the British workers which lasted from the 1830s to the middle 1850s and had as its slogan the adoption of a People’s Charter, demanding universal franchise and a series of conditions guaranteeing voting rights for all workers. Lenin defined Chartism as the world’s “first broad, truly mass and politically organized proletarian revolutionary movement” (Collected Works, Eng. ed., Progress Publishers, Moscow, 1965, Vol. 29, p. 309.) The decline of the Chartist movement was due to the strengthening of Britain’s industrial and commercial monopoly and the bribing of the upper stratum of the working class (“the labour aristocracy”) by the British bourgeoisie out of its super-profits. Both factors led to the strengthening of opportunist tendencies in this stratum as expressed, in particular, by the refusal of the trade union leaders to support Chartism.
+
+[^23]: 1 Probably a references to the National Reform Association, founded during the 1840s by George H. Evans, with headquarters in New York City, which had for its motto, “Vote Yourself a Farm”.
+
+- - -
+- - - 
+
+## Demands of the Communist Party in Germany
+
+- - -
+“Demands of the Communist Party in Germany” were written by Karl Marx and Frederick Engels in Paris between March 21 (when Engels arrived in Paris from Brussels) and March 24, 1848. This document was discussed by members of the Central Authority, who approved and signed it as the political programme of the Communist League in the revolution that broke out in Germany. In March it was printed as a leaflet, for distribution among revolutionary German emigrant workers who were about to return home. Austrian and German diplomats in Paris informed their respective governments about this as early as March 27, 28 and 29. (The Austrian Ambassador enclosed in his letter a copy of the leaflet which he dated “March 25”.) The leaflet soon reached members of the Communist League in other countries, in particular, German emigrant workers in London.
+
+Early in April, the “Demands of the Communist Party in Germany” were published in such German democratic papers as Berliner Zeitungs-Halle (special supplement to No. 82, April 5, 1848), Düsseldorfer Zeitung (No. 96, April 5, 1848), Mannheimer Abendzeitung (No. 96, April 6, 1848), Trier’sche Zeitung (No. 97, April 6, 1848, supplement), Deutsche Allgemeine Zeitung (No. 100, April 9, 1848, supplement), and Zeitung für das deutsche Volk (No. 2 1, April 9, 1848).
+
+Marx and Engels, who left for Germany round about April 6 and some time later settled in Cologne, did their best along with their followers to popularise this programme document during the revolution. In 1848 and 1849 it was repeatedly published in the periodical press and in leaflet form. Not later than September 10, 1848, the “Demands” were printed in Cologne as a leaflet for circulation by the Cologne Workers’ Association both in the town itself and in a number of districts of Rhenish Prussia. In addition to minor stylistic changes, point 10 in the text of the leaflet was worded differently from that published in March-April 1848. At the Second Democratic Congress held in Berlin in October 1848, Friedrich Beust, delegate from the Cologne Workers’ Association, spoke, on behalf of the social question commission, in favour of adopting a programme of action closely following the “Demands”. In November and December 1848, various points of the “Demands” were discussed at meetings of the Cologne Workers’ Association. Many editions of the “Demands” published during the revolution and after its defeat have survived to this day in their original form, some of them as copies kept in the police archives.
+
+At the end of 1848 or the beginning of 1849 an abridged version of the “Demands” was published in pamphlet form by Weller Publishers in Leipzig. The slogan at the beginning of the document, the second paragraph of point 9 and the last sentence of point 10 were omitted, and the words “The Committee” were not included among the signatories. In 1853, an abridged version of the “Demands” was printed, together with other documents of the Communist League, in the first part of the book Die Communisten-Verschworungen des neunzehnten Jahrhunderts published in Berlin for purposes of information by Wermuth and Stieber, two police officials, who staged a trial against the Communists in Cologne in 1852. Later Engels reproduced the main points of the “Demands” in his essay On the History of the Communist League, published in November 1885 in the newspaper Sozialdemokrat, and as an introduction to the pamphlet: K. Marx, Enthüllungen über den Kommunisten Prozess zu Köln, Hottingen-Zürich, 1885.
+
+English translations of the “Demands of the Communist Party in Germany” appeared in the collections: The Communist Manifesto of Karl Marx and Friedrich Engels with an introduction and explanatory notes by D. Ryazanoff, Martin Lawrence, London (1930); K. Marx, Selected Works, Vol. II, ed. V. Adoratsky, Moscow-Leningrad, Co-operative Publishing Society of Foreign Workers in the USSR (1936); ibid., New York (1 936); Birth of the Communist Manifesto, edited and annotated, with an Introduction by D. J. Struik, International Publishers, New York, 197 1, and in other publications.
+- - -
+
+### Demands of the Communist Party in Germany
+
+**“Workers of all countries, unite!”**
 

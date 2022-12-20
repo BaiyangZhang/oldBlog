@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
+                "file": "_drafts/2022-12-15-Basics-of-Distributions.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
+                "file": "_drafts/2022-12-15-Basics-of-Distributions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md",
+                "file": "_drafts/2022-12-15-Basics-of-Distributions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-10-1-Manifesto-of-the-Communist-Party.md"
+                "file": "_drafts/2022-12-15-Basics-of-Distributions.md"
               }
             }
           }
@@ -163,6 +163,7 @@
   },
   "active": "cdb0e68c88b384aa",
   "lastOpenFiles": [
+    "_posts/2022-12-20-Manifesto-of-the-Communist-Party.md",
     "_drafts/2022-12-15-Basics-of-Distributions.md",
     "_posts/2022-12-15-《师哲回忆录》.md",
     "_drafts/2022-12-12-Holonomic and Nonholonomic Constraints.md",
@@ -171,7 +172,6 @@
     "_drafts/2022-11-22-Confinement-in-Toy-Models-II.md",
     "_drafts/2022-11-22-Montesquieu.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-5.md",
-    "_posts/2022-12-10-The-Poncare-Lemma-and-Potentials.md",
-    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md"
+    "_posts/2022-12-10-The-Poncare-Lemma-and-Potentials.md"
   ]
 }
