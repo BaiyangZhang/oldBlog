@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:      Basics of Distributions 				# 标题 
 subtitle:    #副标题
-date:       2022-10-29 				# 时间
+date:       2022-12-15 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/functionalAnalysis.png 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -29,6 +29,12 @@ One might argue that by changing the value of $f(x)$ at $x_{0}$ alone, we are me
 
 Next we give a real-life case where functions need not be defined pointwise. Let $L^2(\Omega)$ be the space of square-integrable functions on manifold $\Omega$. Surprisingly, *point-wise operations* are not necessiray for test functions in $L^2(\Omega)$, such as point-wise multiplication or division or additions or subtraction, especially evaluation is not defined. 
 
+More generally, the vector space of $\mu$-measurable function from some space $X$ to $\mathbb{R}$, such that $\left\lvert f \right\rvert^{p}$ is $\mu$-integrable for $1\leq p<\infty$, is denoted $\mathcal{L}_{\mu}^{p}(X)$. Next let's define a equivalence relation $f\sim g$ if $\int dx \, \left\lvert f(x)-g(x) \right\rvert=0$, namely $f(x)=g(x)$ [`almost everywhere`](http://www.mathlimbo.net/2022/10/02/Basic-Measure-Theory-Part-I/). The vector space 
+$$
+L^{p}(X) := \mathcal{L}^{p}(X) / \sim 
+$$
+is usually the functional space we are interested in. It reflects the spirit that when talking about integrals, we don't care what happens on the $\mu$-negligible sets. However, for evaluation to be well defined everywhere, we need to take into consideration the $\mu$-negligible sets.
+
 Having that in mind, let us move to the definition of distributions.
 
 ### What are distributions?
@@ -39,18 +45,63 @@ $$
 \begin{cases}
 0, \quad x\neq 0; \\
 \infty,\quad x=0
-\end{cases}\quad\text{ and }\quad \int_{-\infty}^{\infty} dx \, \delta(x)=1 .
+\end{cases}\quad\text{ and }\quad \int_{-\infty}^{\infty} dx \, \delta(x)\phi(x)=\phi(0) .
 $$
-It follows that 
+where $\phi(x)$ is a "well-behaving" function. Setting $\phi(x)=1$ on $\mathbb{R}$ we obtain the frequently seen expression:
 $$
-\int_{-\infty}^{\infty} dx \, \delta(x)\phi(x)=\phi(0)
+\int_{-\infty}^{\infty} dx \, \delta(x)= 1,
 $$
-where $\phi(x)$ is a "well-behaving" function.
+mathematically it is wrong, wrong in the sense that it is incompatible with the Lebesgue measure theory, for $\delta(x)$, when regarded as a function, is only nonzero at $x=0$, which is just a point thus has measure zero. Then the integral of $\delta(x)$ must be zero.
+
+First, some definitions.
+
+**Definition.** A sequence of points $(x_{n})$ in a Hilbert space $\mathcal{H}$ is said to `weakly converge` to $x_{0}$ if for all $y\in\mathcal{H}$, we have 
+$$
+\lim_{ n \to \infty } \left\langle x_{n},y \right\rangle =\left\langle x_{0},y \right\rangle .
+$$
+Here $\left\langle x,y \right\rangle$ is the inner product of two vectors $x,y$ in $\mathcal{H}$. 
+
+For example, $\sin(nx)$ on $[0,2\pi]$ weakly converges to $0$. If a sequence converges `strongly`, that is, it converges in norm, then it converges weakly, the converse is not true. 
+
+Now, $\delta(x)$ can be defined as a weak limit of a sequence of functions, it is the limit of the below sequence of functions:
+$$
+f_{n} = \begin{cases}
+n, \quad \left\lvert x \right\rvert \leq \frac{1}{2n}, \\
+0, \quad \text{otherwise}.
+\end{cases}
+$$
+It can be verified (as a homework) that the limit of the sequence of the functions satisfies all the properties.
+
+Regarding the functions $f_{n}$ as points in the space of functions $L^{1}(\mathbb{R})$, we have a peculiar example of a space where the limit of a sequence of points is not in the space. This is similar to what happens at the boundary of an open set in $\mathbb{R}$. 
+
+Since $\delta(x)$ is not itself a function, if we want to make meaningful the symbolic rules satisfied by the delta function, we need to define new mathematical objects, called distributions. we shall see that it turns out to be the `dual space` of the space of functions!
+
+**Distribution associates a number to any well-behaved functions in a continuous fashion.** Or, following Laurent Schwartz, **distributions are continuous linear forms on a vector space of sufficiently regular function**.
+
+The specific properties of distributions depends on what functional space they are defined on. For most applications it is sufficient to consider the vector space spanned by infinitely differentiable functions with bounded support, denoted by $C^{\infty}_{c}(\mathbb{R})$, c for compact probably. Recall that the `support` of a function, sometimes denoted by $\text{supp } f(x)$, is the *closure* of the set $\{ x\in \mathbb{R} \mid f(x)=0 \}$. 
+
+Why should we care? Because distribution theory provides simple yet rigorous justifications for a number of manipulations often used in physics. In may areas of application, especially when dealing with differential equations, distribution theory supplies powerful tools that greatly simplifies the analysis.
 
 
+- - -
 
+### Test functions and distributions
 
-Distributions can also be treated as the weak limit of functions. Explain what is weak limit and strong limit in a vector space. Example 1, $\sin(nx)$ on $[0,2\pi]$ weakly converges to $0$. In this sense, the inner product is degenerate, it's not a pseudo-Riemann space.
+In the theory of distributions $C_{c}^{\infty}(\mathbb{R})$ is usually denoted by $\mathcal{D}$ for simplicity. The elements of $\mathcal{D}$ are called `test functions`.
+
+First we show that $\mathcal{D}$ is not empty, by giving some direct examples. Consider
+$$
+\phi_{a}(x) = 
+\begin{cases}
+\exp-\left( \frac{a^{2}}{a^{2}-x^{2}} \right) & \quad \left\lvert x \right\rvert \leq a,  \\
+0  & \quad \text{otherwise},
+\end{cases}
+$$
+where $a$ is a positive real number. $\phi_{a}$ has 1) a bounded support $[-a,a]$, 2) is differentiable at all orders. We can shou that for another element in $\mathcal{D}$, the convolution between $f$ and $\phi$ is also in $\mathcal{D}$.
+
+Recall that a subset $A$ of a topological space is said to be `dense`, if any point of the topological space is either in $A$, or is a limiting point of $A$. For example, the set of rational numbers is a dense subset of the real numbers, which is a topological space with the usual topology. 
+
+$\mathcal{D}$
 
 ## Differentiation
 
