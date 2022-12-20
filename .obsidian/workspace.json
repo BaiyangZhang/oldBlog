@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "file": "_drafts/2022-11-24-Aspects-of-Symmetry.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "file": "_drafts/2022-11-24-Aspects-of-Symmetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md",
+                "file": "_drafts/2022-11-24-Aspects-of-Symmetry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-10-29-Basics-of-Distributions.md"
+                "file": "_drafts/2022-11-24-Aspects-of-Symmetry.md"
               }
             }
           }
@@ -163,8 +163,8 @@
   },
   "active": "cdb0e68c88b384aa",
   "lastOpenFiles": [
-    "_posts/2022-12-15-《师哲回忆录》.md",
     "_drafts/2022-10-29-Basics-of-Distributions.md",
+    "_posts/2022-12-15-《师哲回忆录》.md",
     "_drafts/2022-12-12-Holonomic and Nonholonomic Constraints.md",
     "_drafts/2022-12-13-Basic-Category-Theory.md",
     "_drafts/2022-11-12-Duality-Part-I.md",
