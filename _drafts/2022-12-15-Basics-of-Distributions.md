@@ -37,7 +37,7 @@ L^{p}(X) := \mathcal{L}^{p}(X) / \sim
 $$
 is usually the functional space we are interested in. It reflects the spirit that when talking about integrals, we don't care what happens on the $\mu$-negligible sets. However, for evaluation to be well defined everywhere, we need to take into consideration the $\mu$-negligible sets.
 
-Having that in mind, let us move to the definition of distributions.
+Having that in mind, let us move to distributions.
 
 ### What are distributions?
 
@@ -91,7 +91,7 @@ Why should we care? Because distribution theory provides simple yet rigorous jus
 
 In the theory of distributions $C_{c}^{\infty}(\mathbb{R})$ is usually denoted by $\mathcal{D}$ for simplicity. The elements of $\mathcal{D}$ are called `test functions`.
 
-First we show that $\mathcal{D}$ is not empty, by giving some direct examples. Consider
+First we show that $\mathcal{D}$ is not empty, by giving some examples. Consider
 $$
 \phi_{a}(x) = 
 \begin{cases}
@@ -99,11 +99,34 @@ $$
 0  & \quad \text{otherwise},
 \end{cases}
 $$
-where $a$ is a positive real number. $\phi_{a}$ has 1) a bounded support $[-a,a]$, 2) is differentiable at all orders. We can shou that for another element in $\mathcal{D}$, the convolution between $f$ and $\phi$ is also in $\mathcal{D}$.
+where $a$ is a positive real number. $\phi_{a}$ has 1) a bounded support $[-a,a]$, 2) is differentiable at all orders. We can show that for another element in $\mathcal{D}$, the convolution between $f$ and $\phi$ is also in $\mathcal{D}$.
 
 Recall that a subset $A$ of a topological space is said to be `dense`, if any point of the topological space is either in $A$, or is a limiting point of $A$. For example, the set of rational numbers is a dense subset of the real numbers, which is a topological space with the usual topology. 
 
-$\mathcal{D}$
+**$\mathcal{D}$ is closed under convolution.**  If $f,\phi$ are elements of $\mathcal{D}$, their convolution
+$$
+f \star g (x)= \int dy \, f(y)g(x-y) 
+$$
+is also an element of $\mathcal{D}$, since one can take derivatives under the integral sign, and the support of $f\star g$ is compact.
+
+- - -
+
+To define continuity in $\mathcal{D}$, we need the concept of convergence in $\mathcal{D}$.
+
+**Definition.** 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Differentiation
 
