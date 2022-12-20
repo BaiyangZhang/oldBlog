@@ -648,19 +648,19 @@ In 1847 Engels wrote two draft programmes for the Communist League in the form o
 
 ### The Principles of Communism
 
-1. What is Communism? 
+-1- **What is Communism?** 
 
->Communism is the doctrine of the conditions of the liberation of the proletariat.
+Communism is the doctrine of the conditions of the liberation of the proletariat.
 
-2. What is the proletariat? 
+-2- **What is the proletariat?** 
 
->The proletariat is that class in society which lives entirely from the sale of its labor and does not draw profit from any kind of capital; whose weal and woe, whose life and death, whose sole existence depends on the demand for labor – hence, on the changing state of business, on the vagaries of unbridled competition. The proletariat, or the class of proletarians, is, in a word, the working class of the 19th century.[^13]
+The proletariat is that class in society which lives entirely from the sale of its labor and does not draw profit from any kind of capital; whose weal and woe, whose life and death, whose sole existence depends on the demand for labor – hence, on the changing state of business, on the vagaries of unbridled competition. The proletariat, or the class of proletarians, is, in a word, the working class of the 19th century.[^13]
 
 [^13]: In their works written in later periods, Marx and Engels substituted the more accurate concepts of “sale of labour power”, “value of labour power” and “price of labour power” (first introduced by Marx) for “sale of labour”, “value of labour” and “price of labour”, as used here.
 
-3. Proletarians, then, have not always existed?
+-3- **Proletarians, then, have not always existed?**
 
->No. There have always been poor and working classes; and the working class have mostly been poor. But there have not always been workers and poor people living under conditions as they are today; in other words, there have not always been proletarians, any more than there has always been free unbridled competitions.
+No. There have always been poor and working classes; and the working class have mostly been poor. But there have not always been workers and poor people living under conditions as they are today; in other words, there have not always been proletarians, any more than there has always been free unbridled competitions.
 
 4.  How did the proletariat originate? 
 
