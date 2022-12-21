@@ -218,19 +218,57 @@ $$
 \phi\to \left\langle T_{f},\phi \right\rangle =\int dx \,  \phi(x)f(x).
 $$
 
+Every locally integrable function $f$ corresponds to a distribution $T_{f}$, the reverse is not true. A distribution given by a locally integrable function is said to be `regular`. Since the map from functions to numbers are defined by integrals, of course two functions agree to each other almost everywhere define the same distribution. If a distribution is not regular, then it is called `singular`. 
 
+As mentioned before, the most famous example of a singular distribution must be the so-called Dirac delta function, which strictly speaking is not a function at all. So we will call it the `Dirac distribution` $\delta$. It is defined by 
+$$
+\left\langle \delta,\phi(x) \right\rangle :=\phi(0),\quad \phi\in\mathcal{D}.
+$$
+$\delta$ is not regular since there is no locally integrable function that has the same integral property. More generally, the distribution $\delta_{a}$ is defined by 
+$$
+\left\langle \delta_{a},\phi \right\rangle :=\phi(a).
+$$
 
+- - -
 
+The set of all *regular distributions* is a subspace of $D^{\ast}$. In a sense, distributions are generalizations of locally integrable functions. However, it is important to keep in mind that distributions are not functions, they live in the dual space of (test) functions.
 
+The product of two distributions are not defined in general. In physics this sometimes leads to divergences, computing some integral where the product of two distributions (usually Dirac $\delta$ distributions) occur. However, in some particular cases, there is a self-consistent way to define the product of two distributions. For example, consider two *regular distributions* $T_{f}$ and $T_{g}$ where $f,g$ are two locally integrable functions. If their product, $f(x)g(x)$ is another locally integrable function, then we can define the product of $T_{f}$ and $T_{g}$ as 
+$$
+\left\langle T_{f}\times  T_{g},\phi(x) \right\rangle :=\int dx \, f(x)g(x)\phi(x) .
+$$
+More generally, given a regular distribution $T_{f}$, it is possible to define the product of any distribution $T$ by $T_{f}$, regardless of whether $T$ is singular or not. $T_{f}T$ is defined by 
+$$
+\left\langle T_{f}T,\phi(x) \right\rangle :=\left\langle T,f(x)\phi(x) \right\rangle .
+$$
+This definition makes sense since if $f,\phi$ are in $\mathcal{D}$, so is $f(x)\phi(x)$.
 
+To simply notations, we sometimes use the same symbol to denote a function and the regular distribution defined by it. For example, $\phi T_{f}$ could be the product of distribution $T_{\phi}$ and $T_{f}$.
 
+- - -
 
+Why are they called distributions? I guess it is because they are the mathematical objects that correctly describe physical distributions, such as the distribution of a mass, as the Dirac delta distribution can be used to describe the mass of a point particle. These physical distributions usually have certain symmetry properties, it motivates the following definition, where we have generalized the idea of distributions to arbitrary dimensions. The generalization is trivial.
 
+**Definition.**  Let $u$ be a invertible map $\mathbb{R}^{n}\to \mathbb{R}^{n}$. Let $T$ be a distribution defined on $\mathbb{R}^{n}$. The `transform` of $T$ by $u$ is the distribution $uT$ defined by 
+$$
+\left\langle uT,\phi \right\rangle :=\left\lvert J \right\rvert \left\langle T,u^{-1}\phi \right\rangle, \quad \left\lvert J \right\rvert \text{ is the Jacobian of }u, \quad J= \frac{ \partial u(x) }{ \partial x } ,
+$$
+and 
+$$
+(u^{-1}\phi(x))=\phi(u(x)).
+$$
+If $uT=T$, $T$ is said to be `invariant` under $u$.
 
+The consistency of this definition follows from the fact that if $f$ is in $\mathcal{D}$, so is $u^{-1}f$. $u$ can be a translation, a rotation, a reflection, etc. For example, if $\tau_{a}$ is a translation, we have
+$$
+\tau_{a}x = x+a,\quad \tau_{a}^{-1}\phi(x)=\phi(\tau_{a}x)=\phi(x+a)
+$$
+thus 
+$$
+\tau_{a}\delta=\delta_{a}.
+$$
 
-
-
-
+- - -
 
 ## Differentiation
 
@@ -595,7 +633,7 @@ being continuous, defines the singular distribution $\text{Pf.}f$ namely the pse
 
 Next we shall study in more detail the finite part of a divergent integral and its main properties. 
 
-Let $f$ be a function nonlocally integrable on $[a,b]$ but integrable on $[a+\epsilon,b]$, where $\epsilon$ is positively infinitesimal. 
+Let $f$ be a function nonlocally integrable on $[a,b]$ but integrable on $[a+\epsilon,b]$, where $\epsilon$ is a positive infinitesimal. 
 
 
 
@@ -604,7 +642,7 @@ Let $f$ be a function nonlocally integrable on $[a,b]$ but integrable on $[a+\ep
 
 - - -
 
-## Schwartz functions and tempered distribution. What are they and why we need them.
+## Schwartz functions and tempered distribution
 
 Mention Parseval's theorem.
 
