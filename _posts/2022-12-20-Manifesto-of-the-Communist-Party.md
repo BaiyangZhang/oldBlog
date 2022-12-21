@@ -932,3 +932,11 @@ It is to the interest of the German proletariat, the petty bourgeoisie and the s
 
 	The Committee Karl Marx, Karl Schapper, H. Bauer, F. Engels, J. Moll, W. Wolff
 
+
+
+## The Paris Commune.
+
+**Address to the International Workingmen’s Association, May 1871**
+
+- - -
+The “Paris Commune” was composed by Karl Marx as an address to the General Council of the International, and included in a book, “The Civil War in France,” with the aim of distributing to workers of all countries a clear understanding of the character and world-wide significance of the heroic struggle of the Communards and their historical experience to learn from. The book was widely circulated by 1872 it was translated into several languages and published throughout Europe and the United States.

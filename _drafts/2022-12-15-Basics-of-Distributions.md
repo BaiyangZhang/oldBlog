@@ -13,9 +13,68 @@ tags:								#标签
     - measureTheory
 ---
 
+## Preliminaries
 
-## Distributions against Test function in $l^n$ and $L^n$
+Let $X$ be a metric space, and $\left\{ x_{n} \right\}$ be a sequence of points in $X$. We say that $\left\{ x_{n} \right\}$ is a `Cauchy sequence` if for all $\epsilon$, there exists $N\in\mathbb{N}^{+}$ so that for any $i,j>N$ we have $d(x_{i},x_{j})<\epsilon$, where $d(x,y)$ is the distance between $x$ and $y$ given by the measure.
 
+Note that in the definition of Cauchy sequence, the concept of distance is needed, thus a metric must be defined a priori.
+
+We say that  $\left\{ x_{n} \right\}$ converges to $x$ if $\lim_{ n \to \infty }d(x_{n},x)=0$. As we would naturally expect.
+
+As a proposition, if $X$ is a normed space, then every convergent sequence in $X$ is a Cauchy sequence. The prove is skipped here. Hint: for two points $x_{i},x_{j}$ where$i,j>N$ for some $N$ in the sequence, consider their respective distance to their limit first.
+
+**Not every Cauchy sequence in a metric space converges.** For example, $\mathbb{Q}$ is a metric space with metric given by the difference of two numbers, we can find a sequence $3,3.1,3.14,3.141,\dots$ that limits to $\pi$ which is not an element of $\mathbb{Q}$, hence its limit does not exist, hence it does not converge to any point in $\mathbb{Q}$. It is a Cauchy sequence in $\mathbb{Q}$ nevertheless. This naturally leads us to the next definition:
+
+**Definition.** A metric space $X$ is said to be `complete` if every Cauchy sequence of $X$ converges to a point in $X$.
+
+For example, $\mathbb{Q}$ is not complete but $\mathbb{R}$ is. 
+
+Any normed space is automatically a metric space since the metric is given by 
+$$
+d(x,y) := \left\lVert x-y \right\rVert ,
+$$
+thus it makes sense to talk about Cauchy sequence and convergent sequence in a normed space. 
+
+
+**Definition.** A normed vector space is called a `Banach space` if it is complete.
+
+That is, a Banach space is a `complete normed vector space`. All the finite-dimensional normed vector spaces, such as the three dimensional spatial space, is a Banach space. **Completeness is really an issue only for infinite dimensional spaces**.
+
+An example of a infinite dimensional space is a `function space`. A function space is a vector space whose elements are functions, usually satisfying certain properties, such as continuity or smoothness. For example, the set of all functions $\mathbb{R}\to \mathbb{R}$ forms a vector space, with addition and scalar multiplication defined pointwise. However, there is no obvious choice for a norm on this space. Should it be the integral? Or the integral of the absolute value of a function? However, if we strict the functions in consideration a bit we can define a normed function space.
+
+As an example, consider all the continuous functions defined on $[-1,1]$, denoted by $C([-1,1])$. As for the norm, we can defined it to be the integral of the abs of the function:
+$$
+\left\lVert f(x) \right\rVert := \int dx \, \left\lvert f(x) \right\rvert .
+$$
+The problems is that, $C([-1,1])$ is not a complete space with respect to this norm. For example, consider the sequence of functions $f_{n}$
+$$
+f_{n} = 
+\begin{cases}
+-1 & x\in\left[ -1,-\frac{1}{n} \right]; \\
+nx  &  x\in\left[ - \frac{1}{n}, \frac{1}{n} \right]; \\
++1  &  x\in\left[ \frac{1}{n},1 \right];
+\end{cases}
+$$
+this function is continuous all right, but not smooth, and that may cause problems. You can even check that $f_{n}$ is a Cauchy sequence. However, the limit of $f_{n}$ is the step function, which stops being continuous. 
+
+The trouble is that **sequences of continuous functions can converge to discontinuous functions, thus the space of all continuous functions is not complete.**
+
+To fix this problem, we need the help from Lebesgue measure. Given a measure space $(X,\mu)$, where $\mu$ is the measure on $X$, we may assume that the space of 1-integrable functions $\mathcal{L}^{1}(X)$ is a Banach space. Well, not quite so, because the norm is not really given by $\int dx \, \left\lvert f(x) \right\rvert$, contrary to one might think. The issue is that a normed space must satisfy
+$$
+\left\lVert \mathbf{v} \right\rVert =0 \implies \mathbf{v}=0
+$$
+but in $\mathcal{L}^{1}(X)$, $\int dx \, \left\lvert f(x) \right\rvert=0$ does not necessarily imply that $f(x)=0$ everywhere, it only implies, with respect to the measure $\mu$, $f(x)$ is zero almost everywhere (shorten to a.e.). Thus, to make $\mathcal{L}^{1}(X)$ into a normed space, we must mod out the *almost everywhere* condition. That will give us a true Banach space,
+$$
+L^{1}(X):=\mathcal{L}^{1}(X) / \sim ,\quad \sim  \text{ denotes equivalent almost everywhere}
+$$
+
+In other words, if two function only differ on $\mu$-negligible sets, then they are considered as the same thing in space $\mathcal{L}^{1}(X)$.
+
+
+
+## Distributions
+
+### Functions that can not be evaluated
 
 Classically, function are defined set-theoretically, I quote from Wiki:
 
@@ -150,8 +209,17 @@ $$
 $$
 Sometimes we use the notation of inner product to denote the action of a distribution on a test function, in this notation the last expression would be 
 $$
-
+\left\langle \lambda_{1}T_{1}+\lambda_{2}T_{2},\phi \right\rangle = \lambda_{1}\left\langle  T_{1},\phi\right\rangle + \lambda_{2}\left\langle  T_{2},\phi\right\rangle. 
 $$
+We will use these two notations interchangeably.
+
+The most common way to define the map $D^{\ast}\otimes D\to \mathbb{R}$ is by evaluating the **integral**. For example, given a function $f:\mathbb{R}\to \mathbb{R}$ that is `locally integrable`,  that is integrable on any bounded subsets of $\mathbb{R}$, the linear form $T_{f}$ defined on $\mathcal{D}$ maps a test function $\phi$ to $\mathbb{R}$ in the following sense:
+$$
+\phi\to \left\langle T_{f},\phi \right\rangle =\int dx \,  \phi(x)f(x).
+$$
+
+
+
 
 
 
