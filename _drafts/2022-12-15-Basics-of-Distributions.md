@@ -633,7 +633,41 @@ being continuous, defines the singular distribution $\text{Pf.}f$ namely the pse
 
 Next we shall study in more detail the finite part of a divergent integral and its main properties. 
 
-Let $f$ be a function nonlocally integrable on $[a,b]$ but integrable on $[a+\epsilon,b]$, where $\epsilon$ is a positive infinitesimal. 
+Let $f$ be a function nonlocally integrable on $[a,b]$ but integrable on $[a+\epsilon,b]$, where $\epsilon$ is a positive infinitesimal. Assume $f$ can be written as 
+$$
+f(x) = \sum_{i=1}^{m} \frac{A_{i}}{(x-a)^{\lambda_i}} + g(x)
+$$
+where $g(x)$ is integrable on $[a,b]$, the exponents $\lambda_{i}$ are **non-integers**  such that $\text{Re}\lambda_{i}\geq 1$, for purposes that will be clear later. Then
+$$
+\int_{a+\epsilon}^{b} dx \, f(x) = I(\epsilon)+F(\epsilon), 
+$$
+where 
+$$
+I(\epsilon) = \sum_{i=1}^{m} \frac{A_{i}}{\lambda_{i}-1} \frac{1}{\epsilon^{\lambda_{i}-1}},
+$$
+that's why we require the real part of $\lambda_{i}$ to be no less then $1$. The finite part is 
+$$
+F(\epsilon) =  -\sum_{i=1}^{m} \frac{A_{i}}{\lambda_{i}-1} \frac{1}{(b-a)^{\lambda_{i}-1}} +\int_{a}^{b} dx \, g(x). 
+$$
+When $\epsilon\to_{0}$, $I(\epsilon)$ diverges while $F(\epsilon)$ has a finite limit. 
+
+**Definition.** $F(\epsilon)$ is called the `Hadamard's finite part` of the divergent integral $\int_{a}^{b} dx \, f(x)$, denoted by 
+$$
+\text{Fp. }\int_{a}^{b} dx \, f(x). 
+$$
+
+This generalized integral is useful in physics, for it satisfies the following important properties,
+
+a. The chain rule applies to the integral, meaning 
+$$
+\text{Fp. } \int_{a}^{b} dx \, f(x) = \text{Fp. } \int_{t(a)}^{t(b)} dt \,  \frac{dx}{dt}f(t).
+$$
+b. The finite part of a divergent integral is the analytical continuation of an ordinary integral.
+
+These properties are satisfies if non of the $\lambda_{i}$s are equal to $1$.
+
+
+## Convergence in $D^{\ast}$
 
 
 
