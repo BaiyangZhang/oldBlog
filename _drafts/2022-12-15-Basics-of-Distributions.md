@@ -113,9 +113,45 @@ is also an element of $\mathcal{D}$, since one can take derivatives under the in
 
 To define continuity in $\mathcal{D}$, we need the concept of convergence in $\mathcal{D}$.
 
-**Definition.** 
+**Definition.** A sequence of test functions $(\phi_{n})$ in $\mathcal{D}$ is said to converge to function $\phi$ if 
+1. all the supports of the functions of the sequence are contained in a bounded subset of $\mathbb{R}$;
+2. for each positive integer $p$, the sequence of derivatives of order $p$, $\phi_{n}^{(p)}$ converges *uniformly* to the derivative of order $p$ of $\phi$.
 
+It is readily seen the limit $\phi$ is in $\mathcal{D}$ since it is smooth and the support is bounded.
 
+We give an counter example of converge of test functions. Consider
+$$
+\phi_{n} := 
+\begin{cases}
+0, & \left\lvert x \right\rvert >n, \\
+\frac{1}{n} \exp -\left( \frac{n^{2}}{n^{2}-x^{2}} \right), & \left\lvert x \right\rvert \leq n,
+\end{cases}
+$$
+the limit of $\Phi_{n}$ seems to be zero, however that is not true since the support of $\phi_{n}$ goes to the entirety of $\mathbb{R}$ instead of a bounded subset.
+
+**Definition.** A *continuous linear form* on $\mathcal{D}(\mathbb{R})$ is called a `distribution` on $\mathbb{R}$.
+
+The construction is that, first we define the linear vector space of test functions, then we define the continuous linear forms that maps the test functions to $\mathbb{R}$ to be distributions.
+
+Distribution on $\mathbb{C}$ can be defined in a similar way. A distribution is an element of the `topological dual space` of $\mathcal{D}$. This space is denoted by $D'$ or $D^{\ast}$. We will use them interchangeably in the note.
+
+Next we shall explain what linearity means for distributions. Let $T$ be a distribution, we would like the property
+$$
+T(\lambda_{1}\phi_{1}+\lambda_{2}\phi_{2})=\lambda_{1}T(\phi_{1})+\lambda_{2}T(\phi_{2})
+$$
+where $\phi_{1,2}$ belongs to $\mathcal{D}$ and $\lambda_{1,2}$ belong to $\mathbb{R}$ (or $\mathbb{C}$). That is the requirement of continuity. It follows the 
+$$
+\lim_{ n \to \infty } T(\phi_{n}) = T(\lim_{ n \to \infty } \phi_{n}) = T(\phi),\quad \phi_{n}\text{ converges to }\phi.
+$$
+
+$\mathcal{D}^{\ast}$ is a vector space, for any test function $\phi$ in $\mathcal{D}$ we have
+$$
+(\lambda_{1}T_{1}+\lambda_{2}T_{2})(\phi)=\lambda_{1}T_{1}(\phi)+\lambda_{2}T_{2}(\phi).
+$$
+Sometimes we use the notation of inner product to denote the action of a distribution on a test function, in this notation the last expression would be 
+$$
+
+$$
 
 
 
