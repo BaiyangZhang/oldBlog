@@ -669,6 +669,66 @@ These properties are satisfies if non of the $\lambda_{i}$s are equal to $1$.
 
 ## Convergence in $D^{\ast}$
 
+A distribution $T_{\lambda}$ is said to converge to $T_{\lambda_{0}}$ in $D^{\ast}$ if for any test functions $\phi$ in $D$ we have 
+$$
+\lim_{ \lambda \to \lambda_{0} } \left\langle T_{\lambda},\phi \right\rangle =\left\langle T_{\lambda_{0}},\phi \right\rangle ,
+$$
+convergence of sequences and series are defined similarly. It follows that if $T_{\lambda}$ converges to $T_{\lambda_{0}}$ then
+
+(i) If $\psi\in C^{\infty}$, 
+$$
+\lim_{ \lambda \to \lambda_{0} } \psi T_{\lambda} = \psi T_{\lambda_{0}}.
+$$
+(ii) If the distribution $T_{\lambda},S_{\lambda}$ converges to $T_{\lambda_{0}},S_{\lambda_{0}}$ respectively, then 
+$$
+\lim_{ \lambda \to \lambda_{0} } (T_{\lambda}+S_{\lambda}) = T_{\lambda_{0}}+S_{\lambda_{0}}
+$$
+
+As an example, consider the so-called Dirac sequence, which converges to the Dirac distribution. Let $f$ be any integrable function such that 
+$$
+\int_{-\infty}^{\infty} dx \, f(x) =1, 
+$$
+the sequence of functions $f_{n}$, defined by
+$$
+f_{n} := n f(nx),\quad n\in\mathbb{Z}^{+}
+$$
+defines a sequence of distributions $T_{f_{n}}$, called the `Dirac sequence associated to` $f$.  We state without proof that $T_{f_{n}}$ converges to $\delta$. It can be understood intuitively, since a ever larger $n$ squeeze the function horizontally but preserves the integral.
+
+**Theorem.** Let $T_{\lambda}$ converges to $T_{\lambda_{0}}$ when $\lambda$ tends to $\lambda_{0}$, then the derivative $T'_{\lambda}$ converges to $T_{\lambda_{0}}'$.
+
+The proof is very simple thus skipped here. 
+
+## Convolution
+
+Convolution plays an essential rule in the theory of distribution. Many types of differential equations or integral equations are convolution equations. In the following we sometimes attach the variable as subscripts to avoid confusion, for example, if we need to specify that the variable is $x$, we shall denote $\mathcal{D}_{x}$ the usual space of test function.
+
+**Definition.** Let $D_{x},D_{y},D_{x,y}$ be the spaces of test functions on $R_{x},R_{y}$ and $R_{x}\times R_{y}$ respectively. Let $S_{x},T_{y}$ be two distributions defined on $R_{x},R_{y}$ respectively. The `tensor product` $S\otimes T$, defined on $R_{x}\times R_{y}$, is defined uniquely by 
+$$
+\left\langle S_{x}\otimes T_{y},\phi(x)\psi(y) \right\rangle :=\left\langle S,\phi(x) \right\rangle \left\langle T,\psi(y) \right\rangle,\quad \phi\in D_{x},\quad \psi\in D_{y}.
+$$
+The tensor product is commutative. It belongs to $D^{\ast}_{x,y}$.
+
+**Definition.** The convolution of two distributions $S,T$ on $\mathbb{R}_{x}$ is denoted by $S\ast T$, it is the unique (up to almost-everywhere relations) distribution that satisfies, for any $\phi(x)$ in $\mathcal{D}_{x}$
+$$
+\boxed{
+\left\langle S\ast T, \phi(x) \right\rangle := \left\langle S_{x}, \left\langle T_{y},\phi(x+y) \right\rangle  \right\rangle .
+}
+$$
+Note the variable of $\phi$ is $(x+y)$. It can be shown that convolution is commutative, $S\ast T=T\ast S$.
+
+Similar to product of two distributions, **the convolution of two distributions is in general not a distribution.** It is because the support of $\phi(x+y)$ is in general not compact anymore on $\mathbb{R}^{2}$. To make the convolution mathematically rigorous, we first need to define the `support of a distribution`.
+
+The support of a distribution is conceptually very much alike to the support of a function. The support of a regular function is a `closed set` on which the function is not null, similarly, the support of a distribution is a closed set on which the distribution is not null, in a sense to be elaborated in the following.
+
+**Definition.** Let $\phi$ be a test function and $T$ a distribution. Let the support of $\phi$ be contained in an open subset $\Omega$ of $\mathbb{R}$. If for all $\phi$ we have $\left\langle T,\phi \right\rangle=0$, then the distribution is said to be `null` in $\Omega$. Find the largest open set on which $T$ is null, its **complement** is called the `support` of $T$. It is denoted by $\text{supp }T$ sometimes.
+
+Although it is meaningless to say that "the distribution is null at $x_{0}$" since a point is $\mu$-negligible, it is meaningful to say "the distribution is null in a neighborhood of $x_{0}$" if the distribution in question is null at *any* open set containing $x_{0}$.
+
+The null of Dirac $\delta$ distribution is the complement of the origin, thus the support of $\delta$ distribution is the origin. So are the derivatives of $\delta$. 
+
+**Remark.** If the support of a distributions $T$ consists of only one point, say $x_{0}$, it does not mean that $\left\langle T ,\phi(x)\right\rangle$ only depends on $\phi(x_{0})$. For example, $\delta'$, the derivative of $\delta$ has support consists of $x_{0}=0$, however $\left\langle \delta',\phi \right\rangle = -\left\langle \delta,\phi'(x) \right\rangle = \phi'(0)$ is not determined by $\phi(0)$ alone.
+
+
 
 
 
