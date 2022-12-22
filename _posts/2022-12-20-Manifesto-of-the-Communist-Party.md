@@ -940,3 +940,6 @@ It is to the interest of the German proletariat, the petty bourgeoisie and the s
 
 - - -
 The “Paris Commune” was composed by Karl Marx as an address to the General Council of the International, and included in a book, “The Civil War in France,” with the aim of distributing to workers of all countries a clear understanding of the character and world-wide significance of the heroic struggle of the Communards and their historical experience to learn from. The book was widely circulated by 1872 it was translated into several languages and published throughout Europe and the United States.
+
+The first address was delivered on July 23rd, 1870, five days after the beginning of the Franco-Prussian War. The second address, delivered on September 9, 1870, gave a historical overview of the events a week after the army of Bonaparte was defeated. The third address, delivered on May 30, 1871, two days after the defeat of the Paris Commune – detailed the significance and the underlining causes of the first workers government ever created.
+
