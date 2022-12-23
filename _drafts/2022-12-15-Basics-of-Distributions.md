@@ -734,6 +734,7 @@ The null of Dirac $\delta$ distribution is the complement of the origin, thus th
 
 
 
+
 - - -
 
 ## Schwartz functions and tempered distribution
