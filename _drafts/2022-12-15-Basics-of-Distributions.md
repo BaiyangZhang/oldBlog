@@ -780,20 +780,71 @@ then differentiate it twice we have
 $$
 \nabla^{2}V =  \rho \ast \frac{1}{4\pi\epsilon_{0} }\nabla^{2} \frac{1}{r} = -\frac{\rho}{\epsilon_{0}}.
 $$
+Another useful example appears in solving the differential equation. Let 
+$$
+Du=f
+$$
+be a differential equation with constant coefficients. The distribution $g$ satisfying 
+$$
+Dg = \delta
+$$
+is called the `fundamental solution.` It is not unique since if there exists $h$ such that $D h = 0$, then $g+h$ is another fundamental solution. 
 
-
-
-
-
-
-
-
+Once the fundamental solution is known, the solution can be immediately written down (at least formally) using convolution, i.e. $u=f\ast g$ is a solution of $Du=g.$
 
 - - -
 
-## Schwartz functions and tempered distribution
+The convolution can be used to approximate certain functions by more differentiable ones. This technique can be used to show that certain sets of differential functions in $L^{p}$ were dense, it is known as the `regularization`, not to be confused with the regularization in quantum field theory. More generally, given a distribution $T$, it is possible to find an infinite sequence of $C^{\infty}$ functions whose limit in $D^{\ast}$ is $T$. This result is a consequence of the following theorem.
 
-Mention Parseval's theorem.
+**Theorem.** Let $T$ be a distribution and $\phi$ a test function. The convolution $T\ast\phi$ is an $C^{\infty}$ function defined by 
+$$
+\boxed{
+(T\ast \phi)(x) = \left\langle T(y),\phi(x-y) \right\rangle .
+}
+$$
+The differentiation of $T\ast\phi$ can be shown to be
+$$
+\frac{d^{m}}{dx^{m}} (T\ast \phi) = T \ast   \left( \frac{d^{m}}{dx^{m}} \phi \right).
+$$
+
+We state without proof the theorem,
+
+**Theorem.** The space $\mathcal{D}$ regarded as a subset of $\mathcal{D}^{\ast}$ is `dense` in $\mathcal{D}^{\ast}$.
+
+
+## Fourier Series
+
+A distribution $T$ is said to be `periodic` if there exists a real number $a$, called the period of $T$, such that the translation of $T$ is the same as $T$, $\tau_{a} T = T$.
+
+This definition means that, for any test function $\phi$, we have 
+$$
+\left\langle T,\phi(x+a) \right\rangle  = \left\langle \tau_{-a}T,\phi(x) \right\rangle =\left\langle T,\phi(x) \right\rangle
+$$
+Let $D(\mathbb{S}^{1}_{a})$ be the space of functions defined on a circle with length $a$. To a function $f\in D(\mathbb{S}^{1})$ we may associated a regular periodic distribution $T_{f}$, with periodic $a$. Note that $f$ has a bounded support, for $\mathbb{S}^{1}$ is bounded.
+
+In this section we shall only consider the periodic distributions in $D^{\ast}(\mathbb{S}^{1})$.
+
+**Definition.** Let $T$ be a distribution in $D^{\ast}(\mathbb{S}^{1})$ , the number
+$$
+c_{k}(T):=\frac{1}{a} \left\langle T_{s}, \exp- \frac{2\pi iks}{a}  \right\rangle ,\quad k\in \mathbb{Z}
+$$
+where $a$ is the period of $T$, is called the `Fourier coefficient` of $T$, and the series
+$$
+\sum_{k\in \mathbb{Z}}c_{k}(T) \exp \frac{2\pi iks}{a}
+$$
+is called the `Fourier series` of $T$.
+
+For example, the Fourier coefficient of $\delta$ is simply $1 / a$. 
+
+After everything we have said about convolution of distributions, a natural question to ask is, what is the Fourier coefficients of the convolution of two distribution. A straight computation shows that i**t is equal to $a$ times the product of the corresponding Fourier coefficients of the two distributions.**
+
+## Fourier Transform of Tempered Distribution
+
+Recall that the` Fourier transform` of a function is 
+$$
+\widetilde{f}(k) = \int_{-\infty}^{\infty} dx \,  f(x)e^{ -ikx }
+$$
+
 
 Some functions are integrable, $\int dx |f(x)|<\infty$, but their Fourier transform are not, $\int dk \tilde{f}(k) \to \infty$. Give an example.
 
