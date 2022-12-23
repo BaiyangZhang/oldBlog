@@ -726,7 +726,61 @@ Although it is meaningless to say that "the distribution is null at $x_{0}$" sin
 
 The null of Dirac $\delta$ distribution is the complement of the origin, thus the support of $\delta$ distribution is the origin. So are the derivatives of $\delta$. 
 
-**Remark.** If the support of a distributions $T$ consists of only one point, say $x_{0}$, it does not mean that $\left\langle T ,\phi(x)\right\rangle$ only depends on $\phi(x_{0})$. For example, $\delta'$, the derivative of $\delta$ has support consists of $x_{0}=0$, however $\left\langle \delta',\phi \right\rangle = -\left\langle \delta,\phi'(x) \right\rangle = \phi'(0)$ is not determined by $\phi(0)$ alone.
+**Remark.** If the support of a distributions $T$ consists of only one point, say $x_{0}$, it does not mean that $\left\langle T ,\phi(x)\right\rangle$ only depends on $\phi(x_{0})$. For example, $\delta'$, the derivative of $\delta$ has support consists of $x_{0}=0$, however $\left\langle \delta',\phi \right\rangle = -\left\langle \delta,\phi'(x) \right\rangle = \phi'(0)$ is not determined by $\phi(0)$ alone. More generally, $\left\langle T,\phi \right\rangle$ does not depends on the values of $\phi$ taken on the support of $T$, but rather **on the neighborhood of the support of** $T$.
+
+We can see that if the support of $T$ is compact, the linear form $\left\langle T,\phi \right\rangle$ is defined even when the support of $\phi$ is not bounded. Thus $\left\langle T,\phi \right\rangle$ is defined when $\text{supp }T \cap \text{supp } \phi$ is bounded.
+
+Now we are ready to answer the question: when is the convolution of two distributions defined?
+
+**Theorem.** Let $T$ be a distribution with bounded support, then for any other distribution $S\ast T$ is defined. Or, if the supports of both $S$ and $T$ are bounded from below (or both from above), then $S\ast T$ is defined.
+
+In the first case, since the support of $T$ is bounded, the map
+$$
+x \mapsto \left\langle T_{y},\phi(x+y) \right\rangle 
+$$
+also has a bounded support in $x$, thus belongs to $\mathcal{D}$, which can be acted on by another distribution $S$.
+
+In the second case, the intersection of the support of $x \mapsto \left\langle T_{y},\phi(x+y) \right\rangle$ and $T$ is bounded. 
+
+Next we give some examples. It is easy to verify that 
+$$
+\delta \ast  T = T
+$$
+and 
+$$
+\delta' \ast  T = T'.
+$$
+
+The first shows that $\delta$ is the identity of the algebra of convolution of distributions. The second shows that, when looked at from right to left, derivative of a distribution can be regarded as a convolution. More generally, we have 
+$$
+T^{(p)} = \delta^{(p)} \ast  T.
+$$
+
+For distributions with unbounded support, the convolution, when it exists, may not be associative. For example, the support of $\theta$ is not bounded from above, and we have 
+$$
+(\theta \ast  \delta')\ast 1 = 1 \neq \theta\ast (\delta'\ast 1)=0.
+$$
+
+**For distributions whose support are all bounded from below or above, their convolution is always associative.**
+
+We state without proof that, the exists, the derivative of convolution satisfies
+$$
+\boxed{
+(S\ast T)' =S'\ast T = S\ast T'.
+}
+$$
+
+That is, to differential a convolution we just need to differentiate one of the distributions. To prove it, it is helpful to use the Dirac $\delta$ distributions perspective of derivatives. Interested readers can use it as an exercise.
+
+As an example, consider the electric potential due to a charge density $\rho$,
+$$
+V = \rho \ast \frac{1}{4\pi\epsilon_{0} r}
+$$
+then differentiate it twice we have 
+$$
+\nabla^{2}V =  \rho \ast \frac{1}{4\pi\epsilon_{0} }\nabla^{2} \frac{1}{r} = -\frac{\rho}{\epsilon_{0}}.
+$$
+
 
 
 
