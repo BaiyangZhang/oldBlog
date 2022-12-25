@@ -908,4 +908,10 @@ where $\left\langle - , - \right\rangle_{p}$ denotes the inner product in moment
 $$
 \left\langle f(x),g(x) \right\rangle _{x} = \left\langle \widetilde{f}(p),\widetilde{g}(p) \right\rangle _{p}.
 $$
+In our note we will not use this convention, for it introduces unnecessary complication.
 
+- - -
+
+Now, we have leant that distributions are not functions, test functions live in the space $\mathcal{D}$ while distributions live in the dual space $\mathcal{D}^{\ast}$. How should be define the Fourier transform of distributions, if we can at all? A natural idea is to define how a Fourier transformed distribution would act on a test function. Follow this path we define the Fourier transform of a distribution as follows.
+
+**Definition.**  
