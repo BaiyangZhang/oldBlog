@@ -845,10 +845,67 @@ $$
 \widetilde{f}(k) = \int_{-\infty}^{\infty} dx \,  f(x)e^{ -ikx }
 $$
 
+and the inverse is 
+$$
+f(x) = \int_{-\infty}^{\infty} \frac{dk}{2\pi} \, \widetilde{f}(k) e^{ ikx }.
+$$
+The convention we used is widely adopted in physics, but sometimes it makes certain formulae less symmetric. 
 
-Some functions are integrable, $\int dx |f(x)|<\infty$, but their Fourier transform are not, $\int dk \tilde{f}(k) \to \infty$. Give an example.
+Sometimes we use $\mathcal{F} [f(x)]$ or $\mathcal{F}[f]$ for short to denote the Fourier transform of $f(x)$, $\mathcal{F}$ can be regarded as the operator of Fourier transform. $\mathcal{F}[f(x)]$ itself is a function of $k$, thus we sometimes write it as $F[f](k)$. Similarly the inverse Fourier is sometimes written as $f(x) = \mathcal{F}^{-1}[\widetilde{f}(k)]$. 
 
-Introduce the space of Schwartz functions and tempered distributions.
+Note that with our convention, $\mathcal{F}^{2}\neq 1$, in contrast to some conventions used by, e.g. Boccara's textbook.
 
-Finally, as an example, we can understand better the equality $\frac{1}{1+i\epsilon} = \text{p.v.} \frac{1}{x}  - i\pi \delta(x)$.
+- - -
+
+The Fourier transform has a number of elementary properties. It is a `linear` transform, namely 
+$$
+\mathcal{F}[c_{1}f_{1}+c_{2}f_{2}]=c_{1}\mathcal{F}[f_{1}]+c_{2}\mathcal{F}[f_{2}].
+$$
+
+The translation in $x$ corresponds to a phase factor to the Fourier transform, 
+$$
+\mathcal{F}[f(x+a)](k) = e^{ -iak }\mathcal{F}[f](k).
+$$
+The converse is also true, a phase factor in $f$ corresponds to a translation in $k$,
+$$
+\mathcal{F}[e^{ ilx }f](k)=\mathcal{F}[f](k-l).
+$$
+
+The scaling property is 
+$$
+\mathcal{F}[f(cx)] = \frac{1}{\left\lvert c \right\rvert } \mathcal{F}[f(x)].
+$$
+
+The Fourier transform of convolution is particularly useful,
+$$
+\mathcal{F}[f \ast g] = \mathcal{F}[f]\mathcal{F}[g].
+$$
+
+
+The most useful property of Fourier transform is probably that it *turns derivative to multiplication*,
+$$
+\mathcal{F}[f'(x)] = ik\mathcal{F}[f(x)].
+$$
+Note that for this relation to work, $f(x)$ must decay at $\left\lvert x \right\rvert\to \infty$, otherwise there will be surface terms.
+
+- - -
+
+A further important property of Fourier transform is that it preserves the $L^{2}$ inner product between two functions, up to a multiplicative factor. Let $f,g$ be two complex-valued functions, we have
+$$
+\begin{align}
+\left\langle f,g \right\rangle  & = \int dx \, f^{\ast }(x) g(x) \\ \\
+&= \int dx \, f^{\ast }(x) \int \frac{dk}{2\pi} \, e^{ ikx }\widetilde{g}(k) \\
+&= \frac{1}{2\pi}\int dk \, \widetilde{g}(k)\left[ \int dx \, e^{ -ikx } f(x)  \right]^{\ast } \\
+&=\frac{1}{2\pi}\int dk \, \widetilde{f}^{\ast }(k)\widetilde{g}(k) \\
+&=\frac{1}{2\pi}\left\langle \widetilde{f},\widetilde{g} \right\rangle 
+\end{align}.
+$$
+Or, if we regard variable $k$ as momentum, and define the inner product of two function in momentum representation as
+$$
+\left\langle f,g \right\rangle_{p} := \int \frac{dp}{2\pi} \, f(p)g(p) 
+$$
+where $\left\langle - , - \right\rangle_{p}$ denotes the inner product in momentum space, then we could write
+$$
+\left\langle f(x),g(x) \right\rangle _{x} = \left\langle \widetilde{f}(p),\widetilde{g}(p) \right\rangle _{p}.
+$$
 
