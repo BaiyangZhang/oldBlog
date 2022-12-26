@@ -15,11 +15,11 @@ tags:								#标签
 
 ## Preliminaries
 
-Let $X$ be a metric space, and $\left\{ x _ {n} \right\}$ be a sequence of points in $X$. We say that $\left\{ x_ {n} \right\}$ is a `Cauchy sequence` if for all $\epsilon$, there exists $N\in\mathbb{N}^{+}$ so that for any $i,j>N$ we have $d(x_{i},x_{j})<\epsilon$, where $d(x,y)$ is the distance between $x$ and $y$ given by the measure.
+Let $X$ be a metric space, and $(x _ {n})$ be a sequence of points in $X$. We say that $(x_ {n})$ is a `Cauchy sequence` if for all $\epsilon$, there exists $N\in\mathbb{N}^{+}$ so that for any $i,j>N$ we have $d(x_{i},x_{j})<\epsilon$, where $d(x,y)$ is the distance between $x$ and $y$ given by the measure.
 
 Note that in the definition of Cauchy sequence, the concept of distance is needed, thus a metric must be defined a priori.
 
-We say that  $\left\{ x_ {n} \right\}$ converges to $x$ if $\lim_{ n \to \infty }d(x_{n},x)=0$. As we would naturally expect.
+We say that  $(x_ {n})$ converges to $x$ if $\lim_{ n \to \infty }d(x_{n},x)=0$. As we would naturally expect.
 
 As a proposition, if $X$ is a normed space, then every convergent sequence in $X$ is a Cauchy sequence. The prove is skipped here. Hint: for two points $x_{i},x_{j}$ where$i,j>N$ for some $N$ in the sequence, consider their respective distance to their limit first.
 
@@ -1028,4 +1028,10 @@ $$
 $$
 
 ## Laplace Transform
+
+Given a function $f$ whose support is in $\mathbb{R}^{+}$, the Laplace transform of $f$ is given by 
+$$
+\mathcal{L}[f] := \int_{0}^{\infty} dx \, f(x)e^{ -zx }, 
+$$
+This definition can be extended to distributions belong to $\mathcal{D}^{\ast}_{+}$ with support in $\mathbb{R}^{+}$.
 
