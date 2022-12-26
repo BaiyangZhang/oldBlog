@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:      Basics of Distributions 				# 标题 
 subtitle:    #副标题
-date:       2022-12-15 				# 时间
+date:       2022-12-26 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/functionalAnalysis.png 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -910,8 +910,72 @@ $$
 $$
 In our note we will not use this convention, for it introduces unnecessary complication.
 
+*Everything we have said above can be directly generalized to higher dimensions.* 
+
 - - -
 
-Now, we have leant that distributions are not functions, test functions live in the space $\mathcal{D}$ while distributions live in the dual space $\mathcal{D}^{\ast}$. How should be define the Fourier transform of distributions, if we can at all? A natural idea is to define how a Fourier transformed distribution would act on a test function. Follow this path we define the Fourier transform of a distribution as follows.
+Now, we have leant that distributions are not functions, test functions live in the space $\mathcal{D}$ while distributions live in the dual space $\mathcal{D}^{\ast}$. How should be define the Fourier transform of distributions, if we can at all? A natural idea is to define how a Fourier transformed distribution would act on a test function.
 
-**Definition.**  
+As a start, consider two functions, direct computation shows that
+$$
+\left\langle \mathcal{F}\phi,\mathcal{F}\psi \right\rangle =2\pi \left\langle \phi,\psi \right\rangle \implies \left\langle F\phi,\chi \right\rangle = 2\pi \left\langle \phi,\mathcal{F}^{-1}\chi \right\rangle 
+$$
+where $\chi=\mathcal{F}\psi$. 
+
+Follow this path we define the Fourier transform of a distribution as follows.
+
+**Definition.**  The `Fourier transform of a distribution` $T$, denoted by $\widetilde{T}$, is defined by 
+$$
+\boxed{
+\left\langle \widetilde{T}_{p},\phi(p) \right\rangle := \left\langle T_{x},2\pi \mathcal{F}^{-1}\phi \right\rangle .
+}
+$$
+Note that the variable of $T$ is $x$, the same as the function $\mathcal{F}^{-1}\phi$, while the variable of $\widetilde{T}$ and $\phi$ is $p$.
+
+The problem is that, the definition is meaningless for arbitrary distribution $T$, since sometimes $\mathcal{F}^{-1} \phi$ might not belong to $\mathcal{D}$. In other words, the Fourier transform of an arbitrary distribution in $\mathcal{D}^{\ast}$ may not in $\mathcal{D}^{\ast}$. Thus, we need to restrict the distributions in the context of Fourier distributions. 
+
+L. Schwartz defined a special class of test functions, denoted by $\mathcal{S}$. If a function is in $\mathcal{S}$, we want its (inverse-) Fourier transform also to be in $\mathcal{S}$. It is less obvious but, since Fourier exchanges multiplication and differentiation, thus in order for the derivative and multiplication of distributions to be well defined, $\mathcal{S}$ needs to be invariant under i) differentiation and ii) multiplication by polynomials. Thus we define the space $\mathcal{S}$ to be the set of all $C^{\infty}$ functions such that
+$$
+\text{sup }\left\lvert x^{m}\phi^{(n)}(x) \right\rvert <\infty,\quad m,n\in\mathbb{Z}^{+}
+$$
+where $\phi^{(n)}$ is the n-th derivative of $\phi(x)$. The functions in $\mathcal{S}$ do not necessarily have bounded supports, but are required to go to zero as $\left\lvert x \right\rvert\to \infty$, faster than $x^{-n}$ for any integer $n$. The same goes for any order of derivatives of $\phi$. In terminologies, $\mathcal{S}$ is the space of `rapidly decreasing` test functions.
+
+A simple example of a function in $\mathcal{S}$ is $p(x)e^{ -x^{2} }$, where $p(x)$ is a polynomial function in $x$. 
+
+If $\phi_{n}$ is a sequence of functions in $\mathcal{D}$, if it converges to a function $\phi$ in $\mathcal{S}$, pointwise convergence is not enough, the derivative and multiplications also need to converge to $\phi$, namely 
+$$
+\lim_{ n \to \infty } \text{sup }\left\lvert x^{m}(\phi_{n}^{(p)}(x)-\phi^{(p)}(x)) \right\rvert=0
+$$
+for any positive integer $m$ and $p$. 
+
+Note that $\mathcal{D}$ is contained in $\mathcal{S}$, for any functions with compact support certainly satisfies the condition of rapidly decreasing, or the Schwartz condition.
+
+The continuous linear forms on $\mathcal{S}$ are important enough to deserve its own name, they are called `tempered distributions`, denoted by $\mathcal{S}^{\ast}$. It is contained in $\mathcal{D}^{\ast}$. There are fewer tempered distributions than distributions. 
+
+Forget about test functions, it turns out that tempered distributions can be applied to a much wider class of functions. Thanks to the rapid decreasing of function in $\mathcal{S}$, distributions in $\mathcal{S}^{\ast}$ can be applied to any (real) functions such that there exists a positive integer $m$ and a positive real number $A$, such that 
+$$
+\left\lvert f(x) \right\rvert \leq A \left\lvert x \right\rvert ^{m}, \quad 
+$$
+such functions are said to be of `slow growth at infinity`. 
+
+**The Fourier transform of a tempered distribution is another tempered distribution.** This fact allows us to define the Fourier transform of any tempered distribution.
+
+As an example, consider the Fourier transform of Dirac $\delta$ distribution. It's easy to verify that $\delta$ satisfies the Schwartz condition thus is a tempered distribution. Then we know its Fourier transform exists. In a not mathematically rigorous way, regarding $\delta$ as a (uniform) limit of regular functions, then direct computation show that
+$$
+\mathcal{F}[\delta] = \int_{-\infty}^{\infty} dx \, \delta(x) e^{ -ikx }=1. 
+$$
+This can serve as a reference. 
+
+Follow the strict definition of the Fourier transform of distribution, we have 
+$$
+\left\langle \mathcal{F}\delta,\phi \right\rangle =2\pi \left\langle \delta,\mathcal{F}^{-1}\phi \right\rangle ,
+$$
+using the definition of $\delta$ and inverse Fourier transform we have 
+$$
+2\pi \left\langle \delta,\mathcal{F}^{-1}\phi \right\rangle = 2\pi \left\langle \delta, \frac{1}{2\pi}\int_{-\infty}^{\infty} dk \, \phi(k)e^{ ikx }  \right\rangle 
+$$
+
+
+
+
+
