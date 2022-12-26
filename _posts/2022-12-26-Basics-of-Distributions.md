@@ -972,7 +972,13 @@ $$
 $$
 using the definition of $\delta$ and inverse Fourier transform we have 
 $$
-2\pi \left\langle \delta,\mathcal{F}^{-1}\phi \right\rangle = 2\pi \left\langle \delta_{k}, \frac{1}{2\pi}\int_{-\infty}^{\infty} dk \, \phi(k)e^{ ikx }  \right\rangle 
+2\pi \left\langle \delta,\mathcal{F}^{-1}\phi \right\rangle = 2\pi \left\langle \delta_{x}, \frac{1}{2\pi}\int_{-\infty}^{\infty} dk \, \phi(k)e^{ ikx }   \right\rangle = \int_{-\infty}^{\infty} dk \,   \phi(k) = \left\langle 1,\phi \right\rangle ,
+$$
+we see that the Fourier transform of $\delta$ is just $1$, in agreement with the previous result. 
+
+We state without proof that **the inverse Fourier transform of a tempered distribution is also a tempered distribution**. As an example, look again at the Dirac $\delta$ distribution. We know from previous result that the inverse Fourier transform of $1$ is $\delta$ distribution, but the integral form of inverse Fourier transform is not so clear, since 
+$$
+
 $$
 
 
