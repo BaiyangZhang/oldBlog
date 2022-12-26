@@ -708,10 +708,10 @@ $$
 $$
 The tensor product is commutative. It belongs to $D^{\ast}_{x,y}$.
 
-**Definition.** The convolution of two distributions $S,T$ on $\mathbb{R}_{x}$ is denoted by $S\ast T$, it is the unique (up to almost-everywhere relations) distribution that satisfies, for any $\phi(x)$ in $\mathcal{D}_{x}$
+**Definition.** The convolution of two distributions $S,T$ on $\mathbb{R}_ {x}$ is denoted by $S\ast T$, it is the unique (up to almost-everywhere relations) distribution that satisfies, for any $\phi(x)$ in $\mathcal{D}_{x}$
 $$
 \boxed{
-\left\langle S\ast T, \phi(x) \right\rangle := \left\langle S_{x}, \left\langle T_{y},\phi(x+y) \right\rangle  \right\rangle .
+\left\langle S\ast T, \phi(x) \right\rangle := \left\langle S_ {x}, \left\langle T_ {y},\phi(x+y) \right\rangle  \right\rangle .
 }
 $$
 Note the variable of $\phi$ is $(x+y)$. It can be shown that convolution is commutative, $S\ast T=T\ast S$.
@@ -820,7 +820,7 @@ This definition means that, for any test function $\phi$, we have
 $$
 \left\langle T,\phi(x+a) \right\rangle  = \left\langle \tau_{-a}T,\phi(x) \right\rangle =\left\langle T,\phi(x) \right\rangle
 $$
-Let $D(\mathbb{S}^{1}_{a})$ be the space of functions defined on a circle with length $a$. To a function $f\in D(\mathbb{S}^{1})$ we may associated a regular periodic distribution $T_{f}$, with periodic $a$. Note that $f$ has a bounded support, for $\mathbb{S}^{1}$ is bounded.
+Let $D(\mathbb{S}^{1}_ {a})$ be the space of functions defined on a circle with length $a$. To a function $f\in D(\mathbb{S}^{1})$ we may associated a regular periodic distribution $T_{f}$, with periodic $a$. Note that $f$ has a bounded support, for $\mathbb{S}^{1}$ is bounded.
 
 In this section we shall only consider the periodic distributions in $D^{\ast}(\mathbb{S}^{1})$.
 
@@ -851,7 +851,7 @@ f(x) = \int_{-\infty}^{\infty} \frac{dk}{2\pi} \, \widetilde{f}(k) e^{ ikx }.
 $$
 The convention we used is widely adopted in physics, but sometimes it makes certain formulae less symmetric. 
 
-Sometimes we use $\mathcal{F} [f(x)]$ or $\mathcal{F}[f]$ for short to denote the Fourier transform of $f(x)$, $\mathcal{F}$ can be regarded as the operator of Fourier transform. $\mathcal{F}[f(x)]$ itself is a function of $k$, thus we sometimes write it as $F[f](k)$. Similarly the inverse Fourier is sometimes written as $f(x) = \mathcal{F}^{-1}[\widetilde{f}(k)]$. 
+Sometimes we use $\mathcal{F} [f(x)]$ or $\mathcal{F}[f]$ for short to denote the Fourier transform of $f(x)$, $\mathcal{F}$ can be regarded as the operator of Fourier transform. $\mathcal{F}[f(x)]$ itself is a function of $k$, thus we sometimes write it as $\mathcal{F}[f](k)$. Similarly, the inverse Fourier is sometimes written as $f(x) = \mathcal{F}^{-1}[\widetilde{f}(k)]$. 
 
 Note that with our convention, $\mathcal{F}^{2}\neq 1$, in contrast to some conventions used by, e.g. Boccara's textbook.
 
