@@ -976,12 +976,56 @@ $$
 $$
 we see that the Fourier transform of $\delta$ is just $1$, in agreement with the previous result. 
 
-We state without proof that **the inverse Fourier transform of a tempered distribution is also a tempered distribution**. As an example, look again at the Dirac $\delta$ distribution. We know from previous result that the inverse Fourier transform of $1$ is $\delta$ distribution, but the integral form of inverse Fourier transform is not so clear, since 
+We state without proof that **the inverse Fourier transform of a tempered distribution is also a tempered distribution**. As an example, look again at the Dirac $\delta$ distribution. We know from previous result that the inverse Fourier transform of $1$ is $\delta$ distribution, but the integral form of inverse Fourier transform is not so clear, since the integral $\int_{-\infty}^{\infty} dk \,  e^{ ikx }$ a little hard to make sense of. What we should do it to treat $1$ as a distribution $T_{1}$, for simplicity we will consider the Fourier transform, instead of inverse Fourier transform, of $1$, since they only differ by a minus sign and factor of $2\pi$,
+$$
+\left\langle \mathcal{F} T_{1},\phi \right\rangle = 2\pi \left\langle T_{1},\mathcal{F}^{-1}\phi \right\rangle = 2\pi \left\langle 1_{x},\mathcal{F}^{-1}\phi \right\rangle  =2\pi \int_{-\infty}^{\infty} dx \, (\mathcal{F}^{-1}\phi)(x)  
+$$
+where in the last term we can slip in a factor $1=e^{ -ikx }\vert_{k=0}$ and regard it as a Fourier transform, obtaining
+$$
+\left\langle \mathcal{F} T_{1},\phi \right\rangle = 2\pi \phi(k=0) = 2\pi\left\langle\delta_{k},\phi  \right\rangle ,
+$$
+thus, in the world of tempered distributions, we have 
+$$
+\mathcal{F}(T_{1}) = 2\pi \delta.
 $$
 
+As another example, consider the Heaviside step function
+$$
+\theta(x) = 
+\begin{cases}
+1  & x\geq 0, \\
+0  & x<0.
+\end{cases}
 $$
 
+Writing the step function as 
+$$
+\theta(x) = \lim_{ \epsilon \to 0 } \theta(x)e^{ -\epsilon x },
+$$
+the Fourier transform of it is 
+$$
+\int_{-\infty}^{\infty} dx \,  e^{ -ikx }\theta(x)e^{ -\epsilon x }dx = \int_{0}^{\infty} dx \, e^{ -(\epsilon+ik)x } = \frac{1}{\epsilon+ik}
+$$
+where a positive $\epsilon$ makes the integral finite, that is the reason for the introduction of it. Hence, in the last expression, we can't just set $\epsilon\to {0}$. Instead, we must treat $\mathcal{F}\theta_{x}$ as a distribution and study how it acts on a test function $\phi(x)$. 
 
+Regarding $\epsilon$ as a small but finite quantity for now, introduce another infinitesimal $\delta>0$, we have 
+$$
+\begin{align}
+\left\langle \mathcal{F}\theta(x),\phi \right\rangle  &= \int_{-\infty}^{\infty} dk \, \frac{1}{\epsilon+ik}\phi(k) =  \int_{\left\lvert k \right\rvert >\delta} dk \, \frac{1}{ik}\phi(k)+\int_{-\epsilon}^{\epsilon} dk \, \frac{1}{\epsilon+ik}\phi(k) \\
+&= \int_{\left\lvert k \right\rvert >\delta} dk \, \frac{1}{ik}\phi(k)+\int_{-\delta}^{\delta} dk \, \frac{1}{\epsilon+ik}(\phi(k)-\phi(0)+\phi(0)) \\
+&= \int_{\left\lvert k \right\rvert >\delta} dk \, \frac{1}{ik}\phi(k)+\int_{-\delta}^{\delta} dk \, \frac{1}{\epsilon+ik}(\phi(k)-\phi(0))+ \int_{-\delta}^{\delta} dk \, \frac{1}{\epsilon+ik}\phi(0)
+\end{align}
+$$
+where we have used Hadamard's method to separate the finite part. The second term in the last line is finite and scales as $\mathcal{O}(\epsilon)$, thus can be neglected as $\epsilon\to {0}$, the last term in the last line is trickier,
+$$
+\int_{-\delta}^{\delta} dk \, \frac{1}{\epsilon+ik}\phi(0) = -i\phi(0)\ln(\epsilon+ik)\vert_{-\delta}^{\delta} = \pi \phi(0),
+$$
+where we took the limit on $\epsilon$ first, then on $\delta$. 
 
+Combining the pieces altogether we have 
+$$
+\mathcal{F}\theta = \left.\frac{1}{ik}\right\rvert_{k>0} + \pi \delta.
+$$
 
+## Laplace Transform
 
