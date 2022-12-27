@@ -938,7 +938,7 @@ L. Schwartz defined a special class of test functions, denoted by $\mathcal{S}$.
 $$
 \text{sup }\left\lvert x^{m}\phi^{(n)}(x) \right\rvert <\infty,\quad m,n\in\mathbb{Z}^{+}
 $$
-where $\phi^{(n)}$ is the n-th derivative of $\phi(x)$. The functions in $\mathcal{S}$ do not necessarily have bounded supports, but are required to go to zero as $\left\lvert x \right\rvert\to \infty$, faster than $x^{-n}$ for any integer $n$. The same goes for any order of derivatives of $\phi$. In terminologies, $\mathcal{S}$ is the space of `rapidly decreasing` test functions.
+where $\phi^{(n)}$ is the n-th derivative of $\phi(x)$. The functions in $\mathcal{S}$ do not necessarily have bounded supports, but are required to go to zero as $\left\lvert x \right\rvert\to \infty$, faster than $\left\lvert x \right\rvert^{-n}$ for any integer $n$. The same goes for any order of derivatives of $\phi$. In terminologies, $\mathcal{S}$ is the space of `rapidly decreasing` test functions.
 
 A simple example of a function in $\mathcal{S}$ is $p(x)e^{ -x^{2} }$, where $p(x)$ is a polynomial function in $x$. 
 
@@ -948,15 +948,15 @@ $$
 $$
 for any positive integer $m$ and $p$. 
 
-Note that $\mathcal{D}$ is contained in $\mathcal{S}$, for any functions with compact support certainly satisfies the condition of rapidly decreasing, or the Schwartz condition.
+Note that $\mathcal{D}$ is contained in $\mathcal{S}$, for any functions with compact support certainly satisfies the condition of rapidly decreasing, also knowns as the Schwartz condition.
 
 The continuous linear forms on $\mathcal{S}$ are important enough to deserve its own name, they are called `tempered distributions`, denoted by $\mathcal{S}^{\ast}$. It is contained in $\mathcal{D}^{\ast}$. There are fewer tempered distributions than distributions. 
 
-Forget about test functions, it turns out that tempered distributions can be applied to a much wider class of functions. Thanks to the rapid decreasing of function in $\mathcal{S}$, distributions in $\mathcal{S}^{\ast}$ can be applied to any (real) functions such that there exists a positive integer $m$ and a positive real number $A$, such that 
+Thanks to the rapid decreasing of function in $\mathcal{S}$, distributions given by elements in $\mathcal{S}$ can be applied to any (real) functions such that there exists a positive integer $m$ and a positive real number $A$, such that 
 $$
 \left\lvert f(x) \right\rvert \leq A \left\lvert x \right\rvert ^{m}, \quad 
 $$
-such functions are said to be of `slow growth at infinity`. 
+such functions are said to be of `slow growth at infinity`. **To such a function we can associate a tempered distribution.**
 
 **The Fourier transform of a tempered distribution is another tempered distribution.** This fact allows us to define the Fourier transform of any tempered distribution.
 
@@ -1035,3 +1035,26 @@ $$
 $$
 This definition can be extended to distributions belong to $\mathcal{D}^{\ast}_{+}$ with support in $\mathbb{R}^{+}$.
 
+The way we define the Laplace transform is quite different from the way we defined the Fourier transform. When defining the Fourier transform, we started by defining how the Fourier transformed distribution act on the test function. For Laplace transform, the definition is given in a more direct manner,
+
+**Definition.** Let $T$ be a distribution in $\mathcal{D}^{\ast}_{+}$, the Laplace transform of $T$ is the function
+$$
+\boxed{
+\mathcal{L}[T]: z \mapsto \left\langle T_{x}, e^{ -zx } \right\rangle 
+}
+$$
+
+As in the case of Fourier transform, the distribution has to satisfy certain conditions for its Laplace transform to exist. 
+
+Since $e^{ -zx }$ is not a test function, nor does it rapidly decreases at the boundary, $\left\langle T,e^{ -zx } \right\rangle$ in general doesn't make sense. But if we can bound the support from below, then $\left\langle T,e^{ -zx } \right\rangle$ would be finite. Let $\sigma(x)$ be a $C^{\infty}$ function whose support is bounded from below, and $\sigma(x)=1$ for $x>0$, then $\sigma(x)e^{ -zx }$ belongs to $\mathcal{S}$. More generally, let $\xi_{0}$ be a real number, as long as $\text{Re.}z >\xi_{0}$,  the function $x\mapsto \sigma(x)e^{ -(z-\xi_{0})x }$ belongs to $\mathcal{S}$, and the Laplace transform of $T$ makes sense if $\left\langle T,e^{ -zx } \right\rangle$ is finite, which is 
+$$
+\left\langle T,e^{ -zx } \right\rangle =\left\langle e^{ -\xi_{0}x }T,e^{ -(z-\xi_{0})x } \right\rangle <\infty,
+$$
+namely $e^{ -\xi_{0}x }T$ is tempered. 
+
+**Theorem.** Let $T_{x}$ be a distribution in $\mathcal{D}^{\ast}_{+}$, if there exists a real number such that $e^{ -\xi_{0}x }T_{x}$ is tempered, then the Laplace distribution of $T$ is an analytical function in the half plane $\{ z \mid \text{Re.}z>\xi_{0} \}$.
+
+As the last example, let's find the Laplace transform of $n$-th derivative of Dirac $\delta$ distribution $\delta^{(n)}$. We have 
+$$
+\mathcal{L}[\delta^{(n)}] = \left\langle \delta^{(n)},e^{ -zx } \right\rangle =(-1)^{n}\left\langle \delta,(-z)^{n}e^{ -zx } \right\rangle =z^{n}.
+$$
