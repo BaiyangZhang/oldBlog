@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-12-27-Hobbes.md",
+                "file": "_posts/2022-12-27-Hobbes.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.504695892334,
-    "collapsed": true
+    "width": 264.504695892334
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-12-27-Hobbes.md",
+                "file": "_posts/2022-12-27-Hobbes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-12-27-Hobbes.md",
+                "file": "_posts/2022-12-27-Hobbes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-12-27-Hobbes.md"
+                "file": "_posts/2022-12-27-Hobbes.md"
               }
             }
           }
@@ -174,11 +173,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cd1223bf6a4e9f46",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
     "_drafts/2022-12-12-Holonomic and Nonholonomic Constraints.md",
     "_posts/2022-12-26-Basics-of-Distributions.md",
-    "_drafts/2022-12-27-Hobbes.md",
+    "_posts/2022-12-27-Hobbes.md",
     "_drafts/2022-11-22-Montesquieu.md",
     "_drafts/2022-10-12-《罗马人的故事》笔记.md",
     "_posts/2022-12-20-Manifesto-of-the-Communist-Party.md",
