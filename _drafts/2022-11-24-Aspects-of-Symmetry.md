@@ -39,3 +39,13 @@ G_{0} = SU(2)\otimes SU(2)\otimes SU(2)
 $$
 
 ## Soft Pions
+
+### LSZ reduction formula
+
+The LSZ reduction formula connects the time-order correlation function, such as $\left\langle T \left\{ \phi_{1}\phi_{2}\phi_{3}\phi_{4} \right\} \right\rangle$, to the S (Scatter?) matrix. It is at the heart of the scattering theory. It is not so important when dealing with the non-scattering properties of the field theory, such as non-perturbative properties. 
+
+In scattering process, the initial and final particles, together known as the external legs in Feynman diagrams, are eigenstates of the full, interacting Hamiltonian. The formula giving us the scattering amplitudes must reflect that fact. 
+
+S-matrix elements, extrapolated off the mass shell, with every external line multiplied by a propagator, are simply the Fourier transform of the vacuum expectation value of the time-ordered correlation functions.
+
+
