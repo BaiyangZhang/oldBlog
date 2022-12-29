@@ -139,7 +139,7 @@ Since $\delta(x)$ is not itself a function, if we want to make meaningful the sy
 
 **Distribution associates a number to any well-behaved functions in a continuous fashion.** Or, following Laurent Schwartz, **distributions are continuous linear forms on a vector space of sufficiently regular function**.
 
-The specific properties of distributions depends on what functional space they are defined on. For most applications it is sufficient to consider the vector space spanned by infinitely differentiable functions with bounded support, denoted by $C^{\infty}_{c}(\mathbb{R})$, c for compact probably. Recall that the `support` of a function, sometimes denoted by $\text{supp } f(x)$, is the *closure* of the set $\{ x\in \mathbb{R} \mid f(x)=0 \}$. 
+The specific properties of distributions depends on what functional space they are defined on. For most applications it is sufficient to consider the vector space spanned by infinitely differentiable functions with bounded support, denoted by $C^{\infty}_{c}(\mathbb{R})$, c for compact probably. Recall that the `support` of a function, sometimes denoted by $\text{supp } f(x)$, is the *closure* of the set $\{ x\in \mathbb{R} \mid f(x)\neq 0 \}$. 
 
 Why should we care? Because distribution theory provides simple yet rigorous justifications for a number of manipulations often used in physics. In may areas of application, especially when dealing with differential equations, distribution theory supplies powerful tools that greatly simplifies the analysis.
 
@@ -198,9 +198,11 @@ Next we shall explain what linearity means for distributions. Let $T$ be a distr
 $$
 T(\lambda_{1}\phi_{1}+\lambda_{2}\phi_{2})=\lambda_{1}T(\phi_{1})+\lambda_{2}T(\phi_{2})
 $$
-where $\phi_{1,2}$ belongs to $\mathcal{D}$ and $\lambda_{1,2}$ belong to $\mathbb{R}$ (or $\mathbb{C}$). That is the requirement of continuity. It follows the 
+where $\phi_{1,2}$ belongs to $\mathcal{D}$ and $\lambda_{1,2}$ belong to $\mathbb{R}$ (or $\mathbb{C}$). 
+
+The requirement of continuity for a regular function $f(x)$ means that if $x_{1},x_{2}$ are arbitrarily close, so should $f(x_{1})$ and $f(x_{2})$. Regarding the distribution $T$ as a functional that maps functions to real or complex numbers, we also demand it to be continuous, which means that if two functions $f,g$ are arbitrarily close, so should be $T[f]$ and $T[g]$. It follows that
 $$
-\lim_{ n \to \infty } T(\phi_{n}) = T(\lim_{ n \to \infty } \phi_{n}) = T(\phi),\quad \phi_{n}\text{ converges to }\phi.
+\lim_{ n \to \infty } T(\phi_{n}) = T(\lim_{ n \to \infty } \phi_{n}) = T(\phi),\quad \phi_{n}\text{ converges to }\phi \text{ almost everywhere}.
 $$
 
 $\mathcal{D}^{\ast}$ is a vector space, for any test function $\phi$ in $\mathcal{D}$ we have
@@ -386,10 +388,10 @@ Apply this to $\ln(x+i\epsilon)$, from now on $\epsilon$ will be assumed to be i
 $$
 \ln(x+i\epsilon) = 
 \begin{cases}
-\ln(x)+i\pi & x<0 \\
-\ln(-x)+0  & x\geq0
+\ln(-x)+i\pi & x<0 \\
+\ln(x)+0  & x\geq0
 \end{cases}
-= \ln(\left\lvert {x} \right\rvert ) + i\pi \theta(-x), \quad x\in \mathbb{R}.
+= \ln\left\lvert {x} \right\rvert + i\pi \theta(-x), \quad x\in \mathbb{R}.
 $$
 What about $d \ln(x+i\epsilon) / dx$? Compare to $d\ln(\left\lvert {x} \right\rvert) / dx$, there is a new term, 
 $$
@@ -398,7 +400,7 @@ $$
 This suggests that, the derivative of $\ln(x+i\epsilon)$ defines a singular distribution which is 
 $$
 \boxed{
-\frac{d}{dx}\ln(x+i\epsilon) = \ln \left\lvert {x} \right\rvert -i\pi \delta(x) 
+\frac{d}{dx}\ln(x+i\epsilon) = \text{Pv. } \frac{1}{x} -i\pi \delta(x) 
 }.
 $$
 If you want, you can follow the procedure as before and arrive at the same conclusion. 
@@ -406,15 +408,13 @@ If you want, you can follow the procedure as before and arrive at the same concl
 Changing $i$ in $-i$, we have 
 $$
 \boxed{
-\frac{d}{dx}\ln(x-i\epsilon) = \ln \left\lvert {x} \right\rvert +i\pi \delta(x) 
+\frac{d}{dx}\ln(x-i\epsilon) = \text{Pv. } \frac{1}{x} +i\pi \delta(x) 
 }.
 $$
 
 - - -
 
-**Example.** 
-
-We know that $\frac{1}{x}$ is not locally integrable, however $\theta(x) x^{\alpha}, -1<\alpha<0$ is. It defines a regular distribution denoted by $x^\alpha_{+}$. The derivative of $x_{+}^\alpha$ is $x_{+}^{\alpha-1}$, which in general diverges when integrated against a test function. Nevertheless it defines a singular distribution, as we shall see. To determine this derivative we shall proceed as in the previous example, write
+**Example.** We know that $\frac{1}{x}$ is not locally integrable, however $\theta(x) x^{\alpha}, -1<\alpha<0$ is. It defines a regular distribution denoted by $x^\alpha_{+}$. The derivative of $x_{+}^\alpha$ is $x_{+}^{\alpha-1}$, which in general diverges when integrated against a test function. Nevertheless it defines a singular distribution, as we shall see. To determine this derivative we shall proceed as in the previous example, write
 $$
 \begin{align}
 \left\langle \frac{d}{dx} (x_{+}^\alpha), \phi \right\rangle &:= \int_{-\infty}^{\infty} dx \, \left( \frac{d}{dx}   x_{+}^\alpha \right) \phi(x) \\
