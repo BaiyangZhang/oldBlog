@@ -13,35 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "_posts/2022-12-27-Thomas-Hobbes.md",
+                "file": "_drafts/2022-12-13-Introduction-to-Transseries.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a45a52d41c7cb517",
+            "id": "cb32b1802af8d3ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd1223bf6a4e9f46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-12-27-Thomas-Hobbes.md",
-=======
-                "file": "_drafts/2022-11-24-Aspects-of-Symmetry.md",
->>>>>>> Stashed changes
+                "file": "_drafts/2022-12-30-Gauge-String-Duality.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,11 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md",
-=======
-                "file": "_drafts/2022-11-24-Aspects-of-Symmetry.md",
->>>>>>> Stashed changes
+                "file": "_drafts/2022-12-30-Gauge-String-Duality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,11 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
-                "file": "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md",
-=======
-                "file": "_drafts/2022-11-24-Aspects-of-Symmetry.md",
->>>>>>> Stashed changes
+                "file": "_drafts/2022-12-30-Gauge-String-Duality.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,11 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< Updated upstream
-                "file": "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md"
-=======
-                "file": "_drafts/2022-11-24-Aspects-of-Symmetry.md"
->>>>>>> Stashed changes
+                "file": "_drafts/2022-12-30-Gauge-String-Duality.md"
               }
             }
           }
@@ -200,32 +173,17 @@
     "width": 300,
     "collapsed": true
   },
-<<<<<<< Updated upstream
-  "active": "a45a52d41c7cb517",
+  "active": "cb32b1802af8d3ff",
   "lastOpenFiles": [
-    "_posts/2022-12-27-Thomas-Hobbes.md",
-    "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md",
-    "_posts/2022-12-26-Basics-of-Distributions.md",
-    "_drafts/2022-11-22-Montesquieu.md",
-    "_drafts/2022-12-12-Holonomic and Nonholonomic Constraints.md",
-    "_drafts/2022-10-12-《罗马人的故事》笔记.md",
-    "_posts/2022-12-20-Manifesto-of-the-Communist-Party.md",
-    "Untitled.md",
-    "_posts/2022-12-15-《师哲回忆录》.md",
-    "_drafts/2022-12-13-Basic-Category-Theory.md"
-=======
-  "active": "cdb0e68c88b384aa",
-  "lastOpenFiles": [
+    "_drafts/2022-12-13-Introduction-to-Transseries.md",
+    "_drafts/2022-11-24-Aspects-of-Symmetry.md",
     "_drafts/2022-12-12-Holonomic and Nonholonomic Constraints.md",
     "_drafts/2022-12-13-Basic-Category-Theory.md",
-    "_drafts/2022-11-24-Aspects-of-Symmetry.md",
     "_drafts/2022-10-29-Basics-of-Distributions.md",
     "_posts/2022-12-15-《师哲回忆录》.md",
     "_drafts/2022-11-12-Duality-Part-I.md",
     "_drafts/2022-11-22-Confinement-in-Toy-Models-II.md",
     "_drafts/2022-11-22-Montesquieu.md",
-    "_drafts/2022-11-17-Basic-Cumutative-Algebra-5.md",
-    "_posts/2022-12-10-The-Poncare-Lemma-and-Potentials.md"
->>>>>>> Stashed changes
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-5.md"
   ]
 }
