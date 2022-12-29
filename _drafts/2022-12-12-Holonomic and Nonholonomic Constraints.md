@@ -91,7 +91,36 @@ Before we go further it is convenient to introduce the definitions of $k$-distri
 
 **Definition.** A **$k$-dimensional distribution** $\Delta_{k}$ on $M^{n}$ assigns in a smooth fashion to each $x \in M^{n}$ a $k$-dimensional subspace $\Delta_{k}$ of the tangent space to $M^{n}$. An **$r$-dimensional integral manifold** of $\Delta_{k}$ is a $r$-dimensional submanifold of $M$ such that it is tangent to $\Delta_{k}$ everywhere. The $k$-distribution $\Delta_{k}$ is said to be **(completely) integrable** if locally there are coordinates $x^{1},\dots,x^k,y^{1},\dots,y^{n-k}$ for $M$ such that the **coordinate slices** $y^{1}=\text{const},\dots,y^{n-k}=\text{const}$ are $k$-dimensional integral manifolds of $\Delta_{k}$. Such a coordinate system $\left\{ x,y \right\}$ will be called a **Frobenius chart** for M.
 
-In this note our fundamental question is, when is $\Delta_{k}$ integrable?
+Roughly speaking, a $k$-dimensional distribution $\Delta_{k}$ is a smooth field of $k$-dimensional subspace of the tangent space.
+
+**The fundamental question is, when is $\Delta_{k}$ integrable?**
 
 - - -
+
+Suppose we are given a distribution $\Delta_{k}$, and a pair of vector fields $X$ and $Y$ such that at every point in an open set $X,Y\in\Delta_{k}$. Suppose $\Delta_{k}$ is integrable, then both $X$ and $Y$ are tangent to the integral manifold, since $\Delta_{k}$ itself is tangent to the integral manifold. Then, some theorem tells us that the Lie bracket $[X,Y]$ is also in the distribution. We can denote this symbolically by 
+$$
+boxed{
+[\Delta,\Delta]\subset \Delta.
+}\tag{1}
+$$
+
+**We will see that this condition is also sufficient for showing integrability.**
+
+- - -
+
+Let $\theta \in\Omega^{1}(x)$ be a non-zero $1$-form at $x$, $\theta$ defines a special vector basis $X$ by $\left\langle \theta,X \right\rangle=1$. All the other vector basis such that $\left\langle \theta,V \right\rangle=0$ expand a $n-1$ dimensional subspace of $n$-dimensional manifold $M$, called the `annihilator` or `null space` of $\theta$ at $x$. In other words, the null space of $\theta$ at $x$ is expanded by the vectors $V$ such that $\left\langle \theta,V \right\rangle=0$. Classically one writes $\theta=0$ for this null space. When discussing distributions it is common to call a 1-form $\theta$ a `Pfaffian`, $\theta=0$ is called the `Pfaffian equation`.
+
+Let $\theta_{1},\dots,\theta_{r}$ be $r$ linear independent $1$-forms at each point of an open subset of $M$, being linear independent means that $\theta_{1}\wedge\dots \wedge\theta_{r}\neq {0}$. The second you see the words "open subset" you should realized that we are talking about local properties and might not hold globally. Anyway, with given $\theta_{1},\dots,\theta_{r}$, each of them has an associated null space, the intersection of all the null spaces form a $k=n-r$ dimensional vector space, which is also a distribution since it is smooth, which follows from the smoothness of the $1$-forms. Call this distribution $\Delta_{k}$ as before, we have
+$$
+X\in \Delta_{k} \quad\text{ iff }\quad \theta_{1}(X) = \theta_{2}(X) = \dots=0.
+$$
+
+We may again write this distribution as $\theta_{1}=\dots=\theta_{r}=0$. Note that **we do not claim that every distribution can be globally defined by $r$ Pfaffians.**
+
+**Definition.** If the distribution $\Delta$ is closed under Lie brackets, $[\Delta,\Delta]\subset\Delta$, then $\Delta$ is said to be in `involution`.
+
+**If a distribution is integrable, then it is in involution.**
+
+Interesting enough, since the year 2020, *involution* has taken Chinese media by storm, especially among younger people. Translated as "内卷", it implies the growing feeling that the struggle to succeed is futile in conditions of economic precarity and structural unfairness. But it is another topic for another time.
+
 
