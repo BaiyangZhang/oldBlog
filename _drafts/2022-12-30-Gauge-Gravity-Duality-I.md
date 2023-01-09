@@ -12,7 +12,13 @@ tags:								#标签
     - Notes
 ---
 
+This note is mostly meant for myself, thus the content is not organized in a pedagogical fashion. Furthermore, the note originates from the book *Gauge/Gravity Duality* by Martin Ammon and Johanna Erdmenger, interested readers should refer to the original work.
+
 ### Preliminary
+
+The energy-momentum tensor we got from Noether's flow derivation $T^{\mu \nu}$ may not be symmetric in $\mu$ and $\nu$. We can achieve the symmetry by adding to the original $T^{\mu \nu}$ a total derivative. The symmetrized energy-momentum tensor is the **Belinfante** or **canonical** energy-momentum tensor.
+
+
 
 
 
