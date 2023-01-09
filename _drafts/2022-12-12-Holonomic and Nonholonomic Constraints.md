@@ -110,7 +110,9 @@ $$
 
 Let $\theta \in\Omega^{1}(x)$ be a non-zero $1$-form at $x$, $\theta$ defines a special vector basis $X$ by $\left\langle \theta,X \right\rangle=1$. All the other vector basis $V$s such that $\left\langle \theta,V \right\rangle=0$ expand a $n-1$ dimensional subspace of $n$-dimensional manifold $M$, called the `annihilator` or `null space` of $\theta$ at $x$. 
 
-**Definition.** The `null space` of $\theta$ at $x$ is expanded by the vectors $V$ such that $\left\langle \theta,V \right\rangle=0$. Classically one writes $\theta=0$ for this null space. When discussing distributions it is common to call a 1-form $\theta$ a `Pfaffian`, $\theta=0$ is called the `Pfaffian equation`.
+**Definition.** The `null space` of $\theta$ at $x$ is expanded by the vectors $V$ such that $\left\langle \theta,V \right\rangle=0$. 
+
+Classically one writes $\theta=0$ for this null space. When discussing distributions it is common to call a 1-form $\theta$ a `Pfaffian`, $\theta=0$ is called the `Pfaffian equation`.
 
 Let $\theta_{1},\dots,\theta_{r}$ be $r$ linear independent $1$-forms at each point of an open subset of $M$, being linear independent means that $\theta_{1}\wedge\dots \wedge\theta_{r}\neq {0}$. The second you see the words "open subset" you should realized that we are talking about local properties and might not hold globally. Anyway, with given $\theta_{1},\dots,\theta_{r}$, each of them has an associated null space, the intersection of all the null spaces form a $k=n-r$ dimensional vector space, which is also a distribution since it is smooth, which follows from the smoothness of the $1$-forms. Call this distribution $\Delta_{k}$ as before, we have
 $$
