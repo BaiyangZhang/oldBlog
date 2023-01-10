@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Holonomic and Nonholonomic Constraints			# 标题 
 subtitle:   
-date:       2022-1-10 				# 时间
+date:       2023-1-10 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/mathArt5.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
