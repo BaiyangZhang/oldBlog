@@ -167,7 +167,9 @@ F_{\ast }:TW_{x}\to TM_{F(x)}
 $$
 is a one-to-one map, namely $\text{ker }F_{\ast}=0$ at each point of $W$.
 
-In other words, a map of manifolds is an immersion if it is i) smooth and ii) preserves the rank of the tangent vector space everywhere. For example, if $F_{\ast}$ maps two different vectors to the same vector, then it can not be an immersion.
+Note that immersion is different from embedding. Recall that, $W$ is said to be an `embedded submanifold` of $M$ if $W$ can be locally described by the common locus of some differentiable functions. 
+
+In other words, a map of manifolds is an immersion if it is i) smooth and ii) preserves the rank of the tangent vector space everywhere. For example, if $F_{\ast}$ maps two different vectors to the same vector, then it can not be an immersion. There are examples where some manifold $W$ is an immersion but not embedding, for example, on a torus, consider the distribution defined by $d\phi-kd\theta=0$, where $k$ is an irrational number. For details see page 172 of Frankel.
 
 Finally, we state without proof below the Frobenius theorem.
 
@@ -181,11 +183,63 @@ The theorem also tells you how to construct the tangent manifold, which we will 
 
 ## Integrability and Constraints
 
-If a distribution $\Delta_{k}$ of manifold $M$ is *integrable*, then the collection of all the integral manifolds form a `foliation`(叶状结构) of manifold $M$, 
+If a distribution $\Delta_{k}$ of manifold $M$ is *integrable*, then the collection of all the integral manifolds form a `foliation`(叶状结构) of manifold $M$, each *connected* integral manifold is called a `leaf` of the foliation. A leaf that is not properly contained in any other leaf is called a `maximal leaf`. 
 
+Note that the maximal leaf is not necessarily a submanifold of $M$. It is because the leaf, which is a special kind of integral manifold, might have peculiar global structures, for example the maximal leaf mind wind the entire manifold over and over again, circle back close to where it started, things like that, making it impossible for a solution of some differential equation, which is necessary for it to be a submanifold.
+
+Chevalley has proved the following.
+
+**Theorem.** A maximal leaf of a manifold $M$ is a $1:1$ immersed submanifold; that is to say, there is a $1:1$ immersion map $F:V\to M$ where $V$ is the global realization of the maximal leaf.
+
+- - -
+
+Recall that the Frobenius theorem tells us when and how is a distribution totally integrable. Historically, it arose in the study of  PDEs. Am important example is the so-called `system of Meyer-Lie`. In such systems one tries to find functions $y^{\beta}=y^{\beta}(x)$, $\beta=1,\dots,r$ such that
 $$
-\{ abd,def \}
+\frac{ \partial y^{\beta} }{ \partial x^{i} } =b_{i}^{\beta}(x,y),\quad i=1,\dots,k
 $$
+with initial conditions 
+$$
+y^{\beta}(x_{0}) = y_{0}^{\beta}.
+$$
+Note that $b_{i}^{\beta}$ is a matrix of functions of both $x$ and $y$. 
+
+By equating mixed partial derivatives,
+$$
+\frac{ \partial^{2} y^{\beta} }{ \partial x^ix^{j} } = \frac{ \partial^{2} y^{\beta} }{ \partial x^jx^{i} } 
+$$
+we can find the `integrability condition`. It is obvious that it is the necessary condition, but non-trivial to show that it is also the sufficient condition. For details see page 173 of Frankel.
+
+- - -
+
+Consider a dynamical system, such as the movement of a ball in gravity, but with constrains, for example the ball in $\mathbb{R}^{3}$ could be restricted to move on some 2-dimensional surface. The configuration space is a manifold which we denote by $M$. If the constraint reduce the dimension by $1$, then it can in general be written as a polynomial equation, for example if a ball in $\mathbb{R}^{3}$ is restricted to a unit sphere, then the constraint is given by $F(x,y,z)=x^{2}+y^{2}+z^{2}=1$. This constraint can also be written in terms of differential forms, 
+$$
+dF=0 \implies xdx+ydy+zdy=0.
+$$
+Here the tradition perspective is to regard $dx,dy,dz$ as infinitesimals, not basis of 1-forms, then the equation says that the infinitesimal displacement in $x,y$ and $z$ direction must satisfy certain relation. Or, equivalently, we could regard $dx,dy,dz$ as basis of 1-forms, and regard $dF$ as a 1-form expanded in these basis. Given an infinitesimal displacement $\Delta r$, the constraint is such that $\left\langle dF, \Delta r\right\rangle=0$. Note that $dF$ is **exact** in our example, but it need not be in general.
+
+More generally, we may impose constraints given by $r$ **exact** 1-forms, 
+$$
+dF_{1}=0,\quad dF_{2}=0,\dots,\quad dF_{r}=0
+$$
+Suppose they are linear independent,
+$$
+dF_{1}\wedge \dots \wedge dF_{r}\neq_{0}.
+$$
+These constraints reduce the dimension of the configuration space by $r$. 
+
+Still more generally, we can consider $r$ linear-independent constraints given by Pfaffians that *need not be exact*, 
+$$
+\theta_{1}=0,\dots,\theta_{r}=0.
+\tag{1}
+$$
+
+**Definition.** The constraints Eq.(1) are said to be `holonomic` or `integrable`, if the distribution defined by these Pfaffians are **integrable**. Otherwise they are `nonholonomic` or `nonintegrable`.
+
+
+
+
+
+
 
 
 
