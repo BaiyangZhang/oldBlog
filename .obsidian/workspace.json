@@ -118,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.504695892334
+    "width": 264.504695892334,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -185,7 +186,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "957cfa2362e38596",
+  "active": "bd2f4dab101772ee",
   "lastOpenFiles": [
     "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
     "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md",

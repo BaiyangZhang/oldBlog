@@ -183,5 +183,11 @@ The theorem also tells you how to construct the tangent manifold, which we will 
 
 If a distribution $\Delta_{k}$ of manifold $M$ is *integrable*, then the collection of all the integral manifolds form a `foliation`(叶状结构) of manifold $M$, 
 
+$$
+\{ abd,def \}
+$$
+
+
+
 
 
