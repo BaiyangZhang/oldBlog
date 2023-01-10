@@ -21,7 +21,7 @@ What about instead of vector field, one is given a family of 2-planes $\Delta$ i
 
 Suppose we can. Let $C:t\mapsto x(t)$ be a parametrized curve that is transverse to the family of supposed integral planes everywhere, as shown in the figure below. As can be seen, at each $t$ the curve $C$ is perpendicular to the integral plane. Then, at least locally, we can always define a function $f(\mathbf{x})$ such that its level surfaces are the integral surfaces, that is, the level surface given by $f=t$ consists of the supposed integral surface that is pierced by $C(t)$ at time $t$.
 
-
+![integralSurface](/img/fig61.png)
 
 Then the normal vector of the integral domain must be parallel to $\nabla f(\mathbf{x})$. Write $\mathbf{n}=\lambda(x)\nabla f$ for some function $\lambda$. In Cartesian coordinates, there is a simple connection between vector and covector, we can write the **normal covector** $\nu$ from the normal vector, 
 $$
@@ -86,11 +86,11 @@ where $P_{1,2,3}$ are smooth function, thus $\nu$ can be seen as a smooth 1-form
 $$
 \left\langle \nu, \frac{ \partial \mathbf{x} }{ \partial \mathbf{u} } d\mathbf{u} \right\rangle =\nu_{i} \frac{ \partial x^{i} }{ \partial u^{j} }  u^{j}=0 \text{ for all }u^{j},
 $$
-we can pullback $\nu$ to the $\left\{ u^{I} \right\}$ coordinate system and claim that $s^{\ast}\nu=0$. We have seen that $\nu \wedge d\nu$ is a necessary condition for $s^{\ast}\nu=0$ to have a 1-parameter family of solutions. We will show that it is also a sufficient condition. 
+we can pullback $\nu$ to the $\{ u^{I} \}$ coordinate system and claim that $s^{\ast}\nu=0$. We have seen that $\nu \wedge d\nu$ is a necessary condition for $s^{\ast}\nu=0$ to have a 1-parameter family of solutions. We will show that it is also a sufficient condition. 
 
 Before we go further it is convenient to introduce the definitions of $k$-distribution and $k$-integral manifold,
 
-**Definition.** A **$k$-dimensional distribution** $\Delta_{k}$ on $M^{n}$ assigns in a smooth fashion to each $x \in M^{n}$ a $k$-dimensional subspace $\Delta_{k}$ of the tangent space to $M^{n}$. An **$r$-dimensional integral manifold** of $\Delta_{k}$ is a $r$-dimensional submanifold of $M$ such that it is tangent to $\Delta_{k}$ everywhere. The $k$-distribution $\Delta_{k}$ is said to be **(completely) integrable** if locally there are coordinates $x^{1},\dots,x^k,y^{1},\dots,y^{n-k}$ for $M$ such that the **coordinate slices** $y^{1}=\text{const},\dots,y^{n-k}=\text{const}$ are $k$-dimensional integral manifolds of $\Delta_{k}$. Such a coordinate system $\left\{ x,y \right\}$ will be called a **Frobenius chart** for M.
+**Definition.** A **$k$-dimensional distribution** $\Delta_{k}$ on $M^{n}$ assigns in a smooth fashion to each $x \in M^{n}$ a $k$-dimensional subspace $\Delta_{k}$ of the tangent space to $M^{n}$. An **$r$-dimensional integral manifold** of $\Delta_{k}$ is a $r$-dimensional submanifold of $M$ such that it is tangent to $\Delta_{k}$ everywhere. The $k$-distribution $\Delta_{k}$ is said to be **(completely) integrable** if locally there are coordinates $x^{1},\dots,x^k,y^{1},\dots,y^{n-k}$ for $M$ such that the **coordinate slices** $y^{1}=\text{const},\dots,y^{n-k}=\text{const}$ are $k$-dimensional integral manifolds of $\Delta_{k}$. Such a coordinate system $\{ x,y \}$ will be called a **Frobenius chart** for M.
 
 Roughly speaking, a $k$-dimensional distribution $\Delta_{k}$ is a smooth field of $k$-dimensional subspace of the tangent space.
 
@@ -147,11 +147,11 @@ The proof of the equivalence is left as a homework. They all follow more or less
 
 - - -
 
-In summary, we have shown that in a $n$-dimensional manifold, a $k$-dimensional distribution $\Delta_{k}$ can *locally* be given in two ways, either by exhibiting $k$ linear independent vector fields $V_{I},I=\left\{ 1,\dots,k \right\}$, or by exhibiting $n-r$ linear-independent $1$-forms $\theta_{\alpha}$, sometimes called the Pfaffians, and $\Delta_{k}$ is the unions of the `annihilators` (`null space`) of all the $\theta_{\alpha}$s. The system is in `involution` if 
+In summary, we have shown that in a $n$-dimensional manifold, a $k$-dimensional distribution $\Delta_{k}$ can *locally* be given in two ways, either by exhibiting $k$ linear independent vector fields $V_{I},I=\{ 1,\dots,k \}$, or by exhibiting $n-r$ linear-independent $1$-forms $\theta_{\alpha}$, sometimes called the Pfaffians, and $\Delta_{k}$ is the unions of the `annihilators` (`null space`) of all the $\theta_{\alpha}$s. The system is in `involution` if 
 $$
-[\Delta,\Delta]\subset \Delta
+[\Delta,\Delta]\subset \Delta,
 $$
-and **if the system is integrable, it is in involution**. 
+plus, **if the system is integrable, it is in involution**. 
 
 To say $[\Delta,\Delta]\subset \Delta$ is equivalent to say that $d\theta=\sum\lambda_{\alpha \beta}\theta_{\beta}$ for some 1-form $\lambda_{\alpha \beta}$ (note here the subscripts $\alpha,\beta$ are not coordinate indices, but part of the name, $\lambda_{\alpha \beta}$ is not a 2-form but an 1-form), which is equivalent to say that $d\theta_{\alpha}$ is zero mod $\theta_{\alpha}$, written as 
 $$
