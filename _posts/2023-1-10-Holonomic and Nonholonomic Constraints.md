@@ -215,7 +215,7 @@ Consider a dynamical system, such as the movement of a ball in gravity, but with
 $$
 dF=0 \implies xdx+ydy+zdy=0.
 $$
-Here the tradition perspective is to regard $dx,dy,dz$ as infinitesimals, not basis of 1-forms, then the equation says that the infinitesimal displacement in $x,y$ and $z$ direction must satisfy certain relation. Or, equivalently, we could regard $dx,dy,dz$ as basis of 1-forms, and regard $dF$ as a 1-form expanded in these basis. Given an infinitesimal displacement $\Delta r$, the constraint is such that $\left\langle dF, \Delta r\right\rangle=0$. Note that $dF$ is **exact** in our example, but it need not be in general.
+Here the tradition perspective is to regard $dx,dy,dz$ as infinitesimals, not basis of 1-forms, then the equation says that the infinitesimal displacement in $x,y$ and $z$ direction must satisfy certain relation. Or, equivalently, we could regard $dx,dy,dz$ as basis of 1-forms, and regard $dF$ as a 1-form expanded in these basis. Given an infinitesimal displacement $\Delta r$, the constraint is such that $\left\langle dF, \Delta r\right\rangle=0$. The idea is that, the constraints tells us what displacements are allowed and what are not, if at some point moving in a certain direction is not allowed, this direction has a unit directional vector, then we can cook up some 1-form that is *parallel* to this direction, which when acting on other orthogonal directions will yield zero. This whole philosophy  reminds us of Pfaffians and how they were used to defined distributions, by finding its null spaces! Note that $dF$ is **exact** in our example, but it need not be in general.
 
 More generally, we may impose constraints given by $r$ **exact** 1-forms, 
 $$
@@ -235,13 +235,13 @@ $$
 
 **Definition.** The constraints Eq.(1) are said to be `holonomic` or `integrable`, if the distribution defined by these Pfaffians are **integrable**. Otherwise they are `nonholonomic` or `nonintegrable`.
 
+If the constraints are holonomic, according to Frobenius theorem we can find two sets of coordinates, one parametrizes the configuration space, the other does not. Nonholonomic constraints are mor puzzling. 
 
+Given a set of constraints $\theta_{1},\dots,\theta_{r}$, how can we tell if they are holonomic or not? The answer is that, we can treat them as Pfaffians, and ask if the distribution given by the Pfaffians is integrable. We already know how to check the latter: we should see if $d\theta_{\alpha},\alpha=1,\dots,r$ is linear independent of all the $\theta$s! That is, see if
+$$
+\boxed{
+d\theta_{\alpha}\wedge \theta_{1}\wedge \dots \wedge \theta_{r}=0.
+}
+$$
 
-
-
-
-
-
-
-
-
+In the next post, we will see some applications of these stuff in thermodynamics.
