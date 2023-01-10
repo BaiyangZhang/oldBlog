@@ -2,17 +2,18 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Holonomic and Nonholonomic Constraints			# 标题 
 subtitle:   
-date:       2022-12-12 				# 时间
+date:       2022-1-10 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/mathArt3.jpg 	#这篇文章标题背景图片
+header-img: img/mathArt5.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
-    - Duality
-    - QFT
+    - Geometry
+    - physics
+    - Holonomy
     - Notes
 ---
 
-### The Frobenius nonholonomic constraints
+## The Frobenius nonholonomic constraints
 
 Given a **smooth nonvanishing** vector field in $\mathbb{R}^{3}$, one can always find a smooth family of integral curves, that is, a family of curves that are 1) **non-intersecting** and 2) **always tangent to the given vector field**. 
 
@@ -123,8 +124,63 @@ We may again write this distribution as $\theta_{1}=\dots=\theta_{r}=0$. Note th
 
 **Definition.** If the distribution $\Delta$ is closed under Lie brackets, $[\Delta,\Delta]\subset\Delta$, then $\Delta$ is said to be in `involution`.
 
-**If a distribution is integrable, then it is in involution.**
+We state without proof that, **if a distribution is integrable, then it is in involution.**
 
-Interesting enough, since the year 2020, *involution* has taken Chinese media by storm, especially among younger people. Translated as "内卷", it implies the growing feeling that the struggle to succeed is futile in conditions of economic precarity and structural unfairness. But it is another topic for another time.
+It is interesting that since 2020 *involution* has taken Chinese media by storm, especially among younger people. Translated as "内卷", it implies the growing feeling that the struggle to succeed is futile in conditions of economic precarity and structural unfairness. But for a distribution in our note, being in involution is surely a good thing.
+
+If $\Delta_{k}$ is in convolution, then for any Pfaffian $\theta_{\alpha},\alpha=1,\dots,r$ and any pair of vector fields $X,Y$ in the distribution we have 
+$$
+d\theta_{\alpha}(X,Y) = X(\theta_{\alpha}(Y)) - (X\leftrightarrow Y) - \theta_{\alpha}([X,Y])=0.
+$$
+We say that if $\Delta$ is in involution, then $d\theta_{\alpha}=0$ when restricted to the distribution, namely, when we allow $d\theta_{\alpha}$ only to be evaluated on vectors of $\Delta$.  
+
+Conversely, if $d\theta_{\alpha}=0$ when restricted to $\Delta$, then $[\Delta,\Delta]=\Delta$, namely $\Delta$ is in involution. Interested readers can regard the proof as a homework exercise. 
+
+The following statements are equivalent `locally`.
+
+- $\Delta$ is in involution, that is, $[\Delta,\Delta]=\Delta$.
+- The Pfaffians $d\theta_{\alpha}$ are zero when restricted to $\Delta$.
+- There are 1-forms $\lambda_{\alpha \beta}$ such that $d\theta_{\alpha}=\sum_{\beta}\lambda_{\alpha \beta}\wedge\theta_{\beta}$. Recall that for two forms $\alpha,\beta$ the wedge product is defined by $$\alpha \wedge\beta(V_{I_{<}})=\sum_{J_{<},K_{<}}\delta_{I}^{JK}\alpha(V_{J})\beta(V_{K}).$$
+- $d\theta_{\alpha}$ is not linear independent of $\theta$s, namely $d\theta_{\alpha} \wedge \theta_{1}\wedge\dots \wedge\theta_{r}=0$. 
+
+The proof of the equivalence is left as a homework. They all follow more or less from direct derivation.
+
+- - -
+
+In summary, we have shown that in a $n$-dimensional manifold, a $k$-dimensional distribution $\Delta_{k}$ can *locally* be given in two ways, either by exhibiting $k$ linear independent vector fields $V_{I},I=\left\{ 1,\dots,k \right\}$, or by exhibiting $n-r$ linear-independent $1$-forms $\theta_{\alpha}$, sometimes called the Pfaffians, and $\Delta_{k}$ is the unions of the `annihilators` (`null space`) of all the $\theta_{\alpha}$s. The system is in `involution` if 
+$$
+[\Delta,\Delta]\subset \Delta
+$$
+and **if the system is integrable, it is in involution**. 
+
+To say $[\Delta,\Delta]\subset \Delta$ is equivalent to say that $d\theta=\sum\lambda_{\alpha \beta}\theta_{\beta}$ for some 1-form $\lambda_{\alpha \beta}$ (note here the subscripts $\alpha,\beta$ are not coordinate indices, but part of the name, $\lambda_{\alpha \beta}$ is not a 2-form but an 1-form), which is equivalent to say that $d\theta_{\alpha}$ is zero mod $\theta_{\alpha}$, written as 
+$$
+d\theta_{\alpha}=0 \text{ mod } \theta_{\alpha},
+$$
+meaning that $d\theta$ becomes zero if *all* of the $\theta$s are put to zero.
+
+It turns out that, if the system is in involution, it is also integrable. This statement is more useful to us, since it answers our question of when is a distribution integrable. A sketch of the proof (usually attributed to Frobenius) can be found in Frankel's textbook. We will not quote the full sketch here but only introduce some main results. But before doing that, we need some definitions.
+
+**Definition.** A *smooth* map of manifolds $F:W^{k}\to M^{n}$ is called an `immersion`, and $F(W)$ called an `immersed submanifold`, if the induced map
+$$
+F_{\ast }:TW_{x}\to TM_{F(x)}
+$$
+is a one-to-one map, namely $\text{ker }F_{\ast}=0$ at each point of $W$.
+
+In other words, a map of manifolds is an immersion if it is i) smooth and ii) preserves the rank of the tangent vector space everywhere. For example, if $F_{\ast}$ maps two different vectors to the same vector, then it can not be an immersion.
+
+Finally, we state without proof below the Frobenius theorem.
+
+**Frobenius Theorem.** If the smooth distribution $\Delta_{k}$ is `in involution`, namely 
+$$
+[\Delta,\Delta]\subset \Delta
+$$
+then it is complete `integrable`.
+
+The theorem also tells you how to construct the tangent manifold, which we will not mention here, interested readers can refer to online resources. Just a hint: it uses the flow generated by $X_{i}$s.
+
+## Integrability and Constraints
+
+If a distribution $\Delta_{k}$ of manifold $M$ is *integrable*, then the collection of all the integral manifolds form a `foliation`(叶状结构、卷叶结构) of 
 
 
