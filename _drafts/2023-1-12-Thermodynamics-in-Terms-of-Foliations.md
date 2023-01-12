@@ -13,4 +13,4 @@ tags:								#标签
     - Notes
 ---
 
-Around 1909, Caratheodory was 
+Around 1909, Caratheodory was urged by Max Born to come up with an axiomatic treatment of thernodynamics. 
