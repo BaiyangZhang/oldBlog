@@ -61,4 +61,3 @@ Next we show some elementary changes of states, and how the look like in the sta
 
 ![transition](/img/transition.jpg)
 
-
