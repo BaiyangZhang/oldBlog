@@ -48,4 +48,29 @@ Since $A$ is initial, there is a unique map from $A$ to all the other rings, inc
 
 The proof has very little to do with the properties of rings (addition, multiplication are defined, etc.), it belongs to a higher level of generality.  
 
+Since example are so important to understanding, in the following we list some more examples of universal property.
+
+Given a set $S$, we can make it into a topology space by equipping $S$ with the `discrete topology`: all subsets of $S$, including $\emptyset$ and $S$ itself. The now topological space is denoted $D(S)$. It's one of most trivial way to bestow on $S$ a topology structure. With discrete topology, *any* map from $S$ to a space $X$ is continuous.
+
+Given a map $f:S\to X$, we can regard it as a map from $D(S)$ to $X$, since $D(S)$ and $S$ have same elements. Then we would have a continuous function $\overline{f}:D(S)\to X$. $\overline{f}$ is just $f$ with a different perspective. To generalize it, for all functions $f$ from $S$ to all spaces $X$, there exists a unique (denoted by $\exists !$) map $\overline{f}$ which is continuous. This is another example for universal property.
+
+This statement feels more or less trivial, but still it tells us something about the discrete topology. We mentioned that there can be only one (up to isomorphism) object satisfying a universal property, here the unique object being the discrete topology. The universal properties only holds for discrete topology. If we equip the set with `indiscrete topology`, for example, where the only closed sets are $S$ and $\emptyset$, the universal property will not hold. 
+
+As our last example, consider the collection of vector spaces. Given three vector spaces $U,V$ and $W$, a `bilinear map` $f:U\times V\to W$ is a function $f$ that is linear in each variable:
+$$
+\begin{align}
+f(u,v_{1}+\lambda v_{2})&=f(u)+\lambda f(v_{2}),\\
+f(\lambda u_{1}+u_{2},v)&=\lambda f(u_{1})+f(u_{2}).
+\end{align}
+$$
+There turns out to be a universal map out of $U\times V$. In other words, there exists a certain vector space $T$ and a certain bilinear map $b:U\times V\to T$ such that every bilinear map from $f:U\times V\to W$ induces a unique bilinear map $\overline{f}:T\to W$, satisfying 
+$$
+b\circ\overline{f}=f.
+$$
+
+Roughly speaking, the property says that bilinear maps out of $U\times V$ corresponds 1-2-1 with linear maps out of a single vector space $T$. The vector space $T$ is called the `tensor product` of $U$ and $V$.
+
+Along the study of category theory, we will develop different ways of understanding universal property. 
+
+
 
