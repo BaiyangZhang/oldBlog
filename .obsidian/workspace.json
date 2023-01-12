@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-1-12-Thermodynamics-in-Terms-of-Foliations.md",
+                "file": "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
                 "mode": "source",
                 "source": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-1-12-Thermodynamics-in-Terms-of-Foliations.md",
+                "file": "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-1-12-Thermodynamics-in-Terms-of-Foliations.md",
+                "file": "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-1-12-Thermodynamics-in-Terms-of-Foliations.md"
+                "file": "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md"
               }
             }
           }
@@ -198,10 +198,20 @@
     "width": 300,
     "collapsed": true
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
   "active": "a5588614b728b5ea",
   "lastOpenFiles": [
-    "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
     "_drafts/2023-1-12-Thermodynamics-in-Terms-of-Foliations.md",
+    "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
     "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
     "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md",
     "_posts/2023-1-9-US-Political-System.md",
