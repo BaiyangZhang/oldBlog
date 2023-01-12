@@ -4,59 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bd2ca6ab6e304f4d",
+        "id": "28190cc6fc79f10d",
         "type": "tabs",
         "children": [
           {
-            "id": "cdb0e68c88b384aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-12-27-Thomas-Hobbes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a45a52d41c7cb517",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd2f4dab101772ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5588614b728b5ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-1-12-Basic-Category-Theory-Class-1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f350a3a785b20d95",
+            "id": "e568a684f0ff9682",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1b8f5490e99116a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a87c24cc2bc0ddc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-1-12-Basic-Category-Theory-Class-1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f350a3a785b20d95",
+  "active": "e568a684f0ff9682",
   "lastOpenFiles": [
-    "_posts/2023-1-12-Basic-Category-Theory-Class-1.md",
-    "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md",
-    "_drafts/2023-1-12-Thermodynamics-in-Terms-of-Foliations.md",
-    "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
-    "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
+    "_posts/2022-12-27-Thomas-Hobbes.md",
     "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md",
+    "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
+    "_posts/2023-1-12-Basic-Category-Theory-Class-1.md",
+    "_drafts/2023-1-12-Thermodynamics-in-Terms-of-Foliations.md",
+    "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md",
+    "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
     "_posts/2023-1-9-US-Political-System.md",
     "_drafts/2022-11-12-Duality-Part-I.md",
-    "_posts/2022-12-27-Thomas-Hobbes.md",
     "_drafts/2022-12-13-Introduction-to-Transseries.md"
   ]
 }

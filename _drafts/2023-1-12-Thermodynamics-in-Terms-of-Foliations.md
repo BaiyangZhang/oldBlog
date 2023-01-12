@@ -61,3 +61,14 @@ Next we show some elementary changes of states, and how the look like in the sta
 
 ![transition](/img/transition.jpg)
 
+**Definition.** A `submersion` is a smooth mapping $f:M\to N$ from an $m$-dimensional manifold $M$ to an $n$-dimensional manifold $N$, $m>n$, under which for any point $p\in M$, the map $f_{\ast}:T_{p}M\to T_{f(p)}N$ is onto. 
+
+A basic example of submersion is the so-called canonical submersion from $\mathbb{R}^{m}$ to $\mathbb{R}^{n}$ with $m>n$, given coordinate system $(x)$ on both the manifolds, the smooth mapping is defined by
+$$
+f:(x^{1},\dots,x^{n},\dots,x^{m})\to (x^{1},\dots,x^{n}).
+$$
+
+The above figure suggests us to treat $U$ as a distinct dimension, separate it from the rest $v$ coordinates. We shall **assume** that there is a connected $n$-manifold (one dimension less than $M$, the state space), the `mechanical manifold` $V$.  We assume there is a smooth map $\pi:M\to V$, which is a submersion. By the main theorem on submanifold, if $v\in V$ then $\pi^{-1}(v)$ is a 1-dimensional embedded submanifold of $M$. The manifold $V^{n}$ will be covered by a collection of *local* coordinates $v^{1},\dots,v^{n}$. **$V$ takes the place of the volume coordinates used before.** The curves $\pi^{-1}(v)$ corresponds to the heating and cooling at constant volume. Obviously on $\pi^{-1}(p)$ we have $W=0$. The $n+1$ tuple $U,v^{1},\dots,v^{n}$ forms a local coordinates system for $M$. 
+
+- - -
+
