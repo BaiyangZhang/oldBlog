@@ -13,4 +13,10 @@ tags:								#标签
     - Notes
 ---
 
-Around 1909, Caratheodory was urged by Max Born to come up with an axiomatic treatment of thernodynamics. 
+>Disclaimer: Nothing in this note is original. Including the figures.
+
+Around 1909, Caratheodory was urged by Max Born to come up with an axiomatic treatment of thermodynamics. As a result, Caratheodory made use of Frobenius's theorem and constructed a rather mathematical treatment of thermodynamics. In this note we will only superficially look at the theory.
+
+Consider a system of fluids separated by "diathermous" 
+
+![fluid](img/chamber.png)
