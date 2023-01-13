@@ -126,7 +126,7 @@ thus
 - when $J=0$, the solution to ${\delta \Gamma}/{\delta \varphi} = J$ is the vev of $\phi$.
 
 
-Furthermore, assume that the vacuum has translation symmetry, meaning $\left\langle \phi \right\rangle$ is a constant in space and time, then we just need one number to denote the field configuration, we can define a function $\mathcal{V}_{\text{eff}}$ whose minimum is the vev of $\phi$,
+Furthermore, assume that the vacuum has translation symmetry, meaning $\left\langle \phi \right\rangle$ is a constant in space and time, then we just need one number to denote the field configuration, we can define a function $\mathcal{V} _ {\text{eff}}$ whose minimum is the vev of $\phi$,
 $$
   \Gamma[\varphi]|_{\varphi = \text{const}} = -VT \mathcal{V}_{\text{eff}}(\varphi)
 $$
@@ -240,12 +240,12 @@ $$
 $$
 calculate the functional determinant in the representation of $x$, with the help of
 $$
-\mathbb{1}= \int \frac{dp^4}{(2\pi)^4}\ket{k}\bra{k}
+\mathbb{1}= \int \frac{dp^4}{(2\pi)^4}  \left\lvert k \right\rangle  \left\langle{k}\right\rvert  
 $$
 we have
 $$
 \begin{align}
-  i\Delta \Gamma[\phi_b] &= -\frac{1}{2}\int d^4 x \bra{x} \ln\left( 1+\frac{V''}{\partial^2} \right)\ket{x}+\text{const}\\
+  i\Delta \Gamma[\phi_b] &= -\frac{1}{2}\int d^4 x \left\langle{x}\right\rvert  \ln\left( 1+\frac{V''}{\partial^2} \right) \left\lvert{x}\right\rangle  +\text{const}\\
   &= -\frac{1}{2}\int d^4 x \int\frac{d^4 k}{(2\pi)^4}\ln\left( 1-\frac{m_{\text{eff}}^2}{k^2} \right)+\text{const}
 \end{align}
 $$
