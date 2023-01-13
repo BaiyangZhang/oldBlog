@@ -2,14 +2,14 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Thermodynamics-in-Terms-of-Foliations			# 标题 
 subtitle:   A Heristic aproach
-date:       2023-1-12 				# 时间
+date:       2023-1-13 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/mathArt5.jpg 	#这篇文章标题背景图片
+header-img: img/mathArt6.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - Geometry
-    - physics
-    - Holonomy
+    - Physics
+    - Thermodynamics
     - Notes
 ---
 
@@ -72,3 +72,38 @@ The above figure suggests us to treat $U$ as a distinct dimension, separate it f
 
 - - -
 
+A `cyclic` process is one that starts and ends at the same state. The *second law of thermodynamics*, according to Lord Kelvin, can be stated as:
+
+>In no quasi-static cyclic process, can a quantity of heat be converted **entirely** into its mechanical equivalent of work.
+
+The same law, according to Caratheodory(1909), says that 
+
+>In every neighborhood of every state $x$ there are states $y$ that are not accessible from $x$ via quasi-static **adiabatic** paths, that is, paths along which $Q=0$.
+
+It is not meant to be obvious, but Caratheodory's assumption is weaker than Kelvin's,
+
+$$
+\boxed{
+\text{Kelvin's assumption} \implies \text{Caratheodory's assumption.}
+}
+$$
+
+Take the path $\gamma_{I}$ in the previous figure for example, assume $\gamma_{I}$ goes form $x$ to $y$. If there were *quasi-static* and *adiabatic* process going from $x$ to $y$, call it path $\gamma_{I'}$, then along $\gamma_{I'}$ we would have 
+$$
+\int_{\gamma_{I'}} \, W =  \int_{\gamma_{I'}} \,Q-dU = \int_{\gamma_{I'}} \,-dU=-\int_{\gamma_{I}} \,dU=-\int_{\gamma_{I}} \,Q
+$$
+where in the second-to-last step we changed from path to $\gamma_{I}$, which is allow since $dU$ is closed. But this would say that the heat energy pumped into the system has been **entirely** converted into mechanical work, which contradicts the Kelvin! Thus there is no such path $\gamma_{I'}$.
+
+**An adiabatic quasi-static process is a path in the state space such that $Q=0$ along it.** We know that if $Q=0$ were a` holonomic constraint`, then there would exist other states $y$ in the neighborhood of $x$, that is not accessible from $x$ along any adiabatic path. All the accessible points would lie on the maximal leaf through $x$. The question is, does having inaccessible points in turn implies that the distribution $Q=0$ is integrable? Caratheodory showed that it is indeed the case. In the following we have a pure mathematical result:
+
+**Caratheodory's theorem.** Let $\theta$ be a 1-form which is smooth and non-vanishing on an $n$-dimensional manifold $M$, and suppose that $\theta=0$ is not integrable, thus at some point $x_{0}$ we have 
+$$
+\theta \wedge d\theta \neq 0.
+$$
+Then there is a neighborhood $U$ of $x_{0}$ such that any point $y$ in $U$ can be joined to $x_{0}$ by a piecewise smooth path that is always tangent to the distribution. 
+
+Roughly speaking, since $\theta=0$ is not holonomic, the distribution given by $\theta=0$ is not integrable, then at $x_{0}$, we can find two vectors $X,Y$ tangent to the distribution but their Lie bracket $[X,Y]$ is not in the distribution. They will allow us to move away from the distribution and reach any point $y$ in the neighborhood. A detailed proof can be found in Frankel.
+
+We thus conclude from Caratheodory's mathematical theorem, together with his version of the second law of thermodynamics, that the **adiabatic distribution $Q=0$ is integrable**. 
+
+If the reader is interested in the construction of entropy, one of the most important concepts in thermodynamics, from Caratheodory's mathematical approach, please refer to Frankel ant books referred therein. 
