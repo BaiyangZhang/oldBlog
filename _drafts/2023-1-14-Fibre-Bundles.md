@@ -12,5 +12,9 @@ tags:								#标签
     - Notes
 ---
 
-### Path Integral Topological QFT
+*Disclaimer: Nothing in this note is original.*
+
+### Tangent Bundle
+
+For a didactic point of view, it is helpful to first look at some examples of fibre bundles before dive in the abstract definitions. The bundle of tangent spaces provides a good starting point, since everybody is familiar with tangent spaces. 
 

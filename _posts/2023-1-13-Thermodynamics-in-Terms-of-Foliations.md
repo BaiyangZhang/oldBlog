@@ -106,4 +106,4 @@ Roughly speaking, since $\theta=0$ is not holonomic, the distribution given by $
 
 We thus conclude from Caratheodory's mathematical theorem, together with his version of the second law of thermodynamics, that the **adiabatic distribution $Q=0$ is integrable**. 
 
-If the reader is interested in the construction of entropy, one of the most important concepts in thermodynamics, from Caratheodory's mathematical approach, please refer to Frankel ant books referred therein. 
+If the reader is interested in the construction of entropy, one of the most important concepts in thermodynamics, from Caratheodory's mathematical approach, please refer to Frankel and books referred therein. 

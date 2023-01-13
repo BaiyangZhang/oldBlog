@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-1-13-Thermodynamics-in-Terms-of-Foliations.md",
+                "file": "_drafts/2023-1-14-Fibre-Bundles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9895de0c62007661",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-1-14-Fibre-Bundles.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.504695892334
+    "width": 264.504695892334,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-1-13-Thermodynamics-in-Terms-of-Foliations.md",
+                "file": "_drafts/2023-1-14-Fibre-Bundles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-1-13-Thermodynamics-in-Terms-of-Foliations.md",
+                "file": "_drafts/2023-1-14-Fibre-Bundles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-1-13-Thermodynamics-in-Terms-of-Foliations.md"
+                "file": "_drafts/2023-1-14-Fibre-Bundles.md"
               }
             }
           }
@@ -149,17 +162,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "637d7d6c77302842",
+  "active": "9895de0c62007661",
   "lastOpenFiles": [
+    "_drafts/2023-1-15-Minkowski Space.md",
     "_drafts/2023-1-14-Fibre-Bundles.md",
-    "_drafts/2022-11-12-Duality-Part-I.md",
     "_posts/2023-1-13-Thermodynamics-in-Terms-of-Foliations.md",
+    "_drafts/2022-11-12-Duality-Part-I.md",
     "_drafts/2022-11-22-Montesquieu.md",
     "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
     "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md",
     "_posts/2022-12-27-Thomas-Hobbes.md",
     "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md",
-    "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
-    "_posts/2023-1-12-Basic-Category-Theory-Class-1.md"
+    "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md"
   ]
 }
