@@ -130,7 +130,7 @@ Furthermore, assume that the vacuum has translation symmetry, meaning $\left\lan
 $$
   \Gamma[\varphi]|_{\varphi = \text{const}} = -VT \mathcal{V}_{\text{eff}}(\varphi)
 $$
-where $V$ is the volume of the space and $T$ the extension of time, $\mathcal{V}_{\text{eff}}(\varphi)$ is the quantum effective potential. We can see that $\mathcal{V}_{\text{eff}}$ is a intensive quantity while $\Gamma$ is a extensive quantity, and ${\partial\mathcal{V}}/{\partial\phi} = 0$ reproduces ${\delta \Gamma}/{\delta \varphi} = 0$.
+where $V$ is the volume of the space and $T$ the extension of time, $\mathcal{V} _ {\text{eff}}(\varphi)$ is the quantum effective potential. We can see that $\mathcal{V} _ {\text{eff}}$ is a intensive quantity while $\Gamma$ is a extensive quantity, and ${\partial\mathcal{V}}/{\partial\phi} = 0$ reproduces ${\delta \Gamma}/{\delta \varphi} = 0$.
 
 ## Coleman-Weinberg Potential
 
@@ -181,7 +181,7 @@ $$
 $$
 you can check that
 $$
-  \frac{\delta \Gamma_b[\phi_b;\varphi_b]}{\delta\varphi_b}= J .
+\frac{\delta \Gamma_b[\phi_b;\varphi_b]}{\delta\varphi_b}= J .
 $$
 Replace $W_b[J]$ with its expression in terms of $W[J]$, we can check that
 $$
@@ -193,8 +193,7 @@ so for example if we want to calculate $\Gamma[\eta(x)]$, we can set $\phi_b = \
 
 Consider the real scalar Lagrangian
 $$
-  \mathcal{L} = -\frac{1}{2} \phi \partial^2\phi - \frac{1}{2} m^2\phi^2
-   - \frac{1}{4!}\phi^4,
+\mathcal{L} = -\frac{1}{2} \phi \partial^2\phi - \frac{1}{2} m^2\phi^2-\frac{1}{4!}\phi^4
 $$
 the question is, when $m = 0$, will the quantum effects modify the shape of the potential?
 

@@ -47,6 +47,17 @@ There is a projection that maps elements in $F_{x}$ to $x$. It is easy to see th
 $$
 F_{x} = \pi^{-1}(x).
 $$
+$F_{x}$ are required to be a `submanifold` in $E$, so it is to be nicely placed in $E$. 
+
+Thanks to the smoothness of the fibre bundle, we can always find a chart $U$ on $M$ containing $x$ that is small enough so that $\pi^{-1}(U)$ is a simple direct product of $F$ and $U$, since nothing interesting can be happening with the fibers over $U$, since $U$ is too small. Thus we have `local product structure`: there exists a covering $\mathcal{O}_{\alpha}$ of the base $M$ and a system of diffeomorphism 
+$$
+\psi_{\alpha}:\pi^{-1} (\mathcal{O}_{\alpha})\to \mathcal{O}_{\alpha}\times F.
+$$
+This is the so-called `local trivialization` of the fiber bundle. 
+
+There also exists a Lie group $G$ called the `structure group`, which acts on $F$ **on the left**. For example, if $F$ is $\mathbb{R}$, the structure group could be the group of translation.
+
+In geometry we can usually glue together simple pieces to construct 
 
 
 
