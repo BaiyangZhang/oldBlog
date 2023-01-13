@@ -1,6 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:     Thermodynamics-in-Terms-of-Foliations			# 标题 
+title:     Caratheodory's approach to Thermodynamics			# 标题 
 subtitle:   A Heristic aproach
 date:       2023-1-13 				# 时间
 author:     Baiyang Zhang 						# 作者

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-1-14-Fibre-Bundles.md",
+                "file": "_posts/2023-1-13-Thermodynamics-in-Terms-of-Foliations.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-1-14-Fibre-Bundles.md",
+                "file": "_posts/2023-1-13-Thermodynamics-in-Terms-of-Foliations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-1-14-Fibre-Bundles.md",
+                "file": "_posts/2023-1-13-Thermodynamics-in-Terms-of-Foliations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-1-14-Fibre-Bundles.md"
+                "file": "_posts/2023-1-13-Thermodynamics-in-Terms-of-Foliations.md"
               }
             }
           }
@@ -151,6 +151,7 @@
   },
   "active": "637d7d6c77302842",
   "lastOpenFiles": [
+    "_drafts/2023-1-14-Fibre-Bundles.md",
     "_drafts/2022-11-12-Duality-Part-I.md",
     "_posts/2023-1-13-Thermodynamics-in-Terms-of-Foliations.md",
     "_drafts/2022-11-22-Montesquieu.md",
@@ -159,7 +160,6 @@
     "_posts/2022-12-27-Thomas-Hobbes.md",
     "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md",
     "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
-    "_posts/2023-1-12-Basic-Category-Theory-Class-1.md",
-    "_posts/2023-1-9-US-Political-System.md"
+    "_posts/2023-1-12-Basic-Category-Theory-Class-1.md"
   ]
 }
