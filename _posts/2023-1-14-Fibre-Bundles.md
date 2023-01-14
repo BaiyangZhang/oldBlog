@@ -53,11 +53,11 @@ Thanks to the smoothness of the fibre bundle, we can always find a chart $U$ on 
 $$
 \psi_{\alpha}:\pi^{-1} (\mathcal{O}_{\alpha})\to \mathcal{O}_{\alpha}\times F.
 $$
-This is the so-called `local trivialization` of the fiber bundle. 
+This is the so-called `local trivialization` of the fiber bundle. We can think of local trivialization as something like coordinate system, just like a coordinate system of some manifold $N$ is a 1-2-1 map from $N\to \mathbb{R}^{n}$, the local trivialization is a 1-2-1 map between (part of) the fiber bundle and a product space $\mathcal{O}\times F$, where $F$ is the typical fiber. 
 
 There also exists a Lie group $G$ called the `structure group`, which acts on $F$ **on the left**. For example, if $F$ is $\mathbb{R}$, the structure group could be the group of translation.
 
-In geometry we can usually glue together simple pieces to construct 
+In geometry we can usually "glue" together simple pieces to construct a more complicated object, the simple pieces are usually topologically trivial while the global object has some nontrivial topological properties. For example we can glue two rectangles together to make a Mobius strip. Here we can do the same, the thing we glue together is the fibre. The "gluing" operation is realized by `transition functions`.  Note that $\psi^{-1}_{x}$, namely the trivialization with the base point $x$ fixed, is a map from $F_{x}\to F$, mapping a point on the   Given two charts $U_{\alpha},U_{\beta}$ both containing $x$, there exists a transition function $t_{\alpha \beta}$ such that $t_{\alpha \beta}F_{x}$
 
 
 
