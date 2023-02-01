@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "28190cc6fc79f10d",
+        "id": "0addf6b90ed9fbf9",
         "type": "tabs",
         "children": [
           {
-            "id": "e568a684f0ff9682",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2022-11-12-Duality-Part-I.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "637d7d6c77302842",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-1-14-Fibre-Bundles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9895de0c62007661",
+            "id": "1cc135b704daeef3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6a058c3940915a4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-1-13-Colemen-Weinberg-Potential.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.504695892334,
+    "width": 283.5,
     "collapsed": true
   },
   "right": {
@@ -123,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-1-14-Fibre-Bundles.md",
+                "file": "_drafts/2023-1-15-Minkowski Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-1-14-Fibre-Bundles.md",
+                "file": "_drafts/2023-1-15-Minkowski Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-1-14-Fibre-Bundles.md"
+                "file": "_drafts/2023-1-15-Minkowski Space.md"
               }
             }
           }
@@ -174,31 +137,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "637d7d6c77302842",
+  "active": "1cc135b704daeef3",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md",
-    "_posts/2023-1-12-Basic-Category-Theory-Class-1.md",
-    "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
-    "_drafts/2023-1-12-Thermodynamics-in-Terms-of-Foliations.md",
-    "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
-    "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md",
-    "_posts/2023-1-9-US-Political-System.md",
-=======
-    "_posts/2023-1-13-Colemen-Weinberg-Potential.md",
-    "_posts/2023-1-14-Fibre-Bundles.md",
-    "_drafts/2023-1-15-Minkowski Space.md",
-    "_posts/2023-1-13-Thermodynamics-in-Terms-of-Foliations.md",
->>>>>>> 30434d38be493dff29683c752b7bd11a5c1f14c2
-    "_drafts/2022-11-12-Duality-Part-I.md",
-    "_drafts/2022-11-22-Montesquieu.md",
-    "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
-    "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md",
-    "_posts/2022-12-27-Thomas-Hobbes.md",
-<<<<<<< HEAD
-    "_drafts/2022-12-13-Basic-Category-Theory.md"
-=======
-    "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md"
->>>>>>> 30434d38be493dff29683c752b7bd11a5c1f14c2
+    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
+    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
+    "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
+    "_drafts/2022-10-12-罗马人的一天笔记.md",
+    "1.md",
+    "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+    "_drafts/2022-08-02-Basic-Measure-Theory-Part-II.md",
+    "_drafts/2022-10-3-共和国史笔记.md"
   ]
 }
