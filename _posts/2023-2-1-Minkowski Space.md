@@ -189,7 +189,7 @@ J:= \rho_{0} u = (\rho,\rho \mathbf{v}) := (\rho,\mathbf{J}).
 $$
 We may then construct the associated `current 3-form`
 $$
-\mathcal{J}=i_{\mathbf{J}}\text{vol}^{r}
+\mathcal{J}=i_{\mathbf{J}}\text{vol}^{4}
 $$
 where $\text{vol}^{r}$ is the 4-volume form. Then the other half of the Maxwell's equations can be written as
 $$
