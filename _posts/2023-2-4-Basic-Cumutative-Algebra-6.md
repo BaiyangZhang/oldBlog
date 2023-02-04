@@ -30,13 +30,13 @@ Let's look at some properties of $\mathcal{O}_{X}$.
 
 ### Properties of Regular Function Rings
 
-The first thing to notice is that $\mathcal{O}_{X}$ is not itself a ring, but a "gadget" that, when fed by an open set $U$, spits out a ring $O_{X}(U)$, or $\mathcal{O}(U)$ for short.
+The first thing to notice is that $\mathcal{O} _ {X}$ is not itself a ring, but a "gadget" that, when fed by an open set $U$, spits out a ring $O_{X}(U)$, or $\mathcal{O}(U)$ for short.
 
-Let $X\subset\mathbb{A}^{n}_{k}$ be an algebraic set, a subset of n-dimensional affine space of field $k$. Let $U\subsetneq X$ be an `open` subset of $X$. We consider the assignment  
+Let $X\subset\mathbb{A}^{n}_ {k}$ be an algebraic set, a subset of n-dimensional affine space of field $k$. Let $U\subsetneq X$ be an `open` subset of $X$. We consider the assignment  
 $$
 \begin{align}
 U &\mapsto \mathcal{O}_{X}(U)=: \mathcal{O}(U), \\
- \mathcal{O}(U)&=\left\{  \phi: U\to k \,\Bigg|\,  \phi =\frac{f}{g},f\in \mathcal{O}(X),g\in \mathcal{O}(X) \text{ and } g\neq 0\text{ on }U\right\}
+ \mathcal{O}(U)&=\left\{  \phi: U\to k \,\middle\vert \,  \phi =\frac{f}{g},f\in \mathcal{O}(X),g\in \mathcal{O}(X) \text{ and } g\neq 0\text{ on }U\right\}
 
 \end{align}
 $$
@@ -44,7 +44,7 @@ where $=:$ means the right hand side is defined by the left hand side. $\mathcal
 
 - Any inclusion $U\subset V$ of open sets in $X$ gives a `restriction` homomorphism 
 $$
-\rho_{U,V}: \mathcal{O}(V) \to \mathcal{O}(U), \quad \phi\mapsto \phi |_{U}.
+\rho_{U,V}: \mathcal{O}(V) \to \mathcal{O}(U), \quad \phi\mapsto \phi \mid_{U}.
 $$
 The restriction of regular functions on $U$ to its subset $V$ is obvious a ring homomorphism.
 
@@ -61,7 +61,7 @@ The above properties are kind of "out there in the open", the next one is less s
 
 - Functions that are defined locally on an open cover, and agree on intersection, have a unique lift.
 
-Let $U =U_{1}\cup U_{2}$ be the union of two open sets, $V:=U_{1}\cap U_{2}\neq \emptyset$. Let $\phi_{1}$ be a regular function on $U_{1}$ and $\phi_{2}$ on $U_{2}$. If $\phi_{1}$ and $\phi_{2}$ agree on the intersection, that is, the restriction of $\phi_{1}$ on $V$ is equal to the restriction of $\phi_{2}$ on $V$, then there exists a unique regular function defined on the whole of $U$, call it $\phi$, such that $\phi |_{U_{1}}=\phi_{1}$ and $\phi |_ {U_{2}}=\phi_{2}$.  
+Let $U =U_{1}\cup U_{2}$ be the union of two open sets, $V:=U_{1}\cap U_{2}\neq \emptyset$. Let $\phi_{1}$ be a regular function on $U_{1}$ and $\phi_{2}$ on $U_{2}$. If $\phi_{1}$ and $\phi_{2}$ agree on the intersection, that is, the restriction of $\phi_{1}$ on $V$ is equal to the restriction of $\phi_{2}$ on $V$, then there exists a unique regular function defined on the whole of $U$, call it $\phi$, such that $\phi \mid_{U_{1}}=\phi_{1}$ and $\phi \mid_ {U_{2}}=\phi_{2}$.  
 
 Now let's generalize these properties to a definition.
 
@@ -85,7 +85,7 @@ $$
 $$
 Elements of $\mathcal{F}(U)$ are called `sections` of $\mathcal{F}$ over $U$. Notice the similar usage of terminology from fiber bundle.
 
-The homomorphism $\rho_{U,V}$ is called the `restriction map` from $V$ to $U$, and denoted $\phi\mapsto \phi |_{U}$.
+The homomorphism $\rho_{U,V}$ is called the `restriction map` from $V$ to $U$, and denoted $\phi\mapsto \phi \mid_{U}$.
 
 The name `sheaf` is rather pictorial. A sheaf in farming is a bundle of grain stalks tied up and laid on the ground, you could say that it is an assignment of bundle of stalks to areas of lands. Here in mathematics a presheaf is an assignment of ring structure to open subsets.
 
@@ -101,11 +101,11 @@ $$
 $$
 is an open cover of $U$, and if $\phi_{i}$ are sections satisfying 
 $$
-\phi_{i} |_{U_{i}\cap U_{j}} = \phi_{j} |_{U_{i}\cap U_{j}}
+\phi_{i} \mid_{U_{i}\cap U_{j}} = \phi_{j} \mid_{U_{i}\cap U_{j}}
 $$
 **for all** $i,j\in I$, then there exists a `unique` $\phi \in\mathcal{F}(U)$ such that 
 $$
-\phi |_{U_{i}} = \phi_{i}, \text{ or equivalently } \phi_{i} = \rho_{U_{i},U}\phi.
+\phi \mid_{U_{i}} = \phi_{i}, \text{ or equivalently } \phi_{i} = \rho_{U_{i},U}\phi.
 $$
 
 It is interesting to compare this compatibility condition with that of fiber bundles, where we use transition functions to glue different bundles. 
@@ -144,7 +144,7 @@ It is kink of obvious that if $X$ is a ringed space, then an open subset $U\subs
 
 In general, given a presheaf $\mathcal{F}$ on $X$ and an open subset $U\subset X$, The restriction of $\mathcal{F}$ to $U$ is given by 
 $$
-\mathcal{F} | _{U}(V) = \mathcal{F}(V)
+\mathcal{F} \mid _{U}(V) = \mathcal{F}(V)
 $$
 for all open $V\subset U\subset X$. The restriction of a presheaf is a presheaf and the restriction of a sheaf is a sheaf.
 
@@ -158,7 +158,7 @@ From now on, the sheaf $\mathcal{F}$ on a topological space $X$ is assumed to be
 
 ### Morphisms of Ringed Spaces
 
-Let $(X,\mathcal{O}_{X})$ and $(Y,\mathcal{O}_{Y})$ be two ringed spaces, where $O_{X}$ is the sheaf of regular functions on $X$, etc. Let $f: X\to Y$ be a **continuous** map. Let $U\subset Y$ be an open subset of $Y$, and $\phi: U\to k$ a function defined on $U$. Then we can use $f$ to pull back $\phi$, the pull-back $f^{\ast}\phi$ is the function 
+Let $(X,\mathcal{O} _ {X})$ and $(Y,\mathcal{O} _ {Y})$ be two ringed spaces, where $O_{X}$ is the sheaf of regular functions on $X$, etc. Let $f: X\to Y$ be a **continuous** map. Let $U\subset Y$ be an open subset of $Y$, and $\phi: U\to k$ a function defined on $U$. Then we can use $f$ to pull back $\phi$, the pull-back $f^{\ast}\phi$ is the function 
 $$
 \phi\circ f: f^{-1} (U)\to k.
 $$
@@ -174,7 +174,7 @@ If we want to define the morphism between ringed spaces, the morphism map must r
 $$
 f: X\to Y
 $$
-such that for each open $U\subset Y$, the pull-back of any $\phi \in\mathcal{O}_{Y}(U)$ belongs to $\mathcal{O}_{X}(f^{-1}U)$. This is possible since $f$ is continuous, meaning that $f^{-1}(U)$ is an open set on $X$, hence there exists a ring of functions $\mathcal{O}_{X}(f^{-1}(U))$. This defines a ring homomorphism 
+such that for each open $U\subset Y$, the pull-back of any $\phi \in\mathcal{O} _ {Y}(U)$ belongs to $\mathcal{O} _ {X}(f^{-1}U)$. This is possible since $f$ is continuous, meaning that $f^{-1}(U)$ is an open set on $X$, hence there exists a ring of functions $\mathcal{O}_{X}(f^{-1}(U))$. This defines a ring homomorphism 
 $$
 f^{\ast }: \mathcal{O}_{Y}(U) \to \mathcal{O}_{X}(U'), \quad U':=f^{-1}(U).
 $$
@@ -187,4 +187,4 @@ Now we have the definition of morphism, we can go on and define isomorphism. A m
 
 Finally we can define what affine varieties are, in an intrinsic manner, without mentioning the embbedding space or anything like that.
 
-**Definition.** An `affine variety` is a `ringed space` that is isomorphic to $(X,\mathcal{O}_{X})$ of an algebraic space $X$, with the sheaf of functions $\mathcal{O}_{X}$.
+**Definition.** An `affine variety` is a `ringed space` that is isomorphic to $(X,\mathcal{O} _ {X})$ of an algebraic space $X$, with the sheaf of functions $\mathcal{O} _ {X}$.

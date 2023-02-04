@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
+                "file": "_posts/2023-2-4-Basic-Cumutative-Algebra-6.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-2-4-Basic-Cumutative-Algebra-Class-7.md",
+                "file": "_posts/2023-2-4-Basic-Cumutative-Algebra-6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-2-4-Basic-Cumutative-Algebra-Class-7.md",
+                "file": "_posts/2023-2-4-Basic-Cumutative-Algebra-6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-2-4-Basic-Cumutative-Algebra-Class-7.md"
+                "file": "_posts/2023-2-4-Basic-Cumutative-Algebra-6.md"
               }
             }
           }
@@ -150,9 +149,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1bac8ff3bce84332",
+  "active": "bbcd9f0dece991c3",
   "lastOpenFiles": [
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
+    "_drafts/2023-2-4-Basic-Cumutative-Algebra-Class-7.md",
     "_posts/2023-2-4-Basic-Cumutative-Algebra-6.md",
     "_drafts/2023-2-5-Montesquieu.md",
     "_posts/2023-2-2-Basic-Cumutative-Algebra-5.md",
@@ -160,7 +160,6 @@
     "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md",
     "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
     "_drafts/2022-12-13-Introduction-to-Transseries.md",
-    "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md",
-    "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md"
+    "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md"
   ]
 }
