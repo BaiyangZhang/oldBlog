@@ -18,24 +18,24 @@ Given a variety $X\subset \mathbb{A}^{n}$ with $k$ being the base (closed) field
 
 To summarize, our data is a pair
 $$
-(X,\mathcal{O}_{X})
+(X,\mathcal{O}_ {X})
 $$
-Note that it is $O_{X}$ not $\mathcal{O}(X)$. $O_{X}$ is a "gadget" that assigns a ring $O_{X}(U)$ to each open subset $U\subset X$ in a coherent way. 
+Note that it is $O_ {X}$ not $\mathcal{O}(X)$. $O_ {X}$ is a "gadget" that assigns a ring $O_ {X}(U)$ to each open subset $U\subset X$ in a coherent way. 
 
 Here we have slightly an abuse of notation. $\mathcal{O}(\text{closed sets})$ are coordinate rings, $\mathcal{O}(\text{open sets})$ are the rings of regular functions. Different things depending on where the argument is closed or open. Well I didn't invent the notation.
 
 What we will do next is to extract the important properties of $\mathcal{O}_X$ into a general definition, which we can work with to define affine varieties. 
 
-Let's look at some properties of $\mathcal{O}_{X}$.  
+Let's look at some properties of $\mathcal{O}_ {X}$.  
 
 ### Properties of Regular Function Rings
 
-The first thing to notice is that $\mathcal{O} _ {X}$ is not itself a ring, but a "gadget" that, when fed by an open set $U$, spits out a ring $O_{X}(U)$, or $\mathcal{O}(U)$ for short.
+The first thing to notice is that $\mathcal{O} _ {X}$ is not itself a ring, but a "gadget" that, when fed by an open set $U$, spits out a ring $O_ {X}(U)$, or $\mathcal{O}(U)$ for short.
 
 Let $X\subset\mathbb{A}^{n}_ {k}$ be an algebraic set, a subset of n-dimensional affine space of field $k$. Let $U\subsetneq X$ be an `open` subset of $X$. We consider the assignment  
 $$
 \begin{align}
-U &\mapsto \mathcal{O}_{X}(U)=: \mathcal{O}(U), \\
+U &\mapsto \mathcal{O}_ {X}(U)=: \mathcal{O}(U), \\
  \mathcal{O}(U)&=\left\{  \phi: U\to k \,\middle\vert \,  \phi =\frac{f}{g},f\in \mathcal{O}(X),g\in \mathcal{O}(X) \text{ and } g\neq 0\text{ on }U\right\}
 
 \end{align}
@@ -114,13 +114,13 @@ Think: what if two open subsets are disjoint, namely $U_{i}\cap U_{j}=\emptyset$
 
 Some examples are in order. The most familiar example of a sheaf would be
 
-- The sheaf $\mathcal{O}_{X}$ of rings (regular functions) on an algebraic space $X$, to refresh your memory, 
+- The sheaf $\mathcal{O}_ {X}$ of rings (regular functions) on an algebraic space $X$, to refresh your memory, 
 $$
-\mathcal{O}_{X}(U) = \{ \text{regular functions on }U  \} 
+\mathcal{O}_ {X}(U) = \{ \text{regular functions on }U  \} 
 $$
 and the restriction is given by the usual restriction of functions.
 
-- The sheaf of real-valued continuous function on a topological space $X$, denoted by $\mathcal{C}(X)$ sometimes. $\mathcal{C}(U)$ where $U$ is some open subset of $\mathcal{R}^{n}$ would be the ring of continuous functions. 
+- The sheaf of real-valued continuous function on a topological space $X$, denoted by $\mathcal{C}(X)$ sometimes. $\mathcal{C}(U)$ where $U$ is some open subset of $\mathbb{R}^{n}$ would be the ring of continuous functions. 
 
 The next example is more interesting. 
 
@@ -132,11 +132,11 @@ Roughly speaking, whenever you are dealing with a ring of functions on open sets
 
 Topological spaces with a sheave structure has its own name.
 
-**Definition.** A `ringed space` is a topological space $X$ together with a sheaf $\mathcal{O}_{X}$ of rings on $X$, called the `structure sheaf`.
+**Definition.** A `ringed space` is a topological space $X$ together with a sheaf $\mathcal{O}_ {X}$ of rings on $X$, called the `structure sheaf`.
 
-For example, let $U\subset X$ be an open subset of $X$, if $X$ is a ringed space then there exists a ring $\mathcal{O}_{X}(U)$, also the overlapping condition, restriction condition and gluing condition are all satisfied.
+For example, let $U\subset X$ be an open subset of $X$, if $X$ is a ringed space then there exists a ring $\mathcal{O}_ {X}(U)$, also the overlapping condition, restriction condition and gluing condition are all satisfied.
 
-The ringed space $(X,\mathcal{O}_{X})$ is referred to as $X$ if the structure sheaf is clear from context. 
+The ringed space $(X,\mathcal{O}_ {X})$ is referred to as $X$ if the structure sheaf is clear from context. 
 
 For example, an algebraic set is a ringed space, the structure sheaf is by default taken to be the ring of regular functions. 
 
@@ -158,7 +158,7 @@ From now on, the sheaf $\mathcal{F}$ on a topological space $X$ is assumed to be
 
 ### Morphisms of Ringed Spaces
 
-Let $(X,\mathcal{O} _ {X})$ and $(Y,\mathcal{O} _ {Y})$ be two ringed spaces, where $O_{X}$ is the sheaf of regular functions on $X$, etc. Let $f: X\to Y$ be a **continuous** map. Let $U\subset Y$ be an open subset of $Y$, and $\phi: U\to k$ a function defined on $U$. Then we can use $f$ to pull back $\phi$, the pull-back $f^{\ast}\phi$ is the function 
+Let $(X,\mathcal{O} _ {X})$ and $(Y,\mathcal{O} _ {Y})$ be two ringed spaces, where $O_ {X}$ is the sheaf of regular functions on $X$, etc. Let $f: X\to Y$ be a **continuous** map. Let $U\subset Y$ be an open subset of $Y$, and $\phi: U\to k$ a function defined on $U$. Then we can use $f$ to pull back $\phi$, the pull-back $f^{\ast}\phi$ is the function 
 $$
 \phi\circ f: f^{-1} (U)\to k.
 $$
@@ -174,12 +174,12 @@ If we want to define the morphism between ringed spaces, the morphism map must r
 $$
 f: X\to Y
 $$
-such that for each open $U\subset Y$, the pull-back of any $\phi \in\mathcal{O} _ {Y}(U)$ belongs to $\mathcal{O} _ {X}(f^{-1}U)$. This is possible since $f$ is continuous, meaning that $f^{-1}(U)$ is an open set on $X$, hence there exists a ring of functions $\mathcal{O}_{X}(f^{-1}(U))$. This defines a ring homomorphism 
+such that for each open $U\subset Y$, the pull-back of any $\phi \in\mathcal{O} _ {Y}(U)$ belongs to $\mathcal{O} _ {X}(f^{-1}U)$. This is possible since $f$ is continuous, meaning that $f^{-1}(U)$ is an open set on $X$, hence there exists a ring of functions $\mathcal{O}_ {X}(f^{-1}(U))$. This defines a ring homomorphism 
 $$
-f^{\ast }: \mathcal{O}_{Y}(U) \to \mathcal{O}_{X}(U'), \quad U':=f^{-1}(U).
+f^{\ast }: \mathcal{O}_{Y}(U) \to \mathcal{O}_ {X}(U'), \quad U':=f^{-1}(U).
 $$
 
-Note the inverse direction between $f$ and $f^{\ast}$, $f$ points from $X$ to $Y$ and $f^{\ast}$ points from $\mathcal{O}_{Y}$ to $\mathcal{O}_{X}$. In terms of category theory, the morphism is a contravariant functor.
+Note the inverse direction between $f$ and $f^{\ast}$, $f$ points from $X$ to $Y$ and $f^{\ast}$ points from $\mathcal{O}_{Y}$ to $\mathcal{O}_ {X}$. In terms of category theory, the morphism is a contravariant functor.
 
 Now we have the definition of morphism, we can go on and define isomorphism. A morphism $f$ of ringed spaces is an `isomorphism` if it is bijective and there exists the inverse $f^{-1}$, which is another morphism of ringed spaces. 
 
@@ -187,4 +187,4 @@ Now we have the definition of morphism, we can go on and define isomorphism. A m
 
 Finally we can define what affine varieties are, in an intrinsic manner, without mentioning the embbedding space or anything like that.
 
-**Definition.** An `affine variety` is a `ringed space` that is isomorphic to $(X,\mathcal{O} _ {X})$ of an algebraic space $X$, with the sheaf of functions $\mathcal{O} _ {X}$.
+**Definition.** An `affine variety` is a `ringed space` that is isomorphic to $(X,\mathcal{O}_ {X})$ of an algebraic space $X$, with the sheaf of functions $\mathcal{O} _ {X}$.
