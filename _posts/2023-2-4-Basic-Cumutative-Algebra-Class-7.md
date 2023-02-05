@@ -201,3 +201,59 @@ We will omit the proof here.
 
 - - -
 
+### Local and Global Properties of Morphisms
+
+Recall that, roughly speaking, a morphism for ringed space is a continuous map where the pull-back of the structure sheaf is well-defined. 
+
+Let $(X,\mathcal{O}_ {X})$ and $(Y,\mathcal{O}_ {Y})$ be two ringed spaces. We have the following properties.
+
+**Restriction.** If
+$$
+f: X\to Y
+$$
+is a morphism, let $U\subset X$ and $V \subset Y$ be two open subsets and $f(U)\subset V$, then the restriction of $f$ on $U$ is morphism of ringed spaces.
+
+**Gluing.** If $f: X\to Y$ is a map between two topological spaces, $f$ need not be continuous. If there exists an open cover of $X$ denoted $U_ {i}$ and $f\mid_ {U_ {i}}: U_ {i}\to Y$ are all morphisms, then we can glue them all together and $f$ is itself a morphism. 
+
+**Categorical properties.** A composition of morphism is a morphism. An identity is a morphism. Thus ringed space form a category, where the arrows are morphisms. We will focus on the *full subcategory of affine varieties*. 
+
+- - -
+
+Roughly speaking, affine varieties are varieties embedded in affine space with structure sheaves. Let $X=(X,\mathcal{O}_ {X})$ and $Y=(Y,\mathcal{O}_ {Y})$ be two affine varieties, and $Y\subset\mathbb{A}^{n}$. Let $U\in X$ be an open set. 
+
+Since $Y$ is embedded in $n$-dimensional affine space, $Y$ has $n$ coordinates in $\mathbb{A}^{n}$, for example a circle in $\mathbb{R}^{2}$ has two coordinates $(x,y)$. If there exists a morphism from $X$ to $Y$, then $f$ can pull-back there coordinate functions, for coordinates are nothing but regular functions $Y\to k$. This motivates the following proposition.
+
+Given a map 
+$$
+f: U\to Y,
+$$
+it is a morphism if and only if there exists $n$ regular functions 
+$$
+f_ {i} \in \mathcal{O}_ {X}(U)
+$$
+such that
+$$
+f=(f_{1},\dots,f_ {n}) : x\mapsto(f_{1}(x),\dots,f_ {n}(x))
+$$
+where $(f_{1}(x),\dots,f_ {n}(x))$ denotes a point in $Y$ with coordinates given by these $f$s. 
+
+The prove can be found elsewhere.
+
+As a corollary, a morphism to $\mathbb{A}^{1}$ is just a regular function. 
+
+### Principal Open Subsets are Affine Varieties
+
+The title is rather confusing, since by definition varieties are closed sets, and principal open subsets $U_ {f}$ are, as the name suggests, open. How can they be the same thing? The answer is that, to make a principal open set into a closed affine variety, we need to increase the dimension of the embedding affine space by $1$. 
+
+Let $X=(X,\mathcal{O}_ {X}$ be an affine space and $f\in\mathcal{O}(X)$ some function of $X$. The principal open subset 
+$$
+U_ {f} = X - V(f)
+$$
+is an affine variety with coordinate algebra $\mathcal{O}(X)_ {f}$.
+
+To see this, let's introduce a new dimension of affine space and let the coordinate be $t$. Define 
+$$
+Y = \left\{ (x,t)\in X\times \mathbb{A}^{1} \,\middle\vert\, tf(x)=1 \right\} 
+$$
+which is closed in the higher-dimensional affine space since it is the vanishing set of $t f(x)-1$. This is a well-defined map $U_ {f}\to X\times\mathbb{A}^{1}$ since $f(x)\neq 0$ on $U_ {f}$ by construction.
+
