@@ -46,3 +46,13 @@ $$
 $$
 means that if $R$ is a integral domain, then $as'-a's$ itself must be zero since there are no zero devisors. $u$ should not be $0$ or we will get a trivial localization. 
 
+There is a natural isomorphic map from $R$ to $S^{-1}R$ defined by $\iota : a\mapsto a / 1$. Surprisingly the map is not always injective, it is only so when $S$ does not contain zero divisors. To see it, take a look at the kernel of $\iota$,
+$$
+\text{ker }(\iota) = \left\{ a\in R \,\middle\vert\, \frac{a}{1}=\frac{0}{1} \right\}, 
+$$
+the equivalence relations says that the equal sign holds if there exists non-zero $u\in S$ such that 
+$$
+u(a\cdot 1-1\cdot 0)=ua=0,
+$$
+namely if $u$ is a zero divisor. By the way, $S$ contains zero divisors does **not** necessarily means that $S$ contains zero itself, think about it. 
+
