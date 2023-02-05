@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-2-4-Basic-Cumutative-Algebra-Class-7.md",
+                "file": "_posts/2023-2-4-Basic-Cumutative-Algebra-Class-7.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-2-4-Basic-Cumutative-Algebra-6.md",
+                "file": "_posts/2023-2-4-Basic-Cumutative-Algebra-Class-7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-2-4-Basic-Cumutative-Algebra-6.md",
+                "file": "_posts/2023-2-4-Basic-Cumutative-Algebra-Class-7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-2-4-Basic-Cumutative-Algebra-6.md"
+                "file": "_posts/2023-2-4-Basic-Cumutative-Algebra-Class-7.md"
               }
             }
           }
@@ -149,10 +150,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bbcd9f0dece991c3",
+  "active": "1bac8ff3bce84332",
   "lastOpenFiles": [
-    "_drafts/2023-2-4-Basic-Cumutative-Algebra-Class-7.md",
     "_posts/2023-2-4-Basic-Cumutative-Algebra-6.md",
+    "_posts/2023-2-4-Basic-Cumutative-Algebra-Class-7.md",
     "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
     "_drafts/2023-2-5-Montesquieu.md",
     "_posts/2023-2-2-Basic-Cumutative-Algebra-5.md",

@@ -35,9 +35,8 @@ The first thing to notice is that $\mathcal{O} _ {X}$ is not itself a ring, but 
 Let $X\subset\mathbb{A}^{n}_ {k}$ be an algebraic set, a subset of n-dimensional affine space of field $k$. Let $U\subsetneq X$ be an `open` subset of $X$. We consider the assignment  
 $$
 \begin{align}
-U &\mapsto \mathcal{O}_ {X}(U)=: \mathcal{O}(U), \\
+U &\mapsto \mathcal{O} _ X(U)=: \mathcal{O}(U), \\
  \mathcal{O}(U)&=\left\{  \phi: U\to k \,\middle\vert \,  \phi =\frac{f}{g},f\in \mathcal{O}(X),g\in \mathcal{O}(X) \text{ and } g\neq 0\text{ on }U\right\}
-
 \end{align}
 $$
 where $=:$ means the right hand side is defined by the left hand side. $\mathcal{O}(U)$ is also a $k$-algebra. In the following we list some properties of the ring of regular functions on open sets.
