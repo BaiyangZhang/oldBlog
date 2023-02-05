@@ -74,9 +74,9 @@ $$
 $$
 a \notin {\frak p} \text{ and } b\notin {\frak p} \implies a\cdot p\notin {\frak p}.
 $$
-  We can go on and localize $R$ at $S$, the resulting ring is denoted $R_{{\frak p}}$, called the localization of $R$ at the prime ideal ${\frak p}$. 
+  We can go on and localize $R$ at $S$, the resulting ring is denoted $R_{\frak p}$, called the localization of $R$ at the prime ideal ${\frak p}$. 
   
-  Note the potential confusion between two similar but opposite concepts, the localization at an element and at a prime ideal. The localization of an element $R_{a}$ means $a$ is made inversible in $R_{a}$, however the localization of a prime ideal means that everything **but** the prime ideal ${\frak p}$ is made inversible in $R_{{\frak p}}$.
+  Note the potential confusion between two similar but opposite concepts, the localization at an element and at a prime ideal. The localization of an element $R_{a}$ means $a$ is made inversible in $R_{a}$, however the localization of a prime ideal means that everything **but** the prime ideal ${\frak p}$ is made inversible in $R_{\frak p}$.
 
 - - -
 
@@ -104,7 +104,7 @@ This bijections contains two sides of information. On the one hand, if $J$ is a 
 $$
 J \to \sigma^{-1}(J)
 $$
-is a bijection between the prime ideals in $R_{{\frak p}}$, or $S^{-1}R$, and the prime ideals contained in ${\frak p}$. 
+is a bijection between the prime ideals in $R_{\frak p}$, or $S^{-1}R$, and the prime ideals contained in ${\frak p}$. 
 
 Note that an ideal contained in ${\frak p}$ just means the ideal does not intersect $R-{\frak p}=S$.
 
@@ -112,12 +112,12 @@ Note that an ideal contained in ${\frak p}$ just means the ideal does not inters
 
 A ring is called a `local ring` if it has exactly one maximal ideal. 
 
-Local rings has a close relation between the localization of a ring at the prime ideals. Let ${\frak p}\subset R$ be a prime ideal, the localization of $R$ at ${\frak p}$, or $R_{{\frak p}}$ is a local ring, with maximal ideal
+Local rings has a close relation between the localization of a ring at the prime ideals. Let ${\frak p}\subset R$ be a prime ideal, the localization of $R$ at ${\frak p}$, or $R_{\frak p}$ is a local ring, with maximal ideal
 $$
-\frac{{\frak p}}{R-{\frak p}}:=\left\{ \frac{p}{r} \,\middle\vert\, p\in {\frak p},\,r\in R-{\frak p} \right\} .
+\frac{\frak p}{R-{\frak p}}:=\left\{ \frac{p}{r} \,\middle\vert\, p\in {\frak p},\,r\in R-{\frak p} \right\} .
 $$
 
-To have a feeling about this, consider a maximal ideal $M$ in $R_{{\frak p}}$. Since maximal ideals are automatically prime ideals, we knwo that $\sigma^{-1}(M)$ is a prime ideal in $R$ that is contained in ${\frak p}$, furthermore, since $\sigma$ and its inverse respects inclusion, namely respects the order between sets, $M$ being the maximal ideal means that $\sigma^{-1}(M)$ must be the biggest ring contained in ${\frak p}$, namely ${\frak p}$ itself, ${\frak p}=\sigma^{-1}(M)$. This means that $M=\sigma({\frak p})$, which is nothing but ${\frak p} / (R-{\frak p})$.
+To have a feeling about this, consider a maximal ideal $M$ in $R_{\frak p}$. Since maximal ideals are automatically prime ideals, we knwo that $\sigma^{-1}(M)$ is a prime ideal in $R$ that is contained in ${\frak p}$, furthermore, since $\sigma$ and its inverse respects inclusion, namely respects the order between sets, $M$ being the maximal ideal means that $\sigma^{-1}(M)$ must be the biggest ring contained in ${\frak p}$, namely ${\frak p}$ itself, ${\frak p}=\sigma^{-1}(M)$. This means that $M=\sigma({\frak p})$, which is nothing but ${\frak p} / (R-{\frak p})$.
 
 Returning to the case of an affine variety $X,\mathcal{O}(X)$ and a point $a\in X$. We will use this to shed light on the `stalk` denoted $\mathcal{O}_{X,a}$. 
 
