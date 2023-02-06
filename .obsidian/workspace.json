@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-2-6-Basic-Cumutative-Algebra-9.md",
+                "file": "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dcd95ed06920be83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-2-6-Basic-Cumutative-Algebra-10.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-2-6-Basic-Cumutative-Algebra-9.md",
+                "file": "_drafts/2023-2-6-Basic-Cumutative-Algebra-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-2-6-Basic-Cumutative-Algebra-9.md",
+                "file": "_drafts/2023-2-6-Basic-Cumutative-Algebra-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-2-6-Basic-Cumutative-Algebra-9.md"
+                "file": "_drafts/2023-2-6-Basic-Cumutative-Algebra-10.md"
               }
             }
           }
@@ -150,13 +162,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4ea9340bc95a7d71",
+  "active": "dcd95ed06920be83",
   "lastOpenFiles": [
+    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
+    "_posts/2023-2-6-Basic-Cumutative-Algebra-9.md",
     "_posts/2023-2-6-Basic-Cumutative-Algebra-8.md",
-    "_drafts/2023-2-6-Basic-Cumutative-Algebra-9.md",
     "_posts/2023-2-4-Basic-Cumutative-Algebra-Class-7.md",
     "_posts/2023-2-4-Basic-Cumutative-Algebra-6.md",
-    "_drafts/2022-11-17-Basic-Cumutative-Algebra-n.md",
     "_drafts/2023-2-5-Montesquieu.md",
     "_posts/2023-2-2-Basic-Cumutative-Algebra-5.md",
     "_posts/2023-2-1-Minkowski Space.md",
