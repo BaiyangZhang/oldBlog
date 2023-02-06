@@ -83,3 +83,15 @@ The question is, given any ideal in $R$, is there always a bigger ideal in $R'$ 
 
 - - -
 
+We state without proof the `lying over` property. 
+
+Let $R\subset R'$ be an `integral` ring extension. If $P\subset R$ is a prime ideal, then there exists a prime ideal $P'$ in $R'$ such that $P'\cap R=P$. We say that $P'$ `lies over` $P$. 
+
+The uniqueness of lying over ideals, or at least a weak version of it, is given by the non-containment condition. 
+
+**Proposition.** If $P$ is a prime ideal in $R$ and $P',Q'$ two prime ideals in $R'$ lying over $P$, then neither $P'$ is contained in $Q'$ nor $Q'$ is contained in $P'$.
+
+As a result,
+- A prime ideal $P'\subset R'$ is maximal if and only if $P'\cap R$ is maximal in $R$.
+- If $R$ and $R'$ are integral domains, then either both or none are fields. It means that you can't take a integral domain and find an integral extension of it which is also a field.
+
