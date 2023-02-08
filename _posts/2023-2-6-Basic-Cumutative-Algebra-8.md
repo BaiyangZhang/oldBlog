@@ -91,7 +91,7 @@ The uniqueness of lying over ideals, or at least a weak version of it, is given 
 
 **Proposition.** If $P$ is a prime ideal in $R$ and $P',Q'$ two prime ideals in $R'$ lying over $P$, then neither $P'$ is contained in $Q'$ nor $Q'$ is contained in $P'$.
 
-As a result,
+Consequently,
 - A prime ideal $P'\subset R'$ is maximal if and only if $P'\cap R$ is maximal in $R$.
 - If $R$ and $R'$ are integral domains, then either both or none are fields. It means that you can't take a integral domain and find an integral extension of it which is also a field.
 
