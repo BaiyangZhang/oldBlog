@@ -1,6 +1,6 @@
 ---
 layout:     post   				                    # 使用的布局（不需要改）
-title:      Basic Commutative Algebra Class 9		# 标题 
+title:      Basic Algebraic Geometry Class 9		# 标题 
 subtitle:   Dimension 
 date:       2023-2-6 				# 时间
 author:     Baiyang Zhang 						# 作者

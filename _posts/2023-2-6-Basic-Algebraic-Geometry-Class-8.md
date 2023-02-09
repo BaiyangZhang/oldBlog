@@ -1,6 +1,6 @@
 ---
 layout:     post   				                    # 使用的布局（不需要改）
-title:      Basic Commutative Algebra Class 8		# 标题 
+title:      Basic Algebraic Geometry Class 8		# 标题 
 subtitle:   Integral Ring Extension
 date:       2023-2-6 				# 时间
 author:     Baiyang Zhang 						# 作者

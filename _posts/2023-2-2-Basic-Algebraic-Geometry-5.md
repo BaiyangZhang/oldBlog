@@ -1,6 +1,6 @@
 ---
 layout:     post   				                    # 使用的布局（不需要改）
-title:      Basic Commutative Algebra Class 5		# 标题 
+title:      Basic Algebraic Geometry Class 5		# 标题 
 subtitle:   Zariski Topology
 date:       2023-2-2 				# 时间
 author:     Baiyang Zhang 						# 作者

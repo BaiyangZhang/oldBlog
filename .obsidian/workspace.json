@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-2-7-Basic-Cumutative-Algebra-10.md",
+                "file": "_posts/2023-2-7-Basic-Algebraic-Geometry-Class-10.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-2-8-Basic-Cumutative-Algebra-11.md",
+                "file": "_posts/2023-2-8-Basic-Algebraic-Geometry-11.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-2-5-Montesquieu.md",
+                "file": "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b5f57e1b22b285b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef50bf96d47fb5cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-2-10-Basic-Algebraic-Geometry-Class-12.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -123,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-2-5-Montesquieu.md",
+                "file": "_drafts/2023-2-10-Basic-Algebraic-Geometry-Class-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-2-5-Montesquieu.md",
+                "file": "_drafts/2023-2-10-Basic-Algebraic-Geometry-Class-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-2-5-Montesquieu.md"
+                "file": "_drafts/2023-2-10-Basic-Algebraic-Geometry-Class-12.md"
               }
             }
           }
@@ -174,17 +198,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dcd95ed06920be83",
+  "active": "ef50bf96d47fb5cd",
   "lastOpenFiles": [
-    "_posts/2023-2-7-Basic-Cumutative-Algebra-10.md",
-    "_drafts/2023-2-8-Basic-Cumutative-Algebra-11.md",
-    "_drafts/2023-12-1-Frankel.md",
-    "_posts/2023-2-1-Minkowski Space.md",
-    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
-    "_drafts/2023-11-17-Basic-Cumutative-Algebra-n.md",
-    "_posts/2023-2-6-Basic-Cumutative-Algebra-8.md",
-    "_drafts/2023-2-5-Montesquieu.md",
-    "_posts/2023-2-6-Basic-Cumutative-Algebra-9.md",
-    "_posts/2023-2-4-Basic-Cumutative-Algebra-Class-7.md"
+    "_posts/2023-2-2-Basic-Algebraic-Geometry-5.md",
+    "_posts/2023-2-4-Basic-Algebraic-Geometry-6.md",
+    "_posts/2023-2-4-Basic-Algebraic-Geometry-Class-7.md",
+    "_posts/2023-2-6-Basic-Algebraic-Geometry-Class-8.md",
+    "_posts/2023-2-6-Basic-Algebraic-Geometry-Class-9.md",
+    "_posts/2023-2-7-Basic-Algebraic-Geometry-Class-10.md",
+    "_posts/2023-2-8-Basic-Algebraic-Geometry-11.md",
+    "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
+    "_drafts/2023-2-10-Basic-Algebraic-Geometry-Class-12.md",
+    "_posts/2022-11-25-Basic-Cumutative-Algebra-4.md"
   ]
 }

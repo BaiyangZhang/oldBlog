@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Fibre Bundles			# 标题 
 subtitle:   
-date:       2023-1-14 				# 时间
+date:       2023-2-14 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/mathArt7.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -57,7 +57,7 @@ This is the so-called `local trivialization` of the fiber bundle. We can think o
 
 There also exists a Lie group $G$ called the `structure group`, which acts on $F$ **on the left**. For example, if $F$ is $\mathbb{R}$, the structure group could be the group of translation.
 
-In geometry we can usually "glue" together simple pieces to construct a more complicated object, the simple pieces are usually topologically trivial while the global object has some nontrivial topological properties. For example we can glue two rectangles together to make a Mobius strip. Here we can do the same, the thing we glue together is the fibre. The "gluing" operation is realized by `transition functions`.  Note that $\psi^{-1}_{x}$, namely the trivialization with the base point $x$ fixed, is a map from $F_{x}\to F$, mapping a point on the   Given two charts $U_{\alpha},U_{\beta}$ both containing $x$, there exists a transition function $t_{\alpha \beta}$ such that $t_{\alpha \beta}F_{x}$
+In geometry we can usually "glue" together simple pieces to construct a more complicated object, the simple pieces are usually topologically trivial while the global object has some nontrivial topological properties. For example we can glue two rectangles together to make a Mobius strip. Here we can do the same, the thing we glue together is the fibre. The "gluing" operation is realized by `transition functions`.  Note that $\psi^{-1}_ {x}$, namely the trivialization with the base point $x$ fixed, is a map from $F_ {x}\to F$, mapping a point on the   Given two charts $U_ {\alpha},U_ {\beta}$ both containing $x$, there exists a transition function $t_{\alpha \beta}$ such that $t_{\alpha \beta}F_{x}$
 
 
 

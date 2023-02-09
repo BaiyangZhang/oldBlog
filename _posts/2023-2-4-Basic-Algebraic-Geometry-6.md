@@ -1,6 +1,6 @@
 ---
 layout:     post   				                    # 使用的布局（不需要改）
-title:      Basic Commutative Algebra Class 6		# 标题 
+title:      Basic Algebraic Geometry Class 6		# 标题 
 subtitle:   Affine Varieties
 date:       2023-2-4 				# 时间
 author:     Baiyang Zhang 						# 作者
