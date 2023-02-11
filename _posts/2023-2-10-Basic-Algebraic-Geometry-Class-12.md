@@ -2,7 +2,7 @@
 layout:     post   				                    # 使用的布局（不需要改）
 title:      Basic Algebraic Geometry Class 12		# 标题 
 subtitle:   Projective varieties
-date:       2022-2-10 				# 时间
+date:       2023-2-10 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/mathArt8.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
