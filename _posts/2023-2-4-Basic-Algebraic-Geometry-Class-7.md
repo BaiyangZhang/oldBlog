@@ -16,9 +16,9 @@ tags:								#标签
 
 Localization is a technique used in commutative algebra in both algebra and geometry. In geometry it is used when we want to look at points in varieties locally, hence the name. 
 
-Let $R$ be a ring (commutative, unital). The general idea is that, given a certain subset $S\subset R$, we want to introduce the invers of $S$, namely the inverse of all the elements $s\in S$, into $R$. In other words, we want to `division` by $S$. 
+Let $R$ be a ring (commutative, unital). The general idea is that, given a certain subset $S\subset R$, we want to introduce the inverse of $S$, namely the inverse of all the elements $s\in S$, into $R$. In other words, we want the `division` by $S$. 
 
-As a motivating example, look at the ring of integers $\mathbb{Z}$. Let $S$ be the non-zero integers, $S = \mathbb{Z}-0$. Inverting all elements of $S$ one obtains the ring of rational numbers $\mathbb{Q}$, or the field of rational numbers since all the elements are invertible. Formally, a rational number can be considered as a pair of integers $(a,s)$ where $a\in\mathbb{Z}$ and $s\in S$, plus the equivalence relation
+As a motivative example, look at the ring of integers $\mathbb{Z}$. Let $S$ be the non-zero integers, $S = \mathbb{Z}-0$. Inverting all elements of $S$ one obtains the ring of rational numbers $\mathbb{Q}$, or the field of rational numbers since all the elements are invertible. Formally, a rational number can be considered as a pair of integers $(a,s)$ where $a\in\mathbb{Z}$ and $s\in S$, plus the equivalence relation
 $$
 (a,s) \sim (a',s') \iff as'=a's,
 $$
