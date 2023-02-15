@@ -73,4 +73,23 @@ Given an algebraic variety $X$, define $T_ {a}X$ by taking an affine open $U\sub
 
 The problem with this description is that there are a lot of choices one can make. There will be more than one way to choose $U$ and more than one way to choose the imbedding. So is the business independent of all these choices? The answer is luckily yes. 
 
-The trick is to look at the whole thing locally and it become independent of all the choices. 
+The trick is to look at the whole thing locally and it become independent of all the choices. Let's look at the `stalk` $R:=\mathcal{O}_ {X,a}$ at $a\in X$, which is roughly speaking the ring of functions taking different values at $a$. It has a unique maximal ideal ${\frak m}=I_ {a}$, where $I_ {a}$ is the localization of the vanishing ring of point $a$ at the point $a$. Then the quotient 
+$$
+{\frak m} / {\frak m}^{2}
+$$
+is a vector space over field $k$, and its dual is isomorphic to $T_ {a}U$. Intuitively, taking the quotient of ${\frak m}^{2}$ means taking away everything of order higher than one. This is a way of taking limits without taking limits. In calculus one can declare that $\epsilon$ is infinitesimal and take the first order of $\epsilon$ only, in algebraic geometry we can't do it, but we can declare $\epsilon^{2}$ to be zero. As an example, consider the ring $k[t]$, one maximal ideal is ${\frak m}=(T)$, and ${\frak m}^{2}=(T^{2})$, so the quotient is just the vector space spanned by $T$. 
+
+**Theorem.** Let $X\subset\mathbb{A}^{n}$ be an affine variety with $a=(0,\dots,0)$ the origin. The map $f\mapsto f_ {1}$ induces a natural vector isomorphism 
+$$
+I(a) / I^{2}(a) \cong (T_ {a}X)^{\ast },
+$$
+where 
+$$
+I(a) \subset \mathcal{O}_ {X}(X)
+$$
+is the vanishing ideal of $a$. 
+
+- - -
+
+**Definition.** Let $X$ be an algebraic variety and $a\in X$. The `tangent space` $T_ {a}X$ of $X$ at $a$ is the $k$-vector space dual to $I_ {a} / I^{2}_ {a}$, where $I_ {a}$ is the unique maximal idea of $\mathcal{O}_ {X,a}$. 
+
