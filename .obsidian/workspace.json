@@ -102,9 +102,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f1e6543fade9a1ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-2-5-Montesquieu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -171,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-17-Basic-Algebraic-Geometry-Class-14.md",
+                "file": "_drafts/2023-2-5-Montesquieu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-17-Basic-Algebraic-Geometry-Class-14.md",
+                "file": "_drafts/2023-2-5-Montesquieu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-17-Basic-Algebraic-Geometry-Class-14.md"
+                "file": "_drafts/2023-2-5-Montesquieu.md"
               }
             }
           }
@@ -222,17 +234,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3fe57efa857af957",
+  "active": "f1e6543fade9a1ab",
   "lastOpenFiles": [
+    "_drafts/2023-2-19-The-Geometry-of-Surfaces-in-R3.md",
+    "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
+    "_drafts/2023-12-1-Frankel.md",
+    "_drafts/2023-2-14-Fibre-Bundles.md",
+    "_drafts/2023-2-5-Montesquieu.md",
     "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md",
+    "_posts/2023-11-17-Basic-Algebraic-Geometry-Class-14.md",
     "_posts/2023-2-4-Basic-Algebraic-Geometry-Class-7.md",
     "_posts/2023-2-6-Basic-Algebraic-Geometry-Class-8.md",
-    "_posts/2023-2-7-Basic-Algebraic-Geometry-Class-10.md",
-    "_posts/2023-2-6-Basic-Algebraic-Geometry-Class-9.md",
-    "_posts/2023-2-4-Basic-Algebraic-Geometry-6.md",
-    "_posts/2023-2-2-Basic-Algebraic-Geometry-5.md",
-    "_posts/2023-11-17-Basic-Algebraic-Geometry-Class-14.md",
-    "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
-    "_drafts/2023-12-1-Frankel.md"
+    "_posts/2023-2-7-Basic-Algebraic-Geometry-Class-10.md"
   ]
 }

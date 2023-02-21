@@ -12,3 +12,4 @@ tags:								#标签
     - Notes
 ---
 
+*Disclaimer: Nothing in this note is original.*
