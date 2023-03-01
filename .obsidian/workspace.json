@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-3-5-Montesquieu.md",
+                "file": "_drafts/2023-11-22-Confinement-in-Toy-Models-II.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -183,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-3-5-Montesquieu.md",
+                "file": "_drafts/2023-11-22-Confinement-in-Toy-Models-II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-3-5-Montesquieu.md",
+                "file": "_drafts/2023-11-22-Confinement-in-Toy-Models-II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-3-5-Montesquieu.md"
+                "file": "_drafts/2023-11-22-Confinement-in-Toy-Models-II.md"
               }
             }
           }
@@ -236,15 +235,15 @@
   },
   "active": "3fe57efa857af957",
   "lastOpenFiles": [
-    "_posts/2023-11-17-Basic-Algebraic-Geometry-Class-14.md",
-    "_posts/2023-1-13-Colemen-Weinberg-Potential.md",
-    "_drafts/2023-3-5-Montesquieu.md",
-    "Untitled 1.md",
     "_drafts/2023-2-19-The-Geometry-of-Surfaces-in-R3.md",
     "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
-    "_drafts/2023-12-1-Frankel.md",
-    "_drafts/2023-2-14-Fibre-Bundles.md",
-    "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md",
-    "_posts/2023-2-4-Basic-Algebraic-Geometry-Class-7.md"
+    "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-n.md",
+    "_drafts/2022-11-24-Aspects-of-Symmetry.md",
+    "_drafts/2023-11-22-Confinement-in-Toy-Models-II.md",
+    "_drafts/2022-11-12-Duality-Part-I.md",
+    "_drafts/2022-10-3-共和国史笔记.md",
+    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
+    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
+    "_drafts/paperDrafts/Renormalization method in PDF.md"
   ]
 }
