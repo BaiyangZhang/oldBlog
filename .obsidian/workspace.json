@@ -97,7 +97,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-3-3-The-Geometry-of-Surfaces-in-R3.md",
+                "file": "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b22109597e68e9b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -166,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -183,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-3-3-The-Geometry-of-Surfaces-in-R3.md",
+                "file": "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-3-3-The-Geometry-of-Surfaces-in-R3.md",
+                "file": "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-3-3-The-Geometry-of-Surfaces-in-R3.md"
+                "file": "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md"
               }
             }
           }
@@ -234,17 +245,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3fe57efa857af957",
+  "active": "b22109597e68e9b2",
   "lastOpenFiles": [
-    "_drafts/2023-3-5-Montesquieu.md",
     "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
-    "_drafts/2023-11-22-Confinement-in-Toy-Models-II.md",
     "_posts/2023-11-17-Basic-Algebraic-Geometry-Class-14.md",
+    "_drafts/2023-3-3-The-Geometry-of-Surfaces-in-R3.md",
+    "_drafts/2023-3-5-Montesquieu.md",
+    "_drafts/2023-11-22-Confinement-in-Toy-Models-II.md",
     "_drafts/2022-11-12-Duality-Part-I.md",
     "_drafts/2022-11-24-Aspects-of-Symmetry.md",
     "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
     "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md",
-    "_drafts/2023-2-14-Fibre-Bundles.md",
-    "_drafts/2023-3-3-The-Geometry-of-Surfaces-in-R3.md"
+    "_drafts/2023-2-14-Fibre-Bundles.md"
   ]
 }
