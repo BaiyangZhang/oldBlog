@@ -4,131 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0addf6b90ed9fbf9",
+        "id": "cac5455a50ebc836",
         "type": "tabs",
         "children": [
           {
-            "id": "4ea9340bc95a7d71",
+            "id": "fbbadfd97fb69428",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-2-1-Minkowski Space.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a69faea4aa64c834",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-2-7-Basic-Algebraic-Geometry-Class-10.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e979a6f2789458d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-2-8-Basic-Algebraic-Geometry-11.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcd95ed06920be83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b5f57e1b22b285b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef50bf96d47fb5cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f33bb247ec7a6ee0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fe57efa857af957",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b22109597e68e9b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f1e6543fade9a1ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-1-13-Colemen-Weinberg-Potential.md",
+                "file": "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -194,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
+                "file": "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
+                "file": "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md"
+                "file": "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md"
               }
             }
           }
@@ -245,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b22109597e68e9b2",
+  "active": "fbbadfd97fb69428",
   "lastOpenFiles": [
-    "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
-    "_posts/2023-11-17-Basic-Algebraic-Geometry-Class-14.md",
-    "_drafts/2023-3-3-The-Geometry-of-Surfaces-in-R3.md",
-    "_drafts/2023-3-5-Montesquieu.md",
-    "_drafts/2023-11-22-Confinement-in-Toy-Models-II.md",
+    "_posts/2023-1-13-Thermodynamics-in-Terms-of-Foliations.md",
+    "_posts/2022-7-17-Conventions-and-Formula.md",
     "_drafts/2022-11-12-Duality-Part-I.md",
-    "_drafts/2022-11-24-Aspects-of-Symmetry.md",
-    "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
-    "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md",
-    "_drafts/2023-2-14-Fibre-Bundles.md"
+    "_drafts/2023-2-14-Fibre-Bundles.md",
+    "_drafts/2023-11-22-Confinement-in-Toy-Models-II.md",
+    "_drafts/2023-12-1-Frankel.md",
+    "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-n.md",
+    "_posts/2022-12-15-《师哲回忆录》.md",
+    "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
+    "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md"
   ]
 }

@@ -89,7 +89,7 @@ where $x_{0}$ is the center position of the wave packet and $b$ the width. The r
 $$
 \tilde{\Phi}_{0}(p) = \int dx \, \Phi_{0}(x) e^{ -ipx },
 $$
-for the convention refer to note [[2022-10-17-Conventions-and-Formula]]. We have 
+for the convention refer to note [[2022-7-17-Conventions-and-Formula]]. We have 
 $$
 \tilde{\Phi}_{0}(p) = \sqrt{ 2\pi }b \exp \left\{ -\frac{b^2}{2}(p-k_{0})^{2}-ipx_{0} \right\} .
 \tag{2}

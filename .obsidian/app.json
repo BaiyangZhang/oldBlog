@@ -13,5 +13,6 @@
   "spellcheckLanguages": [
     "en-US"
   ],
-  "livePreview": true
+  "livePreview": true,
+  "alwaysUpdateLinks": true
 }
