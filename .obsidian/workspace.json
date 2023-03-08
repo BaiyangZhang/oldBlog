@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "92cebb9eb76b9765",
+        "id": "42fcb500d876ad73",
         "type": "tabs",
         "children": [
           {
@@ -14,8 +14,19 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "1a60f5f3792211df",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -128,14 +140,53 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "957cfa2362e38596",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1a60f5f3792211df",
   "lastOpenFiles": [
+    "img/lib9.jpg",
+    "img/lib8.jpg",
+    "img/lib7.jpg",
+    "img/lib6.jpg",
+    "img/lib5.jpg",
+    "img/lib4.jpg",
+    "img/lib19.jpg",
+    "img/lib18.jpg",
+    "img/lib17.jpg",
+    "img/lib16.jpg",
+    "img/lib14.jpg",
+    "_posts/2022-7-17-Conventions-and-Formula.md",
+    "Untitled 2.md",
+    "_posts/2023-2-8-Basic-Algebraic-Geometry-11.md",
+    "_posts/2023-2-7-Basic-Algebraic-Geometry-Class-10.md",
+    "_posts/2023-2-6-Basic-Algebraic-Geometry-Class-9.md",
+    "_posts/2023-2-6-Basic-Algebraic-Geometry-Class-8.md",
+    "_posts/2023-2-4-Basic-Algebraic-Geometry-Class-7.md",
+    "_posts/2023-2-4-Basic-Algebraic-Geometry-6.md",
+    "_posts/2023-2-2-Basic-Algebraic-Geometry-5.md",
+    "_posts/2023-2-10-Basic-Algebraic-Geometry-Class-13.md",
+    "_posts/2023-2-10-Basic-Algebraic-Geometry-Class-12.md",
+    "_posts/2023-2-1-Minkowski Space.md",
+    "_posts/2023-11-17-Basic-Algebraic-Geometry-Class-14.md",
+    "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
+    "_drafts/2023-3-5-Montesquieu.md",
+    "_drafts/2023-3-3-The-Geometry-of-Surfaces-in-R3.md",
+    "_drafts/2023-2-14-Fibre-Bundles.md",
+    "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-n.md",
+    "_drafts/2023-12-1-Frankel.md",
+    "_drafts/2023-11-22-Confinement-in-Toy-Models-II.md",
+    "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
+    "Untitled 1.md",
     "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
     "_drafts/2022-10-12-罗马人的一天笔记.md",
-    "1.md",
-    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
-    "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
-    "_drafts/2022-08-02-Basic-Measure-Theory-Part-II.md",
-    "_drafts/2022-10-3-共和国史笔记.md"
+    "1.md"
   ]
 }
