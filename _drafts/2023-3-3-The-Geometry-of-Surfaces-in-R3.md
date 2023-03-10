@@ -75,7 +75,74 @@ be the unit normal to $M^{2}$ at a point $(u^{1},u^{2})$. Given any tangent vect
 $$
 \frac{d}{dt} \mathbf{N} = \frac{ \partial \mathbf{N} }{ \partial u^{i} } \frac{du^{i}}{dt} =: \mathbf{N}_ {i} \frac{du^{i}}{dt} = \mathbf{N}_ {i} \mathbf{X}^{i}.
 $$
-The assignment 
+The assignment (The minus sign being conventional)
 $$
-\mathbf{X} \mapsto 
+\mathbf{X} \mapsto - \mathbf{N}_ {i} \mathbf{X}^{i} =: b(\mathbf{X})
 $$
+defines a linear transformation
+$$
+b: TM^{2} \to TM^{2}.
+$$
+
+Its matrix form $b^{\alpha}\, _{\beta}$  in the basis $\mathbf{x}_ {\alpha}$ works as 
+$$
+b(\mathbf{x}_ {\beta}) = \mathbf{x}_ {\alpha} b^{\alpha} _ {\beta} = -\mathbf{N}_ {\beta}.
+$$
+These are called the `Weingarten equations`.
+
+The bilinear form $B$ associated to $b$ is given by
+$$
+B(X,Y) = \left\langle X,b(Y) \right\rangle,
+$$
+as a tensor, $B$ is given by the `second fundamental form`
+$$
+-\left\langle d\mathbf{x},d\mathbf{N} \right\rangle =-\left\langle \mathbf{x}_ {\alpha},\mathbf{N}_ {\beta} \right\rangle du^{\alpha}\otimes du^{\beta} .
+$$
+
+After some derivation we find that, along a curve $u(t)$, the change of the normal vector is given by the second fundamental form 
+$$
+\frac{d\mathbf{N}}{dt} = -\mathbf{x}_ {\alpha} b^{\alpha}_ {\beta} \left( \frac{du^{\beta}}{dt} \right).
+$$
+For example, if $b=0$ then $d\mathbf{N} / dt=0$, the space is flat.
+
+We may write for the second fundamental form 
+$$
+B = b_ {\alpha \beta}du^{\alpha}du^{\beta}
+$$
+where 
+$$
+b_ {\alpha \beta}=g_ {\alpha \gamma}b^{\gamma}_ {\beta}.
+$$
+We shall exhibit a more useful form to calculate $b_ {\alpha \beta}$. Put
+$$
+\mathbf{x}_ {\alpha \beta} := \frac{ \partial ^2\mathbf{x} }{ \partial u^{\alpha}\partial u^{\beta} }.
+$$
+Since $\mathbf{N}$ is normal thus $\mathbf{x}_ {\alpha} \cdot \mathbf{N}=0$, and 
+$$
+0= \frac{ \partial  }{ \partial u^{\beta} } \left\langle \mathbf{x}_ {\alpha},\mathbf{N} \right\rangle = \left\langle \mathbf{x}_ {\alpha \beta},\mathbf{N} \right\rangle+\left\langle \mathbf{x}_ {\alpha},\mathbf{N}_ {\beta} \right\rangle   =\left\langle \mathbf{x}_ {\alpha \beta},\mathbf{N} \right\rangle -b_ {\alpha \beta},
+$$
+that is, 
+$$
+\boxed{
+\left\langle \mathbf{x}_ {\alpha \beta},\mathbf{N} \right\rangle = b_ {\alpha \beta}
+}
+$$
+which is the formular to calculate $b_ {\alpha \beta}$. We can also see that $b_ {\alpha \beta}$ is symmetric w.r.t. $\alpha$ and $\beta$, which means $B$ as a bilinear form is self-adjoint, of which we will say more next.
+
+
+### Gaussian and Mean Curvature
+
+**Symmetry and Self-Adjointness**
+
+In general, let $\hat{a}$ be an operator, then the `adjoint` of $\hat{a}$, denoted $\hat{a}^\ast$, is another operator defined by 
+$$
+\left\langle X,\hat{a}Y \right\rangle =\left\langle \hat{a}^\ast X,Y \right\rangle .
+$$
+If $\hat{a}=\hat{a}^\ast$ then $\hat{a}$ is said to be `self-adjoint`. In terms of bilinear form $A$ associated with $\hat{a}$, $A$ is self-adjoint provided
+$$
+A(X,Y) = \left\langle X,\hat{a}Y \right\rangle  = \left\langle \hat{a}X,Y \right\rangle = \left\langle Y,\hat{a}X \right\rangle  = A(Y,X).
+$$
+That is, **the linear transformation (operator) $\hat{a}$ is self-adjoint iff the associated bilinear form $A$ is symmetric.** 
+
+Note that when we say $A$ is symmetric, in terms of coordinates we are saying $A_ {\alpha \beta}=A_ {\beta \alpha}$, note the position of the indices! They must all be downstairs, or up-stairs, it doesn't matter, as long as they are at the same position! It doesn't make sense to say that two indices at different positions are symmetric or not. The reason is that, *only when the two indices are both up-stairs or down-stairs, then their symmetry is independent of the choice of basis*.
+
