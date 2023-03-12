@@ -436,6 +436,11 @@ We say that a local mapping $\phi: M\to V$ of Riemannian manifolds is a `local i
 Coming back to surfaces in 3D space, we have 
 **Gauss's Theorema Egregium.** The Gauss curvature
 $$
-K = \kappa_ {1} \kappa_ {2} = R^{12}\\_ {12}
+K = \kappa_ {1} \kappa_ {2} = R^{12}\,_ {12}
 $$
-is an `isometry invariant`.
+is an `isometry invariant`. *In particular, if a s surface is bent without stretching, then although the principal curvatures $\kappa_{1}$ and $\kappa_{2}$ may change, their product will not!*
+
+Gauss's theorema egregium says that one measure of the curvature of a surface, $K$ can be expressed in terms of an object $R^{12}\,_ {12}$ that is completely determined by the metric tensor of the surface. We call such an object `intrinsic`.
+
+Cartan generalized the notion of intrinsic curvature to general "vector bundles." In Yang-Mills's gauge theories, curvature becomes a measure of the "strength" of the gauge field.
+
