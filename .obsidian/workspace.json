@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-3-3-The-Geometry-of-Surfaces-in-R3.md",
+                "file": "_posts/2023-3-12-The-Geometry-of-Surfaces-in-R3.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-3-3-The-Geometry-of-Surfaces-in-R3.md",
+                "file": "_posts/2023-3-12-The-Geometry-of-Surfaces-in-R3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-3-3-The-Geometry-of-Surfaces-in-R3.md",
+                "file": "_posts/2023-3-12-The-Geometry-of-Surfaces-in-R3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-3-3-The-Geometry-of-Surfaces-in-R3.md"
+                "file": "_posts/2023-3-12-The-Geometry-of-Surfaces-in-R3.md"
               }
             }
           }
@@ -147,10 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1cc135b704daeef3",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
     "Untitled 3.md",
-    "_drafts/2023-3-3-The-Geometry-of-Surfaces-in-R3.md",
+    "_posts/2023-3-12-The-Geometry-of-Surfaces-in-R3.md",
     "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
     "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
     "_drafts/2023-11-22-Confinement-in-Toy-Models-II.md",
