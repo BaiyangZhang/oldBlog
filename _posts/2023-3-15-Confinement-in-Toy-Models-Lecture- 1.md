@@ -75,9 +75,21 @@ A symmetry is said to be spontaneously broken if it is
 
 #### Gauge invariance
 
+The spin system which was just described is an example of a lattice field theory. The points of the lattice are known as `sites`, the lines joining neighboring sites are `links`, and, on a hypercubic lattice, the little squares joined by four connecting links are known as `plaquettes`.
 
+A gauge transformation is a position-dependent transformation of the degrees of freedom, in which the transformation can be chosen independently at each site.
 
+The trick is to associate the dynamical degrees of freedom with the links of the lattice, while the gauge transformation is specified at each site.
 
+The $\mathbb{Z}_ {2}$ gauge symmetry of the lattice Ising model is rather peculiar. The spin is associated to the links $s_ {\mu}(x)$, where $x$ is the site and $\mu$ specifies the direction to which the link goes. The gauge transformation is given by 
+$$
+s_ {\mu}(x) \to s'_ {\mu}(x) = z(x)s_ {\mu}(x) z^{-1} (x+\mu)
+$$
+where $z \in \mathbb{Z}_ {2}$.
+
+**Elitzur’s Theorem.** A local gauge symmetry cannot break spontaneously. The expectation value of any gauge non-invariant local observable must vanish.
+
+We must look, instead, to gauge-invariant observables, which are unaffected by gauge transformations. These can be constructed by taking the product of spins on links around a closed loop C, known as a ‘‘Wilson loop’’.
 
 ### From flat $\mathbb{R}^{4}$ to a cylinder
 
