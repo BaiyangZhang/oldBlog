@@ -91,6 +91,43 @@ where $z \in \mathbb{Z}_ {2}$.
 
 We must look, instead, to gauge-invariant observables, which are unaffected by gauge transformations. These can be constructed by taking the product of spins on links around a closed loop C, known as a ‘‘Wilson loop’’.
 
+#### Possible phases of a gauge theory
+
+Elitzur’s theorem tells us that gauge symmetries do not break spontaneously, in the sense that any *local*, gauge non-invariant observable that could serve as an order parameter must have a vanishing expectation value. There is, nonetheless, a qualitative distinction between different phases of a gauge theory, based on the behavior of large Wilson loops. Let us again consider a large rectangular $R\times T$ loop, with $T\gg R$, we know that 
+$$
+W(C) \sim  e^{ -V(R)T }.
+$$
+
+There are three possibilities:
+
+- **massive phase**. The potential is of the Yukawa type
+  $$
+V(R) = -g^{2} \frac{e^{ -mR }}{R} +2V_{0},
+$$
+where $V_{0}$ is a self-energy term. The Wilson loop falls off at $R> \frac{1}{m}$ as $\exp(-2V_{0}T)$, and 
+$$
+W(C) = e^{ -V_{0} P(C) }
+$$
+where $P(C)$ is the perimeter of loop $C$.
+
+- **massless phase, or Coulomb phase**. The potential looks like 
+  $$
+V(R) = - \frac{g^{2}(R)}{R} +2V_{0}
+$$
+and the Wilson loop still adopts perimeter law. 
+
+- **Confining phase.** The potential is asymptotically linear
+  $$
+V(R) = \sigma R+2V_{0}
+$$
+Then the Wilson loop falls off asymptotically as
+$$
+W(c) \sim \exp[-\sigma A(C)-V_{0}P(C)]
+$$
+and there is an area-law type of falloff.
+
+It is sometimes also called ‘‘magnetic disorder’’ is a terminology inspired by electromagnetism.
+
 ### From flat $\mathbb{R}^{4}$ to a cylinder
 
 We will talk about the physics on four dimensional SU(2) gauge theory with a number $n_ {f}$ of Weyl fermions in the adjoint representation of the gauge group. The spacetime manifold is not flat $\mathbb{R}^{4}$ but instead $\mathbb{R}^{3}\times \mathbb{S}^{1}$. When formulated on $\mathbb{R}^{4}$, the vacuum structure of the theory can not be studied analytically, due to the strong-coupling in infrared energy scale. The $\mathbb{S}^{1}$ dimension has size (circumference) $L$, as we will see for small enough $L$ the theory can be studied using semi-classical methods.
