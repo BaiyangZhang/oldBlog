@@ -14,4 +14,9 @@ tags:								#标签
 
 *Disclaimer: Nothing in this note is original.*
 
-Consider a 
+Consider a surface $M^{2}$ in $\mathbb{R}^{3}$. We then define a `covariant derivative` as follows. Let $\mathbf{v}$ be a tangent field defined in the neighborhood of a point $p$. Let $\mathbf{X}$ be a tangent vector defined at $p$. The covariant derivative is defined by 
+$$
+\nabla_ {\mathbf{X}}\mathbf{v} = \mathbf{X}(\mathbf{v})+\Gamma^{\alpha}_ {\beta \gamma} \mathbf{X}^{\beta} \mathbf{v}^{\gamma}\; \partial _ {\alpha}.
+$$
+
+We have thus constructed the notion of a derivative of a tangent vector field $\mathbf{v}$ with respect to a vector $\mathbf{X}$ at $p$. The result is again a tangent vector at $p$. It is furthermore clear that if $\mathbf{X}$ is itself a tangent vector field, then $\nabla_ {\mathbf{X}}\mathbf{v}$ is again a vector field. 
