@@ -6,7 +6,7 @@
     "pageSize": "A4",
     "landscape": true,
     "margin": "2",
-    "downscalePercent": 75
+    "downscalePercent": 100
   },
   "autoPairMarkdown": true,
   "showLineNumber": true,

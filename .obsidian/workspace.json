@@ -13,50 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-12-1-Frankel.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de20eb5e624f2349",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2023-3-16-Covariant-Differentiation-and-Curvature.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fdeb36b487a3c97c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2023-12-1-Frankel.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b03e5e6de70e1d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2023-3-15-Montesquieu.md",
+                "file": "_posts/2023-3-15-Confinement-in-Toy-Models-Lecture- 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-3-16-Covariant-Differentiation-and-Curvature.md",
+                "file": "_posts/2023-3-15-Confinement-in-Toy-Models-Lecture- 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-3-16-Covariant-Differentiation-and-Curvature.md",
+                "file": "_posts/2023-3-15-Confinement-in-Toy-Models-Lecture- 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-3-16-Covariant-Differentiation-and-Curvature.md"
+                "file": "_posts/2023-3-15-Confinement-in-Toy-Models-Lecture- 1.md"
               }
             }
           }
@@ -184,16 +147,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de20eb5e624f2349",
+  "active": "1cc135b704daeef3",
   "lastOpenFiles": [
-    "_drafts/2023-12-1-Frankel.md",
-    "_drafts/2023-3-16-Covariant-Differentiation-and-Curvature.md",
     "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-.md",
-    "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-n.md",
+    "_drafts/2023-3-13-Confinement-in-Toy-Models-Lecture- 1.md",
     "_posts/2023-3-15-Confinement-in-Toy-Models-Lecture- 1.md",
     "_drafts/2023-3-15-Montesquieu.md",
     "_drafts/2023-3-15-Covariant-Differentiation-and-Curvature.md",
-    "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
+    "_drafts/2023-12-1-Frankel.md",
+    "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-n.md",
     "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
     "_drafts/2022-10-12-罗马人的一天笔记.md",
     "1.md",
