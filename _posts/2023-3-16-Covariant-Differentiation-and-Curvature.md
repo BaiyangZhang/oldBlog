@@ -181,6 +181,34 @@ we have
 $$
 \nabla \nabla\mathbf{e}=\mathbf{e}\theta.
 $$
+It is just the Riemann curvature in disguise, 
+$$
+\theta^{i}_ {\;\; j} = \frac{1}{2} R^{i}_ {\; jrs}\sigma^{r}\wedge \sigma^{s}.
+$$
+
+A manifold that (like $\mathbb{R}^{n}$) can be covered by a single distinguished frame field $\mathbf{e}$ is called `parallelizable`. 
 
 ### Change of Basis and Gauge Transformations
+
+Given a frame $\mathbf{e}$, we can define the connection $\omega^{i}_ {\; jk}$, then we can define the covariant derivative $\nabla$. Here we don't use $\Gamma^{i}_ {\; jk}$ because we save that symbol to Christoffel symbols only, which is a special kink of connection. However, if we demand that $\nabla$ have a basis-free significance, we shall have to require the $\omega$'s to have a special transformation property under a change of basis.
+
+Let $\mathbf{e}' = \mathbf{e} P$ be a change of frame, where $P$ is a $n\times n$ matrix. Then $\nabla \mathbf{e}$ must be compatible to $\nabla\mathbf{e}'$, which yields 
+$$
+\omega' = P^{-1}\omega P+P^{-1}dP.
+$$
+This is the **transformation rule for the matrix of connection $1$-forms**. Look, on the other hand, at the matrix of curvature 2-forms $\theta$. Based on the defining expression for $\theta$, namely $\theta = d\omega+\omega \wedge\omega$, we find that 
+$$
+\theta'=P^{-1}\theta P.
+$$
+This has the following consequence; if $\theta = 0$ in some frame then $\theta'=0$ in every frame! 
+
+We can also patch two charts together, the glue being the `transition matrix function`. Let $e_U$ and $e_ {V}$ be frames in open sets $U$ and $V$, respectively. We then have
+$$
+e_ {V} = e_ {U} C_ {UV}
+$$
+where $C_ {UV}$ is the transition matrix function mentioned above. Then the transition property of $\sigma$ and $v^{i}$ can also be obtained accordingly. The components $\omega$ transform as
+$$
+\omega_ {V} = C_ {VU}\omega_ {U} C_ {UV}+C_ {VU}dC_ {UV} ,
+$$
+just like the gauge transformation, which it is. 
 
