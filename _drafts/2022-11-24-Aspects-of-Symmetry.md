@@ -1,10 +1,10 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:     An extremely short summary			# 标题 
+title:     Notes on Aspects of Symmetry			# 标题 
 subtitle:   
 date:       2022-11-24 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/mathArt2.jpg 	#这篇文章标题背景图片
+header-img: img/lib2.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - Duality
@@ -47,5 +47,13 @@ The LSZ reduction formula connects the time-order correlation function, such as 
 In scattering process, the initial and final particles, together known as the external legs in Feynman diagrams, are eigenstates of the full, interacting Hamiltonian. The formula giving us the scattering amplitudes must reflect that fact. 
 
 S-matrix elements, extrapolated off the mass shell, with every external line multiplied by a propagator, are simply the Fourier transform of the vacuum expectation value of the time-ordered correlation functions.
+
+## Dilatation
+
+Coleman started with the Ward identity. Ward identity tells us that the classically conserved Noether current is not really conserved in the quantum theory, that is, when put in the path integral. There will be contact terms. There are Dirac delta function in it, we can integrate with respect to the whatever coordinate appears in the current, if omit the surface term, then we obtain the zero-energy theorem.
+
+Then let's talk about dilatation, or scale transformation. 
+
+
 
 
