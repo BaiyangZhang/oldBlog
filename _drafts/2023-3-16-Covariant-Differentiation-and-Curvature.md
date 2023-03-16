@@ -143,4 +143,44 @@ In our new notation, if $\mathbf{v}$ is a vector we may write $\mathbf{v} = \mat
 
 #### The Exterior Covariant Differential of a Vector-Valued Form
 
-Let $\alpha$ be a vector-valued p-form. 
+Let $\alpha$ be a vector-valued $p$-form. Fix a frame $\mathbf{e}$, then locally we have 
+$$
+\alpha = \mathbf{e}_ {i} \otimes \alpha^{i}
+$$
+where $\mathbf{e}_ {i}$ are frame basis and $\alpha^{i}$ are $p$-forms. It can be regarded as a vector of p-forms. We define its exterior covariant differential, the vector-valued $(p + 1)$-form $\nabla \alpha$, by demanding a Leibniz rule
+$$
+\nabla \alpha= \nabla \mathbf{e}_ {i} \otimes_ {\wedge } \alpha^{i} + \mathbf{e}_ {i} \otimes  d\alpha^{i}
+$$
+where the notation $\otimes_ {\wedge}$ is defined as follows:
+$$
+\nabla \mathbf{e}_ {i} \otimes _ {\wedge } \alpha^{i} = (\mathbf{e}_ {k}\otimes \omega^{k}_ {\;\; i}) \wedge \alpha^{i} = \mathbf{e}_ {k} \otimes  \omega^{k}_ {\;\; i}\wedge \alpha^{i}.
+$$
+
+In abbreviated notation with the column of $p$-forms we have 
+$$
+\nabla \alpha = \mathbf{e} \otimes (d\alpha+\omega \wedge \alpha).
+$$
+
+When dealing with vector-valued forms, we shall usually use Cartan's device of simply omitting the tensor product sign in equations. Thus the above equation will be written
+$$
+\nabla \alpha = \mathbf{e}(d\alpha+\omega \wedge \alpha).
+$$
+
+
+#### The Curvature 2-Forms
+
+$\nabla\mathbf{e}$ is a row matrix of local vector-valued $1$-forms. We can then take the exterior covariant differential again
+$$
+\nabla \nabla \mathbf{e} = \mathbf{e}(\omega \wedge \omega+d\omega).
+$$
+Thus if we define the local matrix e of `curvature 2-forms` by
+$$
+\theta:= d\omega+\omega \wedge \omega
+$$
+we have 
+$$
+\nabla \nabla\mathbf{e}=\mathbf{e}\theta.
+$$
+
+### Change of Basis and Gauge Transformations
+
