@@ -108,11 +108,11 @@ $$
 $$
 which maps each element of $A$ to a n-tuple. 
 
-Let's take a look at the kernel of $\phi$, which is comprised of the elements that are send to zero in the product ring. Take a look at the first component, for $x+{\frak a}_{1}$ to be zero in $A / {\frak a}_{1}$, $x$ must be an element of ${\frak a}_ {1}$. Then,
+Let's take a look at the kernel of $\phi$, which is comprised of the elements that are send to zero in the product ring. Take a look at the first component, for $x+{\frak a} _ {1}$ to be zero in $A / {\frak a} _ {1}$, $x$ must be an element of ${\frak a}_ {1}$. Then,
 $$
-\text{ker}(\phi) = \{ x\in A \mid x\in {\frak a}_{i},\,i=1,\dots,n \} \implies \text{ker}(\phi)={\frak a}_{1}\cap\dots \cap {\frak a}_ {n}. 
+\text{ker}(\phi) = \{ x\in A \mid x\in {\frak a}_ {i},\,i=1,\dots,n \} \implies \text{ker}(\phi)={\frak a}_ {1}\cap\dots \cap {\frak a}_ {n}. 
 $$
-If $\phi$ is injective, meaning the kernel has only one element, then $\cap_{i}{\frak a}_{i}=0$.
+If $\phi$ is injective, meaning the kernel has only one element, then $\cap_ {i}{\frak a}_ {i}=0$.
  
 
 **Definition.** Let ${\frak a},{\frak b}$ be ideals of a ring $A$. Their `ideal quotient` is 
