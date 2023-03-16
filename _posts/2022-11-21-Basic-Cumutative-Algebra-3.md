@@ -139,7 +139,7 @@ $$
 \text{rad}({\frak a}):=\{ x\in A \mid x^n\in{\frak a} \text{ for some }n\in\mathbb{Z}^+ \}.
 $$
 
-Let $\phi:A \to A / {\frak a}$ be the standard ring homomorphism, what would $\phi(\text{rad(\frak a)})$ be like? Since some power of $x$ is in ${\frak a}$, in the quotient ring $A / {\frak a}$, some power of $x$ is zero, thus 
+Let $\phi:A \to A / {\frak a}$ be the standard ring homomorphism, what would $\phi( \text{rad}(\frak a))$ be like? Since some power of $x$ is in ${\frak a}$, in the quotient ring $A / {\frak a}$, some power of $x$ is zero, thus 
 $$
 \phi(\text{rad} ({\frak a})) = \text{nilradical of } A / {\frak a} = {\frak R}(A) \implies \text{rad}({\frak a}) = \phi^{-1}({\frak R}_{A / {\frak a}}),
 $$
