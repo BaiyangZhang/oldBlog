@@ -212,3 +212,21 @@ $$
 $$
 just like the gauge transformation, which it is. 
 
+Note that in a Riemannian manifold, one can take any frame and convert it to an orthonormal frame by applying the Gram-Schmidt process. Many computations become much simpler if a n orthonormal frame is employed. In particular, if the frame is orthonormal, $g_ {ij} = \delta_ {ij}$, then the matrix of the connection 1-forms with both indices down is anti-symmetric. 
+
+### Parallel Displacement and Curvature on a Surface
+
+In general, parallel displacement of a vector between two points of a surface is path-dependent. This phenomenon is referred to as holonomy, and, as we shall see, is indeed related to the concept of holonomic and nonholonomic constraints. 
+
+**Theorem.** Let $U\subset M^{2}$ be a compact region in a `Riemannian` surface with piecewise smooth boundary $\partial U$. Assume that $U$ can be covered by a single orthonormal frame field $\mathbf{e}$ (e.g. , $U$ may be contained in a coordinate patch). Let a unit vector $\mathbf{v}$ be parallel translated around $\partial U$, starting with an initial $\mathbf{v}_ {0}$ and ending with $\mathbf{v}_ {f}$. $\mathbf{e}$ defines an orientation in $U$. Then the angle $\alpha$ between $\mathbf{v}_ {0}$ and $\mathbf{v}_ {f}$ is given by
+$$
+\Delta \alpha = \int \int_{U}\,  K dS = \int \int_{U}\,  K \sigma^{1}\wedge \sigma^{2}.
+$$
+The proof can be found elsewhere. We just mention an interesting corollary, 
+If $M^{2}\subset\mathbb{R}^{3}$, then $\Delta \alpha$ is equal to the signed area of the spherical image of $U$ under the Gauss normal map.
+
+A connection is said to be flat if the curvature is zero, then the parallel displacement on a Riemannian surface is locally independent of path iff $M^{2}$ is flat. 
+
+By "locally" we mean that we must restrict our closed path to be the boundary of a compact region that is covered by an orthonormal frame. Consider, for example, the Mobius band obtained by bending and sewing a flat strip of paper. Although the usual picture of the band in $\mathbb{R}^{3}$ appears curved, this $2$-manifold with boundary has $K = 0$ since $K$ is a bending invariant. However, if one parallel translates the vector $\mathbf{e}_ {2}$ along the mid circle of the band one ends up with $\mathbf{e}_ {2}(1)=-\mathbf{e}_ {2}(0)$. But that is because the mid-circle does not bound any surface. 
+
+### Riemann's Theorem and the Horizontal Distribution
