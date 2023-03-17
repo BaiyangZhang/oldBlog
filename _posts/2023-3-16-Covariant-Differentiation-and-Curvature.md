@@ -27,7 +27,7 @@ A covariant differentiation operation, defined fully in a moment, is also called
 
 The connection in a Riemannian manifold in which the $\Gamma^{\alpha}_ {\beta \gamma}$ are given by the Christoffel symbols is called the Levi-Civita connection, though Christoffel would be the natural name to associate with this connection.
 
-. Later on we shall see that we shall need to differentiate objects that are much more general than tangent vector fields, and then the Christoffel symbols will be replaced by other quantities. For example, when discussing particle physics we shall have to differentiate wave functions, and we shall see that it is natural to define a covariant derivative in which the role of the Christoffel symbols is played by the electromagnetic vector potential $A$!
+Later on we shall see that we shall need to differentiate objects that are much more general than tangent vector fields, and then the Christoffel symbols will be replaced by other quantities. For example, when discussing particle physics we shall have to differentiate wave functions, and we shall see that it is natural to define a covariant derivative in which the role of the Christoffel symbols is played by the electromagnetic vector potential $A$!
 
 Let $M^{n}$ be a manifold. An affine `connection` or `covariant differentiation` is an operator $\nabla$ that assigns to each pair consisting of a vector $\mathbf{X}$ at $p$ and a vector field $\mathbf{v}$ defined near $p$, a vector $\nabla_ {\mathbf{X}}\mathbf{v}$ at $p$ that satisfies
 $$
@@ -41,7 +41,7 @@ and the Leibniz rule
 $$
 \nabla _ {X}(f\mathbf{v}) = X(f)\mathbf{v}+f\nabla _ {X}(\mathbf{v}).
 $$
-We also demand that if $\mathbf{X}$ is a smooth field then $\nabla_ {\mathbf{X}}\mathbf{v}$ is also a smooth vector field. In our work up until now we have always used local coordinates $x$ to yield a basis $\partial_ {x}$ for the tangent vectors in a patch $U$. For many purposes, however, it is advantageous to use a more general basis. A `frame` of vector fields in a region $U$ consists of $n$ **linear independent** **smooth** vector fields $\mathbf{e} = (\mathbf{e}_{1},\dots,\mathbf{e}_{n})$ in $U$. A special case is a `coordinate frame`, where $\mathbf{e}_ {i} = \partial_ {i}$. 
+We also demand that if $\mathbf{X}$ is a smooth field then $\nabla_ {\mathbf{X}}\mathbf{v}$ is also a smooth vector field. In our work up until now we have always used local coordinates $x$ to yield a basis $\partial_ {x}$ for the tangent vectors in a patch $U$. For many purposes, however, it is advantageous to use a more general basis. A `frame` of vector fields in a region $U$ consists of $n$ **linear independent** **smooth** vector fields $\mathbf{e} = (\mathbf{e}_ {1},\dots,\mathbf{e}_ {n})$ in $U$. A special case is a `coordinate frame`, where $\mathbf{e}_ {i} = \partial_ {i}$. 
 
 First note that a frame $\mathbf{e}$ usually is not a coordinate frame, since $[\mathbf{e}_ {i},\mathbf{e}_ {j}]$ is usually not zero, while $[\partial_ {i},\partial_ {j}]$ usually is. In fact we have
 
@@ -55,7 +55,7 @@ d\sigma^{i}(\mathbf{e}_ {j},\mathbf{e}_ {k}) = \sigma^{i}([\mathbf{e}_ {j},\math
 $$
 and so $d\sigma^{i}=0$ for all $i$. Namely, $\sigma^{i}$ is closed, then locally $\sigma^{i}$ is exact. It means that there exists $x^{i}$ such that $\sigma^{i} = dx^{i}$, for some functions $x^{i}$. Then it follows that $\mathbf{e}=\partial / \partial x$. 
 
-Let now $\mathbf{e} = (\mathbf{e}_{1},\dots,\mathbf{e}_{n})$ be a frame of vector fields in a region $U$. We then have 
+Let now $\mathbf{e} = (\mathbf{e}_ {1},\dots,\mathbf{e}_ {n})$ be a frame of vector fields in a region $U$. We then have 
 $$
 \mathbf{X} = X^{i} \mathbf{e}_ {i}
 $$
@@ -123,13 +123,13 @@ d\sigma^{i} = -\omega^{i}_ {jk}\sigma^{j}\wedge \sigma^{k} + \tau^{i}
 $$
 which is called **Cartan's structural equations*.
 
-We shall abbreviate the notations as follows. Denote the list of frame basis $(\mathbf{e}_{1},\dots,\mathbf{e}_ {n})$ by the matrix $e$ and the column $(\sigma^{1},\dots,\sigma^{n})^{T}$ by $\sigma$. The $n\times n$ matrix of connection 1-form will be denoted by
+We shall abbreviate the notations as follows. Denote the list of frame basis $(\mathbf{e}_ {1},\dots,\mathbf{e}_ {n})$ by the matrix $e$ and the column $(\sigma^{1},\dots,\sigma^{n})^{T}$ by $\sigma$. The $n\times n$ matrix of connection 1-form will be denoted by
 $$
 \omega = \omega^{i}_ {j} := \omega^{i}_ {ij}\sigma^{i}.
 $$
 and the column vector of torsion 2-forms by $\tau$
 $$
-\tau = (\tau_{1},\dots,\tau_ {n})^{T}.
+\tau = (\tau_ {1},\dots,\tau_ {n})^{T}.
 $$
 Then we may write 
 $$

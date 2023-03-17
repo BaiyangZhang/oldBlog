@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Notes on Aspects of Symmetry			# 标题 
 subtitle:   
-date:       2022-11-24 				# 时间
+date:       2023-3-24 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/lib2.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -82,6 +82,8 @@ $$
 It is the inversion of the Minkowski space. The problem is that this transformation is not continuous. We can make it continuous by first invert it, then translate by a distance $a^{\mu}$, then invert back. The net result of these three transformations would indeed be an infinitesimal transformation as $a^{\mu}\to {0}$. It is called a conformal transformation. 
 
 Now we have four translational symmetry, six Lorentz transformation, four conformal transformation and one dilatation, in total fifteen transformation. And they form a closed algebra. The corresponding Lie group is called the conformal group. It is also the group of symmetries of a massless free scalar particle. 
+
+If a Lorentz invariant theory satisfies the continuous conformal symmetry, then it automatically satisfies the scale invariance, since the combination of continuous conformal symmetry and translation generates scale transformation. However the converse is not true, scale invariance doesn't now always imply the conformal invariance.
 
 
 
