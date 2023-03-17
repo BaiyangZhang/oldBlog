@@ -2,9 +2,9 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Covariant Differentiation and Curvature			# 标题 
 subtitle:   
-date:       2023-12-1 				# 时间
+date:       2023-3-16 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/lib1.jpg 	#这篇文章标题背景图片
+header-img: img/mathArt10.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - Geometry
@@ -143,4 +143,90 @@ In our new notation, if $\mathbf{v}$ is a vector we may write $\mathbf{v} = \mat
 
 #### The Exterior Covariant Differential of a Vector-Valued Form
 
-Let $\alpha$ be a vector-valued p-form. 
+Let $\alpha$ be a vector-valued $p$-form. Fix a frame $\mathbf{e}$, then locally we have 
+$$
+\alpha = \mathbf{e}_ {i} \otimes \alpha^{i}
+$$
+where $\mathbf{e}_ {i}$ are frame basis and $\alpha^{i}$ are $p$-forms. It can be regarded as a vector of p-forms. We define its exterior covariant differential, the vector-valued $(p + 1)$-form $\nabla \alpha$, by demanding a Leibniz rule
+$$
+\nabla \alpha= \nabla \mathbf{e}_ {i} \otimes_ {\wedge } \alpha^{i} + \mathbf{e}_ {i} \otimes  d\alpha^{i}
+$$
+where the notation $\otimes_ {\wedge}$ is defined as follows:
+$$
+\nabla \mathbf{e}_ {i} \otimes _ {\wedge } \alpha^{i} = (\mathbf{e}_ {k}\otimes \omega^{k}_ {\;\; i}) \wedge \alpha^{i} = \mathbf{e}_ {k} \otimes  \omega^{k}_ {\;\; i}\wedge \alpha^{i}.
+$$
+
+In abbreviated notation with the column of $p$-forms we have 
+$$
+\nabla \alpha = \mathbf{e} \otimes (d\alpha+\omega \wedge \alpha).
+$$
+
+When dealing with vector-valued forms, we shall usually use Cartan's device of simply omitting the tensor product sign in equations. Thus the above equation will be written
+$$
+\nabla \alpha = \mathbf{e}(d\alpha+\omega \wedge \alpha).
+$$
+
+
+#### The Curvature 2-Forms
+
+$\nabla\mathbf{e}$ is a row matrix of local vector-valued $1$-forms. We can then take the exterior covariant differential again
+$$
+\nabla \nabla \mathbf{e} = \mathbf{e}(\omega \wedge \omega+d\omega).
+$$
+Thus if we define the local matrix e of `curvature 2-forms` by
+$$
+\theta:= d\omega+\omega \wedge \omega
+$$
+we have 
+$$
+\nabla \nabla\mathbf{e}=\mathbf{e}\theta.
+$$
+It is just the Riemann curvature in disguise, 
+$$
+\theta^{i}_ {\;\; j} = \frac{1}{2} R^{i}_ {\; jrs}\sigma^{r}\wedge \sigma^{s}.
+$$
+
+A manifold that (like $\mathbb{R}^{n}$) can be covered by a single distinguished frame field $\mathbf{e}$ is called `parallelizable`. 
+
+### Change of Basis and Gauge Transformations
+
+Given a frame $\mathbf{e}$, we can define the connection $\omega^{i}_ {\; jk}$, then we can define the covariant derivative $\nabla$. Here we don't use $\Gamma^{i}_ {\; jk}$ because we save that symbol to Christoffel symbols only, which is a special kink of connection. However, if we demand that $\nabla$ have a basis-free significance, we shall have to require the $\omega$'s to have a special transformation property under a change of basis.
+
+Let $\mathbf{e}' = \mathbf{e} P$ be a change of frame, where $P$ is a $n\times n$ matrix. Then $\nabla \mathbf{e}$ must be compatible to $\nabla\mathbf{e}'$, which yields 
+$$
+\omega' = P^{-1}\omega P+P^{-1}dP.
+$$
+This is the **transformation rule for the matrix of connection $1$-forms**. Look, on the other hand, at the matrix of curvature 2-forms $\theta$. Based on the defining expression for $\theta$, namely $\theta = d\omega+\omega \wedge\omega$, we find that 
+$$
+\theta'=P^{-1}\theta P.
+$$
+This has the following consequence; if $\theta = 0$ in some frame then $\theta'=0$ in every frame! 
+
+We can also patch two charts together, the glue being the `transition matrix function`. Let $e_U$ and $e_ {V}$ be frames in open sets $U$ and $V$, respectively. We then have
+$$
+e_ {V} = e_ {U} C_ {UV}
+$$
+where $C_ {UV}$ is the transition matrix function mentioned above. Then the transition property of $\sigma$ and $v^{i}$ can also be obtained accordingly. The components $\omega$ transform as
+$$
+\omega_ {V} = C_ {VU}\omega_ {U} C_ {UV}+C_ {VU}dC_ {UV} ,
+$$
+just like the gauge transformation, which it is. 
+
+Note that in a Riemannian manifold, one can take any frame and convert it to an orthonormal frame by applying the Gram-Schmidt process. Many computations become much simpler if a n orthonormal frame is employed. In particular, if the frame is orthonormal, $g_ {ij} = \delta_ {ij}$, then the matrix of the connection 1-forms with both indices down is anti-symmetric. 
+
+### Parallel Displacement and Curvature on a Surface
+
+In general, parallel displacement of a vector between two points of a surface is path-dependent. This phenomenon is referred to as holonomy, and, as we shall see, is indeed related to the concept of holonomic and nonholonomic constraints. 
+
+**Theorem.** Let $U\subset M^{2}$ be a compact region in a `Riemannian` surface with piecewise smooth boundary $\partial U$. Assume that $U$ can be covered by a single orthonormal frame field $\mathbf{e}$ (e.g. , $U$ may be contained in a coordinate patch). Let a unit vector $\mathbf{v}$ be parallel translated around $\partial U$, starting with an initial $\mathbf{v}_ {0}$ and ending with $\mathbf{v}_ {f}$. $\mathbf{e}$ defines an orientation in $U$. Then the angle $\alpha$ between $\mathbf{v}_ {0}$ and $\mathbf{v}_ {f}$ is given by
+$$
+\Delta \alpha = \int \int_{U}\,  K dS = \int \int_{U}\,  K \sigma^{1}\wedge \sigma^{2}.
+$$
+The proof can be found elsewhere. We just mention an interesting corollary, 
+If $M^{2}\subset\mathbb{R}^{3}$, then $\Delta \alpha$ is equal to the signed area of the spherical image of $U$ under the Gauss normal map.
+
+A connection is said to be flat if the curvature is zero, then the parallel displacement on a Riemannian surface is locally independent of path iff $M^{2}$ is flat. 
+
+By "locally" we mean that we must restrict our closed path to be the boundary of a compact region that is covered by an orthonormal frame. Consider, for example, the Mobius band obtained by bending and sewing a flat strip of paper. Although the usual picture of the band in $\mathbb{R}^{3}$ appears curved, this $2$-manifold with boundary has $K = 0$ since $K$ is a bending invariant. However, if one parallel translates the vector $\mathbf{e}_ {2}$ along the mid circle of the band one ends up with $\mathbf{e}_ {2}(1)=-\mathbf{e}_ {2}(0)$. But that is because the mid-circle does not bound any surface. 
+
+### Riemann's Theorem and the Horizontal Distribution
