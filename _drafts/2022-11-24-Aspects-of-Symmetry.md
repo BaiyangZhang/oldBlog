@@ -52,8 +52,36 @@ S-matrix elements, extrapolated off the mass shell, with every external line mul
 
 Coleman started with the Ward identity. Ward identity tells us that the classically conserved Noether current is not really conserved in the quantum theory, that is, when put in the path integral. There will be contact terms. There are Dirac delta function in it, we can integrate with respect to the whatever coordinate appears in the current, if omit the surface term, then we obtain the zero-energy theorem.
 
-Then let's talk about dilatation, or scale transformation. 
+Then let's talk about dilatation, or scale transformation. It is defined by 
+$$
+\alpha: x \mapsto e^{ \alpha } x
+$$
+where $x$ is a spacetime point and $\alpha$ is a constant number larger than zero. We will only consider the linear scale transformations. That is, given a vector of scalar fields, $\phi = (\phi_{1},\dots,\phi_ {n})^{T}$, under the scale transformation we have
+$$
+\alpha: \phi(x) \to e^{ \alpha d } \phi(e^{ \alpha }x).
+$$
+The infinitesimal transformation is 
+$$
+\delta \phi = (d+ x^{\mu}\partial _ {\mu}) \phi(x).
+$$
 
+Give a Lagrangian, we can separate it into scale symmetric part $\mathcal{L}_ {s}$ and scale-braking part $\mathcal{L}_ {b}$. It turns out that, the scale-braking parts are that contains dimensional parameters. Under a scale transformation, the scale-symmetric part contribute zero to the change of action, while the scale-breaking part has non-zero contribution. Accordingly, there exists the so-called scale current $s^{\mu}$, which is the corresponding Noether current. 
+
+The difference between scale transformation and dimensional analysis is that, dimensional analysis is more like the study of a change of units. It also changes the dimensional parameters, such as mass. Scale transformation, on the other hand, is simply a dilatation of space, where the field may also change but the dimensional parameters are not changed. However, they may appear to be very similar. For example, for fermions in 4D, we have $d= 3 / 2$, the same as the dimension of the fermion operator.
+
+It turns out that for a large class of theories, it is possible to define an energy-momentum tensor $\theta$ such that 
+$$
+s^{\mu} = x_ {\nu}\theta^{\mu \nu}.
+$$
+Thus, exact scale invariance is equivalent to the vanishing of the trace of the energy-momentum tensor.
+
+However, the vanishing trace of the energy-momentum tensor, which is implied by the scale invariance, also implies another mysterious symmetry. To see that, we can start with the simplest scalar model with dynamic terms only, $\partial_ {\mu}\phi \partial^{\mu}\phi$, find the explicit expression of the two-point function, and we find that it satisfies another symmetry: 
+$$
+x \to \frac{x}{x^{2}}.
+$$
+It is the inversion of the Minkowski space. The problem is that this transformation is not continuous. We can make it continuous by first invert it, then translate by a distance $a^{\mu}$, then invert back. The net result of these three transformations would indeed be an infinitesimal transformation as $a^{\mu}\to {0}$. It is called a conformal transformation. 
+
+Now we have four translational symmetry, six Lorentz transformation, four conformal transformation and one dilatation, in total fifteen transformation. And they form a closed algebra. The corresponding Lie group is called the conformal group. It is also the group of symmetries of a massless free scalar particle. 
 
 
 
