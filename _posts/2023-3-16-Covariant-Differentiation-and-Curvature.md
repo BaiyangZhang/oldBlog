@@ -55,7 +55,7 @@ d\sigma^{i}(\mathbf{e}_ {j},\mathbf{e}_ {k}) = \sigma^{i}([\mathbf{e}_ {j},\math
 $$
 and so $d\sigma^{i}=0$ for all $i$. Namely, $\sigma^{i}$ is closed, then locally $\sigma^{i}$ is exact. It means that there exists $x^{i}$ such that $\sigma^{i} = dx^{i}$, for some functions $x^{i}$. Then it follows that $\mathbf{e}=\partial / \partial x$. 
 
-Let now $\mathbf{e} = (\mathbf{e}_{1},\dots,\mathbf{e}_{n})$ be a frame of vector fields in a region $U$. We then have 
+Let now $\mathbf{e} = (\mathbf{e}_ {1},\dots,\mathbf{e}_ {n})$ be a frame of vector fields in a region $U$. We then have 
 $$
 \mathbf{X} = X^{i} \mathbf{e}_ {i}
 $$
@@ -123,9 +123,9 @@ d\sigma^{i} = -\omega^{i}_ {jk}\sigma^{j}\wedge \sigma^{k} + \tau^{i}
 $$
 which is called **Cartan's structural equations*.
 
-We shall abbreviate the notations as follows. Denote the list of frame basis $(\mathbf{e}_{1},\dots,\mathbf{e}_ {n})$ by the matrix $e$ and the column $(\sigma^{1},\dots,\sigma^{n})^{T}$ by $\sigma$. The $n\times n$ matrix of connection 1-form will be denoted by
+We shall abbreviate the notations as follows. Denote the list of frame basis $(\mathbf{e}_ {1},\dots,\mathbf{e}_  {n})$ by the matrix $e$ and the column $(\sigma^{1},\dots,\sigma^{n})^{T}$ by $\sigma$. The $n\times n$ matrix of connection 1-form will be denoted by
 $$
-\omega = \omega^{i}_ {j} := \omega^{i}_ {ij}\sigma^{i}.
+\omega = \omega^{i}_ {\;j} := \omega^{i}_ {\; kj}\sigma^{k}.
 $$
 and the column vector of torsion 2-forms by $\tau$
 $$
@@ -230,3 +230,4 @@ A connection is said to be flat if the curvature is zero, then the parallel disp
 By "locally" we mean that we must restrict our closed path to be the boundary of a compact region that is covered by an orthonormal frame. Consider, for example, the Mobius band obtained by bending and sewing a flat strip of paper. Although the usual picture of the band in $\mathbb{R}^{3}$ appears curved, this $2$-manifold with boundary has $K = 0$ since $K$ is a bending invariant. However, if one parallel translates the vector $\mathbf{e}_ {2}$ along the mid circle of the band one ends up with $\mathbf{e}_ {2}(1)=-\mathbf{e}_ {2}(0)$. But that is because the mid-circle does not bound any surface. 
 
 ### Riemann's Theorem and the Horizontal Distribution
+
