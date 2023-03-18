@@ -36,7 +36,7 @@ $$from which we can construct a vector-valued 1-from
 $$
 \mathbf{e}_ {k}\otimes \omega^{k}_ {rj}\sigma^{r}
 $$
-since
+where $\sigma^{r}$ is the 1-form basis given by $\mathbf{e}_ {r}$. We have
 $$
 \left\langle \mathbf{e}_ {k}\otimes \omega^{k}_ {rj}\sigma^{r},\mathbf{e}_ {i} \right\rangle =\mathbf{e}_ {k}\otimes \omega^{k}_ {ij},
 $$

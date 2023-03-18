@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -159,7 +160,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "957cfa2362e38596",
+  "active": "5e9f00780e65fdc6",
   "lastOpenFiles": [
     "_drafts/2023-12-1-Frankel.md",
     "_posts/2023-3-17-Riemanns-Theorem-and-the-Horizontal-Distribution.md",
