@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2d8da32bd78bb2d4",
+        "id": "ea4a5bc53718bd15",
         "type": "tabs",
         "children": [
           {
-            "id": "3b03e5e6de70e1d1",
+            "id": "703168337ca9215d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-3-16-Covariant-Differentiation-and-Curvature.md",
+                "file": "_drafts/2023-12-1-Frankel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e9f00780e65fdc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-3-17-Riemanns-Theorem-and-the-Horizontal-Distribution.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-3-16-Covariant-Differentiation-and-Curvature.md",
+                "file": "_posts/2023-3-17-Riemanns-Theorem-and-the-Horizontal-Distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-3-16-Covariant-Differentiation-and-Curvature.md",
+                "file": "_posts/2023-3-17-Riemanns-Theorem-and-the-Horizontal-Distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-3-16-Covariant-Differentiation-and-Curvature.md"
+                "file": "_posts/2023-3-17-Riemanns-Theorem-and-the-Horizontal-Distribution.md"
               }
             }
           }
@@ -147,19 +159,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b03e5e6de70e1d1",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
+    "_drafts/2023-12-1-Frankel.md",
+    "_posts/2023-3-17-Riemanns-Theorem-and-the-Horizontal-Distribution.md",
+    "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-n.md",
+    "_posts/2023-3-16-Covariant-Differentiation-and-Curvature.md",
+    "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
     "_posts/2023-2-11-Basic-Algebraic-Geometry-Class-14.md",
     "_drafts/2023-3-24-Aspects-of-Symmetry.md",
     "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
     "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-.md",
-    "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
     "_drafts/2023-3-15-Montesquieu.md",
-    "_drafts/2023-12-1-Frankel.md",
     "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",
-    "_posts/2023-3-16-Covariant-Differentiation-and-Curvature.md",
     "_drafts/2023-3-15-Covariant-Differentiation-and-Curvature.md",
-    "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-n.md",
     "_posts/2023-3-15-Confinement-in-Toy-Models-Lecture- 1.md",
     "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
     "_drafts/2022-10-12-罗马人的一天笔记.md",
