@@ -84,4 +84,3 @@ $$
 ds^{2} = dy^{i} dy^{i}
 $$
 iff the curvature vanishes. 
-
