@@ -228,5 +228,3 @@ If $M^{2}\subset\mathbb{R}^{3}$, then $\Delta \alpha$ is equal to the signed are
 A connection is said to be flat if the curvature is zero, then the parallel displacement on a Riemannian surface is locally independent of path iff $M^{2}$ is flat. 
 
 By "locally" we mean that we must restrict our closed path to be the boundary of a compact region that is covered by an orthonormal frame. Consider, for example, the Mobius band obtained by bending and sewing a flat strip of paper. Although the usual picture of the band in $\mathbb{R}^{3}$ appears curved, this $2$-manifold with boundary has $K = 0$ since $K$ is a bending invariant. However, if one parallel translates the vector $\mathbf{e}_ {2}$ along the mid circle of the band one ends up with $\mathbf{e}_ {2}(1)=-\mathbf{e}_ {2}(0)$. But that is because the mid-circle does not bound any surface. 
-
-### Riemann's Theorem and the Horizontal Distribution
