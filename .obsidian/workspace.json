@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-n.md",
+                "file": "_drafts/2023-12-13-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-1.md",
+                "file": "_posts/2023-3-17-Clasical-Lumps-and-Their-Quantum-Descendants.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a13e2a740481e199",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-1.md",
+                "file": "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-1.md",
+                "file": "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-1.md"
+                "file": "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md"
               }
             }
           }
@@ -160,12 +172,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e54fa7ac3ee768ed",
+  "active": "a13e2a740481e199",
   "lastOpenFiles": [
-    "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-n.md",
-    "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-1.md",
+    "_posts/2023-3-17-Clasical-Lumps-and-Their-Quantum-Descendants.md",
+    "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
+    "_drafts/2023-2-14-Fibre-Bundles.md",
+    "_drafts/2023-3-25-Montesquieu.md",
+    "_drafts/2023-3-20-Introduction-to-Resurgence-and-Transseries-Lecture-1.md",
+    "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
     "_drafts/2023-12-1-Geodesics-and-Jacobi-Fields.md",
-    "_drafts/2023-3-17-Clasical-Lumps-and-Their-Quantum-Descendants.md",
+    "_drafts/2023-12-13-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
     "_posts/2023-3-17-Riemanns-Theorem-and-the-Horizontal-Distribution.md",
     "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-.md",
     "_drafts/2023-12-1-Frankel.md",
@@ -177,14 +193,12 @@
     "_posts/2023-1-13-Colemen-Weinberg-Potential.md",
     "_posts/2023-3-15-Confinement-in-Toy-Models-Lecture- 1.md",
     "_drafts/2023-3-13-Confinement-in-Toy-Models-Lecture- 1.md",
-    "_drafts/2023-3-15-Montesquieu.md",
     "_drafts/2023-3-15-Covariant-Differentiation-and-Curvature.md",
     "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
     "_drafts/2022-10-12-罗马人的一天笔记.md",
     "1.md",
     "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
     "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
-    "_drafts/2022-08-02-Basic-Measure-Theory-Part-II.md",
-    "_drafts/2022-10-3-共和国史笔记.md"
+    "_drafts/2022-08-02-Basic-Measure-Theory-Part-II.md"
   ]
 }
