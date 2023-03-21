@@ -4,22 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "ea4a5bc53718bd15",
+        "id": "2d8da32bd78bb2d4",
         "type": "tabs",
         "children": [
           {
-            "id": "703168337ca9215d",
+            "id": "1cc135b704daeef3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-12-1-Geodesics-and-Jacobi-Fields.md",
+                "file": "_drafts/2023-12-13-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e54fa7ac3ee768ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-3-20-Clasical-Lumps-and-Their-Quantum-Descendants.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a13e2a740481e199",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "225d8757a27dd382",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-3-21-Confinement-in-Toy-Models-Lecture-2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-12-1-Geodesics-and-Jacobi-Fields.md",
+                "file": "_drafts/2023-3-21-Confinement-in-Toy-Models-Lecture-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-12-1-Geodesics-and-Jacobi-Fields.md",
+                "file": "_drafts/2023-3-21-Confinement-in-Toy-Models-Lecture-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-12-1-Geodesics-and-Jacobi-Fields.md"
+                "file": "_drafts/2023-3-21-Confinement-in-Toy-Models-Lecture-2.md"
               }
             }
           }
@@ -147,33 +184,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "703168337ca9215d",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
-    "_drafts/2023-12-1-Frankel.md",
-    "_posts/2023-3-21-Montesquieu.md",
-    "_drafts/2023-3-20-Montesquieu.md",
-    "_posts/2023-3-20-Clasical-Lumps-and-Their-Quantum-Descendants.md",
-    "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
-    "_drafts/2023-3-20-Introduction-to-Resurgence-and-Transseries-Lecture-1.md",
-    "_drafts/2023-12-13-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
-    "_drafts/2023-3-15-Montesquieu.md",
-    "_drafts/2023-12-1-Geodesics-and-Jacobi-Fields.md",
-    "_posts/2023-3-16-Covariant-Differentiation-and-Curvature.md",
-    "_posts/2023-3-17-Riemanns-Theorem-and-the-Horizontal-Distribution.md",
-    "_drafts/2023-12-13-Introduction-to-Transseries-Lecture-n.md",
-    "_posts/2022-11-21-Basic-Cumutative-Algebra-3.md",
-    "_posts/2023-2-11-Basic-Algebraic-Geometry-Class-14.md",
-    "_drafts/2023-3-24-Aspects-of-Symmetry.md",
-    "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
     "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-.md",
-    "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",
+    "_drafts/2023-3-21-Confinement-in-Toy-Models-Lecture-2.md",
+    "_drafts/2023-12-1-Frankel.md",
+    "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
+    "_drafts/2023-12-13-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
+    "_drafts/2023-12-1-Geodesics-and-Jacobi-Fields.md",
+    "_posts/2023-3-21-Confinement-in-Toy-Models-Lecture-1.md",
+    "_posts/2023-3-20-Clasical-Lumps-and-Their-Quantum-Descendants.md",
+    "_posts/2023-3-21-Montesquieu.md",
+    "_posts/2023-3-17-Riemanns-Theorem-and-the-Horizontal-Distribution.md",
+    "_drafts/2023-2-14-Fibre-Bundles.md",
+    "_drafts/2023-3-25-Montesquieu.md",
+    "_drafts/2023-3-20-Introduction-to-Resurgence-and-Transseries-Lecture-1.md",
+    "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
+    "_posts/2023-3-16-Covariant-Differentiation-and-Curvature.md",
+    "_posts/2023-2-11-Basic-Algebraic-Geometry-Class-14.md",
+    "_posts/2023-2-10-Basic-Algebraic-Geometry-Class-13.md",
+    "_posts/2023-3-12-The-Geometry-of-Surfaces-in-R3.md",
+    "_drafts/2023-3-16-Covariant-Differentiation-and-Curvature.md",
+    "_posts/2023-1-13-Colemen-Weinberg-Potential.md",
+    "_drafts/2023-3-13-Confinement-in-Toy-Models-Lecture- 1.md",
     "_drafts/2023-3-15-Covariant-Differentiation-and-Curvature.md",
-    "_posts/2023-3-15-Confinement-in-Toy-Models-Lecture- 1.md",
     "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
     "_drafts/2022-10-12-罗马人的一天笔记.md",
     "1.md",
-    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
-    "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
-    "_drafts/2022-08-02-Basic-Measure-Theory-Part-II.md"
+    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md"
   ]
 }
