@@ -1,10 +1,10 @@
 ---
 layout:     post   				        # 使用的布局（不需要改）
-title:      Confinement in Toy Models Lecture 1 	# 标题 
-subtitle:   Introduction      # 副标题
-date:       2023-3-15			        # 时间
+title:      Confinement in Toy Models  	# 标题 
+subtitle:   Lecture 1      # 副标题
+date:       2023-3-21			        # 时间
 author:     Baiyang Zhang 				# 作者
-header-img: img/background1.jpg 	        # 这篇文章标题背景图片
+header-img: img/background2.jpg 	        # 这篇文章标题背景图片
 catalog: true 						    # 是否归档
 tags:								    # 标签
     - math
@@ -140,4 +140,10 @@ The space of SU(2) gauge theories with adjoint fermions are defined by the param
 - $m$, the mass of the adjoint fermion;
 - $L$, the circumference of the $\mathbb{S}^{1}$ space. 
 
-Such theories can be split into three parts, each with distinct calculable dynamics at $\mathcal{L} \Lambda \ll 1$. We will enumerate some of them. In the process we will also introduce the jargon. 
+Such theories can be split into three parts, each with distinct calculable dynamics at $L \Lambda \ll 1$. We will enumerate some of them. In the process we will also introduce the jargon. The models include 
+
+- `dYM`, deformed Yang-Mills theory. It is roughly speaking Yang-Mills theory with **two or more massive adjoint fermions**, whose mass are set to be very large, of order $m \sim \frac{1}{L}$. Due to the large mass, the fermions decouple from the theory at energy scale $\sim 1 / L$. But the existence leaves some trace, namely the breaking down of the gauge symmetry to U(1), called abelianization, and the center symmetry preservation. Note that dYM is in the  universality class of pure Yang-Mills theory, it is also believed to be continuously, i.e. without phase transition connected to the 4 dimensional Yang-Mills theory. 
+- `QCD(adj)`, or adjoint QCD. It has $2\leq n_ {f} \leq 5$ massless adjoint Weyl fermions. It has the advantage that when the circle is small, $L \Lambda \ll 1$, the long distance effective theory is calculable, helps us to understand confinement and chiral symmetry analytically. The study of this theory highlights the importance of novel topological excitations in the dynamics of confinement and chiral symmetry breaking, the so-called “magnetic bions.” 
+- SYM, the supersymmetric Yang-Mills theory. It is the same as the adjoint QCD theory except for $n_ {f}=1$. At zero fermion mass, the theory enjoys $\mathcal{N}=1$ super symmetry. Thus, near the SUSY point we can use powerful theoretical tools such the holomorphy to study it, plus it becomes semi-classical at small $L$, just like QCD(adj). In the semi-classical limit one also finds a novel type of composite topological structure, called the neutral bions. 
+
+In the following notes we shall look into the non-perturbative physics at small circle size in detail. 
