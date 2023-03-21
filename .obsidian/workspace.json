@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-12-1-Frankel.md",
+                "file": "_drafts/2023-12-1-Geodesics-and-Jacobi-Fields.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-12-1-Frankel.md",
+                "file": "_drafts/2023-12-1-Geodesics-and-Jacobi-Fields.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-12-1-Frankel.md",
+                "file": "_drafts/2023-12-1-Geodesics-and-Jacobi-Fields.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-12-1-Frankel.md"
+                "file": "_drafts/2023-12-1-Geodesics-and-Jacobi-Fields.md"
               }
             }
           }
@@ -149,9 +149,9 @@
   },
   "active": "703168337ca9215d",
   "lastOpenFiles": [
+    "_drafts/2023-12-1-Frankel.md",
     "_posts/2023-3-21-Montesquieu.md",
     "_drafts/2023-3-20-Montesquieu.md",
-    "_drafts/2023-12-1-Frankel.md",
     "_posts/2023-3-20-Clasical-Lumps-and-Their-Quantum-Descendants.md",
     "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
     "_drafts/2023-3-20-Introduction-to-Resurgence-and-Transseries-Lecture-1.md",
