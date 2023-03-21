@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5e9f00780e65fdc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-3-25-Montesquieu.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-3-25-Montesquieu.md",
+                "file": "_drafts/2023-12-1-Frankel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-3-25-Montesquieu.md",
+                "file": "_drafts/2023-12-1-Frankel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-3-25-Montesquieu.md"
+                "file": "_drafts/2023-12-1-Frankel.md"
               }
             }
           }
@@ -160,13 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "957cfa2362e38596",
+  "active": "703168337ca9215d",
   "lastOpenFiles": [
+    "_posts/2023-3-21-Montesquieu.md",
     "_drafts/2023-3-20-Montesquieu.md",
     "_drafts/2023-12-1-Frankel.md",
     "_posts/2023-3-20-Clasical-Lumps-and-Their-Quantum-Descendants.md",
     "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
-    "_posts/2023-3-25-Montesquieu.md",
     "_drafts/2023-3-20-Introduction-to-Resurgence-and-Transseries-Lecture-1.md",
     "_drafts/2023-12-13-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
     "_drafts/2023-3-15-Montesquieu.md",
