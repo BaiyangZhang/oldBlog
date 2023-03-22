@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Geodesics and Jacobi Fields			# 标题 
 subtitle:   Note on Theodore Frankel
-date:       2023-3-19 				# 时间
+date:       2023-3-21 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/mathArt12.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
