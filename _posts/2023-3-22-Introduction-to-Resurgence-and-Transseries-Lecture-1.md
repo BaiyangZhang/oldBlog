@@ -91,7 +91,7 @@ then
 $$
 \mathbb{C} P^{n} \equiv (\mathbb{C}^{n+1}-\{0\})/\sim,
 $$
-and the $n+1$ numbers are call \emph{homogeneous coordinates} and is denoted by $[z^0,\cdots,z^n]$. We can make one of them constantly equal to 1, then only the rest are really coordinates, it is called `inhomogeneous coordinates`.
+and the $n+1$ numbers are call `homogeneous coordinates` and is denoted by $[z^0,\cdots,z^n]$. We can make one of them constantly equal to 1, then only the rest are really coordinates, it is called `inhomogeneous coordinates`.
 
 `Meromouphic functions` are functions holomorphic except at poles. 
 
