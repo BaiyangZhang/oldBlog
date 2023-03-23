@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md",
+                "file": "_drafts/2023-12-1-Frankel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32ca44d8d348b8bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-12-1-Frankel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "387ba5b9e2edba63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-3-23-Synges-Theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-3-22-Heuristics-of Einstein's Theory.md",
+                "file": "_posts/2023-3-22-Heuristics-of-Einstein's-Theory.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -97,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md",
+                "file": "_drafts/2023-3-23-Synges-Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md",
+                "file": "_drafts/2023-3-23-Synges-Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-1-12-Basic-Category-Theory-Class-n.md"
+                "file": "_drafts/2023-3-23-Synges-Theorem.md"
               }
             }
           }
@@ -158,11 +184,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "703168337ca9215d",
+  "active": "387ba5b9e2edba63",
   "lastOpenFiles": [
-    "_posts/2023-3-22-Introduction-to-Resurgence-and-Transseries-Lecture-1.md",
+    "Pasted image 20230322222151.png",
+    "Pasted image 20230322222133.png",
     "_drafts/2023-12-1-Frankel.md",
-    "_drafts/2023-3-22-Heuristics-of Einstein's Theory.md",
+    "_drafts/2023-3-23-Synges-Theorem.md",
+    "_drafts/2023-3-22-Hilbert's-Action-Principle.md",
+    "_drafts/2023-12-12-Basic-Category-Theory-Class-n.md",
+    "_posts/2023-3-22-Heuristics-of-Einstein's-Theory.md",
+    "_posts/2023-3-22-Introduction-to-Resurgence-and-Transseries-Lecture-1.md",
     "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
     "_posts/2023-3-21-Geodesics-and-Jacobi-Fields.md",
     "_posts/2023-3-21-Confinement-in-Toy-Models-Lecture-1.md",
@@ -181,10 +212,6 @@
     "_drafts/2023-3-24-Aspects-of-Symmetry.md",
     "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
     "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-.md",
-    "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md",
-    "_drafts/2023-3-15-Covariant-Differentiation-and-Curvature.md",
-    "_posts/2023-3-15-Confinement-in-Toy-Models-Lecture- 1.md",
-    "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
-    "_drafts/2022-10-12-罗马人的一天笔记.md"
+    "_posts/2022-11-18-Basic-Cumutative-Algebra-2.md"
   ]
 }
