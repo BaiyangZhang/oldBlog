@@ -22,7 +22,7 @@ First we introduce the geometric building block, the `standard p-simplex`, or so
 $$
 p_ {0} = (0,\dots,0), \quad p_ {1} = (1,0,\dots,0), \dots, p_ {p} = (0,\dots,0,1).
 $$
-![](/img/20230324110410.png)
+![](/img/20230324110410.png =800x600)
 
 
 We shall write 
