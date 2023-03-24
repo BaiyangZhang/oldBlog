@@ -22,7 +22,7 @@ First we introduce the geometric building block, the `standard p-simplex`, or so
 $$
 p_ {0} = (0,\dots,0), \quad p_ {1} = (1,0,\dots,0), \dots, p_ {p} = (0,\dots,0,1).
 $$
-![[Pasted image 20230324110410.png]]
+![[img/Pasted image 20230324110410.png]]
 
 
 We shall write 
@@ -43,7 +43,7 @@ $$
 $$
 of a standard p-simplex into M. We shall use $\sigma_ {p}$ to denote both the map itself and the image of the map.
 
-![[Pasted image 20230324111922.png]]
+![[img/Pasted image 20230324111922.png]]
 
 Note that singular simplexes are **the natural object over which one integrates p-forms of M via the pull-back**
 $$
@@ -72,7 +72,7 @@ $$
 \partial \Delta_ {p} = \partial (p_ {0},\dots,p_ {p}) := \sum_ {k}(-1)^{k} (p_ {0},\dots,\widehat{p_ {k}}, \dots,p_ {p}) = \sum_ {k}(-1)^{k} \Delta_ {p-1}^{(k)}
 $$
 whereas for the $0$-simplex we put $\partial\Delta_ {0}=0$. 
-![[Pasted image 20230324120315.png]]
+![[img/Pasted image 20230324120315.png]]
 
 $\Delta_ {2}$ is an `ordered` simplex, that is, it is ordered by the given order of its vertices. From this ordering we may extract an `orientation`. The ordering is defined to be given by $\mathbf{e}_ {1} = (p_ {1}p_ {1}) = p_ {0} -p_ {1}$ and $\mathbf{e}_ {2}=(p_ {0}p_ {2}) = p_ {2}-p_ {0}$. *We think of the minus sign in front of $(p_ {0}p_ {2})$ as effectively reversing the orientation of this simplex.*  It should come naturally. We define the orientation of the boundary in this way such that the Stoke's theorem for a 1-form $\alpha$ in the plane can be express in the neat form:
 $$
@@ -165,7 +165,7 @@ Interested readers can try to prove it by yourself.
 **Some 2-Dimensional Examples.**
 
 The `cylinder` Cyl is the familiar rectangular band with the two vertical edges brought together by bending and then sewn together. We wish to exhibit a specific integer 2-chain on Cyl. On the right we have the rectangular band and we have labeled six vertices. The labels on the two vertical edges are the same, since the band is to be bent and the two edges are to be sewn.
-![[Pasted image 20230324162041.png]]
+![[img/Pasted image 20230324162041.png]]
 
 On the band we have indicated six singular (ordered) 2-simplexes. We shall always write a singular simplex with vertices in increasing order. For example, the singular simplex $(Q_ {1}Q_ {3}Q_ {4})$ is the image of a map of $(P_ {0} P_ {1} P_ {2})$ to the band. After the band is bent and sewn we shall then have a singular 2-simplex on Cyl that we shall again call $(Q_ {1}Q_ {3}Q_ {4})$. We have thus broken Cyl up into 2-simplexes, and we have used enough simplexes so that any 1- or 2-simplex is uniquely determined by its vertices.
 
@@ -176,5 +176,5 @@ $$
 Then we can write down the expression for the boundary of the "triangulation" of Cyl. It is tedious but straightforward. 
 
 It can be shown that the boundary is made of the top edge and bottom edge, with reversed directions. 
-![[Pasted image 20230324170232.png]]
+![[img/Pasted image 20230324170232.png]]
 
