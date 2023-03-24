@@ -4,7 +4,7 @@ title:     Betti Numbers			# 标题
 subtitle:   
 date:       2023-3-24 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/lib4.jpg 	#这篇文章标题背景图片
+header-img: img/lib5.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - Geometry
@@ -181,4 +181,12 @@ It can be shown that the boundary is made of the top edge and bottom edge, with 
 The next example would be the famous Mobius strip, however we will leave it as a home work. Note that, due to the non-orientable nature of the Mobius band, the property of its boundary will be rather strange.
 
 ### The Singular Homology Groups
+
+In this section we will answer questions like what is a `cycle` and `Betti number`.
+
+Recall that the boundary of the boundary is zero, $\partial\;\circ\;\partial=0$, which reminds us of the exterior differential which also satisfies $d\;\circ\;d=0$. Turns out their similarity is far more than just that. 
+
+An abelian group $G$ is a field, if, roughly speaking, $G$ has not only an additive structure but an abelian multiplicative one also, with multiplicative identity element $\mathbb{1}$ , and this multiplicative structure is such that each $g\neq {0}$ in $G$ has a multiplicative inverse $g^{-1}$ such that $g g^{-1}=\mathbb{1}$. We further demand that multiplication is distributive with respect to addition. The most familiar example is the field $\mathbb{R}$ of real numbers. The ring of inters $\mathbb{Z}$ is not a field, but $\mathbb{Z}_ {p}$ where $p$ is a prime number does form a field. 
+
+Given a chain with coefficient group $G$, when $G$ is also a field, denoted by $K$ conventionally, then 
 
