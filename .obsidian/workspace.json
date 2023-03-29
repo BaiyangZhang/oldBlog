@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-3-24-Betti-Numbers.md",
+                "file": "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e42c3cb9f7f4a63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-3-24-Betti-Numbers.md",
+                "file": "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-3-24-Betti-Numbers.md",
+                "file": "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-3-24-Betti-Numbers.md"
+                "file": "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-2.md"
               }
             }
           }
@@ -147,11 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cbf7ec3fc5d4a008",
+  "active": "2e42c3cb9f7f4a63",
   "lastOpenFiles": [
-    "Untitled 4.md",
-    "_posts/2023-3-24-Betti-Numbers.md",
     "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-.md",
+    "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-2.md",
+    "_posts/2023-3-24-Betti-Numbers.md",
+    "Untitled 4.md",
     "_posts/2023-3-20-Clasical-Lumps-and-Their-Quantum-Descendants.md",
     "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
     "_posts/2022-12-20-Manifesto-of-the-Communist-Party.md",
@@ -183,7 +197,6 @@
     "_drafts/2023-12-13-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
     "_drafts/2023-3-21-Confinement-in-Toy-Models-Lecture-2.md",
     "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
-    "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
-    "_drafts/2023-2-14-Fibre-Bundles.md"
+    "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md"
   ]
 }
