@@ -97,7 +97,7 @@ The boundary of a simplex is itself not a simplex, since it is a formal sum of s
 
 The notation $\mathbb{Z} / 2 \mathbb{Z}$ means that in the group $\mathbb{Z}$ of integers we shall identify any two integers that differ by an even integer, that is, an element of the subgroup $2\mathbb{Z}$. The elements of $2\mathbb{Z}$ are two equivalent classes in $\mathbb{Z}$, namely $[0]$ and $[1]$, where it is conventional to use square brackets to denote the equivalent class.
 
-We define a (singular) `p-chain` on $M$, , with **coefficients in the abelian group** $G$, to be a **finite** formal sum
+We define a (singular) `p-chain` on $M$, with **coefficients in the abelian group** $G$, to be a **finite** formal sum
 $$
 c_ {p} = g_ {1}\sigma_ {p}^{1}+\dots+g_ {r}\sigma_ {p}^{r},\quad g_ {i} \in  G.
 $$
@@ -175,7 +175,7 @@ $$
 Then we can write down the expression for the boundary of the "triangulation" of Cyl. It is tedious but straightforward. 
 
 It can be shown that the boundary is made of the top edge and bottom edge, with reversed directions. 
-![square](img/20230324170232.png)
+![square](/img/20230324170232.png)
 
 The next example would be the famous Mobius strip, however we will leave it as a home work. Note that, due to the non-orientable nature of the Mobius band, the property of its boundary will be rather strange.
 
