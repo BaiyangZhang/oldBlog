@@ -14,7 +14,7 @@ tags:								#标签
 
 *Disclaimer: Nothing in this note is original.*
 
-Geodesics play an important role in relativity. We know that a geodesic in a Riemannian manifold is characterized by the property that there is a whole class of parameterizations t such that $\nabla_ {t}(dx/ dt)  = 0$ and all of these parameters are linear functions of the arc length parameter.
+Geodesics play an important role in relativity. We know that a geodesic in a Riemannian manifold is characterized by the property that there is a whole class of parametrizations $t$ such that $\nabla_ {t}(dx/ dt)  = 0$ and all of these parameters are linear functions of the arc length parameter.
 
-In general relativity we deal with a `pseudo`-Riemannian manifold. In terms of the proper time parameter $\tau$ we have, as the equation of the geodesic $\nabla_ {\tau} (dx / d\tau)=0$. For a spacelike geodesic we may use $s$ instead of $\tau$ as parameter, $ds^{2}= - d\tau^{2}$. A light ray, being the path of a photon, is the limiting case of a freely falling particle of vanishingly small mass; it is assumed that its world line is also a geodesic, called a `null geodesic`. We may use neither $s$ nor $\tau$ for parameter. A parameter $\lambda$ for a null geodesic is called a `distinguished` or `affine` parameter.
+In general relativity we deal with a `pseudo`-Riemannian manifold. In terms of the proper time parameter $\tau$ we have, as the equation of the geodesic $\nabla_ {\tau} (dx / d\tau)=0$. For a space-like geodesic we may use $s$ instead of $\tau$ as parameter, $ds^{2}= - d\tau^{2}$. A light ray, being the path of a photon, is the limiting case of a freely falling particle of vanishingly small mass; it is assumed that its world line is also a geodesic, called a `null geodesic`. We may use neither $s$ nor $\tau$ for parameter. A parameter $\lambda$ for a null geodesic is called a `distinguished` or `affine` parameter.
 
