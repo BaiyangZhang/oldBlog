@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e42c3cb9f7f4a63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "_posts/2023-3-24-Betti-Numbers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,12 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2e42c3cb9f7f4a63",
+  "active": "cbf7ec3fc5d4a008",
   "lastOpenFiles": [
     "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-2.md",
-    "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-.md",
-    "_posts/2023-3-24-Betti-Numbers.md",
     "Untitled 4.md",
+    "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-.md",
     "_posts/2023-3-20-Clasical-Lumps-and-Their-Quantum-Descendants.md",
     "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
     "_posts/2022-12-20-Manifesto-of-the-Communist-Party.md",
@@ -178,6 +164,7 @@
     "_posts/2023-3-22-Heuristics-of-Einstein's-Theory.md",
     "_posts/2023-3-22-Introduction-to-Resurgence-and-Transseries-Lecture-1.md",
     "_posts/2023-3-23-Synges-Theorem.md",
+    "_posts/2023-3-24-Betti-Numbers.md",
     "img/Pasted image 20230324120315.png.md",
     "Pasted image 20230322222151.png",
     "Pasted image 20230322222133.png",
