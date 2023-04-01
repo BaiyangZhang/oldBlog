@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-04-01-Introduction-to-Resurgence-and-Transseries-Lecture-2.md",
+                "file": "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9863147b3fc9e1ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-04-01-Introduction-to-Resurgence-and-Transseries-Lecture-2.md",
+                "file": "_drafts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-04-01-Introduction-to-Resurgence-and-Transseries-Lecture-2.md",
+                "file": "_drafts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-04-01-Introduction-to-Resurgence-and-Transseries-Lecture-2.md"
+                "file": "_drafts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md"
               }
             }
           }
@@ -160,10 +172,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ea995793c80cb4a",
+  "active": "9863147b3fc9e1ee",
   "lastOpenFiles": [
     "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
-    "_drafts/2023-04-01-Introduction-to-Resurgence-and-Transseries-Lecture-2.md",
+    "_drafts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
+    "_posts/2023-04-01-Introduction-to-Resurgence-and-Transseries-Lecture-2.md",
+    "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
     "_drafts/2023-12-12-Basic-Category-Theory-Class-n.md",
     "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
     "2.md",
@@ -178,7 +192,6 @@
     "Untitled 1.md",
     "_drafts/2023-3-31-Confinement-in-Toy-Models-Lecture-2.md",
     "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-.md",
-    "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
     "_posts/2023-3-24-Betti-Numbers.md",
     "_drafts/2023-3-22-Hilbert's-Action-Principle.md",
     "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-2.md",
@@ -191,7 +204,6 @@
     "_posts/2023-3-17-Riemanns-Theorem-and-the-Horizontal-Distribution.md",
     "_posts/2023-3-21-Confinement-in-Toy-Models-Lecture-1.md",
     "_posts/2023-3-21-Geodesics-and-Jacobi-Fields.md",
-    "_posts/2023-3-21-Montesquieu.md",
     "img/20230324110410.png",
     "img/20230324170232.png",
     "img/20230324162041.png",
