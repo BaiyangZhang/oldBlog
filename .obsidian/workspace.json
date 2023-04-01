@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-3-31-Confinement-in-Toy-Models-Lecture-2.md",
+                "file": "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ea995793c80cb4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-04-01-Introduction-to-Resurgence-and-Transseries-Lecture-2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-3-31-Confinement-in-Toy-Models-Lecture-2.md",
+                "file": "_drafts/2023-04-01-Introduction-to-Resurgence-and-Transseries-Lecture-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-3-31-Confinement-in-Toy-Models-Lecture-2.md",
+                "file": "_drafts/2023-04-01-Introduction-to-Resurgence-and-Transseries-Lecture-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-3-31-Confinement-in-Toy-Models-Lecture-2.md"
+                "file": "_drafts/2023-04-01-Introduction-to-Resurgence-and-Transseries-Lecture-2.md"
               }
             }
           }
@@ -147,14 +160,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7f4ef0e8ee03377",
+  "active": "4ea995793c80cb4a",
   "lastOpenFiles": [
+    "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
+    "_drafts/2023-04-01-Introduction-to-Resurgence-and-Transseries-Lecture-2.md",
+    "_drafts/2023-12-12-Basic-Category-Theory-Class-n.md",
+    "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
+    "2.md",
+    "10.md",
+    "016D62E1.gif",
+    "Pasted image 20230322222151.png",
+    "Pasted image 20221207160326.png",
+    "Pasted image 20230322222133.png",
+    "Untitled 3.md",
+    "Untitled 2.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "_drafts/2023-3-31-Confinement-in-Toy-Models-Lecture-2.md",
     "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-.md",
     "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
-    "_drafts/2023-12-12-Basic-Category-Theory-Class-n.md",
-    "_drafts/2023-12-13-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
     "_posts/2023-3-24-Betti-Numbers.md",
-    "_drafts/2023-3-31-Confinement-in-Toy-Models-Lecture-2.md",
     "_drafts/2023-3-22-Hilbert's-Action-Principle.md",
     "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-2.md",
     "Untitled 4.md",
@@ -167,23 +192,11 @@
     "_posts/2023-3-21-Confinement-in-Toy-Models-Lecture-1.md",
     "_posts/2023-3-21-Geodesics-and-Jacobi-Fields.md",
     "_posts/2023-3-21-Montesquieu.md",
-    "_posts/2023-3-22-Heuristics-of-Einstein's-Theory.md",
-    "_posts/2023-3-22-Introduction-to-Resurgence-and-Transseries-Lecture-1.md",
-    "_posts/2023-3-23-Synges-Theorem.md",
-    "img/Pasted image 20230324120315.png.md",
-    "Pasted image 20230322222151.png",
-    "Pasted image 20230322222133.png",
-    "Pasted image 20221207160326.png",
-    "_posts/2023-1-13-Thermodynamics-in-Terms-of-Foliations.md",
     "img/20230324110410.png",
-    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
     "img/20230324170232.png",
     "img/20230324162041.png",
     "img/20230324120315.png",
     "img/20230324111922.png",
-    "img/lib4.jpg",
-    "img/Pasted image 20230324170232.png",
-    "_drafts/2023-12-1-Frankel.md",
-    "_drafts/2023-12-1-Frankel 1.md"
+    "img/lib4.jpg"
   ]
 }
