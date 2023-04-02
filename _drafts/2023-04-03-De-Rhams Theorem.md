@@ -61,6 +61,7 @@ I: \text{de Rham space }R^{p} \to \text{cohomology }H^{p}.
 $$
 
 Poincare conjectured, and in 1931 de Rham proved 
+
 **de Rham's Theorem.** $I: R^{p}\to H^{p}$ is an isomorphism. First, $I$ is onto, this means that any linear functional on homology classes is of the form $I_ {\beta}$ given by some closed p-form $\beta$. In particular, if $H_ {p}(M;\mathbb{R})$ is finite-dimensional, as it is when $M$ is compact, and if 
 $$
 z^{(1)}, \dots,z^{(b)}, \quad  b = \text{the p-th Betti number}
@@ -73,3 +74,18 @@ Second, $I$ is one-to-one. This means that if $I_ {\beta}(z)=0$ for all $z$, the
 
 The numbers $\pi_ {i}$ are called the `periods` of the form $\beta$ on the cycle $z^{(i)}$s. Thus **a closed p-form is exact iff all of its periods on p-cycles vanish.**
 
+A finite-dimensional vector space has the same dimension as its dual space. Thus
+
+**Corollary.** If $M$ is compact then $H_ {p}$ finitely generated and the dimension of $R^{p}$ is the same as the $p$-th Betti number $b_ {p}$. Thus $b_ {p}$ is also the maximal number of closed p-forms on $M$ of which no linear combination is exact. 
+
+The proof of de Rham's theorem is too long and difficult to be given here. Instead, we shall illustrate it with two examples. 
+
+- - -
+
+**The 2-torus.** The 2-torus $\mathbb{T}^{2}$ is the rectangle with identifications on the boundary. $R^{0} = F^{0} / E^{0}$, where $E^{0}$ is empty since 0-forms can't be the exterior differential of anything, there is no $(-1)$-form. The 0-closed forms are just constant functions. Thus $R^{0}$ consists of constant functions. 
+
+$R^{1}$ consists of closed 1-forms quotient exact 1-forms. This case is more interesting. We have two closed but not exact forms at hand, namely $d\theta$ and $d\phi$. They seem exact since they are of the form $d(\text{something})$, but it is not true, since $\theta$ and $\phi$ are not **globally** defined on the 2-Torus, after going a full circle all of them will increase by $2\pi$, thus not globally well defined. Since $H_ {1}(\mathbb{T}^{2};\mathbb{R}) = \mathbb{R}A + \mathbb{R}B$, where $A,B$ are the $\theta$-circle and $\phi$-circle. $A$ and $B$ give a basis for the 1-dimensional (real) homology. Then $\int_ A \, d\theta = \int_ B \, \phi=2\pi$, thus $d\theta / 2\pi$ and $d\phi / 2\pi$ form two basis of $R=H^{1}=H_ {1}^{\ast}$. 
+
+$R^{2}$ consists of 2-forms quotient the exact 2-forms. Note that all 2-forms are closed on a 2-dimensiona manifold by construction. There is again an obvious candidate for a closed-but-not-exact two form, namely $d\theta \wedge d\phi$. It is the basis of $H^{2}$ up to a constant, which turns out to be $4\pi$.
+
+This was all too easy because $\theta$ and $\phi$ are almost global coordinates on $\mathbb{T}^{2}$.
