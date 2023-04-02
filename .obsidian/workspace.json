@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -160,9 +159,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2e42c3cb9f7f4a63",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
-    "_drafts/2023-04-03-De-Rhams Theorem.md",
+    "_posts/2023-04-03-De-Rhams Theorem.md",
     "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
     "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
     "_drafts/2023-mm-dd-Frankel.md",
