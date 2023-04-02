@@ -38,4 +38,42 @@ Then, in mathematical terminology, there is an isomorphism of differential algeb
 
 - - -
 
-It turns out that 
+The `standard valuation`, or sometimes called the `order`, on $\mathbb{C}[\![z^{-1}]\!]$ is the map
+$$
+\text{val}: \mathbb{C}[\![z^{-1}]\!] \to \mathbb{N} \cup \infty
+$$
+defined by $\text{val }(0)=\infty$ and 
+$$
+\boxed{
+\text{val }(\phi) := \text{min } \left\{ n\in \mathbb{N} \,\middle\vert\, a_ {n}\neq 0 \right\} ,\quad  \phi =\sum a_ {n} z^{-n} \neq 0.
+
+}
+$$
+
+For $\nu \in\mathbb{N}$, we will use the notation 
+$$
+z^{-\nu}\mathbb{C}[\![z^{-1}]\!] = \left\{ \sum_ {n\geq \nu} a_ {n}z^{-n} \,\middle\vert\, a_ {\nu},a_ {n+1},\dots \in  \mathbb{C} \right\}.
+$$
+
+This is the set of all the complex polynomials in $z^{-1}$ such that the standard valuation is no less than $\nu$. 
+
+From the viewpoint of the ring structure, ${\frak I} = z^{-1}\mathbb{C}[\![z^{-1}]\!]$ is the maximal ideal of the ring $\mathbb{C}[\![z^{-1}]\!]$. It is often referred to as the *formal series without constant term*. 
+
+It is obvious that 
+$$
+\text{val }(\partial \phi) \geq  \text{val }(\phi)+1
+$$
+with equality iff there is no constant term.
+
+- - -
+
+With the help of the standard valuation, we can introduce the concept of `distance` into the ring of the formal series. Define
+$$
+d(\phi,\psi) := 2^{-\text{val }(\phi-\psi)},\quad  \phi,\psi \in \mathbb{C}[\![z^{-1}]\!]
+$$
+as the distance between $\phi$ and $\psi$. It can only take discrete values, such as $1, 1 / 2, 1 / 4,$ etc. 
+
+With the definition of distance, $\mathbb{C}[\![z^{-1}]\!]$ becomes a `complete metric space`. The topology induced by this distance is called the `Krull topology` or the `topology of the formal convergence` (or the ${\frak I}$-adic topology). It provides a simple way of using the language of topology to describe certain algebraic properties.
+
+We mention that a sequence $\phi_ {n}$ of formal series is a Cauchy sequence iff for each $i\in\mathbb{N}$, the $i$-the coefficient is stationary, namely the $i$-th coefficient of $\phi_ {n}$ becomes a constant when $n$ is larger than certain natural number. 
+
