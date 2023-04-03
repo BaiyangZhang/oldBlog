@@ -24,7 +24,7 @@ This series is uniformly convergent on
 $$
 U:=C^{\ast } - \left\{ -1,-\frac{1}{2},-\frac{1}{3},\dots \right\} .
 $$
-Hence the sum $\phi$ is `holomorphic` in $U$. Actually $\phi$ is meromorphic on $\mathbb{C}$ with simple poles at $1 / \mathbb{N}$.
+Hence the sum $\phi$ is `holomorphic` in $U$. Actually $\phi$ is meromorphic on $\mathbb{C}^{\ast}$ (not on $\mathbb{C}$ since the origin would be a limiting point of the poles) with simple poles at $1 / \mathbb{N}$.
 
 We now show how this function $\phi$ gives rise to a divergent formal series when $t$ approaches $0$. The idea is to expand each $\phi_ {k}$ first in terms of $t$. For each $k \in \mathbb{N}$, we have a *convergent* Taylor expansion at $t=0$,
 $$
