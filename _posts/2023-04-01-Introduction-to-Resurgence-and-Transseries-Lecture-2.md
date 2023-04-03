@@ -93,5 +93,5 @@ There are many examples of such series in physics. For example, the series could
 
 There has been some recent work in the physics literature suggesting the possibility that the divergent series obtained from the perturbative expansion may have more information about the true nature of the QFT that one might naively expect.
 
-In the next note we will dive into the details of resurgence theory, beginning with the differential algebra $(\mathbb{C}[\![1 / z]\!],\partial)$. 
+In the next note we will dive into the details of resurgence theory, beginning with the differential algebra $(\mathbb{C}[[1 / z]],\partial)$. 
 

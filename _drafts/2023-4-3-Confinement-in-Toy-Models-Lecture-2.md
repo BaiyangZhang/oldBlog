@@ -2,7 +2,7 @@
 layout:     post   				        # 使用的布局（不需要改）
 title:      Confinement in Toy Models 	# 标题 
 subtitle:   Lecture      # 副标题
-date:       2023-3-21			        # 时间
+date:       2023-4-3			        # 时间
 author:     Baiyang Zhang 				# 作者
 header-img: img/background3.jpg 	        # 这篇文章标题背景图片
 catalog: true 						    # 是否归档
@@ -22,9 +22,11 @@ As usual the gauge field is denoted $A_ {\mu}^{a}$ where $a$ is the group index 
 
 The Lagrangian (we don't distinguish Lagrangian from Lagrangian density) is defined to be
 $$
-\mathcal{L} = \frac{1}{g^{2}} \left( \frac{1}{2}\mathrm{Tr}\,F^{2} + \mathrm{Tr}\,(D\phi)^{2}+\lambda(\phi^{a}\phi^{a}-v^{2})^{2}\right)
+\boxed{
+\mathcal{L} = \frac{1}{g^{2}} \left( \frac{1}{2}\mathrm{Tr}\,F^{2} + \mathrm{Tr}\,(D\phi)^{2}+\lambda(\phi^{a}\phi^{a}-v^{2})^{2}\right),\quad G=SU(2),\quad \phi=\phi^{a} T^{a} 
+}\tag{1}
 $$
-where $g$ is the gauge coupling, trace is defined in the group space, namely it is over $T^{a} \phi^{a}$, and $\lambda$ is another coupling. The Einstein summation conventions is understood.
+where $g$ is the gauge coupling, $T^{a}$ is the generator of the gauge group $G$, the trace is defined in the group space, namely it is over $T^{a} \phi^{a}$, and $\lambda$ is another coupling. The Einstein summation conventions is understood.
 
 Let us look at the dimensions in $d$-dimensional spacetime. In our convention, we have $D = \partial - iA$ thus $A_ {\mu}$ always has the dimension of the mass, let's write it is $[A]=1$. We know that $[S] = \left[ \int d^{d}x \, \mathcal{L} \right]=0$, thus $[\mathcal{L}]=d$ in units of mass dimension. Let's take a look at the gauge boson self-energy term, 
 $$
@@ -66,5 +68,7 @@ Choose the vacuum $\phi^{1}=\phi^{2}=0, \phi^{3}=v$. Expanding around it is easy
 
 The philosophy is that, the original SU(2) Lagrangian describes a system at high energy. Higher the energy, stronger the fluctuation of the fields, further will $\phi^{i}$ deviate from (any of) its vacuum configuration in average, larger the variance $\left\langle \phi^{2}-\left\langle \phi \right\rangle^{2} \right\rangle$. This is similar to what happens to the Ising model, when the temperature increases, the fluctuation of the spins also gets stronger and eventually causes the phase transition. In the Polyakov model, at high energy the vev of $\phi$ could be any value and it doesn't make a lot of sense to expand it about the vev; while the energy decreases, the fluctuation gets smaller and two things are different from the high energy case, 1) the vev of $\phi$ approaches some vacuum point and 2) it starts to make sense to expand $\phi$ about its vev. As a result we have a smaller gauge group at lower energy. The parameter $v$ can be used to signature the transition scale approximately, thus is sometimes called the `abelianization` scale. 
 
+Formally, as in any theory with dimensionful coupling constant, one can define a dimensionless coupling using an appropriate power of the relevant energy scale. This energy scale can be approximated to the reaction energy, then it tells us how the coupling changes when the energy increases or decreases.
 
+Let's take $v^{2}$ to extremes and see what happens. If $v^{2}\to 0$ or negative, then there will be no spontaneous symmetry breaking (SSB), we have a SU(2) gauge theory in IR, similar to the QCD. The coupling will flow to high values at low energy. On the other hand, if $v^{2}$ is large, much larger than $g^{2}$, it turn out that the **abelianization of the theory stops the running of the coupling towards large values in the IR**. There is only the $A^{3}_ {\mu}$ photon and there are no U(1)-charged particles that are light. At energy much less than $v^{2}$ the theory is weakly coupled. 
 
