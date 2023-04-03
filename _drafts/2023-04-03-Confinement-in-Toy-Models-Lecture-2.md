@@ -88,5 +88,55 @@ The higher order terms in Eq.(2) are suppressed by the W-boson mass $v$.
 
 It turns out to be a big surprise that the proliferation in the vacuum that ultimately causes confinement of fundamental charges.
 
-**To simplify the calculation we will work in the $\lambda\to 0$ limit. This is sometimes known as the “Bogomolny-Prasad-Sommerfield,” or BPS limit.** In this limit, we can simplify the expressions further by introducing a four dimensional expression. The Polyakov model is 3-dimensional, but we can treat the scalar field $\phi$ as a component of the gauge field $A_ {\mu}$. To be specific, let's use the capital Latin letters to denote 4D space indices, $M,N=1,2,3,4$. 
+**To simplify the calculation we will work in the $\lambda\to 0$ limit. This is sometimes known as the “Bogomolny-Prasad-Sommerfield,” or BPS limit.** In this limit, we can simplify the expressions further by introducing a four dimensional expression. The Polyakov model is 3-dimensional, but we can treat the scalar field $\phi$ as a component of the gauge field $A_ {\mu}$. To be specific, let's use the capital Latin letters to denote 4D space indices, $M,N=1,2,3,4$. Extend the metric from 3D Euclidean to 4D Euclidean. Then in the $\lambda\to 0$ limit, assuming that $A_ {1,2,3}$ are independent of the fourth dimension, namely $\partial_ {4}A_ {i}=0$ for $i=1,2,3$, we have 
+$$
+\frac{1}{2g^{2}} \mathrm{Tr}\,F_ {MN}F^{MN} = \frac{1}{2g^{2}} \mathrm{Tr}\,F_ {\mu \nu}F^{\mu \nu}+ \frac{1}{2g^{2}} \mathrm{Tr}\,D_ {\mu}\phi D^{\mu }\phi,\quad  \phi \equiv A_ {4}.
+\tag{3}
+$$
+
+**The scalar field has become the fourth component of the gauge field.** This is possible because the Higgs field $\phi$, just like the gauge field, are Lie-algebra-valued fields.
+
+Similar to the electro-magnetic case, we can define the non-abelian "magnetic" and "electric" fields as 
+$$
+\boxed{
+E_ {\mu} \equiv F_ {\mu 4}=D_ {\mu}A_ {4},\quad  B_ {\mu} \equiv \frac{1}{2} \epsilon_ {\mu \nu \rho}F^{\nu \rho}.
+}
+$$
+Note that in the non-abelian case, $E$ and $B$ are gauge dependent thus can't be physical observables.
+
+Now we can rewrite Eq. (3) in terms of $E$ and $B$, and we can call Eq. (3) the Lagrangian since we have assumed the $\lambda\to {0}$ limit,
+$$
+L = \frac{1}{2g^{2}} \mathrm{Tr}\,F_ {MN}F^{MN} = \frac{1}{2g^{2}} \mathrm{Tr}\,F_ {\mu \nu}F^{\mu \nu}+ \frac{1}{2g^{2}} \mathrm{Tr}\,D_ {\mu}A_ {4} D^{\mu }A_ {4}= \frac{1}{g^{2}}\mathrm{Tr}\,(B^{2}+E^{2}),
+\tag{4}
+$$
+then we can adopt the conventional trick, that is to complete the square
+$$
+g^{2}L = \mathrm{Tr}\,(B^{2} \mp 2BE + E^{2} \pm 2BE) = \mathrm{Tr}\,\left\{ (B \mp E)^{2} \pm 2BE \right\} \geq \pm \,\mathrm{Tr}\,(2BE),
+$$
+This is the familiar BPS bound for solitons,
+$$
+S = \int d^{3}x \, L \geq \pm  \frac{1}{g^{2}}\int d^{3}x \, E_ {\mu}^{a} B_ {\mu}^{a} =: S_ {\text{BPS}}  .
+$$
+
+To me, it is actually not obvious that Eq. (4) gives the minimum of the actions, since after completing the square we have two parts, $(\dots)^{2}$ and $2BE$, both are variables, both depends on the gauge field $A$. However it can be shown that the integral over $\mathrm{Tr}\,2BE$ gives a topological invariant that is immune to the local, continuous change of the field configuration, Eq.(3) is actually close to something like $(A_ {\mu}\text{-dependent})^{2}+C\times \text{winding number}$ where $C$ is some numerical constant. Hence if the square gives zero, then the action is indeed minimized (in some topological sector, of course). Thus, without specific calculation, we can conclude that the field configuration that minimizes the square, namely that satisfies the so-called BPS equation (called `(anti)-self-dual`, depending on whether it is plus or minus sign in the following expression)
+$$
+E = \pm B
+$$
+automatically satisfies the equation of motion since it gives a minimum of the action. There will be other solutions of the equation of motion, such as saddle points, that do not satisfy the BPS equation.
+
+To buttress the claim that $\int  \, EB$ is a topological invariant, notice that, with the equation of motion $D_ {\mu}B_ {\mu}=0$, we have
+$$
+\int  \,\mathrm{Tr}\, BE = \int  \, \mathrm{Tr}\,B_ {\mu} D_ {\mu}A_ {4} = \int  \, \mathrm{Tr}[\,D_ {\mu}(B_ {\mu}A_ {4})   - \cancel{ A_ {4}D_ {\mu}B_ {\mu} }]
+$$
+Substitute $D = \partial - i[A,-]$ we get
+$$
+\int  \, \mathrm{Tr}\,(\partial _ {\mu}(B_ {\mu}A_ {4})  - i[A_ {\mu},B_ {\mu}A_ {4}])=\int  \, \mathrm{Tr}\,\partial _ {\mu}(B_ {\mu}A_ {4}) - i \int  \, \mathrm{Tr}\,[A_ {\mu},B_ {\mu A_ {r}}]  
+$$
+where the last term vanishes due to the cyclic property of trace. Thus we have 
+$$
+\int d^{3}x  \,\mathrm{Tr}\, BE = \int d^{3}x \, \mathrm{Tr}\,\partial _ {\mu}(B_ {\mu}A_ {4}) = \int  d^{2} S_ {\mu} \, B_ {\mu}A_ {4}\tag{5}
+$$
+where $d^{2}S_ {\mu}$ is the surface measure. Note that although we used the equation of motion in deriving Eq. (5) above, but since it is a surface term, it is immune to local smooth change to the field configuration, thus Eq. (5) also holds for any field configuration, as long as they are in the same topology class, the same homotopy class, to be exact.
+
+- - -
 
