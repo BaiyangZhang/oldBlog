@@ -2,7 +2,7 @@
 layout:     post   				        # 使用的布局（不需要改）
 title:      Confinement in Toy Models 	# 标题 
 subtitle:   Lecture      # 副标题
-date:       2023-4-3			        # 时间
+date:       2023-04-03			        # 时间
 author:     Baiyang Zhang 				# 作者
 header-img: img/background3.jpg 	        # 这篇文章标题背景图片
 catalog: true 						    # 是否归档
@@ -23,7 +23,7 @@ As usual the gauge field is denoted $A_ {\mu}^{a}$ where $a$ is the group index 
 The Lagrangian (we don't distinguish Lagrangian from Lagrangian density) is defined to be
 $$
 \boxed{
-\mathcal{L} = \frac{1}{g^{2}} \left( \frac{1}{2}\mathrm{Tr}\,F^{2} + \mathrm{Tr}\,(D\phi)^{2}+\lambda(\phi^{a}\phi^{a}-v^{2})^{2}\right),\quad G=SU(2),\quad \phi=\phi^{a} T^{a} 
+\mathcal{L} = \frac{1}{g^{2}} \left( \frac{1}{2}\mathrm{Tr}\,F^{2} + \mathrm{Tr}\,(D\phi)^{2}+\lambda(\phi^{a}\phi^{a}-v^{2})^{2}\right),\quad G=SU(2),\quad \phi=\phi^{a} T^{a} \in {\frak g}
 }\tag{1}
 $$
 where $g$ is the gauge coupling, $T^{a}$ is the generator of the gauge group $G$, the trace is defined in the group space, namely it is over $T^{a} \phi^{a}$, and $\lambda$ is another coupling. The Einstein summation conventions is understood.
@@ -70,5 +70,23 @@ The philosophy is that, the original SU(2) Lagrangian describes a system at high
 
 Formally, as in any theory with dimensionful coupling constant, one can define a dimensionless coupling using an appropriate power of the relevant energy scale. This energy scale can be approximated to the reaction energy, then it tells us how the coupling changes when the energy increases or decreases.
 
-Let's take $v^{2}$ to extremes and see what happens. If $v^{2}\to 0$ or negative, then there will be no spontaneous symmetry breaking (SSB), we have a SU(2) gauge theory in IR, similar to the QCD. The coupling will flow to high values at low energy. On the other hand, if $v^{2}$ is large, much larger than $g^{2}$, it turn out that the **abelianization of the theory stops the running of the coupling towards large values in the IR**. There is only the $A^{3}_ {\mu}$ photon and there are no U(1)-charged particles that are light. At energy much less than $v^{2}$ the theory is weakly coupled. 
+Let's take $v^{2}$ to extremes and see what happens. If $v^{2}\to 0$ or negative, then there will be no spontaneous symmetry breaking (SSB), we have a SU(2) gauge theory in IR, similar to the QCD. The coupling will flow to high values at low energy. On the other hand, if $v^{2}$ is large, much larger than $g^{2}$, it turn out that the **abelianization of the theory stops the running of the coupling towards large values in the IR**. There is only the $A^{3}_ {\mu}$ photon and there are no U(1)-charged particles that are light. At energy much less than $v^{2}$ the theory is weakly coupled, and we claim the effective theory has the form
+$$
+\mathcal{L}_ {\text{eff}} = \frac{1}{4 g^{2}} \widetilde{F}^{2} \left( 1+C \frac{g^{2}}{v} \right)+\dots,\quad  \widetilde{F}_ {\mu \nu}:=F^{3}_ {\mu \nu},
+\tag{2}
+$$
+where $\widetilde{F}$ is the massless part of the gauge field at low energy, and $C$ is some numerical coefficient. We just ignore the terms involving massive fields since they are assumed to be much much heavier than our working-scale and thus decouples from the dynamics. This is equivalent to the “tree-level” integrating out the heavy fields; here, it amounts to crossing them out. The second term in the brackets can be seen as the result of the calculation of the one-loop graph, where the photon is couple to both $W^{+}$ and $W^{-}$, the vertex contribute a factor $1 / g^{2}$ while the propagator of the $W$ bosons contribute a factor of $g^{2} / (k^{2}+v^{2})$. Thus the one-loop contribution is roughly 
+$$
+\int  \, \frac{d^{3}k}{(k^{2}+v^{2})^{2}} \sim  \frac{1}{v}.
+$$
+
+The higher order terms in Eq.(2) are suppressed by the W-boson mass $v$. 
+
+- - -
+
+**Finite action monopole-instantons in the Polyakov model**
+
+It turns out to be a big surprise that the proliferation in the vacuum that ultimately causes confinement of fundamental charges.
+
+**To simplify the calculation we will work in the $\lambda\to 0$ limit. This is sometimes known as the “Bogomolny-Prasad-Sommerfield,” or BPS limit.** In this limit, we can simplify the expressions further by introducing a four dimensional expression. The Polyakov model is 3-dimensional, but we can treat the scalar field $\phi$ as a component of the gauge field $A_ {\mu}$. To be specific, let's use the capital Latin letters to denote 4D space indices, $M,N=1,2,3,4$. 
 

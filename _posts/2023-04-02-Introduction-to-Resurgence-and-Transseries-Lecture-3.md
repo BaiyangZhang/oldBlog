@@ -34,11 +34,11 @@ This is the derivative in terms of $z$, it is natural to ask what is the derivat
 $$
 \partial  = \frac{d}{d z} = \frac{d}{d t^{-1}}  = \frac{d}{-t^{-2}dt} =-t^{2} \frac{d}{d t} .
 $$
-Then, in mathematical terminology, there is an isomorphism of differential algebra between $(\mathbb{C}[\![z^{-1}]\!],\partial)$ and $(\mathbb{C}[\![t]\!],\partial)$. 
+Then, in mathematical terminology, there is an isomorphism of differential algebra between $(\mathbb{C}[[z^{-1}]],\partial)$ and $(\mathbb{C}[[t]],\partial)$. 
 
 - - -
 
-The `standard valuation`, or sometimes called the `order`, on $\mathbb{C}[\![z^{-1}]\!]$ is the map
+The `standard valuation`, or sometimes called the `order`, on $\mathbb{C}[[z^{-1}]]$ is the map
 $$
 \text{val}: \mathbb{C}[\![z^{-1}]\!] \to \mathbb{N} \cup \infty
 $$
@@ -46,7 +46,6 @@ defined by $\text{val }(0)=\infty$ and
 $$
 \boxed{
 \text{val }(\phi) := \text{min } \left\{ n\in \mathbb{N} \,\middle\vert\, a_ {n}\neq 0 \right\} ,\quad  \phi =\sum a_ {n} z^{-n} \neq 0.
-
 }
 $$
 
@@ -57,7 +56,7 @@ $$
 
 This is the set of all the complex polynomials in $z^{-1}$ such that the standard valuation is no less than $\nu$. 
 
-From the viewpoint of the ring structure, ${\frak I} = z^{-1}\mathbb{C}[\![z^{-1}]\!]$ is the maximal ideal of the ring $\mathbb{C}[\![z^{-1}]\!]$. It is often referred to as the *formal series without constant term*. 
+From the viewpoint of the ring structure, ${\frak I} = z^{-1}\mathbb{C}[[z^{-1}]]$ is the maximal ideal of the ring $\mathbb{C}[[z^{-1}]]$. It is often referred to as the *formal series without constant term*. 
 
 It is obvious that 
 $$
@@ -73,7 +72,7 @@ d(\phi,\psi) := 2^{-\text{val }(\phi-\psi)},\quad  \phi,\psi \in \mathbb{C}[\![z
 $$
 as the distance between $\phi$ and $\psi$. It can only take discrete values, such as $1, 1 / 2, 1 / 4,$ etc. 
 
-With the definition of distance, $\mathbb{C}[\![z^{-1}]\!]$ becomes a `complete metric space`. The topology induced by this distance is called the `Krull topology` or the `topology of the formal convergence` (or the ${\frak I}$-adic topology). It provides a simple way of using the language of topology to describe certain algebraic properties.
+With the definition of distance, $\mathbb{C}[[z^{-1}]]$ becomes a `complete metric space`. The topology induced by this distance is called the `Krull topology` or the `topology of the formal convergence` (or the ${\frak I}$-adic topology). It provides a simple way of using the language of topology to describe certain algebraic properties.
 
 We mention that a sequence $\phi_ {n}$ of formal series is a Cauchy sequence iff for each $i\in\mathbb{N}$, the $i$-the coefficient is stationary, namely the $i$-th coefficient of $\phi_ {n}$ becomes a constant when $n$ is larger than certain natural number. 
 
