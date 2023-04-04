@@ -40,7 +40,7 @@ $$
 
 Actually, $I_ {\beta}$ is a linear functional on the **equivalence classes** of cycles mod the boundaries, since 
 $$
-\int _ {z+\partial \omega} \beta = \int _ {z} \, \beta+\cancel{ \int _ {\partial \omega} \, \beta } =     \int _ {z} \, \beta.
+\int _ {z+\partial \omega} \beta = \int _ {z} \, \beta+{ \int _ {\partial \omega} \, \beta } =     \int _ {z} \, \beta.
 $$
 
 Thus the functional really gives a linear functional on $H_ {p}$,

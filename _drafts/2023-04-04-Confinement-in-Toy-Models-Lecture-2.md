@@ -2,9 +2,9 @@
 layout:     post   				        # 使用的布局（不需要改）
 title:      Confinement in Toy Models 	# 标题 
 subtitle:   Lecture      # 副标题
-date:       2023-04-03			        # 时间
+date:       2023-04-04			        # 时间
 author:     Baiyang Zhang 				# 作者
-header-img: img/background3.jpg 	        # 这篇文章标题背景图片
+header-img: img/background13.jpg 	        # 这篇文章标题背景图片
 catalog: true 						    # 是否归档
 tags:								    # 标签
     - math
@@ -126,7 +126,7 @@ automatically satisfies the equation of motion since it gives a minimum of the a
 
 To buttress the claim that $\int  \, EB$ is a topological invariant, notice that, with the equation of motion $D_ {\mu}B_ {\mu}=0$, we have
 $$
-\int  \,\mathrm{Tr}\, BE = \int  \, \mathrm{Tr}\,B_ {\mu} D_ {\mu}A_ {4} = \int  \, \mathrm{Tr}[\,D_ {\mu}(B_ {\mu}A_ {4})   - \cancel{ A_ {4}D_ {\mu}B_ {\mu} }]
+\int  \,\mathrm{Tr}\, BE = \int  \, \mathrm{Tr}\,B_ {\mu} D_ {\mu}A_ {4} = \int  \, \mathrm{Tr}[\,D_ {\mu}(B_ {\mu}A_ {4})   -  A_ {4}D_ {\mu}B_ {\mu}] = \int  \, \mathrm{Tr}\,D_ {\mu}(B_ {\mu}A_ {4})
 $$
 Substitute $D = \partial - i[A,-]$ we get
 $$
@@ -140,3 +140,93 @@ where $d^{2}S_ {\mu}$ is the surface measure. Note that although we used the equ
 
 - - -
 
+It is in general difficult to find the general solutions to the equation of motion, but we have two advantages, 
+1. in stead of the second order equation of motion, we have the first order equation, namely the BPS equation.
+2. We have various symmetry at hand which simplifies the solution.
+
+Let us look at spherically symmetric solutions first, the solution is sometimes named the `BPS monopoles`. The solution centered at $x=0$ is 
+$$
+\phi^{a} = A^{a}_ {4} = - \hat{n}_ {a} vP(vr),\quad A_ {\mu}^{a} = \epsilon_ {a\mu \nu}n_ {\nu} \frac{1-A(\nu r)}{r},
+$$
+where $\hat{n}$ is the unit vector component, $\hat{n}\equiv \mathbf{r} / r$. $P,A$ are functions to be determined of $vr$, a dimensionless parameter. We have 
+$$
+\begin{align}
+P(t) &= \coth t - \frac{1}{x} \to 1- \frac{1}{x}, \\
+A(t) &= \frac{x}{\sinh x} \to xe^{ -x }.
+\end{align}
+$$
+
+The field strength can be calculated straightforwardly, the explicit form of which will not be shown here. We only mention that the solution has a characteristic core size $\sim v^{-1}$ and in the core the solution is quite complicated, while far from the core the solutions simplifies a lot, 
+$$
+B_ {\mu}^{a}=E_ {\mu}^{a}\to\sim - n_ {\mu} n_ {a} / r^{2},
+$$carrying the unit vectors in two spaces: the physics space and the group space. It enables us to calculate the action of a BPS monopole using the surface integral, 
+$$
+S_ {\text{BPS}} = \int  d^{2} S_ {\mu} \, B_ {\mu}A_ {4}\tag{5} = \frac{4\pi \nu}{g^{2}} = S_ {\overline{\text{BPS}}}.
+$$
+
+- - -
+
+OK, we have found the simplest solutions for the BPS equation, but the problem is that this solution depends on the gauge fields, and gauge fields are gauge dependent, and the BPS solution is also gauge dependent. Since gauge is a local rotation in the group space, we can choose a gauge such that at the boundary, on each point the direction in the group space is the same.
+
+If we defined the unbroken $U(1)$ gauge field to be the component that is parallel to $\phi$, then $S_ {\text{BPS}} = 4\pi \nu / g^{2} \left\lvert Q_ {m} \right\rvert$ where $Q_ {m}$ is the U(1) magnetic charge.
+
+Outside of the core of the monopole (of size $\nu^{-1}$), the solution is largely determined by the U(1) component. There will be both electric and magnetic field dominating outside of the core. 
+
+
+### Monopoles changes the perturbative picture
+
+Since the monopole has size essentially around $\nu^{-3}$, the proliferation of it in $\mathbb{R}^{3}$ of size $V$ would be around
+$$
+\sim V\nu^{3} e^{ -S_ {0} }, \quad  S_ {0} := S_ {\text{BPS}} = \frac{4\pi \nu}{g^{2}}.
+$$
+To get an idea about the effect of this non-perturbative fluctuation, let us study the gauge-invariant two-point field-strength correlation function, say $\left\langle B^{3}(x)B^{3}(y) \right\rangle$. First note that, in the matrix form,
+$$
+F_ {MN}F^{MN} = 2(B^{2}+2E^{2}), \quad  B_ {.} = \frac{1}{2} \epsilon_ {\dots} F^{..},\quad E_ {\mu}=F_ {\mu_ 4},
+$$
+where I have used the dots for the indices, due to my laziness. Then the correlation function calculated perturbatively is 
+$$
+\left\langle B^{3}(x)B^{3}(y) \right\rangle = \int DA \, e^{ -S } B^{3}(x)B^{3}(y)
+$$
+where 
+$$
+S = \frac{1}{g^{2}} \int d^{3}x \,  (B^{2}+E^{2}).
+$$
+To find the correlation function of $B$, we can regard it as the degree of freedom and forget about $E$ in our calculation. Then the  propagator in momentum space is the inverse of the coefficients in $\text{field}^{2}$, for example if the Lagrangian has the form $\phi(\nabla^{2}+m^{2})\phi$ then the propagator in momentum space is inverse of $\nabla^{2}+m^{2}=-p^{2}+m^{2}$. In our case we just have the inverse of $1 / g^{2}$, namely $g^{2}$, thus
+$$
+\left\langle B^{3}(x)B^{3}(y) \right\rangle = \int \frac{d^{3}k}{(2\pi)^{3}}e^{ ik\cdot (x-y) } \,  = \frac{g^{2}}{2\pi (x-y)^{3}} \sim  \frac{g^{2}}{(x-y)^{3}}.
+$$
+
+That is the perturbative contribution. As per our discussion above, the monopole fluctuation can also appear and contribute to this two-point function, that is another reason why we choose to calculate the vev of the magnetic field, because it is easy to calculate the monopole contribution to it. Recall that an monopole at $\mathbf{r}$ far away from $\mathbf{x}$ contribute
+$$
+B^{3}_ {\text{1-mono}} \sim \frac{\mathbf{x-r}}{(\mathbf{x-r})^{3}}
+$$
+Thus the 1-instanton contribution to the two point function is given by 
+$$
+\left\langle B^{3}_ {\mu}(x)B^{3}_ {\mu}(y) \right\rangle = \nu^{3} e^{ -S_ {0} }\int d^{3}r \, \frac{\mathbf{x-r}}{(\mathbf{x-r})^{3}} \cdot \frac{\mathbf{y-r}}{(\mathbf{y-r})^{3}} 
+$$
+Substitute 
+$$
+\mathbf{\rho} \equiv \frac{\mathbf{r-x}}{\left\lvert \mathbf{y-x} \right\rvert }
+$$
+and define the unit vector $\hat{n}=(\mathbf{x-y}) / \left\lvert \mathbf{x-y} \right\rvert$. To simplify the notations, write $l = \left\lvert y-x \right\rvert$, we have $d^{3}\rho = d^{3}r / l^{3}$ and the integral becomes
+$$
+\int d^{3}r \, \frac{\mathbf{x-r}}{(\mathbf{x-r})^{3}} \cdot \frac{\mathbf{y-r}}{(\mathbf{y-r})^{3}} = \frac{1}{l} \int d^{3}\rho \,  \frac{\rho \cdot (\rho+\hat{n})}{\rho^{3}\left\lvert \rho+\hat{n} \right\rvert^{3} }.
+$$
+Switch to the spherical coordinates, let the $z$-axis coincide the inter-charge axis we have
+$$
+\frac{1}{l} \int d^{3}\rho \,  \frac{\rho \cdot (\rho+\hat{n})}{\rho^{3}\left\lvert \rho+\hat{n} \right\rvert^{3} } = \frac{1}{l} \int d\rho d\cos \theta d\phi \,  \rho^{2} \times  (\text{some function of }\rho \text{ and }\cos \theta).
+$$
+
+Next, substitute $u=\cos \theta$ and $-\sin \theta d\theta=du$, use Mathematica, we finally arrive at
+$$
+\int d^{3}r \, \frac{\mathbf{x-r}}{(\mathbf{x-r})^{3}} \cdot \frac{\mathbf{y-r}}{(\mathbf{y-r})^{3}} = \frac{1}{\mathbf{x-y}}
+$$
+which is the potential between the two charges! 
+
+Finally, we conclude that the 1-monopole contribution is 
+$$
+\boxed{
+\left\langle B^{3}_ {\mu}(x)B^{3}_ {\mu}(y) \right\rangle_ {\text{1-mono}} \sim 
+g^{2}\left( \frac{1}{\left\lvert \mathbf{x-y} \right\rvert^{3} } + C \frac{v^{3}e^{ -S_ {0} }}{\left\lvert \mathbf{x-y} \right\rvert } \right).
+}
+$$
