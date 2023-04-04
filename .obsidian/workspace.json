@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
+                "file": "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,11 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "_drafts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
-=======
-                "file": "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
->>>>>>> Stashed changes
+                "file": "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,11 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
-                "file": "_drafts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
-=======
-                "file": "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
->>>>>>> Stashed changes
+                "file": "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,11 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< Updated upstream
-                "file": "_drafts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md"
-=======
-                "file": "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md"
->>>>>>> Stashed changes
+                "file": "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md"
               }
             }
           }
@@ -170,26 +158,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7f4ef0e8ee03377",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
     "_posts/2023-04-03-De-Rhams Theorem.md",
     "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
-    "_drafts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
+    "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
     "_posts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
     "_drafts/2023-04-03-The-Hodge-Operators.md",
-=======
->>>>>>> Stashed changes
     "_drafts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
     "_drafts/2023-mm-dd-Frankel.md",
     "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
     "_drafts/2023-mm-dd-Basic-Category-Theory-Class-n.md",
     "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
     "_drafts/2023-04-03-De-Rhams Theorem.md",
-<<<<<<< Updated upstream
-=======
-    "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
->>>>>>> Stashed changes
     "_posts/2023-04-01-Introduction-to-Resurgence-and-Transseries-Lecture-2.md",
     "_drafts/2023-11-17-Basic-Algebraic-Geometry-n.md",
     "_drafts/2023-12-12-Basic-Category-Theory-Class-n.md",
