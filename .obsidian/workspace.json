@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
+                "file": "_drafts/2023-04-05-The-Hodge-Operators.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
+                "file": "_drafts/2023-04-05-The-Hodge-Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
+                "file": "_drafts/2023-04-05-The-Hodge-Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md"
+                "file": "_drafts/2023-04-05-The-Hodge-Operators.md"
               }
             }
           }
@@ -149,16 +149,16 @@
   },
   "active": "36e995a76b6f1f31",
   "lastOpenFiles": [
+    "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
+    "_posts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
     "_drafts/2023-04-03-Confinement-in-Toy-Models-Lecture-2.md",
     "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
-    "_posts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
     "_drafts/2023-mm-dd-Frankel.md",
     "_posts/2023-04-03-De-Rhams Theorem.md",
-    "_drafts/2023-04-03-The-Hodge-Operators.md",
+    "_drafts/2023-04-05-The-Hodge-Operators.md",
     "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
     "_posts/2023-04-01-Introduction-to-Resurgence-and-Transseries-Lecture-2.md",
     "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
-    "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
     "_drafts/2023-mm-dd-Basic-Category-Theory-Class-n.md",
     "_posts/2023-3-24-Betti-Numbers.md",
     "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-2.md",
