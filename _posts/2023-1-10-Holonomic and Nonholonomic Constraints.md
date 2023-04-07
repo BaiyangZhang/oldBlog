@@ -38,7 +38,7 @@ $$
 }
 $$
 
-This condition is a necessary condition for the integral surface to exist.
+**This condition is a necessary condition for the integral surface to exist.**
 
 The trick here is that, when dealing with 2-surfaces, it is usually (I dare not say *always*) simpler to consider the normal vectors.
 
@@ -82,7 +82,7 @@ In general in $\mathbb{R}^{3}$ one would describe a family of planes by writing
 $$
 \nu=P_{1}dx^{1}+P_{2}dx^{2}+P_{3}dx^{3} = 0
 $$
-where $P_{1,2,3}$ are smooth function, thus $\nu$ can be seen as a smooth 1-form field. To find the integral surfaces is to find the solution of the above equation. Such a plane can be parametrized by two variable $s:(u^{1},u^{2})\mapsto\mathbf{x}(u^{1},u^{2})$, the equation becomes
+where $P_{1,2,3}$ are smooth function, thus $\nu$ can be seen as a smooth 1-form field. To find the integral surfaces is to find the solution of the above equation. Such a plane can be parameterized by two variable $s:(u^{1},u^{2})\mapsto\mathbf{x}(u^{1},u^{2})$, the equation becomes
 $$
 \left\langle \nu, \frac{ \partial \mathbf{x} }{ \partial \mathbf{u} } d\mathbf{u} \right\rangle =\nu_{i} \frac{ \partial x^{i} }{ \partial u^{j} }  u^{j}=0 \text{ for all }u^{j},
 $$
@@ -99,8 +99,7 @@ Roughly speaking, a $k$-dimensional distribution $\Delta_{k}$ is a smooth field 
 - - -
 
 Suppose we are given a distribution $\Delta_{k}$, and a pair of vector fields $X$ and $Y$ such that at every point in an open set $X,Y\in\Delta_{k}$. Suppose $\Delta_{k}$ is integrable, then both $X$ and $Y$ are tangent to the integral manifold, since $\Delta_{k}$ itself is tangent to the integral manifold. Then, some theorem tells us that the Lie bracket $[X,Y]$ is also in the distribution. We can denote this symbolically by 
-$$
-boxed{
+$$\boxed{
 [\Delta,\Delta]\subset \Delta.
 }\tag{1}
 $$
