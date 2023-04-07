@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
+                "file": "_drafts/2023-04-05-The-Hodge-Operators.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-04-05-Confinement-in-Toy-Models-Lecture-3.md",
+                "file": "_drafts/2023-04-05-The-Hodge-Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-04-05-Confinement-in-Toy-Models-Lecture-3.md",
+                "file": "_drafts/2023-04-05-The-Hodge-Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-04-05-Confinement-in-Toy-Models-Lecture-3.md"
+                "file": "_drafts/2023-04-05-The-Hodge-Operators.md"
               }
             }
           }
@@ -160,7 +159,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d8b8bb08ee637d77",
+  "active": "36e995a76b6f1f31",
   "lastOpenFiles": [
     "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
     "_drafts/2023-04-05-Confinement-in-Toy-Models-Lecture-3.md",
