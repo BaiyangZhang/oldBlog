@@ -43,3 +43,10 @@ $$
 $$
 This definition is quite a mouthful, whoever sees it for the first time needs to take some time to digest it.
 
+Technically speaking the smooth p-forms with finite inner product does not form a Hilbert space, but just a pre-Hilbert space, since a Hilbert space must be a Banach space, which is a `complete` vector space with norm defined, but a limit of square integrable smooth forms need not even be continuous, so definitely not complete.
+
+For an important special case, the 0-form that is the constant function $f=1$ has
+$$
+\star 1 = \sqrt{ \left\lvert g \right\rvert  } \epsilon_ {12..d} dx^{1}\wedge dx^{2}\dots \wedge dx^{d} = \text{Vol}^{d}.
+$$
+
