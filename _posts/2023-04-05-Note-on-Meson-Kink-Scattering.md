@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:      Note on Meson-Kink Scattering		# 标题 
 subtitle:   
-date:       2022-10-26 				# 时间
+date:       2023-04-05 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background8.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -18,7 +18,7 @@ The one-dimensional potential
 $$
 V(x) = - \frac{\hbar^2}{2m a^{2}} \frac{\nu(\nu+1)}{\cosh ^{2}\left( \frac{x}{a} \right)}
 $$
-if reflectionless, at any energy, if $\nu$ is a positive integer number. Since there is no reflection of any eigen function, the wave packet formed by superposition of the energy eigen functions are also reflectionless. A numerical study shows that a Gaussian wave packet will be narrower by passage of the reflectionless $\text{sech}^{2}$ potential, and they can travel faster than a free space packet.[^1]
+if reflectionless, at any energy, if $\nu$ is a positive integer number. Since there is no reflection of any eigenfunction, the wave packet formed by superposition of the energy eigenfunctions are also reflectionless. A numerical study shows that a Gaussian wave packet will be narrower by passage of the reflectionless $\text{sech}^{2}$ potential, and they can travel faster than a free space packet.[^1]
 
 [^1]: N. Kiriushcheva and S. Kuzmin, “Scattering of a Gaussian wave packet by a reflectionless potential,” Am. J. Phys. 66, 867–872 (1998).
 
