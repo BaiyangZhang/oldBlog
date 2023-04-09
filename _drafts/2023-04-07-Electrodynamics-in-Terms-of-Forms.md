@@ -77,7 +77,7 @@ $$
 \sum_ {J_ {<}}\delta^{IJ}_ {M}\delta^{KL}_ {J} = \delta^{IKL}_ {J}.
 $$
 
-### A little more about differential forms
+### A little bit more about differential forms
 
 Although forms can be expanded in any basis, the geometric meaning of differential forms is most obvious in terms of Cartesian coordinates. By Cartesian coordinates we just mean that the metric is that of the Euclidean space $\mathbb{R}^{n}$. In this case, the basis for the tangent vector space is $\partial_ {i}$ and the dual basis are given by $dx^{i}$. We already know that $dx^{i}$ reads off the i-th component of a vector $\mathbf{v}$, 
 $$
@@ -108,6 +108,107 @@ $$
 &= (\det T)  \;\sigma^{1}\wedge \dots \wedge \sigma^{n}
 \end{align}
 $$
-For this reason the wedge product is very convenient for discussing linear dependence.
+For this reason the wedge product is very convenient for discussing linear dependence. For example, using form it is quite easy to tell if a set of forms are linearly independent, see the theorem below.
 
-**Theorem.** 
+**Theorem.** The set of 1-forms $\tau^{i}$ are **linearly dependent** iff
+$$
+\tau^{1} \wedge  \tau^{2} \wedge \dots \wedge \tau^{n} = 0
+$$
+
+- - -
+
+Many formulas given in the form of vectors are more natural in terms of differential forms, here we shall briefly discuss the computations of differential forms and its relation with vector analysis.
+
+Consider $\mathbb{R}^{3}$ as a 3-manifold with any (perhaps curvilinear) coordinate system $x^{1,2,3}$. Let $f$ be a 0-form, that is a function on $\mathbb{R}^{3}$. The 1-forms are written as 
+$$
+\alpha = \alpha_ {1}dx^{1} + a_ {2} dx^{2} +a_ {3}dx^{3}
+$$
+and 2-forms are written as 
+$$
+\begin{align}
+\gamma &= \gamma_ {12} dx^{1}\wedge dx^{2} + \gamma_ {23}\, dx^{2}\wedge dx^{3} + \gamma_ {13} dx^{1}\wedge dx^{3}  \\
+&:=\gamma_ {3} dx^{2}\wedge dx^{1} + \gamma_ {1}\, dx^{2}\wedge dx^{3} + \gamma_ {2} dx^{3}\wedge dx^{1}
+\end{align}
+$$
+where we used the convention that the indices are always arrange in increasing order in the first line, and indices are cyclic in the second line. 
+
+The 3-forms are the simplest for they only have one component,
+$$
+\omega = \omega(x^{1},x^{2},x^{3})dx^{1}\wedge dx^{2}\wedge dx^{3}.
+$$
+
+There are familiar expressions used in vector analysis in the case when the coordinates are Cartesian, involving line, surface, and volume integrals. Let's look at some examples.
+
+Given 1-forms $\alpha,\beta$, let $\mathbf{a,b}$ be the corresponding vectors defined components-wise, namely 
+$$
+\mathbf{a} = a^{i} \partial _ {i},\quad  a^{i} \equiv \alpha_ {i}, \text{the same for }b \text{ and }\beta
+$$
+then we have 
+$$
+\alpha \wedge \beta = \mathbf{a}\times \mathbf{b} \,dS^{i} \text{ component-wise}
+$$
+where $ds^{1} \equiv dx^{2}\wedge dx^{3}$ and etc. Note that this correspondence in general does not hold in curvilinear coordinates.
+
+- - -
+
+There has already been a lot of discussions about the theoretical importance and philosophy of the exterior differential, I will not dive in them here, interested readers can refer to various textbooks and lecture notes. Here instead I'll just focus on the calculation methods, starting with some examples in $\mathbb{R}^{3}$.
+
+Given a function $f(x)$ which is by definition also a 0-form. The differential of $f$ is 
+$$
+df = \partial_ {x}f dx + \partial _ {y}f dy + \partial _ {z}f dz
+$$
+If the coordinates are Cartesian, then the components are the components of the gradient of $f$,
+$$
+\nabla_ {i} f = \partial _ {i}f,\quad  df = \nabla f \cdot d\mathbf{x}
+$$
+where $d\mathbf{x} = (dx^{1},dx^{2},dx^{3})$. 
+
+That is for 0-form. Given a 1-form $\alpha$ and the corresponding vector $a$ whose components are given by that by $\alpha$, we have 
+$$
+d \alpha = (\text{curl }a) \cdot d\mathbf{x} \text{ component wise.}
+$$
+
+Finally, for a 2-form $\beta$ and corresponding vector $b$, namely $b_ {i} =\epsilon_ {ijk}\beta_ {jk}$, we have 
+$$
+d\beta = (\partial _ {1}b_ {1}+\partial _ {2}b_ {2}+\partial _ {3}b_ {3})dx\wedge dy\wedge dz,
+$$
+in Cartesian coordinates $d\beta$ is the divergence of the vector $b$.
+
+$d^{2}=0$ in any coordinate system; in Cartesian coordinates this yields the famous $\text{curl }\text{grad }=0$ and $\text{grad }\text{curl }=0$.
+
+It is important to realize that it is no more difficult to compute d in a curvilinear coordinate system than in a Cartesian one. For example, in spherical coordinates, for 1-form 
+$$
+\alpha =\alpha_ {r} dr +  \alpha_ {\theta}d\theta+ \alpha_ {\phi}d\phi
+$$
+and the orientation is given by $dr\wedge d\theta \wedge d\phi$, then $d\alpha$ is simply
+$$
+d\alpha = d\alpha_ {r}\wedge  dr + d \alpha_ {\theta}\wedge  d\theta + d\alpha_ {\phi} \wedge  d\phi
+$$
+where
+$$
+d\alpha_ {r}\wedge  dr = (\partial _ {\theta}\alpha_ {r}) d\theta \wedge dr + (\partial _ {\phi}\alpha _ {r}) d \phi \wedge  dr, \text{ etc. }
+$$
+
+In general, in situations where the "curl " of a "vector" is required, the "vector" will most naturally appear in covariant form, i.e., it will be a 1-form. 
+
+Next we give the coordinate expression for $d$. Let $\alpha \in \Omega^{p}(\mathbb{R}^{n})$ and explicitly
+$$
+\alpha = \alpha_ {I_ {<}} dx^{I}.
+$$
+Then 
+$$
+d\alpha = (d \alpha_ {I_ {<}}) \wedge dx^{I} = (\partial _ {j}\alpha_ {I_ {<}}) dx^{j} \wedge  dx^{I}.
+$$
+In component form we have 
+$$
+(d\alpha)_ {I} = \delta_ {I}^{jK_ {<}} \;\partial _ {j}\alpha_ {K}.
+$$
+### Orientation and Pseudo-forms
+
+Let $\mathbf{e}=(\mathbf{e_ {1},\dots,e_ {n}})$ and $\mathbf{f} = (\mathbf{f_ {1},\dots,f_ {n}})$ be two sets of basis, with transition matrix $P:\mathbf{e}\mapsto \mathbf{f}$ acting from the right, according to our convention, namely $\mathbf{f}=\mathbf{e}P$. They are said to be of the same `orientation` iff $\det P>0$. Thus orientation can be seen as equivalences classes of basis, with only two elements. **We orient a vector space by declaring one of the two classes of bases to be positive**. In our 3-space it is usual to declare the right-handed bases to be positively oriented, but we could just as well have the left-handed bases as positive. 
+
+Now consider a manifold $M$, at each point $p$ there is a tangent vector space $T_ {p}M$ on which we need to define an orientation. We shall define the orientation in a continuous manner. Given a parametrization $\mathbb{R}^{n}\to M$ of $M$ in terms of $x$, we have a set of natural basis given by $\left\{ \partial_ {1},\dots,\partial_ {n} \right\}$ and we can simply define the orientation by saying that the order $\partial_ {1},\partial_ {2},\dots,\partial_ {n}$ is positive. Then any even permutation of it is still even, and odd permutation would be odd, simple as that.
+
+We shall say that a manifold $M$ is orientable if we can cover $M$ by coordinate patches having positive Jacobians in each overlap. We can then declare the given coordinate bases to be positively oriented, and we then say that we have oriented the manifold. Briefly speaking, if a manifold is orientable it is then possible to pick out, in a continuous fashion, an orientation for each tangent space $T_ {x}M$ of $M$. Conversely, if it is possible to pick out continuously an orientation in each tangent space, we can assume that the coordinate frames in each coordinate patch have the chosen orientation and Mil must be orientable. **An interesting fact is that complex manifolds are always orientable.** 
+
+Next we introduce so-called pseudoforms. Consider ordinary $\mathbb{R}^{3}$ with its euclidean metric. We would like to define the "volume 3-form" Vol$^{3}$ to be the form that assigns to any triple of vectors the volume of the parallelopiped spanned by the vectors; in particular $\text{Vol}(X, Y, Z)$ should be $1$ if $X, Y$, and $Z$ are orthonormal. But if $\text{vol}$ is to be a form we must then have $\text{vol}(Y, X, Z) = -1$, and yet $Y, X$, and $Z$ are orthonormal. 
