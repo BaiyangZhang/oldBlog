@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "61d3efcff78bcb48",
+        "id": "7c94fbae18d366c1",
         "type": "tabs",
         "children": [
           {
-            "id": "36e995a76b6f1f31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2023-mm-dd-Theodore-Frankel.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "885d0b5e662b60d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2023-04-07-Electrodynamics-in-Terms-of-Forms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8b8bb08ee637d77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2023-04-05-Confinement-in-Toy-Models-Lecture-3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "198f8f4ba07b43cc",
+            "id": "1cc135b704daeef3",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
           }
-<<<<<<< Updated upstream
-        ],
-        "currentTab": 7
-=======
         ]
->>>>>>> Stashed changes
       }
     ],
     "direction": "vertical"
@@ -106,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -180,76 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "198f8f4ba07b43cc",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
-    "_drafts/2023-04-07-Electrodynamics-in-Terms-of-Forms.md",
-    "_drafts/2023-mm-dd-Theodore-Frankel.md",
-    "_drafts/2023-04-05-Confinement-in-Toy-Models-Lecture-3.md",
-    "_drafts/2023-04-05-The-Hodge-Operators.md",
-    "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
-    "_drafts/调档函.md",
-    "_drafts/2023-04-05-Classical-Electrodynamics-in-Forms.md",
-    "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
-    "_drafts/2023-mm-dd-Basic-Category-Theory-Class-n.md",
-    "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
-    "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
-    "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/君主论书摘.md",
-    "_posts/2023-04-03-De-Rhams Theorem.md",
-    "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
-    "_posts/2023-04-05-Note-on-Meson-Kink-Scattering.md",
-    "_drafts/paperDrafts/Renormalization method in PDF.md",
-    "fonts/glyphicons-halflings-regular.svg",
-    "fonts/2023-mm-dd-Frankel.md",
-    "_drafts/2023-2-14-Fibre-Bundles.md",
-    "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
-    "_posts/2023-1-13-Thermodynamics-in-Terms-of-Foliations.md",
-    "_posts/2022-10-9-Basic-Measure-Theory-Part-II.md",
-    "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
-    "_posts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
-    "_drafts/2023-04-03-The-Hodge-Operators.md",
-    "016D62E1.gif",
-=======
-  "active": "36e995a76b6f1f31",
-  "lastOpenFiles": [
-    "_drafts/2023-04-05-Confinement-in-Toy-Models-Lecture-3.md",
-    "_drafts/2023-04-05-The-Hodge-Operators.md",
-    "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
-    "fonts/2023-mm-dd-Frankel.md",
-    "_posts/2023-04-05-Note-on-Meson-Kink-Scattering.md",
-    "_drafts/2023-mm-dd-Theodore-Frankel.md",
-    "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-04-05-Classical-Electrodynamics-in-Forms.md",
-    "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
-    "_drafts/2023-mm-dd-Frankel.md",
-    "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
-    "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
-    "_posts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
-    "_drafts/2023-04-03-Confinement-in-Toy-Models-Lecture-2.md",
-    "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
-    "_posts/2023-04-03-De-Rhams Theorem.md",
-    "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
-    "_posts/2023-04-01-Introduction-to-Resurgence-and-Transseries-Lecture-2.md",
-    "_drafts/2023-mm-dd-Basic-Category-Theory-Class-n.md",
-    "_posts/2023-3-24-Betti-Numbers.md",
-    "_drafts/2023-11-22-Confinement-in-Toy-Models-Lecture-2.md",
-    "Untitled 4.md",
-    "_posts/2023-3-20-Clasical-Lumps-and-Their-Quantum-Descendants.md",
-    "_posts/2023-1-10-Holonomic and Nonholonomic Constraints.md",
-    "_posts/2022-12-20-Manifesto-of-the-Communist-Party.md",
-    "_posts/2022-12-26-Basics-of-Distributions.md",
->>>>>>> Stashed changes
-    "Pasted image 20230322222151.png",
-    "Pasted image 20230322222133.png",
-    "Pasted image 20221207160326.png",
-    "img/20230324110410.png",
-    "img/20230324170232.png",
-    "img/20230324162041.png",
-    "img/20230324120315.png",
-    "img/20230324111922.png",
-    "img/lib4.jpg",
-    "img/Pasted image 20230324170232.png"
+    "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
+    "_drafts/2022-10-12-罗马人的一天笔记.md",
+    "1.md",
+    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
+    "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+    "_drafts/2022-08-02-Basic-Measure-Theory-Part-II.md",
+    "_drafts/2022-10-3-共和国史笔记.md"
   ]
 }
