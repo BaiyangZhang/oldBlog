@@ -79,7 +79,7 @@ $$
 
 ### A little bit more about differential forms
 
-Although forms can be expanded in any basis, the geometric meaning of differential forms is most obvious in terms of Cartesian coordinates. By Cartesian coordinates we just mean that the metric is that of the Euclidean space $\mathbb{R}^{n}$. In this case, the basis for the tangent vector space is $\partial_ {i}$ and the dual basis are given by $dx^{i}$. We already know that $dx^{i}$ reads off the i-th component of a vector $\mathbf{v}$, 
+Although forms can be expanded in any bases, the geometric meaning of differential forms is most obvious in terms of Cartesian coordinates. By Cartesian coordinates we just mean that the metric is that of the Euclidean space $\mathbb{R}^{n}$. In this case, the bases for the tangent vector space is $\partial_ {i}$ and the dual bases are given by $dx^{i}$. We already know that $dx^{i}$ reads off the i-th component of a vector $\mathbf{v}$, 
 $$
 \left\langle dx^{i},\mathbf{v} \right\rangle = v^{i}.
 $$
@@ -95,11 +95,11 @@ $$
 
 - - -
 
-We will show that exterior products yield a coordinate-free expression for the determinant! Consider an n-tuple of 1-forms $\tau^{1},\dots,\tau^{n}$, given in terms of basis 
+We will show that exterior products yield a coordinate-free expression for the determinant! Consider an n-tuple of 1-forms $\tau^{1},\dots,\tau^{n}$, given in terms of bases 
 $$
 \tau^{i} = T^{i}_ {j} \sigma^{j}
 $$
-where $\sigma^{i}$ are the basis. Then
+where $\sigma^{i}$ are the bases. Then
 $$
 \begin{align}
 \tau^{1}\wedge \dots \wedge \tau^{n} &= T^{1}_ {i_ {1}}\sigma^{i_ {1}}\wedge \dots \wedge T^{n}_ {i_ {n} } \sigma^{i_ {n}} \\
@@ -205,9 +205,9 @@ $$
 $$
 ### Orientation and Pseudo-forms
 
-Let $\mathbf{e}=(\mathbf{e_ {1},\dots,e_ {n}})$ and $\mathbf{f} = (\mathbf{f_ {1},\dots,f_ {n}})$ be two sets of basis, with transition matrix $P:\mathbf{e}\mapsto \mathbf{f}$ acting from the right, according to our convention, namely $\mathbf{f}=\mathbf{e}P$. They are said to be of the same `orientation` iff $\det P>0$. Thus orientation can be seen as equivalences classes of basis, with only two elements. **We orient a vector space by declaring one of the two classes of bases to be positive**. In our 3-space it is usual to declare the right-handed bases to be positively oriented, but we could just as well have the left-handed bases as positive. 
+Let $\mathbf{e}=(\mathbf{e_ {1},\dots,e_ {n}})$ and $\mathbf{f} = (\mathbf{f_ {1},\dots,f_ {n}})$ be two sets of bases, with transition matrix $P:\mathbf{e}\mapsto \mathbf{f}$ acting from the right, according to our convention, namely $\mathbf{f}=\mathbf{e}P$. They are said to be of the same `orientation` iff $\det P>0$. Thus orientation can be seen as equivalences classes of bases, with only two elements. **We orient a vector space by declaring one of the two classes of bases to be positive**. In our 3-space it is usual to declare the right-handed bases to be positively oriented, but we could just as well have the left-handed bases as positive. 
 
-Now consider a manifold $M$, at each point $p$ there is a tangent vector space $T_ {p}M$ on which we need to define an orientation. We shall define the orientation in a continuous manner. Given a parametrization $\mathbb{R}^{n}\to M$ of $M$ in terms of $x$, we have a set of natural basis given by 
+Now consider a manifold $M$, at each point $p$ there is a tangent vector space $T_ {p}M$ on which we need to define an orientation. We shall define the orientation in a continuous manner. Given a parametrization $\mathbb{R}^{n}\to M$ of $M$ in terms of $x$, we have a set of natural bases given by 
 $$\left\{ \partial_ {1},\dots,\partial_ {n} \right\}$$
 and we can simply define the orientation by saying that the order $\partial_ {1},\partial_ {2},\dots,\partial_ {n}$ is positive. Then any even permutation of it is still even, and odd permutation would be odd, simple as that.
 
@@ -236,7 +236,7 @@ $$
 
 Similarly we can define pseudovectors, pseudoscalars, and so on, pseudo always referring to a change of sign with a change of orientation.
 
-The volume form in a Riemannian manifold is very similar to that in $\mathbb{R}^{3}$. The `volume (pseudo)-n-form` $\text{Vol}^{n}$ is by definition the unique n-form that 1) assigns to an orientation $o$ of the tangent space $M$ and 2) a positively oriented orthonormal basis $\mathbf{e}$ the value $+1$.  Based on that, given an arbitrary coordinate system denoted by $(y)$, after some calculation we find that 
+The volume form in a Riemannian manifold is very similar to that in $\mathbb{R}^{3}$. The `volume (pseudo)-n-form` $\text{Vol}^{n}$ is by definition the unique n-form that 1) assigns to an orientation $o$ of the tangent space $M$ and 2) a positively oriented orthonormal bases $\mathbf{e}$ the value $+1$.  Based on that, given an arbitrary coordinate system denoted by $(y)$, after some calculation we find that 
 $$
 \boxed{
 \text{Vol}^{n} = o(y) \sqrt{ \left\lvert g \right\rvert  }\; dy^{1} \wedge  \dots dy^{n}.
@@ -384,9 +384,11 @@ This kind of relation really takes some getting used to.
 
 ### Electromagnetism in Minkowski Space
 
-Electromagnetic field is best described in the language of differential forms. However, electric field and magnetic field are given by forms of different ranks. When it comes to counting the rank of forms, there are usually two ways to do it,
+Electromagnetic field is best described in the language of differential forms. However, *electric field and magnetic field are given by forms of different ranks*. 
+
+When it comes to counting the rank of forms, there are usually two simple ways to do it,
 1. differential forms are what we integrate on a manifold, the dimension of the form must be the same as the dimension of the manifold on which it is integrated. For example, a form which we integrate on $\mathbb{R}^{3}$ is a 3-form.
-2. Forms also are maps that turns vectors into numbers. We can count the rank of a form by counting how may vectors does it acts on. For example, if a form maps $V\otimes V$ to real numbers, then it must be a 2-form.
+2. Forms also are maps that turns vectors into numbers. We can count the rank of a form by counting how may vectors it acts on. For example, if a form maps $V\otimes V$ to real numbers, then it must be a 2-form.
 
 In our case, it is easiest to adopt the first method. Given a test charge of charge $q$, if it moves along a curve $C$ in electric field $E$, the work done to the charge is given by 
 $$
@@ -398,7 +400,7 @@ $$
 $$
 thus $B$ must be a 2-form. 
 
-However, that is what we have in 3-D space. In 3D space the basis of forms are $dx,dy$ and $dz$, turning to relativistic  4-D spacetime, we have an extra basis, namely $dt$. The expressions for electromagnetic field also needs some modification.
+However, that is what we have in 3D space. In 3D space the bases of forms are $dx,dy$ and $dz$, turning to relativistic  4D spacetime, we have an extra bases, i.e., $dt$. The expressions for electromagnetic field also needs some modification.
 
 Let's start with the Lorentz force law. In non-relativistic case, the 3-dimensional Lorentz force is given by 
 $$
@@ -503,7 +505,7 @@ The local scalar product of two $p$-forms is defined to be
 $$
 \left\langle \alpha,\beta \right\rangle := \alpha_ {I_ {<}} \beta^{I}
 $$
-where $I={i_ {1},\dots,i_ {p}}$ is the generalized index and $I_ {<}$ denotes that in the implies sum we have $i_ {1}<i_ {2}<\dots<i_ {p}$. We can denote the orthonormal basis of 1-forms by 
+where $I={i_ {1},\dots,i_ {p}}$ is the generalized index and $I_ {<}$ denotes that in the implies sum we have $i_ {1}<i_ {2}<\dots<i_ {p}$. We can denote the orthonormal bases of 1-forms by 
 $$
 \sigma^{1}, \dots,\sigma^{p}.
 $$
