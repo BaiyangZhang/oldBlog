@@ -207,7 +207,9 @@ $$
 
 Let $\mathbf{e}=(\mathbf{e_ {1},\dots,e_ {n}})$ and $\mathbf{f} = (\mathbf{f_ {1},\dots,f_ {n}})$ be two sets of basis, with transition matrix $P:\mathbf{e}\mapsto \mathbf{f}$ acting from the right, according to our convention, namely $\mathbf{f}=\mathbf{e}P$. They are said to be of the same `orientation` iff $\det P>0$. Thus orientation can be seen as equivalences classes of basis, with only two elements. **We orient a vector space by declaring one of the two classes of bases to be positive**. In our 3-space it is usual to declare the right-handed bases to be positively oriented, but we could just as well have the left-handed bases as positive. 
 
-Now consider a manifold $M$, at each point $p$ there is a tangent vector space $T_ {p}M$ on which we need to define an orientation. We shall define the orientation in a continuous manner. Given a parametrization $\mathbb{R}^{n}\to M$ of $M$ in terms of $x$, we have a set of natural basis given by $\left\{ \partial_ {1},\dots,\partial_ {n} \right\}$ and we can simply define the orientation by saying that the order $\partial_ {1},\partial_ {2},\dots,\partial_ {n}$ is positive. Then any even permutation of it is still even, and odd permutation would be odd, simple as that.
+Now consider a manifold $M$, at each point $p$ there is a tangent vector space $T_ {p}M$ on which we need to define an orientation. We shall define the orientation in a continuous manner. Given a parametrization $\mathbb{R}^{n}\to M$ of $M$ in terms of $x$, we have a set of natural basis given by 
+$$\left\{ \partial_ {1},\dots,\partial_ {n} \right\}$$
+and we can simply define the orientation by saying that the order $\partial_ {1},\partial_ {2},\dots,\partial_ {n}$ is positive. Then any even permutation of it is still even, and odd permutation would be odd, simple as that.
 
 We shall say that a manifold $M$ is orientable if we can cover $M$ by coordinate patches having positive Jacobians in each overlap. We can then declare the given coordinate bases to be positively oriented, and we then say that we have oriented the manifold. Briefly speaking, if a manifold is orientable it is then possible to pick out, in a continuous fashion, an orientation for each tangent space $T_ {x}M$ of $M$. Conversely, if it is possible to pick out continuously an orientation in each tangent space, we can assume that the coordinate frames in each coordinate patch have the chosen orientation and Mil must be orientable. **An interesting fact is that complex manifolds are always orientable.** 
 
@@ -347,16 +349,38 @@ $$
 Then we can use forms to calculate $\text{div }\mathbf{A}\times \mathbf{B}$. Recall that in $\mathbb{R}^{3}$ we have $(i_ {A}\text{Vol}^{3})\wedge \beta = \left\langle \mathbf{A,B} \right\rangle\text{Vol}^{3}$, we have 
 $$
 \begin{align}
-\text{div }(\mathbf{A\times B })  \longleftrightarrow & d(\alpha \wedge \beta) = (d\alpha)\wedge \beta-\alpha \wedge  d\beta \\
+\text{div }(\mathbf{A\times B })  \longleftrightarrow  d(\alpha \wedge \beta) &= (d\alpha)\wedge \beta-\alpha \wedge  d\beta \\
 &= i_ {\text{curl} A}\text{Vol} \wedge  \beta - \alpha \wedge  i_ {\text{curl B}}\text{Vol} \\
 &= \left\langle \text{curl }\mathbf{A},\mathbf{B} \right\rangle \text{Vol} - \left\langle \mathbf{A},\text{curl }\mathbf{B} \right\rangle\text{Vol}  \\
-&\longleftrightarrow \left\langle \text{curl }\mathbf{A},\mathbf{B} \right\rangle - \left\langle \mathbf{A},\text{curl }\mathbf{B} \right\rangle.
+\longleftrightarrow &\left\langle \text{curl }\mathbf{A},\mathbf{B} \right\rangle - \left\langle \mathbf{A},\text{curl }\mathbf{B} \right\rangle.
 \end{align}
 $$
 ### Dictionary
 
+Let 
+$$
+\begin{align}
+\text{Vol}^{3} &= dx\wedge dy\wedge dz = \text{ volume form} \\
+0\text{-form } F &= \text{functions f} \\
+1\text{-form } \alpha,\gamma &= \text{covariant expression for vectors } \mathbf{A},\mathbf{C} \\
+2\text{-form }\beta &=\text{vector }B \text{ through }i_ {B}\text{Vol}.
+\end{align}
+$$
 
+Recall that we use the interior product and the volume form to convert between vectors and 2-forms. Then we have the following rough, symbolic identifications.
 
+$$
+\begin{align}
+\mathbf{A}\times \mathbf{C}&\longleftrightarrow \alpha \wedge \gamma \text{ through }i_ {A\times C}\text{Vol} \\ 
+\mathbf{A}\cdot \mathbf{B} &\longleftrightarrow \alpha \wedge \beta^{(2)} = A\cdot B\text{Vol}  \\
+\mathbf{A}\cdot \mathbf{C} &\longleftrightarrow i_ {\mathbf{C}}A \\
+\text{grad }f &\longleftrightarrow df \\
+\text{curl }\mathbf{A} &\longleftrightarrow  d\alpha = i_ {\text{curl }A}\text{Vol} \\
+\text{div }\mathbf{B}&\longleftrightarrow d\beta^{(2)}=\text{div }\mathbf{B}\text{Vol} \\
+\nabla^{2}f &\longleftrightarrow d\,i_ {\text{grad }f}\text{Vol} = \nabla^{2}f \,\text{Vol}
+\end{align}
+$$
+This kind of relation really takes some getting used to.
 
 ### Electromagnetism in Minkowski Space
 
