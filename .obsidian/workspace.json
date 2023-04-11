@@ -11,8 +11,12 @@
             "id": "1cc135b704daeef3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md"
+              }
             }
           }
         ]
@@ -139,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "957cfa2362e38596",
+  "active": "1cc135b704daeef3",
   "lastOpenFiles": [
     "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
     "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
