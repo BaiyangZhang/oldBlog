@@ -400,11 +400,11 @@ $$
 $$
 thus $B$ must be a 2-form. 
 
-However, that is what we have in 3D space. In 3D space the bases of forms are $dx,dy$ and $dz$, turning to relativistic  4D spacetime, we have an extra bases, i.e., $dt$. The expressions for electromagnetic field also needs some modification.
+However, that is what we have in 3D space. In 3D space the bases of forms are $dx,dy$ and $dz$, turning to relativistic  4D spacetime, we have an extra bases, i.e., $dt$. The expressions for electromagnetic field also needs some modifications.
 
 Let's start with the Lorentz force law. In non-relativistic case, the 3-dimensional Lorentz force is given by 
 $$
-\mathbf{f}=q(\mathbf{E}+\mathbf{v}\times \mathbf{B})
+\mathbf{f}=q(\mathbf{E}+\mathbf{v}\times \mathbf{B}) 
 $$
 where the speed of light is set to $1$. We need to `complete` this spatial force vector to Minkowski 4-vector force. Lucky for us there is a trick to do that. The 3-force can be written as 
 $$
@@ -416,9 +416,9 @@ f^{\mu} = \frac{d}{d\tau}(m,\mathbf{p})=\left( \frac{dm}{dt},\gamma  \frac{d\mat
 $$
 To obtain $f^{0}$, notice that the inner product of $P$ and itself is a constant, 
 $$
-P^{2} = \left\langle P,P \right\rangle =\text{const}
+P^{2} = \left\langle P,P \right\rangle =\text{const} = m_ {0}^{2}
 $$
-and as a consequence, the four momentum $P$ is perpendicular to $dP / d\tau$. Since $P=m_{0} u$ and $m_{0}$ is a Lorentz scalar, we have 
+and as a consequence, the four momentum $P$ is perpendicular to $dP / d\tau$. Since $P=m_{0} u$ and $m_{0}$ is a Lorentz scalar, $\mathbf{P}$ is parallel to $\mathbf{u}$, we have 
 $$
 \left\langle f,u \right\rangle =0= -\gamma f^{0} +\gamma^{2} \mathbf{f}\cdot \mathbf{v},
 $$
@@ -490,9 +490,9 @@ J:= \rho_{0} u = (\rho,\rho \mathbf{v}) := (\rho,\mathbf{J}).
 $$
 We may then construct the associated `current 3-form`
 $$
-\mathcal{J}=i_{\mathbf{J}}\text{vol}^{4}
+\mathcal{J}=i_{\mathbf{J}}\text{Vol}^{4}
 $$
-where $\text{vol}^{r}$ is the 4-volume form. Then the other half of the Maxwell's equations can be written as
+where $\text{Vol}^{4}$ is the 4-volume form. Then the other half of the Maxwell's equations can be written as
 $$
 d\star F = 4\pi \mathcal{J}.
 $$
@@ -526,7 +526,6 @@ then
 $$
 \star \alpha = (\star\alpha) _ {J_ {<}} dx^{J}, \quad  (\star\alpha)_ {J} = \sqrt{ \left\lvert g \right\rvert  } \alpha^{K} \epsilon_ {K_ {<}J_ {<}.}
 $$
-This definition is quite a mouthful, whoever sees it for the first time needs to take some time to digest it.
 
 Technically speaking the smooth p-forms with finite inner product does not form a Hilbert space, but just a pre-Hilbert space, since a Hilbert space must be a Banach space, which is a `complete` vector space with norm defined, but a limit of square integrable smooth forms need not even be continuous, so definitely not complete.
 
