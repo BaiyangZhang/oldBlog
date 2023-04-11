@@ -56,7 +56,7 @@ $$
 
 ### Completion and Promotion
 
-The laws of physics are Lorentz invariant, it means that physics quantities should transform "nicely" under Lorentz group. Given a 3-dimensioanl spatial infinitesimal displacement $d\mathbf{x}$, it needs to be `unified` with a fourth component $dt$ to form a Lorentz 4-vector $dx^{\mu}$. We say that $d\mathbf{x}$ is not relativistically `complete`. In Minkowski's words, 
+The laws of physics are Lorentz invariant, it means that physics quantities should transform "nicely" under Lorentz group. Given a 3-dimensional spatial infinitesimal displacement $d\mathbf{x}$, it needs to be `unified` with a fourth component $dt$ to form a Lorentz 4-vector $dx^{\mu}$. We say that $d\mathbf{x}$ is not relativistically `complete`. In Minkowski's words, 
 >space by itself and time by itself have now faded away into mere shadows.
 
 The problem is that, all the quantities we are familiar with from Newtonian physics are not Lorentz invariant. For example, take a look at the definition of velocity,
