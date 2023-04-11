@@ -384,6 +384,15 @@ This kind of relation really takes some getting used to.
 
 ### Electromagnetism in Minkowski Space
 
+#### Charge and Current in Classical Electromagnetism
+
+
+
+
+
+
+- - -
+
 Electromagnetic field is best described in the language of differential forms. However, *electric field and magnetic field are given by forms of different ranks*. 
 
 When it comes to counting the rank of forms, there are usually two simple ways to do it,
@@ -442,8 +451,9 @@ $$
 W = \int_{C} \, f. 
 $$
 
+- - -
 
-Coming back to the case of Lorentz force, to simplify the notations we write $E = E_{i}dx^{i}$ and $B= B_{i<j}\,dx^{i}dx^{j}$.  The 1-form expression of the Lorentz force
+Coming back to the case of Lorentz force, to simplify the notations we write $E = E_{i}dx^{i}$ and $B= B_{i<j}\,dx^{i}\wedge dx^{j}$.  The 1-form expression of the Lorentz force reads
 $$
 f = -\gamma q\, i_{\mathbf{v}}E dt + \gamma q \, (E_{i}dx^{i}-i_{\mathbf{v}}B)
 $$
@@ -455,13 +465,15 @@ f = -q i_{\mathbf{v}} F
 $$
 where
 $$
+\boxed{
 F=E \wedge dt+B
+}
 $$
 is the electromagnetic field strength 2-form. It was first introduced by Minkowski in 1907. 
 
 ### Maxwell's Equations
 
-In Minkowski space we have 
+In Minkowski space we define a 4-dimensional exterior differentiation $d$ in terms of  the 3-dimensional exterior differentiation $\mathbf{d} = \sum_ {i}\partial_ {i}d^{i},i=x,y,z$ as
 $$
 d = \mathbf{d}+dt\wedge \partial _{t}
 $$
@@ -475,7 +487,7 @@ F = dA
 $$
 for some 1-form $A$. Then we can further express $E,B$ in terms of $A$, we would recover the familiar expressions.
 
-To account for the other half of the Maxwell equation, we need to introduce the charged flux. Consider a charged fluid with local velocity $\mathbf{v}$, the current vector then is $\mathbf{j}=\rho \mathbf{v}$, $\rho$ is the density **measured in the inertial system $x$**. Let $\rho_{0}$ be the `rest charge density`, that is, the density measured by someone moving instantaneously with the fluid, then 
+To account for the other half of the Maxwell equation, we need to introduce the `charged flux`. Consider a charged fluid with local velocity $\mathbf{v}$, the current vector then is $\mathbf{j}=\rho \mathbf{v}$, $\rho$ is the density **measured in the inertial system $x$**. Let $\rho_{0}$ be the `rest charge density`, that is, the **density measured by someone moving instantaneously with the fluid**, then 
 $$
 \rho=\rho_{0} \gamma,
 $$
