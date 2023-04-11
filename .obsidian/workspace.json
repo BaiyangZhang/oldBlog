@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
+                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
+                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
+                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md"
+                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md"
               }
             }
           }
@@ -160,12 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff6136efaf24ee38",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
     "_posts/2023-04-05-Note-on-Meson-Kink-Scattering.md",
-    "_drafts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
+    "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
     "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
     "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
     "_drafts/2023-04-05-The-Hodge-Operators.md",
