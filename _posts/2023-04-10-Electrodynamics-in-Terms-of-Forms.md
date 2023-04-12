@@ -440,6 +440,39 @@ $$
 
 If we introduce a metric, then we may consider the associated vector field $\mathbf{E}$ and the pseudovector $\mathbf{B}$. The pseudovector B has components $B_ {}1 = B_ {23} / \sqrt{ \left\lvert g \right\rvert }$, and so on.
 
+Given a Riemannian metric, we can use it to raise or lower the indices, and we can define two new types of forms
+$$
+\star \mathcal{E} := i_ {E}\text{Vol} = \sqrt{ \left\lvert g \right\rvert  }\;(E^{1}dx^{2}\wedge dx^{3}+E^{2}dx^{3}\wedge dx^{1}+E^{3}dx^{1}\wedge dx^{2})
+$$
+and 
+$$
+\star \mathcal{B} := \left\langle -,\mathbf{B} \right\rangle =B_ {1}dx^{1}+B_ {2}dx^{2}+B_ {3}dx^{3}.
+$$
+For now, the star symbol can be simply regarded as a part of the name, later we will see that the star is a well-defined operation on forms. 
+
+**Gauss's Law.**  If $U$ is any compact 3D region, 
+$$
+\int _ {U} \, \star \mathcal{E} = 4\pi Q(U), \quad  Q(u) \text{ is the total charge in U}.
+$$
+We again conclude, when $\star \mathcal{E}$ is continuously differentiable, that
+$$
+d \star \mathcal{E} = 4\pi \sigma \longleftrightarrow \text{div} \mathbf{E} = 4p\rho.
+$$
+
+**Ampere-Maxwell law.** If $M$ is a compact 2-sided surface with prescribed normal, then
+$$
+\int _ {\partial M} \, \star \mathcal{B} = \int _ {M} \, 4\pi \mathbf{j}   +\frac{ \partial \star \mathcal{E} }{ \partial t },
+$$
+thus 
+$$
+d\star \mathcal{B} = 4\pi \mathbf{j}   +\frac{ \partial \star \mathcal{E} }{ \partial t }.
+$$
+(assuming $\mathcal{B}$ continuously differentiable) with vector expression $\text{curl }B=4\pi \mathbf{J}+\partial\mathbf{E} / \partial t$.
+
+Note that the integral versions of Maxwell's equations are more general than the partial differential equation versions since spatial derivatives do not appear in the equations. In particular, their continuity is of no concern !
+
+
+
 - - -
 
 Next we will introduce the Maxwell's equations in the language of forms.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
+                "file": "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+                "file": "_drafts/DiscussionLetters/AndyJarahDiscussion1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec458bdb5e2159f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/DiscussionLetters/2022-09-22-HuiDiscussion1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
+                "file": "_drafts/DiscussionLetters/2022-09-22-HuiDiscussion1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
+                "file": "_drafts/DiscussionLetters/2022-09-22-HuiDiscussion1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md"
+                "file": "_drafts/DiscussionLetters/2022-09-22-HuiDiscussion1.md"
               }
             }
           }
@@ -159,20 +172,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1cc135b704daeef3",
+  "active": "ec458bdb5e2159f4",
   "lastOpenFiles": [
-    "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
+    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
+    "_drafts/DiscussionLetters/2022-09-22-HuiDiscussion1.md",
+    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
+    "_drafts/DiscussionLetters/AndyJarahDiscussion1.md",
+    "Untitled",
     "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
-    "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
-    "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
     "_posts/2023-04-05-Note-on-Meson-Kink-Scattering.md",
+    "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
+    "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
+    "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "_drafts/2023-04-05-The-Hodge-Operators.md",
     "_posts/2023-2-1-Minkowski Space.md",
     "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
     "_drafts/2022-10-12-罗马人的一天笔记.md",
     "1.md",
-    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
     "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
     "_drafts/2022-08-02-Basic-Measure-Theory-Part-II.md",
     "_drafts/2022-10-3-共和国史笔记.md"
