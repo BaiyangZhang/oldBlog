@@ -57,12 +57,10 @@ $$
 substitute into Eq.(3) we have (**up to the integral constant**)
 $$
 \left\lvert{0}\right\rangle _ {1}=\frac{i}{\sqrt{ Q_ {0} }}\int d\phi_ {0} \,    \left(
-
  -i\phi_ {0}\sum\!\!\!\!\!\!\!\!\int \; \frac{d k}{2\pi} \,   \Delta_ {kB}\omega_ {k}\left\lvert{k}\right\rangle _ {0} + \frac{i}{2} \sum\!\!\!\!\!\!\!\!\int \;\frac{d^{2}k}{(2\pi)^{2}} \,  \Delta_ {k_ {1}k_ {2}} (\omega_ {k_ {2}}-\omega_ {k_ {1}})\left\lvert{k_ {1}k_ {2}}\right\rangle _ {0} \right)
 $$
 which seems to be  (**up to the integral constant**)
 $$
 \left\lvert{0}\right\rangle _ {1}=  \left(
-
  \frac{1}{2\sqrt{ Q_ {0} }}\phi^{2}_ {0}\sum\!\!\!\!\!\!\!\!\int \; \frac{d k}{2\pi} \,   \Delta_ {kB}\omega_ {k}\left\lvert{k}\right\rangle _ {0} + \frac{-\phi_ {0}}{2\sqrt{ Q_ {0} }} \sum\!\!\!\!\!\!\!\!\int \;\frac{d^{2}k}{(2\pi)^{2}} \,  \Delta_ {k_ {1}k_ {2}} (\omega_ {k_ {2}}-\omega_ {k_ {1}})\left\lvert{k_ {1}k_ {2}}\right\rangle _ {0} \right)
 $$
