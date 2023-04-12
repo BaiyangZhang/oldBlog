@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/DiscussionLetters/2022-09-22-HuiDiscussion1.md",
+                "file": "_posts/2022-09-22-HuiDiscussion1.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/DiscussionLetters/2022-09-22-HuiDiscussion1.md",
+                "file": "_posts/2022-09-22-HuiDiscussion1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/DiscussionLetters/2022-09-22-HuiDiscussion1.md",
+                "file": "_posts/2022-09-22-HuiDiscussion1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/DiscussionLetters/2022-09-22-HuiDiscussion1.md"
+                "file": "_posts/2022-09-22-HuiDiscussion1.md"
               }
             }
           }
@@ -172,10 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec458bdb5e2159f4",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
     "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
-    "_drafts/DiscussionLetters/2022-09-22-HuiDiscussion1.md",
+    "_posts/2022-09-22-HuiDiscussion1.md",
     "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
     "_drafts/DiscussionLetters/AndyJarahDiscussion1.md",
     "Untitled",
