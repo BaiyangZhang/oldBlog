@@ -382,16 +382,10 @@ $$
 $$
 This kind of relation really takes some getting used to.
 
-### Electromagnetism in Minkowski Space
-
-#### Charge and Current in Classical Electromagnetism
-
-
-
-
-
-
 - - -
+
+### Charge and Current in Classical Electromagnetism
+
 
 Electromagnetic field is best described in the language of differential forms. However, *electric field and magnetic field are given by forms of different ranks*. 
 
@@ -399,7 +393,7 @@ When it comes to counting the rank of forms, there are usually two simple ways t
 1. differential forms are what we integrate on a manifold, the dimension of the form must be the same as the dimension of the manifold on which it is integrated. For example, a form which we integrate on $\mathbb{R}^{3}$ is a 3-form.
 2. Forms also are maps that turns vectors into numbers. We can count the rank of a form by counting how may vectors it acts on. For example, if a form maps $V\otimes V$ to real numbers, then it must be a 2-form.
 
-In our case, it is easiest to adopt the first method. Given a test charge of charge $q$, if it moves along a curve $C$ in electric field $E$, the work done to the charge is given by 
+In our case, it is easiest to adopt the first method. For example, given a test charge of charge $q$, if it moves along a curve $C$ in electric field $E$, the work done to the charge is given by 
 $$
 W = q \int_{C} E,
 $$
@@ -407,7 +401,66 @@ thus $E$ must be a 1-form. Similarly, the magnetic flux is given by the integral
 $$
 \Phi=\int_{S} \, B
 $$
-thus $B$ must be a 2-form. 
+thus $B$ must be a 2-form. Next we will dive into details.
+
+We accept as a primitive notion the charge Q on a particle and we assume that there is a 3-form defined on the 3D space whose integral over a region gives us the total charge. Write 
+$$
+Q = \int \sigma,\quad  \sigma = \rho(x) \text{Vol},
+$$
+where $\rho$ is a charge density 0-form. 
+
+As for the **spatial current 2-form**, we have 
+$$
+\mathcal{j} =   \sqrt{ \left\lvert g \right\rvert  } \rho (v^{1}du^{2}\wedge du^{3}+\dots).
+$$
+
+The electric and magnetic fields are defined operationally. In the following we shall use the euclidean metric and Cartesian coordinates of $\mathbb{R}^{3}$ (where there is no blatant distinction between covariant and contravariant vectors) and then we shall put the results in a form independent of the metric.
+
+The electromagnetic force on a point mass of charge $q$ moving with velocity $v$ is given and measured by the Lorentz force law
+$$
+\mathbf{F} = q(\mathbf{E}+\mathbf{v}\times \mathbf{B}).
+$$
+You could say the fields $\mathbf{B,E}$ are **defined** by the Lorentz force law! 
+
+The 2-form $\mathcal{B}$ for magnetic field is defined from the pseudo vector $\mathbf{B}$ via
+$$
+\mathcal{B} := i_ {B}\text{Vol}.
+$$
+
+We then have for the `Lorentz force covector`
+$$
+f^{1} = q(\mathcal{E}+i_ {v}\mathcal{B})
+$$
+where $\mathcal{E}$ is the electric field 1-form and $v$ the velocity of the test charge. This equation is independent of any metric or orientation.
+
+In **any** coordinates we have 
+$$
+\mathcal{E} = E_ {1} dx^{1}+\dots,\quad  \mathcal{B} = B_ {23} dx^{2}\wedge dx^{3}+\dots
+$$
+
+If we introduce a metric, then we may consider the associated vector field $\mathbf{E}$ and the pseudovector $\mathbf{B}$. The pseudovector B has components $B_ {}1 = B_ {23} / \sqrt{ \left\lvert g \right\rvert }$, and so on.
+
+- - -
+
+Next we will introduce the Maxwell's equations in the language of forms.
+
+First some terminology. A `closed manifold` is a compact manifold without boundary. The 2-sphere and torus are familiar examples. 
+
+Faraday's law in terms of forms reads
+$$
+d\mathcal{E} = - \frac{d}{d t}  \int_ {U} \,  \mathcal{B},\quad  U \text{ constant.}
+$$
+
+
+
+
+
+
+
+
+
+
+
 
 However, that is what we have in 3D space. In 3D space the bases of forms are $dx,dy$ and $dz$, turning to relativistic  4D spacetime, we have an extra bases, i.e., $dt$. The expressions for electromagnetic field also needs some modifications.
 
