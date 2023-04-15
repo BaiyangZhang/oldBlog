@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md"
+                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "1cc135b704daeef3",
   "lastOpenFiles": [
-    "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
     "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+    "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
     "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
     "_drafts/2022-10-12-罗马人的一天笔记.md",
     "1.md",
