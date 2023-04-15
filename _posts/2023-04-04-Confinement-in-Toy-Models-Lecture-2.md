@@ -227,6 +227,6 @@ Finally, we conclude that the 1-monopole contribution is
 $$
 \boxed{
 \left\langle B^{3}_ {\mu}(x)B^{3}_ {\mu}(y) \right\rangle_ {\text{1-mono}} \sim 
-g^{2}\left( \frac{1}{\left\lvert \mathbf{x-y} \right\rvert^{3} } + C \frac{v^{3}e^{ -S_ {0} }}{\left\lvert \mathbf{x-y} \right\rvert } \right).
+g^{2}\left( \frac{1}{\left\lvert \mathbf{x-y} \right\rvert^{3} } + C \frac{v^{2}e^{ -S_ {0} }}{\left\lvert \mathbf{x-y} \right\rvert } \right).
 }
 $$

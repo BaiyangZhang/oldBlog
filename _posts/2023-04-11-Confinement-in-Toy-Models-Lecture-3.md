@@ -38,7 +38,7 @@ where the integral by parts has been performed. If we integrate over $\sigma(x)$
 
 **However, we could also choose to integrate over $F$ first**, leaving as a theory in terms of $\sigma(x)$. Solve the equation of motion for $F$ we get
 $$
-F_ {\mu \nu} = -\frac{g^{2}}{4\pi}\epsilon^{\mu \nu \lambda}F_ {\nu \lambda}
+\sigma^{\mu} = -\frac{g^{2}}{4\pi}\epsilon^{\mu \nu \lambda}F_ {\nu \lambda}
 $$
 and substitute it back to the action we have 
 $$
@@ -46,5 +46,50 @@ $$
 S[\sigma] =  \frac{g^{2}}{16\pi^{2}}\int d^{3}x \, (\partial \sigma) ^{2}.
 }
 $$
-We will call $\sigma$ the `dual photon field` and the action the `magnetic description` or `dual description`, the use of magnetic in the calling will become clear in the future.
+**Notice the change of the position of the coupling!** We will call $\sigma$ the `dual photon field` and the action the `magnetic description` or `dual description`, the use of magnetic in the calling will become clear in the future.
 
+We notice that the spatial derivative of $\sigma$
+$$
+\partial _ {i} \sigma = \frac{g^{2}}{2\pi}\epsilon^{ij}E_ {j}
+$$
+corresponds to the electric field, similar to the potential. The time derivative of $\sigma$, on the other hand, represents the $F^{12}$ component, the only magnetic field component on $\mathbb{R}^{1,2}$. 
+
+The dual photon theory has a global symmetry under which σ shifts by a constant. The corresponding Noether current is 
+$$
+j^{\mu} \sim  \partial ^{\mu} \sigma
+$$
+which maps to 
+$$
+j^{\mu} \sim  \epsilon^{\mu \alpha \beta}F_ {\alpha \beta},\quad  \partial _ {\mu}j^{\mu}= \epsilon^{\mu \alpha \beta} \partial _ {\mu}F_ {\alpha \beta}=0.
+$$
+This corresponds to the Bianchi identity $dF=0$  in the original theory.
+
+The charge corresponding to the $\sigma$-shift symmetry is
+$$
+Q\sim \int d^{2}x \, j^{0} \sim \int d^{2}x \, \partial ^{0}\sigma  \sim  \int d^{2}x \, B  
+$$
+where the integral is over $d^{2}x$ since we are only integrating over the space in 3D spacetime. 
+
+We will see that after the canonical quantization of the dual field theory, the state 
+$$
+e^{ i\sigma (x)}\left\lvert{0}\right\rangle =\text{ the eigen state of }Q=1.
+$$
+
+In quantum mechanics, canonical quantization is a recipe that takes us from the Hamiltonian formalism of classical dynamics to the quantum theory. The recipe tells us to take the generalized coordinates and their conjugate momenta and promote them to operators. The Poisson bracket structure of classical mechanics morphs into the structure of commutation relations between operators, so that
+$$
+[q_ {a},p^{b}] := i \delta_ {a}^{b}.
+$$
+In field theory we do the same. A quantum field is an **operator valued function of space** (not space-time!) obeying the commutation relations
+$$
+[\phi(x),\pi(y)] = i \delta^{d} (x-y), \quad  d \text{ is the space dimension.}
+$$
+In our case, we have the action 
+$$
+\boxed{
+S[\sigma] =  \frac{g^{2}}{16\pi^{2}}\int d^{3}x \, (\partial \sigma) ^{2}.
+}
+$$
+so let's try to define 
+$$
+[\sigma(x), \dot{\sigma}(y)]=i\delta^{2}(x-y),
+$$
