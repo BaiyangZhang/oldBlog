@@ -380,7 +380,6 @@ $$
 \nabla^{2}f &\longleftrightarrow d\,i_ {\text{grad }f}\text{Vol} = \nabla^{2}f \,\text{Vol}
 \end{align}
 $$
-This kind of relation really takes some getting used to.
 
 - - -
 
@@ -456,7 +455,12 @@ $$
 $$
 We again conclude, when $\star \mathcal{E}$ is continuously differentiable, that
 $$
-d \star \mathcal{E} = 4\pi \sigma \longleftrightarrow \text{div} \mathbf{E} = 4p\rho.
+d \star \mathcal{E} = 4\pi \sigma \longleftrightarrow \text{div} \mathbf{E} = 4\pi\rho.
+$$
+
+Faraday's law in terms of forms reads
+$$
+d\mathcal{E} = - \frac{d}{d t}  \int_ {U} \,  \mathcal{B},\quad  U \text{ constant.}
 $$
 
 **Ampere-Maxwell law.** If $M$ is a compact 2-sided surface with prescribed normal, then
@@ -474,26 +478,6 @@ Note that the integral versions of Maxwell's equations are more general than the
 
 
 - - -
-
-Next we will introduce the Maxwell's equations in the language of forms.
-
-First some terminology. A `closed manifold` is a compact manifold without boundary. The 2-sphere and torus are familiar examples. 
-
-Faraday's law in terms of forms reads
-$$
-d\mathcal{E} = - \frac{d}{d t}  \int_ {U} \,  \mathcal{B},\quad  U \text{ constant.}
-$$
-
-
-
-
-
-
-
-
-
-
-
 
 However, that is what we have in 3D space. In 3D space the bases of forms are $dx,dy$ and $dz$, turning to relativistic  4D spacetime, we have an extra bases, i.e., $dt$. The expressions for electromagnetic field also needs some modifications.
 
@@ -569,9 +553,9 @@ dF = 0
 $$
 Following the Poincare's lemma, if the spacetime manifold is simply connected, 
 $$
-F = dA
+F = dA,\quad  A = -\phi dt+A_ {i}dx^{i}
 $$
-for some 1-form $A$. Then we can further express $E,B$ in terms of $A$, we would recover the familiar expressions.
+for some 1-form $A$. Then we can further write down $E,B$ in terms of $A$, we would recover the familiar expressions. 
 
 To account for the other half of the Maxwell equation, we need to introduce the `charged flux`. Consider a charged fluid with local velocity $\mathbf{v}$, the current vector then is $\mathbf{j}=\rho \mathbf{v}$, $\rho$ is the density **measured in the inertial system $x$**. Let $\rho_{0}$ be the `rest charge density`, that is, the **density measured by someone moving instantaneously with the fluid**, then 
 $$
@@ -588,35 +572,39 @@ J:= \rho_{0} u = (\rho,\rho \mathbf{v}) := (\rho,\mathbf{J}).
 $$
 We may then construct the associated `current 3-form`
 $$
-\mathcal{J}=i_{\mathbf{J}}\text{Vol}^{4}
+\begin{align}
+\mathcal{J}&=i_{\mathbf{J}}\text{Vol}^{4} = \sigma^{(3)} - j^{(2)}\wedge dt \\
+\sigma^{(3)}&= \rho dx\wedge dy\wedge dz, \\
+j^{(2)}&= j_ {1}dy\wedge dz+j_ {2}dz\wedge dx+j_ {3}dx\wedge dy.
+\end{align}
 $$
-where $\text{Vol}^{4}$ is the 4-volume form. Then the other half of the Maxwell's equations can be written as
+where $\text{Vol}^{4}$ is the 4-volume form, $\text{Vol}=dt\wedge dx \wedge dy \wedge dz$. Then the other half of the Maxwell's equations can be written as
 $$
 d\star F = 4\pi \mathcal{J}.
 $$
 
 ### Hodge Operator
 
-On a (pseudo-)Riemannian manifold $M$ we will first introduce a pointwise scalar product between $p$-forms, denoted by pointy brackets, then use it to define a `global` scalar product, denoted with parenthesis. 
+On a (pseudo-)Riemannian manifold $M$ we will first introduce a `pointwise scalar product` between $p$-forms, denoted by pointy brackets, then use it to define a `global` scalar product, denoted by parenthesis. 
 
 The local scalar product of two $p$-forms is defined to be 
 $$
 \left\langle \alpha,\beta \right\rangle := \alpha_ {I_ {<}} \beta^{I}
 $$
-where $I={i_ {1},\dots,i_ {p}}$ is the generalized index and $I_ {<}$ denotes that in the implies sum we have $i_ {1}<i_ {2}<\dots<i_ {p}$. We can denote the orthonormal bases of 1-forms by 
+where again $I={i_ {1},\dots,i_ {p}}$ is the generalized index and $I_ {<}$ denotes that in the implies sum we have $i_ {1}<i_ {2}<\dots<i_ {p}$. We can denote the orthonormal bases of 1-forms by 
 $$
 \sigma^{1}, \dots,\sigma^{p}.
 $$
 
 The `global` or `Hilbert space scalar product` is defined by 
 $$
-\left( \alpha,\beta \right) := \int _ {m} \, \left\langle \alpha,\beta \right\rangle \text{Vol} ^{n}.
+\left( \alpha,\beta \right) := \int _ {M} \, \left\langle \alpha,\beta \right\rangle \text{Vol} ^{n}.
 $$
-whenever this makes sense. This will be the case when $M$ is compact, or, more generally, when $M$ has compact support.
+whenever this makes sense. This will be the case when $M$ is compact, or, more generally, when the integrand has compact support.
 
-note that the space of smooth $p$-forms on a Riemannian $M$ that satisfy $\left( \alpha,\alpha \right)<\infty$ form only a `pre-Hilbert space` since it is not **complete**; a limit of square integrable smooth forms need not even be continuous. To get a Hilbert space we must "complete" this space. We shall not be concerned here with such matters, and we shall continue to use the inaccurate description "Hilbert space." We shall even go a step further and use this denomination even in the pseudo-Riemannian case, where $\left( -,- \right)$ is not even positive definite.
+Note that the space of smooth $p$-forms on a Riemannian $M$ that satisfy $\left( \alpha,\alpha \right)<\infty$ form only a `pre-Hilbert space` since it is not **complete**; a limit of square integrable smooth forms need not even be continuous. To get a Hilbert space we must "complete" this space. We shall not be concerned here with such matters, and we shall continue to use the inaccurate description "Hilbert space." We shall even go a step further and use this denomination even in the pseudo-Riemannian case, where $\left( -,- \right)$ is not even positive definite.
 
-If $\alpha \in\Omega^{1}(M)$, we may look at its contravariant version $A$ and define a $(n-1)$-form $i_ {A}\text{Vol}^{n}$. We are now going to generalize this procedure, associate to each $p$-form a $(n-p)$-form $\star \alpha$, the `Hodge-dual` of $\alpha$, as follows. If 
+If $\alpha \in\Omega^{1}(M)$, we may look at its contravariant version $A$ and define a $(n-1)$-form $i_ {A}\text{Vol}^{n}$. We can generalize this procedure, associate to each $p$-form a $(n-p)$-form $\star \alpha$, the `Hodge-dual` of $\alpha$, as follows. If 
 $$
 \alpha = \alpha_ {I_ {<}} dx^{I}
 $$
@@ -624,11 +612,66 @@ then
 $$
 \star \alpha = (\star\alpha) _ {J_ {<}} dx^{J}, \quad  (\star\alpha)_ {J} = \sqrt{ \left\lvert g \right\rvert  } \alpha^{K} \epsilon_ {K_ {<}J_ {<}.}
 $$
-
-Technically speaking the smooth p-forms with finite inner product does not form a Hilbert space, but just a pre-Hilbert space, since a Hilbert space must be a Banach space, which is a `complete` vector space with norm defined, but a limit of square integrable smooth forms need not even be continuous, so definitely not complete.
+and where the upper indices $K$ in $\alpha^{K}$ indicate that all of the covariant indices in a have been raised by the metric tensor.
 
 For an important special case, the 0-form that is the constant function $f=1$ has
 $$
 \star 1 = \sqrt{ \left\lvert g \right\rvert  } \epsilon_ {12..d} dx^{1}\wedge dx^{2}\dots \wedge dx^{d} = \text{Vol}^{d}.
 $$
 
+We have
+$$
+\alpha \wedge \star \beta=(\alpha \wedge \star \beta)_ {12\dots n} dx^{1}\wedge \dots \wedge dx^{n},
+$$
+and then
+$$
+(\alpha \wedge \star \beta)_ {12\dots n} = \alpha_ {A_ {<}}\beta_ {A} \sqrt{ \left\lvert g \right\rvert  }dx^{1}\wedge \dots \wedge dx^{n}= \left\langle \alpha ,\beta \right\rangle\text{Vol}^{n} .
+$$
+
+We have claimed that $\star$ generalized the interior product $\alpha\to i_ {A}\text{Vol}^{n}$. To see this, notice that 
+$$
+i_ {A} \text{Vol}^{n} = i_ {A}\sqrt{ \left\lvert g \right\rvert  }\epsilon_ {I_ {<}}dx^{I} = \sqrt{ \left\lvert g \right\rvert  } A^{i}\epsilon_ {iJ_ {<}}dx^{J} = \star \alpha,\quad  \alpha_ {i}\equiv A^{i}.
+$$
+
+Let $\mathbf{e} = (\mathbf{e}_ {1},\mathbf{e}_ {2},\dots,\mathbf{e}_ {n})$ be an orthonormal frame of vectors. Then $\sigma^{i}$ corresponding to $\mathbf{e}_ {i}$ are also orthonormal and 
+$$
+\sigma^{}\wedge \dots \wedge \sigma^{n} = \pm \text{Vol}^{n},
+$$
+and 
+$$
+\star\sigma^{I} = \pm\sigma^{J}, \quad  J\text{ is the complement of }I.
+$$
+
+For example, look at the electromagnetic field in a perhaps curved space-time manifold $M^{4}$. Using the space-time metric, we have 
+$$
+\star F = \star(E\wedge dt)+\star B.
+$$
+We know $E = E_ {i} dx^{1}$ so $\star (E\wedge dt)= \star (E_ {i}dx^{i}\wedge dt)= E_ {i}\star(dx^{i}\wedge dt)$ but what is, for example, $\star (dx^{1}\wedge dt)$? We usually don't need to resort to the original definition which can be pretty cumbersome in calculations. Instead we notice that the **Hodge dual is closed related to the inner product** and use the inner product to calculate the Hodge dual. In Minkowski space we have $\left\lvert g \right\rvert=1$ thus we can neglect it. Say, we want to calculate $\star(dx^{2}\wedge dx^{3})$, it has the property that 
+$$
+(dx^{2}\wedge dx^{3})\wedge (\star dx^{2}\wedge dx^{3}) = \left\langle dx^{2}\wedge dx^{3},dx^{2}\wedge dx^{3} \right\rangle\; \text{Vol}^{4},
+$$
+which can be calculated using a relation which says that, given 1-forms $\alpha_ {i},\beta_ {j}$ we have 
+$$
+\left\langle \alpha_ {i_ {1}}\wedge \dots \wedge \alpha_ {i_ {d}}, \beta_ {j_ {1}} \wedge \dots \wedge  \beta_ {j_ {d}}\right\rangle = \det \left\langle \alpha_ {i_ {m}},\beta_ {j_ {n}} \right\rangle  
+$$
+where the right hand side is a matrix with entry $(m,n)$ given by the inner product. Equipped with above relation, the fact that $dx$ are orthonormal and the metric $g=\text{diag} (1,-1,-1,-1)$ we have 
+$$
+\begin{align}
+(dx^{2}\wedge dx^{3})\wedge \star (dx^{2}\wedge dx^{3}) &= \left\langle dx^{2}\wedge dx^{3},dx^{2}\wedge dx^{3} \right\rangle \text{Vol}^{4} = \left\langle dx^{2},dx^{2} \right\rangle \times \left\langle dx^{3},dx^{3} \right\rangle \text{Vol}^{4}  \\
+&=\text{Vol}^{4} = dt\wedge dx^{1}\wedge dx^{2}\wedge dx^{3}
+\end{align}
+$$
+thus we can read-off that 
+$$
+\star(dx^{2}\wedge dx^{3}) = dt\wedge dx^{1}.
+$$
+likewise we have 
+$$
+\star(dt\wedge dx^{1}) = -dx^{2}\wedge dx^{3}.
+$$
+We have
+$$
+\begin{align}
+\star()
+\end{align}
+$$
