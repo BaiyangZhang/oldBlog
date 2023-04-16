@@ -33,11 +33,11 @@ $$
 \delta^{123}_ {132}=-1,\quad  \delta^{123}_ {231}=1, \quad  \delta^{123}_ {124}=0.
 $$
 
-We can then define the usual · as 
+We can then define the familiar Levi-Civita symbol as 
 $$
 \epsilon_ {I} = \epsilon_ {i_ {1}\dots i_ {n}} =\epsilon^{I}= \delta^{I}_ {12\dots n}.
 $$
-**Note that it is called a symbol and it is not a tensor!** So don't use the metric to raise or lower the indices! 
+**Note that it is called a symbol and it is not a tensor!** So don't use the metric to raise or lower the indices! Calculation-wise, the biggest difference between the Levi-Civita symbol and tensor is that, for the symbol $\delta_ {I} = \delta^{I}$ by definition, however for the tensor what people usually do it to define $\epsilon_ {I}$ first, then use the metric to raise its indices, as for all tensors. It usually yields a factor involving $\det g$ and the signature of $g$, which is $-1$ for Minkowski metric.
 
 In the above-mentioned notations, the wedge product of two differential forms $\alpha,\beta$ can be written as (in components)
 $$
@@ -647,15 +647,15 @@ For example, look at the electromagnetic field in a perhaps curved space-time ma
 $$
 \star F = \star(E\wedge dt)+\star B.
 $$
-We know $E = E_ {i} dx^{1}$ so $\star (E\wedge dt)= \star (E_ {i}dx^{i}\wedge dt)= E_ {i}\star(dx^{i}\wedge dt)$ but what is, for example, $\star (dx^{1}\wedge dt)$? We usually don't need to resort to the original definition which can be pretty cumbersome in calculations. Instead we notice that the **Hodge dual is closed related to the inner product** and use the inner product to calculate the Hodge dual. In Minkowski space we have $\left\lvert g \right\rvert=1$ thus we can neglect it. Say, we want to calculate $\star(dx^{2}\wedge dx^{3})$, it has the property that 
+We know $E = E_ {i} dx^{1}$ so $\star (E\wedge dt)= \star (E_ {i}dx^{i}\wedge dt)= E_ {i}\star(dx^{i}\wedge dt)$ but what is, for example, $\star (dx^{1}\wedge dt)$? We usually don't need to resort to the original definition which can be pretty cumbersome in calculations. Instead we notice that the **Hodge dual is closed related to the inner product and volume form**.  In Minkowski space we have $\left\lvert g \right\rvert=1$ thus we can neglect it. Say, we want to calculate $\star(dx^{2}\wedge dx^{3})$, it has the property that 
 $$
-(dx^{2}\wedge dx^{3})\wedge (\star dx^{2}\wedge dx^{3}) = \left\langle dx^{2}\wedge dx^{3},dx^{2}\wedge dx^{3} \right\rangle\; \text{Vol}^{4},
+(dx^{2}\wedge dx^{3})\wedge \star (dx^{2}\wedge dx^{3}) = \left\langle dx^{2}\wedge dx^{3},dx^{2}\wedge dx^{3} \right\rangle\; \text{Vol}^{4},
 $$
 which can be calculated using a relation which says that, given 1-forms $\alpha_ {i},\beta_ {j}$ we have 
 $$
 \left\langle \alpha_ {i_ {1}}\wedge \dots \wedge \alpha_ {i_ {d}}, \beta_ {j_ {1}} \wedge \dots \wedge  \beta_ {j_ {d}}\right\rangle = \det \left\langle \alpha_ {i_ {m}},\beta_ {j_ {n}} \right\rangle  
 $$
-where the right hand side is a matrix with entry $(m,n)$ given by the inner product. Equipped with above relation, the fact that $dx$ are orthonormal and the metric $g=\text{diag} (1,-1,-1,-1)$ we have 
+where the right hand side is a matrix with entry $(m,n)$ given by the inner product. Equipped with above relation and the fact that $dx$ are orthonormal, with convention $g=\text{diag} (1,-1,-1,-1)$ we have 
 $$
 \begin{align}
 (dx^{2}\wedge dx^{3})\wedge \star (dx^{2}\wedge dx^{3}) &= \left\langle dx^{2}\wedge dx^{3},dx^{2}\wedge dx^{3} \right\rangle \text{Vol}^{4} = \left\langle dx^{2},dx^{2} \right\rangle \times \left\langle dx^{3},dx^{3} \right\rangle \text{Vol}^{4}  \\
@@ -670,9 +670,77 @@ likewise we have
 $$
 \star(dt\wedge dx^{1}) = -dx^{2}\wedge dx^{3}.
 $$
-We have
+To summarize, we have
 $$
+\boxed { 
 \begin{align}
-\star()
+\star(dx^{i}\wedge dx^{j} ) &= -\epsilon^{ijk} \,  dx^{k}\wedge dt, \\
+\star(dt \wedge dx^{i} ) &= -\frac{1}{2} \epsilon^{ijk}\, dx^{j}\wedge dx^{k}. 
 \end{align}
+} 
 $$
+
+
+It can be shown that, given $\alpha \in\Omega^{p}(M^{n})$,
+$$
+\star^{2} = 
+\begin{cases}
+(-1)^{p(n-1)}   &  \text{ If }M \text{ is Riemannian} \\
+-(-1)^{p(n-1)}   &  \text{ If }M \text{ is pseudo-Riemannian}
+\end{cases}
+$$
+
+It is sufficient to verify these for terms of the form $\sigma^{I}$ and to assume these are orthonormal. Remember that $\star\sigma^{I_ {<}} = \pm \sigma^{J_ {<}}$ where $J$ is the compliment of $I$, and the sign dependent on the nature of the metric. 
+
+
+#### The Codifferential Operator $d^{\dagger}=d^{\star}=\delta$
+
+The codifferential operator $d^{\dagger}$ is the dual of exterior differential $d$ in the sense that, in the global inner product,
+$$
+(d \alpha^{p-1},\beta^{p} ) \equiv (\alpha^{p-1},d^{\dagger}\beta^{p-1}).
+$$
+where the superscript denotes the dimension of the form. Thus $d^{\dagger}$ must send a $p$-form to a $(p-1)$-form.
+
+Not recall that 
+$$
+(d \alpha^{p-1},\beta^{p} ) = \int_ {M} \,  (d\alpha^{p-1})\wedge \star \beta^{p}=(-1)^{p-1}\int_ {M} \,  \alpha^{p-1}\wedge d\star \beta^{p}
+$$
+and 
+$$
+(\alpha^{p-1},d^{\dagger}\beta^{p-1}) = \int_ {M} \,  \alpha^{p-1}\wedge \star d^{\dagger}\beta^{p}
+$$
+then it can be shown that given $\beta \in\Omega^{p}(M)$ if we define 
+$$
+d^{\dagger}\beta := 
+\begin{cases}
+-(-1)^{n(p+1)}\star d\, \star \beta & \text{ Riemannian} \\
+(-1)^{n(p+1)}\star d\, \star \beta & \text{ Pseudo-Riemannian}
+\end{cases}
+$$
+then we would have, given $\alpha \in\Omega^{p-1}(M)$, 
+$$
+(d\alpha,\beta) - (\alpha,d^{\dagger}\beta) = \int_ {M} \,  d(\alpha \wedge \star \beta).
+$$
+at least when $\alpha,\beta$ has **compact support**. If $M^{n}$ is closed then $d^{\dagger}$ is indeed the dual of $d$ in the pre-Hilbert space. If $M$ has a boundary, then the statement still holds if either of $\alpha$ and $\beta$ is zero on the boundary. 
+
+The operator $d^{^{\dagger}}$ is called the `codifferential`. The traditional notation is $\delta$ but we will not use it, since we want to keep $\delta$ for variation. Instead we will use $d^{\dagger}$.
+
+
+#### Maxwell's Equations in Curved Space-Time 
+
+We shall assume that the electromagnetic field is again described by an electromagnetic 2-form $F\in\Omega^{2}(M)$. In any local coordinates $(t,\mathbf{x})=(x^{0},x^{1},\dots,x^{4})$ we may decompose $F$ into part contain and doesn't contain $dt$. The relation between $F$ and the electric 1-form $E\in\Omega^{1}(M)$ and magnetic 2-form $B\in\Omega^{2}(M)$ is given by 
+$$
+F = E\wedge dt + B.
+$$
+
+Half of the Maxwell equation is given by $dF=0$. Define the charge density 3-form $\rho$ and current 2-form $j$, we have the 4D current 3-form
+$$
+J = \rho - j \wedge  dt
+$$
+which is related to the 4-vector form of the current $J^{\mu}$ by 
+$$
+J = i_ {J^{\mu}}\text{Vol}^{4}.
+$$
+where $\mu$ is just part of the name, not to be contracted with anything. 
+
+
