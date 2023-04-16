@@ -37,7 +37,7 @@ We can then define the usual · as
 $$
 \epsilon_ {I} = \epsilon_ {i_ {1}\dots i_ {n}} =\epsilon^{I}= \delta^{I}_ {12\dots n}.
 $$
-**Note that it is called a symbol and it is not a tensor!** So don't use the metric to raise or lower the indices!
+**Note that it is called a symbol and it is not a tensor!** So don't use the metric to raise or lower the indices! 
 
 In the above-mentioned notations, the wedge product of two differential forms $\alpha,\beta$ can be written as (in components)
 $$
