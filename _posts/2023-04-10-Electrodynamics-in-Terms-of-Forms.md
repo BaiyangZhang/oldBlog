@@ -613,7 +613,7 @@ then
 $$
 \star \alpha = (\star\alpha) _ {J_ {<}} dx^{J}, \quad  (\star\alpha)_ {J} = \sqrt{ \left\lvert g \right\rvert  } \alpha^{K} \epsilon_ {K_ {<}J_ {<}.}
 $$
-and where the upper indices $K$ in $\alpha^{K}$ indicate that all of the covariant indices in a have been raised by the metric tensor.
+and where the upper indices $K$ in $\alpha^{K}$ indicate that all of the covariant indices in a have been raised by the metric tensor. Note that here $\epsilon_ {KJ}$ is **not** the Levi-Civita tensor but the Levi-Civita symbol, it simplifies the calculation but the price to pay is that $\alpha^{K}\epsilon_ {K_ {<}J_ {<}}$ can no longer be carelessly rewritten as $\alpha_ {K}\epsilon^{K_ {<}}_ {\;\;\;\; J_ {<}}$. 
 
 For an important special case, the 0-form that is the constant function $f=1$ has
 $$
@@ -683,11 +683,7 @@ $$
 
 It can be shown that, given $\alpha \in\Omega^{p}(M^{n})$,
 $$
-\star^{2} = 
-\begin{cases}
-(-1)^{p(n-1)}   &  \text{ If }M \text{ is Riemannian} \\
--(-1)^{p(n-1)}   &  \text{ If }M \text{ is pseudo-Riemannian}
-\end{cases}
+\star^{2} = \text{det}(g) (-1)^{p(n-p)}
 $$
 
 It is sufficient to verify these for terms of the form $\sigma^{I}$ and to assume these are orthonormal. Remember that $\star\sigma^{I_ {<}} = \pm \sigma^{J_ {<}}$ where $J$ is the compliment of $I$, and the sign dependent on the nature of the metric. 
@@ -711,11 +707,9 @@ $$
 $$
 then it can be shown that given $\beta \in\Omega^{p}(M)$ if we define 
 $$
-d^{\dagger}\beta := 
-\begin{cases}
--(-1)^{n(p+1)}\star d\, \star \beta & \text{ Riemannian} \\
-(-1)^{n(p+1)}\star d\, \star \beta & \text{ Pseudo-Riemannian}
-\end{cases}
+\boxed { 
+d^{\dagger}\beta := \text{det}(g)\, (-1)^{n(p+1)+1}\star d\, \star \beta = (-1)^{p}\star^{-1}d \star \beta
+} 
 $$
 then we would have, given $\alpha \in\Omega^{p-1}(M)$, 
 $$
@@ -724,6 +718,15 @@ $$
 at least when $\alpha,\beta$ has **compact support**. If $M^{n}$ is closed then $d^{\dagger}$ is indeed the dual of $d$ in the pre-Hilbert space. If $M$ has a boundary, then the statement still holds if either of $\alpha$ and $\beta$ is zero on the boundary. 
 
 The operator $d^{^{\dagger}}$ is called the `codifferential`. The traditional notation is $\delta$ but we will not use it, since we want to keep $\delta$ for variation. Instead we will use $d^{\dagger}$.
+
+A consequence of the definition for exterior derivative 
+$$
+d\alpha = (\partial _ {\mu}\alpha_ {I_ {<}})dx^{\mu}\wedge dx^{I}
+$$
+is that, *in a spacetime with a symmetric connection* $\Gamma^{\alpha}_ {\;\mu \nu}=\Gamma^{\alpha}_ {\;\nu \mu}$,  the partial derivative $\partial_ {\mu}$ can always be replaced by the **covariant derivative** $\nabla_ {\mu}$, as the readers can verify, the covariant derivatives introduce new terms concerning the connections, and these terms identically vanish due to the anti-symmetric nature of differential forms. Some calculation shows that a coordinate expression for the $(p-1)$-form $d^{\dagger}\beta$ is 
+$$
+(d^{\dagger}\beta)_ {K} = - \beta^{i}_ {\;K;j}.
+$$
 
 
 #### Maxwell's Equations in Curved Space-Time 
@@ -741,6 +744,10 @@ which is related to the 4-vector form of the current $J^{\mu}$ by
 $$
 J = i_ {J^{\mu}}\text{Vol}^{4}.
 $$
-where $\mu$ is just part of the name, not to be contracted with anything. 
+where $\mu$ is just part of the name, not to be contracted with anything. Note that **The current 4-vector depends on the metric!** **It is for this reason that the current 3-form is more basic than the 4-vector current**.
 
+The other half of the Maxwell equation can be written as 
+$$
+d\star F= 4\pi J^{(3)},\quad  J^{(3)} \text{ is the current 3-form.}
+$$
 
