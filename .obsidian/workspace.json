@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-04-05-Harmonic-Forms.md",
+                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-04-05-Harmonic-Forms.md",
+                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-04-05-Harmonic-Forms.md",
+                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-04-05-Harmonic-Forms.md"
+                "file": "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "1cc135b704daeef3",
   "lastOpenFiles": [
+    "_drafts/2023-04-05-Confinement-in-Toy-Models-Lecture-3.md",
+    "_drafts/2023-04-05-Harmonic-Forms.md",
     "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
     "Untitled 1.md",

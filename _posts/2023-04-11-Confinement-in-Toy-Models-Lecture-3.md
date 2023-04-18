@@ -38,12 +38,12 @@ where the integral by parts has been performed. If we integrate over $\sigma(x)$
 
 **However, we could also choose to integrate over $F$ first**, leaving as a theory in terms of $\sigma(x)$. Solve the equation of motion for $F$ we get
 $$
-\sigma^{\mu} = -\frac{g^{2}}{4\pi}\epsilon^{\mu \nu \lambda}F_ {\nu \lambda}
+F^{\mu\nu} = - \frac{g^{2}}{4\pi}\epsilon^{\mu \nu \lambda}\partial _ {\lambda}\sigma
 $$
 and substitute it back to the action we have 
 $$
 \boxed{
-S[\sigma] =  \frac{g^{2}}{16\pi^{2}}\int d^{3}x \, (\partial \sigma) ^{2}.
+S[\sigma] =  \frac{g^{2}}{32\pi^{2}}\int d^{3}x \, (\partial \sigma) ^{2}.
 }
 $$
 **Notice the change of the position of the coupling!** We will call $\sigma$ the `dual photon field` and the action the `magnetic description` or `dual description`, the use of magnetic in the calling will become clear in the future.
@@ -92,4 +92,29 @@ $$
 so let's try to define 
 $$
 [\sigma(x), \dot{\sigma}(y)]=i\delta^{2}(x-y),
+$$
+then we have 
+$$
+Qe^{ \pm i \sigma(x) }\left\lvert{0}\right\rangle  = \pm e^{ \pm i \sigma(x) }\left\lvert{0}\right\rangle ,
+$$
+
+thus $e^{ i\sigma(x) }$ acting on the vacuum creates a local state with unit magnetic flux. 
+
+Note the $e^{ i\sigma }$ has no simple, local expression in the electric version of the theory. This is an example of a “disorder” operator which does not have a local expression in terms of the electric theory fields.
+
+The Gauss's theorem tells that the electric charge in a region in $\mathbb{R}^{2}$ circled by loop $C$ is given by $\int_ {C} \,  \nabla \cdot \mathbf{E}$, in the language of the magnetic theory we have $E_ {i} \sim\epsilon_ {ij} \partial_ {j}\sigma$, thus the charge is given by 
+$$
+Q \sim \int d^{2}x \, \nabla \cdot \mathbf{E} \sim \int d^{2}x \,  \nabla \times (\nabla \sigma)=  \oint_ {C} \nabla \sigma \cdot dl,
+$$
+where $dl$ is the line segment along the circle. It means that around a charge $Q$, the dual photon field has non-zero monodromy (not single-valued). It is quite natural since 1) $\sigma$ appears in the exponent in the operator and 2) only its derivative appears in the Lagrangian. 
+
+The insertion of a static charge is quite simple in the original theory, by the means of the Wilson loop. However, in the dual theory, it is much complicated. We will have to realized the insertion by allowing only certain types of the $\sigma$ field configuration, namely that give the correct monodromy. It is similar to what we get when we want to insert a monopole in the Yang-Mills theory. 
+
+The claim (not mine) is that the insertion of the operator $e^{ \pm i\sigma(x) }$ where $x\in\mathbb{R}^{3}$ corresponds to the configuration where a monopole-instanton sits at $x$. To begin with, we introduce the source term for $\sigma$ field, and the generating functional in the Euclidean space reads 
+$$
+\Gamma[\rho(x)]:= \mathcal{N} \int \mathcal{D}\sigma \,  e^{ -S +\int d^{3}x \,\rho(x)\sigma(x)  }
+$$
+which is a standard procedure in QFT, it yields 
+$$
+\Gamma[\rho(x)] = \exp\left( -\frac{g^{2}}{8\pi} \int \,   d^{3}xd^{3}y \,\rho(x) \frac{1}{\left\lvert x-y \right\rvert} \rho(y) \right)
 $$
