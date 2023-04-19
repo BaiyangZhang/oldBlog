@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+                "file": "_drafts/2023-04-17-Harmonic-Forms.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+                "file": "_drafts/2023-04-17-Harmonic-Forms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+                "file": "_drafts/2023-04-17-Harmonic-Forms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md"
+                "file": "_drafts/2023-04-17-Harmonic-Forms.md"
               }
             }
           }
@@ -148,10 +149,16 @@
   },
   "active": "1cc135b704daeef3",
   "lastOpenFiles": [
-    "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
     "_drafts/2023-04-05-Harmonic-Forms.md",
+    "_drafts/2023-3-22-Hilbert's-Action-Principle.md",
+    "_drafts/2023-04-05-Confinement-in-Toy-Models-Lecture-3.md",
     "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
+    "_drafts/2023-mm-dd-Basic-Category-Theory-Class-n.md",
+    "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
+    "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
     "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+    "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
+    "_drafts/2023-04-17-Harmonic-Forms.md",
     "Untitled 1.md",
     "_drafts/2023-04-05-Classical-Electrodynamics-in-Forms.md",
     "_drafts/2023-04-15-共和国史笔记-思考与选择.md",

@@ -161,4 +161,4 @@ $$
 
 - - -
 
-Recall that the `period` of a form
+Recall that the `periods` of a closed form are the values of the integration of the form along integral homology cycles. 
