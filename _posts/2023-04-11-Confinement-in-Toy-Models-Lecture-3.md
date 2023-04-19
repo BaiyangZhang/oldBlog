@@ -116,5 +116,32 @@ $$
 $$
 which is a standard procedure in QFT, it yields 
 $$
-\Gamma[\rho(x)] = \exp\left( -\frac{g^{2}}{8\pi} \int \,   d^{3}xd^{3}y \,\rho(x) \frac{1}{\left\lvert x-y \right\rvert} \rho(y) \right)
+\Gamma[\rho(x)] = \exp\left( -\frac{2\pi}{g^{2}} \int \,   d^{3}xd^{3}y \,\rho(x) \frac{1}{\left\lvert x-y \right\rvert} \rho(y) \right)
 $$
+
+If there are two magnetic charges at $x_ {1}$ and $x_ {2}$, the corresponding density is 
+$$
+\rho_ {(2)}(x) = q_ {1}\delta^{(3)}(x-x_ {1})+q_ {2}\delta^{(3)}(x-x_ {2}),
+$$
+then we have 
+$$
+\Gamma[\rho_ {(2)}] = \exp\left( -\frac{4\pi}{g^{2}} \frac{q_ {1}q_ {2}}{\left\lvert x_ {1}-x_ {2} \right\rvert} \right).
+$$
+
+We can also compute the action in the above setup, the calculation shows that 
+$$
+e^{ -S_ {\text{inter}} } = e^{ - \frac{4\pi}{g^{2}} \frac{q_ {1}q_ {1}}{\left\lvert x_ {1}-x_ {2} \right\rvert } }.
+$$
+
+Two magnetic monopoles, considered as static particles, interact via a magnetic version of the Coulomb law. 
+
+We can associate to monopole (denote by $M$) the so-called `'t Hooft`  vertex, 
+$$
+\boxed { 
+\begin{align}
+M \text{ at } x &: v^{3}e^{ -S_ {0} }e^{ i\sigma(x) }, \\
+\overline{M} \text{ at } x &: v^{3}e^{ -S_ {0} }e^{ -i\sigma(x) }.
+\end{align}
+} 
+$$
+
