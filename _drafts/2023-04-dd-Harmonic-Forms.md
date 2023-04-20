@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Harmonic Forms			# 标题 
 subtitle:   
-date:       2023-04-17 				# 时间
+date:       2023-04-dd 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background12.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -156,9 +156,115 @@ d\alpha = (\partial _ {\mu}\alpha_ {I_ {<}})dx^{\mu}\wedge dx^{I}
 $$
 is that, *in a spacetime with a symmetric connection* $\Gamma^{\alpha}_ {\;\mu \nu}=\Gamma^{\alpha}_ {\;\nu \mu}$,  the partial derivative $\partial_ {\mu}$ can always be replaced by the **covariant derivative** $\nabla_ {\mu}$, as the readers can verify, the covariant derivatives introduce new terms concerning the connections, and these terms identically vanish due to the anti-symmetric nature of differential forms. Some calculation shows that a coordinate expression for the $(p-1)$-form $d^{\dagger}\beta$ is 
 $$
-(d^{\dagger}\beta)_ {K} = - \beta^{i}_ {\;K;j}.
+(d^{\dagger}\beta)_ {K} = - \beta^{i}_ {\;K;i} \equiv - \nabla_ {i}\beta^{i}_ {\;K}.
+$$
+We shall call the negative of the right-hand side the Divergence (with a capital D) of the form,
+$$
+(\text{Div}\beta)_ {K} :=  \nabla_ {i}\beta^{i}_ {\;K}.
 $$
 
 - - -
 
-Recall that the `periods` of a closed form are the values of the integration of the form along integral homology cycles. 
+Recall that the `periods` of a closed form are the values of the integration of the form along integral (meaning with integer coefficients) homology cycles. Here the question we want to answer is, among all closed forms with a given set of periods, which one has the smallest global norm? 
+
+In a Cartesian coordinate system the Laplacian of a function $f$ is the familiar $\nabla^{2}f=\partial^{2}f / \partial x^{i} \partial x^{i}$. The Laplacian of a $p$-form is more complicated. It is defined as 
+$$
+\boxed { 
+\Delta : \Omega^{p} \to \Omega^{p}, \text{ by } \Delta := dd^{\dagger}+d^{\dagger}d
+} 
+$$
+
+Occasionally we shall write $\nabla^{2}=-\Delta$, different from the convention in the Cartesian coordinates for functions. 
+
+In components we have 
+$$
+\Delta \alpha = (- \nabla^{i}\nabla_ {i}\alpha_ {j}\,dx^{j}) + (\alpha_ {k}R^{k}_ {\;\;j}\;dx^{j})\tag{Weizenbock}
+$$
+where $R^{k}_ {\;j}$ is the Ricci tensor. Note that we have covariant derivative $\nabla$ instead of partial derivative $\partial$. 
+
+- - -
+
+### Harmonic Forms on Closed Manifolds
+
+Let $M$ be a $n$ dimensional compact, Riemannian manifold, then the (global) inner product is positive-definite, 
+$$
+(\alpha,\alpha)\geq 0
+$$
+and is zero only if $\alpha=0$. 
+
+A form $\alpha$ is said to be `harmonic` if 
+$$
+\Delta\alpha = (dd^{\dagger}+d^{\dagger}d)\alpha=0,
+$$
+if $\alpha$ is a function then it reduces to the usual notion. 
+
+Note that $\Delta$ is `self-adjoint `since $\Delta ^{\dagger}=\Delta$. Let $M$ be a closed (without boundary and compact) manifold, we have 
+$$
+(\Delta \alpha,\alpha) = (dd^{\dagger}\alpha+d^{\dagger}d\alpha,\alpha)=(d\alpha,d\alpha)+(d^{\dagger}\alpha,d^{\dagger}\alpha)\geq 0
+$$
+and it is only zero if
+$$
+d\alpha=0 \text{ and }d^{\dagger}\alpha=0
+$$
+**thus a form on a a closed manifold is only harmonic if it is both closed and co-closed!** 
+
+This is far different from the situation in $\mathbb{R}^{n}$. For example, a closed 0-form is simply constant function, yet harmonic functions in $\mathbb{R}^{n}$ need not be constant, the real part of any complex analytic function in the plane is harmonic!
+
+The Laplace operator $\Delta: \Omega^{p}\to \Omega^{p}$ is an `elliptic operator` on a Riemannian manifold. The main ingredient is that the metric tensor is positive definite. In Minkowski space, however, the Laplacian of a function becomes the d' Alembertian.
+
+**Hodge's Theorem.** Let $M^{n}$ be a closed Riemannian manifold. The harmonic $p$-forms form a vector space
+$$
+\mathcal{H}^{p} := \left\{ \alpha \in \Omega^{p}(M)  \,\middle\vert\, d\alpha=d^{\dagger}\alpha=0 \right\} .
+$$
+It is finite-dimensional and **Poisson's equation**
+$$
+\Delta \alpha=\rho,\quad \rho \in \Omega^{p}(M)
+$$
+has solution iff $\rho$ is orthogonal to $\mathcal{H}^{p}$, 
+$$
+(\rho,\alpha)=0 \;\forall\; \alpha \in \mathcal{H}.
+$$
+
+
+The finite dimensionality $\mathcal{H}$ is a deep result on elliptic operators on closed manifolds. It is easy to see the necessity of the condition on $\rho$ in order that there be a solution to Poisson's equation; if $\rho = \Delta \alpha$,
+$$
+(\rho,h) = (\Delta \alpha,h)=(\alpha,\Delta ^{\dagger}h)=(\alpha,\Delta h)=0.
+$$
+The deep part is showing the sufficiency of this condition. 
+
+- - -
+
+**The Hodge decomposition on a closed manifold**
+
+Let $\beta$ be a $p$-form on $M$ and let $h_ {1},\dots,h_ {r}$ be an orthonormal basis for $\mathcal{H}^{p}(M)$. For notational simplicity, define
+$$
+\beta-h := \beta - \sum_ {r} (\beta,h_ {r}) h_ {r},
+$$
+which is the component orthogonal to $\mathcal{H}$. Then, by Hodge's theorem, we can solve 
+$$
+\Delta \alpha = \beta-h
+$$
+for some p-form $\alpha$. In other words, for any $\beta$ on $M$ we could write 
+$$
+\beta = dd^{\dagger}\alpha + d^{\dagger}d\alpha + h
+$$
+which is a sum of exact form $d(d^{\dagger}\alpha)$ and coexact form $d^{\dagger}d\alpha$ and a harmonic form.  This is true for any p-form on the closed $M$. Hence
+$$
+\boxed { 
+\Omega^{p} = d\Omega^{p-1}+d^{\dagger}\Omega^{p+1}+ \mathcal{H}^{p}.
+} 
+$$
+Note further that the three subspaces are mutually orthogonal,
+$$
+(d,d^{\dagger})\equiv 0.
+$$
+This is called the **Hodge decomposition.**
+
+Note that the decomposition is unique. 
+
+In the case of a closed 3-manifold we have $\beta^{1}= d\phi^{0}+d^{\dagger}\mu^{2}+h^{1}$, that is,
+$$
+\mathbf{B} = \text{grad }\phi + \text{curl }\mathbf{M} + \mathbf{H}
+$$
+that is, a smooth vector field can be written as the sum of a gradient, a curl, and a vector field that has both vanishing curl and divergence. This version is also true in the noncompact $\mathbb{R}^{3}$, at least when the growth of $\mathbf{B}$ at infinity is controlled; this is the classical Helmholtz decomposition, which is so useful in vector analysis.
+
