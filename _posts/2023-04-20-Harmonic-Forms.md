@@ -2,18 +2,15 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Harmonic Forms			# 标题 
 subtitle:   
-date:       2023-04-dd 				# 时间
+date:       2023-04-20 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/background12.jpg 	#这篇文章标题背景图片
+header-img: img/background18.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - Geometry
-    - Minkowski
+    - Hodge
     - Frankel
 ---
-
-*Disclaimer: Nothing in this note is original.*
-
 
 ### Hodge Operator
 
@@ -266,5 +263,42 @@ In the case of a closed 3-manifold we have $\beta^{1}= d\phi^{0}+d^{\dagger}\mu^
 $$
 \mathbf{B} = \text{grad }\phi + \text{curl }\mathbf{M} + \mathbf{H}
 $$
-that is, a smooth vector field can be written as the sum of a gradient, a curl, and a vector field that has both vanishing curl and divergence. This version is also true in the noncompact $\mathbb{R}^{3}$, at least when the growth of $\mathbf{B}$ at infinity is controlled; this is the classical Helmholtz decomposition, which is so useful in vector analysis.
+that is, a smooth vector field can be written as the sum of a gradient, a curl, and a vector field that has both vanishing curl and divergence. This version is also true in the noncompact $\mathbb{R}^{3}$, at least when the growth of $\mathbf{B}$ at infinity is controlled; this is the classical `Helmholtz decomposition`, which is so useful in vector analysis.
+
+### Harmonic Forms and De Rham's Theorem
+
+Any p-form $\beta$ may be written in the form 
+$$
+\beta = d \alpha + d^{\dagger}\gamma+h,\quad h\text{ is harmonic,}
+$$
+since the decomposition is orthogonal, if $\beta$ is closed, then 
+$$
+\beta = d \alpha + h, \text{ no } d^{\dagger}\gamma.
+$$
+Now, $\beta$ and $\beta - d\alpha$ are in the same de Rham class since they differ by $d(\text{sth})$, thus
+
+**Corollary.** In each de Rham class $[\beta]$ there is a unique harmonic representative $h(\beta)$. Thus there exists a unique harmonic $p$-form with $b_ {p}$ (the Betti number) prescribed periods on a homology basis for the real p-cycles on $M$. 
+
+Assume that one has a *closed* p-form $\beta^{p}$ on a closed manifold $M$. The 1-parameter family of forms $\beta(\epsilon):= \beta+\epsilon d\alpha$ are closed, with the same period, for all $\alpha$. This yields a variation of $\beta$ with $\delta \beta = d\alpha$. Supposed $\beta$ is the closed form with the prescribed periods *whose norm is a minimum.*` Dirichlet's principle` presumed that such a minimum norm element had to exist. Look then at the first variation as we vary $\alpha$, 
+$$
+\delta(\beta,\beta)=0=2(\delta \beta,\beta) = 2(d \alpha,\beta)=2(\alpha,d^{\dagger}\beta),
+$$
+**since this holds for all $\alpha$ we conclude that $\beta$ is not only closed, it is coclosed, $d^{\dagger}\beta=0$, and thus harmonic!**
+
+We just mention that it was pointed out by Weierstrass that Dirichlet's principle was not always reliable and thus the indicated proof is defective.  However, the (difficult) Hodge decomposition justifies the norm claim since
+$$
+\left\lvert \beta \right\rvert ^{2}=\left\lvert d\alpha \right\rvert ^{2}+\left\lvert h \right\rvert ^{2}
+$$
+shows that in the de Rham class $[\beta]$, **the harmonic representative $h$ has the smallest norm!**
+
+- - -
+
+The prime example of a manifold with boundary is the case of a bounded region in $\mathbb{R}^{3}$ with smooth boundary. If a fluid fills such a domain, with smooth walls forming the boundary, then the velocity vector field $\mathbf{v}$ is tangent to the boundary. If the flow is incompressible, then the velocity field has divergence $0$. If further the flow is irrotational, then the velocity has zero curl and the resulting velocity 1-form field $\nu$ is harmonic. We are interested in the existence of such fields and we shall find that with some type of prescribed topological restriction the solution becomes unique.
+
+**Note that in a compact manifold with boundary, $d$ and $d^{\dagger}$ are not necessarily adjoints, and it is no longer true that $\Delta \alpha=0$ iff $d\alpha = d^{\dagger}\alpha=0$.** There will be extra surface terms. Furthermore, $\Delta$ is no longer self-adjoint. For physical problems involving forms we shall reserve the term harmonic `field` for forms that satisfy
+$$
+d\alpha = d^{\dagger}\alpha =0.
+$$
+
+Thus a harmonic 0-`field` is constant, whereas a harmonic function, that is 0-form , of course, need not be.
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-04-dd-Harmonic-Forms.md",
+                "file": "_posts/2023-04-20-Harmonic-Forms.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-04-dd-Harmonic-Forms.md",
+                "file": "_posts/2023-04-20-Harmonic-Forms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-04-dd-Harmonic-Forms.md",
+                "file": "_posts/2023-04-20-Harmonic-Forms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-04-dd-Harmonic-Forms.md"
+                "file": "_posts/2023-04-20-Harmonic-Forms.md"
               }
             }
           }
@@ -147,10 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1cc135b704daeef3",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
     "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
-    "_drafts/2023-04-dd-Harmonic-Forms.md",
+    "_posts/2023-04-20-Harmonic-Forms.md",
     "_drafts/2023-04-05-Harmonic-Forms.md",
     "_drafts/2023-3-22-Hilbert's-Action-Principle.md",
     "_drafts/2023-04-05-Confinement-in-Toy-Models-Lecture-3.md",
