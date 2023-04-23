@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-04-20-Harmonic-Forms.md",
+                "file": "_drafts/2023-mm-dd-Theodore-Frankel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "043b0760403eb88d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-04-dd-Lie-Groups.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-04-20-Harmonic-Forms.md",
+                "file": "_drafts/2023-04-dd-Lie-Groups.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-04-20-Harmonic-Forms.md",
+                "file": "_drafts/2023-04-dd-Lie-Groups.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-04-20-Harmonic-Forms.md"
+                "file": "_drafts/2023-04-dd-Lie-Groups.md"
               }
             }
           }
@@ -147,10 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "957cfa2362e38596",
+  "active": "043b0760403eb88d",
   "lastOpenFiles": [
-    "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
+    "_drafts/2023-mm-dd-Theodore-Frankel.md",
+    "_drafts/2023-04-dd-Lie-Groups.md",
     "_posts/2023-04-20-Harmonic-Forms.md",
+    "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
     "_drafts/2023-04-05-Harmonic-Forms.md",
     "_drafts/2023-3-22-Hilbert's-Action-Principle.md",
     "_drafts/2023-04-05-Confinement-in-Toy-Models-Lecture-3.md",
