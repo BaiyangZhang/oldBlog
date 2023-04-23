@@ -233,7 +233,7 @@ The deep part is showing the sufficiency of this condition.
 
 **The Hodge decomposition on a closed manifold**
 
-Let $\beta$ be a $p$-form on $M$ and let $h_ {1},\dots,h_ {r}$ be an orthonormal basis for $\mathcal{H}^{p}(M)$. For notational simplicity, define
+Let $\beta$ be a $p$-form on $M$ and let $h_ {1},\dots,h_ {r}$ be an orthonormal basis for $\mathcal{H}^{p}(M)$. For notation simplicity, define
 $$
 \beta-h := \beta - \sum_ {r} (\beta,h_ {r}) h_ {r},
 $$
