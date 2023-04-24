@@ -103,4 +103,4 @@ It is relatively straightforward to  introduce a topological structure in a sche
 
 **Definition.** The `Zariski topology` on $X=\text{Spec }R$ is the topology whose closed sets are the sets $V(S)$ where $S\subset R$. 
 
-One important consequence of this definition is that, 
+One important consequence of this definition is that, **not all points in a scheme are closed!** We state without proof that a point ${\frak p}\in X$ is closed iff ${\frak p}$ is a maximal ideal. Non-closed points are called `generic points`.
