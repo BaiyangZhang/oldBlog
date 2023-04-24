@@ -77,12 +77,21 @@ $$
 
 Equipped with this, we can define something similar to the zero locus in algebraic varieties. 
 
-Let $X=\text{Spec}R$ be an affine scheme, take any subset $S\subset R$, the `zero locus` $V(S)$ of set $S$ is naively 
+Let $X=\text{Spec}R$ be an affine scheme, take any subset $S\subset R$. Each element in the scheme has two roles, they are both points and function defined on those points. Of course any element of the ring is a function on the scheme, but only the  elements in the scheme are points. First, consider $S$ as functions, then we can talk about there common zero points. 
+
+**Definition.** The `zero locus` $V(S)$ of set $S$ is 
 $$
 V(S) := \left\{ {\frak p}\in X \,\middle\vert\, s({\frak p})=0 \;\forall\; s\in S \right\} 
 $$
 where $s$ are regarded as functions. However, $s({\frak p})=0$ means $s = 0 \text{ mod } {\frak p}$, which means $s\in{\frak p}$ where $s$ has become again an element of $R$, thus the zero locus of some subset $S\subset R$ is actually the set that contains all the elements of $S$,
 $$
 V(S) = \left\{ P \,\middle\vert\, S\subset P \right\} .
+$$
+
+Next, we can consider $S$ as a set of points, then it makes sense to talk about the corresponding ideals whose zero locus reproduces the set $S$. 
+
+**Definition.** The `ideals` of a set $S$ is 
+$$
+I(S) := \left\{ f\in R \,\middle\vert\, f(p)=0 \;\forall\; p\in S \right\}. 
 $$
 
