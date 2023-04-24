@@ -28,7 +28,7 @@ For positive energy energies we write $E = \frac{\hbar^{2}k^{2}}{2m}$, where $k$
 $$
 \frac{d^{2}}{dx^{2}}\Psi +\left[ k^{2}+\frac{\nu(\nu+1)}{a^{2}\cosh ^{2}\left( \frac{x}{a} \right)} \right]\Psi = 0.
 $$
-Since the equation is parity invariant, name the equation is invariant under the interchange $x\to-x$, the solutions will also be eigen functions of the parity operator, they either stay unchanged, or obtain a minus sign, under $x\to-x$. In other words, there exists even or odd parity solution. The solution is found to be
+Since the equation is parity invariant, name the equation is invariant under the interchange $x\to-x$, the solutions will also be eigenfunctions of the parity operator, they either stay unchanged, or obtain a minus sign, under $x\to-x$. In other words, there exists even or odd parity solution. The solution is found to be
 $$
 \begin{align}
 \psi^e_{\nu} &= \left( \cosh \frac{x}{a} \right)^{\nu+1}F\left( \alpha,\beta, \frac{1}{2},-\sinh ^{2}\left( \frac{x}{a} \right)  \right), \\
