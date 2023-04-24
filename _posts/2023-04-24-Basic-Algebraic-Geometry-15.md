@@ -95,3 +95,12 @@ $$
 I(S) := \left\{ f\in R \,\middle\vert\, f(p)=0 \;\forall\; p\in S \right\}. 
 $$
 
+Given a ring, we can define a scheme on it by picking up all its prime ideals, then these ideals themselves also form a space, with their own subspace and varieties. The construction of a scheme from a ring is like a matryoshka, a ring structure is included in another. 
+
+- - -
+
+It is relatively straightforward to  introduce a topological structure in a scheme, we just endow it with the by now familiar Zariski topology, where the vanishing sets are defined to be closed set. To be specific,
+
+**Definition.** The `Zariski topology` on $X=\text{Spec }R$ is the topology whose closed sets are the sets $V(S)$ where $S\subset R$. 
+
+One important consequence of this definition is that
