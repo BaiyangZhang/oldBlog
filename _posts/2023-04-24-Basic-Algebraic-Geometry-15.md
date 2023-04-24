@@ -44,7 +44,7 @@ since a point $(a_ {1},\dots,a_ {n})$ is given by the ideal $(x_ {1}-a_ {1},\dot
 
 If we consider the elements of a spectrum as generic points, then since
 $$
-\text{Spec}R := \left\{ \text{Points} \right\}  \bigcup \left\{\text{irred. subvarieties} \right\} 
+\text{Spec}R := \left\{ \text{Points} \right\}  \cup \left\{\text{irred. subvarieties} \right\} 
 $$
 we should also consider the irreducible subvarieties as points in the scheme. We have generalized the concept of points in varieties. 
 
@@ -52,7 +52,7 @@ we should also consider the irreducible subvarieties as points in the scheme. We
 
 **Example 3.** The ring of integers $\mathbb{Z}$.  The spectrum of $\mathbb{Z}$ is 
 $$
-\text{Spec}\mathbb{Z} = \left\{ (p) \,\middle\vert\, p \text{ is a prime number } \right\} \bigcup\left\{ 0 \right\} .
+\text{Spec}\mathbb{Z} = \left\{ (p) \,\middle\vert\, p \text{ is a prime number } \right\} \cup\left\{ 0 \right\} .
 $$
 Those are the points in the scheme.
 
@@ -103,4 +103,4 @@ It is relatively straightforward to  introduce a topological structure in a sche
 
 **Definition.** The `Zariski topology` on $X=\text{Spec }R$ is the topology whose closed sets are the sets $V(S)$ where $S\subset R$. 
 
-One important consequence of this definition is that
+One important consequence of this definition is that, 
