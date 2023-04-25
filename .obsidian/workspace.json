@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-04-24-Basic-Algebraic-Geometry-15.md",
+                "file": "_drafts/2023-04-dd-Lie-Groups.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "468e8ffe5cca24a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-04-25-Wigner-Weyl-Calculus.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-04-24-Basic-Algebraic-Geometry-15.md",
+                "file": "_drafts/2023-04-25-Wigner-Weyl-Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-04-24-Basic-Algebraic-Geometry-15.md",
+                "file": "_drafts/2023-04-25-Wigner-Weyl-Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-04-24-Basic-Algebraic-Geometry-15.md"
+                "file": "_drafts/2023-04-25-Wigner-Weyl-Calculus.md"
               }
             }
           }
@@ -159,16 +172,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "957cfa2362e38596",
+  "active": "468e8ffe5cca24a2",
   "lastOpenFiles": [
+    "_drafts/2023-04-dd-Lie-Groups.md",
+    "_drafts/2023-04-25-Wigner-Weyl-Calculus.md",
+    "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
+    "_drafts/DiscussionLetters/AndyJarahDiscussion1.md",
+    "_posts/2023-04-24-Basic-Algebraic-Geometry-15.md",
     "_posts/2023-04-25-Note-on-Kink-Antikink-Scattering.md",
     "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
-    "_posts/2023-04-24-Basic-Algebraic-Geometry-15.md",
-    "_drafts/2023-04-dd-Lie-Groups.md",
     "_drafts/2023-mm-dd-共和国史笔记.md",
     "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
     "_posts/2023-04-05-Note-on-Meson-Kink-Scattering.md",
-    "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-04-dd-Harmonic-Forms.md",
     "_posts/2023-04-20-Harmonic-Forms.md",
     "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
@@ -184,8 +199,6 @@
     "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
     "_drafts/2022-10-12-罗马人的一天笔记.md",
     "1.md",
-    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
-    "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
-    "_drafts/2022-08-02-Basic-Measure-Theory-Part-II.md"
+    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md"
   ]
 }
