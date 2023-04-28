@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:      Note on Kink-anitkink Scattering		# 标题 
 subtitle:   Part 2
-date:       2023-04-25 				# 时间
+date:       2023-04-26 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background9.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
