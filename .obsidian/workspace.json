@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-04-26-Note-on-Kink-Antikink-Scattering.md",
+                "file": "_posts/2023-04-29-Weihai-Travel-Plan.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-04-26-Note-on-Kink-Antikink-Scattering.md",
+                "file": "_posts/2023-04-29-Weihai-Travel-Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-04-26-Note-on-Kink-Antikink-Scattering.md",
+                "file": "_posts/2023-04-29-Weihai-Travel-Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-04-26-Note-on-Kink-Antikink-Scattering.md"
+                "file": "_posts/2023-04-29-Weihai-Travel-Plan.md"
               }
             }
           }
@@ -162,9 +162,14 @@
   },
   "active": "043b0760403eb88d",
   "lastOpenFiles": [
+    "img/Weihai3.png",
+    "img/Weihai2.png",
+    "img/Weihai1.png",
+    "img/Pasted image 20230429112158.png",
+    "img/Pastedimage20230429112158.png",
     "_posts/2023-04-29-Weihai-Travel-Plan.md",
-    "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
     "_posts/2023-04-26-Note-on-Kink-Antikink-Scattering.md",
+    "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
     "_posts/2023-04-24-Basic-Algebraic-Geometry-15.md",
     "_posts/2023-04-25-Wigner-Weyl-Calculus.md",
     "_drafts/2023-04-dd-Lie-Groups.md",
@@ -186,7 +191,6 @@
     "_drafts/2022-10-3-共和国史笔记.md",
     "_drafts/2023-mm-dd-共和国史笔记.md",
     "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
-    "_drafts/2022-10-12-罗马人的一天笔记.md",
-    "1.md"
+    "_drafts/2022-10-12-罗马人的一天笔记.md"
   ]
 }
