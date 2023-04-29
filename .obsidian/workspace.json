@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-04-dd-Lie-Groups.md",
+                "file": "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-04-dd-Lie-Groups.md",
+                "file": "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-04-dd-Lie-Groups.md",
+                "file": "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-04-dd-Lie-Groups.md"
+                "file": "_drafts/2023-05-15-共和国史笔记-思考与选择.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   },
   "active": "043b0760403eb88d",
   "lastOpenFiles": [
+    "_drafts/2023-04-dd-Lie-Groups.md",
     "_posts/2023-04-29-Weihai-Travel-Plan.md",
     "img/lib10.jpg.crdownload",
     "img/lib9.jpg.crdownload",
@@ -181,7 +182,6 @@
     "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
     "_posts/2023-04-24-Basic-Algebraic-Geometry-15.md",
     "_posts/2023-04-25-Wigner-Weyl-Calculus.md",
-    "_drafts/2023-04-dd-Lie-Groups.md",
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "_posts/2023-04-20-Harmonic-Forms.md",
     "_drafts/2023-04-05-Harmonic-Forms.md",
