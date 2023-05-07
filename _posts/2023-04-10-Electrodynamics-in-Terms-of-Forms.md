@@ -37,7 +37,7 @@ We can then define the familiar Levi-Civita symbol as
 $$
 \epsilon_ {I} = \epsilon_ {i_ {1}\dots i_ {n}} =\epsilon^{I}= \delta^{I}_ {12\dots n}.
 $$
-**Note that it is called a symbol and it is not a tensor!** So don't use the metric to raise or lower the indices! Calculation-wise, the biggest difference between the Levi-Civita symbol and tensor is that, for the symbol $\delta_ {I} = \delta^{I}$ by definition, however for the tensor what people usually do it to define $\epsilon_ {I}$ first, then use the metric to raise its indices, as for all tensors. It usually yields a factor involving $\det g$ and the signature of $g$, which is $-1$ for Minkowski metric.
+**Note that it is called a symbol and it is not a tensor!** So don't use the metric to raise or lower the indices! Calculation-wise, the biggest difference between the `Levi-Civita symbol` and `Levi-Civita tensor` is that, for the symbol $\epsilon_ {I} = \epsilon^{I}$ *by definition*, however for the tensor what people usually do it to define $\epsilon_ {I}$ first, then use the metric to raise its indices, as for all tensors. It usually yields a factor involving $\det g$ and the signature of $g$, which is $-1$ for Minkowski metric.
 
 In the above-mentioned notations, the wedge product of two differential forms $\alpha,\beta$ can be written as (in components)
 $$
@@ -611,9 +611,11 @@ $$
 $$
 then
 $$
+\boxed { 
 \star \alpha = (\star\alpha) _ {J_ {<}} dx^{J}, \quad  (\star\alpha)_ {J} = \sqrt{ \left\lvert g \right\rvert  } \alpha^{K} \epsilon_ {K_ {<}J_ {<}.}
+}
 $$
-and where the upper indices $K$ in $\alpha^{K}$ indicate that all of the covariant indices in a have been raised by the metric tensor. Note that here $\epsilon_ {KJ}$ is **not** the Levi-Civita tensor but the Levi-Civita symbol, it simplifies the calculation but the price to pay is that $\alpha^{K}\epsilon_ {K_ {<}J_ {<}}$ can no longer be carelessly rewritten as $\alpha_ {K}\epsilon^{K_ {<}}_ {\;\;\;\; J_ {<}}$. 
+and where the upper indices $K$ in $\alpha^{K}$ indicate that all of the covariant indices in a have been raised by the metric tensor. Note again that here $\epsilon_ {KJ}$ is **not** the Levi-Civita tensor but the Levi-Civita symbol, it simplifies the calculation but the price to pay is that $\alpha^{K}\epsilon_ {K_ {<}J_ {<}}$ can no longer be carelessly rewritten as $\alpha_ {K}\epsilon^{K_ {<}}_ {\;\;\;\; J_ {<}}$. 
 
 For an important special case, the 0-form that is the constant function $f=1$ has
 $$

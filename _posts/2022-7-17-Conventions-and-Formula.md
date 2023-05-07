@@ -77,7 +77,7 @@ where again $\psi,\phi$ are fields in the fundamental and adjoint representation
 
 The gauge transformation for various fields are
 
-- gauge field: $A_\mu \to \Omega (A_\mu + i \partial_\mu) \Omega^\dot{a}gger,\, \Omega=e^{i \omega^i T^i} \in SU(N)$
+- gauge field: $A_\mu \to \Omega (A_\mu + i \partial_\mu) \Omega ^{\dagger},\, \Omega=e^{i \omega^i T^i} \in SU(N)$
 - fundamental scalar field:  $\phi \to \Omega \phi$
 - fundamental spinor field:  $\psi \to \Omega \psi$
 - adjoint scalar field:      $\phi \to \Omega \phi \Omega^\dagger$
