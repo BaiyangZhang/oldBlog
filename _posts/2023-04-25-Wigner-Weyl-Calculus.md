@@ -68,7 +68,28 @@ Note that this is just one of many possible definitions, it is by no means deter
 
 For future convenience, let's define an operation $\text{Op}$
 $$
-\hat{A} := \text{Op}[A(x,p)] := \int \frac{d\xi}{2\pi} \frac{dy}{2\pi} \,  e^{ iy(p-\hat{p})+i\xi(x-\hat{x}) } A(x,p).
+\hat{A} := \text{Op}[A(x,p)] := \int \frac{d\xi}{2\pi} \frac{dy}{2\pi} dx dp \,  e^{ iy(p-\hat{p})+i\xi(x-\hat{x}) } A(x,p).
 $$
-The legitimacy of this choice mostly come from the fact that it agrees with the Weyl ordering in Eq. (1). To see that, let's apply it to $xp$.
+The integral over $\xi$ and $y$ are not surprising, however the integral over $p$ and $x$ could appear unexpected to people who see it for the first time. To rewrite the definition of $\text{Op}$ in a more comfortable (for myself) form where $dp$ is always divided by $2\pi$, I prefer  
+$$
+\hat{A} := \text{Op}[A(x,p)] := \int \frac{d\xi}{2\pi} \frac{dp}{2\pi} dx dy \,  e^{ iy(p-\hat{p})+i\xi(x-\hat{x}) } A(x,p).
+$$
+The legitimacy of this choice mostly come from the fact that it agrees with the Weyl ordering in Eq. (1). To see that, just apply it to $xp$ and you'll see that they indeed agree to each other. 
 
+This is called the` Weyl quantization`. $A(p,x)$ is called the `Weyl symbol` of quantum operator $\hat{A}$.
+
+To fully understand the physical meaning of the symbol, we go to the Schrodinger representation and see what the symbol does to wave functions. Notice that 
+$$
+\left\langle z \middle\vert  e^{ i\xi \hat{x} }\psi \right\rangle = \psi(i\xi z)
+$$
+and 
+$$
+\left\langle z \middle\vert e^{ iyp } \right\rangle =\psi(z-y)
+$$
+we can calculate (though the calculation is long and tedious) $\left\langle z \middle\vert \hat{A}\psi \right\rangle$, eventually we could get rid of the hatted operators in the exponent and arrive at 
+$$
+\boxed { 
+\left\langle z \middle\vert \hat{A}\psi \right\rangle =\int \frac{dp}{2\pi}dy \, A\left( p,\frac{z+x}{2} \right)  e^{ ip(z-x) } \psi(x)
+} 
+$$
+which is usually referred to as the definition of `Weyl quantization`.
