@@ -2,9 +2,9 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Lie Groups, Invariant Vector Fields, and Forms		# 标题 
 subtitle:   
-date:       2023-04-dd 				# 时间
+date:       2023-05-06 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/background14.jpg 	#这篇文章标题背景图片
+header-img: img/background1.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - Geometry
@@ -24,7 +24,7 @@ making $G$ into a group. We demand that this map, as well as the "inversion map"
 
 For example, $\mathbb{R}$ is a Lie group under addition. This group is commutative, or `abelian`. The positive real numbers $\mathbb{R}^{+}$ also form a abelian group under multiplication. The real and complex general linear matrices $GL(n,\mathbb{R})$ and $GL(n,\mathbb{C})$ are also Lie groups under the usual matric multiplication. The `special linear` group, $SL(n,\mathbb{R})$ is the subset of $GL(n,\mathbb{R})$ that have determinant one. For any matrix group, the adjective **special** means that the determinant is equal to one. Other examples include $\mathbb{T}^{n}$ the $n$-torus group, which is the abelian group of diagonal matrices of the form 
 $$
-z = \text{diag }\left\{ \exp i \theta_ {1},\dots,\exp i \theta _ {n} \right\} .
+z = \text{diag }\left\{ \exp i \theta_ {1},\dots,\exp i \theta _ {n} \right\} .\tag{1}
 $$
 The $\mathbb{T}^{n}$ group is topologically homeomorphic to $\mathbb{S}^{1}\times\dots \times \mathbb{S}^{1}$, $n$ copies of them. Since the circles are connected, it follows that $\mathbb{T}^{n}$ is also connected.
 
@@ -40,4 +40,6 @@ $$
 **Theorem.** $U(N)$ is connected.
 
 To see it, just notice that any unitary matrix can be diagonalized to a $\mathbb{T}^{n}$ under some similar transformation, we casually write it as $\mathbb{T}^{n} = g U(N) g^{-1}$ for some $g\in U(N)$. Then $U(N)=g^{-1}\mathbb{T}^{n}g$ is connected to $\mathbb{1}$ smoothly by varying $\mathbb{T}^{n}$ smoothly from $\mathbb{1}$. 
+
+The subgroup $\mathbb{T}^{n}$ of $U (n)$ given by (1) is called a maximal torus of $U(n)$. Any conjugate $h \mathbb{T}^{n} h^{-1}$ of this maximal torus is also called a maximal torus. By the same type of reasoning we may deal with the rotation group.
 
