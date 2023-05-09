@@ -84,7 +84,7 @@ $$
 b: TM^{2} \to TM^{2}.
 $$
 
-Its matrix form $b^{\alpha}\, _{\beta}$  in the basis $\mathbf{x}_ {\alpha}$ works as 
+Its matrix form $b^{\alpha}\, _ {\beta}$  in the basis $\mathbf{x}_ {\alpha}$ works as 
 $$
 b(\mathbf{x}_ {\beta}) = \mathbf{x}_ {\alpha} b^{\alpha} _ {\beta} = -\mathbf{N}_ {\beta}.
 $$
