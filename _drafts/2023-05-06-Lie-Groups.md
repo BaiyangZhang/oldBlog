@@ -43,3 +43,21 @@ To see it, just notice that any unitary matrix can be diagonalized to a $\mathbb
 
 The subgroup $\mathbb{T}^{n}$ of $U (n)$ given by (1) is called a maximal torus of $U(n)$. Any conjugate $h \mathbb{T}^{n} h^{-1}$ of this maximal torus is also called a maximal torus. By the same type of reasoning we may deal with the rotation group.
 
+**Theorem.** $O(n)$ consists of two connected components, and $SO(n)$ is the part connected with the identity. 
+
+As our last example, consider the set of linear transformation of points in 1-dimension affine space. The points in 1-dimensional affine space are denoted by $(t,1)^{T}$ where $t$ is the coordinate and $1$ denotes that it is a point. A vector in affine space would be denoted by $(v,0)^{T}$, thus the difference of two points yields a vector. The linear transformations, $G=\mathbb{A}^{1}$, the affine group of lines. They consist of real $2\times 2$ matrices of form
+$$
+\begin{pmatrix}
+x  & y \\
+0 & 1 
+\end{pmatrix}.
+$$
+with $x>0$. 
+
+A matrix group is a subgroup of $Gl(n)$ that is also a submanifold of $Gl(n)$. 
+
+
+### Invariant Vector Fields and Forms
+
+
+Lie groups are special as manifolds in the sense that, given a vector

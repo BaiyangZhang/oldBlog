@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-mm-dd-Theodore-Frankel.md",
+                "file": "_drafts/2023-05-06-Lie-Groups.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
+                "file": "_drafts/2023-05-06-Lie-Groups.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
+                "file": "_drafts/2023-05-06-Lie-Groups.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-7-17-Conventions-and-Formula.md"
+                "file": "_drafts/2023-05-06-Lie-Groups.md"
               }
             }
           }
@@ -171,8 +172,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "765b6e7847176dd9",
+  "active": "7fea94b6fe8f08d7",
   "lastOpenFiles": [
+    "_drafts/2023-05-07-Soliton-Particle-Duality-in-(1+1)D.md",
+    "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
+    "_drafts/2023-mm-dd-Basic-Category-Theory-Class-n.md",
+    "_drafts/2023-mm-dd-Theodore-Frankel.md",
+    "_posts/2023-04-29-Weihai-Travel-Plan.md",
+    "_posts/2022-7-17-Conventions-and-Formula.md",
     "img/Weihai3.png",
     "img/Weihai2.png",
     "img/Weihai1.png",
@@ -181,9 +188,6 @@
     "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",
     "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
     "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
-    "_drafts/2023-05-07-Soliton-Particle-Duality-in-(1+1)D.md",
-    "_drafts/2023-mm-dd-Theodore-Frankel.md",
-    "_posts/2023-04-29-Weihai-Travel-Plan.md",
     "_posts/2023-04-25-Note-on-Kink-Antikink-Scattering.md",
     "_drafts/2023-04-25-Wigner-Weyl-Calculus.md",
     "_drafts/2023-04-dd-Lie-Groups.md",
@@ -193,14 +197,12 @@
     "_posts/2023-04-24-Basic-Algebraic-Geometry-15.md",
     "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
     "_drafts/2023-mm-dd-共和国史笔记.md",
-    "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
     "_posts/2023-04-05-Note-on-Meson-Kink-Scattering.md",
     "_drafts/2023-04-dd-Harmonic-Forms.md",
     "_posts/2023-04-20-Harmonic-Forms.md",
     "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
     "_drafts/2023-04-05-Confinement-in-Toy-Models-Lecture-3.md",
     "_drafts/2023-04-05-Harmonic-Forms.md",
-    "Untitled 1.md",
-    "_drafts/2023-04-05-Classical-Electrodynamics-in-Forms.md"
+    "Untitled 1.md"
   ]
 }
