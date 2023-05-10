@@ -60,4 +60,78 @@ A matrix group is a subgroup of $Gl(n)$ that is also a submanifold of $Gl(n)$.
 ### Invariant Vector Fields and Forms
 
 
-Lie groups are special as manifolds in the sense that, given a vector
+Lie groups are special as manifolds in the sense that, given a tangent vector $X_ {e}$ at the unity $e$, we may use the group elements to translate $X_ {e}$ to each point of $G$, by left or right group action. The left-translated tangent vector $X_ {g}$ is given by 
+$$
+X_ {g} := L_ {g\ast}\, X_ {e}
+$$
+and the right-translated vector (denoted by the same notation)
+$$
+X_ {g}:= R_ {g\ast }\, X_ {e}.
+$$
+In this way we have two non-vanishing vector fields all over $G$. 
+
+In fact, given a set of basis $X_ {i}$ of the tangent space $T_ {e}G$ at $e$, we can translate them to any point $g\in G$ thus yielding a basis $L_ {g\ast}\, X_ {i}$ of $T_ {g}G$. The importance of this claim has to do with the orientation of $G$ as a manifold. Recall that the orientation is defined by the order of basis, if we can translate the basis $X_ {i}$ to any point of the group then the group is orientable! We conclude that *every Lie group is a orientable manifold*.
+
+Consider for instance, a closed orientable surface $M^{2}$ of genus $g$. We shall see that of these surfaces only the torus (genus $1$) can support even a single nonvanishing tangent vector field. To be specific, $\mathbb{T}^{2}$ supports two sets of vector fields $\partial_ {\theta}$ and $\partial_ {\phi}$ where $\theta$ and $\phi$ parametrize the circles in $\mathbb{T}\cong \mathbb{S}^{1}\times\mathbb{S}^{1}$. The Torus can be regarded as the abelian Lie group $\mathbb{S}^{1}\times\mathbb{S}^{1}$ with multiplication
+$$
+(\theta,\phi)\times (\theta',\phi'):=(\theta+\theta',\phi+\phi').
+$$
+Topologically, the **only** compact Lie group of dimension 2 is the torus.
+
+A vector field $X$ on $G$ is said to be `left-invariant` or `right-invariant` if it is invariant under left or right translation, 
+$$
+L_ {h\ast }\,X_ {g} = X_ {hg}, \quad  \text{left invariant}
+$$
+and similarly for right invariant. 
+
+We can define similar concept for differential forms. A differential form field $\omega$ on $G$ is said to be `left invariant` if 
+$$
+L_ {g}^{\ast }\, \omega_ {gh} = \omega_ {h}.
+$$
+Note the direction of the pull-back.
+
+Consider the example of Lie group $G:=Gl(n)$ of invertible matrices. Let $t\to h(t)$ be a curve in $G$, namely a G-valued curve parametrized by one parameter $t$. Let $h(0)=h$ and $h'(0)=X_ {h}$, where $h'$ is the $t$-derivative of $h$. This curve is simply a matrix whose entries $h_ {mn}$ are functions of $t$, $h(t)$ describes a curve in $n^{2}$ dimensional space. Then $X_ {h}$ is simple the matrix whose entries are $t$-derivatives of $h$ at $t=0$, $h'_ {mn}(t=0)$. Of course just because $h(0)$ is in $G$ does not mean $h'(0)$ is also in $G$. Then for the constant matrix $g$, the curve $gh(t)$ given by matrix multiplication is the left translated curve of $h(t)$ by $L_ {g}$. The tangent vector of $gh(t)$ at $t=0$ is given by $gX_ {h}$, 
+$$
+L_ {g\ast }X_ {h} = gX_ {h}
+$$
+which is again the simple matrix multiplication. 
+
+Note that in any Lie group, if $X_ {i}$ is a basis for the left invariant vector fields and if $\sigma^{i}$ is the dual basis of 1-forms, then this dual basis is automatically left invariant. This can be shown using the relation $f^{\ast}\alpha(X)=\alpha(f_ {\ast}X)$. Also, note that if $\alpha$ and $\beta$ are invariant differential forms on $G$ then so are $d\alpha$ and $\alpha \wedge\beta$.
+
+### One-Parameter Subgroups
+
+Recall that a group homomorphism is a map between groups 
+$$
+f: G\to H
+$$
+that preserves the group multiplication. If it is further one-to-one (injective) and on-to (surjective) then it is an isomorphism. The exponential function is an example of group homomorphism, since $e^{ a }e^{ b }=e^{ a+b }$ for $a,b\in\mathbb{R}$ we have
+$$
+\exp: (\mathbb{R},\times )\to (\mathbb{R}^{+},+).
+$$
+
+A `1-parameter subgroup` of $G$ is by definition a differentiable homomorphism (a path) 
+$$
+g: \mathbb{R}\to G,\quad  t\to g(t)\in G
+$$
+of the additive group of the reals into the group $G$. Thus
+$$
+g(s+t) = g(s)g(t) = g(t)g(s),\quad \text{(abelian)}.
+$$
+
+Next let's look at the most important example, the one parameter subgroup of matrix group $G$. As matrices  
+$$
+g(t+s)=g(t)g(s),\quad  \text{matrix multiplication.}
+$$
+To find $g$ that satisfy the condition, let's take derivatives on both sides w.r.t. $s$ then put $s$ to zero,
+$$
+g'(t) = g(t)g'(0),\quad  g'(0)=\text{const matrix.} 
+$$
+The solution is of exponential form,
+$$
+g(t) =g(0) \exp \left\{ t g'(0) \right\} .
+$$
+Since $g(0)=e$ for any homomorphism, since homomorphism has to map identity to identity, we conclude that 
+$$
+g(t) = \exp \left\{ tg'(0) \right\} ,\quad  g'(0)\in T_ {e}(G).
+$$
+
