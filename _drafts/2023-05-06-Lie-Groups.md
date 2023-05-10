@@ -134,4 +134,6 @@ Since $g(0)=e$ for any homomorphism, since homomorphism has to map identity to i
 $$
 g(t) = \exp \left\{ tg'(0) \right\} ,\quad  g'(0)\in T_ {e}(G).
 $$
+This is also the most general one-parameter subgroup of matrix group.
+
 
