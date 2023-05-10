@@ -1,6 +1,6 @@
 ---
 layout:     post   				        # 使用的布局（不需要改）
-title:      Soliton-Particle Duality in (1+1)D 	# 标题 
+title:      Soliton Particle Duality in (1+1)D 	# 标题 
 subtitle:   T-Duality, etc.      # 副标题
 date:       2023-05-07			        # 时间
 author:     Baiyang Zhang 				# 作者
