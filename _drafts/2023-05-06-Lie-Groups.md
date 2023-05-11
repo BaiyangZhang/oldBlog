@@ -22,7 +22,7 @@ G\times G \to G,\quad  (g,h)\mapsto gh
 $$
 making $G$ into a group. We demand that this map, as well as the "inversion map" be **differentiable**. 
 
-For example, $\mathbb{R}$ is a Lie group under addition. This group is commutative, or `abelian`. The positive real numbers $\mathbb{R}^{+}$ also form a abelian group under multiplication. The real and complex general linear matrices $GL(n,\mathbb{R})$ and $GL(n,\mathbb{C})$ are also Lie groups under the usual matric multiplication. The `special linear` group, $SL(n,\mathbb{R})$ is the subset of $GL(n,\mathbb{R})$ that have determinant one. For any matrix group, the adjective **special** means that the determinant is equal to one. Other examples include $\mathbb{T}^{n}$ the $n$-torus group, which is the abelian group of diagonal matrices of the form 
+For example, $\mathbb{R}$ is a Lie group under addition. This group is commutative, or `abelian`. The positive real numbers $\mathbb{R}^{+}$ also form a abelian group under multiplication. The real and complex general linear matrices $GL(n,\mathbb{R})$ and $GL(n,\mathbb{C})$ are also Lie groups under the usual matrix multiplication. The `special linear` group, $SL(n,\mathbb{R})$ is the subset of $GL(n,\mathbb{R})$ that have determinant one. For any matrix group, the adjective **special** means that the determinant is equal to one. Other examples include $\mathbb{T}^{n}$ the $n$-torus group, which is the abelian group of diagonal matrices of the form 
 $$
 z = \text{diag }\left\{ \exp i \theta_ {1},\dots,\exp i \theta _ {n} \right\} .\tag{1}
 $$
@@ -96,7 +96,7 @@ L_ {g\ast }X_ {h} = gX_ {h}
 $$
 which is again the simple matrix multiplication. 
 
-Note that in any Lie group, if $X_ {i}$ is a basis for the left invariant vector fields and if $\sigma^{i}$ is the dual basis of 1-forms, then this dual basis is automatically left invariant. This can be shown using the relation $f^{\ast}\alpha(X)=\alpha(f_ {\ast}X)$. Also, note that if $\alpha$ and $\beta$ are invariant differential forms on $G$ then so are $d\alpha$ and $\alpha \wedge\beta$.
+Note that in any Lie group, if $X_ {i}$ is a basis for the left invariant vector fields and if $\sigma^{i}$ is the dual basis of 1-forms, then this dual basis is automatically left invariant. This can be shown using the relation $f^{\ast}\alpha(X)=\alpha(f_ {\ast}X)$. Also, note that if $\alpha$ and $\beta$ are invariant differential forms on $G$ then so are $d\alpha$ and $\alpha \wedge\beta$. A left invariant area form is also called a left `Haar measure`, which can be seen as a convenient way to use the left action $L_ {g\ast}$ to translate some well-defined infinitesimal areas about the entire group space to measure quantities defined on it. 
 
 ### One-Parameter Subgroups
 
@@ -120,11 +120,11 @@ $$
 
 Next let's look at the most important example, the one parameter subgroup of matrix group $G$. As matrices  
 $$
-g(t+s)=g(t)g(s),\quad  \text{matrix multiplication.}
+g(t+s)=g(t)g(s),\quad  \text{matrix multiplication.} 
 $$
 To find $g$ that satisfy the condition, let's take derivatives on both sides w.r.t. $s$ then put $s$ to zero,
 $$
-g'(t) = g(t)g'(0),\quad  g'(0)=\text{const matrix.} 
+g'(t) = g(t)g'(0),\quad  g'(0)=\text{const matrix.} \tag{2}
 $$
 The solution is of exponential form,
 $$
@@ -136,4 +136,45 @@ g(t) = \exp \left\{ tg'(0) \right\} ,\quad  g'(0)\in T_ {e}(G).
 $$
 This is also the most general one-parameter subgroup of matrix group.
 
+The group multiplication property Eq. (2) tells us the how to proceed for arbitrary group. Regard $g'(0)$ as a tangent vector at $g(0)$ and regard the left multiplication by $g(t)$ as a map, Eq. (2) can be generalized to 
+$$
+g'(t) = L_ {g(t)\ast }\, g'(0), \quad L_ {g(t)\ast } \text{ is the induced map of }L_ {g(t)}.
+$$
+It says that, the tangent vector $X$ of the one-parameter subgroup (a curve, if you like) is *left translated* along the subgroup (curve). Thus, given a tangent vector $X_ {\mathbb{1}}$ at the identity $\mathbb{1}$ in $G$, 
+
+*the 1-parameter subgroup of $G$ whose tangent at $\mathbb{1}$ is $X_ {\mathbb{1}}$ is the integral curve through $\mathbb{1}$ of the vector field $X$ on $G$ resulting from left translation of $X_ {\mathbb{1}}$ over all of $G$.*
+
+The vector $X_ {\mathbb{1}}$ is called the `infinitesimal generator` of the 1-parameter subgroup.
+
+For any Lie group $G$ we shall denote the 1-parameter subgroup whose generator at $\mathbb{1}$ is $X$ by
+$$
+g(t):= e^{ tX } \equiv \exp(tX).
+$$
+
+*Example.* The matrix 
+$$
+X=
+\begin{bmatrix}
+0 & -1 \\
+1 & 0
+\end{bmatrix}
+$$
+can be considered a tangent vector at $\mathbb{1}$ of group $G=GL(2,\mathbb{R})$. The 1-parameter subgroup of $G$ is 
+$$
+\exp(tX) = \begin{bmatrix}
+\cos t & -\sin t \\
+\sin t & \cos t
+\end{bmatrix}.
+$$
+
+Note that $X$ is a vector and $\exp X$ is a group element, different things fundamentally.
+
+### The Lie Algebra of a Lie Group
+
+Let $G$ be a Lie group regarded as a manifold (with group structure), the tangent vector space at the identity $\mathbb{1}$ of $G$ plays an important role and is denoted by Gothic letter ${\frak g}$. Sometimes it is denoted by script letters, which we will not do here. 
+
+**Definition.** The Lie group ${\frak g}$ of group $G$ is 
+$$
+{\frak g}:= T_ {\mathbb{1}}\,G.
+$$
 
