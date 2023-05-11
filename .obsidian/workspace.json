@@ -8,63 +8,43 @@
         "type": "tabs",
         "children": [
           {
+            "id": "765b6e7847176dd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7fea94b6fe8f08d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/Untitled.md",
+                "file": "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "96d97dfe4afb578f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "79559faaf61bd0a1",
+            "id": "e6e53b302813143d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notetest.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6eec16f2b2def22d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Note.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be6fdeabdd9262d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Note.md",
+                "file": "_posts/2023-04-29-Weihai-Travel-Plan.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,20 +89,13 @@
               "type": "starred",
               "state": {}
             }
-          },
-          {
-            "id": "555c02c222c087f8",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -138,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notetest.md",
+                "file": "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notetest.md",
+                "file": "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notetest.md"
+                "file": "_drafts/2023-05-15-共和国史笔记-思考与选择.md"
               }
             }
           }
@@ -199,38 +172,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79559faaf61bd0a1",
+  "active": "7fea94b6fe8f08d7",
   "lastOpenFiles": [
-    "Templates/Note.md",
-    "Notetest.md",
-    "_drafts/2023-mm-dd-Theodore-Frankel.md",
-    "_drafts/Untitled.md",
-    "Untitled 1.md",
-    "_drafts/2023-mm-dd-Basic-Category-Theory-Class-n.md",
-    "Untitled 1",
-    "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",
-    "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
-    "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
-    "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
-    "_posts/2023-3-21-Confinement-in-Toy-Models-Lecture-1.md",
-    "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
-    "_posts/2023-04-26-Note-on-Kink-Antikink-Scattering.md",
-    "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
-    "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
-    "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
-    "_drafts/2023-mm-dd-共和国史笔记.md",
-    "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
-    "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
+    "_posts/2022-7-17-Conventions-and-Formula.md",
     "_drafts/2023-05-07-soliton-particle-duality.md",
     "_drafts/2023-05-06-Lie-Groups.md",
-    "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-3-22-Hilbert's-Action-Principle.md",
-    "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
-    "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
+    "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
+    "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
+    "_drafts/2023-05-07-Gauge-Theory-in-(2+1)D.md",
+    "_drafts/2023-05-07-Soliton-Particle-Duality-in-(1+1)D.md",
+    "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
+    "_drafts/2023-mm-dd-Basic-Category-Theory-Class-n.md",
+    "_drafts/2023-mm-dd-Theodore-Frankel.md",
+    "_posts/2023-04-29-Weihai-Travel-Plan.md",
     "img/Weihai3.png",
     "img/Weihai2.png",
     "img/Weihai1.png",
-    "img/Pastedimage20230429112158.png"
+    "img/Pastedimage20230429112158.png",
+    "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",
+    "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
+    "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+    "_posts/2023-04-25-Note-on-Kink-Antikink-Scattering.md",
+    "_drafts/2023-04-25-Wigner-Weyl-Calculus.md",
+    "_drafts/2023-04-dd-Lie-Groups.md",
+    "_posts/2023-04-25-Wigner-Weyl-Calculus.md",
+    "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
+    "_drafts/DiscussionLetters/AndyJarahDiscussion1.md",
+    "_posts/2023-04-24-Basic-Algebraic-Geometry-15.md",
+    "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
+    "_drafts/2023-mm-dd-共和国史笔记.md",
+    "_posts/2023-04-05-Note-on-Meson-Kink-Scattering.md",
+    "_drafts/2023-04-dd-Harmonic-Forms.md",
+    "_posts/2023-04-20-Harmonic-Forms.md"
   ]
 }
