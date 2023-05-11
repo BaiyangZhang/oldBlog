@@ -13,25 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-04-26-Note-on-Kink-Antikink-Scattering.md",
+                "file": "_drafts/Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b818ee8f0aae6059",
+            "id": "96d97dfe4afb578f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "79559faaf61bd0a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
+                "file": "Notetest.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6eec16f2b2def22d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be6fdeabdd9262d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Note.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -89,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -106,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-04-26-Note-on-Kink-Antikink-Scattering.md",
+                "file": "Notetest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-04-26-Note-on-Kink-Antikink-Scattering.md",
+                "file": "Notetest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-04-26-Note-on-Kink-Antikink-Scattering.md"
+                "file": "Notetest.md"
               }
             }
           }
@@ -167,37 +199,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7fea94b6fe8f08d7",
+  "active": "79559faaf61bd0a1",
   "lastOpenFiles": [
+    "Templates/Note.md",
+    "Notetest.md",
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
+    "_drafts/Untitled.md",
+    "Untitled 1.md",
+    "_drafts/2023-mm-dd-Basic-Category-Theory-Class-n.md",
+    "Untitled 1",
+    "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",
+    "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
+    "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
+    "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
+    "_posts/2023-3-21-Confinement-in-Toy-Models-Lecture-1.md",
+    "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
+    "_posts/2023-04-26-Note-on-Kink-Antikink-Scattering.md",
     "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
     "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
     "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
-    "_drafts/2023-mm-dd-Basic-Category-Theory-Class-n.md",
-    "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
     "_drafts/2023-mm-dd-共和国史笔记.md",
     "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
     "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
     "_drafts/2023-05-07-soliton-particle-duality.md",
     "_drafts/2023-05-06-Lie-Groups.md",
-    "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",
     "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-3-22-Hilbert's-Action-Principle.md",
     "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
     "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
-    "_drafts/2023-2-14-Fibre-Bundles.md",
-    "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
-    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
-    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
-    "_posts/2023-3-12-The-Geometry-of-Surfaces-in-R3.md",
-    "_posts/2023-04-29-Weihai-Travel-Plan.md",
-    "_posts/2022-7-17-Conventions-and-Formula.md",
     "img/Weihai3.png",
     "img/Weihai2.png",
     "img/Weihai1.png",
-    "img/Pastedimage20230429112158.png",
-    "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
-    "_posts/2023-04-25-Note-on-Kink-Antikink-Scattering.md"
+    "img/Pastedimage20230429112158.png"
   ]
 }
