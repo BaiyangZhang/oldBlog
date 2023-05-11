@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -171,8 +172,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "957cfa2362e38596",
+  "active": "7fea94b6fe8f08d7",
   "lastOpenFiles": [
+    "_posts/2022-7-17-Conventions-and-Formula.md",
     "_drafts/2023-05-07-soliton-particle-duality.md",
     "_drafts/2023-05-06-Lie-Groups.md",
     "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
@@ -183,7 +185,6 @@
     "_drafts/2023-mm-dd-Basic-Category-Theory-Class-n.md",
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "_posts/2023-04-29-Weihai-Travel-Plan.md",
-    "_posts/2022-7-17-Conventions-and-Formula.md",
     "img/Weihai3.png",
     "img/Weihai2.png",
     "img/Weihai1.png",
