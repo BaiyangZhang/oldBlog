@@ -178,3 +178,4 @@ $$
 {\frak g}:= T_ {\mathbb{1}}\,G.
 $$
 
+The fancy notation might appears to be pretentious and uncomfortable at first, but actually once you get used to it, 

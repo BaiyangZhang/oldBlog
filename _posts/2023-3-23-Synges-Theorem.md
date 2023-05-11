@@ -27,7 +27,7 @@ In the picture, we have drawn a closed geodesic $C$ on two different surfaces, f
 
 It answers the question that, what does curvature have do with the stability of a geodesic?
 
-I'll save the tedious mathematics and just jump to the conclusion. **In a negatively curved Riemannian Mil , each closed geodesic is stable.**
+I'll save the tedious mathematics and just jump to the conclusion. **In a negatively curved Riemannian manifold , each closed geodesic is stable.**
 
 - - -
 
