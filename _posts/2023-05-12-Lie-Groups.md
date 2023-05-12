@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Lie Groups, Invariant Vector Fields, and Forms		# 标题 
 subtitle:   
-date:       2023-05-06 				# 时间
+date:       2023-05-12 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background1.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -178,4 +178,177 @@ $$
 {\frak g}:= T_ {\mathbb{1}}\,G.
 $$
 
-The fancy notation might appears to be pretentious and uncomfortable at first, but actually once you get used to it, 
+The fancy notation might appears to be pretentious and uncomfortable at first, but once you get used to it, you'll find them clear and precise. You'll never mistake a point in the group space with a vector at the origin.
+
+Let $X_ {i}$ be a basis for ${\frak g}$, we will also use $X_ {i}$ to denote the left translation of this vector to all of $G$. Since any left invariant vector field is determined by its value at $\mathbb{1}$, the most general left invariant vector field is then of the form
+$$
+X = \sum_ {i} v^{i}X_ {i},\quad  v^{i} \text{ are constants.}
+$$
+
+Let $\sigma^{i}$ be the dual basis of left invariant 1-forms on $G$. They are determined by their values on vectors from the Lie algebra. The most general left invariant r-form on $G$ is of the form 
+$$
+\alpha^{r} = \sum_ {I_ {<}}\alpha_ {I} \, \sigma^{I}, \quad  \sigma^{I} = \sigma^{I_ {1}}\wedge \sigma^{I_ {2}}\wedge \dots
+$$
+It is again determined by its value on a $r$-tuple of vectors from ${\frak g}$. The components $\alpha_ {I}$ are again constants.
+
+It shouldn't come as a surprise that, 
+
+**Theorem.** The Lie bracket $[X,Y]$ of two left invariant vector fields is again left invariant.
+
+To prove it, notice that $X$ is left invariant iff $\left\langle X,\sigma \right\rangle=\text{const}$ for some left invariant 1-form $\sigma$. For such a $\sigma$, since $X,Y$ are left invariant we have $\left\langle X,\sigma \right\rangle=\text{const}$ and $\left\langle Y,\sigma \right\rangle=\text{const}$. So the question is, is $\left\langle [X,Y],\sigma \right\rangle=\text{const}$? Then since for general $\omega \in\Omega^{1}$ 
+$$
+d\omega(X,Y)=-\omega([X,Y])+X(\omega(Y))-Y(\omega(X))
+$$we have
+$$
+\left\langle [X,Y],\sigma \right\rangle =\sigma([X,Y]) =- d\sigma(X,Y)
+$$
+where, if $\sigma$ is left invariant then so is $d\sigma$ since $L_ {g}^{\ast}d\sigma \Large\mid_ {g}  =dL_ {g^{\ast}}\sigma \Large\mid_ {g} =d \sigma \Large\mid_ {\mathbb{1}}$. Thus 
+$$
+\sigma([X,Y])=\text{const}.
+$$
+Q.E.D.
+
+We may then write
+$$
+[X_ {i},X_ {j}]=if_ {ij}^{k}X_ {k},\quad f_ {ij}^{k}=-f_ {ji}^{k}.
+$$
+$f_ {ij}^{k}$ is called the `structure constants`.
+
+The structure constant also can be applied to the left invariant 1-forms $\sigma$. 
+
+**Theorem.** The `Maurer-Cartan` equations
+$$
+d\sigma^{i} = -\sum_ {j<k}if^{i}_ {jk}\,\sigma^{j}\wedge \sigma^{k}
+=-\frac{1}{2}\sum_ {j,k}if^{i}_ {jk}\,\sigma^{j}\wedge \sigma^{k}
+$$
+hold, and $d^{2}\sigma^{i}=0$ yields the `Jacobi identity`
+$$
+f^{m}_ {na}f^{n}_ {bc}+f^{m}_ {nb}f^{n}_ {ca}+f^{m}_ {nc}f^{n}_ {ab}=0.
+$$
+
+This Jacobi identity for left invariant I -forms is also a consequence of a general Jacobi identity for vector fields on any manifold $M^{n}$, which reads
+$$
+[X,[Y,Z]]+[Y,[Z,X]]+[Z,[X,Y]]=0.
+$$
+
+We now make the vector space $T_ {\mathbb{1}}G={\frak g}$ into a `Lie algebra` by defining a product
+$$
+{\frak g}\times {\frak g}\to {\frak g}
+$$
+as follows.
+
+Let $X,Y\in{\frak g}$, extend them to be vector fields $X',Y'$ on all of $G$. Define the product of $X$ and $Y$ to be the Lie bracket
+$$
+[X,Y]:= [X',Y']_ {\mathbb{1}}.
+$$
+
+Note that *the Lie algebra product is not associative*! Take $SO(3)$ for example, there exists three basis vectors $X,Y,Z$ satisfying $[X,Y]=Z$, $[Y,Z]=X$ and $[X,Z]=-Y$, then $[X,[X,Y]]=-Y\neq[[X,X],Y]=0$.
+
+**We shall consistently identify the Lie algebra ${\frak g}$ with the $N(= \text{dim} G)$ dimensional vector space of left invariant fields on $G$.**
+
+Classically the Lie algebra was known as the "infinitesimal group" of $G$, for classically a vector was thought of roughly as going from a point to an "infinitesimally nearby" point. Then the Lie algebra consisted of group elements infinitesimally near the identity! We shall **not** use this picture.
+
+### The Exponential Map
+
+**Theorem.** For *any* matrix $A$,
+$$
+\det \exp A = \exp \mathrm{Tr}\,A,\quad  \text{or equivalently, } \det e^{ A }=e^{ \mathrm{Tr}\,A }.
+$$
+
+**Theorem.** The map 
+$$
+\exp: {\frak g}\to G,\quad  A \mapsto e^{ A }
+$$
+is a diffeomorphism of some neighborhood of $0\in{\frak g}$ onto a neighborhood of $\mathbb{1}\in G$.
+
+In a general Lie group, the 1-parameter subgroup $\text{exp}(t X)$ is the integral curve of a vector field on $G$, and thus it would seem that this need only be defined for $t$ small. In this case of a left invariant vector field on a group, it can be shown that the curve exists for all $t$, just as it does in the matrix case.
+
+### Examples of Lie Algebras
+
+Consider our old friend, the matrix group $GL(n)$. Let $M(n\times n)$ be the vector space of *all* *real* $n\times n$ matrices, the dimension is clearly $n^{2}$. For $A\in M(n\times n)$, we have 
+$$
+\det e^{ A }=e^{ \mathrm{Tr}\,A }\geq 0.
+$$
+Therefore the matrix $e^{ A }$ is invertible, the exponential map maps any $n\times n$ matrix to an invertible matrix,
+$$
+\exp: M(n\times n)\to GL(n).
+$$
+We usually use the same name of the group but all in lowercase Gothic font to denote the corresponding Lie algebra, for example the Lie algebra of $GL(n)$ group is denoted ${\frak gl}(n)$. Then 
+$$
+{\frak gl}(n)= M(n\times n).
+$$
+If $G$ is a matrix group, that is, a *subgroup* of $GL(n)$, including $SO(N)$, $SU(N)$, etc., then its Lie algebra ${\frak g}$ is the largest subspace of $M(n\times n)$ such that $\exp {\frak g}\to G$. 
+
+For special orthogonal matrices $SO(n)$, we simply state that its Lie algebra ${\frak so}(n)$ consists of anti-symmetric matrices. 
+
+The group of unitary matrices $U(n)$, on the other hand, has Lie algebra ${\frak u}(n)$ consists of anti-hermitian matrices, $A^{\dagger}=-A$. As a special case, the special unitary groups $SU(n)$ has Lie algebra ${\frak su}(n)$ made of anti-hermitian matrices with zero trace, since $\exp \mathrm{Tr}\,=\det$.
+
+### Do the 1-Parameter Subgroups Cover $G$?
+
+The question is, can every $g\in G$ be generated by an $A\in {\frak g}$? In other words, 
+$$
+\text{is the map } \exp: {\frak g}\to G \text{ onto?}
+$$
+It can be shown that, $\exp$ is indeed onto if the group as a manifold is *connected* and *compact*. It is clear that a 1-parameter subgroup must lie in the connected piece of $G$ that contains the identity. The matrix group $SL(2,\mathbb{R})$ is not compact since the only constrain for an element 
+$$
+g=\begin{bmatrix}
+x & y \\
+z & w
+\end{bmatrix}
+$$
+is that 
+$$
+\det g = xw-yz=1
+$$
+still $x$ can be arbitrary large even with this condition.
+
+However, it can be shown that $SL(2,\mathbb{R})$ is *connected*. To see it, it is helpful to adopt a geometric viewpoint. $SL(2,\mathbb{R})$ can be pictured as a pair of column vectors $(x z)^{T}$ and $(y w)^{T}$ in $\mathbb{R}^{2}$ spanning a parallelogram of area $1$. Deform he lengths of both so that the first becomes a unit vector, keeping the area $1$. This deforms $SL(2,\mathbb{R})$ into itself. Next, "Gram-Schmidt" the second so that the columns are orthonormal. This can be done continuously. The resulting matrix is then in the subgroup $SO(2,\mathbb{R})$ That is, it represents a rotation of the plane. The $SO(2)$ group is nothing but the rotation in two-plane, parametrized by a single angle $\theta$, topologically a circle, which is connected. 
+
+In fact, Let $V^{r}$ be s submanifold of $M^{d}$, furthermore suppose $V$ is a `deformation retract` of $M$. A deformation retract means that there exists a 1-parameter, continuous map $r_ {t}: M\to M$ such that 
+1. $r_ {0}$ is the identity map on $M$,
+2. $r_ {1}$ maps all of $M$ to $V$,
+3. $r_ {t}$ for all $t$ is the identity map on $V$.
+
+Then, consider homology group of any coefficient group. The deformation retract will change continuous by definition, meaning during the deformation from $r_ {t}$ to $r_ {t+\Delta t}$ it sweeps over a area on $M$ whose boundary is $r_ {t+\Delta t}-r_ {t}$. Then the deformation process will not change the homology group, thus
+
+**Theorem.** If $V \subset M$ is a *deformation retract*, then $V$ and $M$ have isomorphic homology groups, regardless of the coefficient group $G$,
+$$
+H_ {p}(M;G)\cong H_ {p}(V; G).
+$$
+
+As an application of the above theorem, consider $SO(2)$ and $GL(2)$. Since $SO(2)$ is topologically a circle, we have 
+$$
+H_ {1}(SL(2,\mathbb{R})) \cong H_ {1}(\mathbb{S}^{1}) \cong \mathbb{Z}.
+$$
+
+Since we are talking about $2\times 2$ matrices, there exists an interesting result for $A\in 2\times 2$ matrices called the `Cayley-Hamilton` theorem, stating that 
+$$
+A^{2}-(\mathrm{Tr}\,A)A+\det A \,\mathbb{1}=0.
+$$
+
+### Subgroups and Subalgebras
+
+Since the group $G$ is generated by its Lie algebra ${\frak g}$, at least for the connected component, there should be a way to find the subgroup of $G$ by looking at ${\frak g}$. 
+
+We will not distinguish between Lie algebra elements, namely the vectors at the identity of the group $X_ {\mathbb{1}}$, and the left-invariant vector field $X_ {g}$, since they are isomorphic to each other. 
+
+The exp map $\exp X$ gives the integral curve of $X$. Since $X$ is left invariant, the integral curve starting at $g$ is connected to the integral curve starting at $\mathbb{1}$, to be specific $g(t) = L_ {g}g(0)$. To be specif, notice with an infinitesimal parameter $dt$, the tangent vector $X$ will "move" the point $\mathbb{1}$ to $\mathbb{1}+dt X = \mathbb{1}(1+dt X)$, since $X$ is left-invariantly translated to $g$, the vector $X_ {g}$ will move the point $g$ to $g(1+dX)$. On the other hand, the $X$ vector field, like any vector field, generates a flow $\phi_ {t}(g)$ where $g$ is the starting point. 
+
+Convince yourself that the flow generated by the left invariant field $X$ is the 1-parameter group of right translations
+$$
+\phi_ {t}(g) = g \exp(tX).
+$$
+
+#### Commutator of matrices
+
+Recall that the Lie algebra ${\frak g}$ as a vector space, is simply the tangent space to $G$ at $\mathbb{1}$, but as an algebra it is identified with the left invariant vector fields on $G$. (Of course this is merely a convention; we could have used right invariant fields just as well.) If $X,Y\in{\frak g}$, then their Lie bracket is given by the Lie derivative since 
+$$
+[X,Y]=\mathcal{L}_ {X}Y.
+$$
+If $G$ is a matrix group, then the elements of ${\frak g}$ are matrices as well, not in $G$ but the derivative of $G$ at origin, and $[X,Y]$ is merely the commutator of two matrices.
+
+#### Subgroup and subalgebra
+
+The subset $H\subset G$ qualifies as a sub Lie group if H, if not embedded, is at least an `immersed`(locally embedded) submanifold of $G$. Furthermore, if the Lie algebra ${\frak h}$ is closed under Lie brackets, then ${\frak h}$ define a Lie algebra, called the `subalgebra` of ${\frak g}$.
+
+In general, if $H$ is a subgroup of $G$, then the Lie algebra ${\frak h}$ of $H$ is a subalgebra of ${\frak g}$. The converse of this is also true and of immense importance.
