@@ -1,4 +1,13 @@
 {
+  "workspace:new-tab": [],
+  "editor:open-search-replace": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
   "insert-template": [
     {
       "modifiers": [
@@ -6,6 +15,5 @@
       ],
       "key": "T"
     }
-  ],
-  "workspace:new-tab": []
+  ]
 }
