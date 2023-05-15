@@ -65,14 +65,24 @@ For each element $\overline{g}\in\mathcal{G}$, there automatically exists two fu
 - For each $\overline{g}\in\mathcal{G}$, there exist left and right identity $\mathbb{1}_ {\text{left}}\,\overline{g}=\overline{g}\,\mathbb{1}_ {\text{right}}=g$. 
 - each $\overline{g}$ has an inverse $g^{-1}$ such that $g g^{-1}=\mathbb{1}_ {\text{left}}$ and $g^{-1}g=\mathbb{1}_ {\text{right}}$.
 
-In general, a groupoid $\mathcal{G}$ with `base` $B$ is the collection $\mathcal{G}$ with two arrows source $s$ and target $t$, and partially defined binary operation satisfying the four conditions above. We may think of each element of $\mathcal{G}$ as arrows pointing from one element of $B$ to another. In the language of category theory, *this is a groupoid with objects identified as elements of the base $B$, so a category of the base.*
+In general, a groupoid $\mathcal{G}$ with `base` $B$ is the collection $\mathcal{G}$ with two arrows source $s$ and target $t$, and partially defined binary operation satisfying the four conditions above. We may think of each element of $\mathcal{G}$ as arrows pointing from one element of $B$ to another. In the language of category theory, *this is a groupoid with objects identified as elements of the base $B$, so a category of the base*. We have 
+$$
+\text{elements of }\mathcal{G} = \text{arrows in the category }B.
+$$
 
 Let $B=[0,2m]\times[0,n]$ be a finite subset of $\mathbb{R}^{2}$. The restriction of $\mathcal{G}(G,\mathbb{R}^{2})$ to $B$ is defined (naturally) to be
 $$
-\mathcal{G}{\Large\mid}_ {B}:=\left\{  \,\middle\vert\,  \right\}  
+\mathcal{G}{\Large\mid}_ {B}:=\left\{ \overline{g}\in \mathcal{G} \,\middle\vert\, s(\overline{g})\in B,t(\overline{g})\in B \right\}  .
 $$
+The following concepts from groupoid theory, applied to this example, now show that $\mathcal{G}{\Large\mid}_ {B}$ indeed captures the symmetry which we see in the tiled floor.
 
+- An `orbit` of groupoid $\mathcal{G}$ over $B$ is an equivalence class for the relation
+$$
+x\sim y \iff \exists \overline{g}\in \mathcal{G} \text{ s.t. } s(\overline{g})=y,\,t(\overline{b})=x.
+$$
+This is just a direct generalization to orbits in group theory.
 
+- The `isometry group` of $x\in B$ consists of $\overline{g}\in\mathcal{G}$ with $s(\overline{g})=t(\overline{g})=x$. 
 
 ### Families and symmetry groupoids
 
