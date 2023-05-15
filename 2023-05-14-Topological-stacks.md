@@ -40,10 +40,24 @@ The three holes will mess up the symmetry of the $\mathbb{S}^{2}$ seriously, the
 
 The groupoid is usually defined to be a category where every arrow has an inverse. The usual group is just a groupoid with one object. In our context, a groupoid will assign to any two objects $m_ {0}, m_ {1} ∈ M$ a collection (possibly empty) of arrows from $m_ {1}$ to $m_ {0}$. the $m_ {0,1}$ are like objects and $M$ a Category. These arrows are thought of as ‘symmetries’, but in contrast to Lie group actions this symmetry need not be defined for all $m\in M$ – only pointwise. This corresponds to the state that not all pairs of objects need to have arrows. On the other hand, we require that the collection of all such arrows (with arbitrary end points) fit together smoothly to define a manifold, and that arrows can be composed provided the end point (target) of one arrow is the starting point (source) of the next. This reminds us of group structure.
 
+The following note is taken from [this paper](https://www.ams.org/notices/199607/weinstein.pdf), including (some of) the notations. As an simple example, consider the tiling of the (infinite) Euclidean $\mathbb{R}^{2}$ by identical $2\times 1$ rectangles, specified by the set $X$ (idealized as 1-dimensional) where the grout between the tiles lies. To be specific, denote the horizontal grouts $H=(\mathbb{R},\mathbb{Z})$ and vertical grouts $V=(2\mathbb{Z},\mathbb{R})$, then $X=H\cup V$. The set of identical tiles is $\mathbb{R}^{2}-X$. The symmetry group of $X$ is denoted $G$, consisting of rigid translations, reflections and rotations. The normal subgroup of $G$ is the translation group. The lattice $\Lambda$ consists of the corner points of the tiles, $\Lambda=H\cap V=2\mathbb{Z}\times\mathbb{Z}$. 
+
+Although the symmetry greatly constraints the space, there is something lost when going from the tiling of $\mathbb{R}^{2}$ to the symmetry group $G$, 
+1. both $X$ and $\Lambda$ satisfy the same symmetry group $G$, even though they describe very different things, even the dimension is different;
+2. $G$ contains no local details of the tiling, for example we could fill any color pattern that is symmetric under $G$;
+3. If the size of $\mathbb{R}^{2}$ is finite, for example if we were tiling the bathroom floor, then the symmetry group shrinks greatly since most of the original symmetries, such as translation, will move the entire floor thus no longer a symmetry. However a repetition pattern of the floor is clearly visible, we say locally it is still the same tiling. 
+
+Our first groupoid will enable us to describe the symmetry of the finite tiled rectangle. We first define the **transformation groupoid** of the action of $G$ on $\mathbb{R}^{2}$ to be the set 
+$$
+\mathcal{G}(G,\mathbb{R}^{2}):= \left\{ (x,g,y) \,\middle\vert\, x,y\in \mathbb{R}^{2},g\in G,x=gy \right\} .
+$$
+
+
+
 ### Families and symmetry groupoids
 
 We are interested in two ideas: symmetry and form, and their role in classification.
 
-Consider a mathematical concept, for example *isoscelese triangles*, together with a notion of isomorphism, for example *similarity*. This leads to the idea of symmetry. 
+Consider a mathematical concept, for example *isosceles triangles*, together with a notion of isomorphism, for example *similarity*. This leads to the idea of symmetry. 
 
 To capture the essence of form, in particular how form may vary, we consider families of objects, rather than single objects. For example, instead of just one isosceles triangle we can consider four triangles, three congruent isosceles triangles and one equilateral triangle.  
