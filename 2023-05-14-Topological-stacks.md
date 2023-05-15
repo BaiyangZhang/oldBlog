@@ -51,6 +51,26 @@ Our first groupoid will enable us to describe the symmetry of the finite tiled r
 $$
 \mathcal{G}(G,\mathbb{R}^{2}):= \left\{ (x,g,y) \,\middle\vert\, x,y\in \mathbb{R}^{2},g\in G,x=gy \right\} .
 $$
+We used script $\mathcal{G}$ to remind us that $\mathcal{G}$ can be regarded as a (small) category, since in our convention we use script capital letters such as $\mathcal{A},\mathcal{B}$ to denote categories. 
+
+The philosophy is similar to what we talked about in the punctured two-sphere case, if the old group does not work in the new situation then construct a new thing that includes both the group and the space the group acts on. Only it is not enough to just include one point in the space, we in fact need two, one serve as as source and one target. With $\mathcal{G}(G,\mathbb{R}^{2})$ we have the partially defined binary operation 
+$$
+(x,g_ {1},y)\times (y,g_ {2},z) = (x,g_ {1}g_ {2},z).
+$$
+
+For each element $\overline{g}\in\mathcal{G}$, there automatically exists two functions, `source` and `target`, denoted $s(-)$ and $t(-)$ respectively. The group action takes the source to the target. For example, let $\overline{g}=(x,g,y)$ then $s(g)=y$ and $t(g) = x$. The binary operation has following properties.
+
+- The binary operation is **partially defined**, for two elements $\overline{g},\overline{h}\in\mathcal{G}$, $\overline{g}\overline{h}$ is defined iff $t(\overline{h})=s(\overline{g})$. 
+- It is associative, $(\overline{a}\overline{b})\overline{c}=\overline{a}(\overline{b}\overline{c})$.
+- For each $\overline{g}\in\mathcal{G}$, there exist left and right identity $\mathbb{1}_ {\text{left}}\,\overline{g}=\overline{g}\,\mathbb{1}_ {\text{right}}=g$. 
+- each $\overline{g}$ has an inverse $g^{-1}$ such that $g g^{-1}=\mathbb{1}_ {\text{left}}$ and $g^{-1}g=\mathbb{1}_ {\text{right}}$.
+
+In general, a groupoid $\mathcal{G}$ with `base` $B$ is the collection $\mathcal{G}$ with two arrows source $s$ and target $t$, and partially defined binary operation satisfying the four conditions above. We may think of each element of $\mathcal{G}$ as arrows pointing from one element of $B$ to another. In the language of category theory, *this is a groupoid with objects identified as elements of the base $B$, so a category of the base.*
+
+Let $B=[0,2m]\times[0,n]$ be a finite subset of $\mathbb{R}^{2}$. The restriction of $\mathcal{G}(G,\mathbb{R}^{2})$ to $B$ is defined (naturally) to be
+$$
+\mathcal{G}{\Large\mid}_ {B}:=\left\{  \,\middle\vert\,  \right\}  
+$$
 
 
 
