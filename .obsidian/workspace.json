@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-2-14-(Vector)-Fibre-Bundles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6e53b302813143d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-04-29-Weihai-Travel-Plan.md",
+                "file": "_drafts/2023-5-15-(Vector)-Fibre-Bundles.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,19 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "80ee77e67fda3a7d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "img/3holes.png"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,6 +89,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "98f671f28ba44edf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -133,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-05-14-Topological-stacks.md",
+                "file": "_drafts/2023-5-15-(Vector)-Fibre-Bundles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-05-14-Topological-stacks.md",
+                "file": "_drafts/2023-5-15-(Vector)-Fibre-Bundles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-05-14-Topological-stacks.md"
+                "file": "_drafts/2023-5-15-(Vector)-Fibre-Bundles.md"
               }
             }
           }
@@ -194,13 +180,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9c777761fbe1b426",
+  "active": "7fea94b6fe8f08d7",
   "lastOpenFiles": [
-    "img/3holes.png",
-    "2023-05-14-Topological-stacks.md",
     "_posts/2023-04-29-Weihai-Travel-Plan.md",
+    "2023-05-14-Topological-stacks.md",
+    "img/3holes.png",
     "Untitled.md",
-    "_drafts/2023-2-14-(Vector)-Fibre-Bundles.md",
+    "_drafts/2023-5-15-(Vector)-Fibre-Bundles.md",
     "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
     "_posts/2023-05-12-Lie-Groups.md",
     "_drafts/Untitled.md",
