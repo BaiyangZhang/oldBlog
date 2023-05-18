@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:      Note on Meson-Kink Scattering		# 标题 
 subtitle:   
-date:       2023-04-05 				# 时间
+date:       2023-04-15 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background8.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -117,9 +117,6 @@ We notice two things,
 $$
 \Delta x(t)^{2}=(\Delta x_{0})^{2}+(t\Delta v)^{2}=b^{2}+\left( \frac{t}{mb} \right)^{2}.
 $$
-
-
-
 [^2]: N. Kiriushcheva and S. Kuzmin, “Scattering of a Gaussian wave packet by a reflectionless potential,” Am. J. Phys. 66, 867–872 (1998)
 
 - - -
