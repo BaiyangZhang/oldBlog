@@ -94,6 +94,8 @@ The position of the kink is $a$ and $l_ {k}$ the characteristic size of it. To g
 
 Besides the kink solution, there is another static solution given by the elliptic sine function. But first, a digression to elliptic functions.
 
+- - -
+
 **Jacobi elliptic functions**
 
 The circular functions arise from ratios of lengths in a circle. In a similar manner, the elliptic functions can be defined by means of ratios of lengths in an ellipse. Many of the key properties of the elliptic functions follow from simple geometric properties of the ellipse.
@@ -126,7 +128,10 @@ The incomplete elliptic integral of the *second kind* reads
 $$
 E(\phi,k)=\int_{0}^{\phi} d\theta \,  \sqrt{ 1-k^{2}\sin ^{2} \theta }.
 $$
-
+or equivalently,
+$$
+E(\phi,k)=\int_{0}^{\sin \phi} dt \, \sqrt{ \frac{1-k^{2}t^{2}}{1-t^{2}} } ,\quad  0\leq k^{2}\leq 1.
+$$
 Similarly, the complete elliptic integral of the first kink can be obtained by setting $\phi=\pi / 2$.
 
 As an example of the Jacobian elliptic function $sn$ we can write
@@ -147,4 +152,45 @@ $$
 sn^{2}+cn^{2}=1,\quad  k^{2}sn^{2}+dn^{2}=1.
 $$
 
+Elliptic integral of the third kind reads
+$$
+\Pi(\phi,n,k)=\int_{0}^{\sin \phi} dt \, \frac{1}{(1+nt)^{2}\sqrt{ (1-k^{2})(1-k^{2}t^{2}) }} 
+$$
+with the same range of $k$. Or equivalently
+$$
+\Pi(\phi,n,k)=\int_{0}^{ \phi} d\theta \,  \frac{1}{(1+n\sin ^{2}\theta)\sqrt{ 1-k^{2}\sin ^{2}\theta }}.
+$$
+
+As mentioned before, the three standard forms of the Jacobi elliptic functions $sn,cn,dn$ are the sine, cosine and delta amplitude elliptic functions respectively. They are obtained by inverting the elliptic integral of the first kind
+$$
+u\equiv u(\phi\mid k)\equiv u(\phi,k) \equiv F(\phi,k)=\int_{0}^{\phi} d \theta \, \frac{1}{\sqrt{ 1-k^{2}\sin ^{2} \theta }} .
+$$
+The parameter before $\sin ^{2}\theta$, i.e., $k$ is called the `elliptic modulus`, and the upper bound of the integral is called the `Jacobi amplitude`, denoted $\text{amp}$. The inverse of $u(\phi)$ is 
+$$
+\phi = u^{-1}(\phi,k)=:\text{amp}(u,k)
+$$
+and we can write the Jacobi elliptic functions in terms of $\phi$,
+$$
+\begin{align}
+sn(u,k)&=\sin \phi\equiv\sin(\text{amp}(u,k)), \\
+cn(u,k)&=\cos\phi=\cos(\text{amp}(u,k)), \\
+dn(u,k)&=\sqrt{ 1-k^{2}\sin ^{2}\phi }.
+\end{align}
+$$
+These functions are *doubly periodic* generalizations of the trigonometric functions satisfying
+$$
+\begin{align}
+sn(u,0)&=\sin u, \\
+cn(u,0)&=\cos u, \\
+dn(u,0)&=1.
+\end{align}
+$$
+since $u=\phi$ at $k=0$ .
+
+- - -
+
+We claim without proof that there exists a static solution to the kink equation,
+$$
+\phi(t)=\phi_ {0}sn(bx,k),\quad k^{2}=\frac{\phi_ {0}^{2}}{2-\phi_ {0}^{2}},\quad b^{2}=1-\frac{\phi_ {0}^{2}}{2}.
+$$
 
