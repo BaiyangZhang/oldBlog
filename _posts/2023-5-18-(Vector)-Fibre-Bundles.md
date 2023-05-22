@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     (Vector) Fibre Bundles			# 标题 
 subtitle:   
-date:       2023-5-15 				# 时间
+date:       2023-5-18 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/mathArt16.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -112,3 +112,17 @@ Every vector field on $\mathbb{S}^{2}$ has a singularity. Thus *every smooth sec
 
 This can be paraphrased as "**You can't comb the hair on a 2-sphere**."
 
+We just give the gist of the proof. First assume the closed manifold is orientable. Take two vector fields $v$ and $w$ and a triangulation of the manifold, the triangulation should be fine enough such that in each simplex contains only one singularity. Then it can be shown that the total index is the same for $v$ and $w$, since the integrals on each edge of the simplex cancels. Then, since any vector field works, we can choose the so-called Stiefel vector field, which connects the indices of the the (Stiefel) vector field to the vertices, edges and faces of the triangulation, in such a peculiar way that the summed indices gives the Euler characteristic, which is defined as
+$$
+\chi := \text{number}(\text{vertices})-\text{number(edges)}+\text{number(faces).}
+$$
+Since the Euler's theorem says that the Euler characteristic is independent of the specific triangulation, we conclude that the total index is indeed the Euler characteristic, at least for two dimensional vector fields.
+
+Regarding the non-orientable surfaces, we simply state that such surfaces have double, orientable covers with double Euler characteristic.
+
+Hopf has proved the n-dimensional version of `Poincare's theorem.` The proof is considerably more complicated thus we will neglect it here. Given a `closed` n-dimensional manifold $M$ and a vector field on it, the vector field may have finite singularities, we can consider a small $n-1$ dimensional sphere containing the singularity and the Kronecker index (Brower degree, winding number) about it. Once again we have
+$$
+\sum j_ {v}(M) = \chi(M) = \text{number(0-simplexes)}-\text{number(1-simplexes)}+\dots.
+$$
+
+Apparently, in order to have a singularity free vector field on $M$, $M$ must has Euler characteristic zero, such as a torus.
