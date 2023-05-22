@@ -8,28 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "765b6e7847176dd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7fea94b6fe8f08d7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "stacksintro.pdf"
-              }
-            }
-          },
-          {
             "id": "9c777761fbe1b426",
             "type": "leaf",
             "state": {
@@ -41,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "stacksintro.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "stacksintro.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "stacksintro.pdf"
-              }
+              "state": {}
             }
           }
         ]
@@ -177,13 +150,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7fea94b6fe8f08d7",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
+    "_posts/2023-05-22-Introduction-of-Algebraic-Stacks.md",
+    "stacksintro.pdf",
     "Untitled.md",
     "2023-05-13-Topological-Stacks.md",
     "_drafts/2023-05-14-Topological-stacks.md",
-    "stacksintro.pdf",
-    "_posts/2023-05-22-Introduction-of-Algebraic-Stacks.md",
     "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
     "_posts/2023-5-18-(Vector)-Fibre-Bundles.md",
     "img/jacobiEllipse.jpg",
