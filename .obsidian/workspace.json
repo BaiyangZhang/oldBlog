@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8709ae8a2b83213b",
+        "id": "0be7c7c3ba54097c",
         "type": "tabs",
         "children": [
           {
-            "id": "9c777761fbe1b426",
+            "id": "2fa3f28612b10d3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-05-14-Topological-stacks.md",
+                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "98f671f28ba44edf",
+            "id": "555c02c222c087f8",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -93,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md"
+              }
             }
           }
         ]
@@ -150,40 +155,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "957cfa2362e38596",
+  "active": "2fa3f28612b10d3a",
   "lastOpenFiles": [
-    "_posts/2023-05-22-Introduction-of-Algebraic-Stacks.md",
-    "stacksintro.pdf",
-    "Untitled.md",
-    "2023-05-13-Topological-Stacks.md",
-    "_drafts/2023-05-14-Topological-stacks.md",
-    "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
-    "_posts/2023-5-18-(Vector)-Fibre-Bundles.md",
-    "img/jacobiEllipse.jpg",
     "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
-    "_posts/2023-04-15-Note-on-Meson-Kink-Scattering.md",
-    "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
-    "_posts/2023-04-29-Weihai-Travel-Plan.md",
-    "img/3holes.png",
-    "_posts/2023-05-12-Lie-Groups.md",
+    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+    "Templates/Date-Note-Title.md",
     "_drafts/Untitled.md",
-    "Templates/Note.md",
-    "Templates",
-    "_posts/2022-7-17-Conventions-and-Formula.md",
-    "_drafts/2023-05-07-soliton-particle-duality.md",
-    "_drafts/2023-05-06-Lie-Groups.md",
-    "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
+    "Untitled.md",
+    "_posts/2023-5-18-(Vector)-Fibre-Bundles.md",
+    "_drafts/2023-05-14-Topological-stacks.md",
+    "img/chatgpt-cn.co.zip",
+    "img/Unconfirmed 358518.crdownload",
+    "img/sustainability-13-00351.pdf",
+    "img/Unconfirmed 453773.crdownload",
+    "_drafts/2023-5-15-(Vector)-Fibre-Bundles.md",
+    "img/jacobiEllipse.jpg",
+    "img/jacobiEllipse.jpg.crdownload",
+    "_posts/2023-04-29-Weihai-Travel-Plan.md",
+    "_posts/2023-04-15-Note-on-Meson-Kink-Scattering.md",
+    "_posts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
+    "_posts/2023-04-03-De-Rhams Theorem.md",
+    "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
+    "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+    "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
+    "_posts/2023-04-24-Basic-Algebraic-Geometry-15.md",
+    "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
+    "_drafts/2023-3-22-Hilbert's-Action-Principle.md",
+    "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
+    "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",
+    "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
+    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
+    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
+    "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
+    "_drafts/2023-2-14-(Vector)-Fibre-Bundles.md",
     "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
-    "_drafts/2023-05-07-Gauge-Theory-in-(2+1)D.md",
-    "_drafts/2023-05-07-Soliton-Particle-Duality-in-(1+1)D.md",
-    "_drafts/2023-mm-dd-Basic-Category-Theory-Class-n.md",
-    "_drafts/2023-mm-dd-Theodore-Frankel.md",
+    "img/3holes.png",
+    "Untitled 1",
     "img/Weihai3.png",
     "img/Weihai2.png",
     "img/Weihai1.png",
-    "img/Pastedimage20230429112158.png",
-    "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",
-    "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
-    "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md"
+    "img/Pastedimage20230429112158.png"
   ]
 }
