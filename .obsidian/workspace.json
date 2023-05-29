@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-05-14-Topological-stacks.md",
+                "file": "_drafts/2023-05-28-Connections-in-a-Vector-Bundle.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -93,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_drafts/2023-05-28-Connections-in-a-Vector-Bundle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_drafts/2023-05-28-Connections-in-a-Vector-Bundle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_drafts/2023-05-28-Connections-in-a-Vector-Bundle.md"
+              }
             }
           }
         ]
@@ -150,13 +155,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "957cfa2362e38596",
+  "active": "9c777761fbe1b426",
   "lastOpenFiles": [
+    "_drafts/2023-mm-dd-Theodore-Frankel.md",
+    "_drafts/2023-05-28-Connections-in-a-Vector-Bundle.md",
+    "_posts/2023-05-28-Symmetry-groupoid.md",
     "_posts/2023-05-22-Introduction-of-Algebraic-Stacks.md",
     "stacksintro.pdf",
     "Untitled.md",
     "2023-05-13-Topological-Stacks.md",
-    "_drafts/2023-05-14-Topological-stacks.md",
     "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
     "_posts/2023-5-18-(Vector)-Fibre-Bundles.md",
     "img/jacobiEllipse.jpg",
@@ -177,7 +184,6 @@
     "_drafts/2023-05-07-Gauge-Theory-in-(2+1)D.md",
     "_drafts/2023-05-07-Soliton-Particle-Duality-in-(1+1)D.md",
     "_drafts/2023-mm-dd-Basic-Category-Theory-Class-n.md",
-    "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "img/Weihai3.png",
     "img/Weihai2.png",
     "img/Weihai1.png",
