@@ -11,9 +11,11 @@
             "id": "093300c833f03835",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.3.4"
+                "file": "_drafts/2023-05-14-Topological-stacks.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
