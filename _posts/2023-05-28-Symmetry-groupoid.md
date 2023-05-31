@@ -16,7 +16,7 @@ Mathematically, a symmetry of a set $S$ is a transformation that preserves it. A
 $$(h_ {1},k_ {1})\times(h_ {2},k_ {2})=(h_ {1}h_ {2},k_ {1}k_ {2}).$$
 The copy of $H$ in $H\times K$ is simply $(H,1)$ and the copy of $K$ in $H\times K$ is $(1,K)$. 
 
-Another way to construct the product group from $H$ and $G$ is go multiply their elements together, $hg$. We have the "recognition theorem" saying that if 1) $G$ can be written as form $hk$ and 2) $H\cap K$ is trivial and 3) elements in the copy of $H$ commutes with that in $K$ then we can write $G$ as a product of $H$ and $K$. However the last condition is not necessary for $G$ to be written as a direct multiplication of $H$ and $K$. 
+We have the "recognition theorem" saying that if 1) $G$ can be written as form $hk$ and 2) $H\cap K$ is trivial and 3) elements in the copy of $H$ commutes with that in $K$ then we can write $G$ as a product of $H$ and $K$. However the last condition is not necessary for $G$ to be written as a direct multiplication of $H$ and $K$. 
 
 Let $H,K$ be subgroups of $G$, the direct product $H\times K$ is not guaranteed to be a subgroup of $G$. It is because $h^{-1}kh$, the conjugate of $k$, may not be in $K$ again. If so, $K$ is a normal subgroup. The claim is that $K\times H$ is only a subgroup if one of them is a normal subgroup, for example if $K\lhd G$. How can we come up with a modified version of multiplication such that $H$ and $K$ always gives a group. 
 
@@ -25,7 +25,11 @@ $$
 \phi: K\to \text{Aut}(H),\quad k\mapsto \phi_ {k}.
 $$
 
-**Definition.** For two groups $H$ and $K$ and an action $\phi: K\to \text{Aut}(H)$ of $K$ on $H$ by automorphisms, the corresponding semidirect product $H\rtimes K$ is defined as follows: as a set it is $\left\{ (h,k) \,\middle\vert\, h\in H,k\in K \right\}$. The group law on $H\rtimes K$ is
+**Definition.** For two groups $H$ and $K$ and an action $\phi: K\to \text{Aut}(H)$ of $K$ on $H$ by automorphisms, the corresponding semidirect product $H\rtimes K$ is defined as follows: as a set it is 
+$$
+\left\{ (h,k) \,\middle\vert\, h\in H,k\in K \right\}.
+$$
+The group law on $H\rtimes K$ is
 
 $$
 (h_ {1},k_ {1})(h_ {2},k_ {2}):=(h_ {1}\phi_ {k}(h_ {2}),k_ {1}k_ {2}).
