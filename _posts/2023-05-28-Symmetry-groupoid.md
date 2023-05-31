@@ -12,7 +12,11 @@ tags:								#标签
 
 ### Some group theory 
 
-Mathematically, a symmetry of a set $S$ is a transformation that preserves it. All the symmetry transformations naturally form a group. It would be helpful to review some basic definitions of group theory here. A subgroup $H$ of $G$ is denoted $H<G$, if $H$ is a `normal` subgroup, meaning $GHG^{-1}=H$, then $H$ is denoted by $H\lhd G$. Given two groups $H,K$, the simplest way to construct a new group containing $H$ and $K$ as subgroup is by the means of direct product, $H\times K$. The elements of $H\times K$ are $(h,k)$ with multiplication given by $(h_ {1},k_ {1})\times(h_ {2},k_ {2})=(h_ {1}h_ {2},k_ {1}k_ {2})$. The copy of $H$ in $H\times K$ is simply $(H,1)$ and the copy of $K$ in $H\times K$ is $(1,K)$. We have the "recognition theorem" saying that if 1) $G$ can be written as form $hk$ and 2) $H\cap K$ is trivial and 3) elements in the copy of $H$ commutes with that in $K$ then we can write $G$ as a product of $H$ and $K$. However the last condition is not necessary for $G$ to be written as a direct multiplication of $H$ and $K$. 
+Mathematically, a symmetry of a set $S$ is a transformation that preserves it. All the symmetry transformations naturally form a group. It would be helpful to review some basic definitions of group theory here. A subgroup $H$ of $G$ is denoted $H<G$, if $H$ is a `normal` subgroup, meaning $GHG^{-1}=H$, then $H$ is denoted by $H\lhd G$. Given two groups $H,K$, the simplest way to construct a new group containing $H$ and $K$ as subgroup is by the means of direct product, $H\times K$. The elements of $H\otimes K$ are $(h,k)$ with multiplication given by
+$$(h_ {1},k_ {1})\times(h_ {2},k_ {2})=(h_ {1}h_ {2},k_ {1}k_ {2}).$$
+The copy of $H$ in $H\times K$ is simply $(H,1)$ and the copy of $K$ in $H\times K$ is $(1,K)$. 
+
+Another way to construct the product group from $H$ and $G$ is go multiply their elements together, $hg$. We have the "recognition theorem" saying that if 1) $G$ can be written as form $hk$ and 2) $H\cap K$ is trivial and 3) elements in the copy of $H$ commutes with that in $K$ then we can write $G$ as a product of $H$ and $K$. However the last condition is not necessary for $G$ to be written as a direct multiplication of $H$ and $K$. 
 
 Let $H,K$ be subgroups of $G$, the direct product $H\times K$ is not guaranteed to be a subgroup of $G$. It is because $h^{-1}kh$, the conjugate of $k$, may not be in $K$ again. If so, $K$ is a normal subgroup. The claim is that $K\times H$ is only a subgroup if one of them is a normal subgroup, for example if $K\lhd G$. How can we come up with a modified version of multiplication such that $H$ and $K$ always gives a group. 
 
@@ -21,7 +25,7 @@ $$
 \phi: K\to \text{Aut}(H),\quad k\mapsto \phi_ {k}.
 $$
 
-**Definition.** . For two groups $H$ and $K$ and an action $\phi: K\to \text{Aut}(H)$ of $K$ on $H$ by automorphisms, the corresponding semidirect product $H\rtimes K$ is defined as follows: as a set it is $\left\{ (h,k) \,\middle\vert\, h\in H,k\in K \right\}$. The group law on $H\rtimes K$ is
+**Definition.** For two groups $H$ and $K$ and an action $\phi: K\to \text{Aut}(H)$ of $K$ on $H$ by automorphisms, the corresponding semidirect product $H\rtimes K$ is defined as follows: as a set it is $\left\{ (h,k) \,\middle\vert\, h\in H,k\in K \right\}$. The group law on $H\rtimes K$ is
 $$
 (h_ {1},k_ {1})(h_ {2},k_ {2}):=(h_ {1}\phi_ {k}(h_ {2}),k_ {1}k_ {2}).
 $$
@@ -83,11 +87,3 @@ $$
 This is just a direct generalization to orbits in group theory.
 
 - The `isometry group` of $x\in B$ consists of $\overline{g}\in\mathcal{G}$ with $s(\overline{g})=t(\overline{g})=x$. 
-
-### Families and symmetry groupoids
-
-We are interested in two ideas: symmetry and form, and their role in classification.
-
-Consider a mathematical concept, for example *isosceles triangles*, together with a notion of isomorphism, for example *similarity*. This leads to the idea of symmetry. 
-
-To capture the essence of form, in particular how form may vary, we consider families of objects, rather than single objects. For example, instead of just one isosceles triangle we can consider four triangles, three congruent isosceles triangles and one equilateral triangle.  
