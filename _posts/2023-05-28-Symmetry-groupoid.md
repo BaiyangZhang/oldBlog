@@ -26,6 +26,7 @@ $$
 $$
 
 **Definition.** For two groups $H$ and $K$ and an action $\phi: K\to \text{Aut}(H)$ of $K$ on $H$ by automorphisms, the corresponding semidirect product $H\rtimes K$ is defined as follows: as a set it is $\left\{ (h,k) \,\middle\vert\, h\in H,k\in K \right\}$. The group law on $H\rtimes K$ is
+
 $$
 (h_ {1},k_ {1})(h_ {2},k_ {2}):=(h_ {1}\phi_ {k}(h_ {2}),k_ {1}k_ {2}).
 $$
