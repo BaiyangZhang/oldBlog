@@ -100,8 +100,6 @@ Besides the kink solution, there is another static solution given by the ellipti
 
 The circular functions arise from ratios of lengths in a circle. In a similar manner, the elliptic functions can be defined by means of ratios of lengths in an ellipse. Many of the key properties of the elliptic functions follow from simple geometric properties of the ellipse.
 
-![Elliptic](/img/jacobiEllipse.jpg)
-
 The most general form of Jacobi elliptic functions take two input, the first input is like the variable and the second as a parameter that controls the behavior of the function. The first input, the variable, is usually written in two ways, $u$ and $\phi$, related by 
 $$
 u=\int_{0}^{\phi} d\theta \, \frac{1}{\sqrt{ 1-m \sin ^{2}\theta} }.
@@ -189,8 +187,41 @@ since $u=\phi$ at $k=0$ .
 
 - - -
 
+The familiar kink solution in our notation is 
+$$
+\phi_ {K}(x) = \tanh\left( \frac{x-a}{l_ {K}} \right),\quad l_ {K}=\sqrt{ 2 }.
+$$
+where $a$ is the center of the kink and $l_ {K}$ the characteristic size. 
+
+Its easy using mathematica to check that this solution satisfies both the second order equation of motion and the first order BPS equation. The anti-kink solution is just $-\phi_ {K}(x)$.
+
 We claim without proof that there exists a static solution to the kink equation,
 $$
-\phi(t)=\phi_ {0}sn(bx,k),\quad k^{2}=\frac{\phi_ {0}^{2}}{2-\phi_ {0}^{2}},\quad b^{2}=1-\frac{\phi_ {0}^{2}}{2}.
+\phi(t)=\phi_ {0}\, \text{sn}(bx,k),\quad k^{2}=\frac{\phi_ {0}^{2}}{2-\phi_ {0}^{2}},\quad b^{2}=1-\frac{\phi_ {0}^{2}}{2}.
 $$
+
+What about a moving kink then? Firstly, the center of the kink will move with velocity $v$ thus we should replace $x-a$ with $x-a-vt$ where $v$ is the kink velocity. Secondly, from special relativistic we know that a moving frame will experience space contraction, thus we should multiply $x-a-vt$ by $\gamma$ factor, which is $\gamma=\frac{1}{\sqrt{ 1-v^{2} }}$ in natural units. Then a right-moving kink can be written as 
+$$
+\phi_ {K,v}= \tanh\left( \frac{x-a-vt}{\sqrt{ 2(1-v^{2}) }} \right).
+$$
+
+### Kink-antikink collisions
+
+When the kink and antikink are separated far away from each other, the interaction between them is negligible and the configuration with a kink and a antikink is simply the addition of kink and antikink solutions, up to some additive const to make sure that the field goes to the vacuum at the space boundaries. The center of the kink, for a right moving one, is $-a+vt$ where $v$ is the velocity. The kink-antikink configuration reads
+$$
+\phi_ {K \overline{K}}(t,x)= \tanh\left( \frac{x-(-a+vt)}{\sqrt{ 2 }\sqrt{ 1-v^{2} }} \right)
++\tanh\left( \frac{x-(a-vt)}{\sqrt{ 2 }\sqrt{ 1-v^{2} }} \right) -1,\tag{1}
+$$
+Note the last term $-1$ which is there to make sure the correct boundary condition is satisfied. 
+
+When the kink is too close to the antikink, the simple configuration Eq.(1) can no longer satisfy the equation of motion, in physical terms there will be non-linear interaction between the kink and the antikink. To find the solution to EOM we unfortunately have to rely on numerical calculation. To be specific, in numerical calculation we 
+1. make space-time into 2-dimensional grid, the time grid is usually required to be finer than space grid to make the numerical results more reliable. Set up the initial condition, including the kink-antikink configuration and their initial speed.
+2. Time-evolve the initial spate using the equation of motion, make sure the position of the kink and antikink are not at the boundary of the space.
+3. Do some consistency checks, for example make sure that the total energy is (reasonably) conserved, or test that the numerical method we used, when applied to a kink at still, will remain a kink at still.
+
+Even without specific calculation we can tell that the kink and antikink can't just pass each other and keep moving, since if we move the antikink to the left and kink to the right, the field in the between will take value 
+$$
+\phi(x){\Large\mid}_ {x=0} = -1-1-1=-3
+$$
+where the first $-1$ comes from the antikink $\phi_ {\overline{K}}(\infty)=-1$, second from the kink and third form $-1$ in Eq.(1). However $-3$ is not a vacuum configuration! The energy will start to accumulate in between the kink and the antikink until the kinetic energy of them a re exhausted hence they have no other choice then to term back and follow the way they came. Thus they will "scatter" off each other.
 
