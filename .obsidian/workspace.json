@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-05-28-Symmetry-groupoid.md",
+                "file": "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "d0da9da219f3b7d4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.5"
               }
             }
           },
@@ -102,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
+    "width": 413.5069465637207,
     "collapsed": true
   },
   "right": {
@@ -119,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
+                "file": "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
+                "file": "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md"
+                "file": "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md"
               }
             }
           }
@@ -180,11 +190,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f98b84d16890ca7f",
+  "active": "d0da9da219f3b7d4",
   "lastOpenFiles": [
+    "Templates/date.md",
     "Templates/DateNote.md",
-    "2023-05-31-Analytic-Structure.md",
+    "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
+    "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
+    "_posts/2023-05-28-Symmetry-groupoid.md",
     "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
+    "2023-05-31-Analytic-Structure.md",
     "PDFs/BasicCategoryTheory.pdf",
     "PDFs",
     "新建文件夹",
@@ -206,11 +220,7 @@
     "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
     "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
     "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
-    "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
-    "_posts/2023-05-28-Symmetry-groupoid.md",
-    "_drafts/2023-05-14-Topological-stacks.md",
     "img/chatgpt-cn.co.zip",
     "img/Unconfirmed 358518.crdownload",
     "img/sustainability-13-00351.pdf",

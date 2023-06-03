@@ -10,7 +10,7 @@ catalog: true 						# 是否归档
 tags:								#标签
     - Math
     - Renormalization 
-    - Notes
+    - Notes ^64e65f
 ---
 
 ### abstract
