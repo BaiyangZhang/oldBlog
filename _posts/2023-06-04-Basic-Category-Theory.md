@@ -60,5 +60,32 @@ Initial and final objects can be regarded as special functors, or more precisely
 
 Let $F: \mathcal{A}\to \mathcal{B}$ be the left adjoint of $G: \mathcal{B}\to \mathcal{A}$, namely $F \dashv G$. They have to satisfy the `naturality requirement`, which means that as $A$ varies in $\mathcal{A}$ and $B$ varies in $\mathcal{B}$, the isomorphism between the set of $(F(A),B)$ and $(A,G(B))$ are compatible with all the structure already in place. 
 
-We ask: what is the transpose of identity maps? 
+We ask: what is the transpose of identity maps? Given $A\in\mathcal{A}$, functor $F$ sends it to an object $F(A)$ in $\mathcal{B}$, which must have identity map $\mathbb{1}_ {F(A)} = (F(A)\to F(A))$, which is also the image of $\mathbb{1}_ {A}$ under $F$,
+$$
+\mathbb{1}_ {F(A)} = F(\mathbb{1}_ {A}).
+$$
+Since $F$ is the left adjoint of $G$ we can move $F$ on the left to $G$ on the right, obtaining 
+$$
+\mathbb{1}_ {F(A)}: (F(A)\to F(A))\cong(A\to GF(A)),
+$$where the rhs is now a map in category $\mathcal{A}$, call it $\eta_ {A}$.  Similarly for $B\in\mathcal{B}$. This defines two *natural transformations*
+$$
+\eta: \mathbb{1}_ {\mathcal{A}} \to G\,\circ\,F, \quad  \epsilon: F\,\circ\,G\to \mathbb{1}_ {\mathcal{B}}.
+$$
+$\eta$ is called the `unit` of the adjunction, $\epsilon$ called the `counit`.
 
+Note that unit consists of maps in the codomain of the left adjoint functor, counit the domain of the left adjoint functor.
+
+The `triangle identity` of $\eta$ and $\epsilon$ says that the two arrows from $F(A)$ to itself,
+(1). $$
+\mathbb{1}_ {F(A)}: F(A) \to F(A)
+$$
+and 
+(2). 
+$$
+F(\eta_ {A}): F(A) \to FGF(A) \text{ followed by } \epsilon_ {F(A)}: FGF(A)\to F(A)
+$$
+are the same. 
+
+**Theorem.** Take categories and functors $F: \mathcal{A}\to \mathcal{B}$ and $G: \mathcal{B}\to \mathcal{A}$, there is a one-to-one correspondence between
+1. adjunctions between $F$ and $G$, denoted $F\dashv G$ and 
+2. pairs $\eta: \mathbb{1}_ {\mathcal{A}}\to GF$ and $\epsilon: FG\to \mathbb{1}_ {\mathcal{B}}$ of natural transformations satisfying the triangle identities.
