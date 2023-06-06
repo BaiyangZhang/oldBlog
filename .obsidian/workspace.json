@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
+                "file": "_posts/2023-05-28-Symmetry-groupoid.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,26 +25,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
+                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "10fbc32f6c0521c1",
+            "id": "a66c7061c353a341",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ac1b5560b5e7e25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-05-31-Analytic-Structure.md",
+                "file": "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5069465637207,
+    "width": 283.5,
     "collapsed": true
   },
   "right": {
@@ -180,43 +188,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f98b84d16890ca7f",
+  "active": "3ac1b5560b5e7e25",
   "lastOpenFiles": [
+    "_posts/2023-06-04-Basic-Category-Theory.md",
+    "_posts/2023-05-28-Symmetry-groupoid.md",
+    "_posts/2023-05-30-Note-on-Meson-Kink-Scattering.md",
     "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
     "Templates/date.md",
     "Templates/DateNote.md",
-    "_drafts/2023-mm-dd-Introduction-to-Resurgence-and-Transseries-Lecture-n.md",
-    "_posts/2023-05-28-Symmetry-groupoid.md",
-    "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
-    "2023-05-31-Analytic-Structure.md",
     "PDFs/BasicCategoryTheory.pdf",
     "PDFs",
-    "新建文件夹",
-    "_posts/2023-05-30-Note-on-Meson-Kink-Scattering.md",
-    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
-    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
-    "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
-    "_drafts/2023-3-22-Hilbert's-Action-Principle.md",
-    "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",
-    "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
-    "_drafts/2023-05-07-soliton-particle-duality.md",
-    "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
-    "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
+    "2023-05-31-Analytic-Structure.md",
+    "_drafts/2023-05-14-Topological-stacks.md",
     "_drafts/2023-05-28-Connections-in-a-Vector-Bundle.md",
     "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
-    "_drafts/2023-mm-dd-共和国史笔记.md",
-    "_drafts/2023-mm-dd-Basic-Algebraic-Geometry-n.md",
-    "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
-    "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
-    "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-mm-dd-Theodore-Frankel.md",
+    "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
+    "Templates/Date-Note-Title.md",
+    "_drafts/Untitled.md",
+    "_posts/2023-5-18-(Vector)-Fibre-Bundles.md",
     "img/chatgpt-cn.co.zip",
     "img/Unconfirmed 358518.crdownload",
     "img/sustainability-13-00351.pdf",
     "img/Unconfirmed 453773.crdownload",
+    "_drafts/2023-5-15-(Vector)-Fibre-Bundles.md",
     "img/jacobiEllipse.jpg",
     "img/jacobiEllipse.jpg.crdownload",
+    "_posts/2023-04-29-Weihai-Travel-Plan.md",
+    "_posts/2023-04-15-Note-on-Meson-Kink-Scattering.md",
+    "_posts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
+    "_posts/2023-04-03-De-Rhams Theorem.md",
+    "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
+    "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+    "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
+    "_posts/2023-04-24-Basic-Algebraic-Geometry-15.md",
+    "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
+    "_drafts/2023-3-22-Hilbert's-Action-Principle.md",
+    "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
     "img/3holes.png",
     "Untitled 1",
     "img/Weihai3.png",
