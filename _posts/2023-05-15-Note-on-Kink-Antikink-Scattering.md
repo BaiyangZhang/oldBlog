@@ -225,4 +225,11 @@ $$
 $$
 where the first $-1$ comes from the antikink $\phi_ {\overline{K}}(\infty)=-1$, second from the kink and third form $-1$ in Eq.(1). However $-3$ is not a vacuum configuration! The energy will start to accumulate in between the kink and the antikink until the kinetic energy of them a re exhausted hence they have no other choice then to term back and follow the way they came. Thus they will "scatter" off each other.
 
+A closer study of the case reveals that kink and antikink don't always scatter off each other. During the scatter, the energy will dissipate, so the speed after scatter will decrease, if the initial velocity is too low, below some critical velocity $v_ {\text{cr}}$, there will not be enough energy left for the kink and antikink to escape each other, after collision they will try to separate but can only separate by a finite distance, before they could fully reform into kink and antikink, the energy would be depleted and they would have no choice to return to each other and scatter again, forming an oscillation. This object is often referred to as a `bion` or sometimes `oscillon`.  In this note we will adopt the term bion, referring to the bound state of kink-antikink pair. In $3+1$ dimension, bions are also called quasi-breathers. 
+
+Note that bion is a quasi-long-lived state, which will eventually decay into trivial vacuum, but the time it takes is so long that we can safely treat it as a stable particle.
+
+For $v_ {\text{in}}>v_ {\text{cr}}$, where $v_ {\text{in}}$ is the incoming velocity, kink and antikink always bounce and escape to infinity. Below $v_ {\text{cr}}$ things are more interesting, there exists windows where the kink-antikink pair will scatter once, deposit some energy between them, the deposited energy form a vibrational mode, the kink-antikink pair come back to each other after a little while and bounce again, this time retrieves the deposit energy, and move away from each other to the infinity. The time of bounce needed before they eventually escape each other could be two, three, etc., the corresponding incoming velocity windows are called two-bounce escape windows, three-bounce escape windows, and so on. 
+
+### Collective Coordinate Approximation
 
