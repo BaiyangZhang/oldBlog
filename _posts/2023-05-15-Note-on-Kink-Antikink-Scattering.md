@@ -225,3 +225,4 @@ $$
 $$
 where the first $-1$ comes from the antikink $\phi_ {\overline{K}}(\infty)=-1$, second from the kink and third form $-1$ in Eq.(1). However $-3$ is not a vacuum configuration! The energy will start to accumulate in between the kink and the antikink until the kinetic energy of them a re exhausted hence they have no other choice then to term back and follow the way they came. Thus they will "scatter" off each other.
 
+
