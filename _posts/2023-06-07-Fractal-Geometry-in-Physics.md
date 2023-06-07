@@ -22,7 +22,7 @@ In the theory of phase transition we have two notions quite similar to it:
 
 Two examples of fractals are 
 1. Koch's curve, obtained from a segment of a straight line, by repeating a pattern that gives the line an angle, see the figure below. It is self-similar by construction, the length goes to infinity by a power law as $n\to \infty$.
-![KochCurve](KochCcurve.png)
+![KochCurve](/img/KochCcurve.png)
 
 2. Another example is the coastal line of England, whose length $L(\epsilon)$ depends on the length $\epsilon$ of the yardstick, assumed to have the power law form,
 $$

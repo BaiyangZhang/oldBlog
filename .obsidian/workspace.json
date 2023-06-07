@@ -30,8 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a1f404259c44af0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
+                "file": "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
+                "file": "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md"
+                "file": "_posts/2023-06-07-Fractal-Geometry-in-Physics.md"
               }
             }
           }
@@ -167,12 +180,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f98b84d16890ca7f",
+  "active": "a1f404259c44af0d",
   "lastOpenFiles": [
+    "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
     "img/KochCcurve.png",
     "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
     "_posts/2023-06-04-Basic-Category-Theory.md",
-    "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
     "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-05-30-Note-on-Meson-Kink-Scattering.md",
     "_posts/2023-05-28-Symmetry-groupoid.md",
