@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-05-28-Symmetry-groupoid.md",
+                "file": "_posts/2023-06-04-Basic-Category-Theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,29 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a66c7061c353a341",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "3ac1b5560b5e7e25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
+                "file": "_posts/2023-06-04-Basic-Category-Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
+                "file": "_posts/2023-06-04-Basic-Category-Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md"
+                "file": "_posts/2023-06-04-Basic-Category-Theory.md"
               }
             }
           }
@@ -188,11 +167,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ac1b5560b5e7e25",
+  "active": "093300c833f03835",
   "lastOpenFiles": [
-    "_posts/2023-06-04-Basic-Category-Theory.md",
-    "_posts/2023-05-28-Symmetry-groupoid.md",
+    "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
     "_posts/2023-05-30-Note-on-Meson-Kink-Scattering.md",
+    "_posts/2023-05-28-Symmetry-groupoid.md",
+    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+    "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
+    "_posts/2023-06-04-Basic-Category-Theory.md",
     "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
     "Templates/date.md",
     "Templates/DateNote.md",
@@ -201,8 +183,6 @@
     "2023-05-31-Analytic-Structure.md",
     "_drafts/2023-05-14-Topological-stacks.md",
     "_drafts/2023-05-28-Connections-in-a-Vector-Bundle.md",
-    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
-    "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
     "Templates/Date-Note-Title.md",
     "_drafts/Untitled.md",
     "_posts/2023-5-18-(Vector)-Fibre-Bundles.md",
@@ -223,7 +203,6 @@
     "_posts/2023-04-24-Basic-Algebraic-Geometry-15.md",
     "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
     "_drafts/2023-3-22-Hilbert's-Action-Principle.md",
-    "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
     "img/3holes.png",
     "Untitled 1",
     "img/Weihai3.png",
