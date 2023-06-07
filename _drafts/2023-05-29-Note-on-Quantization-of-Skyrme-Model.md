@@ -10,7 +10,7 @@ tags:								#标签
     - 
 ---
 
-# Static Properties of nucleons in the Skyrme Model
+# Static Properties of Nucleons in the Skyrme Model
 
 ## Introduction
 
