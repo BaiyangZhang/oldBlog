@@ -111,7 +111,7 @@ $$
 
 Slice categories are a special case of comma categories. Recall that functors $\mathbb{1}\to\mathcal{A}$ are just objects in $\mathcal{A}$. We fix the image of $F(1)=A$ where $1\in\mathbb{1}$ is the only object in category $\mathbb{1}$. The comma category constructed with $\mathbb{1}_ {\mathcal{A}}: \mathcal{A}\to\mathcal{A}$ and $F: \mathbb{1}\to\mathcal{A}$, denoted $\mathbb{1}_ {\mathcal{A}}\Rightarrow A$ or sometimes $\mathbb{1}_ {\mathcal{A}}\downarrow A$, is essentially the same as the slice category of $\mathcal{A}$ over $A$, 
 $$
-\mathcal{A} / A \cong (1_ {\mathbb{1}}\Rightarrow A).
+\mathcal{A} / A \cong (1_ {\mathcal{A}}\Rightarrow A).
 $$
 
 Even though the comma category is not itself a natural transformation, it does need to meet the requirements of naturality, in the sense that if there exist more than one way to construct arrows from one object to another, they should be essentially the same. Consider category $\mathbb{1}, \mathcal{A},\mathcal{B}$ and functors
