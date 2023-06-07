@@ -233,3 +233,16 @@ For $v_ {\text{in}}>v_ {\text{cr}}$, where $v_ {\text{in}}$ is the incoming velo
 
 ### Collective Coordinate Approximation
 
+Consider again the kink-antikink scatter. Work in the center of mass frame, the position and velocities are symmetric, we need only one parameter, namely the position of the kink as a function of time $t$, to uniquely fix the configuration. Use $a(t)$ to denote the position of the kink. Now the question is, can be write down a (low energy) effective theory in terms of $a(t)$ only? If we can, it would be the collective coordinate approximation (CCA) model.
+
+We can substitute the field configuration 
+$$
+\phi_ {K \overline{K}}=\tanh\left( \frac{x+a(t)}{\sqrt{ 2 }} \right) - \tanh\left( \frac{x-a(t)}{\sqrt{ 2 }} \right) - 1
+$$
+into the phi-fourth Lagrangian for $\phi(x,t)$ and obtain an effective Lagrangian in terms of $a(t)$ then *integrate over the space*. It should adopt the form 
+$$
+L_ {\text{CCA}} = L_ {\text{CCA}}(a,\dot{a}) = \frac{1}{2} m_ {a}\dot{a}^{2}-V(a)
+$$
+where $m_ {a}$ is the effective mass for the kink, it is *position-dependent* in general.
+
+

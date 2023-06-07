@@ -89,3 +89,42 @@ are the same.
 **Theorem.** Take categories and functors $F: \mathcal{A}\to \mathcal{B}$ and $G: \mathcal{B}\to \mathcal{A}$, there is a one-to-one correspondence between
 1. adjunctions between $F$ and $G$, denoted $F\dashv G$ and 
 2. pairs $\eta: \mathbb{1}_ {\mathcal{A}}\to GF$ and $\epsilon: FG\to \mathbb{1}_ {\mathcal{B}}$ of natural transformations satisfying the triangle identities.
+
+### Adjunctions via initial objects
+
+**Comma category.** Define three categories and two functors
+$$
+\mathcal{A} \xrightarrow{P} \mathcal{C} \text{ and } \mathcal{B}\xrightarrow{Q}\mathcal{C}
+$$
+the `comma category`, denoted $P\Rightarrow Q$ or $P\downarrow Q$ is the category defined as follows:
+- objects are triples $(A,h,B)$ with $A\in\mathcal{A},B\in\mathcal{B},h: P(A)\to Q(B)$ in $\mathcal{C}$,
+- maps $(A,h,B)\to(A',h',B')$ are pairs $(f: A\to A',g: B\to B')$ such that in category $\mathcal{C}$, the two ways from $P(A)\to Q(B')$ give the same results.
+
+Note that although there is a double arrow in $P\Rightarrow Q$, the comma category is *not* a natural transformation between functors $P$ and $Q$ since $P,Q$ has different codomains.
+
+Comma category is a category constructed from three categories and two functors, with appropriate naturality conditions.
+
+**Slice category.** Let $A\in\mathcal{A}$, the slice category of $\mathcal{A}$ over $A$, denoted by $\mathcal{A} / A$, is the category whose objects are maps into $A$, i.e. the things "seen from $A$", and the maps are commutative triangles. More precisely, the objects are pairs $(X,h)$ where $X\in\mathcal{A}$ and $h: X\to A$, and a map $(X,h)\to(X',h')$ in $\mathcal{A} / A$ is a map 
+$$
+f: X\to X'\text{ such that }X\xrightarrow{f}X' \xrightarrow{h'}A \text{ is the same as } X\xrightarrow{h}A.
+$$
+
+Slice categories are a special case of comma categories. Recall that functors $\mathbb{1}\to\mathcal{A}$ are just objects in $\mathcal{A}$. We fix the image of $F(1)=A$ where $1\in\mathbb{1}$ is the only object in category $\mathbb{1}$. The comma category constructed with $\mathbb{1}_ {\mathcal{A}}: \mathcal{A}\to\mathcal{A}$ and $F: \mathbb{1}\to\mathcal{A}$, denoted $\mathbb{1}_ {\mathcal{A}}\Rightarrow A$ or sometimes $\mathbb{1}_ {\mathcal{A}}\downarrow A$, is essentially the same as the slice category of $\mathcal{A}$ over $A$, 
+$$
+\mathcal{A} / A \cong (1_ {\mathcal{A}}\Rightarrow A).
+$$
+
+Even though the comma category is not itself a natural transformation, it does need to meet the requirements of naturality, in the sense that if there exist more than one way to construct arrows from one object to another, they should be essentially the same. Consider category $\mathbb{1}, \mathcal{A},\mathcal{B}$ and functors
+$$
+A: \mathbb{1}\to\mathcal{A},\quad G: \mathcal{B}\to\mathcal{A}
+$$
+and the comma category
+$$
+A\Rightarrow G \text{ with objects } (h,B) \text{ where }B\in \mathcal{B},\;h: A\to G(B).
+$$
+A map in $A\Rightarrow G$ is a map $(h,B)\to(h',B')$ is also a map $q: B\to B'$ in $\mathcal{B}$ making the triangle
+$$
+f': A\to G(B') \text{ and } A\xrightarrow{f} G(B)\xrightarrow{G(q)}G(B')
+$$
+commute.
+
