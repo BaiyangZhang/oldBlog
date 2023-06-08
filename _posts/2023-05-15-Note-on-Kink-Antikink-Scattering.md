@@ -243,6 +243,6 @@ into the phi-fourth Lagrangian for $\phi(x,t)$ and obtain an effective Lagrangia
 $$
 L_ {\text{CCA}} = L_ {\text{CCA}}(a,\dot{a}) = \frac{1}{2} m_ {a}\dot{a}^{2}-V(a)
 $$
-where $m_ {a}$ is the effective mass for the kink, it is *position-dependent* in general.
+where $m_ {a}$ is the effective mass for the kink, it is *position-dependent* in general. 
 
-
+At large separation, we find that the mass parameter $m(a)$ and the effective potential $V(a)$ both approach $2M_ {K}$, the mass of two isolated static kinks.
