@@ -55,6 +55,12 @@ Clearly something is off here.
 
 - - -
 
+There exists various different definitions of dimension of a fractal, and applied on the same set they give different results. However, when applied on a perfectly self-similar fractal, such as the Koch's curve, they should all give the same result.
+
+The fractal dimension is used to quantify this roughness and complexity. The higher the dimension, the higher the roughness, the higher the complexity. 
+
+- - -
+
 ### Brownian motion
 
 It seems that, in Brownian motion, the momentum change of a molecule at a collision depends only upon the last collision. It is a Gaussian stochastic process. 
