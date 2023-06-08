@@ -128,3 +128,7 @@ f': A\to G(B') \text{ and } A\xrightarrow{f} G(B)\xrightarrow{G(q)}G(B')
 $$
 commute.
 
+This is just like the triangle identity we met before, when talking about units and counits! It's a hint that we can think of adjointion in terms of comma category and slice category.
+
+Dually, there exists `coslice category` denoted by $A / \mathcal{A}$, whose objects are the arrows out of $A$, or the views that $A$ has about other "guys" in the category.
+

@@ -39,14 +39,19 @@ $$
 
 - - -
 
-How should we think of the dimension of a fractal? Consider some regular geometric object, such as a regular two dimensional square $\square$. If we double the size of it, its area is multiplied by $2^{d}$ where $d$ is the dimension. In general, if the size of an object is multiplied by a factor $\lambda$, its ares, or length, or whatever quantity that measures the "content" of the object, should be multiplied by a factor $\lambda^{d}$, where $d$ can be regarded as (one of the many) definitions of dimension.
+How should we think of the dimension of a fractal? Consider some regular geometric object, such as a regular two dimensional square $\square$. If we double the size of it, its area is multiplied by $2^{d}$ where $d$ is the dimension. In general, if the size of an object is multiplied by a factor $\lambda$, its area, or length, or whatever quantity that measures the "content" of the object, should be multiplied by a factor $\lambda^{d}$, where $d$ can be regarded as (one of the many) definitions of dimension.
 
 Let's try to apply this definition to Koch's curve. It is self-similar, if we shrink it by a factor of $3$, then it reduces to one of its four "components". This component should have length that is one quarter of the original one. In other words, if we multiply Koch's curve by factor $\lambda=\frac{1}{3}$, then the length should be multiplied by $\frac{1}{4}$, the before-mentioned definition of dimension should give
 $$
 \text{new length}=\text{new size}^{d}\implies \frac{1}{4}=\left( \frac{1}{3} \right)^{d}\implies d\sim 1.26.
 $$
 
-It is very closed to the fractal dimension of the coastal line of England, is it a coincidence? Plus, I don't see the connection between above definition of dimension and the dimension given for the coastal line of England.
+It is very closed to the fractal dimension of the coastal line of England, is it a coincidence? Plus, I don't see the connection between above definition of dimension and the dimension given for the coastal line of England. In the case of Koch's curve, if we assume that each iteration requires a finer ruler to measure the total length, since a rule must be able to see all the zig-zags. We can set the needed ruler's length to be the length of the shortest line segment in the Koch's curve. Then the ruler's length decrease to $\epsilon=\frac{1}{3^{n}}L_ {0}$ in the n-th iteration, where $L_ {0}$ is the original length. Then the total length of the curve approaches infinity not according to the power law, but rather
+$$
+L(\epsilon) \sim \left( \frac{4}{3} \right)^{-\ln\epsilon},\quad  \epsilon\to 0.
+$$
+
+Clearly something is off here.
 
 - - -
 
