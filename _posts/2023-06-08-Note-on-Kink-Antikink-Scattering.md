@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:      Note on Kink-anitkink Scattering		# 标题 
 subtitle:   Part 2
-date:       2023-05-15 				# 时间
+date:       2023-06-08 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background9.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -245,4 +245,42 @@ L_ {\text{CCA}} = L_ {\text{CCA}}(a,\dot{a}) = \frac{1}{2} m_ {a}\dot{a}^{2}-V(a
 $$
 where $m_ {a}$ is the effective mass for the kink, it is *position-dependent* in general. 
 
-At large separation, we find that the mass parameter $m(a)$ and the effective potential $V(a)$ both approach $2M_ {K}$, the mass of two isolated static kinks.
+At large separation, we find that the mass parameter $m(a)$ and the effective potential $V(a)$ both approach $2M_ {K}$, the mass of two isolated static kinks. To be specific, we have 
+$$
+m(a)=I_ {+}(a),\quad  V(a) = \frac{1}{2} I_ {-}(a) +\frac{1}{4} \int_{-\infty}^{\infty} dx \, (1-\phi^{2}_ {K \overline{K}})^{2}
+$$
+where 
+$$
+I_ {\pm }= 2M_ {K} \pm \int_{-\infty}^{\infty} dx \, \frac{1}{\cosh ^{2}((x+a) / \sqrt{ 2 })\cosh ^{2}((x-a) / \sqrt{ 2 })} ,
+$$
+where the integral goes to zero exponentially as $a$ increases.
+
+The effective potential can more or less account for the free bounce and formation of a bion, but can not explain the escape window, or the relativistic effects that might happen when the speed of kinks are high.
+
+
+### Gluing static solutions
+
+Another way to construct the bion configuration is by gluing together three piece, 1) the left half of the kink solution, 2) half a elliptic sine function and 3) the right half of the antikink. Then the numerical methods can be used to evolve the state. However, to start the numerical evolvement, we also need to know the field configuration at the next-to-start time-slice, we can fix it by hand, by shrink the elliptic sine function a little bit, let $\phi_ {0}$ decrease a little bit. 
+
+### Kink-impurity interactions
+
+Roughly speaking we have two ways to study the evolution of kinks-antikink states,
+1. Take the superposition of two static solutions, i.e. the kink solution and the antikink solution. It is not strictly speaking the solution of the equation of motion, thus the equation of motion will evolve it in a non-trivial way.
+2. Instead, we can start with some exact solution of the equation of motion, but then use a slightly different equation of motion to evolve it. This is the situation encountered in the description of kink interacting with impurities.
+
+The impurities could appear for a couple of reasons. For example, the phi fourth theory is usually the low energy effective theory of some other theory defined at UV, and this "UV completion" of our phi fourth theory might have some impurities, or defects, which can then get passed on to the phi-fourth theory. This impurity could be some defect embedded in the crystal structure, for example. To describe such process, we can modify the phi-fourth potential by 
+$$
+\frac{1}{4}(\phi^{2}-1)^{2}\to \frac{1}{4} (\phi^{2}-1)^{2}(1-\epsilon \delta(x-x_ {0})).
+$$
+
+When $\epsilon>0$ the defect acts like a potential barrier, if $\epsilon<0$ a well. 
+
+With this modified potential we can then talk about its equation of motion. In numerical calculation we can approximate the delta function either by a Kronecker delta function, or a Gaussian shape high and narrow. 
+
+To be more specific, consider a static kink solution starting from $a=6$, moving towards am impurity located at $x_ {0}=0$, with fixed impurity strength $\left\lvert \epsilon \right\rvert=0.5$. The figure below shows the phase diagram.
+![](/img/phase.png)
+
+The right panel shows a attractive impurity. If the incoming velocity of the kink is large enough, it will just pass through the impurity and deposit some vibrational energy at the impurity, as shown by the read line. If the velocity is too low then it will be trapped by the attractive impurity, starts to oscillate about the impurity, shown by the blue line. If the velocity is in the resonance window, the kink will bounce back resonantly, shown by the green line.
+
+On the left panel a repulsive impurity $\epsilon=-0.5$ is shown, for low velocity the kink will bounce back, as shown by the blue line; for high velocity the kink can overcome the impurity barrier and keep propagating, as shown by the red line.
+
