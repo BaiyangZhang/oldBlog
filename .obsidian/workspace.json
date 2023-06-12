@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0be7c7c3ba54097c",
+        "id": "fda6b35c74ed54cd",
         "type": "tabs",
         "children": [
           {
-            "id": "f98b84d16890ca7f",
+            "id": "a3ae9eb1e094fb13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1f404259c44af0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
+                "file": "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
+                "file": "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
+                "file": "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-07-Fractal-Geometry-in-Physics.md"
+                "file": "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md"
               }
             }
           }
@@ -168,10 +155,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1f404259c44af0d",
+  "active": "a3ae9eb1e094fb13",
   "lastOpenFiles": [
-    "_posts/2023-06-04-Basic-Category-Theory.md",
     "_drafts/2023-05-28-Connections-in-a-Vector-Bundle.md",
+    "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
+    "_posts/2023-06-04-Basic-Category-Theory.md",
+    "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md",
     "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
     "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
     "_drafts/2023-05-07-soliton-particle-duality.md",
@@ -185,7 +174,6 @@
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
     "_posts/2023-06-08-Note-on-Kink-Antikink-Scattering.md",
-    "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
     "img/phase.png",
     "Pasted image 20230608164632.png.md",
     "Pasted image 20230608164804.png",
@@ -201,7 +189,6 @@
     "PDFs",
     "2023-05-31-Analytic-Structure.md",
     "_drafts/2023-05-14-Topological-stacks.md",
-    "Templates/Date-Note-Title.md",
     "img/chatgpt-cn.co.zip",
     "img/Unconfirmed 358518.crdownload",
     "img/sustainability-13-00351.pdf",
