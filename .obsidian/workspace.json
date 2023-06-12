@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
+                "file": "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
+                "file": "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
+                "file": "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-07-Fractal-Geometry-in-Physics.md"
+                "file": "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md"
               }
             }
           }
@@ -192,17 +192,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1eed8d670ffc0ca5",
+  "active": "3ac1b5560b5e7e25",
   "lastOpenFiles": [
-    "_posts/2023-05-28-Symmetry-groupoid.md",
-    "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
-    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
-    "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
-    "img/KochCcurve.png",
-    "img/KochCcurve.png.crdownload",
-    "_posts/2023-06-04-Basic-Category-Theory.md",
     "_posts/2023-05-30-Note-on-Meson-Kink-Scattering.md",
     "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
+    "_posts/2023-06-15-Note-on-Meson-Kink-Scattering.md",
+    "_posts/2023-06-04-Basic-Category-Theory.md",
+    "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
+    "_posts/2023-04-29-Weihai-Travel-Plan.md",
+    "_posts/2023-04-25-Wigner-Weyl-Calculus.md",
+    "_posts/2023-04-20-Harmonic-Forms.md",
+    "_posts/2023-3-22-Heuristics-of-Einstein's-Theory.md",
+    "_posts/2023-04-03-De-Rhams Theorem.md",
+    "_posts/2023-3-21-Montesquieu.md",
+    "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
+    "_posts/2023-05-28-Symmetry-groupoid.md",
+    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+    "img/KochCcurve.png",
+    "img/KochCcurve.png.crdownload",
     "Templates/date.md",
     "Templates/DateNote.md",
     "PDFs/BasicCategoryTheory.pdf",
@@ -220,15 +227,9 @@
     "_drafts/2023-5-15-(Vector)-Fibre-Bundles.md",
     "img/jacobiEllipse.jpg",
     "img/jacobiEllipse.jpg.crdownload",
-    "_posts/2023-04-29-Weihai-Travel-Plan.md",
     "_posts/2023-04-15-Note-on-Meson-Kink-Scattering.md",
     "_posts/2023-04-02-Introduction-to-Resurgence-and-Transseries-Lecture-3.md",
-    "_posts/2023-04-03-De-Rhams Theorem.md",
     "_posts/2023-04-04-Confinement-in-Toy-Models-Lecture-2.md",
-    "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
-    "_posts/2023-04-11-Confinement-in-Toy-Models-Lecture-3.md",
-    "_posts/2023-04-24-Basic-Algebraic-Geometry-15.md",
-    "_drafts/2023-3-6-Basic-Algebraic-Geometry-Class-15.md",
     "img/3holes.png",
     "Untitled 1",
     "img/Weihai3.png",
