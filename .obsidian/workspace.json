@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md",
+                "file": "_drafts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md",
+                "file": "_drafts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md",
+                "file": "_drafts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md"
+                "file": "_drafts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md"
               }
             }
           }
@@ -157,12 +157,15 @@
   },
   "active": "a3ae9eb1e094fb13",
   "lastOpenFiles": [
+    "Untitled.md",
+    "_drafts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
+    "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
+    "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md",
     "_posts/2023-06-15-Note-on-Meson-Kink-Scattering.md",
     "2023-06-12-Transseries.md",
     "_drafts/2023-05-28-Connections-in-a-Vector-Bundle.md",
     "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
     "_posts/2023-06-04-Basic-Category-Theory.md",
-    "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md",
     "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
     "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
     "_drafts/2023-05-07-soliton-particle-duality.md",
@@ -184,9 +187,6 @@
     "img/KochCcurve.png",
     "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-05-30-Note-on-Meson-Kink-Scattering.md",
-    "_posts/2023-05-28-Symmetry-groupoid.md",
-    "Templates/date.md",
-    "Templates/DateNote.md",
     "PDFs/BasicCategoryTheory.pdf",
     "PDFs",
     "img/chatgpt-cn.co.zip",
