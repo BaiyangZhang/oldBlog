@@ -128,3 +128,25 @@ f': A\to G(B') \text{ and } A\xrightarrow{f} G(B)\xrightarrow{G(q)}G(B')
 $$
 commute.
 
+This is just like the triangle identity we met before, when talking about units and counits! It's a hint that we can think of adjointion in terms of comma category and slice category.
+
+Dually, there exists `coslice category` denoted by $A / \mathcal{A}$, whose objects are the arrows out of $A$, or the views that $A$ has about other "guys" in the category.
+
+Historically the comma cagetory got its name from the notation firstly used by the mathematician (I forgot his name, but I remember this happened roughly in year 1963), which involves using comma as an operator. 
+
+The relation between comma category and adjunction is given by the below lemma.
+
+**Lemma.** Let $F: \mathcal{A}\to\mathcal{B}$ and $G: \mathcal{B}\to\mathcal{A}$ and $F\dashv G$, let $A\in\mathcal{A}$, then the unit map 
+$$
+\eta_ {A}: A \to GF(A) 
+$$
+is an initial object of $(A\Rightarrow G)$.
+
+Let $(f,B), B\in\mathcal{B}$ be an object of $A\Rightarrow G$, we need to show that there is an unique map from $(\eta, F(A))$ to $(f,B)$. Such a map is nothing but a map $q: F(A)\to B$ in $\mathcal{B}$ such that the two paths $A\to G(B)$ commutes.
+
+We now meet our third and final formulation of adjointness. The above adjunction between $F$ and $G$, namely $F \dashv G$, is equivalent to the following statement. There exists natural transformation 
+$$
+\eta_ {A}: \mathbb{1}_ {\mathcal{A}}\to GF
+$$
+such that it is an initial object in the comma category $(A\Rightarrow G)$ for every $A\in\mathcal{A}$. 
+
