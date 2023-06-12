@@ -12,3 +12,5 @@ tags:								#标签
     - Notes
 ---
 
+For conventions used in this note, see my blog [here](http://www.mathlimbo.net/2022/07/17/Conventions-and-Formula/). I understand that my choice of the metric, the mostly negative one, will intrigue some strong emotional reaction among certain groups of physicist, but I will keep using it anyway.
+
