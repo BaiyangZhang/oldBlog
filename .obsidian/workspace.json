@@ -54,9 +54,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "980d22c96c2ab465",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "45b1dbaa74f56c77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-06-12-Transseries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -131,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "2023-06-12-Transseries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "2023-06-12-Transseries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md"
+                "file": "2023-06-12-Transseries.md"
               }
             }
           }
@@ -192,8 +212,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ac1b5560b5e7e25",
+  "active": "45b1dbaa74f56c77",
   "lastOpenFiles": [
+    "2023-06-12-Transseries.md",
+    "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
     "phasediagram.png.md",
     "img/phase.png",
     "_posts/2023-06-08-Note-on-Kink-Antikink-Scattering.md",
@@ -229,10 +251,8 @@
     "img/Unconfirmed 358518.crdownload",
     "img/sustainability-13-00351.pdf",
     "img/Unconfirmed 453773.crdownload",
-    "_drafts/2023-5-15-(Vector)-Fibre-Bundles.md",
     "img/jacobiEllipse.jpg",
     "img/jacobiEllipse.jpg.crdownload",
-    "_posts/2023-04-15-Note-on-Meson-Kink-Scattering.md",
     "img/3holes.png",
     "Untitled 1",
     "img/Weihai3.png",
