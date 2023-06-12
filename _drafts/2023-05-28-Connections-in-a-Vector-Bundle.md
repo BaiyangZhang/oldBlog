@@ -14,3 +14,19 @@ tags:								#标签
 
 *Disclaimer: Nothing in this note is original.*
 
+Let $E\xrightarrow{\pi}M$ be a vector bundle of rank $K$. A section $\sigma$ of $E$ assigns to each trivializing patch $U\subset M$ components $\sigma_ {U}$ such that 
+$$
+\sigma_ {V} = c_ {VU} \sigma_ {U}.
+$$
+
+A `vector-valued p-form` associated to each p-tuple of vectors another vector, similarly, an` $E$-valued p-form` associated to each p-tuple of vectors (all defined with respect to $x\in M$) an element of the bundle $\pi^{-1}(x)\subset E$. I guess you can also call it $F$-valued p-form, where $F$ is the fiber.
+
+Component-wise, for a rank $K$ vector bundle, a section is a $K$-dimensional vector and an $E$-valued p-form is a tuple of $K$ p-forms, each element of the tuple takes $p$ vectors and spits out a component of the $K$-dimensional vector. For example, let $\alpha \in\Omega^{p}(M)$ and $\sigma$ a section of $E$, then 
+$$
+\psi:= \alpha \otimes \sigma
+$$
+is a p-form sector of $E$.
+
+- - -
+
+A `connection` $\nabla$ of $E$ is an operator taking sections $\sigma$ of $E$ into $E$-valued 1-forms $\nabla \sigma$ such that the Leibniz rule holds. It is a 1-form since $\nabla$ still needs to take a parameter vector $X$ to form our familiar covariant derivative $\nabla_ {X}: \sigma\to E$.

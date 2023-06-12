@@ -51,13 +51,15 @@ $$
 L(\epsilon) \sim \left( \frac{4}{3} \right)^{-\ln\epsilon},\quad  \epsilon\to 0.
 $$
 
-Clearly something is off here.
+Clearly something is off here。
 
 - - -
 
 There exists various different definitions of dimension of a fractal, and applied on the same set they give different results. However, when applied on a perfectly self-similar fractal, such as the Koch's curve, they should all give the same result.
 
-The fractal dimension is used to quantify this roughness and complexity. The higher the dimension, the higher the roughness, the higher the complexity. 
+The fractal dimension is used to quantify this roughness and complexity. The higher the dimension, the higher the roughness, the higher the complexity. The fractional dimension *not only suggests that the fractal is curved*, it tells something drastically different, take the coastal line for example, it tells us the behavior of the total coastal length as the yardstick we use to measure it goes to zero.
+
+The earliest known measure of roughness of an object is the Hausdorff dimension (also known as Hausdorff-Besicovitch dimension) introduced by Felix Hausdorff in 1918, even before fractal geometry was a thing. 
 
 - - -
 
