@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Connections in a Vector Bundle			# 标题 
 subtitle:   
-date:       2023-06-12 				# 时间
+date:       2023-06-13 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background19.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -55,5 +55,56 @@ $$
 } 
 $$
 
+Furthermore since $\nabla \psi$ are themselves $E$-valued, we require them to be `covariant`, namely
+$$
+\psi_ {V}=c_ {VU}\psi_ {U}\implies (\nabla \psi){\Large\mid}_ {V} = c_ {VU}(\nabla \psi){\Large\mid}_ {U} .  
+$$
+Recall that $c_ {VU}$ is a matrix in the Lie-algebra space,
+$$
+c_ {VU} = (c_ {VU})^{\alpha}_ {\;\;\beta}
+$$
+and we have 
+$$
+\omega_ {V} = c_ {VU} (\omega_ {U}+d) c_ {VU}^{-1},
+$$
+which looks just like the gauge transformation of the gauge field. 
 
+Note that our convention is 
+$$
+e_ {V} = e_ {U} c_ {UV}.
+$$
+
+The `covariant derivative` is defined from the connection with a vector $X\in TM$. 
+$$
+\text{covariant derivative}:= \nabla_ {X} \psi = \nabla \psi(X) = e[X(\psi)+\omega(X)\psi]
+$$
+where 
+$$
+\omega(X) = (\omega^{\alpha}_ {\;\; \beta})_ {i}dx^{i}(X) = \omega^{\alpha}_ {\;\; \beta i} X^{i}.
+$$
+Then, the component form reads
+$$
+\nabla_ {X}(\psi)^{\alpha} = X^{i}\partial _ {i}\psi^{\alpha} + X^{i} \omega^{\alpha}_ {\;\; \beta i}\psi^{\beta}.
+$$
+
+We let $\nabla$ sends a $E$-valued $p$-form to $E$-valued $(p+1)$-form, called the `exterior covariant differential`. Let $\alpha$ be a $p$-form, then
+$$
+\nabla (\psi \otimes \omega) := (\nabla \psi)\wedge  \omega + \psi \otimes  d\omega
+$$
+namely $\nabla$ acts on the fiber and the form by the Leibniz law. 
+
+Curvature is introduced as 
+$$
+\nabla^{2}(e) = \nabla(e\otimes \omega) = e\otimes  \theta
+$$
+where 
+$$
+\theta = d \omega + \omega \wedge \omega=:d\omega+\omega^{2}
+$$
+and is connected with the Riemann curvature by 
+$$
+\theta^{\alpha}_ {\;\;\beta} = \frac{1}{2} R^{\alpha}_ {\;\beta ij} dx^{i}\wedge dx^{j}.
+$$
+
+There is no notion of torsion in a connection for a general vector bundle.
 
