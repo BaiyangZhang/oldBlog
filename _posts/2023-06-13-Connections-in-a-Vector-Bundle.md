@@ -93,6 +93,23 @@ $$
 $$
 namely $\nabla$ acts on the fiber and the form by the Leibniz law. 
 
+It is a good exercise to see how $\nabla$ acts on $\nabla \psi$ which is a 1-form. we have 
+$$
+\nabla \psi = \nabla(e_ {\alpha}\psi^{\alpha} ) = (\nabla e_ {\alpha}) \otimes \psi^{\alpha} + e_ {\alpha}\otimes (d\psi^{\alpha}) = e_ {\beta}\omega^{\beta}_ {\;\; \alpha}\otimes \psi^{\alpha} + e_ {\beta}\otimes d\psi^{\beta}
+$$
+where $\omega$ is a 1-form, so $\nabla \psi$ is indeed a one form. Acting $\nabla$ on it again we have 
+$$
+\nabla^{2}\psi = \nabla[e\omega \otimes \psi+e\otimes d\psi]
+$$
+where we have neglected all the indices, 
+$$
+= [(\nabla e)\omega+e d\omega]\otimes \psi + e\otimes d^{2}\psi
+$$
+since $d^{2} = 0$ we have 
+$$
+= e\omega \wedge \omega \otimes \psi + ed\omega \otimes \psi = e(d\omega+\omega \wedge \omega) \psi.
+$$
+
 Curvature is introduced as 
 $$
 \nabla^{2}(e) = \nabla(e\otimes \omega) = e\otimes  \theta

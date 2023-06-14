@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "534dbf705be9ae73",
+        "id": "006588be95daaf33",
         "type": "tabs",
         "children": [
           {
-            "id": "8ecf6490d3ca8b73",
+            "id": "6010f8851974c2fe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-06-14-Complex-Vector-Space.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "82d45843e238d53b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-06-13-Connections-in-a-Vector-Bundle.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2023-06-13-Connections-in-a-Vector-Bundle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2023-06-13-Connections-in-a-Vector-Bundle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +146,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2023-06-13-Connections-in-a-Vector-Bundle.md"
+              }
             }
           }
         ]
@@ -147,8 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ecf6490d3ca8b73",
+  "active": "82d45843e238d53b",
   "lastOpenFiles": [
+    "_drafts/2023-06-14-Complex-Vector-Space.md",
+    "_drafts/2023-mm-dd-Theodore-Frankel.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
     "_posts/2023-06-13-Connections-in-a-Vector-Bundle.md",
     "_drafts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
     "Untitled.md",
@@ -168,17 +193,13 @@
     "_drafts/调档函.md",
     "_drafts/君主论书摘.md",
     "_drafts/2023-mm-dd-共和国史笔记.md",
-    "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
     "_posts/2023-06-08-Note-on-Kink-Antikink-Scattering.md",
     "img/phase.png",
     "Pasted image 20230608164632.png.md",
     "Pasted image 20230608164804.png",
-    "phasediagram.png.md",
     "Pasted image 20230608164632.png",
     "img/KochCcurve.png",
-    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
-    "_posts/2023-05-30-Note-on-Meson-Kink-Scattering.md",
     "PDFs/BasicCategoryTheory.pdf",
     "PDFs",
     "img/chatgpt-cn.co.zip",
