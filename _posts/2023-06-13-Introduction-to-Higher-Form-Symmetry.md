@@ -71,7 +71,7 @@ whose support is $C$, meaning the electric field is zero at any place but $C$. F
 
 We have talked about test particles with charge, they are electric probes. Then what about magnetic probe? We run into problems immediately, since we don't know what is the operator that inserts a magnetic monopole in the spacetime. For electric probe, a charged particle is inserted by the source term $j^{\mu}$, there is no magnetic counterpart of it. It turns out there is still a way to do it, and the operator that is responsible for the insertion of a magnetic field is called a `'t Hooft line`. 
 
-Take the simplest gauge group, $U(1)$ for example. We know the magnetic monopole solution, although they are singular at the origin, but it doesn't matter for our discussion. Suppose that a monopole of magnetic charge $m$ traces out a worldline $C$ in our Minkowski spacetime. For any $\mathbb{S}^{2}$ that surrounds $C$ in space (*not 4D spacetime but 3D space*), we have
+Take the simplest gauge group, $U(1)$ for example. We know the magnetic monopole solution, although they are singular at the origin, but it doesn't matter for our discussion. Suppose that a monopole of magnetic charge $m$ traces out a world line $C$ in our Minkowski spacetime. For any $\mathbb{S}^{2}$ that surrounds $C$ in space (*not 4D spacetime but 3D space*), we have
 $$
 \int _ {\mathbb{S}^{2}} \, B\cdot dS =m.\tag{1}
 $$
@@ -81,3 +81,10 @@ The logic is really simple, since we can't simply find the operator that sources
 
 Next we go to Yang-Mills theory with gauge group $G$, whose Lie algebra is denoted ${\frak g}$. Recall that ${\frak g}$ include a set of $r$ mutually commute vectors (or `generators`, anyway if the group is regarded as a manifold then the generators are nothing but vectors at the identity, for more detail refer to Theodore Frankel's textbook), where $r$ is the `rank` of the Lie group. 
 
+Let ${\frak h}\subset {\frak g}$  be the Cartan subalgebra of ${\frak g}$. Recall that ${\frak h}$ is just the maximal set of $r$ (=rank) mutually commuting generators, or if you prefer the geometric interpretation, substitute *generator* with *vector* and *commuting* with *vanishing Lie bracket*. ${\frak h}$ can be regarded as a vector of $r$ components. 
+
+let $C$ be a timelike (since nothing moves faster than light) curve sitting at the origin. We will require the magnetic field $B^{i}, i=1,2,3$ to take the form 
+$$
+B^{i} \to \frac{\hat{r}^{i}}{4\pi r^{2}} {\frak q}(x), \quad  r\to \infty,
+$$
+where ${\frak q}(x)$ is some ${\frak g}$-valued things that specifies the magnetic charge of the monopole, we will say more about it later. Just to remind you, the magnetic field $B^{i}$ is just an component of the field strength $F_ {\mu \nu} = F_ {\mu \nu}^{a} T^{a}$, hence is ${\frak g}$-valued. 

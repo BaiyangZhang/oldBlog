@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "093300c833f03835",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-05-28-Symmetry-groupoid.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f98b84d16890ca7f",
             "type": "leaf",
             "state": {
@@ -37,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-06-12-Transseries.md",
+                "file": "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md"
+                "file": "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md"
               }
             }
           }
@@ -180,14 +168,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f98b84d16890ca7f",
+  "active": "45b1dbaa74f56c77",
   "lastOpenFiles": [
-    "_drafts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
+    "2023-06-12-Transseries.md",
+    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+    "_posts/2023-05-28-Symmetry-groupoid.md",
+    "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md",
     "Untitled.md",
     "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
-    "2023-06-12-Transseries.md",
     "phasediagram.png.md",
     "img/phase.png",
     "_posts/2023-06-08-Note-on-Kink-Antikink-Scattering.md",
@@ -204,8 +194,6 @@
     "_posts/2023-04-03-De-Rhams Theorem.md",
     "_posts/2023-3-21-Montesquieu.md",
     "_posts/2023-05-15-Note-on-Kink-Antikink-Scattering.md",
-    "_posts/2023-05-28-Symmetry-groupoid.md",
-    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
     "img/KochCcurve.png",
     "img/KochCcurve.png.crdownload",
     "Templates/date.md",
