@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "a98c8bc3ee288ed6",
+            "id": "45b1dbaa74f56c77",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md"
+                "file": "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md"
               }
             }
           }
@@ -167,39 +168,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f98b84d16890ca7f",
+  "active": "45b1dbaa74f56c77",
   "lastOpenFiles": [
-    "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
-    "img/lib8.jpg.crdownload",
-    "img/lib2.jpg.crdownload",
-    "img/lib16.jpg.crdownload",
-    "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "phasediagram.png.md",
-    "Pasted image 20230608164804.png",
-    "Pasted image 20230608164632.png",
     "_drafts/2023-06-12-Transseries.md",
     "_drafts/2023-05-31-Analytic-Structure.md",
-    "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
-    "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
-    "_drafts/2023-3-22-Hilbert's-Action-Principle.md",
-    "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",
-    "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
-    "_drafts/2023-05-07-soliton-particle-duality.md",
-    "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
-    "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
-    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
-    "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
-    "_drafts/2023-06-14-Complex-Vector-Space.md",
     "_posts/2023-06-13-Connections-in-a-Vector-Bundle.md",
+    "_drafts/2023-06-14-Complex-Vector-Space.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "2023-06-12-Transseries.md",
+    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-05-28-Symmetry-groupoid.md",
+    "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md",
+    "Untitled.md",
     "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
+    "phasediagram.png.md",
     "img/phase.png",
+    "_posts/2023-06-08-Note-on-Kink-Antikink-Scattering.md",
+    "Pasted image 20230608164804.png",
+    "Pasted image 20230608164632.png",
+    "_posts/2023-06-15-Note-on-Meson-Kink-Scattering.md",
+    "_posts/2023-05-30-Note-on-Meson-Kink-Scattering.md",
+    "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
+    "_posts/2023-06-04-Basic-Category-Theory.md",
+    "_posts/2023-04-29-Weihai-Travel-Plan.md",
+    "_posts/2023-04-25-Wigner-Weyl-Calculus.md",
+    "_posts/2023-04-20-Harmonic-Forms.md",
+    "_posts/2023-3-22-Heuristics-of-Einstein's-Theory.md",
+    "_posts/2023-04-03-De-Rhams Theorem.md",
+    "_posts/2023-3-21-Montesquieu.md",
     "img/KochCcurve.png",
     "img/KochCcurve.png.crdownload",
     "PDFs/BasicCategoryTheory.pdf",
@@ -209,7 +208,9 @@
     "img/sustainability-13-00351.pdf",
     "img/Unconfirmed 453773.crdownload",
     "img/jacobiEllipse.jpg",
+    "img/jacobiEllipse.jpg.crdownload",
     "img/3holes.png",
+    "Untitled 1",
     "img/Weihai3.png",
     "img/Weihai2.png",
     "img/Weihai1.png",
