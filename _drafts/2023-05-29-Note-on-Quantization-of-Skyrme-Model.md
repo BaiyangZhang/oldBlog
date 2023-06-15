@@ -28,4 +28,7 @@ $$
 $$
 Usually the 't Hooft expansion is defined to be the limit $N\to \infty$ with $\lambda$ kept fixed.
 
-It is said that *counting rules suggest that baryons may emerge as solitons in large QCD theory.*
+It is said that *counting rules suggest that baryons may emerge as solitons in large QCD theory.* The large $N$ theory of mesons, at low energy, reduces to non-linear sigma model, but how? And what does the Wess-Zumino coupling has to do with it?
+
+Let $N_ {f}=2$. 
+
