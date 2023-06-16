@@ -30,5 +30,27 @@ Usually the 't Hooft expansion is defined to be the limit $N\to \infty$ with $\l
 
 It is said that *counting rules suggest that baryons may emerge as solitons in large QCD theory.* The large $N$ theory of mesons, at low energy, reduces to non-linear sigma model, but how? And what does the Wess-Zumino coupling has to do with it?
 
-Let $N_ {f}=2$. 
+Let $N_ {f}=2$. Consider the simplest Skyrme model
+$$
+L = \frac{1}{16}F_ {\pi}^{2} \,\mathrm{Tr}\,(\partial _ {\mu}U\partial ^{\mu}U^{\dagger})+\frac{1}{32e^{2}}\mathrm{Tr}\,[\partial _ {\mu}U U^{\dagger},\partial _ {\nu}U U^{\dagger}]^{2}
+\tag{1}
+$$
+where we have adopted the convention that the derivative acts on the first term followed by it only. As usual, $U$ is a SU(2 matrix), under the chiral transformation 
+$$
+U \to LUR^{-1}, \quad  L, R \in SU(2).
+$$
+$F_ {\pi}=186 \text{ MeV}$ is the pion decay constant, $e^{2}$ is a dimensionless parameter. The last term, the trace of a commutator, was first introduced by Skyrme to stabilize the soliton solution.
+
+To find the solution of the soliton, we adopt the spherical symmetric ansatz
+$$
+U_ {0}(x) = \exp[iF(r) \tau \cdot \hat{x}], \quad  F(r){\Large\mid}_ {r=0} =\pi,\,F(r){\Large\mid}_ {r=\infty} =0.
+$$
+Take it to the Lagrangian, Legendre transform the Lagrangian to energy functional, we have the expression of the energy of the soliton in terms of the profile funciton $F(r)$:
+$$
+M = 4\pi \int_{0}^{\infty} dr \, r^{2}\left\{ \frac{1}{8}F_ {\pi}^{2}\left[ (\partial _ {r}F)^{2}+2\frac{\sin ^{2}F}{r^{2}} \right] + \frac{1}{2e^{2}} \frac{\sin ^{2}F}{r^{2}}
+\left[ \frac{\sin ^{2}F}{r^{2}}+2(\partial _ {r}F)^{2} \right]\right\} , 
+\tag{2}
+$$
+Then we can obtain the variational equation from it, then we can further solve it numerically.
+
 

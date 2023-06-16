@@ -30,8 +30,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0a43cacd7ae48db3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f33e6b8583e7dd9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-06-16-Representables-in-Category-Theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "2023-06-16-Representables-in-Category-Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "2023-06-16-Representables-in-Category-Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md"
+                "file": "2023-06-16-Representables-in-Category-Theory.md"
               }
             }
           }
@@ -167,8 +188,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f98b84d16890ca7f",
+  "active": "f33e6b8583e7dd9d",
   "lastOpenFiles": [
+    "2023-06-16-Representables-in-Category-Theory.md",
+    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
     "img/lib8.jpg.crdownload",
     "img/lib2.jpg.crdownload",
@@ -176,7 +199,6 @@
     "_drafts/2022-09-22-Introduction-to-Topological-Field-Theory.md",
     "Untitled 2.md",
     "Untitled 1.md",
-    "Untitled.md",
     "phasediagram.png.md",
     "Pasted image 20230608164804.png",
     "Pasted image 20230608164632.png",
@@ -191,7 +213,6 @@
     "_drafts/2023-05-07-soliton-particle-duality.md",
     "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
     "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
-    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
     "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
     "_drafts/2023-06-14-Complex-Vector-Space.md",
     "_posts/2023-06-13-Connections-in-a-Vector-Bundle.md",
