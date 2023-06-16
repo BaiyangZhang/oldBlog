@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_drafts/2023-06-14-Complex-Vector-Space.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "_drafts/2023-06-14-Complex-Vector-Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "_drafts/2023-06-14-Complex-Vector-Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md"
+                "file": "_drafts/2023-06-14-Complex-Vector-Space.md"
               }
             }
           }
@@ -168,8 +167,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45b1dbaa74f56c77",
+  "active": "f98b84d16890ca7f",
   "lastOpenFiles": [
+    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+    "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
+    "_drafts/2023-05-07-soliton-particle-duality.md",
+    "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
+    "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-06-12-Transseries.md",
     "_drafts/2023-05-31-Analytic-Structure.md",
     "_posts/2023-06-13-Connections-in-a-Vector-Bundle.md",
@@ -177,9 +181,7 @@
     "Untitled 2.md",
     "Untitled 1.md",
     "2023-06-12-Transseries.md",
-    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-05-28-Symmetry-groupoid.md",
-    "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md",
     "Untitled.md",
     "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
@@ -196,9 +198,6 @@
     "_posts/2023-04-29-Weihai-Travel-Plan.md",
     "_posts/2023-04-25-Wigner-Weyl-Calculus.md",
     "_posts/2023-04-20-Harmonic-Forms.md",
-    "_posts/2023-3-22-Heuristics-of-Einstein's-Theory.md",
-    "_posts/2023-04-03-De-Rhams Theorem.md",
-    "_posts/2023-3-21-Montesquieu.md",
     "img/KochCcurve.png",
     "img/KochCcurve.png.crdownload",
     "PDFs/BasicCategoryTheory.pdf",
