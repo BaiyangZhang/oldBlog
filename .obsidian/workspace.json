@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-06-14-Complex-Vector-Space.md",
+                "file": "_drafts/2023-06-16-Complex-Line-Bundle.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,8 +30,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f2126a3065f1eedc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f228438981376e18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-06-17-The-Workers-and-the-Fatherland.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-06-14-Complex-Vector-Space.md",
+                "file": "_posts/2023-06-17-The-Workers-and-the-Fatherland.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-06-14-Complex-Vector-Space.md",
+                "file": "_posts/2023-06-17-The-Workers-and-the-Fatherland.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-06-14-Complex-Vector-Space.md"
+                "file": "_posts/2023-06-17-The-Workers-and-the-Fatherland.md"
               }
             }
           }
@@ -167,8 +188,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f98b84d16890ca7f",
+  "active": "f228438981376e18",
   "lastOpenFiles": [
+    "_posts/2023-06-17-The-Workers-and-the-Fatherland.md",
+    "_drafts/2023-06-16-Complex-Line-Bundle.md",
+    "_drafts/2023-mm-dd-Theodore-Frankel.md",
+    "_posts/2023-06-15-Complex-Vector-Space.md",
     "2023-06-16-Representables-in-Category-Theory.md",
     "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
     "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
@@ -178,13 +203,11 @@
     "_drafts/2023-06-12-Transseries.md",
     "_drafts/2023-05-31-Analytic-Structure.md",
     "_posts/2023-06-13-Connections-in-a-Vector-Bundle.md",
-    "_drafts/2023-06-14-Complex-Vector-Space.md",
     "Untitled 2.md",
     "Untitled 1.md",
     "2023-06-12-Transseries.md",
     "_posts/2023-05-28-Symmetry-groupoid.md",
     "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md",
-    "Untitled.md",
     "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-06-07-Fractal-Geometry-in-Physics.md",
     "phasediagram.png.md",
@@ -196,8 +219,6 @@
     "_posts/2023-05-30-Note-on-Meson-Kink-Scattering.md",
     "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
     "_posts/2023-06-04-Basic-Category-Theory.md",
-    "_posts/2023-04-29-Weihai-Travel-Plan.md",
-    "_posts/2023-04-25-Wigner-Weyl-Calculus.md",
     "img/KochCcurve.png",
     "img/KochCcurve.png.crdownload",
     "PDFs/BasicCategoryTheory.pdf",
