@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_drafts/2023-06-20-Note-on-Quantization-of-Skyrme-Model.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "_drafts/2023-06-20-Introduction-to-Higher-Form-Symmetry.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_drafts/2023-06-20-Introduction-to-Higher-Form-Symmetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_drafts/2023-06-20-Introduction-to-Higher-Form-Symmetry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md"
+                "file": "_drafts/2023-06-20-Introduction-to-Higher-Form-Symmetry.md"
               }
             }
           }
@@ -179,14 +180,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f98b84d16890ca7f",
+  "active": "a98c8bc3ee288ed6",
   "lastOpenFiles": [
+    "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",
+    "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
+    "_drafts/2023-05-07-soliton-particle-duality.md",
+    "_drafts/2023-06-20-Note-on-Quantization-of-Skyrme-Model.md",
+    "_drafts/2023-06-12-Transseries.md",
+    "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
     "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
     "2023-06-16-Representables-in-Category-Theory.md",
     "_posts/2023-06-17-The-Workers-and-the-Fatherland.md",
     "_posts/2023-06-16-Complex-Line-Bundle.md",
     "_posts/2023-06-15-Complex-Vector-Space.md",
-    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
     "img/lib8.jpg.crdownload",
     "img/lib2.jpg.crdownload",
     "img/lib16.jpg.crdownload",
@@ -196,18 +202,13 @@
     "phasediagram.png.md",
     "Pasted image 20230608164804.png",
     "Pasted image 20230608164632.png",
-    "_drafts/2023-06-12-Transseries.md",
     "_drafts/2023-05-31-Analytic-Structure.md",
-    "_drafts/2023-04-06-Introduction-to-Higher-Form-Symmetry.md",
+    "_drafts/2023-06-20-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
     "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
     "_drafts/2023-3-22-Hilbert's-Action-Principle.md",
-    "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",
-    "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
-    "_drafts/2023-05-07-soliton-particle-duality.md",
     "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
     "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
-    "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
     "_drafts/2023-06-14-Complex-Vector-Space.md",
     "_posts/2023-06-13-Connections-in-a-Vector-Bundle.md",
     "_posts/2023-05-28-Symmetry-groupoid.md",
