@@ -32,14 +32,6 @@
             }
           },
           {
-            "id": "0a43cacd7ae48db3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "f33e6b8583e7dd9d",
             "type": "leaf",
             "state": {
@@ -51,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-06-16-Representables-in-Category-Theory.md",
+                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-06-16-Representables-in-Category-Theory.md",
+                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-06-16-Representables-in-Category-Theory.md"
+                "file": "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md"
               }
             }
           }
@@ -188,14 +179,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f33e6b8583e7dd9d",
+  "active": "f98b84d16890ca7f",
   "lastOpenFiles": [
+    "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
+    "2023-06-16-Representables-in-Category-Theory.md",
     "_posts/2023-06-17-The-Workers-and-the-Fatherland.md",
     "_posts/2023-06-16-Complex-Line-Bundle.md",
     "_posts/2023-06-15-Complex-Vector-Space.md",
-    "2023-06-16-Representables-in-Category-Theory.md",
     "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
-    "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
     "img/lib8.jpg.crdownload",
     "img/lib2.jpg.crdownload",
     "img/lib16.jpg.crdownload",

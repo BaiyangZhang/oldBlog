@@ -51,6 +51,9 @@ M = 4\pi \int_{0}^{\infty} dr \, r^{2}\left\{ \frac{1}{8}F_ {\pi}^{2}\left[ (\pa
 \left[ \frac{\sin ^{2}F}{r^{2}}+2(\partial _ {r}F)^{2} \right]\right\} , 
 \tag{2}
 $$
-Then we can obtain the variational equation from it, then we can further solve it numerically.
+Then we can obtain the variational equation from it, then we can further solve it numerically. The equation of motion reads
+$$
+
+$$
 
 
