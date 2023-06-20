@@ -1,8 +1,8 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
 title:      Note on Meson-Kink Scattering		# 标题 
-subtitle:   
-date:       2023-06-12 				# 时间
+subtitle:   Based on PRD 107,025012
+date:       2023-06-20 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background3.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
