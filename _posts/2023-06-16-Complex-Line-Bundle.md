@@ -1,7 +1,7 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:     Theodore Frankel			# 标题 
-subtitle:   From 2D real vector space
+title:     Complex Line Bundle			# 标题 
+subtitle:   From 2D real vector space to complex line bundle
 date:       2023-06-18 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background14.jpg 	#这篇文章标题背景图片
