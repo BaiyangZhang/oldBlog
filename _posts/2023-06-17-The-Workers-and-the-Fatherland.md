@@ -3,7 +3,7 @@ layout:     post   				    # 使用的布局（不需要改）
 title:     The Workers and the Fatherland 			# 标题 
 subtitle:   by Roman Rosdolsky
 date:       2023-06-17 				# 时间
-author:     Roman Rosdolsky 						# 作者
+author:     Baiyang Zhang 						# 作者
 header-img: img/background5.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签

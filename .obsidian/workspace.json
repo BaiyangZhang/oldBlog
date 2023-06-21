@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-06-20-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_drafts/2023-06-12-Transseries.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,15 +32,11 @@
             }
           },
           {
-            "id": "f33e6b8583e7dd9d",
+            "id": "b96e7df5e40b7498",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2023-06-12-Transseries.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -119,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-06-12-Transseries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +131,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-06-12-Transseries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,9 +152,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_drafts/2023-06-12-Transseries.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -180,21 +172,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f33e6b8583e7dd9d",
+  "active": "b96e7df5e40b7498",
   "lastOpenFiles": [
-    "_drafts/2023-05-31-Analytic-Structure.md",
-    "_posts/2023-06-16-Complex-Line-Bundle.md",
+    "_posts/2023-06-21-The-Phase-Space.md",
     "_drafts/2023-06-12-Transseries.md",
-    "2023-06-16-Representables-in-Category-Theory.md",
     "_drafts/2023-06-20-Note-on-Quantization-of-Skyrme-Model.md",
     "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
+    "_posts/2023-06-17-The-Workers-and-the-Fatherland.md",
+    "_drafts/2023-05-31-Analytic-Structure.md",
+    "_posts/2023-06-16-Complex-Line-Bundle.md",
+    "2023-06-16-Representables-in-Category-Theory.md",
     "_drafts/2023-06-20-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-06-20-Note-on-Meson-Kink-Scattering.md",
     "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",
     "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
     "_drafts/2023-05-07-soliton-particle-duality.md",
-    "_posts/2023-06-17-The-Workers-and-the-Fatherland.md",
     "_posts/2023-06-15-Complex-Vector-Space.md",
     "img/lib8.jpg.crdownload",
     "img/lib2.jpg.crdownload",
@@ -212,7 +205,6 @@
     "_drafts/2023-05-15-共和国史笔记-思考与选择.md",
     "_drafts/2023-06-14-Complex-Vector-Space.md",
     "_posts/2023-06-13-Connections-in-a-Vector-Bundle.md",
-    "_posts/2023-05-28-Symmetry-groupoid.md",
     "img/phase.png",
     "img/KochCcurve.png",
     "img/KochCcurve.png.crdownload",
