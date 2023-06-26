@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Note-on-Quantization-of-Skyrme-Model 			# 标题 
 subtitle:   based on Adkins1983, Manko2007, etc.
-date:       2023-06-20 				# 时间
+date:       2023-06-26 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background1.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -129,7 +129,7 @@ $$
 then we can write down $H$ in the "moduli-space representation"
 $$
 \boxed { 
-H = M + \frac{1}{8\lambda} \sum_ {i=0}^{3}\left( -\frac{\partial^{2}}{\partial a_ {i}^{2}} \right).
+H = M + \frac{1}{8\lambda} \sum_ {i=0}^{3}\left( -\frac{\partial^{2}}{\partial a_ {i}^{2}} \right),\quad a_ {i}a_ {i}=1.
 }
 $$
 

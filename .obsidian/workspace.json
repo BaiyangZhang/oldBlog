@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-06-20-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-06-26-Note-on-Quantization-of-Skyrme-Model.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-06-20-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-06-26-Note-on-Quantization-of-Skyrme-Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-06-20-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-06-26-Note-on-Quantization-of-Skyrme-Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-06-20-Note-on-Quantization-of-Skyrme-Model.md"
+                "file": "_posts/2023-06-26-Note-on-Quantization-of-Skyrme-Model.md"
               }
             }
           }
@@ -180,12 +180,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8658eceae4c8341f",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
     "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
     "_drafts/2023-06-12-Transseries.md",
     "_posts/2023-06-21-The-Phase-Space.md",
-    "_drafts/2023-06-20-Note-on-Quantization-of-Skyrme-Model.md",
+    "_posts/2023-06-26-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-06-17-The-Workers-and-the-Fatherland.md",
     "_drafts/2023-05-31-Analytic-Structure.md",
     "_posts/2023-06-16-Complex-Line-Bundle.md",
