@@ -69,7 +69,15 @@ $$
 
 To study the spin and isospin of a soliton, we need to quantize the soliton solution, by thinking of $A$ as a quantum mechanical variable, which is the collective coordinates. 
 
-Since the collective coordinates parameterize the solution space, a.k.a. moduli space, we now have a means to describe the motion of a soliton. Every point in the moduli space corresponds to a specific soliton solution, then a trajectory of a soliton would ideally be denoted by a curve in the moduli space. The converse would also hold in the ideal case, namely a curve in the moduli space would give us uniquely a soliton trajectory. It would be nice if there exists a one-to-one correspondence between the curves and the soliton trajectory. It should indeed be the case if no discrete symmetry jumps out and ruins everything. To be more specific, one way to ruin this bijection between curves in the moduli space and actual soliton trajectory is that if some discrete symmetry is modded out in constructing the moduli space, then there may exist special points where the discrete symmetry can make the soliton trajectory not uniquely defined, these are called `stacky points`, put it short, there exists more than one way for a curve to cross a stacky point. Could there be stacky points in the moduli space of Skyrmions?
+Since the collective coordinates parameterize the solution space, a.k.a. moduli space, we now have a means to describe the motion of a soliton. Every point in the moduli space corresponds to a specific soliton solution, then a trajectory of a soliton would ideally be denoted by a curve in the moduli space. The converse would also hold in the ideal case, namely a curve in the moduli space would give us uniquely a soliton trajectory. It would be nice if there exists a one-to-one correspondence between the curves and the soliton trajectory. It should indeed be the case if no discrete symmetry jumps out and ruins everything. To be more specific, one way to ruin this bijection between curves in the moduli space and actual soliton trajectory is that if some discrete symmetry is modded out in constructing the moduli space, then there may exist special points where the discrete symmetry can make the soliton trajectory not uniquely defined, these are called `stacky points`, put it short, there exists more than one way for a curve to cross a stacky point. *Could there be stacky points in the moduli space of Skyrmions?* Maybe a related question is, what if the gauge group is $SU(N) / Z_ {N}$ instead of $SU(N)$? Changing the gauge group to $SU(N) / Z_ {N}$ has many consequences, one of them is we have introduced an extra *discrete symmetry*, $Z_ {N}$ symmetry of the gauge group, therefor to the moduli space, and this could make the moduli space not fine anymore, assuming the moduli space of Skyrmion is fine in the first place. Recall that
+
+**Fine moduli space.** A `fine moduli space` is a space $M$, such that
+1. the points in $M$ are in 1-2-1 correspondence with *isomorphism classes* of the objects we are studying;
+2. (`technical condition`) For every family $\mathcal{F}$ over a topological (parameter) space $T$, denoted by $\mathcal{F} / T$, the associated moduli map $T\to M$, which maps the point $t \in T$ to the isomorphism class of the family member $\mathcal{F}_ {t}$, is *continuous*;
+3. Every *continuous map* from $T$ to $M$ is the moduli map of some family parametrized by $T$;
+4. if the two families have the same moduli map, they are isomorphic families. 
+
+- - -
 
 To be able to describe the time-dependent motion of Skyrmions, let's make $A$ time dependent, $A\to A(t)$. Then a time-dependent soliton solution is given by
 $$
@@ -110,7 +118,7 @@ $$
 $$
 and the Hamiltonian becomes
 $$
-H = \pi_ {i}a_ {i}-L = M + \frac{1}{8\pi}\pi_ {i}\pi_ {i}.
+H = \pi_ {i}a_ {i}-L = M + \frac{1}{8\lambda}\pi_ {i}\pi_ {i}.
 $$
 Recall that in quantum mechanics, during canonical quantization we re-wrote the canonical momentum as a difference operator with respect to $x$, $p := -i \partial_ {x}$, we can do the same to the $a_ {i}$ and $\pi_ {i}$, writing 
 $$
@@ -118,3 +126,10 @@ $$
 \pi_ {i} \to -i \partial /\partial a_ {i}. 
 } 
 $$
+then we can write down $H$ in the "moduli-space representation"
+$$
+\boxed { 
+H = M + \frac{1}{8\lambda} \sum_ {i=0}^{3}\left( -\frac{\partial^{2}}{\partial a_ {i}^{2}} \right).
+}
+$$
+
