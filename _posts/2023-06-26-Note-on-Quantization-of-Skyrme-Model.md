@@ -30,12 +30,33 @@ Usually the 't Hooft expansion is defined to be the limit $N\to \infty$ with $\l
 
 It is said that *counting rules suggest that baryons may emerge as solitons in large QCD theory.* The large $N$ theory of mesons, at low energy, reduces to non-linear sigma model, but how? And what does the Wess-Zumino coupling has to do with it?
 
+## The Non-linear Sigma Model
+
+
+
+
+## Classical Skyrme Model
+
 Let $N_ {f}=2$. Consider the simplest Skyrme model
 $$
 L = \frac{1}{16}F_ {\pi}^{2} \,\mathrm{Tr}\,(\partial _ {\mu}U\partial ^{\mu}U^{\dagger})+\frac{1}{32e^{2}}\mathrm{Tr}\,[\partial _ {\mu}U U^{\dagger},\partial _ {\nu}U U^{\dagger}]^{2}
 \tag{1}
 $$
-where we have adopted the convention that the derivative acts on the first term followed by it only. As usual, $U$ is a SU(2 matrix), under the chiral transformation 
+where we have adopted the convention that the derivative acts on the first term followed by it only. 
+
+The second term is to stabilize the Skyrmion solution. Now, why we need to stabilize it in the first place? It is because, Derrick's scaling argument, or Derrick's theorem says that, if the Lagrangian of a scalar field can be written as 
+$$
+\mathcal{L} = \frac{1}{2} \partial_ {\mu}\phi \partial^{\mu}\phi - V(\phi)
+$$
+which is very general, then given a localized wave-pack like classical solution to the equation of motion, call it $\phi_ {0}(x)$, for dimension $\geq 2$, we can always shrink the solution to
+$$
+\phi_ {\lambda} (x) = \phi_ {0}(\lambda x), \quad  \lambda>1,
+$$
+and reduce the energy, thus $\phi_ {0}$ can not be stable. In the case of Skyrme model we don't have a scalar field but this conclusion still holds, as can be shown by writing down a solution and the energy functional, and study what happens if the soliton is shrunk. Therefore, to stabilize the soliton solution, we need extra terms in the Lagrangian involving the derivatives. 
+
+- - -
+
+Recall that $U$ is a SU(2) matrix, under the chiral transformation 
 $$
 U \to LUR^{-1}, \quad  L, R \in SU(2).
 $$
@@ -79,7 +100,7 @@ Since the collective coordinates parameterize the solution space, a.k.a. moduli 
 
 - - -
 
-To be able to describe the time-dependent motion of Skyrmions, let's make $A$ time dependent, $A\to A(t)$. Then a time-dependent soliton solution is given by
+To be able to describe the time-dependent rotation (not motion) of Skyrmions, let's make $A$ time dependent, $A\to A(t)$. Then a time-dependent soliton solution is given by
 $$
 U(t) = A(t) U_ {0} A(t)^{-1}.
 $$
@@ -133,3 +154,20 @@ H = M + \frac{1}{8\lambda} \sum_ {i=0}^{3}\left( -\frac{\partial^{2}}{\partial a
 }
 $$
 
+The constraint suggests that $\sum_ {i}\partial^{2} / \partial a_ {i}^{2}$ should be interpreted as the Laplacian $\nabla^{2}$ on $\mathbb{S}^{3}$. By analogy with usual spherical harmonies (where you go to the polar coordinates system and solve the eigenfunction equation, blahblahblah), the eigenfunctions to the Hamiltonian are *traceless symmetric polynomials* in the $a_ {i}$. (I don't know how to prove this) For example, one eigenfunction to the Laplacian is $(a_ {0}+ia_ {1})^{l}$, with
+$$
+-\nabla^{2}(a_ {0}+ia_ {1})^{l} = l (l+2) (a_ {0}+ia_ {1})^{l}.
+$$
+Such a wave function has spin and isospin equal to $l / 2$. To see this, consider the spin operator
+$$
+I_ {k} = \frac{1}{2} i \left( a_ {0} \frac{\partial}{\partial a_ {k}}-a_ {k} \frac{\partial}{\partial a_ {0}}  -\epsilon_ {klm}a_ {l} \frac{\partial}{a_ {m}} \right)
+$$
+which generalized the 3D angular momentum operator 
+$$
+\mathbf{l} = \mathbf{x} \times \mathbf{p}, \quad  l_ {k} = -i \epsilon_ {klm}x_ {l} \frac{\partial}{\partial a_ {m}}.
+$$
+The isospin operator is defined as 
+$$
+J_ {k} = \frac{1}{2} i \left( -a_ {0} \frac{\partial}{\partial a_ {k}} + a_ {k} \frac{\partial}{\partial a_ {0}}  -\epsilon_ {klm}a_ {l} \frac{\partial}{a_ {m}} \right)
+$$
+where the terms involving zero component gets an extra minus sign in comparison to the spin operator. 
