@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Note-on-Quantization-of-Skyrme-Model 			# 标题 
 subtitle:   based on Adkins1983, Manko2007, etc.
-date:       2023-06-26 				# 时间
+date:       2023-06-27 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background1.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -31,6 +31,70 @@ Usually the 't Hooft expansion is defined to be the limit $N\to \infty$ with $\l
 It is said that *counting rules suggest that baryons may emerge as solitons in large QCD theory.* The large $N$ theory of mesons, at low energy, reduces to non-linear sigma model, but how? And what does the Wess-Zumino coupling has to do with it?
 
 ## The Non-linear Sigma Model
+
+The non-linear sigma model, sometimes written as NL$\sigma$M or NLSM, is a scalar field theory where the target space (where the field takes value) is a non-linear manifold. It's called $\sigma$ model because originally Gell-Mann and Levy used $\Sigma$ to denote the scalar field. NLSM is a precursor of modern day QCD, even now it still serves as a good low-energy approximation, namely low energy effective theory of QCD, where quarks are negligible. NLSM is an effective of spin-zero scalar, in real world pions. 
+
+There are three types of pions,
+$$
+\begin{cases}
+\pi^{+}: &  u\overline{d} \\
+\pi^{0}: & \frac{1}{\sqrt{ 2 }}(u\overline{u}+d\overline{d}) \\
+\pi^{-}: & \overline{u}d
+\end{cases}
+$$
+which will be the degree of freedoms in the NLSM. 
+
+There is a clever way to combine the three scalars together to form a compact model. Let $U(x)$ be a $SU(2)$ matrix, we can "stuff" the pion fields into $U(x)$ by writing 
+$$
+U(x) = \exp(i\pi^{a}\sigma^{a} / f_ {\pi})
+$$
+where $\sigma^{a}$ are the Pauli matrices, and $f_ {\pi}$ is the pion decay constant. In 4D the scalar field has dimension 
+$$
+[\pi] = \frac{d-2}{2} = 1
+$$
+therefore $f_ {\pi}$ should also has the dimension of mass, such that the argument of the exponential function is dimensionless.
+
+We can Taylor expand the exponential function, and by making use of the properties of Pauli matrices such as 
+$$
+\sigma^{a} \sigma^{b} = \delta^{ab} + i \epsilon^{abc} \sigma^{c}
+$$
+we get
+$$
+\exp\{ i\pi \cdot \sigma / f_ {\pi} \} = \cos(\pi / f_ {\pi})\mathbb{1} + i \sin(\pi / f_ {\pi}) \hat{\pi}\cdot \sigma,\quad  \pi := \left\lvert \mathbf{\pi} \right\rvert .
+$$
+This form makes the symmetry of the Lagrangian manifest. 
+
+We also want the NLSM to adopt the chiral symmetry, that is the $SU(2)_ {L} \times SU(2)_ {R}$ global symmetry. Let $L,R\in SU(2)$ then the chiral symmetry acting on $U$ is 
+$$
+U \to L U R^{\dagger}.
+$$
+
+The simplest dynamic, renormalizable Lagrangian in terms of $U$ satisfying the chiral symmetry reads
+$$
+\mathcal{L} = \frac{f_ {\pi}^{2}}{4} \mathrm{Tr}\,(\partial_ {\mu}U \partial^{\mu}U).
+$$
+The normalization coefficient is such that, if you expand $U$ in terms of sin and cos functions, the pion fields adopt the correct dynamic term,
+$$
+\mathcal{L} = \frac{1}{2}\partial_ {\mu}\phi \partial^{\mu}\phi + \dots.
+$$
+
+- - -
+
+The chiral symmetry is a symmetry of the Lagrangian, thanks to the trace, but is it the symmetry of the vacuum? Setting the vacuum to be $\left\langle \pi \right\rangle=0$, which means 
+$$
+\left\langle U \right\rangle=\mathbb{1},
+$$
+under the chiral transformation we have 
+$$
+\left\langle U \right\rangle=\mathbb{1} \to \left\langle L U R^{\dagger} \right\rangle = L \mathbb{1} R^{\dagger} = L R^{\dagger},
+$$
+which equals to $\mathbb{1}$ iff $LR^{\dagger}=\mathbb{1}\implies L = R$, then the chiral transformation breaks to 
+$$
+SU(2)_ {L}\times SU(2)_ {R} \to SU(2)_ {V}
+$$
+where $V$ is for vector. In other words, *the chiral symmetry is spontaneously broken to $SU(2)$.*
+
+
 
 
 
