@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "932f8178f9d1f198",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-06-27-The-Electromagnetic-Connection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
+                "file": "_drafts/2023-06-27-The-Electromagnetic-Connection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
+                "file": "_drafts/2023-06-27-The-Electromagnetic-Connection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-7-17-Conventions-and-Formula.md"
+                "file": "_drafts/2023-06-27-The-Electromagnetic-Connection.md"
               }
             }
           }
@@ -155,8 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14181dd37f74e034",
+  "active": "932f8178f9d1f198",
   "lastOpenFiles": [
+    "_drafts/2023-mm-dd-Theodore-Frankel.md",
+    "_drafts/2023-06-27-The-Electromagnetic-Connection.md",
+    "Untitled.md",
+    "_posts/2022-7-17-Conventions-and-Formula.md",
     "_posts/2023-06-27-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-06-21-The-Phase-Space.md",
     "_posts/2023-06-20-Note-on-Meson-Kink-Scattering.md",
@@ -164,10 +181,8 @@
     "_drafts/2023-06-20-Note-on-Quantization-of-Skyrme-Model.md",
     "_drafts/2023-06-20-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-06-16-Complex-Line-Bundle.md",
-    "_posts/2022-7-17-Conventions-and-Formula.md",
     "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-06-17-The-Workers-and-the-Fatherland.md",
-    "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "_posts/2023-06-15-Complex-Vector-Space.md",
     "2023-06-16-Representables-in-Category-Theory.md",
     "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
@@ -181,8 +196,6 @@
     "Untitled 1.md",
     "2023-06-12-Transseries.md",
     "_posts/2023-05-28-Symmetry-groupoid.md",
-    "_drafts/2023-06-12-Connections-in-a-Vector-Bundle.md",
-    "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
     "img/phase.png",
     "Pasted image 20230608164804.png",
     "Pasted image 20230608164632.png",
