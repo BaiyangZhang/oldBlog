@@ -48,11 +48,13 @@ There is a clever way to combine the three scalars together to form a compact mo
 $$
 U(x) = \exp(i\pi^{a}\sigma^{a} / f_ {\pi})
 $$
-where $\sigma^{a}$ are the Pauli matrices, and $f_ {\pi}$ is the pion decay constant. In 4D the scalar field has dimension 
+where $\sigma^{a}$ are the Pauli matrices, and $f_ {\pi}\sim 92 \text{ Mev}$ is the pion decay constant. In 4D the scalar field has dimension 
 $$
 [\pi] = \frac{d-2}{2} = 1
 $$
 therefore $f_ {\pi}$ should also has the dimension of mass, such that the argument of the exponential function is dimensionless.
+
+This is an example of so-called `chiral Lagrangian`, which combines the three pions into a single matrix with the help of Pauli matrices. 
 
 We can Taylor expand the exponential function, and by making use of the properties of Pauli matrices such as 
 $$
@@ -68,6 +70,67 @@ We also want the NLSM to adopt the chiral symmetry, that is the $SU(2)_ {L} \tim
 $$
 U \to L U R^{\dagger}.
 $$
+But why? Some people might tell you not to worry about it, it doesn't matter for the calculation, but did you decide to do physics because you want to understand or because you love calculation? So here I'll try to explain it briefly.
+
+### Chiral transformation
+
+The story begins with what happens when some *global, continuous symmetry* is *spontaneously broken*. Let $J_ {\mu}$ be the Noether current associated to the symmetry. Assume that the conservation law $\partial_ {\mu} J^{\mu}$ holds in both classical and quantum situation, that is to say this symmetry is not anomalous. In the quantum theory, the conserved charge
+$$
+Q := \int d^{3}x \,  J_ {0},\quad  J_ {0} = \sum \frac{\partial \mathcal{L}}{\partial \dot{\phi}}\Delta \phi
+$$
+where $\Delta \phi$ is the variation of $\phi$ under the symmetry at question, the summation is over all kinds of fields. The important thing is that now $Q$ is an **operator**, because $\phi$'s are operators. Recalling the procedure of canonical quantization, first we define the canonical momentum
+$$
+\pi := \frac{\partial \mathcal{L}}{\partial \dot{\phi}}
+$$
+with the canonical commutation relation
+$$
+[\phi(x),\pi(y)] = i\delta^{(3)}(x-y)
+$$
+where I have omitted some possible indices. We then find that 
+$$
+[Q,\phi_ {n}(y)] = -i \frac{\delta \phi(y)}{\delta \alpha}
+$$
+where the RHS is the variation of the field under the symmetry in question, therefore $Q$ *generates the symmetry transformation.* 
+Now, by definition, spontaneous symmetry breaking happens if the symmetric vacuum (or staple point, whatever name you like) with 
+$$
+Q\left\lvert{\Omega}\right\rangle=0
+$$
+is unstable, but the true, stable vacuum has non-zero charge
+$$
+Q\left\lvert{0}\right\rangle\neq 0.
+$$
+Here it is best to think of $Q\left\lvert{0}\right\rangle$ not as calculating the charge of $\left\lvert{0}\right\rangle$, but the infinitesimal form of transforming of $\left\lvert{0}\right\rangle$. If you have doubt, just think of the Mexico hat potential and rotational symmetry, once chosen a vacuum $\left\lvert{0}\right\rangle$, one can rotate it by an infinitesimal angle 
+$$
+e^{ i\epsilon Q }\left\lvert{0}\right\rangle = \left\lvert{0}\right\rangle +1\epsilon Q \left\lvert{0}\right\rangle =\left\lvert{0'}\right\rangle
+$$
+which is a new vacuum. Then Obviously $Q\left\lvert{0}\right\rangle\neq 0$. 
+
+It can be shown that each spontaneously broken symmetry (SSB) gives rise to a massless mode, namely a massless particle. One way to do it is to start with the defining relation 
+$$
+\left\langle{0}\right\rvert [Q,\phi] \left\lvert{0}\right\rangle  \neq 0,
+$$
+introduce the eigenstates of momentum $\left\lvert{\pi(\mathbf{p})}\right\rangle$ and the corresponding identity operator 
+$$
+\mathbb{1} = \int_{-\infty}^{\infty} \frac{d^{3}p}{(2\pi)^{3}} \,  \left\lvert{\pi(\mathbf{p})}\right\rangle \left\langle{\pi(\mathbf{p})}\right\rvert ,
+$$
+substitute them into the vev of $[Q,\phi]$, write everything in the form of integral, make use of the fact that both the vacuum and the momentum eigenstates have very good property under the translation operator, we arrive at an formula which looks like 
+$$
+\left\langle{0}\right\rvert [Q,\phi] \left\lvert{0}\right\rangle = 
+\int \frac{d^{3}p}{(2\pi)^{3}} \,  e^{ iE(\mathbf{p}=0)t } \times (t\text{-independent})
+$$
+but we know that the LHS is time independent, since $Q$ is a conserved charge! Thus the energy of zero momentum state must be 
+$$
+E(\mathbf{p}=0) = 0
+$$
+which means that this state is gapless, physically it means it is the state of a massless particle. 
+
+We present here the famous
+
+
+
+
+### Back to the Lagrangian
+
 
 The simplest dynamic, renormalizable Lagrangian in terms of $U$ satisfying the chiral symmetry reads
 $$
@@ -88,7 +151,13 @@ under the chiral transformation we have
 $$
 \left\langle U \right\rangle=\mathbb{1} \to \left\langle L U R^{\dagger} \right\rangle = L \mathbb{1} R^{\dagger} = L R^{\dagger},
 $$
-which equals to $\mathbb{1}$ iff $LR^{\dagger}=\mathbb{1}\implies L = R$, then the chiral transformation breaks to 
+which equals to $\mathbb{1}$ iff $LR^{\dagger}=\mathbb{1}\implies L = R$. 
+
+
+
+
+
+The chiral transformation breaks to 
 $$
 SU(2)_ {L}\times SU(2)_ {R} \to SU(2)_ {V}
 $$
