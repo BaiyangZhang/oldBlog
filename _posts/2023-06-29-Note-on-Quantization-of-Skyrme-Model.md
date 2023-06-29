@@ -1,8 +1,8 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:     Note-on-Quantization-of-Skyrme-Model 			# 标题 
-subtitle:   based on Adkins1983, Manko2007, etc.
-date:       2023-06-27 				# 时间
+title:     Note on the Skyrme Model, Classical and Quantum 			# 标题 
+subtitle:   based on Adkins1983, Manko2007, David Tong, etc.
+date:       2023-06-29 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background1.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -14,7 +14,7 @@ tags:								#标签
 
 ## Introduction
 
-In his 1973 paper "A planar diagram theory for strong interactions", 't Hooft treated the parameter $N$ in the gauge group $SU(N)$ or $U(N)$ as a free parameter, and explained that in the $N\to \infty$ limit, the Feynman diagrams arrange into sets with different topological structure according to its contribution in powers of $1 / N$. For the sake of simplicity he didn't require the trace of the ${\frak g}$-valued gauge field $A$ to be traceless, thus instead of $SU(N)$ the gauge group is actually $U(N)$. As a result there will be an extra photon corresponding to the $U(1)$ component of $U(1)$, which will be discarded at the last step. 't Hooft introduced the double-line notation and each closed group index circle will generate a factor of $\delta^{i}_ {i}=N$, making it convenient to count the factor of $N$ of a given Feynman diagram. Based on this, 't Hooft made use of the Euler theorem saying that $\chi=2-2g$ where $\chi$ is the Euler characteristic and $g$ the genus of a manifold, and reached the conclusion that, if $g^{2}N$ is kept fixed at large $N$, then *the planar diagrams with genus zero and one  dominate*. That is, to treat the double-line Feynman diagrams as the boundary of a manifold, then we cal talk about the genus of it. *Regarding non-planar diagrams, each "handle" pay a price $1 / N^{2}$*.
+In his 1973 paper "A planar diagram theory for strong interactions", 't Hooft treated the parameter $N$ in the gauge group $SU(N)$ or $U(N)$ as a free parameter, and explained that in the $N\to \infty$ limit, the Feynman diagrams arrange into sets with different topological structure according to its contribution in powers of $1 / N$. For the sake of simplicity he didn't require the trace of the ${\frak g}$-valued gauge field $A$ to be traceless, thus instead of $SU(N)$ the gauge group is actually $U(N)$. As a result there will be an extra photon corresponding to the $U(1)$ component of $U(1)$, which will be discarded at the last step. 't Hooft introduced the double-line notation and each closed group index circle will generate a factor of $\delta^{i}_ {i}=N$, making it convenient to count the factor of $N$ of a given Feynman diagram. Based on this, 't Hooft made use of the Euler theorem saying that $\chi=2-2g$ where $\chi$ is the Euler characteristic and $g$ the genus of a manifold, and reached the conclusion that, if $g^{2}N$ is kept fixed at large $N$, then *the planar diagrams with genus zero and one  dominate*. That is, to treat the double-line Feynman diagrams as the boundary of a manifold, then we can talk about the genus of it. *Regarding non-planar diagrams, each "handle" pay a price $1 / N^{2}$*.
 
 Large $N$ really plays an important rule in SU($N$) gauge theory. Large $N$ limit turns out to be pretty helpful in understanding the nonperturbative and phenomenological aspect of field models. In large N limit, the coupling is made $N$-dependent in such a way that the large $N$ limit exists and is nontrivial, duh. 
 
@@ -70,7 +70,7 @@ We also want the NLSM to adopt the chiral symmetry, that is the $SU(2)_ {L} \tim
 $$
 U \to L U R^{\dagger}.
 $$
-But why? Some people might tell you not to worry about it, it doesn't matter for the calculation, but did you decide to do physics because you want to understand or because you love calculation? So here I'll try to explain it briefly.
+But why? Some people might tell you not to worry about it, it doesn't matter for the calculation, but did you decide to do physics because you want to understand or because you love calculation? So here I'll try to explain it briefly. Feel free to skip the next chapter entirely if you are not interested.
 
 ### Chiral transformation
 
@@ -124,12 +124,112 @@ E(\mathbf{p}=0) = 0
 $$
 which means that this state is gapless, physically it means it is the state of a massless particle. 
 
-We present here the famous
+Another way to see it is to notice that we can construct the pion state of 3-momentum $\mathbf{p}$ from the vacuum via
+$$
+\left\lvert{\pi(\mathbf{p})}\right\rangle := -\frac{2i}{F} \int d^{3}x \,  e^{ i\mathbf{p} \cdot \mathbf{x}} J_ {0}(x)\left\lvert{0}\right\rangle ,
+$$
+where $\pi$ in $\pi(\mathbf{p})$ is *not* the canonical momentum, but the pion field, so $\pi(\mathbf{p})$ is the pion field with momentum $\mathbf{p}$. This will be more obvious if you write things explicitly in ladder operators. Anyway, the energy of this state is 
+$$
+E = E(\mathbf{p}) + 0,
+$$
+where $0$ is the vacuum energy. Since $\left\lvert{\pi(0)}\right\rangle$ has energy $0$, energy must goes to zero as the momentum goes to zero, leaving us a massless particle.
 
+We present here the famous `Goldstone's Theorem`,
 
+**Goldstone's Theorem.** Spontaneous breaking of *continuous global symmetries* implies the existence of massless particles, called Goldstone bosons.
 
+But, what does it has to do with chiral transformation? As we will see, massive pions can be approximately seen as the Goldstone bosons, the spontaneously broken symmetry being the chiral symmetry, as we will see later.
+
+Usually the first connection between pion and SSB is made via the linear sigma model, which is of a complex scalar field with global $U(1)$ symmetry, with a Mexican hat potential, for more details refer to M. D. Schwartz's *Quantum field theory and the standard model*, section `28.2.1`. There, the massless scalar field is identified as the pion. But there is no quarks in the model, you can't introduce chiral symmetry without fermions. So we turn to a more realistic model, concerning the two lightest quarks.
+
+- - -
+
+Consider the QCD Lagrangian with up and down quarks only, both set to be massless,
+$$
+\mathcal{L} = -\frac{1}{2} tr F^{2} + \overline{u}i\gamma^{\mu} D_ {\mu} u + \overline{d}i\gamma^{\mu} D_ {\mu} d
+$$
+where $u,d$ are the Dirac fermions for up and down quarks respectively. Two things are important for our concern,
+1. *isospin rotation is a symmetry of the Lagrangian*. Recall that isospin treats $(u,d)$ as a doublet under global $SU(2)$ transformation.
+2. The *separation of left-handed and right-handed components of fermions*. Recall that the left-handedness and right-handedness, or chirality, is defined by the different Lorentz transformation behavior. In the massless case, there is no explicit coupling between the left- and right-handed components of the Dirac fermion, therefore we can treat them as independent particles.
+
+In summary, we can now perform the isospin rotation separately,
+$$
+\begin{pmatrix}
+u^{L} \\
+d^{L} 
+\end{pmatrix}
+\to
+L 
+\begin{pmatrix}
+u^{L} \\
+d^{L} 
+\end{pmatrix},\quad 
+\begin{pmatrix}
+u^{R} \\
+d^{R} 
+\end{pmatrix}
+\to
+R 
+\begin{pmatrix}
+u^{R} \\
+d^{R} 
+\end{pmatrix}
+$$
+where $L,R$ are different $SU(2)$ matrices. This is the so-called $SU(2)_ {L}\times SU(2)_ {R}$  `chiral symmetry` of QCD. Actually the Lagrangian is invariant under not $SU(2)_ {L}\times SU(2)_ {R}$ but $U(2)_ {L}\times U(2)_ {R}$, however we usually extract the two $U(1)$ components of $U(2)$ to form two global transformation, namely the *vector* and *axial vector* transformation, the vector transformation rotates both the up and down quark by the same angle, while the axial vector transformation rotates them by opposite angle. All together we can write
+$$
+U(2)\times U(2) = SU(2)_ {L} \times  SU(2)_ {R}\times U(1)_ {V}\times U(1)_ {A}
+$$
+where $V$ stands for vector and $A$ axial vector.
+
+There is a rich story about $U(1)_ {V,A}$ symmetries, involving the quantum corrections that breaks the conservation law, etc. But that's another topic for another day. Right now we focus on the chiral symmetry. 
+
+You can't get this from QCD theory itself, but the ground states in nature clearly has a non-zero vev of $\overline{u}u$ or $\overline{d}d$ operator,
+$$
+\left\langle \overline{u}u \right\rangle = \left\langle \overline{d}d \right\rangle =: V^{3}\neq 0.
+$$
+This is justified by the fact that it implies a spectrum of hadrons. The equivalence between $\left\langle \overline{u}u \right\rangle$ and $\left\langle \overline{d}d \right\rangle$ is also an empirical result. This phenomenological fact is referred to as the `quark condensate. 
+
+- - -
+
+Quark condensate, also known as the `chiral condensate` is one of the two dominate phenomena, namely *confinement* and `quark condensate`, at low energy. Actually when we wrote $\left\langle \overline{u}u \right\rangle$ we missed some information about the chirality, it should be $\left\langle \overline{u}_ {L} u_ {R} \right\rangle$. But how does this condensate form? I don't have any precise answer to that question though. Instead, I'll just list some heuristic reasons.
+
+The existence of quark condensate, or equivalent the non-zero $\overline{q}_ {l}q_ {R}$ ($q$ stands for generic quarks) tells us that the vacuum is full of antiquark-quark pairs, for that is what the operators $\overline{q}q$ measure. This is analogous to what happens in a super conductor, where pairs of electrons condensate. In vacuum ,the quark-antiquark pairs must be produced in fluctuation, and is responsible for the confinement since it can break the flux tube. Of course another effect of quark condensate is that they break the chiral symmetry. To see this, recall that under chiral transformation the left-handed and right-handed quarks transform differently, in components we have
+$$
+\psi_ {Li}\to \psi'_ {Li} = L_ {ij} \psi_ {Lj},\quad  \psi_ {Ri} \to\psi'_ {Ri}=R_ {ij} \psi_ {Rj}
+$$
+where $i,j$ labels the flavor. Then the condensate operator $\overline{\psi}_ {Li}\psi_ {Rj}$ transforms as 
+$$
+\overline{\psi}_ {Li}\psi_ {Rj} \to \overline{\psi'}_ {Li}\psi'_ {Rj} = \overline{\psi}_ {Lm} L^{\dagger}_ {mi}R_ {jn} \psi_ {Rn} ,
+$$
+The quark condensate tells us that 
+$$
+\left\langle \overline{\psi}_ {Li}\psi_ {Rj} \right\rangle = V^{3}\delta_ {ij}
+$$
+Hence
+$$
+V^{3}=\left\langle \overline{\psi}_ {Li}\psi_ {Rj} \right\rangle \to \left\langle \overline{\psi}_ {Lm}\psi_ {Rn} \right\rangle L^{\dagger}_ {mi}R_ {jn}= V^{3}(RL^{\dagger})_ {ji},
+$$
+we see that the vev is only the same if $L=R$, otherwise the chiral transformation gives it a "phase". But if $L=R$ then the left-handed and right-handed fermions are transformed the same way, $SU(2)_ {L}\times SU(2)_ {R}$ degenerates to $SU(2)_ {L+R}$, which is just $SU(2)$. 
 
 ### Back to the Lagrangian
+
+The pattern that the vacuum breaks the chiral symmetry shows us what the vacuum manifold is like, since
+$$
+\left\langle \overline{\psi}_ {Li}\psi_ {R_ {j}} \right\rangle = V^{3}(RL^{\dagger})_ {ji}
+$$
+and $RL^{\dagger}\sim SU(2)$, we have
+$$
+\left\langle \overline{\psi}_ {Li}\psi_ {R_ {j}} \right\rangle = V^{3}U_ {ij}, \quad  U \in  SU(2).
+$$
+
+Next, Goldstone's theorem tells us that there exists a massless boson for each broken symmetry. So how many symmetries are broken? The SSB is 
+$$
+SU(2)\times SU(2) \to SU(2)
+$$
+and the number of generator is broken down from $2\times 3=6$ to $3$, so three symmetries (generators of symmetries, to be specific) are broken. 
+
+
+
 
 
 The simplest dynamic, renormalizable Lagrangian in terms of $U$ satisfying the chiral symmetry reads
