@@ -199,9 +199,9 @@ $$
 $$
 where $i,j$ labels the flavor. Then the condensate operator $\overline{\psi}_ {Li}\psi_ {Rj}$ transforms as 
 $$
-\overline{\psi}_ {Li}\psi_ {Rj} \to \overline{\psi'}_ {Li}\psi'_ {Rj} = \overline{\psi}_ {Lm} L^{\dagger}_ {mi}R_ {jn} \psi_ {Rn} ,
+\overline{\psi}_ {Li}\psi_ {Rj} \to \overline{\psi'}_ {Li}\psi'_ {Rj} = L^{\dagger}_ {mi}\overline{\psi}_ {Lm} R_ {jn} \psi_ {Rn} ,
 $$
-The quark condensate tells us that 
+where we better think of $\overline{\psi}$ as $\psi ^\ast$. The quark condensate tells us that 
 $$
 \left\langle \overline{\psi}_ {Li}\psi_ {Rj} \right\rangle = V^{3}\delta_ {ij}
 $$
@@ -222,51 +222,57 @@ $$
 \left\langle \overline{\psi}_ {Li}\psi_ {R_ {j}} \right\rangle = V^{3}U_ {ij}, \quad  U \in  SU(2).
 $$
 
+This also answers our previous question about why $U(x)$ transforms as 
+$$
+U(x) \to L^{\dagger}U(x)R
+$$
+under the chiral transform. Note that we have been a little careless when identifying $L$ and $R$, in fact we can *define* $L^{\dagger}$ and $R$ according to the above formula. 
+
 Next, Goldstone's theorem tells us that there exists a massless boson for each broken symmetry. So how many symmetries are broken? The SSB is 
 $$
 SU(2)\times SU(2) \to SU(2)
 $$
-and the number of generator is broken down from $2\times 3=6$ to $3$, so three symmetries (generators of symmetries, to be specific) are broken. 
+and the number of generator is broken down from $2\times 3=6$ to $3$, so three symmetries (generators of symmetries, to be specific) are broken. Therefore, Goldstone's theorem tells us that there exists three massless Goldstone bosons. 
 
+What is the physical nature of these massless bosons? They can only be bound states of quarks. They arise from the fact that the vacuum is "charged" under the quark condensate operator, which simply says that the vacuum gives non-zero expectation value of quark condensate operators. Hence it is better to think of the massless boson as a result of the slow-varying of $U(x)$ in $\left\langle \overline{\psi}\psi \right\rangle=V^{3} U$, where we have neglected as many indices as possible.
 
+Then, as mentioned before, we parametrized $U(x)$ by pion fields,
+$$
+U(x) = \exp \left( \frac{i}{F_ {\pi}}\pi^{a}\sigma^{a} \right).
+$$
+This will be our basic degree of freedom, or building block, of the low-energy effective theory for pions. This seems like a leap of faith to me. It also shows how powerful is the tool of SSB, it enables us to say a lot about pion with very little knowledge about the actual structure of them.
 
+- - -
 
+Now let's proceed to construct a effective theory of Goldstone modes $U(x)$.  This effective model should respect all the low-energy symmetries that survived the SSB, in our case the chiral symmetry.
 
 The simplest dynamic, renormalizable Lagrangian in terms of $U$ satisfying the chiral symmetry reads
 $$
 \mathcal{L} = \frac{f_ {\pi}^{2}}{4} \mathrm{Tr}\,(\partial_ {\mu}U \partial^{\mu}U).
 $$
-The normalization coefficient is such that, if you expand $U$ in terms of sin and cos functions, the pion fields adopt the correct dynamic term,
+This is the so-called `chiral Lagrangian`. 
+
+The normalization coefficient chosen such that, if you expand $U$ in terms of sin and cos functions, the pion fields adopt the correct dynamic term,
 $$
 \mathcal{L} = \frac{1}{2}\partial_ {\mu}\phi \partial^{\mu}\phi + \dots.
 $$
+Keep in mind that we are interested in a low energy effective theory, and in low energy the higher derivative terms are always suppressed since the momenta can't be too high, otherwise we wouldn't be talking about low energy. However, *we can use this fact to expand our Lagrangian terms in terms of momenta*, or so-called derivative expansion. At leading order of derivative expansion, except for the kinetic term, we also have
+$$
+\mathrm{Tr}\,(U^{\dagger}\partial_ {\mu}U)^{2},\quad (\mathrm{Tr}\,U^{\dagger}\partial_ {\mu}U)^{2}.
+$$
+However $\mathrm{Tr}\, U^{\dagger}\partial_ {\mu}U$ vanishes because $U^{\dagger}\partial_ {\mu}U$ takes value in the Lie algebra ${\frak su}(N)$, which has zero trace. Or you can just write $U$ in terms of generators then it become apparent. Furthermore, we can use the property
+$$
+U^{\dagger}U=\mathbb{1}
+$$
+to write $\mathrm{Tr}\,(U^{\dagger}\partial_ {\mu}U)^{2}$ in terms of $\mathrm{Tr}\,(\partial_ {\mu}U^{\dagger} \partial^{\mu}U)$, so at the leading order of the derivative expansion, we just need the kinetic term.
+
+The interesting about the chiral Lagrangian
+$$
+\mathcal{L} = \frac{f_ {\pi}^{2}}{4} \mathrm{Tr}\,(\partial_ {\mu}U \partial^{\mu}U).
+$$
+is that, albeit the resemblance, it is **not a free theory**. This is because the target space, namely the space where the fields take value in, is not free, it is under some constraint. For example, you can never set $U=0$ since then it wouldn't be in $SU(2)$. Algebraically speaking, the theory is not free because $U$ are fixed to be special, unitary matrices. Geometrically speaking, the theory is not free because the target space of $U$ is $\mathbb{S}^{3}$, since $SU(2)\cong\mathbb{S}^{3}$. 
 
 - - -
-
-The chiral symmetry is a symmetry of the Lagrangian, thanks to the trace, but is it the symmetry of the vacuum? Setting the vacuum to be $\left\langle \pi \right\rangle=0$, which means 
-$$
-\left\langle U \right\rangle=\mathbb{1},
-$$
-under the chiral transformation we have 
-$$
-\left\langle U \right\rangle=\mathbb{1} \to \left\langle L U R^{\dagger} \right\rangle = L \mathbb{1} R^{\dagger} = L R^{\dagger},
-$$
-which equals to $\mathbb{1}$ iff $LR^{\dagger}=\mathbb{1}\implies L = R$. 
-
-
-
-
-
-The chiral transformation breaks to 
-$$
-SU(2)_ {L}\times SU(2)_ {R} \to SU(2)_ {V}
-$$
-where $V$ is for vector. In other words, *the chiral symmetry is spontaneously broken to $SU(2)$.*
-
-
-
-
-
 
 ## Classical Skyrme Model
 
