@@ -2,9 +2,9 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Note on the Skyrme Model, Classical and Quantum 			# 标题 
 subtitle:   based on Adkins1983, Manko2007, David Tong, etc.
-date:       2023-06-29 				# 时间
+date:       2023-06-30 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/background1.jpg 	#这篇文章标题背景图片
+header-img: img/background16.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - 
@@ -276,7 +276,21 @@ is that, albeit the resemblance, it is **not a free theory**. This is because th
 
 ## Classical Skyrme Model
 
-Let $N_ {f}=2$. Consider the simplest Skyrme model
+Let $N_ {f}=2$. We already mentioned that at low energy, the more derivatives a term has, the less contribution it has. The chiral model has only second order derivatives, but it is poised by the fact that there is no stable soliton solution, something referred to as Derrick's theorem, as we will discuss below. But first, before we present the problem let me first present the solution, that is to introduce higher-derivative-order corrections. There are only two linearly independent terms like that, depending on *whether you take the contraction first than trace later or the other way around*,
+$$
+(\mathrm{Tr}\,(\partial_ {\mu}U\partial^{\mu}U^{\dagger})) ^{2}\tag{term-I}
+$$
+and 
+$$
+(\mathrm{Tr}\,(\partial_ {\mu}U\partial_ {\nu}U^{\dagger})) ^{2}\tag{term-II}.
+$$
+
+Skyrme introduced a combination of these two terms, namely term-$\text{II}$ minus term-$\text{I}$,
+$$
+\mathrm{Tr}\,\left\{ \partial_ {\mu}U\partial_ {\nu}U^{\dagger} \partial^ {\mu}U\partial^ {\nu}U^{\dagger} - \partial_ {\mu}U\partial^{\mu}U^{\dagger} \partial_ {\nu}U\partial^{\nu}U^{\dagger}  \right\}  = \frac{1}{2} \mathrm{Tr}\,[\partial _ {\mu}U U^{\dagger},\partial _ {\nu}U U^{\dagger}]^{2}
+$$
+
+We have the simplest Skyrme model
 $$
 L = \frac{1}{16}F_ {\pi}^{2} \,\mathrm{Tr}\,(\partial _ {\mu}U\partial ^{\mu}U^{\dagger})+\frac{1}{32e^{2}}\mathrm{Tr}\,[\partial _ {\mu}U U^{\dagger},\partial _ {\nu}U U^{\dagger}]^{2}
 \tag{1}
@@ -349,6 +363,10 @@ which obeys $\partial_ {\mu}J^{\mu}=0$ due to the antisymmetric properties.
 
 What is the physical interpretation of $J^{\mu}$? The only candidate seems to be the vector transformation $U(1)$. *If we identify $J^{\mu}$ with $J_ {V}$, then we are identifying the solitons with baryons, for $J_ {V}$ is the baryon number current*. This is probably why we regard soliton in Skyrme model as candidates for baryons.
 
+**Remarks.** 
+1. The baryon number changes the sign under $U \leftrightarrow U^{\dagger}$ transformation. Something similar goes with the left and right current $L_ {\mu},R_ {\mu}$. 
+2. We state without proof that $B[U_ {1}U_ {2}]=B[U_ {1}]+B[U_ {2}]$.
+
 - - -
 
 Now having the expression for $B$, we can write the static energy in terms of it,
@@ -388,7 +406,22 @@ Then we can obtain the variational equation from it, then we can further solve i
 $$
 \left( \frac{1}{4}\widetilde{r}^{2}+2\sin ^{2}F \right)F'' + \frac{1}{2} \widetilde{r} F' + \sin (2F) F'^{2}- \frac{1}{4}\sin(2F) - \frac{\sin ^{2}F \sin 2F}{\widetilde{r}^{2}}=0.
 $$
-Then we can use numerical methods to solve it. It is a monotonically increasing function, and *the energy of this solution turns out to be about 25% higher than the bound*. So the Bogomolnyi bound can not be saturated for Skyrmions.
+Next, we can use numerical methods to solve it, with suitable boundary conditions, which are 
+- $F(x){\Large\mid}_ {x=0}=\mathbb{Z}\pi$, to make sure the Skyrmion is well defined at the origin,
+- $F(x){\Large\mid}_ {x=\infty}=0$, to make sure the total energy is finite.
+
+$F(x)$ is a monotonically increasing function, and *the energy of this solution turns out to be about 25% higher than the bound*. So the Bogomolnyi bound can not be saturated for Skyrmions.
+
+The winding number can also be written in terms of $F$,
+$$
+B = - \frac{2}{\pi}\int_{0}^{\infty} dr \, F' \sin ^{2}F. 
+$$
+In deriving the above formulae, it is helpful to adopt the angle parametrization of $\mathbb{S}^{3}$. Take the hedgehog solution to above formula we get $B=1$, as expected.
+
+
+
+
+
 
 - - -
 
@@ -418,7 +451,7 @@ U = A U_ {0} A^{-1}
 $$
 is also a soliton solution. Thus we have a space of solutions parametrized by $A$, by parametrization we mean that there is a map
 $$
-A \to \text{rotation space of soliton solutions}.
+A\in SU(2) \to \text{rotational space of soliton solutions}.
 $$
 
 ### Quantization
