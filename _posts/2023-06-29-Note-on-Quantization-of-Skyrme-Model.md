@@ -293,6 +293,11 @@ $$
 $$
 and reduce the energy, thus $\phi_ {0}$ can not be stable. In the case of Skyrme model we don't have a scalar field but this conclusion still holds, as can be shown by writing down a solution and the energy functional, and study what happens if the soliton is shrunk. Therefore, to stabilize the soliton solution, we need extra terms in the Lagrangian involving the derivatives. 
 
+**Remarks.**
+1. There is no first principal reason for including the Skyrme term. It seems quite *ad hoc*.
+2. It is a little counter-intuitive, but the Skyrme term in fact contains only *second order time derivative*. This can be seen by expanding the bracket, and making use of the properties of $SU(2)$. This is important for second order time derivative is what we want in deriving the equation of motion. And the Skyrme term is unique in this sense.
+3. The coupling $e^{2}$ is dimensionless.
+
 - - -
 
 Recall that $U$ is a SU(2) matrix, under the chiral transformation 
@@ -301,28 +306,119 @@ U \to LUR^{-1}, \quad  L, R \in SU(2).
 $$
 $F_ {\pi}=186 \text{ MeV}$ is the pion decay constant, $e^{2}$ is a dimensionless parameter. The last term, the trace of a commutator, was first introduced by Skyrme to stabilize the soliton solution.
 
-To find the solution of the soliton, we adopt the spherical symmetric ansatz
+To simplify the notation, we denote the Noether current associated to the $SU(N_ {f})_ {L}$ by
 $$
-U_ {0}(x) = \exp[iF(r) \tau \cdot \hat{x}], \quad  F(r){\Large\mid}_ {r=0} =\pi,\,F(r){\Large\mid}_ {r=\infty} =0.
+L_ {\mu} = U^{\dagger}\partial_ {\mu}U.
 $$
-Take it to the Lagrangian, Legendre transform the Lagrangian to energy functional, we have the expression of the energy of the soliton in terms of the profile funciton $F(r)$:
+The Noether current associated to the right-handed $SU(2)$ is left as a homework, you'll see it is related to $L_ {\mu}$ by a hermitian conjugation. 
+
+With some manipulation, you can see that the *static* energy can be written entirely in terms of $L_ {\mu}$,
+$$
+E = \frac{F^{2}_ {\pi}}{4} \int d^{3}x \,  \left( L_ {i}L^{\dagger}_ {i}  - \frac{1}{4e^{2}F^{2}_ {\pi}}(\epsilon_ {ijk}L_ {j}L_ {k}) (\epsilon_ {imn}L^{\dagger}_ {m}L^{\dagger}_ {n}) \right).
+$$
+
+We now use Bogomolnyi trick, namely to complete the square,
+$$
+E = \frac{F^{2}_ {\pi}}{4} \int d^{3}x \,  \mathrm{Tr}\,\left\lvert L_ {i}\mp \frac{1}{2eF_ {\pi}}\epsilon_ {ijk}L_ {j}L_ {k} \right\rvert ^{2}
+\pm \frac{F_ {\pi}}{4e}\int d^{3}x \,  \epsilon_ {ijk}L_ {i}L_ {j}L_ {k}.
+$$
+Then, follow the standard procedure, we need to show that the second term is actually a *topological constant* (or topological charge), which will justify the statement that the solution to the EOM is given by the field configuration that sets the square term in $E$ zero. 
+
+- - -
+
+A field configuration is a map
+$$
+U(x): \mathbb{R}^{3}\to SU(2)
+$$
+where $\mathbb{R}^{3}$ is the physical space. If we insist that the field goes to the same vacuum at the spatial boundary, then we can compactify $\mathbb{R}^{3}$ to $\mathbb{S}^{3}$. This is a reflection of the idea that the kinds of function you define on a space will in tern decide the topological structure of the supporting space itself. So now the field configuration is a map
+$$
+U(x): \mathbb{S}^{3}\to SU(2)\cong \mathbb{S}^{3},
+$$
+which is classified by the homotopy group $\pi_ {3}(\mathbb{S}^{3})\cong\mathbb{Z}$. With some mathematics we can show that, the winding number $B$ is given by
+$$
+B = \frac{1}{24\pi^{2}} = \int d^{3}x \,  \epsilon_ {ijk}\mathrm{Tr}\, 
+(U^{\dagger}\partial_ {i} U U^{\dagger}\partial_ {j} UU^{\dagger}\partial_ {k} U)
+$$
+where the derivative acts on the next matrix only. 
+
+We can go further and write down a local current associated to $B=\int  \,J^0$,
+$$
+J^{\mu} = \frac{1}{24\pi^{2}}\epsilon^{\mu \nu \rho \sigma} \mathrm{Tr}\,(U^{\dagger}_ {\nu}UU^{\dagger}_ {\rho}UU^{\dagger}_ {\sigma}U)
+$$
+which obeys $\partial_ {\mu}J^{\mu}=0$ due to the antisymmetric properties.
+
+What is the physical interpretation of $J^{\mu}$? The only candidate seems to be the vector transformation $U(1)$. *If we identify $J^{\mu}$ with $J_ {V}$, then we are identifying the solitons with baryons, for $J_ {V}$ is the baryon number current*. This is probably why we regard soliton in Skyrme model as candidates for baryons.
+
+- - -
+
+Now having the expression for $B$, we can write the static energy in terms of it,
+$$
+E \geq  \frac{6\pi^{2}F_ {\pi}}{e}B.
+$$
+When the equality is taken, we say the solution saturates the Bogomolnyi condition, and corresponding solitons (with nontrivial topology, namely $B\neq 0$) are called `Skyrmions`.
+
+- - -
+
+To find the Skyrmion solution, one would naively try to solve the first-order differential equation. 
+$$
+0=L_ {i}\mp \frac{1}{2eF_ {\pi}}\epsilon_ {ijk}L_ {j}L_ {k}.
+$$
+There is nothing wrong with this approach, actually it is the standard approach in solving solitons in general, however in our particular case this doesn't seem to help. *One can show that there is no solution to the firsts order differential equation.* Instead we must turn to the full equation of motion, which is of second order,
+$$
+\boxed {
+\partial_ {\mu}L^{\mu} = \frac{1}{4F^{2}_ {\pi}e^{2}}\partial_ {\mu}[L_ {\nu},[L^{\mu},L^{\nu}]]. \tag{EoM for Skyrmion}
+} 
+$$
+
+We adopt the spherical symmetric ansatz (`hedgehog ansatz`)
+$$
+\boxed {
+U_ {0}(x) = \exp[iF(r) \tau \cdot \hat{x}], \quad  F(r){\Large\mid}_ {r=0} =\pi,\,F(r){\Large\mid}_ {r=\infty} =0. \tag{hedgehog}
+} 
+$$
+
+Take it to the Lagrangian, Legendre transform the Lagrangian to energy functional, we have the expression of the energy of the soliton in terms of the profile function $F(r)$:
 $$
 M = 4\pi \int_{0}^{\infty} dr \, r^{2}\left\{ \frac{1}{8}F_ {\pi}^{2}\left[ (\partial _ {r}F)^{2}+2\frac{\sin ^{2}F}{r^{2}} \right] + \frac{1}{2e^{2}} \frac{\sin ^{2}F}{r^{2}}
 \left[ \frac{\sin ^{2}F}{r^{2}}+2(\partial _ {r}F)^{2} \right]\right\} , 
 \tag{2}
 $$
+
 Then we can obtain the variational equation from it, then we can further solve it numerically. Introduce the dimensionless parameter $\widetilde{r}:= eF_ {\pi}r$, the equation of motion reads
 $$
 \left( \frac{1}{4}\widetilde{r}^{2}+2\sin ^{2}F \right)F'' + \frac{1}{2} \widetilde{r} F' + \sin (2F) F'^{2}- \frac{1}{4}\sin(2F) - \frac{\sin ^{2}F \sin 2F}{\widetilde{r}^{2}}=0.
 $$
+Then we can use numerical methods to solve it. It is a monotonically increasing function, and *the energy of this solution turns out to be about 25% higher than the bound*. So the Bogomolnyi bound can not be saturated for Skyrmions.
 
-Now we can make use of the *global* $SU(2)$ symmetry of the Lagrangian, namely if $U_ {0}$ is a soliton solution, then
+- - -
+
+However, there is another level of symmetry breaking here, where the original $SU(2)_ {L}\times SU(2)_ {R}$ symmetry is broken by the Skyrmion solution. If we insist that 
+$$
+U(x) {\Large\mid}_ {x\to \infty }= \mathbb{1} 
+$$
+then the symmetry is broken down to 
+$$
+SU(2)_ {L}\times SU(2)_ {R} \to SU(2)_ {V},
+$$
+for if left-handed and right-handed rotations are different, then $\mathbb{1}$ will be changed. 
+
+### How to parametrized the rotation
+
+Recall that in the presence of a Skyrmion, the symmetry is broken to $SU(2)_ {V}$, to preserve $U(X)=\mathbb{1}$ at spatial infinity. We can include the spatial rotational symmetry, we have the symmetry group
+$$
+SU(2)_ {\text{rot}} \times  SU(2)_ {V}. \tag{Skyrmion symmetry group}
+$$
+The single Skyrmion is not invariant under either of these $SU(2)$ groups separately. However, *it is invariant under the diagonal $SU(2)$ which acts simultaneously as a spatial and flavor rotation*. To be specific, a spatial rotation will change the Skyrmion configuration (think of it as a hedgehog), but we can use isospin rotation to rotate it back, for both the spatial and isospin rotations will rotate the hedgehog.
+
+The subgroup of the Skyrmion symmetry group which acts non-trivially on the Skyrmion solution can be used to generate new solutions. These are trivially related to the original, and just change its embedding in the target space. Nonetheless, they have important consequences, as we will see below.
+
+Now we can make use of the *global* $SU(2)_ {\text{rot}}$ symmetry of the Lagrangian, namely if $U_ {0}$ is a soliton solution, then
 $$
 U = A U_ {0} A^{-1}
 $$
 is also a soliton solution. Thus we have a space of solutions parametrized by $A$, by parametrization we mean that there is a map
 $$
-A \to \text{space of soliton solutions}.
+A \to \text{rotation space of soliton solutions}.
 $$
 
 ### Quantization
