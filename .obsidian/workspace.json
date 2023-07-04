@@ -8,36 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "14181dd37f74e034",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "932f8178f9d1f198",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2023-06-27-The-Electromagnetic-Connection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a7c33f1846c7c84a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "_posts/2023-06-29-Note-on-Quantization-of-Skyrme-Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c27040f84aea2ecc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-04-03-De-Rhams Theorem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27ce5cdfec4e7d08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-3-The-Electromagnetic-Connection.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rham",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-29-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-07-3-The-Electromagnetic-Connection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-29-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-07-3-The-Electromagnetic-Connection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-29-Note-on-Quantization-of-Skyrme-Model.md"
+                "file": "_posts/2023-07-3-The-Electromagnetic-Connection.md"
               }
             }
           }
@@ -180,13 +181,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a7c33f1846c7c84a",
+  "active": "27ce5cdfec4e7d08",
   "lastOpenFiles": [
+    "_posts/2023-04-03-De-Rhams Theorem.md",
+    "_posts/2023-07-3-The-Electromagnetic-Connection.md",
+    "Untitled 2.md",
+    "_posts/2023-06-29-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2022-7-17-Conventions-and-Formula.md",
-    "_drafts/2023-06-27-The-Electromagnetic-Connection.md",
+    "_posts/2023-3-23-Synges-Theorem.md",
+    "Pasted image 20230322222151.png.md",
+    "Untitled 1.md",
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "Untitled.md",
-    "_posts/2023-06-29-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-06-21-The-Phase-Space.md",
     "_posts/2023-06-20-Note-on-Meson-Kink-Scattering.md",
     "_drafts/2023-06-28-Introduction-to-Higher-Form-Symmetry.md",
@@ -203,11 +209,6 @@
     "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
     "_drafts/2023-06-12-Transseries.md",
     "_drafts/2023-05-31-Analytic-Structure.md",
-    "_posts/2023-06-13-Connections-in-a-Vector-Bundle.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "2023-06-12-Transseries.md",
-    "_posts/2023-05-28-Symmetry-groupoid.md",
     "img/phase.png",
     "Pasted image 20230608164804.png",
     "Pasted image 20230608164632.png",
