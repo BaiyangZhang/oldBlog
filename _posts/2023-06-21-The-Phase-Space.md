@@ -1,7 +1,7 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
 title:     The Phase Space 			# 标题 
-subtitle:   An geometric view
+subtitle:   A geometric perspective
 date:       2023-06-21 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background18.jpg 	#这篇文章标题背景图片
@@ -11,7 +11,7 @@ tags:								#标签
     - quantization
 ---
 
-The first step to understand quantization fully, especially the geometric quantization, is to understand the familiar phase space but from a more geometric view.
+The first step to understand quantization fully, especially the geometric quantization, is to understand the familiar phase space but from a more geometric point of view.
 
 ### The Phase Space in Mechanics
 

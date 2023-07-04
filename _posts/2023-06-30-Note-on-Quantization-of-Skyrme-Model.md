@@ -460,7 +460,7 @@ $$
 A\in SU(2) \to \text{rotational space of soliton solutions}.
 $$
 
-### Quantization
+## Quantization
 
 To study the spin and isospin of a soliton, we need to quantize the soliton solution, by thinking of $A$ as a quantum mechanical variable, which is the collective coordinates. 
 
