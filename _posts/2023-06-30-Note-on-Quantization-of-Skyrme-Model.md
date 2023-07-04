@@ -388,14 +388,23 @@ $$
 } 
 $$
 
-We adopt the spherical symmetric ansatz (`hedgehog ansatz`)
+We adopt the "spherical symmetric" ansatz (`hedgehog ansatz`)
 $$
 \boxed {
 U_ {0}(x) = \exp[iF(r) \tau \cdot \hat{x}], \quad  F(r){\Large\mid}_ {r=0} =\pi,\,F(r){\Large\mid}_ {r=\infty} =0. \tag{hedgehog}
 } 
 $$
+where $\hat{x}$ is the unit vector in the direction of $\mathbf{x}$. The reason why I put quotes around "spherical symmetric" is that, the hedgehog solution is not really spherical symmetric like two sphere. To make it easier to visualize it, imagine an actual prickly hedgehog whose spines gives the direction of $U_ {0}(x)$, $\hat{x}$ in the exponent to be more specific. 
 
-Take it to the Lagrangian, Legendre transform the Lagrangian to energy functional, we have the expression of the energy of the soliton in terms of the profile function $F(r)$:
+![](/img/hedgehog.png)
+
+When speaking of rotation there are two things we could rotate,
+- the physical space $\mathbf{x}$, a point in space is rotated to another point. They corresponds to the position of the spines of a hedgehog;
+- the inner space, or isospace of the $SU(2)$ matrix $U = \exp(i\theta_ {a}\tau_ {a})$ where $\theta_ {a}$'s are angle-like parameters that parameterize the matrix. They corresponds to the directions of hedgehog spines.
+
+When rotating a hedgehog, to fully realized the invariance, we must rotate both the position of the spines and their directions at the same pace! Of course this is taken care of automatically when you rotate a real hedgehog, because both the spines and their directions live in the same space, the physical space. However, regarding a hedgehog solution, the spines live in a different space, so remember to rotate it as well if you want the invariance!
+
+Anyways. Taking the hedgehog ansatz it to the Lagrangian, Legendre transform the Lagrangian to energy functional, we have the expression of the energy of the soliton in terms of the profile function $F(r)$:
 $$
 M = 4\pi \int_{0}^{\infty} dr \, r^{2}\left\{ \frac{1}{8}F_ {\pi}^{2}\left[ (\partial _ {r}F)^{2}+2\frac{\sin ^{2}F}{r^{2}} \right] + \frac{1}{2e^{2}} \frac{\sin ^{2}F}{r^{2}}
 \left[ \frac{\sin ^{2}F}{r^{2}}+2(\partial _ {r}F)^{2} \right]\right\} , 
