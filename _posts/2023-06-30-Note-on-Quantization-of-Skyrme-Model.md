@@ -437,7 +437,9 @@ then the symmetry is broken down to
 $$
 SU(2)_ {L}\times SU(2)_ {R} \to SU(2)_ {V},
 $$
-for if left-handed and right-handed rotations are different, then $\mathbb{1}$ will be changed. 
+for if left-handed and right-handed rotations are different, then $\mathbb{1}$ will not be preserved. 
+
+
 
 ### How to parametrized the rotation
 
