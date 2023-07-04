@@ -8,42 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "14181dd37f74e034",
+            "id": "c27040f84aea2ecc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-21-The-Phase-Space.md",
+                "file": "_posts/2023-04-03-De-Rhams Theorem.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "34d698383e78432b",
+            "id": "27ce5cdfec4e7d08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-07-3-The-Electromagnetic-Connection.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2eaa5b27f2f62efd",
+            "id": "fa738c7173f2e65b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-03-The-Electromagnetic-Connection.md",
+                "file": "_drafts/2023-06-28-Introduction-to-Higher-Form-Symmetry.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-21-The-Phase-Space.md",
+                "file": "_drafts/2023-06-28-Introduction-to-Higher-Form-Symmetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-21-The-Phase-Space.md",
+                "file": "_drafts/2023-06-28-Introduction-to-Higher-Form-Symmetry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-21-The-Phase-Space.md"
+                "file": "_drafts/2023-06-28-Introduction-to-Higher-Form-Symmetry.md"
               }
             }
           }
@@ -179,28 +180,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14181dd37f74e034",
+  "active": "fa738c7173f2e65b",
   "lastOpenFiles": [
-    "_posts/2022-7-17-Conventions-and-Formula.md",
-    "_posts/2023-07-03-The-Electromagnetic-Connection.md",
-    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+    "_posts/2023-04-03-De-Rhams Theorem.md",
+    "_posts/2023-07-3-The-Electromagnetic-Connection.md",
     "Untitled 2.md",
-    "Untitled 1.md",
+    "_posts/2023-06-29-Note-on-Quantization-of-Skyrme-Model.md",
+    "_posts/2022-7-17-Conventions-and-Formula.md",
+    "_posts/2023-3-23-Synges-Theorem.md",
     "Pasted image 20230322222151.png.md",
-    "[./img/hedgehog.png.md",
-    "[./img",
-    "[.",
-    "_drafts/2023-06-27-The-Electromagnetic-Connection.md",
-    "_posts/2022-12-26-Basics-of-Distributions.md",
-    "_posts/2022-12-27-Thomas-Hobbes.md",
-    "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md",
-    "[/img/hedgehog.png.md",
-    "[/img",
-    "[",
-    "img/hedgehog.png",
+    "Untitled 1.md",
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "Untitled.md",
-    "_posts/2023-06-27-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-06-21-The-Phase-Space.md",
     "_posts/2023-06-20-Note-on-Meson-Kink-Scattering.md",
     "_drafts/2023-06-28-Introduction-to-Higher-Form-Symmetry.md",
@@ -212,6 +203,11 @@
     "_posts/2023-06-15-Complex-Vector-Space.md",
     "2023-06-16-Representables-in-Category-Theory.md",
     "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
+    "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
+    "_drafts/2023-05-07-soliton-particle-duality.md",
+    "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
+    "_drafts/2023-06-12-Transseries.md",
+    "_drafts/2023-05-31-Analytic-Structure.md",
     "img/phase.png",
     "Pasted image 20230608164804.png",
     "Pasted image 20230608164632.png",
@@ -222,10 +218,14 @@
     "img/chatgpt-cn.co.zip",
     "img/Unconfirmed 358518.crdownload",
     "img/sustainability-13-00351.pdf",
+    "img/Unconfirmed 453773.crdownload",
     "img/jacobiEllipse.jpg",
+    "img/jacobiEllipse.jpg.crdownload",
     "img/3holes.png",
+    "Untitled 1",
     "img/Weihai3.png",
     "img/Weihai2.png",
-    "img/Weihai1.png"
+    "img/Weihai1.png",
+    "img/Pastedimage20230429112158.png"
   ]
 }
