@@ -427,14 +427,9 @@ B = - \frac{2}{\pi}\int_{0}^{\infty} dr \, F' \sin ^{2}F.
 $$
 In deriving the above formulae, it is helpful to adopt the angle parametrization of $\mathbb{S}^{3}$. Take the hedgehog solution to above formula we get $B=1$, as expected.
 
-
-
-
-
-
 - - -
 
-However, there is another level of symmetry breaking here, where the original $SU(2)_ {L}\times SU(2)_ {R}$ symmetry is broken by the Skyrmion solution. If we insist that 
+Besides the SSB of chiral symmetry, there is another level of symmetry breaking here, where the original $SU(2)_ {L}\times SU(2)_ {R}$ symmetry is broken by the Skyrmion solution. If we insist that 
 $$
 U(x) {\Large\mid}_ {x\to \infty }= \mathbb{1} 
 $$
