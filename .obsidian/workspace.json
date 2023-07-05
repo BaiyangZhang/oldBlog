@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-06-16-Representables-in-Category-Theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-21-The-Phase-Space.md",
+                "file": "_posts/2023-06-16-Representables-in-Category-Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-21-The-Phase-Space.md",
+                "file": "_posts/2023-06-16-Representables-in-Category-Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-21-The-Phase-Space.md"
+                "file": "_posts/2023-06-16-Representables-in-Category-Theory.md"
               }
             }
           }
@@ -179,11 +179,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14181dd37f74e034",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
+    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+    "_posts/2023-06-21-The-Phase-Space.md",
     "_posts/2022-7-17-Conventions-and-Formula.md",
     "_posts/2023-07-03-The-Electromagnetic-Connection.md",
-    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
     "Untitled 2.md",
     "Untitled 1.md",
     "Pasted image 20230322222151.png.md",
@@ -201,7 +202,6 @@
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "Untitled.md",
     "_posts/2023-06-27-Note-on-Quantization-of-Skyrme-Model.md",
-    "_posts/2023-06-21-The-Phase-Space.md",
     "_posts/2023-06-20-Note-on-Meson-Kink-Scattering.md",
     "_drafts/2023-06-28-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-06-20-Note-on-Quantization-of-Skyrme-Model.md",
@@ -210,7 +210,7 @@
     "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-06-17-The-Workers-and-the-Fatherland.md",
     "_posts/2023-06-15-Complex-Vector-Space.md",
-    "2023-06-16-Representables-in-Category-Theory.md",
+    "_posts/2023-06-16-Representables-in-Category-Theory.md",
     "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
     "img/phase.png",
     "Pasted image 20230608164804.png",
