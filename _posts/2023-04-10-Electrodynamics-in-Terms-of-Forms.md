@@ -615,7 +615,7 @@ $$
 \star \alpha = (\star\alpha) _ {J_ {<}} dx^{J}, \quad  (\star\alpha)_ {J} = \sqrt{ \left\lvert g \right\rvert  } \alpha^{K} \epsilon_ {K_ {<}J_ {<}.}
 }
 $$
-and where the upper indices $K$ in $\alpha^{K}$ indicate that all of the covariant indices in a have been raised by the metric tensor. Note again that here $\epsilon_ {KJ}$ is **not** the Levi-Civita tensor but the Levi-Civita symbol, it simplifies the calculation but the price to pay is that $\alpha^{K}\epsilon_ {K_ {<}J_ {<}}$ can no longer be carelessly rewritten as $\alpha_ {K}\epsilon^{K_ {<}}_ {\;\;\;\; J_ {<}}$. 
+and where the upper indices $K$ in $\alpha^{K}$ indicate that all of the covariant indices in $\alpha$ have been raised by the metric tensor. Note again that here $\epsilon_ {KJ}$ is **not** the Levi-Civita tensor but the Levi-Civita symbol, it simplifies the calculation but the price to pay is that $\alpha^{K}\epsilon_ {K_ {<}J_ {<}}$ can no longer be carelessly rewritten as $\alpha_ {K}\epsilon^{K_ {<}}_ {\;\;\;\; J_ {<}}$. 
 
 For an important special case, the 0-form that is the constant function $f=1$ has
 $$
