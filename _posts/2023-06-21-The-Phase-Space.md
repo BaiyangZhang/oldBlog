@@ -48,7 +48,7 @@ This space $T^{\ast}M$ in mechanics is called the `phase space` of the dynamical
 - $TM$, the `tangent bundle` to $M$, is the space of all the generalized velocities at all the point of $M$, is called the tangent bundle. The Lagrangian is a $\mathbb{R}$-valued functions on $TM$;
 - $T^{\ast}M$, the `cotangent bundle` to $M$, is called the `phase space`. The Hamiltonian can be regarded as a $\mathbb{R}$-valued function on the phase space, similar to the Lagrangian.
 
-$M$ and $T^{\ast}M$ exist as soon as the base manifold $M$ exists, but the identification between vectors (elements of $TM$) and covectors can not be done without introducing the Lagrangian $L$, since $p := \partial L / \partial \dot{q}$. We usually call the Lagrangian the dynamics. 
+$M$ and $TM$ exist as soon as the base manifold $M$ exists, but the identification between vectors (elements of $TM$) and covectors can not be done without introducing the Lagrangian $L$, since $p := \partial L / \partial \dot{q}$. We usually call the Lagrangian the dynamics. 
 
 Since we have lower and upper indices, a natural question to ask is, what can be used to lower or raise the indices? Recall that for a generic manifold with vectors and covectors, the `metric` $g_ {ij}$ or its inverse $g^{ij}$ can be used to do that, then we can guess there also exists some kinds of metric on the configuration space $TM$. Indeed, some simple mathematical manipulations show that the metric can be read off from
 $$

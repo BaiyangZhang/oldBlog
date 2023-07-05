@@ -439,8 +439,6 @@ SU(2)_ {L}\times SU(2)_ {R} \to SU(2)_ {V},
 $$
 for if left-handed and right-handed rotations are different, then $\mathbb{1}$ will not be preserved. 
 
-
-
 ### How to parametrized the rotation
 
 Recall that in the presence of a Skyrmion, the symmetry is broken to $SU(2)_ {V}$, to preserve $U(X)=\mathbb{1}$ at spatial infinity. We can include the spatial rotational symmetry, we have the symmetry group
@@ -460,11 +458,25 @@ $$
 A\in SU(2) \to \text{rotational space of soliton solutions}.
 $$
 
-## Quantization
+- - -
 
-To study the spin and isospin of a soliton, we need to quantize the soliton solution, by thinking of $A$ as a quantum mechanical variable, which is the collective coordinates. 
+A generic solution would have nine collective coordinates, or moduli, including 1) three spatial translation, 2) three spatial rotation and 3) three isospin rotation. The situation is a little special for $B=1$ Skyrmion hedgehog solution because there the spatial rotation and isospin rotation coincide and we just have $6$ moduli in total. 
 
-Since the collective coordinates parameterize the solution space, a.k.a. moduli space, we now have a means to describe the motion of a soliton. Every point in the moduli space corresponds to a specific soliton solution, then a trajectory of a soliton would ideally be denoted by a curve in the moduli space. The converse would also hold in the ideal case, namely a curve in the moduli space would give us uniquely a soliton trajectory. It would be nice if there exists a one-to-one correspondence between the curves and the soliton trajectory. It should indeed be the case if no discrete symmetry jumps out and ruins everything. To be more specific, one way to ruin this bijection between curves in the moduli space and actual soliton trajectory is that if some discrete symmetry is modded out in constructing the moduli space, then there may exist special points where the discrete symmetry can make the soliton trajectory not uniquely defined, these are called `stacky points`, put it short, there exists more than one way for a curve to cross a stacky point. *Could there be stacky points in the moduli space of Skyrmions?* Maybe a related question is, what if the gauge group is $SU(N) / Z_ {N}$ instead of $SU(N)$? Changing the gauge group to $SU(N) / Z_ {N}$ has many consequences, one of them is we have introduced an extra *discrete symmetry*, $Z_ {N}$ symmetry of the gauge group, therefor to the moduli space, and this could make the moduli space not fine anymore, assuming the moduli space of Skyrmion is fine in the first place. Recall that
+The `numerical` configuration for low charged Skyrmions can be found at [Skyrmion nLab](https://ncatlab.org/nlab/show/skyrmion), where the baryon density is plot. I will not dwell into details, just a few comments.
+
+**Remarks.**
+- For $B\geq 2$ there exists only discrete symmetries. For instance $B=3$ has tetrahedral symmetry and $B=4$ has cubic symmetry.
+- They do not saturate the Bogomolnyi bound.
+
+### The rational map ansatz
+
+The rational map method surely looks interesting and important, but maybe it is not needed for my current project, so I'll postpone it to later. This chapter is a place-holder.
+
+### Some mumble-jumble. 
+
+This part is to supposed to be overlooked by readers. I wrote it only for fun, I don't think it is leading anywhere.
+
+Since the $A$ parameterize the isospin space, maybe we can regard it as some kind of moduli space, we now have a means to describe the motion of a soliton. Every point in the moduli space corresponds to a specific soliton solution, then a trajectory of a soliton would ideally be denoted by a curve in the moduli space. The converse would also hold in the ideal case, namely a curve in the moduli space would give us uniquely a soliton trajectory. It would be nice if there exists a one-to-one correspondence between the curves and the soliton trajectory. It should indeed be the case if no discrete symmetry jumps out and ruins everything. To be more specific, one way to ruin this bijection between curves in the moduli space and actual soliton trajectory is that if some discrete symmetry is modded out in constructing the moduli space, then there may exist special points where the discrete symmetry can make the soliton trajectory not uniquely defined, these are called `stacky points`, put it short, there exists more than one way for a curve to cross a stacky point. *Could there be stacky points in the moduli space of Skyrmions?* Maybe a related question is, what if the gauge group is $SU(N) / Z_ {N}$ instead of $SU(N)$? Changing the gauge group to $SU(N) / Z_ {N}$ has many consequences, one of them is we have introduced an extra *discrete symmetry*, $Z_ {N}$ symmetry of the gauge group, therefor to the moduli space, and this could make the moduli space not fine anymore, assuming the moduli space of Skyrmion is fine in the first place. Recall that
 
 **Fine moduli space.** A `fine moduli space` is a space $M$, such that
 1. the points in $M$ are in 1-2-1 correspondence with *isomorphism classes* of the objects we are studying;
@@ -472,7 +484,13 @@ Since the collective coordinates parameterize the solution space, a.k.a. moduli 
 3. Every *continuous map* from $T$ to $M$ is the moduli map of some family parametrized by $T$;
 4. if the two families have the same moduli map, they are isomorphic families. 
 
-- - -
+## Quantization
+
+
+
+### Spin quantization
+
+To study the spin and isospin of a soliton, we need to quantize the soliton solution, by thinking of $A$ as some kind of "generalized coordinates", then we can try to quantize it by introducing the canonical commutation relations.
 
 To be able to describe the time-dependent rotation (not motion) of Skyrmions, let's make $A$ time dependent, $A\to A(t)$. Then a time-dependent soliton solution is given by
 $$
