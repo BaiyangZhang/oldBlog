@@ -10,9 +10,7 @@ tags:								#标签
     - 
 ---
 
-# Static Properties of Nucleons in the Skyrme Model
-
-## Introduction
+# Introduction
 
 In his 1973 paper "A planar diagram theory for strong interactions", 't Hooft treated the parameter $N$ in the gauge group $SU(N)$ or $U(N)$ as a free parameter, and explained that in the $N\to \infty$ limit, the Feynman diagrams arrange into sets with different topological structure according to its contribution in powers of $1 / N$. For the sake of simplicity he didn't require the trace of the ${\frak g}$-valued gauge field $A$ to be traceless, thus instead of $SU(N)$ the gauge group is actually $U(N)$. As a result there will be an extra photon corresponding to the $U(1)$ component of $U(1)$, which will be discarded at the last step. 't Hooft introduced the double-line notation and each closed group index circle will generate a factor of $\delta^{i}_ {i}=N$, making it convenient to count the factor of $N$ of a given Feynman diagram. Based on this, 't Hooft made use of the Euler theorem saying that $\chi=2-2g$ where $\chi$ is the Euler characteristic and $g$ the genus of a manifold, and reached the conclusion that, if $g^{2}N$ is kept fixed at large $N$, then *the planar diagrams with genus zero and one  dominate*. That is, to treat the double-line Feynman diagrams as the boundary of a manifold, then we can talk about the genus of it. *Regarding non-planar diagrams, each "handle" pay a price $1 / N^{2}$*.
 
@@ -274,7 +272,7 @@ is that, albeit the resemblance, it is **not a free theory**. This is because th
 
 - - -
 
-## Classical Skyrme Model
+# Classical Skyrme Model
 
 Let $N_ {f}=2$. We already mentioned that at low energy, the more derivatives a term has, the less contribution it has. The chiral model has only second order derivatives, but it is poised by the fact that there is no stable soliton solution, something referred to as Derrick's theorem, as we will discuss below. But first, before we present the problem let me first present the solution, that is to introduce higher-derivative-order corrections. There are only two linearly independent terms like that, depending on *whether you take the contraction first than trace later or the other way around*,
 $$
@@ -383,16 +381,16 @@ $$
 $$
 There is nothing wrong with this approach, actually it is the standard approach in solving solitons in general, however in our particular case this doesn't seem to help. *One can show that there is no solution to the firsts order differential equation.* Instead we must turn to the full equation of motion, which is of second order,
 $$
-\boxed {
-\partial_ {\mu}L^{\mu} = \frac{1}{4F^{2}_ {\pi}e^{2}}\partial_ {\mu}[L_ {\nu},[L^{\mu},L^{\nu}]]. \tag{EoM for Skyrmion}
-} 
+\boxed{
+\partial_ {\mu}L^{\mu} = \frac{1}{4F^{2}_ {\pi}e^{2}}\partial_ {\mu}[L_ {\nu},[L^{\mu},L^{\nu}]].
+}  \tag{EoM for Skyrmion}
 $$
 
 We adopt the "spherical symmetric" ansatz (`hedgehog ansatz`)
 $$
-\boxed {
-U_ {0}(x) = \exp[iF(r) \tau \cdot \hat{x}], \quad  F(r){\Large\mid}_ {r=0} =\pi,\,F(r){\Large\mid}_ {r=\infty} =0. \tag{hedgehog}
-} 
+\boxed{
+U_ {0}(x) = \exp[iF(r) \tau \cdot \hat{x}], \quad  F(r){\Large\mid}_ {r=0} =\pi,\,F(r){\Large\mid}_ {r=\infty} =0.
+}  \tag{hedgehog}
 $$
 where $\hat{x}$ is the unit vector in the direction of $\mathbf{x}$. The reason why I put quotes around "spherical symmetric" is that, the hedgehog solution is not really spherical symmetric like two sphere. To make it easier to visualize it, imagine an actual prickly hedgehog whose spines gives the direction of $U_ {0}(x)$, $\hat{x}$ in the exponent to be more specific. 
 
@@ -439,6 +437,13 @@ SU(2)_ {L}\times SU(2)_ {R} \to SU(2)_ {V},
 $$
 for if left-handed and right-handed rotations are different, then $\mathbb{1}$ will not be preserved. 
 
+- - -
+
+We can also add the mass term to the pion field. The physical vacuum is set to be $\mathbb{1}$, thus the mass term should vanish at $U=1$. Then of course it should respect the $SU(2)_ {L}\times SU(2)_ {R}$ symmetry. The mass term with correct normalization is 
+$$
+\mathcal{L}_ {\text{mass}} = \frac{m^{2}_ {\pi} F^{2}_ {\pi}}{2}\mathrm{Tr}\,(U+U^{\dagger}-2\mathbb{1}).
+$$
+
 ### How to parametrized the rotation
 
 Recall that in the presence of a Skyrmion, the symmetry is broken to $SU(2)_ {V}$, to preserve $U(X)=\mathbb{1}$ at spatial infinity. We can include the spatial rotational symmetry, we have the symmetry group
@@ -472,7 +477,7 @@ The `numerical` configuration for low charged Skyrmions can be found at [Skyrmio
 
 The rational map method surely looks interesting and important, but maybe it is not needed for my current project, so I'll postpone it to later. This chapter is a place-holder.
 
-### Some mumble-jumble. 
+### Some mumble-jumble
 
 This part is to supposed to be overlooked by readers. I wrote it only for fun, I don't think it is leading anywhere.
 
@@ -484,18 +489,94 @@ Since the $A$ parameterize the isospin space, maybe we can regard it as some kin
 3. Every *continuous map* from $T$ to $M$ is the moduli map of some family parametrized by $T$;
 4. if the two families have the same moduli map, they are isomorphic families. 
 
-## Quantization
+# Quantization of Skyrme Model
 
+Before quantizing the theory, let's take a look at the symmetry of the Lagrangian.
 
+- Charge symmetry $U\to U^{\dagger}$. This is guaranteed by the cyclic property of the trace in the Lagrangian. 
+- Parity symmetry $x\leftrightarrow (-x)$. 
+- Time reversal symmetry, $t\leftrightarrow(-t)$. 
 
-### Spin quantization
+So, all of the $C,P$ and $T$ symmetries are separately preserved. This is actually not a good thing, because we learnt from experiments that in real world this is not the case! In real life only $CPT$ together is preserved. So how can we modify our model to fit it?
 
-To study the spin and isospin of a soliton, we need to quantize the soliton solution, by thinking of $A$ as some kind of "generalized coordinates", then we can try to quantize it by introducing the canonical commutation relations.
+To my surprise, the solution has to be found in 5-dimension spacetime.
 
-To be able to describe the time-dependent rotation (not motion) of Skyrmions, let's make $A$ time dependent, $A\to A(t)$. Then a time-dependent soliton solution is given by
+- - -
+
+To break the respective C,P,T conservation but preserve the CPT symmetry, in 1971, J. Wess and B. Zumino introduced a new term to the Skyrmion in 5-dimension. 
+
+**Wess-Zumino correction.** 
+$$
+S_ {\text{WZ}}:= \alpha \Gamma, \quad  \Gamma = - \frac{i}{240\pi^{2}}\int _ {M^{5}} d^{5}x\, \epsilon^{\mu \nu \rho \sigma \tau}\mathrm{Tr}\,(U^{\dagger} \partial_ {\mu}U \partial_ {\nu}U^{\dagger} \partial_ {\rho}U \partial_ {\sigma}U^{\dagger} \partial_ {\tau}U) 
+$$
+where $\alpha$ is a factor first introduced by Witten in 1983. The integral takes place on $M^{5}$, some 5-dimensional manifold.  The boundary of $M^{4}$ is set to be our familiar 4-dimensional Minkowski space $M^{4}$. Now, the integrand is actually a total derivative $d(\dots)$, so the integral can be rewritten as a surface integral, namely an integral in the 4-dimensional Minkowski space, 
+$$
+\Gamma \propto \int _ {\partial M^{5}=M^{4}} d\Sigma_ {\tau} \,  \epsilon^{\mu \nu \rho \sigma \tau}\mathrm{Tr}\,(\partial_ {\mu}U\partial_ {\nu}U^{\dagger}\partial_ {\rho}U\partial_ {\sigma}U^{\dagger}).
+$$
+The variation of the above action will generate a term in 4-dimension Minkowski space which looks like
+$$
+\epsilon^{\mu \nu \rho \sigma \tau}\mathrm{Tr}\,(\partial_ {\mu}U\partial_ {\nu}U^{\dagger}\partial_ {\rho}U\partial_ {\sigma}U^{\dagger})
+$$
+and this is what we needed to break respective $C,P$ and $T$ symmetry. 
+
+Now the new action will be like 
+$$
+S_ {\text{new}} = S_ {\text{Skyrme}} \pm S_ {\text{WZ}}.
+$$
+
+I will not go into the details but just point out that, in order to make the new-introduced 5 dimensional bulk irrelevant to our theory, we need our theory unchanged when moving from one bulk $M^{5}$ to another $M'^{5}$, and to do that we can choose $\alpha \in\mathbb{Z}$ and $M^{5}\cup M'^{5}=\mathbb{S}^{5}$. 
+
+The Wess-Zumino term is topological. It seems that a typical characteristic of topological operators is that, they don't contribute to the dynamics, they don't change the equation of motion, they have no contribution to the locally conserved currents, but they do change the discrete symmetry properties of the model. For example, it can be shown (although we won't do it here) that the Wess-Zumino term has no contribution to the baryon current.
+
+I'll stop here because to be honest I don't understand how this business really goes.
+
+- - -
+
+Furthermore, the anomaly matching between QCD (UV theory) and Skyrme model (IR theory) tells us that $\alpha=N_ {c}$ where $N_ {c}$ is the color number. Therefore, if we set the baryon charge of a single quark to be $\frac{1}{N_ {c}}$ then one can show that the topological number is actually the same as the baryon number. This gives us yet another "justification" to identify the Skyrme number to the baryon number.
+
+However, there is another issue regarding the Skyrmion-baryon identification, namely the spin statistics issue. Are we sure that the topological soliton, Skyrmion, has the same spin-statistics with a baryon? Baryons are fermions (consisting of three quarks), in the mean while it is not straightforward (at least for me) to see whether the Skyrmion is a boson or fermion. To answer this question, we need to take a closer look at the group structure. 
+
+We worked with $SU(2)_ {f}$ flavor group, now we need to go to a larger group $SU(\geq3)$ to fully exploit the Wess-Zumino term. The hedgehog ansatz still works if we regard $SU(2)$ as a subgroup of $SU(\geq3)$, 
+$$
+U_ {\text{Hedge}} = 
+\begin{pmatrix}
+U_ {\text{Hedge}} & 0 \\
+0 & \mathbb{1}_ {N_ {f}-2}
+\end{pmatrix}.
+$$
+
+Surprisingly, the method Witten used has a lot to do with the rotation, or spin, property of a $B=1$ Skyrmion, I will only list the gist of it in the next section.
+
+### Forward, Spin! 
+
+The method Witten adopted to discern the spin-statistics of a single Skyrmion works as follows.
+
+- We know that after a rotation of $2\pi$, bosons return to itself but fermions gets an extra factor of $-1$. The latter fact is always illustrated by rotating your palm, since the palm is connected to your shoulder (I hope), rotating it by $2\pi$ will end up with a strange twist of your arm, but you can restore your arm by rotating your arm by another $2\pi$. Interested readers can look for illustration videos on line. So we can rotate the Skyrmion by $2\pi$, see what happens.
+- In order to tell whether Skyrmion rotation gives an extra minus one or not, we need to look at the partition function 
+$$
+Z = \int D\phi \, e^{ iS } = \sum_ {n\in \mathbb{Z}} \left\langle{\text{Skyr}}\right\rvert e^{ iE_ {n}t }\left\lvert{\text{Skyr}}\right\rangle  
+$$
+  where $t$ is the total time that the system exists. In Euclidean spacetime, we can neglect the higher energy contributions if we take $t$ to be large enough, which it usually is. Then Witten changed the final state to Skyrmions rotated by $2\pi$, let's denote it by $\left\lvert{\text{Skyr}}\right\rangle_ {2\pi}$, therefore he calculated
+$$
+Z_ {\text{twist}} = \int_ {\dots} D\phi \, e^{ iS }= 
+_ {2\pi}\left\langle{\text{Skyr}}\right\rvert e^{ iE_ {0}t }\left\lvert{\text{Skyr}}\right\rangle 
+$$
+  where the path integral is given by integrating over the correct field configuration, which starts from a Skyrmion and ends up with a rotated (by $2\pi$) Skyrmion. Then you can tell from the final result whether $\left\lvert{\text{Skyr}}\right\rangle_ {2\pi}=\left\lvert{\text{Skyr}}\right\rangle$ or $\left\lvert{\text{Skyr}}\right\rangle_ {2\pi}=-\left\lvert{\text{Skyr}}\right\rangle$, the minus sign is everything.
+- The above step is realized by constructing a time-dependent field configuration, which represents a Skyrmion slowly, adiabatically rotates. This is again achieved by cleverly substitute the spatial rotation by a isospin rotation, or inner rotation if you will. This is done by introducing a matrix that sandwiches the Skyrmion, 
 $$
 U(t) = A(t) U_ {0} A(t)^{-1}.
 $$
+
+*All of the above can't be done without Wess-Zumino term.*
+
+
+
+Eventually, Witten found that if $N_ {c}$ is even then the Skyrmion is a boson, if $N_ {c}$ is odd then fermion. In QCD we have $N_ {c}=3$ thus the Skyrmion is to be interpreted as a fermion. This is yet another justification to identify the Skyrmion with baryons.
+
+I have to say that, even with all the justifications we introduced before, I am still not convinced that Skyrmions are baryons, for they have entirely different inner structure, electric charges, etc. Bite me.
+
+
+### Zero-mode quantization
 
 Given $U(t)$ in terms of $A(t)$, in theory we can substitute it in the Lagrangian, obtaining a Lagrangian (Hamiltonian, whatever) in terms of $A(t)$. We can then try to diagonalize the Hamiltonian, find the eigenstates. We can then study the spin and isospin of these eigenstates by acting the corresponding operators on it. The eigenstates with proper spin and isospin will correspond to the nucleon and delta.
 
