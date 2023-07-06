@@ -382,15 +382,15 @@ $$
 There is nothing wrong with this approach, actually it is the standard approach in solving solitons in general, however in our particular case this doesn't seem to help. *One can show that there is no solution to the firsts order differential equation.* Instead we must turn to the full equation of motion, which is of second order,
 $$
 \boxed{
-\partial_ {\mu}L^{\mu} = \frac{1}{4F^{2}_ {\pi}e^{2}}\partial_ {\mu}[L_ {\nu},[L^{\mu},L^{\nu}]]. \tag{EoM for Skyrmion}
-} 
+\partial_ {\mu}L^{\mu} = \frac{1}{4F^{2}_ {\pi}e^{2}}\partial_ {\mu}[L_ {\nu},[L^{\mu},L^{\nu}]].
+}  \tag{EoM for Skyrmion}
 $$
 
 We adopt the "spherical symmetric" ansatz (`hedgehog ansatz`)
 $$
 \boxed{
-U_ {0}(x) = \exp[iF(r) \tau \cdot \hat{x}], \quad  F(r){\Large\mid}_ {r=0} =\pi,\,F(r){\Large\mid}_ {r=\infty} =0. \tag{hedgehog}
-} 
+U_ {0}(x) = \exp[iF(r) \tau \cdot \hat{x}], \quad  F(r){\Large\mid}_ {r=0} =\pi,\,F(r){\Large\mid}_ {r=\infty} =0.
+}  \tag{hedgehog}
 $$
 where $\hat{x}$ is the unit vector in the direction of $\mathbf{x}$. The reason why I put quotes around "spherical symmetric" is that, the hedgehog solution is not really spherical symmetric like two sphere. To make it easier to visualize it, imagine an actual prickly hedgehog whose spines gives the direction of $U_ {0}(x)$, $\hat{x}$ in the exponent to be more specific. 
 
