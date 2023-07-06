@@ -551,14 +551,29 @@ Surprisingly, the method Witten used has a lot to do with the rotation, or spin,
 
 The method Witten adopted to discern the spin-statistics of a single Skyrmion works as follows.
 
-- We know that the
+- We know that after a rotation of $2\pi$, bosons return to itself but fermions gets an extra factor of $-1$. The latter fact is always illustrated by rotating your palm, since the palm is connected to your shoulder (I hope), rotating it by $2\pi$ will end up with a strange twist of your arm, but you can restore your arm by rotating your arm by another $2\pi$. Interested readers can look for illustration videos on line. So we can rotate the Skyrmion by $2\pi$, see what happens.
+- In order to tell whether Skyrmion rotation gives an extra minus one or not, we need to look at the partition function 
+$$
+Z = \int D\phi \, e^{ iS } = \sum_ {n\in \mathbb{Z}} \left\langle{\text{Skyr}}\right\rvert e^{ iE_ {n}t }\left\lvert{\text{Skyr}}\right\rangle  
+$$
+  where $t$ is the total time that the system exists. In Euclidean spacetime, we can neglect the higher energy contributions if we take $t$ to be large enough, which it usually is. Then Witten changed the final state to Skyrmions rotated by $2\pi$, let's denote it by $\left\lvert{\text{Skyr}}\right\rangle_ {2\pi}$, therefore he calculated
+$$
+Z_ {\text{twist}} = \int_ {\dots} D\phi \, e^{ iS }= 
+_ {2\pi}\left\langle{\text{Skyr}}\right\rvert e^{ iE_ {0}t }\left\lvert{\text{Skyr}}\right\rangle 
+$$
+  where the path integral is given by integrating over the correct field configuration, which starts from a Skyrmion and ends up with a rotated (by $2\pi$) Skyrmion. Then you can tell from the final result whether $\left\lvert{\text{Skyr}}\right\rangle_ {2\pi}=\left\lvert{\text{Skyr}}\right\rangle$ or $\left\lvert{\text{Skyr}}\right\rangle_ {2\pi}=-\left\lvert{\text{Skyr}}\right\rangle$, the minus sign is everything.
+- The above step is realized by constructing a time-dependent field configuration, which represents a Skyrmion slowly, adiabatically rotates. This is again achieved by cleverly substitute the spatial rotation by a isospin rotation, or inner rotation if you will. This is done by introducing a matrix that sandwiches the Skyrmion, as will be shown below.
 
 To study the spin and isospin of a soliton, we need to quantize the soliton solution, by thinking of $A$ as some kind of "generalized coordinates", then we can try to quantize it by introducing the canonical commutation relations.
 
-To be able to describe the time-dependent rotation (not motion) of Skyrmions, let's make $A$ time dependent, $A\to A(t)$. Then a time-dependent soliton solution is given by
+To describe the time-dependent rotation (not motion) of Skyrmions, let's make $A$ time dependent, $A\to A(t)$. Then a time-dependent soliton solution is given by
 $$
 U(t) = A(t) U_ {0} A(t)^{-1}.
 $$
+
+
+
+
 
 Given $U(t)$ in terms of $A(t)$, in theory we can substitute it in the Lagrangian, obtaining a Lagrangian (Hamiltonian, whatever) in terms of $A(t)$. We can then try to diagonalize the Hamiltonian, find the eigenstates. We can then study the spin and isospin of these eigenstates by acting the corresponding operators on it. The eigenstates with proper spin and isospin will correspond to the nucleon and delta.
 
