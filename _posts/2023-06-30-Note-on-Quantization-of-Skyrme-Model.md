@@ -10,9 +10,7 @@ tags:								#标签
     - 
 ---
 
-# Static Properties of Nucleons in the Skyrme Model
-
-## Introduction
+# Introduction
 
 In his 1973 paper "A planar diagram theory for strong interactions", 't Hooft treated the parameter $N$ in the gauge group $SU(N)$ or $U(N)$ as a free parameter, and explained that in the $N\to \infty$ limit, the Feynman diagrams arrange into sets with different topological structure according to its contribution in powers of $1 / N$. For the sake of simplicity he didn't require the trace of the ${\frak g}$-valued gauge field $A$ to be traceless, thus instead of $SU(N)$ the gauge group is actually $U(N)$. As a result there will be an extra photon corresponding to the $U(1)$ component of $U(1)$, which will be discarded at the last step. 't Hooft introduced the double-line notation and each closed group index circle will generate a factor of $\delta^{i}_ {i}=N$, making it convenient to count the factor of $N$ of a given Feynman diagram. Based on this, 't Hooft made use of the Euler theorem saying that $\chi=2-2g$ where $\chi$ is the Euler characteristic and $g$ the genus of a manifold, and reached the conclusion that, if $g^{2}N$ is kept fixed at large $N$, then *the planar diagrams with genus zero and one  dominate*. That is, to treat the double-line Feynman diagrams as the boundary of a manifold, then we can talk about the genus of it. *Regarding non-planar diagrams, each "handle" pay a price $1 / N^{2}$*.
 
@@ -274,7 +272,7 @@ is that, albeit the resemblance, it is **not a free theory**. This is because th
 
 - - -
 
-## Classical Skyrme Model
+# Classical Skyrme Model
 
 Let $N_ {f}=2$. We already mentioned that at low energy, the more derivatives a term has, the less contribution it has. The chiral model has only second order derivatives, but it is poised by the fact that there is no stable soliton solution, something referred to as Derrick's theorem, as we will discuss below. But first, before we present the problem let me first present the solution, that is to introduce higher-derivative-order corrections. There are only two linearly independent terms like that, depending on *whether you take the contraction first than trace later or the other way around*,
 $$
@@ -383,14 +381,14 @@ $$
 $$
 There is nothing wrong with this approach, actually it is the standard approach in solving solitons in general, however in our particular case this doesn't seem to help. *One can show that there is no solution to the firsts order differential equation.* Instead we must turn to the full equation of motion, which is of second order,
 $$
-\boxed {
+\boxed{
 \partial_ {\mu}L^{\mu} = \frac{1}{4F^{2}_ {\pi}e^{2}}\partial_ {\mu}[L_ {\nu},[L^{\mu},L^{\nu}]]. \tag{EoM for Skyrmion}
 } 
 $$
 
 We adopt the "spherical symmetric" ansatz (`hedgehog ansatz`)
 $$
-\boxed {
+\boxed{
 U_ {0}(x) = \exp[iF(r) \tau \cdot \hat{x}], \quad  F(r){\Large\mid}_ {r=0} =\pi,\,F(r){\Large\mid}_ {r=\infty} =0. \tag{hedgehog}
 } 
 $$
@@ -491,7 +489,7 @@ Since the $A$ parameterize the isospin space, maybe we can regard it as some kin
 3. Every *continuous map* from $T$ to $M$ is the moduli map of some family parametrized by $T$;
 4. if the two families have the same moduli map, they are isomorphic families. 
 
-## Quantization
+# Quantization of Skyrme Model
 
 Before quantizing the theory, let's take a look at the symmetry of the Lagrangian.
 
