@@ -540,7 +540,7 @@ We worked with $SU(2)_ {f}$ flavor group, now we need to go to a larger group $S
 $$
 U_ {\text{Hedge}} = 
 \begin{pmatrix}
-U_ {\text{Hedge}} & 0 \\
+U_ {\text{Hedge},SU(2)} & 0 \\
 0 & \mathbb{1}_ {N_ {f}-2}
 \end{pmatrix}.
 $$
@@ -569,14 +569,21 @@ $$
 
 *All of the above can't be done without Wess-Zumino term.*
 
-
-
 Eventually, Witten found that if $N_ {c}$ is even then the Skyrmion is a boson, if $N_ {c}$ is odd then fermion. In QCD we have $N_ {c}=3$ thus the Skyrmion is to be interpreted as a fermion. This is yet another justification to identify the Skyrmion with baryons.
 
 I have to say that, even with all the justifications we introduced before, I am still not convinced that Skyrmions are baryons, for they have entirely different inner structure, electric charges, etc. Bite me.
 
-
 ### Zero-mode quantization
+
+There are various different ways to quantize a Skyrmion at different level, the zero-mode quantization may be the simplest one. 
+
+Zero modes are roughly speaking the "flat" directions where you can deform the Skyrmion without increasing its energy. So you can imagine it's like rolling a ball (Skyrmion) on a flat ground, where all the three directions corresponds to zero modes. Let's take the by-now familiar hedgehog solution for the starting point. It has three translational zero modes, but we are not yet interested in them. It also has three spatial rotation symmetries and three isospin rotation symmetries, they are kind of the same thing because you can always achieve the same result by using either one of them, so effectively we only have three independent rotational symmetry. We will work with the isospin, or internal rotation symmetry $SU(2)_ {V}$, for they are easier to be realized.
+
+The iso-rotation is parametrized by three collective coordinates $\theta_ {1,2,3}$, in the form
+$$
+U_ {H}(r,t) = A(t)U_ {H}(r)A^{\dagger}(t)
+$$
+where $H$ for hedgehog, $A=\exp(i \theta_ {i}T^{i})$ and $T^{i}$ are the generators.
 
 Given $U(t)$ in terms of $A(t)$, in theory we can substitute it in the Lagrangian, obtaining a Lagrangian (Hamiltonian, whatever) in terms of $A(t)$. We can then try to diagonalize the Hamiltonian, find the eigenstates. We can then study the spin and isospin of these eigenstates by acting the corresponding operators on it. The eigenstates with proper spin and isospin will correspond to the nucleon and delta.
 
@@ -589,7 +596,7 @@ L = -M + \lambda \mathrm{Tr}\,(\partial _ {0}A \partial _ {0}A^{-1}),
 $$
 where $M$ is the soliton mass defined in Eq. (2) and 
 $$
-\lambda = \frac{4}{6} \pi \left( \frac{1}{e^{3}F_ {\pi}} \right)\Lambda,\quad 
+\lambda = \frac{2}{3} \pi \left( \frac{1}{e^{3}F_ {\pi}} \right)\Lambda,\quad 
 \Lambda = \int d\widetilde{r} \, \widetilde{r}^{2} \sin ^{2} F \left[ 1+4\left( F'^{2} + \frac{\sin ^{2}F}{\widetilde{r}^{2}} \right) \right] .
 $$
 Numerically, Adkins et al. found that $\Lambda = 50.9$. 
@@ -644,3 +651,59 @@ $$
 J_ {k} = \frac{1}{2} i \left( -a_ {0} \frac{\partial}{\partial a_ {k}} + a_ {k} \frac{\partial}{\partial a_ {0}}  -\epsilon_ {klm}a_ {l} \frac{\partial}{a_ {m}} \right)
 $$
 where the terms involving zero component gets an extra minus sign in comparison to the spin operator. 
+
+### Related to Bjarke's problem
+
+$$
+T = \frac{\alpha}{2} b^{2}_ {i} + \frac{\beta}{4} (b^{2}_ {i})^{2}
+$$
+I guess $b_ {i}$ is something like $\dot{a}_ {i}$. $T$ is probably the kinetic energy.
+
+The canonical momentum is 
+$$
+\pi_ {i} = \frac{\partial T}{\partial b_ {i}} = \alpha b_ {i} + \beta b^{2} b_ {i},\quad  b^{2}:=b_ {i}b_ {i}.
+\tag{5}
+$$
+
+The question is, what is $T(\pi_ {i})$? And the next question, I guess, is how to quantize it?
+
+There might be two methods adoptable here, Legendre transform and direct algebraic substitution. The latter is to solve for $b_ {i}$ from Eq.(5) and substitute it back to the expression for $T$. 
+
+The problem is that, the algebraic substitution will in general loose some information.
+
+Functions are information. Different functions contain different functions, some contains more and some less. For example, the constant function contains little information. In general we have the following conclusions.
+
+- The information of a function is equivalently contained in its graph. Thus, any operation that preserved the graph up to rotation, stretching, mirroring, etc. also preserved the information. For example, given a function $y=f(x)$, its inverse function, if exists, contains the same information since the graphs are just mirrored along $y=x$. 
+- The Fourier transform also preserves the information. In fact, functions are elements, or vectors in some Hilbert space and the Fourier transform corresponds to a change of representation.
+
+So the question I wanna ask myself is, does Legendre transform preserve the information, just as Fourier transform?
+
+- - -
+
+What is a Legendre transform, really? Given a function $y = f(x)$, or $y = y(x)$, sometimes we are more interested in the slope $dy / dx$, so much as to wanting them as the variable instead of $x$. So we define a new variable,
+$$
+p:= \frac{dy}{dx} = p(x).
+$$
+Now how can we get a function in terms of $p$ without loosing any new information? The obvious way is to solve $x$ in terms of $p$, then substitute $x$ by $p$ in the original function to obtain $f(x(p))$. All seems good, except that this procedure actually causes a loss of information, as shown in the below example.
+
+Consider a function $y =\frac{1}{2} (x-x_ {0})^{2}$, follow the procedure we introduced before, define
+$$
+p := \frac{dy}{dx} = (x-x_ {0}) \implies x = p+x_ {0}
+$$
+take it back to the original function we get
+$$
+y = \frac{1}{2} (p+x_ {0}-x_ {0})^{2} = \frac{1}{2}p^{2},
+$$
+$x_ {0}$ is gone! This is bad news since now we have loss the information of $x_ {0}$. Another way to say it is that, now two function with different $x_ {0}$ will be transformed to the same function $y=\frac{1}{2} p^{2}$. Bad news indeed. If it is a good transform, we should be able to transform it back to the original function, just as Fourier transform or Laplace transform or Borel transform, etc. Or, you could say now the information has been split to two places, the final function $\frac{p^{2}}{2}$ and the specific transform process, that is we used $p=x-x_ {0}$. Well, we don't want the transform process itself to contain any information! When we are doing Fourier transform or anything, we don't need to remember anything about the original function, do we?
+
+Well there is a solution but only works for convex and concave functions. Recall that roughly speaking a convex function is a functions curves downwards and a concave function is a function that curves upwards. They are assumed to be almost-everywhere differentiable, if you don't remember what "almost-everywhere" means please refer to my other notes.
+
+
+
+
+
+
+
+
+
+**Method of Legendre Transform.** 
