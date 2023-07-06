@@ -562,22 +562,21 @@ Z_ {\text{twist}} = \int_ {\dots} D\phi \, e^{ iS }=
 _ {2\pi}\left\langle{\text{Skyr}}\right\rvert e^{ iE_ {0}t }\left\lvert{\text{Skyr}}\right\rangle 
 $$
   where the path integral is given by integrating over the correct field configuration, which starts from a Skyrmion and ends up with a rotated (by $2\pi$) Skyrmion. Then you can tell from the final result whether $\left\lvert{\text{Skyr}}\right\rangle_ {2\pi}=\left\lvert{\text{Skyr}}\right\rangle$ or $\left\lvert{\text{Skyr}}\right\rangle_ {2\pi}=-\left\lvert{\text{Skyr}}\right\rangle$, the minus sign is everything.
-- The above step is realized by constructing a time-dependent field configuration, which represents a Skyrmion slowly, adiabatically rotates. This is again achieved by cleverly substitute the spatial rotation by a isospin rotation, or inner rotation if you will. This is done by introducing a matrix that sandwiches the Skyrmion, as will be shown below.
-
-To study the spin and isospin of a soliton, we need to quantize the soliton solution, by thinking of $A$ as some kind of "generalized coordinates", then we can try to quantize it by introducing the canonical commutation relations.
-
-To describe the time-dependent rotation (not motion) of Skyrmions, let's make $A$ time dependent, $A\to A(t)$. Then a time-dependent soliton solution is given by
+- The above step is realized by constructing a time-dependent field configuration, which represents a Skyrmion slowly, adiabatically rotates. This is again achieved by cleverly substitute the spatial rotation by a isospin rotation, or inner rotation if you will. This is done by introducing a matrix that sandwiches the Skyrmion, 
 $$
 U(t) = A(t) U_ {0} A(t)^{-1}.
 $$
+
+*All of the above can't be done without Wess-Zumino term.*
+
+
 
 Eventually, Witten found that if $N_ {c}$ is even then the Skyrmion is a boson, if $N_ {c}$ is odd then fermion. In QCD we have $N_ {c}=3$ thus the Skyrmion is to be interpreted as a fermion. This is yet another justification to identify the Skyrmion with baryons.
 
 I have to say that, even with all the justifications we introduced before, I am still not convinced that Skyrmions are baryons, for they have entirely different inner structure, electric charges, etc. Bite me.
 
 
-
-
+### Zero-mode quantization
 
 Given $U(t)$ in terms of $A(t)$, in theory we can substitute it in the Lagrangian, obtaining a Lagrangian (Hamiltonian, whatever) in terms of $A(t)$. We can then try to diagonalize the Hamiltonian, find the eigenstates. We can then study the spin and isospin of these eigenstates by acting the corresponding operators on it. The eigenstates with proper spin and isospin will correspond to the nucleon and delta.
 
