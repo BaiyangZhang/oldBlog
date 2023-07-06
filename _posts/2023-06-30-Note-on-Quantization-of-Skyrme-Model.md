@@ -698,12 +698,38 @@ $x_ {0}$ is gone! This is bad news since now we have loss the information of $x_
 
 Well there is a solution but only works for convex and concave functions. Recall that roughly speaking a convex function is a functions curves downwards and a concave function is a function that curves upwards. They are assumed to be almost-everywhere differentiable, if you don't remember what "almost-everywhere" means please refer to my other notes.
 
+Now, the solution of course is the Legendre transformation. Denote $\widetilde{y}$ the Legendre transformed function, we have 
+$$
+\widetilde{y}(p) = 
+\begin{cases}
+\text{sup }\left\{ px - y(x) \right\} & y \text{ is convex}, \\
+\text{inf }\left\{ px - y(x) \right\} & y \text{ is concave}.
+\end{cases}
+$$
+If the function is not convex/concave only in localized regions, then the transform still makes sense. Sometimes it is defined with an extra minus sign. 
 
+Let's apply Legendre transform to $y=\frac{1}{2} (x-x_ {0})^{2}$, we have $p=dy / dx = x-x_ {0}$ and 
+$$
+\widetilde{y} = px-y = (x-x_ {0})x -\frac{1}{2} (x-x_ {0})^{2} = (x-x_ {0})\left( x-\frac{x}{2} + \frac{x_ {0}}{2} \right) = \frac{1}{2}(x-x_ {0})(x+x_ {0}),
+$$
+$x_ {0}$ is still there!
 
+- - -
 
+Now we can do the Legendre transform twice to prove that for certain functions 
+$$
+\widetilde{\widetilde{y}} = y.
+$$
+To show it, first perform once Legendre transform
+$$
+\widetilde{y}(p)=p x(q)-y(q),\quad  p = dy / dx.
+$$
+That is, assume you can solve for $x$ from $p$. Now, do it again we have 
+$$
+\widetilde{\widetilde{y}} = qp - \widetilde{y} = y(q)
+$$
+where I've omitted some details, but you can reproduce it, no problem.
 
-
-
-
+- - -
 
 **Method of Legendre Transform.** 
