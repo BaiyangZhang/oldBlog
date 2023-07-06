@@ -54,8 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1fa69eeb54b11de3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -129,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-04-03-De-Rhams Theorem.md",
+                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-04-03-De-Rhams Theorem.md",
+                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-04-03-De-Rhams Theorem.md"
+                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md"
               }
             }
           }
@@ -190,15 +204,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c27040f84aea2ecc",
+  "active": "1fa69eeb54b11de3",
   "lastOpenFiles": [
-    "_posts/2023-07-05-Transseries-Lecture-I.md",
-    "_posts/2023-06-16-Representables-in-Category-Theory.md",
+    "_drafts/2023-07-05-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-07-05-Fiber-Bundles-and-Principal-Bundles.md",
     "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
-    "_drafts/2023-07-05-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-06-16-Representables-in-Category-Theory.md",
     "_posts/2023-04-03-De-Rhams Theorem.md",
+    "_posts/2023-07-05-Transseries-Lecture-I.md",
+    "_posts/2023-06-16-Representables-in-Category-Theory.md",
+    "_drafts/2023-06-16-Representables-in-Category-Theory.md",
     "_posts/2023-07-3-The-Electromagnetic-Connection.md",
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "Untitled 2.md",
