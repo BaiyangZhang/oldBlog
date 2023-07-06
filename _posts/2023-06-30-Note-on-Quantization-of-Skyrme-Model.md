@@ -439,6 +439,13 @@ SU(2)_ {L}\times SU(2)_ {R} \to SU(2)_ {V},
 $$
 for if left-handed and right-handed rotations are different, then $\mathbb{1}$ will not be preserved. 
 
+- - -
+
+We can also add the mass term to the pion field. The physical vacuum is set to be $\mathbb{1}$, thus the mass term should vanish at $U=1$. Then of course it should respect the $SU(2)_ {L}\times SU(2)_ {R}$ symmetry. The mass term with correct normalization is 
+$$
+\mathcal{L}_ {\text{mass}} = \frac{m^{2}_ {\pi} F^{2}_ {\pi}}{2}\mathrm{Tr}\,(U+U^{\dagger}-2\mathbb{1}).
+$$
+
 ### How to parametrized the rotation
 
 Recall that in the presence of a Skyrmion, the symmetry is broken to $SU(2)_ {V}$, to preserve $U(X)=\mathbb{1}$ at spatial infinity. We can include the spatial rotational symmetry, we have the symmetry group
@@ -472,7 +479,7 @@ The `numerical` configuration for low charged Skyrmions can be found at [Skyrmio
 
 The rational map method surely looks interesting and important, but maybe it is not needed for my current project, so I'll postpone it to later. This chapter is a place-holder.
 
-### Some mumble-jumble. 
+### Some mumble-jumble
 
 This part is to supposed to be overlooked by readers. I wrote it only for fun, I don't think it is leading anywhere.
 
@@ -486,9 +493,67 @@ Since the $A$ parameterize the isospin space, maybe we can regard it as some kin
 
 ## Quantization
 
+Before quantizing the theory, let's take a look at the symmetry of the Lagrangian.
 
+- Charge symmetry $U\to U^{\dagger}$. This is guaranteed by the cyclic property of the trace in the Lagrangian. 
+- Parity symmetry $x\leftrightarrow (-x)$. 
+- Time reversal symmetry, $t\leftrightarrow(-t)$. 
 
-### Spin quantization
+So, all of the $C,P$ and $T$ symmetries are separately preserved. This is actually not a good thing, because we learnt from experiments that in real world this is not the case! In real life only $CPT$ together is preserved. So how can we modify our model to fit it?
+
+To my surprise, the solution has to be found in 5-dimension spacetime.
+
+- - -
+
+To break the respective C,P,T conservation but preserve the CPT symmetry, in 1971, J. Wess and B. Zumino introduced a new term to the Skyrmion in 5-dimension. 
+
+**Wess-Zumino correction.** 
+$$
+S_ {\text{WZ}}:= \alpha \Gamma, \quad  \Gamma = - \frac{i}{240\pi^{2}}\int _ {M^{5}} d^{5}x\, \epsilon^{\mu \nu \rho \sigma \tau}\mathrm{Tr}\,(U^{\dagger} \partial_ {\mu}U \partial_ {\nu}U^{\dagger} \partial_ {\rho}U \partial_ {\sigma}U^{\dagger} \partial_ {\tau}U) 
+$$
+where $\alpha$ is a factor first introduced by Witten in 1983. The integral takes place on $M^{5}$, some 5-dimensional manifold.  The boundary of $M^{4}$ is set to be our familiar 4-dimensional Minkowski space $M^{4}$. Now, the integrand is actually a total derivative $d(\dots)$, so the integral can be rewritten as a surface integral, namely an integral in the 4-dimensional Minkowski space, 
+$$
+\Gamma \propto \int _ {\partial M^{5}=M^{4}} d\Sigma_ {\tau} \,  \epsilon^{\mu \nu \rho \sigma \tau}\mathrm{Tr}\,(\partial_ {\mu}U\partial_ {\nu}U^{\dagger}\partial_ {\rho}U\partial_ {\sigma}U^{\dagger}).
+$$
+The variation of the above action will generate a term in 4-dimension Minkowski space which looks like
+$$
+\epsilon^{\mu \nu \rho \sigma \tau}\mathrm{Tr}\,(\partial_ {\mu}U\partial_ {\nu}U^{\dagger}\partial_ {\rho}U\partial_ {\sigma}U^{\dagger})
+$$
+and this is what we needed to break respective $C,P$ and $T$ symmetry. 
+
+Now the new action will be like 
+$$
+S_ {\text{new}} = S_ {\text{Skyrme}} \pm S_ {\text{WZ}}.
+$$
+
+I will not go into the details but just point out that, in order to make the new-introduced 5 dimensional bulk irrelevant to our theory, we need our theory unchanged when moving from one bulk $M^{5}$ to another $M'^{5}$, and to do that we can choose $\alpha \in\mathbb{Z}$ and $M^{5}\cup M'^{5}=\mathbb{S}^{5}$. 
+
+The Wess-Zumino term is topological. It seems that a typical characteristic of topological operators is that, they don't contribute to the dynamics, they don't change the equation of motion, they have no contribution to the locally conserved currents, but they do change the discrete symmetry properties of the model. For example, it can be shown (although we won't do it here) that the Wess-Zumino term has no contribution to the baryon current.
+
+I'll stop here because to be honest I don't understand how this business really goes.
+
+- - -
+
+Furthermore, the anomaly matching between QCD (UV theory) and Skyrme model (IR theory) tells us that $\alpha=N_ {c}$ where $N_ {c}$ is the color number. Therefore, if we set the baryon charge of a single quark to be $\frac{1}{N_ {c}}$ then one can show that the topological number is actually the same as the baryon number. This gives us yet another "justification" to identify the Skyrme number to the baryon number.
+
+However, there is another issue regarding the Skyrmion-baryon identification, namely the spin statistics issue. Are we sure that the topological soliton, Skyrmion, has the same spin-statistics with a baryon? Baryons are fermions (consisting of three quarks), in the mean while it is not straightforward (at least for me) to see whether the Skyrmion is a boson or fermion. To answer this question, we need to take a closer look at the group structure. 
+
+We worked with $SU(2)_ {f}$ flavor group, now we need to go to a larger group $SU(\geq3)$ to fully exploit the Wess-Zumino term. The hedgehog ansatz still works if we regard $SU(2)$ as a subgroup of $SU(\geq3)$, 
+$$
+U_ {\text{Hedge}} = 
+\begin{pmatrix}
+U_ {\text{Hedge}} & 0 \\
+0 & \mathbb{1}_ {N_ {f}-2}
+\end{pmatrix}.
+$$
+
+Surprisingly, the method Witten used has a lot to do with the rotation, or spin, property of a $B=1$ Skyrmion, I will only list the gist of it in the next section.
+
+### Forward, Spin! 
+
+The method Witten adopted to discern the spin-statistics of a single Skyrmion works as follows.
+
+- We know that the
 
 To study the spin and isospin of a soliton, we need to quantize the soliton solution, by thinking of $A$ as some kind of "generalized coordinates", then we can try to quantize it by introducing the canonical commutation relations.
 
