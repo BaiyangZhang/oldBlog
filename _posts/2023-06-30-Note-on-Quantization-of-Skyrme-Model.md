@@ -571,6 +571,10 @@ $$
 U(t) = A(t) U_ {0} A(t)^{-1}.
 $$
 
+Eventually, Witten found that if $N_ {c}$ is even then the Skyrmion is a boson, if $N_ {c}$ is odd then fermion. In QCD we have $N_ {c}=3$ thus the Skyrmion is to be interpreted as a fermion. This is yet another justification to identify the Skyrmion with baryons.
+
+I have to say that, even with all the justifications we introduced before, I am still not convinced that Skyrmions are baryons, for they have entirely different inner structure, electric charges, etc. Bite me.
+
 
 
 
