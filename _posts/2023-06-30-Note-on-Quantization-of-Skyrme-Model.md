@@ -607,7 +607,7 @@ We can write
 $$
 A = a_ {0} + i \mathbf{a}\cdot \mathbf{\tau},\quad a_ {\mu}a_ {\mu}=1,\quad  \mu=0,1,2,3.
 $$
-where the summation convention has been adopted. The above equation is a general property for all $SU(2)$ matrices. In terms of $a$'s the Lagrangian becomes 
+where the summation convention has been adopted. It is a general property for all $SU(2)$ matrices. In terms of $a$'s the Lagrangian becomes 
 $$
 L = -M + 2\lambda \dot{a}_ {\mu}\dot{a}_ {\mu}\tag{4}.
 $$
@@ -634,7 +634,10 @@ H = M + \frac{1}{8\lambda} \sum_ {i=0}^{3}\left( -\frac{\partial^{2}}{\partial a
 }
 $$
 
-The constraint suggests that $\sum_ {i}\partial^{2} / \partial a_ {i}^{2}$ should be interpreted as the Laplacian $\nabla^{2}$ on $\mathbb{S}^{3}$. By analogy with usual spherical harmonies (where you go to the polar coordinates system and solve the eigenfunction equation, blahblahblah), the eigenfunctions to the Hamiltonian are *traceless symmetric polynomials* in the $a_ {i}$. (I don't know how to prove this) For example, one eigenfunction to the Laplacian is $(a_ {0}+ia_ {1})^{l}$, with
+The constraint suggests that $\sum_ {i}\partial^{2} / \partial a_ {i}^{2}$ should be interpreted as the Laplacian $\nabla^{2}$ on $\mathbb{S}^{3}$. And, Laplacian on a sphere is just the angular-momentum operator in disguise! 
+
+
+By analogy with usual spherical harmonies (where you go to the polar coordinates system and solve the eigenfunction equation, blahblahblah), the eigenfunctions to the Hamiltonian are *traceless symmetric polynomials* in the $a_ {i}$. (I don't know how to prove this) For example, one eigenfunction to the Laplacian is $(a_ {0}+ia_ {1})^{l}$, with
 $$
 -\nabla^{2}(a_ {0}+ia_ {1})^{l} = l (l+2) (a_ {0}+ia_ {1})^{l}.
 $$
@@ -652,7 +655,10 @@ J_ {k} = \frac{1}{2} i \left( -a_ {0} \frac{\partial}{\partial a_ {k}} + a_ {k} 
 $$
 where the terms involving zero component gets an extra minus sign in comparison to the spin operator. 
 
-Then the rest of the story is just standard QM, not even QFT now. Having the operator, we find the eigenstates and eigenvalues. The eigenstates are 
+Then the rest of the story is just standard QM, not even QFT now. Having the operator, we find the eigenstates and eigenvalues. The eigenstates are $\left\lvert{j,m,m'}\right\rangle$ with eigenvalues
+$$
+I^{2}\left\lvert{j,m,m'}\right\rangle  = -m(m+2)\left\lvert{j,m,m'}\right\rangle 
+$$
 
 
 

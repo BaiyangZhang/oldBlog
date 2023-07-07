@@ -1,13 +1,13 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:     Quartic time derivative in a Lagrangian 			# 标题 
-subtitle:   Does it work?
+title:     Quartic time derivative in Lagrangian 			# 标题 
+subtitle:   Does it make sense and can we quantize it
 date:       2023-07-07 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background17.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
-    - 
+    - Skyrmion
 ---
 
 ### Introduction
