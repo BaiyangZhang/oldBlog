@@ -37,7 +37,7 @@ Functions are information. Different functions contain different functions, some
 
 So the question I wanna ask myself is, does Legendre transform preserve the information, just as Fourier transform?
 
-- - -
+### Legendre transform
 
 What is a Legendre transform, really? Given a function $y = f(x)$, or $y = y(x)$, sometimes we are more interested in the slope $dy / dx$, so much as to wanting them as the variable instead of $x$. So we define a new variable,
 $$
@@ -91,8 +91,6 @@ where I've omitted some details, but you can reproduce it, no problem.
 
 - - -
 
-**Method of Legendre Transform.** 
-
 Back to 
 $$
 T = \frac{\alpha}{2} b^{2} + \frac{\beta}{4} (b^{2})^{2},\quad  b^{2}:= b_ {i}b_ {i}
@@ -107,6 +105,84 @@ Perform the Legendre transform to $T$ we get
 $$
 H:= \pi_ {i}b_ {i}-T = \frac{\alpha}{2}b^{2} - \frac{3}{4}(b^{2})^{2}.
 $$
-So far it seems to lead to nowhere
+So far it seems to lead to nowhere, so I'll postpone the discussion on this matter. Now we directly jump to the algebraic substitution method. Does it cause any loss of information? If so, is the lost information important? I don't know.
 
-**Algebraic substitution.** 
+### Algebraic substitution
+
+So, let's try to solve Eq. (5). Since only $\pi^{2}$ appears in the Lagrangian, we can square the equation on both sides 
+$$
+\pi^{2} = \alpha^{2}b^{2} + \beta^{2} (b^{2})^{3} + 2\alpha \beta (b^{2})^{2}
+$$
+This suffices as long as we don't have to deal with $b_ {i}$ components individually. Let $t := \pi^{2}$ and $x:= b^{2}$ to simplify the notation we have
+$$
+t = \beta^{2} x^{3}+2\alpha \beta x^{2}+\alpha^{2} x,
+\tag{6}
+$$
+which is 
+$$
+x^{3}+\frac{2\alpha }{\beta}x^{2}+\frac{\alpha^{2}}{\beta^{2}}x-\frac{t}{\beta^{2}}=0.
+$$
+Keep in mind that $x,t$ are positive by construction. 
+
+The graph of the right hand side of equation (6) can be illustrated using mathematica codes
+`Manipulate[Plot[\[Beta]^2 x^3 + 2 \[Alpha] \[Beta] x^2 + \[Alpha]^2 x, {x, 0, 15}, AxesLabel -> {"x", "t"}], {\[Alpha], -5, 5}, {\Beta], -5,  5}]`
+
+For example, for a specific choice of value for $\alpha,\beta$ we have
+![txgraph](/img/txgraph.png)
+
+As the plot shows (also can be read-off from the equation itself), there is always the solution $t=x=0$. This is of no interests for us. What about the other root,which seems to be degenerate?
+
+Equation (6) can be simplified to 
+$$
+t = \beta^{2} x \left( x+ \frac{\alpha}{\beta} \right)^{2}, \quad  x,t>0.
+$$
+From this form things are much clearer, we see again $x=t=0$ is always a solution, there is another degenerate solution at
+$$
+t=0,\quad  x = - \frac{\alpha}{\beta}.
+$$
+Recall that we are only interested in $x,t\geq 0$, we will discuss to situations according to whether $\alpha$ and $\beta$ have the same sign or not. 
+
+#### 1. $\alpha \beta\leq 0$
+
+The local maximum is obtained at 
+$$
+x_ {\ast } = - \frac{\alpha}{3\beta},\quad  t_ {\star} = - \frac{4\alpha^{3}}{27\beta}.
+$$
+Thus there are three real roots for 
+$$
+\alpha \beta\leq 0, \quad  0\leq t\leq -\frac{4\alpha^{3}}{27\beta},
+$$
+where if $t=0$ or $-4\alpha^{3} / 27 \beta$ then there will be two degenerate roots. 
+
+If 
+$$
+t > - 4 \frac{\alpha^{3}}{27\beta},\quad \text{one real root. }
+$$
+
+#### 2. $\alpha \beta> 0$
+
+In this case, since $\alpha$ is fixed to be positive for physics reasons, $\beta$ is also fixed to be positive definite. From the graph it is easy to see that not there exist only one real root for $x=x(t)$ when both $x,t$ are required to be positive. The root formula gives by Mathematica reads
+
+$$
+\begin{align}
+x =& -\frac{(-2)^{2/3}}{6 \beta ^2}\sqrt[3]{-2 \alpha ^3 \beta ^3+3 \sqrt{3} \sqrt{\beta ^7 t \left(4 \alpha ^3+27 \beta  t\right)}-27 \beta ^4 t}\\ 
+&\frac{\alpha}{3 \beta }\left(2-\frac{\sqrt[3]{-2} \alpha  \beta }{\sqrt[3]{-2 \alpha ^3 \beta ^3+3 \sqrt{3} \sqrt{\beta ^7 t \left(4 \alpha ^3+27 \beta  t\right)}-27 \beta ^4 t}}\right)
+\end{align}
+$$
+
+As a reminder to *myself*, you can't always trust the factors of $i$ in the output of mathematica Solve command, sometimes the solution explicitly contains $i$ but it is actually real, sometimes the other way around. Numerical method is our best friend in this case.
+
+#### The ancient way
+**The standard 16-th century approach.** To really solve the cubic equation, we need to turn the equation to the the standard form, this equations reads
+$$
+x^3+px=q
+$$
+where
+$$
+\begin{align}
+p &=\frac{\alpha^{2}}{\beta^{2}} - \frac{1}{3}\left(\frac{2\alpha }{\beta}\right)^2, \\
+q &=\frac{1}{3} \frac{2\alpha^{3}}{\beta^{3}} + \frac{t}{\beta} -\frac{2}{27}\left( \frac{2\alpha}{\beta} \right)^{3}.
+\end{align}
+$$
+According to some 16th century mathematics, we can then perform the so-called `Vieta's substitution` and get the three root. 
+
