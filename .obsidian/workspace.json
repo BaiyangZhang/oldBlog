@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-07-05-Fiber-Bundles-and-Principal-Bundles.md",
+                "file": "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
                 "mode": "source",
                 "source": false
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md"
+                "file": "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md"
               }
             }
           }
@@ -206,8 +206,10 @@
   },
   "active": "1fa69eeb54b11de3",
   "lastOpenFiles": [
+    "_drafts/2023-07-07-一些历史笔记.md",
+    "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
+    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
     "_drafts/2023-07-05-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-07-05-Fiber-Bundles-and-Principal-Bundles.md",
     "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
     "_posts/2023-04-03-De-Rhams Theorem.md",
     "_posts/2023-07-05-Transseries-Lecture-I.md",
@@ -230,8 +232,6 @@
     "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-06-17-The-Workers-and-the-Fatherland.md",
     "_posts/2023-06-15-Complex-Vector-Space.md",
-    "_drafts/2023-05-29-Note-on-Quantization-of-Skyrme-Model.md",
-    "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
     "img/phase.png",
     "Pasted image 20230608164804.png",
     "Pasted image 20230608164632.png",
