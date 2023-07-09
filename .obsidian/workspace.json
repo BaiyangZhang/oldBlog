@@ -4,63 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0be7c7c3ba54097c",
+        "id": "6d96aa71b1b4b163",
         "type": "tabs",
         "children": [
           {
-            "id": "14181dd37f74e034",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-06-21-The-Phase-Space.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34d698383e78432b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
-=======
-                "file": "_posts/2023-07-05-Transseries-Lecture-I.md",
->>>>>>> c9d9e9db92c4f25c6d642ad88509c66ca00ad627
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30e2cc39efadb122",
+            "id": "1cc135b704daeef3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32d45e42e31f1423",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-07-07-Quartic-Time-Derivative.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +66,7 @@
             }
           },
           {
-            "id": "555c02c222c087f8",
+            "id": "8a01e9347ffe0827",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -118,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -135,11 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
                 "file": "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
-=======
-                "file": "_posts/2023-07-07-Quartic-Time-Derivative.md",
->>>>>>> c9d9e9db92c4f25c6d642ad88509c66ca00ad627
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,11 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
                 "file": "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
-=======
-                "file": "_posts/2023-07-07-Quartic-Time-Derivative.md",
->>>>>>> c9d9e9db92c4f25c6d642ad88509c66ca00ad627
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,11 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
                 "file": "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md"
-=======
-                "file": "_posts/2023-07-07-Quartic-Time-Derivative.md"
->>>>>>> c9d9e9db92c4f25c6d642ad88509c66ca00ad627
               }
             }
           }
@@ -208,72 +154,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "32d45e42e31f1423",
+  "active": "1cc135b704daeef3",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "_drafts/2023-07-07-一些历史笔记.md",
-    "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
-    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
-    "_drafts/2023-07-05-Introduction-to-Higher-Form-Symmetry.md",
-    "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
-    "_posts/2023-04-03-De-Rhams Theorem.md",
-    "_posts/2023-07-05-Transseries-Lecture-I.md",
-    "_posts/2023-06-16-Representables-in-Category-Theory.md",
-=======
-    "img/txgraph.png",
-    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
-    "_posts/2023-07-07-Quartic-Time-Derivative.md",
-    "_posts/2023-07-05-Transseries-Lecture-I.md",
-    "_posts/2023-07-03-The-Electromagnetic-Connection.md",
-    "_drafts/2023-07-05-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-07-05-Fiber-Bundles-and-Principal-Bundles.md",
->>>>>>> c9d9e9db92c4f25c6d642ad88509c66ca00ad627
-    "_drafts/2023-06-16-Representables-in-Category-Theory.md",
-    "_posts/2023-06-21-The-Phase-Space.md",
-    "_posts/2023-06-16-Representables-in-Category-Theory.md",
-    "_posts/2022-7-17-Conventions-and-Formula.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Pasted image 20230322222151.png.md",
-    "[./img/hedgehog.png.md",
-    "[./img",
-    "[.",
-    "_drafts/2023-06-27-The-Electromagnetic-Connection.md",
-    "_posts/2022-12-26-Basics-of-Distributions.md",
-    "_posts/2022-12-27-Thomas-Hobbes.md",
-    "_posts/2022-12-29-Hobbes-Moral-and-Political-Philosophy.md",
-    "[/img/hedgehog.png.md",
-    "[/img",
-    "[",
-    "img/hedgehog.png",
-    "_drafts/2023-mm-dd-Theodore-Frankel.md",
-    "Untitled.md",
-    "_posts/2023-06-27-Note-on-Quantization-of-Skyrme-Model.md",
-    "_posts/2023-06-20-Note-on-Meson-Kink-Scattering.md",
-    "_drafts/2023-06-28-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-06-20-Note-on-Quantization-of-Skyrme-Model.md",
-<<<<<<< HEAD
-    "_drafts/2023-06-20-Introduction-to-Higher-Form-Symmetry.md",
-    "_posts/2023-06-16-Complex-Line-Bundle.md",
-    "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
-    "_posts/2023-06-17-The-Workers-and-the-Fatherland.md",
-    "_posts/2023-06-15-Complex-Vector-Space.md",
-=======
->>>>>>> c9d9e9db92c4f25c6d642ad88509c66ca00ad627
-    "img/phase.png",
-    "Pasted image 20230608164804.png",
-    "Pasted image 20230608164632.png",
-    "img/KochCcurve.png",
-    "img/KochCcurve.png.crdownload",
-    "PDFs/BasicCategoryTheory.pdf",
-    "PDFs",
-    "img/chatgpt-cn.co.zip",
-    "img/Unconfirmed 358518.crdownload",
-    "img/sustainability-13-00351.pdf",
-    "img/jacobiEllipse.jpg",
-    "img/3holes.png",
-    "img/Weihai3.png",
-    "img/Weihai2.png",
-    "img/Weihai1.png"
+    "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
+    "_drafts/2022-10-12-罗马人的一天笔记.md",
+    "1.md",
+    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
+    "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+    "_drafts/2022-08-02-Basic-Measure-Theory-Part-II.md",
+    "_drafts/2022-10-3-共和国史笔记.md"
   ]
 }
