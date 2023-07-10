@@ -12,7 +12,7 @@ tags:								#标签
 
 ### Introduction
 
-One day my postdoc supervisor game me this function
+One day my postdoc supervisor handed me this function
 $$
 T = \frac{\alpha}{2} b^{2}_ {i} + \frac{\beta}{4} (b^{2}_ {i})^{2}
 $$
