@@ -575,7 +575,7 @@ I have to say that, even with all the justifications we introduced before, I am 
 
 ### Zero-mode quantization
 
-There are various different ways to quantize a Skyrmion at different level, the zero-mode quantization may be the simplest one. 
+There are various different ways to quantize a Skyrmion at different level, the zero-mode quantization may be the simplest one. This is the quantization on the zero mode space, the "coordinates" are upgraded to operators.
 
 Zero modes are roughly speaking the "flat" directions where you can deform the Skyrmion without increasing its energy. So you can imagine it's like rolling a ball (Skyrmion) on a flat ground, where all the three directions corresponds to zero modes. Let's take the by-now familiar hedgehog solution for the starting point. It has three translational zero modes, but we are not yet interested in them. It also has three spatial rotation symmetries and three isospin rotation symmetries, they are kind of the same thing because you can always achieve the same result by using either one of them, so effectively we only have three independent rotational symmetry. We will work with the isospin, or internal rotation symmetry $SU(2)_ {V}$, for they are easier to be realized.
 
@@ -599,7 +599,7 @@ $$
 \lambda = \frac{2}{3} \pi \left( \frac{1}{e^{3}F_ {\pi}} \right)\Lambda,\quad 
 \Lambda = \int d\widetilde{r} \, \widetilde{r}^{2} \sin ^{2} F \left[ 1+4\left( F'^{2} + \frac{\sin ^{2}F}{\widetilde{r}^{2}} \right) \right] .
 $$
-Numerically, Adkins et al. found that $\Lambda = 50.9$. 
+Numerically, Adkins et al. found that $\Lambda = 50.9$. $\Lambda$ is the equivalence of the moment of inertia in classical mechanics.
 
 Recall the canonical quantization of quantum mechanics is to endow the generalized coordinate $q$, its canonical momentum $p = \partial L / \partial \dot{q}$ a canonical commutation relations, $[p,q]=\text{something}$. How we do it to $A$, a $SU(2)$ matrix? 
 
