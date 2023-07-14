@@ -148,16 +148,19 @@ The local maximum is obtained at
 $$
 x_ {\ast } = - \frac{\alpha}{3\beta},\quad  t_ {\star} = - \frac{4\alpha^{3}}{27\beta}.
 $$
-Thus there are three real roots for 
+Thus there are three inequivalent real roots for 
 $$
-\alpha \beta\leq 0, \quad  0\leq t\leq -\frac{4\alpha^{3}}{27\beta},
+\alpha \beta < 0, \quad  0< t < -\frac{4\alpha^{3}}{27\beta},
 $$
 where if $t=0$ or $-4\alpha^{3} / 27 \beta$ then there will be two degenerate roots. 
 
 If 
 $$
-t > - 4 \frac{\alpha^{3}}{27\beta},\quad \text{one real root. }
+t > -  \frac{4\alpha^{3}}{27\beta},\quad \text{one real root. }
 $$
+
+The situation is summarized in the plot below. *The light blue area is where the real solution is unique to the cubic equation*. We have marked the local maximum also.
+![cubic](/img/cubic.png)
 
 #### 2. $\alpha \beta> 0$
 
@@ -184,5 +187,20 @@ p &=\frac{\alpha^{2}}{\beta^{2}} - \frac{1}{3}\left(\frac{2\alpha }{\beta}\right
 q &=\frac{1}{3} \frac{2\alpha^{3}}{\beta^{3}} + \frac{t}{\beta} -\frac{2}{27}\left( \frac{2\alpha}{\beta} \right)^{3}.
 \end{align}
 $$
-According to some 16th century mathematics, we can then perform the so-called `Vieta's substitution` and get the three root. 
-
+According to some 16th century mathematics, we can then perform the so-called `Vieta's substitution` and get the three root. Vieta's substitution reads
+$$
+x =: w- \frac{p}{3w} 
+$$
+which reduces the equation to 
+$$
+w^{3}-\frac{p^{3}}{27w^{3}}-q =0
+$$
+which can be easily turned into a quadratic equation in $w^{3}$ 
+$$
+(w^{3})^{2}-q(w^{3})-\frac{p^{3}}{27}=0.
+$$
+The quadratic formula says that
+$$
+w^{3} = \frac{1}{2} q \pm \sqrt{ \frac{q^{2}}{4} + \frac{p^{3}}{27} }=: R\pm \sqrt{ R^{2}+Q^{3} }.
+$$
+Sometimes it is more useful to deal with $R$ and $Q$ instead of $p$ and $q$. There are therefore six (complex) solutions for $w$, which gives us three solutions for $x$. 
