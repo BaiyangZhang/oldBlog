@@ -68,14 +68,6 @@
             }
           },
           {
-            "id": "4d206947d00f074c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "c089cdd1fbe4cb5e",
             "type": "leaf",
             "state": {
@@ -88,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -226,18 +218,18 @@
   },
   "active": "c089cdd1fbe4cb5e",
   "lastOpenFiles": [
+    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+    "_posts/2023-07-07-Quartic-Time-Derivative.md",
+    "_posts/2023-07-12-Coset-Spaces.md",
     "_posts/2023-07-18-Mikhail-Bakunin.md",
     "_drafts/2023-07-17-历史笔记若干.md",
     "_drafts/paperDrafts/2023-07-13-Nonlinear-quantization- of-the-Skyrme-model.md",
     "_drafts/2023-mm-dd-共和国史笔记.md",
     "_posts/2023-06-21-The-Phase-Space.md",
-    "_posts/2023-07-12-Coset-Spaces.md",
     "img/cubic.png",
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
-    "_posts/2023-07-07-Quartic-Time-Derivative.md",
     "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
     "img/txgraph.png",
-    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-07-05-Transseries-Lecture-I.md",
     "_posts/2023-07-03-The-Electromagnetic-Connection.md",
     "_drafts/2023-07-05-Introduction-to-Higher-Form-Symmetry.md",
