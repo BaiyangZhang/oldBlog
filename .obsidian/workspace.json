@@ -66,8 +66,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4d206947d00f074c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "c089cdd1fbe4cb5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-18-Mikhail-Bakunin.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -142,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-07-17-历史笔记若干.md",
+                "file": "_posts/2023-07-18-Mikhail-Bakunin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-07-17-历史笔记若干.md",
+                "file": "_posts/2023-07-18-Mikhail-Bakunin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-07-17-历史笔记若干.md"
+                "file": "_posts/2023-07-18-Mikhail-Bakunin.md"
               }
             }
           }
@@ -203,8 +224,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14181dd37f74e034",
+  "active": "c089cdd1fbe4cb5e",
   "lastOpenFiles": [
+    "_posts/2023-07-18-Mikhail-Bakunin.md",
+    "_drafts/2023-07-17-历史笔记若干.md",
     "_drafts/paperDrafts/2023-07-13-Nonlinear-quantization- of-the-Skyrme-model.md",
     "_drafts/2023-mm-dd-共和国史笔记.md",
     "_posts/2023-06-21-The-Phase-Space.md",
@@ -213,7 +236,6 @@
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "_posts/2023-07-07-Quartic-Time-Derivative.md",
     "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
-    "_drafts/2023-07-17-历史笔记若干.md",
     "img/txgraph.png",
     "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-07-05-Transseries-Lecture-I.md",
@@ -237,7 +259,6 @@
     "[/img",
     "[",
     "img/hedgehog.png",
-    "Untitled.md",
     "img/phase.png",
     "Pasted image 20230608164804.png",
     "Pasted image 20230608164632.png",
