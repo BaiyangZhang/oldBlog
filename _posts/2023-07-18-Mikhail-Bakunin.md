@@ -1,7 +1,7 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
 title:     Mikhail Bakunin		# 标题 
-subtitle:  From www.encyclopedia.com 
+subtitle:  From encyclopedia.com 
 date:       2023-07-18 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/background14.jpg 	#这篇文章标题背景图片
