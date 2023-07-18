@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-21-The-Phase-Space.md",
+                "file": "_drafts/2023-07-17-历史笔记若干.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-12-Coset-Spaces.md",
+                "file": "_drafts/2023-07-17-历史笔记若干.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-12-Coset-Spaces.md",
+                "file": "_drafts/2023-07-17-历史笔记若干.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-12-Coset-Spaces.md"
+                "file": "_drafts/2023-07-17-历史笔记若干.md"
               }
             }
           }
@@ -204,14 +203,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "33f53db962cf03ad",
+  "active": "14181dd37f74e034",
   "lastOpenFiles": [
+    "_drafts/2023-mm-dd-共和国史笔记.md",
+    "_posts/2023-06-21-The-Phase-Space.md",
+    "_posts/2023-07-12-Coset-Spaces.md",
     "img/cubic.png",
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
-    "_posts/2023-07-12-Coset-Spaces.md",
     "_posts/2023-07-07-Quartic-Time-Derivative.md",
     "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
-    "_drafts/2023-07-07-一些历史笔记.md",
+    "_drafts/2023-07-17-历史笔记若干.md",
     "img/txgraph.png",
     "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-07-05-Transseries-Lecture-I.md",
@@ -219,7 +220,6 @@
     "_drafts/2023-07-05-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-07-05-Fiber-Bundles-and-Principal-Bundles.md",
     "_drafts/2023-06-16-Representables-in-Category-Theory.md",
-    "_posts/2023-06-21-The-Phase-Space.md",
     "_posts/2023-06-16-Representables-in-Category-Theory.md",
     "_posts/2022-7-17-Conventions-and-Formula.md",
     "Untitled 2.md",
@@ -250,7 +250,6 @@
     "img/sustainability-13-00351.pdf",
     "img/jacobiEllipse.jpg",
     "img/3holes.png",
-    "img/Weihai3.png",
-    "img/Weihai2.png"
+    "img/Weihai3.png"
   ]
 }
