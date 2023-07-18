@@ -637,7 +637,39 @@ $$
 The constraint suggests that $\sum_ {i}\partial^{2} / \partial a_ {i}^{2}$ should be interpreted as the Laplacian $\nabla^{2}$ on $\mathbb{S}^{3}$. And, Laplacian on a sphere is just the angular-momentum operator in disguise! 
 
 
-By analogy with usual spherical harmonies (where you go to the polar coordinates system and solve the eigenfunction equation, blahblahblah), the eigenfunctions to the Hamiltonian are *traceless symmetric polynomials* in the $a_ {i}$. (I don't know how to prove this) For example, one eigenfunction to the Laplacian is $(a_ {0}+ia_ {1})^{l}$, with
+**Laplacian on a $\mathbb{S}^{3}$**
+
+The Laplacian on a three-sphere, also known as the Laplace-Beltrami operator, acts on a scalar function $f(x1, x2, x3, x4)$ with the constraint $x1^2 + x2^2 + x3^2 + x4^2 = 1$. This operator is usually defined in terms of the spherical coordinates on the 3-sphere, rather than the Cartesian coordinates $(x1, x2, x3, x4)$.
+
+When the Laplacian is applied to a scalar function on a three-sphere, it is most commonly written in a form like this (in spherical coordinates):
+
+$$
+∆f = 1/sin²(χ) [(sin²(χ) f')' - sin(χ) cos(χ) f'] + 1/(sin²(χ) sin²(θ)) (sin(θ) f_φφ) + 1/(sin(χ) sin(θ)) f_θθ
+$$
+where:
+
+- $f'$ denotes the derivative of f with respect to $\chi$
+- f_φφ denotes the second derivative of f with respect to φ
+- f_θθ denotes the second derivative of f with respect to θ
+- χ is the "azimuthal" angle ranging from 0 to π
+- θ is the polar angle ranging from 0 to π
+- φ is the azimuthal angle ranging from 0 to 2π
+
+The eigenvalue problem for the Laplacian on the three-sphere is then given by:
+
+∆f = λf
+
+The eigenvalues λ of the Laplacian operator on a 3-sphere are given by:
+
+λ = l*(l+2)
+
+where l is a nonnegative integer. These eigenvalues can be derived by solving the eigenvalue problem using separation of variables and spherical harmonics.
+
+Note that the eigenfunctions (the functions f that satisfy the above equation) are the spherical harmonics on the 3-sphere, which are the generalization of the usual spherical harmonics on a 2-sphere. The parameter l is the degree of the spherical harmonics, which corresponds to the total angular momentum quantum number in quantum mechanics.
+
+- - -
+
+I state without truly understanding that, by analogy with usual spherical harmonies (where you go to the polar coordinates system and solve the eigenfunction equation, blahblahblah), the eigenfunctions to the Hamiltonian are *traceless symmetric polynomials* in the $a_ {i}$. (I don't know how to prove this) For example, one eigenfunction to the Laplacian is $(a_ {0}+ia_ {1})^{l}$, with
 $$
 -\nabla^{2}(a_ {0}+ia_ {1})^{l} = l (l+2) (a_ {0}+ia_ {1})^{l}.
 $$
