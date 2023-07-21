@@ -66,7 +66,11 @@ $$
 $$
 The last relation can be interpreted both actively or passively. The action of $c_ {UV}$ on $F$ is the right action of $O(n)$.
 
-**Principal bundle.** Given a bundle $\left\{ E\xrightarrow{\pi} M, F, G \right\}$ where $G$ is the structure group, it is called a principal bundle if the following two conditions are satisfied.
+**Principal bundle.** Given a bundle 
+$$
+\left\{ E\xrightarrow{\pi} M, F, G \right\}
+$$
+where $G$ is the structure group, it is called a principal bundle if the following two conditions are satisfied.
 - The fiber $F$ is the same as the structure group, for example both of them could be $O(n)$,
 - The *transition function* $c_ {UV}$ acts on the fiber as the left group action. Note here by "fiber" we mean the trivilization of it, in the example of the frame bundle we mean $g_ {U}$.
 
