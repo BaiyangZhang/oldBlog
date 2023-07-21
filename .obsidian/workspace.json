@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
+                "file": "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
+                "file": "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
+                "file": "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md"
+                "file": "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md"
               }
             }
           }
@@ -167,9 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c16a9519ea6429a",
+  "active": "894ac6246dc184c4",
   "lastOpenFiles": [
-    "_drafts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
+    "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
+    "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
     "_drafts/2023-07-17-历史笔记若干.md",
     "_posts/2023-07-05-Transseries-Lecture-I.md",
     "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
@@ -181,7 +183,6 @@
     "_posts/2023-06-21-The-Phase-Space.md",
     "img/cubic.png",
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
-    "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
     "img/txgraph.png",
     "_posts/2023-07-03-The-Electromagnetic-Connection.md",
     "_drafts/2023-07-05-Introduction-to-Higher-Form-Symmetry.md",
