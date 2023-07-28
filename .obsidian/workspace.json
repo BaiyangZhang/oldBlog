@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-07-22-Topological-Quantization.md",
+                "file": "_posts/2023-07-28-Topological-Quantization.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-07-22-Topological-Quantization.md",
+                "file": "_posts/2023-07-28-Topological-Quantization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-07-22-Topological-Quantization.md",
+                "file": "_posts/2023-07-28-Topological-Quantization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-07-22-Topological-Quantization.md"
+                "file": "_posts/2023-07-28-Topological-Quantization.md"
               }
             }
           }
@@ -190,7 +190,7 @@
   },
   "active": "77ac47db51b2007a",
   "lastOpenFiles": [
-    "_drafts/2023-07-22-Topological-Quantization.md",
+    "_posts/2023-07-28-Topological-Quantization.md",
     "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
     "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
     "_drafts/2023-07-17-历史笔记若干.md",

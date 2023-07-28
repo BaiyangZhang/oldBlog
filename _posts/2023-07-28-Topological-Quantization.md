@@ -2,9 +2,9 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Line Bundle, Topological Quantization and Berry Phase 			# 标题 
 subtitle:   
-date:       2023-07-22 				# 时间
+date:       2023-07-28 				# 时间
 author:     Baiyang Zhang 						# 作者
-header-img: img/background1.jpg 	#这篇文章标题背景图片
+header-img: img/background19.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - Frankel
@@ -102,3 +102,9 @@ Consider a complex line bundle $E\to\mathbb{S}^{2}$ over the Riemann sphere. We 
 $$
 u=u(x,y),\quad v=v(x,y) \text{ or } \zeta=\zeta(z,\overline{z}).
 $$
+We do not assume $\zeta$ is holomorphic, however if it is then we have a `holomorphic` bundle. In this case, by Cauchy-Riemann relation we have 
+$$
+\left\lvert \frac{d\zeta}{dz} \right\rvert ^{2}\geq 0,
+$$
+thus if a holomorphic section intersects with zero then the local intersection number is $+1$. 
+
