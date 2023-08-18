@@ -10,9 +10,7 @@
   },
   "autoPairMarkdown": true,
   "showLineNumber": true,
-  "spellcheckLanguages": [
-    "en-US"
-  ],
+  "spellcheckLanguages": null,
   "livePreview": true,
   "alwaysUpdateLinks": true,
   "promptDelete": false

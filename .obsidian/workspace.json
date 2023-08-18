@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0045e098b85c050a",
+        "id": "7fc11e1562b9e4b1",
         "type": "tabs",
         "children": [
           {
-            "id": "0c16a9519ea6429a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "894ac6246dc184c4",
+            "id": "3dfc9c85c5d07a00",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,29 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "abf0439176992fa1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "77ac47db51b2007a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-07-28-Topological-Quantization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -127,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-28-Topological-Quantization.md",
+                "file": "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-28-Topological-Quantization.md",
+                "file": "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-28-Topological-Quantization.md"
+                "file": "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md"
               }
             }
           }
@@ -188,14 +154,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "77ac47db51b2007a",
+  "active": "3dfc9c85c5d07a00",
   "lastOpenFiles": [
-    "_posts/2023-07-28-Topological-Quantization.md",
+    "_drafts/2023-08-02-Connections-and-Associated-Bundles.md",
+    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
+    "_posts/2023-07-28-Topological-Quantization.md",
+    "_drafts/2023-mm-dd-Theodore-Frankel.md",
+    "fonts/glyphicons-halflings-regular.svg",
+    "fonts/2023-mm-dd-Frankel.md",
+    "_drafts/2023-07-05-Introduction-to-Higher-Form-Symmetry.md",
+    "_drafts/2023-06-16-Representables-in-Category-Theory.md",
+    "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
+    "_drafts/2023-05-31-Analytic-Structure.md",
+    "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
+    "_drafts/2023-05-07-soliton-particle-duality.md",
     "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
     "_drafts/2023-07-17-历史笔记若干.md",
     "_posts/2023-07-05-Transseries-Lecture-I.md",
-    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-07-07-Quartic-Time-Derivative.md",
     "_posts/2023-07-12-Coset-Spaces.md",
     "_posts/2023-07-18-Mikhail-Bakunin.md",
@@ -203,23 +179,14 @@
     "_drafts/2023-mm-dd-共和国史笔记.md",
     "_posts/2023-06-21-The-Phase-Space.md",
     "img/cubic.png",
-    "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "img/txgraph.png",
     "_posts/2023-07-03-The-Electromagnetic-Connection.md",
-    "_drafts/2023-07-05-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-07-05-Fiber-Bundles-and-Principal-Bundles.md",
-    "_drafts/2023-06-16-Representables-in-Category-Theory.md",
     "_posts/2023-06-16-Representables-in-Category-Theory.md",
     "_posts/2022-7-17-Conventions-and-Formula.md",
     "Untitled 2.md",
-    "Untitled 1.md",
-    "Pasted image 20230322222151.png.md",
-    "[./img/hedgehog.png.md",
     "[./img",
     "[.",
-    "_drafts/2023-06-27-The-Electromagnetic-Connection.md",
-    "_posts/2022-12-26-Basics-of-Distributions.md",
-    "_posts/2022-12-27-Thomas-Hobbes.md",
     "[/img",
     "[",
     "img/hedgehog.png",
@@ -234,7 +201,6 @@
     "img/Unconfirmed 358518.crdownload",
     "img/sustainability-13-00351.pdf",
     "img/jacobiEllipse.jpg",
-    "img/3holes.png",
-    "img/Weihai3.png"
+    "img/3holes.png"
   ]
 }
