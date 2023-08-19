@@ -78,7 +78,7 @@ which is again called the Maurer-Cartan equation.
 
 We have some immediate consequences from the definition, for $\phi \in\Omega^{p}$ and $\psi \in\Omega^{q}$
 $$
-[\phi,\psi] = (-1)^{pq+1}
+[\phi,\psi] = (-1)^{pq+1}[\psi,\phi]
 $$
 and 
 $$
@@ -105,4 +105,24 @@ $$
 
 ### Connection in a principal bundle
 
-Let $E\to M$ be a real or complex vector bundle of rank $K$. Let $G$ be the structure group. By this we mean that 
+Let $E\to M$ be a real or complex vector bundle of rank $K$. Let $G$ be the structure group. By this we mean that, in each trivializing patch $U$ of $M$, there exists a collection of distinguished frames (e.g., orthonormal), which we may call $G$ frames, and such that any two such frames $e_ {U}$ and $e_ {V}$ in an overlap $U \cap V$ are related by $e_ {V} = e_ {U} c_ {UV}$ where $c_ {UV}\in G$. 
+
+A $G$-connections essentially means that given a distinguished frame $\mathbf{f}$, we can use the $G$ connection to parallel transport it along any curve, the transported frame at any point of any curve is still a distinguished frame. This requires the connection to be ${\frak g}$-valued (1-form). Then of course the curvature is also ${\frak g}$-valued, 
+$$
+\theta = d\omega+\omega \wedge \omega.
+$$
+
+Under a change of frame, namely in the overlap of two trivializing patches $U$ and $V$, we require that (the compatibility condition) the following two operations to be equivalent (or in the terminology of category theory, to be commute)
+- parallel transport in $U$ first, then convert to $V$ patch;
+- convert to $V$ first, then parallel transport in $V$.
+This gives us the transition property of the connection and curvature under the change of patches,
+$$
+\omega_ {V} = c_ {VU}(\omega _ {U} + d) c_ {UV}
+$$
+and 
+$$
+\theta_ {V}  = c_ {VU}\omega_ {U}c_ {UV}.
+$$
+This should be familiar to readers.
+
+Given a vector bundle $E$, consider the principal bundle $P$ of frames of sections of the vector bundle. The bundle $P\to M$ has for fiber $F$ the structure group $G$ and the transition function $c_ {UV}$ are the same as for $E$. 
