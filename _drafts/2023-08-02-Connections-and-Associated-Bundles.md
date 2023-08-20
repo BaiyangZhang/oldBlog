@@ -126,3 +126,4 @@ $$
 This should be familiar to readers.
 
 Given a vector bundle $E$, consider the principal bundle $P$ of frames of sections of the vector bundle. The bundle $P\to M$ has for fiber $F$ the structure group $G$ and the transition function $c_ {UV}$ are the same as for $E$. 
+
