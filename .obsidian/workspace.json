@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-08-02-Connections-and-Associated-Bundles.md",
+                "file": "_drafts/2023-08-23-Connections-and-Associated-Bundles.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-19-韩非子.md",
+                "file": "_drafts/2023-08-23-Connections-and-Associated-Bundles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-19-韩非子.md",
+                "file": "_drafts/2023-08-23-Connections-and-Associated-Bundles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-19-韩非子.md"
+                "file": "_drafts/2023-08-23-Connections-and-Associated-Bundles.md"
               }
             }
           }
@@ -176,10 +175,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "270ba6945723604c",
+  "active": "3dfc9c85c5d07a00",
   "lastOpenFiles": [
-    "_drafts/2023-08-02-Connections-and-Associated-Bundles.md",
     "_posts/2023-08-19-韩非子.md",
+    "_drafts/2023-08-23-Connections-and-Associated-Bundles.md",
     "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
     "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-07-28-Topological-Quantization.md",
