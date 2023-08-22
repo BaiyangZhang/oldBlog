@@ -127,4 +127,54 @@ This should be familiar to readers.
 
 Given a vector bundle $E$, consider the principal bundle $P$ of frames of sections of the vector bundle. The bundle $P\to M$ has for fiber $F$ the structure group $G$ and the transition function $c_ {UV}$ are the same as for $E$. 
 
+We can now define the connection $\omega^{\ast}$ on $P$. Note that $\omega^{\ast}$ is ${\frak g}$-valued connection on $P$ rather than $M$. However I must warn you that this is not the usual way to introduce the connection on the bundle. 
 
+1. Introduce the `local` frame of $P$, denoted $e_ {U}$. It can be thought of as a section of $P$ over $U$.
+2. For a point $\mathbf{f}$ over $x\in U$ we can write it in the basis $e_ {U}$,
+$$
+\mathbf{f} = e_ {U}g_ {U},\quad  g_ {U}\in G.
+$$
+But now the covariant derivative has two parts, one coming from $\nabla e_ {U}$, one from $\nabla g_ {U}$. We have 
+$$
+\boxed { 
+\nabla \mathbf{f} = e_ {U}\omega g_ {U} + e_ {U} dg_ {U} = e_ {U} g_ {U} g_ {U}^{-1} \omega g_ {U} + e_ {U}g_ {U} g_ {U}^{-1} dg_ {U} = \mathbf{f}\otimes (g_ {U}^{-1}\omega g_ {U}+g_ {U}^{-1} dg_ {U}) =:\mathbf{f}\otimes \omega ^\ast .
+}
+$$
+But we want to define a connection on $P$, in the meanwhile $\omega$ is a connection on the base manifold $M$, so we actually need $\pi ^\ast\omega$ instead of $\omega$ between $g_ {U}^{-1}$ and $g_ {U}$. Anyway we usually neglect $\pi ^\ast$ in $\pi ^\ast\omega$ since it is clear from the context.
+
+The local frame $\mathbf{e}_ {U}$ gives us a trivialization of $\pi ^{-1}U$, namely a local product structure of $\pi ^{-1}U$. We can regard $g_ {U}$ and $x\in U$ as the "coordinates" of $\mathbf{f}$. 
+
+Given some curve on $P$, the velocity vector, or tangent vector is $(dx / dt, d g_ {U} / dt)$. When acted by $\omega ^\ast$, the $g_ {U}^{-1}\omega g_ {U}$ part acts on $dx / dt$ and yields
+$$
+(g_ {U}^{-1} \omega g_ {U})\left( \frac{dx}{dt} \right) = g_ {U}^{-1} \omega\left( \frac{dx}{dt} \right)g_ {U}\in {\frak g}.
+$$
+The $g_ {U}^{-1}dg_ {U}$ part acts on $d g_ {U} / dt$ yields
+$$
+g_ {U}^{-1} dg_ {U}\left( \frac{dg_{U}}{dt} \right) = g_ {U}^{-1}  \frac{dg_{U}}{dt} \in {\frak g}.
+$$
+
+It can be shown the given two trivializing patches $U$ and $V$, although $\omega_ {U}\neq \omega_ {V}$ we still have 
+$$
+\omega ^\ast _ {U} = \omega ^\ast _ {V},
+$$
+thus $\omega ^\ast$ defines not a local, but a global connection on P!
+
+In $p$ we may then consider the distribution of $n$-planes transversal to the fibers, defined by 
+$$
+\omega ^\ast =0.
+$$
+This distribution is called the `horizontal distribution`. Many books take this distribution as the starting point for their discussion of connections.
+
+We then define the `global` ${\frak g}$-valued $2$-form connection 
+$$
+\theta ^\ast  := d\omega ^\ast +\omega ^\ast \wedge \omega ^\ast = d\omega ^\ast + \frac{1}{2} [\omega ^\ast ,\omega ^\ast ] .
+$$
+
+The last equality is true due to the fact that $\omega ^\ast$ is a one-form.
+
+Note that unlike in the case of a tangent bundle of a surface, where the structure group $G$ is abelian, we **cannot** expect $\theta ^\ast$ to be globally exact!
+
+Of course we can also push-forward $\theta ^\ast$ from $P$ to the base space $M$, we also have (the proof is omitted)
+$$
+\theta ^\ast (x,g_ {U}) = g_ {U}^{-1} \pi ^\ast \theta_ {U}(x)g_ {U}.
+$$
