@@ -4,24 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "7fc11e1562b9e4b1",
+        "id": "0be7c7c3ba54097c",
         "type": "tabs",
         "children": [
           {
-            "id": "cfa340cba5a962d3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "270ba6945723604c",
+            "id": "14181dd37f74e034",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-08-23-Theodore-Frankel 1.md",
+                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3b142bbf2b25fa0e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
+          },
+          {
+            "id": "34d698383e78432b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-05-Transseries-Lecture-I.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33f53db962cf03ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-07-Quartic-Time-Derivative.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-08-23-Theodore-Frankel 1.md",
+                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-08-23-Theodore-Frankel 1.md",
+                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-08-23-Theodore-Frankel 1.md"
+                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md"
               }
             }
           }
@@ -164,37 +190,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "270ba6945723604c",
+  "active": "3b142bbf2b25fa0e",
   "lastOpenFiles": [
-    "_drafts/2023-mm-dd-Theodore-Frankel.md",
-    "_drafts/2023-08-23-Theodore-Frankel 1.md",
     "_posts/2023-08-19-韩非子.md",
-    "_drafts/2023-08-23-Connections-and-Associated-Bundles.md",
-    "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
-    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-07-28-Topological-Quantization.md",
-    "fonts/glyphicons-halflings-regular.svg",
-    "fonts/2023-mm-dd-Frankel.md",
-    "_drafts/2023-07-05-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-06-16-Representables-in-Category-Theory.md",
-    "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
-    "_drafts/2023-05-31-Analytic-Structure.md",
-    "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
-    "_drafts/2023-05-07-soliton-particle-duality.md",
-    "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
+    "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
+    "_drafts/2023-08-23-Theodore-Frankel 1.md",
+    "_drafts/2023-08-23-Connections-and-Associated-Bundles.md",
+    "_posts/2023-07-18-Mikhail-Bakunin.md",
     "_drafts/2023-07-17-历史笔记若干.md",
+    "_posts/2023-07-12-Coset-Spaces.md",
+    "_posts/2023-07-03-The-Electromagnetic-Connection.md",
     "_posts/2023-07-05-Transseries-Lecture-I.md",
     "_posts/2023-07-07-Quartic-Time-Derivative.md",
-    "_posts/2023-07-12-Coset-Spaces.md",
-    "_posts/2023-07-18-Mikhail-Bakunin.md",
-    "_drafts/paperDrafts/2023-07-13-Nonlinear-quantization- of-the-Skyrme-model.md",
-    "_drafts/2023-mm-dd-共和国史笔记.md",
+    "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
     "_posts/2023-06-21-The-Phase-Space.md",
+    "_drafts/paperDrafts/2023-07-13-Nonlinear-quantization- of-the-Skyrme-model.md",
+    "_drafts/paperDrafts/Renormalization method in PDF.md",
+    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
     "img/cubic.png",
+    "_drafts/2023-07-07-一些历史笔记.md",
     "img/txgraph.png",
-    "_posts/2023-07-03-The-Electromagnetic-Connection.md",
+    "_drafts/2023-07-05-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-07-05-Fiber-Bundles-and-Principal-Bundles.md",
+    "_drafts/2023-06-16-Representables-in-Category-Theory.md",
     "_posts/2023-06-16-Representables-in-Category-Theory.md",
+    "_posts/2022-7-17-Conventions-and-Formula.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Pasted image 20230322222151.png.md",
+    "[./img/hedgehog.png.md",
     "[./img",
     "[.",
     "[/img",
@@ -211,6 +236,7 @@
     "img/Unconfirmed 358518.crdownload",
     "img/sustainability-13-00351.pdf",
     "img/jacobiEllipse.jpg",
-    "img/3holes.png"
+    "img/3holes.png",
+    "img/Weihai3.png"
   ]
 }
