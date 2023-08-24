@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -129,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+                "file": "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md"
+                "file": "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md"
               }
             }
           }
@@ -190,10 +188,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b142bbf2b25fa0e",
+  "active": "14181dd37f74e034",
   "lastOpenFiles": [
-    "_posts/2023-08-19-韩非子.md",
     "_posts/2023-07-28-Topological-Quantization.md",
+    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+    "_posts/2023-08-19-韩非子.md",
     "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
     "_drafts/2023-08-23-Theodore-Frankel 1.md",
     "_drafts/2023-08-23-Connections-and-Associated-Bundles.md",
@@ -207,7 +206,6 @@
     "_posts/2023-06-21-The-Phase-Space.md",
     "_drafts/paperDrafts/2023-07-13-Nonlinear-quantization- of-the-Skyrme-model.md",
     "_drafts/paperDrafts/Renormalization method in PDF.md",
-    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
     "img/cubic.png",
     "_drafts/2023-07-07-一些历史笔记.md",
     "img/txgraph.png",
