@@ -8,7 +8,23 @@
         "type": "tabs",
         "children": [
           {
+<<<<<<< Updated upstream
             "id": "14181dd37f74e034",
+=======
+            "id": "cfa340cba5a962d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-08-19-韩非子.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "270ba6945723604c",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -127,7 +143,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
+=======
+                "file": "_posts/2023-08-19-韩非子.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +164,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
+=======
+                "file": "_posts/2023-08-19-韩非子.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +191,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md"
+=======
+                "file": "_posts/2023-08-19-韩非子.md"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -188,8 +216,19 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< Updated upstream
   "active": "14181dd37f74e034",
   "lastOpenFiles": [
+=======
+  "active": "cfa340cba5a962d3",
+  "lastOpenFiles": [
+    "_drafts/2023-08-23-Theodore-Frankel 1.md",
+    "_drafts/2023-mm-dd-Theodore-Frankel.md",
+    "_posts/2023-08-19-韩非子.md",
+    "_drafts/2023-08-23-Connections-and-Associated-Bundles.md",
+    "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
+    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+>>>>>>> Stashed changes
     "_posts/2023-07-28-Topological-Quantization.md",
     "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-08-19-韩非子.md",
