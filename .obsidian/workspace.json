@@ -11,8 +11,12 @@
             "id": "cfa340cba5a962d3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-08-19-韩非子.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -27,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-08-23-Theodore-Frankel 1.md",
+                "file": "_posts/2023-08-19-韩非子.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-08-23-Theodore-Frankel 1.md",
+                "file": "_posts/2023-08-19-韩非子.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-08-23-Theodore-Frankel 1.md"
+                "file": "_posts/2023-08-19-韩非子.md"
               }
             }
           }
@@ -164,10 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "270ba6945723604c",
+  "active": "cfa340cba5a962d3",
   "lastOpenFiles": [
-    "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "_drafts/2023-08-23-Theodore-Frankel 1.md",
+    "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "_posts/2023-08-19-韩非子.md",
     "_drafts/2023-08-23-Connections-and-Associated-Bundles.md",
     "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
