@@ -74,3 +74,7 @@ g_ {U} = c_ {UV} g_ {V}
 $$
 to keep $\mathbf{f}$ basis-independent.
 
+We may say the $P_ {\rho}$ and $E_ {\rho}$ are associated through the representation $\rho$. We give a few examples in the following.
+
+**Example 1.** 
+
