@@ -1,6 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:     Associated bundles and connection			# 标题 
+title:     Associated bundles			# 标题 
 subtitle:   
 date:       2023-08-27 				# 时间
 author:     Baiyang Zhang 						# 作者
