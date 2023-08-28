@@ -136,9 +136,11 @@ $$
 $$
 But now the covariant derivative has two parts, one coming from $\nabla e_ {U}$, one from $\nabla g_ {U}$. We have 
 $$
-\boxed { 
-\nabla \mathbf{f} = e_ {U}\omega g_ {U} + e_ {U} dg_ {U} = e_ {U} g_ {U} g_ {U}^{-1} \omega g_ {U} + e_ {U}g_ {U} g_ {U}^{-1} dg_ {U} = \mathbf{f}\otimes (g_ {U}^{-1}\omega g_ {U}+g_ {U}^{-1} dg_ {U}) =:\mathbf{f}\otimes \omega ^\ast .
-}
+\begin{align}
+\nabla \mathbf{f} &= e_ {U}\omega g_ {U} + e_ {U} dg_ {U} = e_ {U} g_ {U} g_ {U}^{-1} \omega g_ {U} + e_ {U}g_ {U} g_ {U}^{-1} dg_ {U}  \\
+ &= \mathbf{f}\otimes (g_ {U}^{-1}\omega g_ {U}+g_ {U}^{-1} dg_ {U})  \\
+&=:\mathbf{f}\otimes \omega ^\ast .
+\end{align}
 $$
 But we want to define a connection on $P$, in the meanwhile $\omega$ is a connection on the base manifold $M$, so we actually need $\pi ^\ast\omega$ instead of $\omega$ between $g_ {U}^{-1}$ and $g_ {U}$. Anyway we usually neglect $\pi ^\ast$ in $\pi ^\ast\omega$ since it is clear from the context.
 
