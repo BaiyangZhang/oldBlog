@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1cc135b704daeef3",
+            "id": "ceea6a9837a1077c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-23-Connections-and-Associated-Bundles.md",
+                "file": "_posts/2023-08-27-Associated-bundles.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-23-Connections-and-Associated-Bundles.md",
+                "file": "_posts/2023-08-27-Associated-bundles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-23-Connections-and-Associated-Bundles.md",
+                "file": "_posts/2023-08-27-Associated-bundles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-23-Connections-and-Associated-Bundles.md"
+                "file": "_posts/2023-08-27-Associated-bundles.md"
               }
             }
           }
@@ -155,11 +155,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1cc135b704daeef3",
+  "active": "ceea6a9837a1077c",
   "lastOpenFiles": [
+    "_posts/2023-08-23-Connections-and-Associated-Bundles.md",
     "_posts/2023-08-27-Associated-bundles.md",
     "_posts/2023-08-19-韩非子.md",
-    "_posts/2023-08-23-Connections-and-Associated-Bundles.md",
     "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
     "_posts/2023-07-28-Topological-Quantization.md",
     "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
