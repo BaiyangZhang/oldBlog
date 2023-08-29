@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-27-Associated-bundles.md",
+                "file": "_posts/2023-08-28-Note-of-Nonlinear-quantization.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-27-Associated-bundles.md",
+                "file": "_posts/2023-08-28-Note-of-Nonlinear-quantization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-27-Associated-bundles.md",
+                "file": "_posts/2023-08-28-Note-of-Nonlinear-quantization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-27-Associated-bundles.md"
+                "file": "_posts/2023-08-28-Note-of-Nonlinear-quantization.md"
               }
             }
           }
@@ -157,8 +157,9 @@
   },
   "active": "ceea6a9837a1077c",
   "lastOpenFiles": [
-    "_posts/2023-08-23-Connections-and-Associated-Bundles.md",
     "_posts/2023-08-27-Associated-bundles.md",
+    "_posts/2023-08-28-Note-of-Nonlinear-quantization.md",
+    "_posts/2023-08-23-Connections-and-Associated-Bundles.md",
     "_posts/2023-08-19-韩非子.md",
     "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
     "_posts/2023-07-28-Topological-Quantization.md",
