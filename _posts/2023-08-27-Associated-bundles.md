@@ -76,5 +76,10 @@ to keep $\mathbf{f}$ basis-independent.
 
 We may say the $P_ {\rho}$ and $E_ {\rho}$ are associated through the representation $\rho$. We give a few examples in the following.
 
-**Example 1.** 
+**Example 1** The `dual bundle`. The dual bundle can be regarded as associated to the original bundle through the change of representations
+$$
+g \to g' := (g^{-1} )^{T}.
+$$
+
+
 
