@@ -10,3 +10,44 @@ tags:								#标签
     - Frankel
 ---
 
+### Associated Adjoint Bundle
+
+We may let $G$ act as a general linear transformation on its own Lie algebra ${\frak g}$, given a $Y\in{\frak g}$ and $g\in G$ we define
+$$
+\text{Ad}_ {g}(Y) = g Y g^{-1}  = L_ {g\ast } \,\circ\,R_ {g^{-1} \ast } Y.
+$$
+Obviously if $G$ is abelian then $\text{Ad}_ {g}$ does not do anything to $Y$. This map $\text{Ad}$ takes an element of the group $G$, then uses it to "distort" a tangent vector in $T_ {e}G$, thus
+$$
+\text{Ad}: G \to GL({\frak g}), \quad  g\mapsto \text{Ad}_ {g}
+$$
+where $\text{GL}({\frak g})$ is the group of general linear transformations of ${\frak g}$. 
+
+One can check that $\text{Ad}_ {g}$ is an representation of $G$, which is essentially the `adjoint representation` of $G$. You might have already encountered different definition of adjoint representation of $G$ before, then you should be able to show that these definitions indeed agrees with each other. The subgroup $\text{Ad}_ {G}\subset GL({\frak g})$ is called the `adjoint group` of $G$.
+
+Furthermore, we can talk about the induced man, or differential, or "push-forward" of $\text{Ad}$. Now, $\text{Ad}_ {\ast}$ would map $TG$ to $TGL({\frak g})$. But how does it work?
+
+Given $g\in G$, we have the one-parameter subgroup $g(t)=\exp(tX)$ where $t$ is the parameter, and the corresponding velocity vector at the identity is
+$$
+X =\frac{d}{d t} g(t) = \frac{d}{d t}  \exp(tX) {\Large\mid}_ {t=0}, \quad  X \in {\frak g}.
+$$
+Write $g(\varepsilon)$ to denote the group element infinitesimally away from the identity $e$. $\text{Ad}$ maps $e$ to the identity linear transform
+$$
+\text{Ad}_ {e} Y = e  Y e^{-1} =Y
+$$
+and maps $g(\varepsilon)$ to some other linear transform
+$$
+\text{Ad}_ {g(\varepsilon)} = g(\varepsilon) Y g(\varepsilon)^{-1}  = : Y'
+$$
+which is not the same as $Y$. The induced map $\text{Ad}_ {\ast}$ should give the difference between $Y'$ and $Y$, which are both element of ${\frak g}$, hence so should be their difference, 
+$$
+\text{Ad}_ {{\ast }}: X \mapsto \text{some linear transform of } Y.
+$$Specific calculation shows that 
+$$
+\text{Ad}_ {\ast }(X) Y = \frac{d}{d t} e^{ tX } Y e^{ -tX }{\Large\mid}_ {t=0}=XY-YX = [X,Y]. 
+$$
+We can also write $\text{Ad}_ {\ast}(X)$ as $\text{Ad}_ {X}$. 
+
+Let us write $\text{ad}(X)$ or $\text{ad}_ {X}$ for the above linear transformation. Thus
+$$
+ad: {\frak g}\to{\frak g},\quad  X\mapsto[X,-].
+$$
