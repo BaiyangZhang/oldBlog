@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Note-of-Nonlinear-quantization 			# 标题 
 subtitle:   
-date:       2023-08-28 				# 时间
+date:       2023-08-31 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/lib13.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -84,3 +84,50 @@ and
 $$
 m_ {2}=\frac{2\alpha M}{F_ {\pi}}.
 $$
+
+- - -
+
+### The kinetic term
+
+The kinetic terms are the terms in the Lagrangian that contains time derivatives.
+
+The most general rotation of a Skyrmion include both spatial rotation and iso-rotation, 
+$$
+U(x,t) = A_ {1}(t) U_ {0}(D(A_ {2})(x-x_ {0})) A_ {1}(t)^{\dagger}
+$$
+where $U_ {0}$ is the static (time-independent) solution, $x_ {0}$ is the center of the Skyrmion, $A_ {1,2}$ are both $SU(2)$ matrices, $A_ {1}$ denotes the iso-rotation and $D(A_ {2})$ the spatial rotation. However, when we consider *the special Skyrmion configuration*, namely the hedgehog Skyrmion, the iso-rotation is equivalent to spatial rotation (for more details see the other note I made on Skyrmion), so we can just take one $A$ matrix. The convention is that we take $A_ {1}$, neglect the subscript $1$ we have
+$$
+U(x,t) = A(t)U_ {0}A(t)^{\dagger}.
+$$
+Making use of the specific form of the hedgehog solution, we can translate the time-dependent in $A(t)$ to 
+$$
+U(\mathbf{x},t) = U_ {0}(R(t) \mathbf{x}),\quad  R_ {ij}(t) = \frac{1}{2}\mathrm{Tr}\,(\sigma_ {i} A \sigma_ {j} A^{\dagger}).
+$$
+
+- - -
+
+Since $A(t)$ can be written as 
+$$
+A(t) = \alpha_ {0}(t) + i\alpha_ {i}(t)\sigma^{i}, \quad  \alpha \in \mathbb{R}
+$$
+and $\det(A)=1$ requires that 
+$$
+\alpha_ {0}^{2}+\alpha_ {i}\alpha_ {i} = 1,
+$$
+thus the trajectory of $A(t)$ can be regarded as a curve on $\mathbb{S}^{3}$. Then $\dot{A}(t)$ is perpendicular to $A(t)$, thus we have 
+$$
+\begin{align}
+\mathrm{Tr}\,(A ^{\dagger}(t)\dot{A}(t))&=\mathrm{Tr}\,[(\alpha_ {0}\mathbb{1}_ {2}-i\alpha_ {i}\sigma^{i})\cdot(\dot{\alpha}_ {0}\mathbb{1}_ {2}+i \dot{\alpha}_ {j}\sigma^{j})] \\
+&=2\alpha_ {0}\dot{\alpha}_ {0}+\alpha_ {i}\dot{\alpha}_ {j}2\delta_ {ij} \\
+&= 2(\alpha_ {0},\alpha_ {1},\alpha_ {2},\alpha_ {3})\cdot(\dot{\alpha}_ {0},\dot{\alpha}_ {1},\dot{\alpha}_ {2},\dot{\alpha}_ {3}) \\
+&=0.
+\end{align}
+$$
+
+Furthermore, $A^{\dagger}\dot{A}$ is also skew-hermitian since 
+$$
+(A^{\dagger}\dot{A})^{\dagger}=(\dot{A}^{\dagger} A) = -A^{\dagger}\dot{A}.
+$$
+
+As a traceless anti-hermitian $2\times 2$ matrix, it can be expanded in the basis of three Pauli matrices with pure imaginary coefficients.
+
