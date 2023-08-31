@@ -246,7 +246,7 @@ Now let's proceed to construct a effective theory of Goldstone modes $U(x)$.  Th
 
 The simplest dynamic, renormalizable Lagrangian in terms of $U$ satisfying the chiral symmetry reads
 $$
-\mathcal{L} = \frac{f_ {\pi}^{2}}{4} \mathrm{Tr}\,(\partial_ {\mu}U \partial^{\mu}U).
+\mathcal{L} = \frac{f_ {\pi}^{2}}{4} \mathrm{Tr}\,(\partial_ {\mu}U \partial^{\mu}U^{\dagger}).
 $$
 This is the so-called `chiral Lagrangian`. 
 
