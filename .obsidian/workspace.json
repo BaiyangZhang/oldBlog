@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -167,8 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "34d698383e78432b",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
+    "img/background1.jpg.crdownload",
+    "img/background2.jpg.crdownload",
     "_posts/2023-07-07-Quartic-Time-Derivative.md",
     "_posts/2023-07-05-Transseries-Lecture-I.md",
     "_posts/2023-08-31-Note-of-Nonlinear-quantization.md",
@@ -196,7 +197,6 @@
     "_drafts/2023-07-05-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-07-05-Fiber-Bundles-and-Principal-Bundles.md",
     "_drafts/2023-06-16-Representables-in-Category-Theory.md",
-    "_posts/2023-06-16-Representables-in-Category-Theory.md",
     "[./img",
     "[.",
     "[/img",
@@ -211,7 +211,6 @@
     "PDFs",
     "img/chatgpt-cn.co.zip",
     "img/Unconfirmed 358518.crdownload",
-    "img/sustainability-13-00351.pdf",
     "img/jacobiEllipse.jpg",
     "img/3holes.png",
     "img/Weihai3.png"
