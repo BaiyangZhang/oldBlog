@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-05-Transseries-Lecture-I.md",
+                "file": "_posts/2023-08-31-Note-of-Nonlinear-quantization.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-05-Transseries-Lecture-I.md",
+                "file": "_posts/2023-08-31-Note-of-Nonlinear-quantization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-05-Transseries-Lecture-I.md",
+                "file": "_posts/2023-08-31-Note-of-Nonlinear-quantization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-05-Transseries-Lecture-I.md"
+                "file": "_posts/2023-08-31-Note-of-Nonlinear-quantization.md"
               }
             }
           }
@@ -166,12 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "957cfa2362e38596",
+  "active": "34d698383e78432b",
   "lastOpenFiles": [
+    "_posts/2023-07-05-Transseries-Lecture-I.md",
     "img/background1.jpg.crdownload",
     "img/background2.jpg.crdownload",
     "_posts/2023-07-07-Quartic-Time-Derivative.md",
-    "_posts/2023-07-05-Transseries-Lecture-I.md",
     "_posts/2023-08-31-Note-of-Nonlinear-quantization.md",
     "_posts/2023-08-27-Associated-bundles.md",
     "_posts/2023-08-23-Connection-in-Principal-Bundles.md",
@@ -210,7 +210,6 @@
     "PDFs/BasicCategoryTheory.pdf",
     "PDFs",
     "img/chatgpt-cn.co.zip",
-    "img/Unconfirmed 358518.crdownload",
     "img/jacobiEllipse.jpg",
     "img/3holes.png",
     "img/Weihai3.png"

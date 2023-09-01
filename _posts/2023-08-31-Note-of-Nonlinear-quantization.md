@@ -1,6 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:     Note-of-Nonlinear-quantization 			# 标题 
+title:     Note of Nonlinear Quantization 			# 标题 
 subtitle:   
 date:       2023-08-31 				# 时间
 author:     Baiyang Zhang 						# 作者
