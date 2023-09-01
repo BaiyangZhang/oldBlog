@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:     Note of Nonlinear Quantization 			# 标题 
 subtitle:   
-date:       2023-08-31 				# 时间
+date:       2023-09-01 				# 时间
 author:     Baiyang Zhang 						# 作者
 header-img: img/lib13.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
@@ -129,5 +129,6 @@ $$
 (A^{\dagger}\dot{A})^{\dagger}=(\dot{A}^{\dagger} A) = -A^{\dagger}\dot{A}.
 $$
 
-As a traceless anti-hermitian $2\times 2$ matrix, it can be expanded in the basis of three Pauli matrices with pure imaginary coefficients.
+As a traceless anti-hermitian $2\times 2$ matrix, it can be expanded in the basis of three Pauli matrices with pure imaginary coefficients. Writing
+
 
