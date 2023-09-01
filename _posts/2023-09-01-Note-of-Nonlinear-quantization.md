@@ -130,5 +130,36 @@ $$
 $$
 
 As a traceless anti-hermitian $2\times 2$ matrix, it can be expanded in the basis of three Pauli matrices with pure imaginary coefficients. Writing
+$$
+A^{\dagger}\dot{A} = \frac{i}{2} a_ {i} \sigma^{i}
+$$
+then the inverse is easily given by 
+$$
+a_ {i} = -i \mathrm{Tr}\,\left\{ \sigma _ {i} A^{\dagger}\dot{A} \right\} ,\quad  t\text{-dependent.}
+$$
 
+Straightforward calculation shows that 
+$$
+\mathrm{Tr}\,R_ {0}^{2}=2\mathrm{Tr}\,(M\cdot M-MU_ {0}MU_ {0}^{\dagger}),\quad  M:=A^{\dagger}\dot{A}
+$$
+and if we define 
+$$
+T_ {i} =\frac{i}{2}[\sigma _ {i} ,U_ {0}]U_ {0}^{\dagger}
+$$
+we have
+$$
+\mathrm{Tr}\,R_ {0}^{2}=\mathrm{Tr}\,(T_ {i} a_ {i} R_ {j} a_ {j} ) = \mathrm{Tr}(T_ {i} T_ {j} )a_ {i} a_ {j} .
+$$
 
+The kinetic energy reads
+$$
+T = \int d^3x \left[-\frac12\mathrm{Tr}\,(R_0^2)-\frac{2\eta-1}{8}\mathrm{Tr}\,\left([R_0,R_i]^2\right)-\frac{1-\eta}{8}\left(\mathrm{Tr}\,(R_0^2)\right)^2+\frac{1-\eta}{4}\mathrm{Tr}\,(R_0^2)\mathrm{Tr}\,(R_i^2)\right]
+$$
+We can rewrite it in terms of $a_ {i}$'s and regard $a_ {i}$'s as some kind of **angular velocity**. 
+
+$$
+\begin{align}
+-\frac{1}{2} \mathrm{Tr}\,R_ {0}^{2}& = -\frac{1}{2} \mathrm{Tr}\,(T_ {i} T_ {j} )a_ {i} a_ {j} , \\
+-\frac{2\eta-1}{8}\mathrm{Tr}\,\left([R_0,R_i]^2\right)&= 
+\end{align}
+$$
