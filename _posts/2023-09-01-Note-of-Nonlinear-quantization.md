@@ -138,9 +138,11 @@ $$
 a_ {i} = -i \mathrm{Tr}\,\left\{ \sigma _ {i} A^{\dagger}\dot{A} \right\} ,\quad  t\text{-dependent.}
 $$
 
+To avoid confusion, let us denote the time dependent rignt-currents as $\widetilde{R}_ {\mu}$ and keep $R_ {\mu}$ for time independent versions, that is $\widetilde{R}_ {\mu}:= A R_ {\mu}A^{\dagger}$. 
+
 Straightforward calculation shows that 
 $$
-\mathrm{Tr}\,R_ {0}^{2}=2\mathrm{Tr}\,(M\cdot M-MU_ {0}MU_ {0}^{\dagger}),\quad  M:=A^{\dagger}\dot{A}
+\mathrm{Tr}\,\widetilde{R}_ {0}^{2}=2\mathrm{Tr}\,(M\cdot M-MU_ {0}MU_ {0}^{\dagger}),\quad  M:=A^{\dagger}\dot{A}
 $$
 and if we define 
 $$
@@ -148,18 +150,39 @@ T_ {i} =\frac{i}{2}[\sigma _ {i} ,U_ {0}]U_ {0}^{\dagger}
 $$
 we have
 $$
-\mathrm{Tr}\,R_ {0}^{2}=\mathrm{Tr}\,(T_ {i} a_ {i} R_ {j} a_ {j} ) = \mathrm{Tr}(T_ {i} T_ {j} )a_ {i} a_ {j} .
+\mathrm{Tr}\,\widetilde{R}_ {0}^{2}=\mathrm{Tr}\,(T_ {i} a_ {i} T_ {j} a_ {j} ) = \mathrm{Tr}(T_ {i} T_ {j} ) \,a_ {i} a_ {j} .
 $$
 
 The kinetic energy reads
 $$
-T = \int d^3x \left[-\frac12\mathrm{Tr}\,(R_0^2)-\frac{2\eta-1}{8}\mathrm{Tr}\,\left([R_0,R_i]^2\right)-\frac{1-\eta}{8}\left(\mathrm{Tr}\,(R_0^2)\right)^2+\frac{1-\eta}{4}\mathrm{Tr}\,(R_0^2)\mathrm{Tr}\,(R_i^2)\right]
+T = \int d^3x \left[-\frac12\mathrm{Tr}\,(\widetilde{R}_0^2)-\frac{2\eta-1}{8}\mathrm{Tr}\,\left([\widetilde{R}_0,\widetilde{R}_i]^2\right)-\frac{1-\eta}{8}\left(\mathrm{Tr}\,(\widetilde{R}_0^2)\right)^2+\frac{1-\eta}{4}\mathrm{Tr}\,(\widetilde{R}_0^2)\mathrm{Tr}\,(\widetilde{R}_i^2)\right]
 $$
-We can rewrite it in terms of $a_ {i}$'s and regard $a_ {i}$'s as some kind of **angular velocity**. 
+We can rewrite it in terms of $a_ {i}$'s and regard $a_ {i}$'s as some kind of **angular velocity**.  We have
+$$
+\boxed {
+T_ {i} a_ {i}  = [A^{\dagger}\dot{A},U_ {0}]U_ {0}^{\dagger} = A^{\dagger}\widetilde{R}_ {0}A
+} 
+$$
+and
+$$
+\widetilde{R}_ {i}  = A (\partial_ {i}U_ {0})U_ {0}^{\dagger}A^{\dagger} = A R_ {i} A^{\dagger},
+$$
+Then we can rewrite the Lagrangian as following (to isolate-out the time dependent part).
 
 $$
 \begin{align}
--\frac{1}{2} \mathrm{Tr}\,R_ {0}^{2}& = -\frac{1}{2} \mathrm{Tr}\,(T_ {i} T_ {j} )a_ {i} a_ {j} , \\
--\frac{2\eta-1}{8}\mathrm{Tr}\,\left([R_0,R_i]^2\right)&= 
+ \mathrm{Tr}\,\widetilde{R}_ {0}^{2}& =  \mathrm{Tr}\,(T_ {i} T_ {j} )a_ {i} a_ {j} , \\
+\mathrm{Tr}\,\left([\widetilde{R}_0,\widetilde{R}_i]^2\right)&= \mathrm{Tr}\,([T_ {i},R_ {i} ][T_ {j},R_ {i} ])a_ {i} a_ {j} , \\
+\left(\mathrm{Tr}\,(\widetilde{R}_0^2)\right)^2&= \mathrm{Tr}\,(T_ {i} T_ {j} ) \mathrm{Tr}\,(T_ {m} T_ {n} ) a_ {i} a_ {j} a_ {m} a_ {n}
 \end{align}
 $$
+
+This agrees with Eq.(2.16) in the paper draft, which is 
+$$
+\begin{align}
+T &= \int d^3x\left[-\frac12\mathrm{Tr}\,(T_i T_j)-\frac{2\eta-1}{8}\mathrm{Tr}\,\left([T_i,R_k][T_j,R_k]\right)+\frac{1-\eta}{4}\mathrm{Tr}\,(T_i T_j)\mathrm{Tr}\,(R_k^2)\right]a_i a_j \\
+&\phantom{=\ }+\int d^3x\left[-\frac{1-\eta}{8}\mathrm{Tr}\,(T_i T_j)\mathrm{Tr}\,(T_k T_l)\right]a_i a_j a_k a_l,
+\end{align}
+$$
+
+Now what we need to do is to substitute the Hedgehog ansatz into the above expression. 
