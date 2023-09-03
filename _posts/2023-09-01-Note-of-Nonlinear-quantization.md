@@ -185,4 +185,4 @@ T &= \int d^3x\left[-\frac12\mathrm{Tr}\,(T_i T_j)-\frac{2\eta-1}{8}\mathrm{Tr}\
 \end{align}
 $$
 
-Now what we need to do is to substitute the Hedgehog ansatz into the above expression. 
+Now what we need to do is to substitute the Hedgehog solution into the above expression. 
