@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0be7c7c3ba54097c",
+        "id": "18b7f0befdab95c8",
         "type": "tabs",
         "children": [
           {
-            "id": "34d698383e78432b",
+            "id": "a3bce291c60b3797",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-09-01-Note-of-Nonlinear-quantization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "33f53db962cf03ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-07-07-Quartic-Time-Derivative.md",
+                "file": "_drafts/2023-09-03-The-Dirac-Equation.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +66,7 @@
             }
           },
           {
-            "id": "555c02c222c087f8",
+            "id": "87e34159ec646579",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-01-Note-of-Nonlinear-quantization.md",
+                "file": "_drafts/2023-09-03-The-Dirac-Equation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-01-Note-of-Nonlinear-quantization.md",
+                "file": "_drafts/2023-09-03-The-Dirac-Equation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-01-Note-of-Nonlinear-quantization.md"
+                "file": "_drafts/2023-09-03-The-Dirac-Equation.md"
               }
             }
           }
@@ -167,52 +155,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "34d698383e78432b",
+  "active": "a3bce291c60b3797",
   "lastOpenFiles": [
-    "_posts/2023-07-05-Transseries-Lecture-I.md",
-    "img/background1.jpg.crdownload",
-    "img/background2.jpg.crdownload",
-    "_posts/2023-07-07-Quartic-Time-Derivative.md",
-    "_posts/2023-09-01-Note-of-Nonlinear-quantization.md",
+    "_drafts/2023-mm-dd-Theodore-Frankel.md",
+    "_drafts/2023-09-03-The-Dirac-Equation.md",
+    "_drafts/2023-mm-dd-共和国史笔记.md",
+    "_posts/2023-09-02-Connections-in-Associated-Bundles.md",
     "_posts/2023-08-27-Associated-bundles.md",
+    "_posts/2023-09-01-Note-of-Nonlinear-quantization.md",
     "_posts/2023-08-23-Connection-in-Principal-Bundles.md",
-    "_drafts/2023-08-29-Connections-in-Associated-Bundles.md",
-    "_posts/2023-08-23-Connections-and-Associated-Bundles.md",
-    "_drafts/2023-08-23-Associated-bundles-and-connection.md",
-    "_drafts/2023-08-23-Theodore-Frankel 1.md",
+    "_posts/2023-08-31-Note-of-Nonlinear-quantization.md",
+    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
+    "_posts/2023-07-07-Quartic-Time-Derivative.md",
+    "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
+    "_posts/2023-07-18-Mikhail-Bakunin.md",
+    "_posts/2023-07-12-Coset-Spaces.md",
+    "_posts/2023-07-05-Transseries-Lecture-I.md",
+    "_posts/2023-07-03-The-Electromagnetic-Connection.md",
     "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
     "_posts/2023-07-28-Topological-Quantization.md",
-    "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
     "_posts/2023-08-19-韩非子.md",
-    "_posts/2023-07-18-Mikhail-Bakunin.md",
-    "_drafts/2023-07-17-历史笔记若干.md",
-    "_posts/2023-07-12-Coset-Spaces.md",
-    "_posts/2023-07-03-The-Electromagnetic-Connection.md",
-    "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
-    "_posts/2023-06-21-The-Phase-Space.md",
-    "_drafts/paperDrafts/2023-07-13-Nonlinear-quantization- of-the-Skyrme-model.md",
-    "_drafts/paperDrafts/Renormalization method in PDF.md",
-    "img/cubic.png",
-    "_drafts/2023-07-07-一些历史笔记.md",
-    "img/txgraph.png",
-    "_drafts/2023-07-05-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-07-05-Fiber-Bundles-and-Principal-Bundles.md",
-    "_drafts/2023-06-16-Representables-in-Category-Theory.md",
-    "[./img",
-    "[.",
-    "[/img",
-    "[",
-    "img/hedgehog.png",
-    "img/phase.png",
-    "Pasted image 20230608164804.png",
-    "Pasted image 20230608164632.png",
-    "img/KochCcurve.png",
-    "img/KochCcurve.png.crdownload",
-    "PDFs/BasicCategoryTheory.pdf",
-    "PDFs",
-    "img/chatgpt-cn.co.zip",
-    "img/jacobiEllipse.jpg",
-    "img/3holes.png",
-    "img/Weihai3.png"
+    "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
+    "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md",
+    "_drafts/2022-10-12-罗马人的一天笔记.md",
+    "1.md",
+    "_drafts/2022-8-29-Excerpts-from-1984-by-Orwell.md",
+    "_posts/2022-10-02-Basic-Measure-Theory-Part-I.md",
+    "_drafts/2022-08-02-Basic-Measure-Theory-Part-II.md",
+    "_drafts/2022-10-3-共和国史笔记.md"
   ]
 }
