@@ -1,12 +1,13 @@
 ---
-layout: post
-title: Note of Nonlinear Quantization
-subtitle: 
-date: 2023-09-05
-author: Baiyang Zhang
-header-img: img/lib13.jpg
-catalog: true
-tags: []
+layout:     post   				    # 使用的布局（不需要改）
+title:     Note of Nonlinear Quantization 			# 标题 
+subtitle:   
+date:       2023-09-01 				# 时间
+author:     Baiyang Zhang 						# 作者
+header-img: img/lib13.jpg 	#这篇文章标题背景图片
+catalog: true 						# 是否归档
+tags:								#标签
+    - 
 ---
 
 ### The Lagrangian
@@ -184,4 +185,7 @@ T &= \int d^3x\left[-\frac12\mathrm{Tr}\,(T_i T_j)-\frac{2\eta-1}{8}\mathrm{Tr}\
 \end{align}
 $$
 
-Now what we need to do is to substitute the Hedgehog ansatz into the above expression. This can be done with the help of Mathematica. 
+Now what we need to do is to substitute the Hedgehog solution into the above expression. With the help of Mathematica, we have
+$$
+
+$$

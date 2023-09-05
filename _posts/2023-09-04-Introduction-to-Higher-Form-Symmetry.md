@@ -1,15 +1,15 @@
 ---
-layout:     post   				    # 使用的布局（不需要改）
-title:     Introduction to Higher Form Symmetry Lecture 2 			# 标题 
-subtitle:   based on 2306.00912v2, 2303.01817, etc.
-date:       2023-07-05 				# 时间
-author:     Baiyang Zhang 						# 作者
-header-img: img/lib17.jpg 	#这篇文章标题背景图片
-catalog: true 						# 是否归档
-tags:								#标签
-    - PureMath
-    - GeneralizedSymmetry
-    - Notes
+layout: post
+title: Introduction to Higher Form Symmetry Lecture 2
+subtitle: based on 2306.00912v2, 2303.01817, etc.
+date: 2023-09-04
+author: Baiyang Zhang
+header-img: img/lib17.jpg
+catalog: true
+tags:
+  - PureMath
+  - GeneralizedSymmetry
+  - Notes
 ---
 
 ### Ordinary symmetries
@@ -22,7 +22,7 @@ Noether theorem says that each continuous, physical symmetry (physical symmetry,
 3. Eventually we arrived at the conserved current $\partial_ {\mu}J^{\mu}=0$. 
 
 An particularly clever way to derive the Noether current is to *gauge* the global symmetry. By gauging something it is meant that making some global symmetry local, for example, the wavefunction has a global symmetry $\psi\to e^{ i\theta }\psi$, where $\theta$ is a constant, hence this transformation is global; we can gauge this transformation by making $\theta$ position-dependent, namely $\psi\to e^{ i\theta(x) }\psi$. Gauging a symmetry is the same thing as gauging a transformation, we will use them interchangeably. The gauging method to derive the Noether current works as follows.
-1. Under the infinitesimal global symmetry transformation $\phi\to \phi+\epsilon \phi$, the action is still invariant, $S\to S$. Now we gauge $\epsilon$, making it spacetime-dependent, $\epsilon\to\epsilon(x)$.
+1. Under the infinitesimal global symmetry transformation $\phi\to \phi+\epsilon \phi$, the action is still invariant (otherwise it won't be a symmetry would it), $S\to S$. Now we gauge $\epsilon$, making it spacetime-dependent, $\epsilon\to\epsilon(x)$.
 2. Under a gauged symmetry transformation, the action will receive extra contribution coming from the derivative of $\epsilon$, at the leading order this contribution should be proportional to (linear in) $\partial_ {\mu}\epsilon(x)$, that is $\delta S =\int \, J^{\mu}\partial_ {\mu}\epsilon(x)$. Here $J^{\mu}$ is just the proportional coefficient, and the upper index $\mu$ is needed to contract with the lower index $\mu$ in $\partial_ {\mu}$. 
 3. Now let us take the field configuration to be a physical one, that is, the configuration satisfies the equation of motion. Such configurations has an crucial advantage: it is a saddle point, any field variation about it will leave the action invariant, including the before defined gauged symmetry transformation. Thus we have something like $\delta S = \int  \, J^{\mu}\partial_ {\mu}\epsilon(x)=0$. Apply the integral by part and neglect the surface term, we arrive at $\partial_ {\mu}J^{\mu}=0$, we have found the conserved current $J^{\mu}$!
 

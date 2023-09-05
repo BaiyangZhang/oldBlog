@@ -37,7 +37,7 @@ We can then define the familiar Levi-Civita symbol as
 $$
 \epsilon_ {I} = \epsilon_ {i_ {1}\dots i_ {n}} =\epsilon^{I}= \delta^{I}_ {12\dots n}.
 $$
-**Note that it is called a symbol and it is not a tensor!** So don't use the metric to raise or lower the indices! Calculation-wise, the biggest difference between the `Levi-Civita symbol` and `Levi-Civita tensor` is that, for the symbol $\epsilon_ {I} = \epsilon^{I}$ *by definition*, however for the tensor what people usually do it to define $\epsilon_ {I}$ first, then use the metric to raise its indices, as for all tensors. It usually yields a factor involving $\det g$ and the signature of $g$, which is $-1$ for Minkowski metric.
+**Note that it is called a symbol and it is not a tensor!** So don't use the metric to raise or lower the indices! Calculation-wise, the biggest difference between the `Levi-Civita symbol` and `Levi-Civita tensor` is that, for the symbol $\epsilon_ {I} = \epsilon^{I}$ *by definition*, however for the tensor what people usually do is to define $\epsilon_ {I}$ first, then use the metric to raise its indices, as for all tensors. It usually yields a factor involving $\det g$ and the signature of $g$, which is $-1$ for Minkowski metric.
 
 In the above-mentioned notations, the wedge product of two differential forms $\alpha,\beta$ can be written as (in components)
 $$
