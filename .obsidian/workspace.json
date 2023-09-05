@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-09-03-The-Dirac-Equation.md",
+                "file": "_posts/2023-09-05-Note-of-Nonlinear-quantization.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-09-03-The-Dirac-Equation.md",
+                "file": "_posts/2023-09-05-Note-of-Nonlinear-quantization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-09-03-The-Dirac-Equation.md",
+                "file": "_posts/2023-09-05-Note-of-Nonlinear-quantization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-09-03-The-Dirac-Equation.md"
+                "file": "_posts/2023-09-05-Note-of-Nonlinear-quantization.md"
               }
             }
           }
@@ -162,7 +162,7 @@
     "_drafts/2023-mm-dd-共和国史笔记.md",
     "_posts/2023-09-02-Connections-in-Associated-Bundles.md",
     "_posts/2023-08-27-Associated-bundles.md",
-    "_posts/2023-09-01-Note-of-Nonlinear-quantization.md",
+    "_posts/2023-09-05-Note-of-Nonlinear-quantization.md",
     "_posts/2023-08-23-Connection-in-Principal-Bundles.md",
     "_posts/2023-08-31-Note-of-Nonlinear-quantization.md",
     "_posts/2023-06-30-Note-on-Quantization-of-Skyrme-Model.md",
