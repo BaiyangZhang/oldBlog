@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
+                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md"
+                "file": "_posts/2022-7-17-Conventions-and-Formula.md"
               }
             }
           }
@@ -167,8 +167,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "957cfa2362e38596",
+  "active": "34d698383e78432b",
   "lastOpenFiles": [
+    "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
     "_posts/2023-3-23-Synges-Theorem.md",
     "_posts/2023-2-2-Basic-Algebraic-Geometry-5.md",
     "_posts/2023-2-1-Minkowski Space.md",
@@ -196,7 +197,6 @@
     "_posts/2023-07-18-Mikhail-Bakunin.md",
     "_posts/2023-07-12-Coset-Spaces.md",
     "_posts/2023-07-03-The-Electromagnetic-Connection.md",
-    "_posts/2023-07-09-Fiber-Bundles-and-Principal-Bundles.md",
     "img/cubic.png",
     "img/txgraph.png",
     "[./img",
