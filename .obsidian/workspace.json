@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
+                "file": "_posts/2023-07-07-Quartic-Time-Derivative.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-05-Electrodynamics-in-Terms-of-Forms.md",
+                "file": "_posts/2023-07-07-Quartic-Time-Derivative.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-05-Electrodynamics-in-Terms-of-Forms.md",
+                "file": "_posts/2023-07-07-Quartic-Time-Derivative.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-05-Electrodynamics-in-Terms-of-Forms.md"
+                "file": "_posts/2023-07-07-Quartic-Time-Derivative.md"
               }
             }
           }
@@ -180,9 +179,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5932da76216a5d41",
+  "active": "34d698383e78432b",
   "lastOpenFiles": [
+    "_posts/2023-09-05-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-09-05-Note-of-Nonlinear-quantization.md",
+    "_posts/2023-07-07-Quartic-Time-Derivative.md",
+    "_posts/2022-7-17-Conventions-and-Formula.md",
+    "_posts/2023-09-05-Electrodynamics-in-Terms-of-Forms.md",
     "_posts/2023-05-28-Symmetry-groupoid.md",
     "_posts/2023-06-13-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-06-15-Complex-Vector-Space.md",
@@ -191,10 +194,6 @@
     "_posts/2023-06-04-Basic-Category-Theory.md",
     "_posts/2023-06-08-Note-on-Kink-Antikink-Scattering.md",
     "_posts/2023-06-13-Connections-in-a-Vector-Bundle.md",
-    "_posts/2023-09-05-Introduction-to-Higher-Form-Symmetry.md",
-    "_posts/2023-07-07-Quartic-Time-Derivative.md",
-    "_posts/2022-7-17-Conventions-and-Formula.md",
-    "_posts/2023-09-05-Electrodynamics-in-Terms-of-Forms.md",
     "_posts/2023-3-23-Synges-Theorem.md",
     "_posts/2023-2-2-Basic-Algebraic-Geometry-5.md",
     "_posts/2023-2-1-Minkowski Space.md",

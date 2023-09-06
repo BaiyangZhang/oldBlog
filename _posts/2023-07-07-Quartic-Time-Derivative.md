@@ -146,7 +146,7 @@ Recall that we are only interested in $x,t\geq 0$, we will discuss to situations
 
 The local maximum is obtained at 
 $$
-x_ {\ast } = - \frac{\alpha}{3\beta},\quad  t_ {\star} = - \frac{4\alpha^{3}}{27\beta}.
+x_ {\star } = - \frac{\alpha}{3\beta},\quad  t_ {\star} = - \frac{4\alpha^{3}}{27\beta}.
 $$
 Thus there are three inequivalent real roots for 
 $$
