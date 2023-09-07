@@ -1,15 +1,15 @@
 ---
-layout:     post   				    # 使用的布局（不需要改）
-title:    Electrodynamics in Terms of Differential Forms			# 标题 
-subtitle:   A thorough introduction
-date:       2023-04-10 				# 时间
-author:     Baiyang Zhang 						# 作者
-header-img: img/background13.jpg 	#这篇文章标题背景图片
-catalog: true 						# 是否归档
-tags:								#标签
-    - Geometry
-    - Minkowski
-    - Frankel
+layout: post
+title: Electrodynamics in Terms of Differential Forms
+subtitle: A thorough introduction
+date: 2023-09-05
+author: Baiyang Zhang
+header-img: img/background13.jpg
+catalog: true
+tags:
+  - Geometry
+  - Minkowski
+  - Frankel
 ---
 
 *Disclaimer: Nothing in this note is original.*
@@ -592,7 +592,7 @@ The local scalar product of two $p$-forms is defined to be
 $$
 \left\langle \alpha,\beta \right\rangle := \alpha_ {I_ {<}} \beta^{I}
 $$
-where again $I={i_ {1},\dots,i_ {p}}$ is the generalized index and $I_ {<}$ denotes that in the implies sum we have $i_ {1}<i_ {2}<\dots<i_ {p}$. We can denote the orthonormal bases of 1-forms by 
+where again $I={i_ {1},\dots,i_ {p}}$ is the generalized index and $I_ {<}$ denotes that in the implied sum we have $i_ {1}<i_ {2}<\dots<i_ {p}$. We can denote the orthonormal bases of 1-forms by 
 $$
 \sigma^{1}, \dots,\sigma^{p}.
 $$
