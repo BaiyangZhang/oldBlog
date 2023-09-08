@@ -50,5 +50,14 @@ The quantization, to be specific the canonical quantization upgrade the Noether 
 
 In this part we will use the Language of differential forms a lot, for a beginner-friendly introduction please refer to my other [blog](http://www.mathlimbo.net/2023/04/10/Electrodynamics-in-Terms-of-Forms/).
 
-Next let's rewrite what we already know about ordinary symmetry in the language of differential form. Given a conserved 
+Next let's rewrite what we already know about ordinary symmetry in the language of differential form. Given a conserved current $J_ {\mu}$, we have $\partial_ {\mu}J^{\mu}=0$. We can regard it as a 1-form $J\in \Omega^{1}$, 
+$$
+J := J_ {\mu} dx^{\mu}, \quad  J_ {\mu} = g_ {\mu \nu}J^{\nu}
+$$
+then the conservation law is 
+$$
+d\star J =0.
+$$
 
+
+ 
