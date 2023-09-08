@@ -187,3 +187,34 @@ $$
 
 Now what we need to do is to substitute the Hedgehog solution into the above expression. It's done with the help of Mathematica.
 
+- - -
+
+By the end of the day, we have the expression for kinetic energy where the Hedgehog ansatz is adopted, 
+$$
+T = \frac{1}{2} \Lambda_ {1} a ^{2}  - \frac{1}{4} \Lambda_ {2} a^{4},\quad  a^{2}:=a_ {i} a_ {i} , \,a^{4}:= a_ {i} a_ {i} a_ {j} a_ {j} ,
+$$
+where $\Lambda_ {1}$ is something like $\text{positive}+ \eta(\text{positive})$, while $\Lambda_ {2}$ is something like $(1-\eta)\text{positive}$. 
+
+From this we can get the canonical momentum of $a_ {i}$, call it $J_ {i}$
+$$
+J_ {i}  = \Lambda_ {1}a_ {i} -\Lambda_ {2}a^{2} a_ {i}
+$$
+which squares to 
+$$
+J^{2} = \Lambda_ {2}^{2}a^{6}-2\Lambda_ {1}\Lambda_ {2}a^{4}+\Lambda_ {1}^{2}a^{2}.
+$$
+Define $x:=a^{2}$ to simplify the notations, we want to solve the equation
+$$
+y(x) =  \Lambda_ {2}^{2} x^{3}-2\Lambda_ {1}\Lambda_ {2}x^{2}+\Lambda_ {1}^{2}x-J^{2}=0,
+$$
+the solution will be something like $x=x(J)$. 
+
+Being a cubic equation there exists three solutions, for details see the other note [here](http://www.mathlimbo.net/2023/07/07/Quartic-Time-Derivative/). 
+
+In the limit $\eta\to 1$, for a finite positive $J^{2}$, there will always be three roots, all positive. The smallest one goes to a fixed finite value, while the other two goes to infinite. The root that stays finite in this limit is the root that goes to the original Skyrme result. So it makes sense to focus on it and regard it as the correct starting point. 
+
+Now the question is, what are the kinetic energies given by the three different roots, when $\eta<1$. The kinetic energy in terms of $x$ reads
+$$
+T = \frac{1}{2} \Lambda_ {1} x  - \frac{1}{4} \Lambda_ {2} x^{2},\quad  x:=a_ {i} a_ {i}.
+$$
+
