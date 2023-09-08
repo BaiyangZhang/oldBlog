@@ -1,14 +1,8 @@
 ---
 layout: post
-<<<<<<<< HEAD:_posts/2023-09-06-Introduction-to-Higher-Form-Symmetry.md
-title: Introduction to Higher Form Symmetry Lecture 2
-subtitle: Part 2
-date: 2023-09-06
-========
 title: Introduction to Higher Form Symmetry
 subtitle: Lecture 2
-date: 2023-09-05
->>>>>>>> 5b9fa0366a97dace0395be54f89fbe8c79f10565:_posts/2023-09-05-Introduction-to-Higher-Form-Symmetry.md
+date: 2023-09-08
 author: Baiyang Zhang
 header-img: img/lib17.jpg
 catalog: true
@@ -56,5 +50,5 @@ The quantization, to be specific the canonical quantization upgrade the Noether 
 
 In this part we will use the Language of differential forms a lot, for a beginner-friendly introduction please refer to my other [blog](http://www.mathlimbo.net/2023/04/10/Electrodynamics-in-Terms-of-Forms/).
 
-Next let's rewrite what we already know about ordinary symmetry in the language of differential form. Given a conserved
+Next let's rewrite what we already know about ordinary symmetry in the language of differential form. Given a conserved 
 

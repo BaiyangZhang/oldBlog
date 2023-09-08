@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-09-06-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "_posts/2023-09-08-Introduction-to-Higher-Form-Symmetry.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-09-06-The-Dirac-Equation.md",
+                "file": "_posts/2023-09-08-Introduction-to-Higher-Form-Symmetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-09-06-The-Dirac-Equation.md",
+                "file": "_posts/2023-09-08-Introduction-to-Higher-Form-Symmetry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-09-06-The-Dirac-Equation.md"
+                "file": "_posts/2023-09-08-Introduction-to-Higher-Form-Symmetry.md"
               }
             }
           }
@@ -168,14 +167,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e99953ded568e24c",
+  "active": "a3bce291c60b3797",
   "lastOpenFiles": [
+    "_drafts/2023-09-06-The-Dirac-Equation.md",
     "_posts/2023-09-05-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-09-05-Electrodynamics-in-Terms-of-Forms.md",
     "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
-    "_posts/2023-09-06-Introduction-to-Higher-Form-Symmetry.md",
+    "_posts/2023-09-08-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-07-03-The-Electromagnetic-Connection.md",
-    "_drafts/2023-09-06-The-Dirac-Equation.md",
     "_posts/2023-09-05-Note-of-Nonlinear-quantization.md",
     "_posts/2023-07-17-历史笔记若干.md",
     "2023-09-05.md",
