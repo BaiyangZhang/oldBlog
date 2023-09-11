@@ -160,13 +160,13 @@ $$
 U(g,\Sigma^{(d-1)}) := e^{ i \theta(g) Q(\Sigma) },
 }
 $$
-the generator $Q$ carries the information of the support of the "operator", the parameter $\theta(g)$ carries the information of the group element. This is usually by construction a *unitary* operator, since $Q(\Sigma)$ almost always corresponds to some physical observable hence are hermitian. Assume under the group action $g$ the field operator transforms as $\Delta \phi = R(g)\phi$, where $R(g)$ is certain representation of the generator. Assume the linking number between $\Sigma$ and $y$ is $1$, this will greatly simplify our notation. Then 
+the generator $Q$ carries the information of the support of the "operator", the parameter $\theta(g)$ carries the information of the group element. This is usually by construction a *unitary* operator, since $Q(\Sigma)$ almost always corresponds to some physical observable hence are hermitian. Assume under the group action $g$ the field operator transforms as $\Delta \phi = T\phi$, where $R$ is certain representation of the generator. Assume the linking number between $\Sigma$ and $y$ is $1$, this will greatly simplify our notation. Then 
 $$
-\left\langle Q(\Sigma)\,\phi(y) \right\rangle =R \left\langle \phi(y) \right\rangle .
+\left\langle Q(\Sigma)\,\phi(y) \right\rangle =T \left\langle \phi(y) \right\rangle .
 $$
 Since $R$ is the generator of the group action, it inspires us to treat it as an infinitesimal form of something of finite size. Since 
 $$
-\left\langle \{1+id\theta \,Q(\Sigma)\}\phi(y) \right\rangle = (1+id\theta R)\left\langle \phi(y) \right\rangle
+\left\langle \{1+id\theta \,Q(\Sigma)\}\phi(y) \right\rangle = (1+id\theta T)\left\langle \phi(y) \right\rangle
 $$
 we have
 $$
@@ -174,8 +174,22 @@ $$
 \left\langle U(g,\Sigma)\phi(y) \right\rangle &= \left\langle e^{ i\theta(g)Q(\Sigma)} \phi(y)\right\rangle \\
 &=\left\langle \lim_{ N \to \infty }\left( 1+i \frac{\theta(g)}{N} Q(\Sigma) \right)^{N} \times \phi(y)  \right\rangle \\
 &=\lim_{ N \to \infty } \left\langle (1+id\theta Q(\Sigma))^{N}\times \phi(y) \right\rangle \\
-&=\lim_{ N \to \infty } \left\langle (1+i d\theta R)^{N} \phi(y) \right\rangle \\
-&= \left\langle \exp(i \theta(g)R) \phi(y)  \right\rangle \\
-&=e^{i \theta(g)R} \left\langle  \phi(y)  \right\rangle
+&=\lim_{ N \to \infty } \left\langle (1+i d\theta T)^{N} \phi(y) \right\rangle \\
+&= \left\langle \exp(i \theta(g)T) \phi(y)  \right\rangle \\
+&=e^{i \theta(g)T} \left\langle  \phi(y)  \right\rangle \\
+&=: R(g) \left\langle  \phi(y)  \right\rangle.
 \end{align}
 $$
+
+Since the group action $R(g)$ acts on an operator $\phi(y)$ whose support is a point, we call this a 0-form symmetry. The operator $U(g,\Sigma)$ is sometimes called a `symmetry defect operator`.
+
+In order for $U(g,\Sigma)$ to enact a symmetry, it must represent a group structure,
+$$
+U(g,\Sigma) \,\circ\,U(g',\Sigma) = U(g\,\circ\,g',\Sigma).
+$$
+Indeed it can be shown that 
+$$
+\left\langle U(g,\Sigma)U(g',\Sigma)\phi(y) \right\rangle = R(g)R(g')\phi(y)=R(g g')\phi(y).
+$$
+
+We have talked about the topological nature of charge $Q(\Sigma)$ when put in the vev. The topological nature of $U(g,\Sigma)$ can also be shown as a consequence of the conservation of the current. Let $\Sigma'$ be a homotopic deformation of $\Sigma$, meaning $\Sigma-\Sigma'$ is the boundary of some $D$-dimensional bulk which does not contain $\phi(y)$ or any charged operator. 
