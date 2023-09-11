@@ -152,7 +152,7 @@ since $\text{Link}(\Sigma',y)=0$, we have
 $$
 \left\langle Q(\Sigma+\Sigma')\,\phi(y) \right\rangle = \left\langle Q(\Sigma)\,\phi(y) \right\rangle
 $$
-if $\Sigma'$ has zero link number with $y$. 
+if $\Sigma'$ has zero link number with $y$. This tells us the topological nature of this operator.
 
 Follow the ideas of constructing symmetry operators in a Hilbert space, we are encouraged to consider 
 $$
@@ -160,7 +160,15 @@ $$
 U(g,\Sigma^{(d-1)}) := e^{ i \theta(g) Q(\Sigma) },
 }
 $$
-the generator $Q$ carries the information of the support of the "operator", the parameter $\theta(g)$ carries the information of the group element. This is usually by construction a *unitary* operator, since $Q(\Sigma)$ almost always corresponds to some physical observable hence are hermitian. Assume under the group action $g$ the field operator transforms as $\Delta \phi = R(g)\phi$, then 
+the generator $Q$ carries the information of the support of the "operator", the parameter $\theta(g)$ carries the information of the group element. This is usually by construction a *unitary* operator, since $Q(\Sigma)$ almost always corresponds to some physical observable hence are hermitian. Assume under the group action $g$ the field operator transforms as $\Delta \phi = R(g)\phi$, where $R(g)$ is certain representation of the generator. Assume the linking number between $\Sigma$ and $y$ is $1$, this will greatly simplify our notation. Then 
+$$
+\left\langle Q(\Sigma)\,\phi(y) \right\rangle =R \left\langle \phi(y) \right\rangle .
+$$
+Since $R$ is the generator of the group action, it inspires us to treat it as an infinitesimal form of something of finite size. Since 
+$$
+\left\langle \{1+id\theta \,Q(\Sigma)\}\phi(y) \right\rangle = (1+id\theta R)\left\langle \phi(y) \right\rangle
+$$
+we have
 $$
 \begin{align}
 \left\langle U(g,\Sigma)\phi(y) \right\rangle &= \left\langle e^{ i\theta(g)Q(\Sigma)} \phi(y)\right\rangle \\
