@@ -172,6 +172,10 @@ we have
 $$
 \begin{align}
 \left\langle U(g,\Sigma)\phi(y) \right\rangle &= \left\langle e^{ i\theta(g)Q(\Sigma)} \phi(y)\right\rangle \\
-&=\left\langle \exp\{ i\theta(g)\text{Link} \} \right\rangle
+&=\left\langle \lim_{ N \to \infty }\left( 1+i \frac{\theta(g)}{N} Q(\Sigma) \right)^{N} \times \phi(y)  \right\rangle \\
+&=\lim_{ N \to \infty } \left\langle (1+id\theta Q(\Sigma))^{N}\times \phi(y) \right\rangle \\
+&=\lim_{ N \to \infty } \left\langle (1+i d\theta R)^{N} \phi(y) \right\rangle \\
+&= \left\langle \exp(i \theta(g)R) \phi(y)  \right\rangle \\
+&=e^{i \theta(g)R} \left\langle  \phi(y)  \right\rangle
 \end{align}
 $$
