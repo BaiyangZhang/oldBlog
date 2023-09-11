@@ -2,9 +2,9 @@
 layout: post
 title: Introduction to Higher Form Symmetry
 subtitle: Lecture 2
-date: 2023-09-08
+date: 2023-09-11
 author: Baiyang Zhang
-header-img: img/lib17.jpg
+header-img: img/lib18.jpg
 catalog: true
 tags:
   - PureMath
@@ -127,7 +127,7 @@ $$
 $$
 thus
 $$
-\left\langle Q(\Sigma)\,\phi(y) \right\rangle =\int_ {\Omega} d^{D}x\, \delta(x-y) \left\langle\Delta \phi(y) \right\rangle = \left\langle\Delta \phi(x) \right\rangle,
+\left\langle Q(\Sigma)\,\phi(y) \right\rangle =\int_ {\Omega} d^{D}x\, \delta(x-y) \left\langle\Delta \phi(y) \right\rangle =? \left\langle\Delta \phi(x) \right\rangle,
 $$
 where we have put an extra $d^{D}x$ to show that $\Omega$ has coordinate $x$ while $y$ can be regarded as part of the operator $\phi(y)$. In a sense, $x$ is the coordinate which varies on $\Omega$, thus the exterior differential $d$ acts on it, while $y$ is fixed. 
 
@@ -137,4 +137,11 @@ $$
 \text{Link}(\Sigma,y):= \int_ {\Omega} d^{D}x\, \delta(x-y).
 }
 $$
+The topological picture of link number is more or less intuitive, it tells us if we move a point infinitely far apart a co-dimensional one object, at least how many times the former must intersect the latter. 
 
+In summary, we have
+$$
+\left\langle Q(\Sigma)\,\phi(y) \right\rangle =\text{Link}(\Sigma,y) \left\langle \Delta \phi(y) \right\rangle 
+$$
+
+Note that the above relation 
