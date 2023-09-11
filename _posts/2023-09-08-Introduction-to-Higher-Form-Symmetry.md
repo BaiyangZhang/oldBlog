@@ -76,7 +76,7 @@ $$
 $$
 Take one derivative $\delta / \delta K(y)$ and set $K=0$ we get
 $$
-\left\langle \partial_ {\mu}J^{\mu}(x) \phi(y)\right\rangle-\delta(x-y)\left\langle \phi(y) \right\rangle =0.
+\left\langle \partial_ {\mu}J^{\mu}(x) \phi(y)\right\rangle-\delta(x-y)\left\langle \Delta\phi(y) \right\rangle =0.
 $$
 The second term, the so-called contact term, is a quantum correction to the classical result. 
 
@@ -93,5 +93,48 @@ $$
 d\star J =0.
 $$
 
+Let the space-time be a $D$ dimensional manifold with Euclidean metric, with $D-1$ dimensional submanifold denoted as $\Sigma$. $\Sigma$ has co-dimension one.  The Noether charge on $\Sigma$ can be written as 
+$$
+Q(\Sigma)= \int _ {\Sigma} \,  \star J
+$$
+ as one can easily verify that this indeed gives the familiar integral of charge when applied on Minkowski spacetime. Now we can generalize Minkowski spacetime to any manifold with arbitrary metric, but for the sake of simplicity we first confine ourselves to Euclidean spacetime, Minkowski results can be obtained from Euclidean spacetime via Wick rotation and path integral. 
 
- 
+The quantum consequence of symmetry is the Ward identity, so let's see what it gives us when we combine 
+$$
+\left\langle \partial_ {\mu}J^{\mu}(x) \phi(y)\right\rangle = \delta(x-y)\left\langle \Delta\phi(y) \right\rangle.
+\tag{0}
+$$
+with 
+$$
+Q(\Sigma)= \int _ {\Sigma} \,  \star J.
+$$
+Let $\Omega$ be a $D$-dimensional manifold whose boundary is $\Sigma$, $\partial \Omega=\Sigma$. 
+
+In term of differential form, 
+$$
+\left\langle \partial_ {\mu}J^{\mu}(x)\phi(y) \right\rangle = \left\langle d\star J\phi(y) \right\rangle = \left\langle d[(\star J) \phi(y)] \right\rangle = d\left\langle (\star J)\phi(y) \right\rangle
+\tag{1}
+$$
+where $d$ only acts on coordinate $x$, $\phi(y)$ is to be regarded as a constant in regarding of $d_ {x}$. That is why we can write $(d \star J)\phi(y)$ as $d[(\star J)\phi(y)]$. 
+
+Integrate Eq. (1) over $\Sigma$ (neglect some annoying parenthesis), we have 
+$$
+\int_ {\Omega}  \, d\left\langle \star J \phi(y) \right\rangle = \int_ {\partial \Omega=\Sigma} \, \left\langle \star J \, \phi(y) \right\rangle = \left\langle Q(\Sigma)\,\phi(y) \right\rangle  ,
+$$
+where we have used the Stokes theorem. But we also have the contact term in the Ward identity, namely the RHS of Eq.(0), integrate it over $\Omega$ we get
+$$
+\int_ {\Omega} \, \delta(x-y)\left\langle \phi(y) \right\rangle = \left\langle \Delta\phi(x) \right\rangle
+$$
+thus
+$$
+\left\langle Q(\Sigma)\,\phi(y) \right\rangle =\int_ {\Omega} d^{D}x\, \delta(x-y) \left\langle\Delta \phi(y) \right\rangle = \left\langle\Delta \phi(x) \right\rangle,
+$$
+where we have put an extra $d^{D}x$ to show that $\Omega$ has coordinate $x$ while $y$ can be regarded as part of the operator $\phi(y)$. In a sense, $x$ is the coordinate which varies on $\Omega$, thus the exterior differential $d$ acts on it, while $y$ is fixed. 
+
+There is a topological interpretation of $\int_ {\Omega}d^{D}x \,\delta(x-y)$. If $y$ is inside $\Omega$ then the integral gives $1$, if not then the integral gives zero, we call it the `intersection number` of $\Omega$ and $y$. It can be regarded as the `link number` between the boundary of $\Omega$, i.e. $\Sigma$ and the point $y$. This link number between a point and a co-dimensional one object can be regarded as the generalization of the link number between two loops (see *Theodore Frankel*). We have
+$$
+\boxed { 
+\text{Link}(\Sigma,y):= \int_ {\Omega} d^{D}x\, \delta(x-y).
+}
+$$
+
