@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to Higher Form Symmetry
-subtitle: Lecture 2
+subtitle: Part 2
 date: 2023-09-11
 author: Baiyang Zhang
 header-img: img/lib18.jpg
@@ -127,7 +127,7 @@ $$
 $$
 thus
 $$
-\left\langle Q(\Sigma)\,\phi(y) \right\rangle =\int_ {\Omega} d^{D}x\, \delta(x-y) \left\langle\Delta \phi(y) \right\rangle =? \left\langle\Delta \phi(x) \right\rangle,
+\left\langle Q(\Sigma)\,\phi(y) \right\rangle =\int_ {\Omega} d^{D}x\, \delta(x-y) \left\langle\Delta \phi(y) \right\rangle =\text{?} \left\langle\Delta \phi(x) \right\rangle,
 $$
 where we have put an extra $d^{D}x$ to show that $\Omega$ has coordinate $x$ while $y$ can be regarded as part of the operator $\phi(y)$. In a sense, $x$ is the coordinate which varies on $\Omega$, thus the exterior differential $d$ acts on it, while $y$ is fixed. 
 
@@ -144,4 +144,13 @@ $$
 \left\langle Q(\Sigma)\,\phi(y) \right\rangle =\text{Link}(\Sigma,y) \left\langle \Delta \phi(y) \right\rangle 
 $$
 
-Note that the above relation 
+Note that the above relation is linear with respect to the manifold $\Sigma$, say $\Sigma'$ is another co-dimensional one object which does not contain $y$, then
+$$
+\left\langle Q(\Sigma+\Sigma')\,\phi(y) \right\rangle =\text{Link}(\Sigma+\Sigma',y) \left\langle \Delta \phi(y) \right\rangle =\text{Link}(\Sigma,y) \left\langle \Delta \phi(y) \right\rangle +\text{Link}(\Sigma',y) \left\langle \Delta \phi(y) \right\rangle 
+$$
+since $\text{Link}(\Sigma',y)=0$, we have 
+$$
+\left\langle Q(\Sigma+\Sigma')\,\phi(y) \right\rangle = \left\langle Q(\Sigma)\,\phi(y) \right\rangle
+$$
+if $\Sigma'$ has zero link number with $y$. 
+
