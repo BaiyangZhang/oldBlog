@@ -213,8 +213,38 @@ Being a cubic equation there exists three solutions, for details see the other n
 
 In the limit $\eta\to 1$, for a finite positive $J^{2}$, there will always be three roots, all positive. The smallest one goes to a fixed finite value, while the other two goes to infinite. The root that stays finite in this limit is the root that goes to the original Skyrme result. So it makes sense to focus on it and regard it as the correct starting point. 
 
-Now the question is, what are the kinetic energies given by the three different roots, when $\eta<1$. The kinetic energy in terms of $x$ reads
+Now the question is, what are the kinetic energies given by the three non-degenerate roots, when $\eta<1$. The kinetic energy in terms of $x$ reads
 $$
 T = \frac{1}{2} \Lambda_ {1} x  - \frac{1}{4} \Lambda_ {2} x^{2},\quad  x:=a_ {i} a_ {i}.
 $$
 
+Our goal is to substitute $x$ in kinetic energy from $x$ to $J^{2}$. The problem is that, for each value of $J^{2}$ we have three different values of $x$. Given three real roots $x_ {\text{min}}$, $x_ {\text{mid}}$ and $x_ {\text{max}}$, they will give different value of $T$, however in terms of $J^{2}$ they will give the same $T$ since they give the same $J^{2}$. It is reasonable to adopt $x_ {\text{min}}$ as the correct solution since it is what reproduces the Skyrme result when $\eta\to 0$. Let's go back to the original equation
+$$
+y(x) =  \Lambda_ {2}^{2} x^{3}-2\Lambda_ {1}\Lambda_ {2}x^{2}+\Lambda_ {1}^{2}x-J^{2}=0,
+$$
+and see if we can express $x$ in terms of $J^{2}$ explicitly. The `discriminant` of above equation is 
+$$
+\Delta = -J^{2} \beta^3  \left(4 \alpha ^3+27 \beta  J^{2}\right).
+$$
+where $\alpha :=\Lambda_ {1}>0$, $\beta:=-\Lambda_ {2}<0$ and $J^{2}>0$. If the discriminant $\Delta>0$ then we have three non-degenerate roots, the positivity of $\Delta$ means
+$$
+\alpha^{3}>- \frac{27}{4} \beta J^{2}.
+$$
+In the limit $\eta\to 1$, $\beta\to 0$ so we require $\alpha^{3}>0$, which is automatically satisfied. This confirms that in this limit there will always be three degenerate roots. 
+
+Define 
+$$
+x=t-\frac{2\alpha}{3\beta}
+$$
+the cubic equation adopts the depressed form,
+$$
+t^{3}+p y^{2} +q=0
+$$
+where
+$$
+\begin{align}
+p&= -\frac{\alpha^{2}}{3\beta^{2}}, \\
+q&= - \frac{2\alpha^{3}}{27\beta^{3}}-\frac{J^{2}}{\beta^{2}}.
+\end{align}
+$$
+We can see that $p<0$ but $q$ is not necessarily so. 
