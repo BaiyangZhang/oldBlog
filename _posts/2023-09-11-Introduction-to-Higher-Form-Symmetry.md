@@ -144,7 +144,7 @@ $$
 \left\langle Q(\Sigma)\,\phi(y) \right\rangle =\text{Link}(\Sigma,y) \left\langle \Delta \phi(y) \right\rangle 
 $$
 
-Note that the above relation is linear with respect to the manifold $\Sigma$, say $\Sigma'$ is another co-dimensional one object which does not contain $y$, then
+Note that the above relation is *linear with respect to the manifold* $\Sigma$, since it is based on integrals and integrals are linear upon the integrating domain. Say $\Sigma'$ is another co-dimensional one object which does not contain $y$, then
 $$
 \left\langle Q(\Sigma+\Sigma')\,\phi(y) \right\rangle =\text{Link}(\Sigma+\Sigma',y) \left\langle \Delta \phi(y) \right\rangle =\text{Link}(\Sigma,y) \left\langle \Delta \phi(y) \right\rangle +\text{Link}(\Sigma',y) \left\langle \Delta \phi(y) \right\rangle 
 $$
@@ -154,3 +154,16 @@ $$
 $$
 if $\Sigma'$ has zero link number with $y$. 
 
+Follow the ideas of constructing symmetry operators in a Hilbert space, we are encouraged to consider 
+$$
+\boxed { 
+U(g,\Sigma^{(d-1)}) := e^{ i \theta(g) Q(\Sigma) },
+}
+$$
+the generator $Q$ carries the information of the support of the "operator", the parameter $\theta(g)$ carries the information of the group element. This is usually by construction a *unitary* operator, since $Q(\Sigma)$ almost always corresponds to some physical observable hence are hermitian. Assume under the group action $g$ the field operator transforms as $\Delta \phi = R(g)\phi$, then 
+$$
+\begin{align}
+\left\langle U(g,\Sigma)\phi(y) \right\rangle &= \left\langle e^{ i\theta(g)Q(\Sigma)} \phi(y)\right\rangle \\
+&=\left\langle \exp\{ i\theta(g)\text{Link} \} \right\rangle
+\end{align}
+$$
