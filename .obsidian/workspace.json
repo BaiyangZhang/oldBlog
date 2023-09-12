@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "437e73ff61eaa2e6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.11"
+              }
+            }
+          },
+          {
             "id": "e99953ded568e24c",
             "type": "leaf",
             "state": {
@@ -31,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,6 +160,16 @@
                 "file": "_posts/2023-09-11-Introduction-to-Higher-Form-Symmetry.md"
               }
             }
+          },
+          {
+            "id": "7964bcd68d6ce503",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
@@ -167,7 +188,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3bce291c60b3797",
+  "active": "437e73ff61eaa2e6",
   "lastOpenFiles": [
     "_posts/2023-09-05-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-09-11-Introduction-to-Higher-Form-Symmetry.md",
