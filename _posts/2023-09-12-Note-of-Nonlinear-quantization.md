@@ -225,7 +225,10 @@ and see if we can express $x$ in terms of $J^{2}$ explicitly. The `discriminant`
 $$
 \Delta = -J^{2} \beta^3  \left(4 \alpha ^3+27 \beta  J^{2}\right).
 $$
-where $\alpha :=\Lambda_ {1}>0$, $\beta:=-\Lambda_ {2}<0$ and $J^{2}>0$. If the discriminant $\Delta>0$ then we have three non-degenerate roots, the positivity of $\Delta$ means
+where 
+$$
+\alpha :=\Lambda_ {1}>0,\quad \beta:=-\Lambda_ {2}<0$$
+and $J^{2}>0$. If the discriminant $\Delta>0$ then we have three non-degenerate roots, the positivity of $\Delta$ means
 $$
 \alpha^{3}>- \frac{27}{4} \beta J^{2}.
 $$
