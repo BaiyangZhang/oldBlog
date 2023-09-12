@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -167,13 +166,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3bce291c60b3797",
+  "active": "957cfa2362e38596",
   "lastOpenFiles": [
-    "_drafts/2023-09-06-The-Dirac-Equation.md",
     "_posts/2023-09-05-Introduction-to-Higher-Form-Symmetry.md",
+    "_posts/2023-09-11-Introduction-to-Higher-Form-Symmetry.md",
+    "_drafts/2023-09-06-The-Dirac-Equation.md",
     "_posts/2023-09-05-Electrodynamics-in-Terms-of-Forms.md",
     "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
-    "_posts/2023-09-11-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-07-03-The-Electromagnetic-Connection.md",
     "_posts/2023-09-05-Note-of-Nonlinear-quantization.md",
     "_posts/2023-07-17-历史笔记若干.md",

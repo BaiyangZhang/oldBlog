@@ -192,4 +192,11 @@ $$
 \left\langle U(g,\Sigma)U(g',\Sigma)\phi(y) \right\rangle = R(g)R(g')\phi(y)=R(g g')\phi(y).
 $$
 
-We have talked about the topological nature of charge $Q(\Sigma)$ when put in the vev. The topological nature of $U(g,\Sigma)$ can also be shown as a consequence of the conservation of the current. Let $\Sigma'$ be a homotopic deformation of $\Sigma$, meaning $\Sigma-\Sigma'$ is the boundary of some $D$-dimensional bulk which does not contain $\phi(y)$ or any charged operator. 
+We have talked about the topological nature of charge $Q(\Sigma)$ when put in the vev. The topological nature of $U(g,\Sigma)$ can also be shown as a consequence of the conservation of the current. Let $\Sigma'$ be a homotopic deformation of $\Sigma$, meaning $\Sigma-\Sigma'$ is the boundary of some $D$-dimensional bulk which does not contain $\phi(y)$ or any charged operator. Then 
+$$
+\begin{align}
+U(g,\Sigma)U(g^{-1} \Sigma') &= e^{ i\theta(g) Q(\Sigma) }e^{ i \theta(g^{-1} )Q(\Sigma')  } \\
+&= e^{ i\theta(g)\int_ {\Sigma} \, \star J  }e^{ i\theta(g^{-1} )\int_ {\Sigma'} \, \star J  } \\
+&=
+\end{align}
+$$
