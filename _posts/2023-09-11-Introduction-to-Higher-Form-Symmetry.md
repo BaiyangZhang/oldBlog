@@ -196,7 +196,15 @@ We have talked about the topological nature of charge $Q(\Sigma)$ when put in th
 $$
 \begin{align}
 U(g,\Sigma)U(g^{-1} \Sigma') &= e^{ i\theta(g) Q(\Sigma) }e^{ i \theta(g^{-1} )Q(\Sigma')  } \\
-&= e^{ i\theta(g)\int_ {\Sigma} \, \star J  }e^{ i\theta(g^{-1} )\int_ {\Sigma'} \, \star J  } \\
-&=
+&= e^{ i\theta(g)\int_ {\Sigma} \, \star J  }e^{ i(-\theta(g))\int_ {\Sigma'} \, \star J  } \\
+&= \exp \left\{ i\theta(g)\int_ {\hat{\Sigma}} \,\star J   \right\}  \\
+&= \exp \left\{ i\theta(g)\int_ {\partial(\Sigma-\Sigma')} \,\star J   \right\}  \\
+&= \exp \left\{ i\theta(g)\int_ {\Sigma-\Sigma'} \,d\star J   \right\}  \\
+&=1.
 \end{align}
+$$
+
+Thus 
+$$
+U(g,\Sigma)U(g^{-1} ,\Sigma')=1 \implies U(g,\Sigma)=U(g,\Sigma').
 $$

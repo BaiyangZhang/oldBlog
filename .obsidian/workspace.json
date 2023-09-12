@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -166,7 +167,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "957cfa2362e38596",
+  "active": "a3bce291c60b3797",
   "lastOpenFiles": [
     "_posts/2023-09-05-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-09-11-Introduction-to-Higher-Form-Symmetry.md",
