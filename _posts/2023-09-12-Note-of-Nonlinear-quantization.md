@@ -1,13 +1,12 @@
 ---
-layout:     post   				    # 使用的布局（不需要改）
-title:     Note of Nonlinear Quantization 			# 标题 
-subtitle:   
-date:       2023-09-01 				# 时间
-author:     Baiyang Zhang 						# 作者
-header-img: img/lib13.jpg 	#这篇文章标题背景图片
-catalog: true 						# 是否归档
-tags:								#标签
-    - 
+layout: post
+title: Note of Nonlinear Quantization
+subtitle: 
+date: 2023-09-12
+author: Baiyang Zhang
+header-img: img/lib13.jpg
+catalog: true
+tags: []
 ---
 
 ### The Lagrangian
@@ -247,4 +246,13 @@ p&= -\frac{\alpha^{2}}{3\beta^{2}}, \\
 q&= - \frac{2\alpha^{3}}{27\beta^{3}}-\frac{J^{2}}{\beta^{2}}.
 \end{align}
 $$
-We can see that $p<0$ but $q$ is not necessarily so. 
+We can see that $p<0$ but $q$ is not necessarily so. If we solve for the minimum solution of $x$, we get (from mathematica)
+$$
+x_ {\text{min}}=\frac{i \left(\sqrt{3}+i\right) \sqrt[3]{\sqrt{12 p^3+81 q^2}-9 q}}{2 \sqrt[3]{2} 3^{2/3}}+\frac{p+i \sqrt{3} p}{2^{2/3} \sqrt[3]{3} \sqrt[3]{\sqrt{12 p^3+81 q^2}-9 q}}+2 p
+\tag{3}
+$$
+which simplifies to (by hand mostly) 
+$$
+x_ {\text{min}} = 2 p + \frac{\left(2 \sqrt{-p}\right) \cos \left(\frac{\pi -\theta }{3}\right)}{\sqrt{3}},\quad  \theta=\arctan \left( \frac{\sqrt{12 p^3+81 q^2}}{-9q} \right)
+\tag{4}
+$$

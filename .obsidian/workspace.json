@@ -13,29 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-09-11-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "_posts/2023-09-05-Electrodynamics-in-Terms-of-Forms.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "437e73ff61eaa2e6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.11"
-              }
-            }
-          },
-          {
-            "id": "e99953ded568e24c",
+            "id": "5e62f4927fcc8e2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-09-06-The-Dirac-Equation.md",
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-11-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-11-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,17 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-11-Introduction-to-Higher-Form-Symmetry.md"
-              }
-            }
-          },
-          {
-            "id": "7964bcd68d6ce503",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md"
               }
             }
           }
@@ -188,17 +168,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "437e73ff61eaa2e6",
+  "active": "5e62f4927fcc8e2b",
   "lastOpenFiles": [
-    "_posts/2023-09-05-Introduction-to-Higher-Form-Symmetry.md",
-    "_posts/2023-09-11-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-09-06-The-Dirac-Equation.md",
+    "2023-09-05.md",
     "_posts/2023-09-05-Electrodynamics-in-Terms-of-Forms.md",
+    "_posts/2023-09-11-Introduction-to-Higher-Form-Symmetry.md",
+    "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
+    "_posts/2023-09-08-Introduction-to-Higher-Form-Symmetry.md",
+    "_drafts/2023-09-06-The-Dirac-Equation.md",
+    "_posts/2023-09-05-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
     "_posts/2023-07-03-The-Electromagnetic-Connection.md",
-    "_posts/2023-09-05-Note-of-Nonlinear-quantization.md",
     "_posts/2023-07-17-历史笔记若干.md",
-    "2023-09-05.md",
     "_drafts/2023-mm-dd-Theodore-Frankel.md",
     "_drafts/2023-mm-dd-共和国史笔记.md",
     "_posts/2023-09-02-Connections-in-Associated-Bundles.md",
@@ -214,7 +195,6 @@
     "_posts/2023-07-20-Gauss-Bonnet-and-Index-Theorem.md",
     "_posts/2023-07-28-Topological-Quantization.md",
     "_posts/2023-08-19-韩非子.md",
-    "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
-    "_drafts/2022-10-9-Basic-Measure-Theory-Part-II.md"
+    "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md"
   ]
 }
