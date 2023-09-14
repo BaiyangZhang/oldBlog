@@ -256,6 +256,6 @@ x_ {\text{min}}=\frac{i \left(\sqrt{3}+i\right) \sqrt[3]{\sqrt{12 p^3+81 q^2}-9 
 $$
 which simplifies to (by hand mostly) 
 $$
-x_ {\text{min}} = 2 p + \frac{\left(2 \sqrt{-p}\right) \cos \left(\frac{\pi -\theta }{3}\right)}{\sqrt{3}},\quad  \theta=\arctan \left( \frac{\sqrt{12 p^3+81 q^2}}{-9q} \right)
+x_ {\text{min}} = 2 p + \frac{\left(2 \sqrt{-p}\right) \cos \left(\frac{\pi -\theta }{3}\right)}{\sqrt{3}},\quad  \theta=\arctan \left( \frac{\sqrt{-12 p^3-81 q^2}}{-9q} \right)
 \tag{4}
 $$
