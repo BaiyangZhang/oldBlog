@@ -236,26 +236,35 @@ In the limit $\eta\to 1$, $\beta\to 0$ so we require $\alpha^{3}>0$, which is au
 
 Define 
 $$
-x=t-\frac{2\alpha}{3\beta}
-$$
-the cubic equation adopts the depressed form,
-$$
-t^{3}+p y^{2} +q=0
+x=t-\frac{2\alpha}{3\beta}=:t+\frac{2\sqrt{ -p }}{\sqrt{ 3 }}
 $$
 where
 $$
 \begin{align}
 p&= -\frac{\alpha^{2}}{3\beta^{2}}, \\
-q&= - \frac{2\alpha^{3}}{27\beta^{3}}-\frac{J^{2}}{\beta^{2}}.
+q&= - \frac{2\alpha^{3}}{27\beta^{3}}-\frac{J^{2}}{\beta^{2}},
 \end{align}
 $$
-We can see that $p<0$ but $q$ is not necessarily so. If we solve for the minimum solution of $x$, we get (from mathematica)
+then the cubic equation adopts the depressed form,
 $$
-x_ {\text{min}}=\frac{i \left(\sqrt{3}+i\right) \sqrt[3]{\sqrt{12 p^3+81 q^2}-9 q}}{2 \sqrt[3]{2} 3^{2/3}}+\frac{p+i \sqrt{3} p}{2^{2/3} \sqrt[3]{3} \sqrt[3]{\sqrt{12 p^3+81 q^2}-9 q}}+2 p
+t^{3}+p y^{2} +q=0.
+$$
+The discriminant in terms of $p$ and $q$ is 
+$$
+\Delta = -4 p^3 - 27 q^2, \quad  \Delta > 0 \implies 4 p^3 + 27 q^2<0.
+$$
+We can see from the definition that $p<0$ but $q$ is not necessarily so. If we solve for the minimum root $x$, we get (from mathematica)
+$$
+\boxed { 
+x_ {\text{min}}=\frac{i \left(\sqrt{3}+i\right) \sqrt[3]{\sqrt{12 p^3+81 q^2}-9 q}}{2 \sqrt[3]{2} 3^{2/3}}+\frac{p+i \sqrt{3} p}{2^{2/3} \sqrt[3]{3} \sqrt[3]{\sqrt{12 p^3+81 q^2}-9 q}}+\frac{2}{3} \sqrt{ -3p }
 \tag{3}
+}
 $$
 which simplifies to (by hand mostly) 
 $$
-x_ {\text{min}} = 2 p + \frac{\left(2 \sqrt{-p}\right) \cos \left(\frac{\pi -\theta }{3}\right)}{\sqrt{3}},\quad  \theta=\arctan \left( \frac{\sqrt{-12 p^3-81 q^2}}{-9q} \right)
-\tag{4}
+\boxed {
+x_ {\text{min}} = \frac{4}{\sqrt{ 3 }}\sqrt{ -p }\,\sin ^{2}\left( \frac{\theta}{6}\right) ,\quad  \theta=\arctan \left( \frac{\sqrt{-12 p^3-81 q^2}}{-9q} \right)
+\tag{4}.
+}
 $$
+This is as simple as I can get. I check it numerically, it works out.
