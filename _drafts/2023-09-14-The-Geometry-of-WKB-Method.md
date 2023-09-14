@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Introduction of Symplectic Manifold
+title: The Geometry of WKB Method
 subtitle: 
-date: 2023-09-13
+date: 2023-09-14
 author: Baiyang Zhang
-header-img: img/background1.jpg
+header-img: img/background11.jpg
 catalog: true
 tags: []
 ---
@@ -43,7 +43,7 @@ The classical Hamiltonian $H(x,p)$ then becomes the Hamiltonian operator, which 
 
 ### Some classical mechanics
 
-
+Recall that a `canonical transformation` is a change of variables, namely generalized coordinates and associated canonical momenta, such that the new variables preserve the form of Hamilton's equations. In other words, if you have a system described by a set of generalized coordinates $q_ {i}$​ and their conjugate momenta $p _ {i}$​, and you transform to a new set of variables $Q_ {i}$​ and $P_ {i}$​, the transformation is canonical if the new variables also satisfy Hamilton's equations but *with potentially a new Hamiltonian*. 
 
 
 ### The WKB method
@@ -52,4 +52,12 @@ The classical Hamiltonian $H(x,p)$ then becomes the Hamiltonian operator, which 
 
 
 ### Symplectic Manifolds
+
+A symplectic manifold is a pair $(M,\omega)$ where 
+- $M$ is a even-dimensional ($2n$) manifold,
+- $\omega$ is a **closed**, non-degenerate $2$-form on $M$. This $2$-form is called the symplectic form.
+
+Recall that a $2$-form $\eta$ is degenerate if there exists a non-zero vector $X$ such $\eta(X,Y)=0$ for all vector $Y$. 
+
+These properties ensure that $\omega$ provides a kind of "twisted" volume element on $M$, giving a structure similar to a Riemannian metric but with crucial differences.
 
