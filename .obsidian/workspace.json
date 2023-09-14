@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md"
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md"
+              }
+            }
+          },
+          {
+            "id": "2f378cc7e253f9d7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -180,10 +190,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6cb4353d33bdbc50",
+  "active": "5e62f4927fcc8e2b",
   "lastOpenFiles": [
-    "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
     "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
+    "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
     "2023-09-13.md",
     "_drafts/2023-09-06-The-Dirac-Equation.md",
     "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
