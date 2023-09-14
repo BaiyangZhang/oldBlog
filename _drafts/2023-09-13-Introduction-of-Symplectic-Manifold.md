@@ -41,7 +41,15 @@ x\to \hat{x}, \quad  p \to \hat{p} := -i\hbar \partial_ {x}.
 $$
 The classical Hamiltonian $H(x,p)$ then becomes the Hamiltonian operator, which can be inserted into the Schrodinger equation. This is how we **quantize the equation**. There is also the **quantization of solutions**, roughly speaking. That is, given a system, say the motion of some particle in some potential, the quantum mechanical motion of this particle very much resembles that in the classical case. This is clearer in the case of path integral, the dominant contribution comes always from the classical trajectory. Then, we can make use of this property to study the quantum effects approximately. The error should decrease as $\hbar$ decrease. 
 
-- - -
+### Some classical mechanics
+
+
+
 
 ### The WKB method
+
+
+
+
+### Symplectic Manifolds
 
