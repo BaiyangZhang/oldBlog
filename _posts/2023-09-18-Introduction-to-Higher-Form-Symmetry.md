@@ -143,10 +143,9 @@ $$
 $$
 The topological picture of link number is more or less intuitive, it tells us if we move a point infinitely far away from a co-dimensional one object, the least number of times that the former has to intersect the latter. Then
 $$
-\left\langle Q(\Sigma)\,\phi(y) \right\rangle =\text{Link}(\Sigma,y) \left\langle \Delta \phi(y) \right\rangle 
+\left\langle Q(\Sigma)\,\phi(y) \right\rangle =\text{Link}(\Sigma,y) \left\langle \Delta \phi(y) \right\rangle .
 $$
-
-Note that the above relation is *linear with respect to the manifold* $\Sigma$, since it is based on integrals and integrals are linear upon the integrating domain. Say $\Sigma'$ is another co-dimensional one object which does not contain $y$, then
+Note that the above relation is *linear with respect to the manifold* $\Sigma$, since it is based on integrals and integrals are linear upon the integral domain. Suppose $\Sigma'$ is another co-dimensional one object which does not contain $y$, then
 $$
 \left\langle Q(\Sigma+\Sigma')\,\phi(y) \right\rangle =\text{Link}(\Sigma+\Sigma',y) \left\langle \Delta \phi(y) \right\rangle =\text{Link}(\Sigma,y) \left\langle \Delta \phi(y) \right\rangle +\text{Link}(\Sigma',y) \left\langle \Delta \phi(y) \right\rangle 
 $$
@@ -156,13 +155,13 @@ $$
 $$
 if $\Sigma'$ has zero link number with $y$. This tells us the topological nature of this operator.
 
-Follow the ideas of constructing symmetry operators in a Hilbert space, we are encouraged to consider 
+Follow the ideas of the construction of symmetry operators in a Hilbert space, we are encouraged to consider 
 $$
 \boxed { 
 U(g,\Sigma^{(d-1)}) := e^{ i \theta(g) Q(\Sigma) },
 }
 $$
-the generator $Q$ carries the information of the support of the "operator", the parameter $\theta(g)$ carries the information of the group element. This is usually by construction a *unitary* operator, since $Q(\Sigma)$ almost always corresponds to some physical observable hence are hermitian. Assume under the group action $g$ the field operator transforms as $\Delta \phi = T\phi$, where $R$ is certain representation of the generator. Assume the linking number between $\Sigma$ and $y$ is $1$, this will greatly simplify our notation. Then 
+the generator $Q$ carries the information of the support of the "operator", the parameter $\theta(g)$ carries the information of the group element, it can be simply written as $g$ if you like. This is usually by construction a *unitary* operator, since $Q(\Sigma)$ almost always corresponds to some physical observable hence are hermitian. Assume under the group action $g$ the field operator transforms as $\Delta \phi = T\phi$, where $R$ is certain representation of the generator. Assume the linking number between $\Sigma$ and $y$ is $1$, this will greatly simplify our notation. Then 
 $$
 \left\langle Q(\Sigma)\,\phi(y) \right\rangle =T \left\langle \phi(y) \right\rangle .
 $$
