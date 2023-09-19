@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-09-18-The-Dirac-Equation.md",
+                "file": "_posts/2023-09-18-The-Dirac-Equation.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-09-18-The-Dirac-Equation.md",
+                "file": "_posts/2023-09-18-The-Dirac-Equation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-09-18-The-Dirac-Equation.md",
+                "file": "_posts/2023-09-18-The-Dirac-Equation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-09-18-The-Dirac-Equation.md"
+                "file": "_posts/2023-09-18-The-Dirac-Equation.md"
               }
             }
           },
@@ -201,7 +201,7 @@
     "_drafts/2023-05-31-Analytic-Structure.md",
     "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
     "_drafts/2023-06-16-Representables-in-Category-Theory.md",
-    "_drafts/2023-09-18-The-Dirac-Equation.md",
+    "_posts/2023-09-18-The-Dirac-Equation.md",
     "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
     "_posts/2023-09-05-Electrodynamics-in-Terms-of-Forms.md",
     "2023-09-13.md",
