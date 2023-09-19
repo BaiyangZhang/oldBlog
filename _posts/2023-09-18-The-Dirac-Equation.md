@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Dirac Equation
-subtitle: question?
+subtitle: 
 date: 2023-09-18
 author: Baiyang Zhang
 header-img: img/math3.jpg
