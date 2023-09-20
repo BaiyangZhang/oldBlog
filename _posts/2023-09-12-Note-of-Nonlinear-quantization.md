@@ -241,8 +241,8 @@ $$
 where
 $$
 \begin{align}
-p&= -\frac{\alpha^{2}}{3\beta^{2}}, \\
-q&= - \frac{2\alpha^{3}}{27\beta^{3}}-\frac{J^{2}}{\beta^{2}},
+p&= -\frac{\alpha^{2}}{3\beta^{2}} = - \frac{\Lambda_ {1}^{2}}{3\Lambda_ {2}^{2}}, \\
+q&= - \frac{2\alpha^{3}}{27\beta^{3}}-\frac{J^{2}}{\beta^{2}}= \frac{2\Lambda_ {1}^{3}}{27\Lambda_ {2}^{3}}-\frac{J^{2}}{\Lambda_ {2}^{2}},
 \end{align}
 $$
 then the cubic equation adopts the depressed form,
@@ -264,3 +264,46 @@ x_ {\text{min}} = \frac{4}{\sqrt{ 3 }}\sqrt{ -p }\,\sin ^{2}\left( \frac{\theta}
 \tag{4}.
 $$
 This is as simple as I can get. I check it numerically, it works out.
+
+**Behavior at $\eta\to 1$**
+
+Write 
+$$
+\eta := 1-\epsilon
+$$
+where $\epsilon$ is positive and infinitesimal. In this limit, at leading order we have
+$$
+\begin{align}
+\Lambda_ {1} &\equiv\alpha= \frac{16\pi}{3}\int d r\; r^2\left[  \sin^2f  +\sin^2(f)(f')^2  +\frac{\sin^4f}{r^2}  \right], \\
+\Lambda_ {2} &\equiv-\beta= \epsilon\; \frac{64\pi}{15}\int d r\;r^2\sin^4f=:-\epsilon K.
+\end{align}
+$$
+$K$ goes to a constant in the classical Skyrme limit. We have (at $\epsilon\to 0$)
+$$
+K<0,\quad \alpha>0, \quad  \beta<0.
+$$
+
+Substitute $\beta=\epsilon K$ and leave $\alpha$ as it is, we get
+$$
+\begin{align}
+p&= -\frac{\alpha^{2}}{3\beta^{2}} = \frac{1}{\epsilon^{2}}\left( -\frac{\alpha^{2}}{3K^{2}} \right) , \\
+q&= - \frac{2\alpha^{3}}{27\beta^{3}}-\frac{J^{2}}{\beta^{2}}= \frac{2\Lambda_ {1}^{3}}{27\Lambda_ {2}^{3}}-\frac{J^{2}}{\Lambda_ {2}^{2}}=\frac{1}{\epsilon^{3}}\left( -\frac{2\alpha^{3}}{27K^{3}} \right)+\frac{1}{\epsilon^{2}}\left( -\frac{J^{2}}{K^{2}} \right),
+\end{align}
+$$
+up to the NLO we have 
+$$
+\begin{align}
+\theta &= \arctan \left(-\sqrt{\epsilon } \sqrt{-\frac{27 J^2 K}{\alpha ^3}}\right)\\
+&\approx -\sqrt{\epsilon } \sqrt{-\frac{27 J^2 K}{\alpha ^3}}+ \frac{1}{3} \epsilon ^{3/2} \left(-\frac{27 J^2 k}{\alpha ^3}\right)^{3/2} 
++\mathcal{O}(\epsilon^{5/2}),
+\end{align}
+$$
+Consequently, up to NLO 
+$$
+\begin{align}
+x_ {\text{min}} &= \frac{4}{\sqrt{ 3 }}\sqrt{ -p }\,\sin ^{2}\left( \frac{\theta}{6}\right) \\
+&=-\frac{1}{\epsilon} \frac{4\alpha}{ 3K } \left( -\frac{3 J^2 K \epsilon }{4 \alpha ^3}-\frac{219 J^4 K^2 \epsilon ^2}{16 \alpha ^6} \right) \\
+&= \frac{J^{2}}{\alpha ^2} +\boxed { \epsilon \frac{73 K J^{4} }{4 \alpha ^5}}.
+\end{align}
+$$
+The boxed term is the correction resulting from the cubic terms.

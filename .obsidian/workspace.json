@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-20-Excerpt-From-On-Anarchism.md",
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-20-Excerpt-From-On-Anarchism.md",
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-20-Excerpt-From-On-Anarchism.md"
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md"
               }
             }
           },
@@ -202,10 +202,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "873e811742ce72d3",
+  "active": "b820202f1b6d5d70",
   "lastOpenFiles": [
-    "_drafts/调档函.md",
     "_posts/2023-09-20-Excerpt-From-On-Anarchism.md",
+    "Untitled.md",
+    "_drafts/调档函.md",
     "_drafts/君主论书摘.md",
     "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
     "_posts/2023-09-18-Introduction-to-Higher-Form-Symmetry.md",
@@ -228,7 +229,6 @@
     "_posts/2023-09-05-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
     "_posts/2023-07-03-The-Electromagnetic-Connection.md",
-    "_posts/2023-07-17-历史笔记若干.md",
-    "_drafts/2023-mm-dd-Theodore-Frankel.md"
+    "_posts/2023-07-17-历史笔记若干.md"
   ]
 }
