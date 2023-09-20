@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "5e62f4927fcc8e2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-09-18-The-Dirac-Equation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6cb4353d33bdbc50",
             "type": "leaf",
             "state": {
@@ -43,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-18-The-Dirac-Equation.md",
+                "file": "_posts/2023-09-18-Introduction-to-Higher-Form-Symmetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-18-The-Dirac-Equation.md",
+                "file": "_posts/2023-09-18-Introduction-to-Higher-Form-Symmetry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-18-The-Dirac-Equation.md"
+                "file": "_posts/2023-09-18-Introduction-to-Higher-Form-Symmetry.md"
               }
             }
           },
@@ -190,10 +177,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5e62f4927fcc8e2b",
+  "active": "a3bce291c60b3797",
   "lastOpenFiles": [
-    "_posts/2023-09-18-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
+    "_posts/2023-09-18-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-09-18-The-Dirac-Equation.md",
     "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
     "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",

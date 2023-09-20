@@ -209,3 +209,6 @@ Thus
 $$
 U(g,\Sigma)U(g^{-1} ,\Sigma')=1 \implies U(g,\Sigma)=U(g,\Sigma').
 $$
+
+This tool even generalized to discrete symmetries. Discrete symmetries, as gauge symmetry (which is *not* a real symmetry), has no Noether current, but the action of such symmetries on Hilbert space can nevertheless be represented as an operator, call it $U(g)$. This time there is no continuous parameter $\theta(g)$ involved. However, there are extra difficulties involving the topology of the spacetime. We will not dwell on this topic here. 
+
