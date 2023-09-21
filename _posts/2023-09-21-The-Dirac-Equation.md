@@ -2,7 +2,7 @@
 layout: post
 title: The Dirac Equation
 subtitle: 
-date: 2023-09-18
+date: 2023-09-21
 author: Baiyang Zhang
 header-img: img/math3.jpg
 catalog: true
@@ -109,3 +109,20 @@ $$
 a+bi+cj+dk,\quad  a,b,c,d \in \mathbb{R}.
 $$
 
+- - -
+
+### The Dirac algebra
+
+#### The Lorentz group and its geometry
+
+Given the Minkowski metric $g=\text{diag}(-1,1,1,1)$, the `Lorentz group` $L$ is by definition the isometry group, 
+$$
+L := \left\{ 4\times 4 \text{ real matrices }B \,\middle\vert\, \left\langle Bx,By \right\rangle=\left\langle x,y \right\rangle   \right\}
+$$
+acting on the 4-dimensional Minkowski space $M$. In metric notation, 
+$$
+\left\langle x,y \right\rangle := g_ {\mu \nu} \, x^{\mu}y^{\nu}.
+$$
+It can be shown that $L$ breaks down to four connected components, depending on the sign of the determinant and weather $Bx$ changes the sign of the time component of $x$. The so-called proper Lorentz group, whose elements has determinant $1$ and doesn't change the sign in the time-component, is denoted as $L_ {0}$, this corresponds to the physical Lorentz transforms.
+
+Similar to $SO(3)$ is double-covered by $SU(2)$, $L_ {0}$ turns out to be double covered by $SL(2,\mathbb{C})$, the special linear $2\times 2$ complex matrix. 

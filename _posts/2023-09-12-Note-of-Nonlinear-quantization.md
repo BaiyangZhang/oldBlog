@@ -260,7 +260,7 @@ x_ {\text{min}}=\frac{i \left(\sqrt{3}+i\right) \sqrt[3]{\sqrt{12 p^3+81 q^2}-9 
 $$
 which simplifies to (by hand mostly) 
 $$
-x_ {\text{min}} = \frac{4}{\sqrt{ 3 }}\sqrt{ -p }\,\sin ^{2}\left( \frac{\theta}{6}\right) ,\quad  \theta=\arctan \left( \frac{\sqrt{-12 p^3-81 q^2}}{-9q} \right)
+\boxed { x_ {\text{min}} = \frac{4}{\sqrt{ 3 }}\sqrt{ -p }\,\sin ^{2}\left( \frac{\theta}{6}\right)} ,\quad  \theta=\arctan \left( \frac{\sqrt{-12 p^3-81 q^2}}{-9q} \right)
 \tag{4}.
 $$
 This is as simple as I can get. I check it numerically, it works out.
@@ -306,4 +306,7 @@ x_ {\text{min}} &= \frac{4}{\sqrt{ 3 }}\sqrt{ -p }\,\sin ^{2}\left( \frac{\theta
 &= \frac{J^{2}}{\alpha ^2} +\boxed { \epsilon \frac{73 K J^{4} }{4 \alpha ^5}}.
 \end{align}
 $$
-The boxed term is the correction resulting from the cubic terms.
+The boxed term is the correction resulting from the cubic terms. As for how useful this linearized expression is, I don not know, for in theory we already have a analytical expression, which we could use to fit $\eta$ according to various data.
+
+
+

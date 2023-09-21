@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a3bce291c60b3797",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-09-18-Introduction-to-Higher-Form-Symmetry.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6cb4353d33bdbc50",
             "type": "leaf",
             "state": {
@@ -49,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-09-20-Excerpt-From-On-Anarchism.md",
+                "file": "_posts/2023-09-21-The-Dirac-Equation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8bcdf69bb990aa39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
                 "mode": "source",
                 "source": false
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
+                "file": "_posts/2023-09-21-The-Dirac-Equation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
+                "file": "_posts/2023-09-21-The-Dirac-Equation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md"
+                "file": "_posts/2023-09-21-The-Dirac-Equation.md"
               }
             }
           },
@@ -202,16 +202,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b820202f1b6d5d70",
+  "active": "873e811742ce72d3",
   "lastOpenFiles": [
+    "_posts/2022-7-17-Conventions-and-Formula.md",
+    "_posts/2022-07-30-The-Secret-Speech.md",
+    "_posts/2023-09-21-The-Dirac-Equation.md",
     "_posts/2023-09-20-Excerpt-From-On-Anarchism.md",
+    "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
+    "_posts/2023-09-18-Introduction-to-Higher-Form-Symmetry.md",
+    "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
     "Untitled.md",
     "_drafts/调档函.md",
     "_drafts/君主论书摘.md",
-    "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
-    "_posts/2023-09-18-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
-    "_posts/2023-09-18-The-Dirac-Equation.md",
     "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",
     "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
     "_drafts/2023-05-07-soliton-particle-duality.md",
@@ -227,8 +229,6 @@
     "2023-09-05.md",
     "_posts/2023-09-08-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-09-05-Introduction-to-Higher-Form-Symmetry.md",
-    "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
-    "_posts/2023-07-03-The-Electromagnetic-Connection.md",
-    "_posts/2023-07-17-历史笔记若干.md"
+    "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md"
   ]
 }
