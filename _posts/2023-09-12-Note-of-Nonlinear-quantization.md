@@ -247,7 +247,7 @@ q&= - \frac{2\alpha^{3}}{27\beta^{3}}-\frac{J^{2}}{\beta^{2}}= \frac{2\Lambda_ {
 $$
 then the cubic equation adopts the depressed form,
 $$
-t^{3}+p t^{2} +q=0.
+t^{3}+p t +q=0.
 $$
 The discriminant in terms of $p$ and $q$ is 
 $$
