@@ -126,3 +126,6 @@ $$
 It can be shown that $L$ breaks down to four connected components, depending on the sign of the determinant and weather $Bx$ changes the sign of the time component of $x$. The so-called proper Lorentz group, whose elements has determinant $1$ and doesn't change the sign in the time-component, is denoted as $L_ {0}$, this corresponds to the physical Lorentz transforms.
 
 Similar to $SO(3)$ is double-covered by $SU(2)$, $L_ {0}$ turns out to be double covered by $SL(2,\mathbb{C})$, the special linear $2\times 2$ complex matrix. 
+
+
+#### The Dirac Algebra

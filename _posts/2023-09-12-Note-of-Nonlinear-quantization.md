@@ -247,7 +247,7 @@ q&= - \frac{2\alpha^{3}}{27\beta^{3}}-\frac{J^{2}}{\beta^{2}}= \frac{2\Lambda_ {
 $$
 then the cubic equation adopts the depressed form,
 $$
-t^{3}+p y^{2} +q=0.
+t^{3}+p t^{2} +q=0.
 $$
 The discriminant in terms of $p$ and $q$ is 
 $$
@@ -307,6 +307,7 @@ x_ {\text{min}} &= \frac{4}{\sqrt{ 3 }}\sqrt{ -p }\,\sin ^{2}\left( \frac{\theta
 \end{align}
 $$
 The boxed term is the correction resulting from the cubic terms. As for how useful this linearized expression is, I don not know, for in theory we already have a analytical expression, which we could use to fit $\eta$ according to various data.
+
 
 
 

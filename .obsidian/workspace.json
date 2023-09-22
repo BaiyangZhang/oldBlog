@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-7-17-Conventions-and-Formula.md"
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md"
               }
             }
           },
@@ -202,16 +202,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8bcdf69bb990aa39",
+  "active": "b820202f1b6d5d70",
   "lastOpenFiles": [
-    "Note-on-RG-Flow.md",
     "_posts/2023-09-21-The-Dirac-Equation.md",
+    "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
+    "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
     "_posts/2022-7-17-Conventions-and-Formula.md",
+    "Note-on-RG-Flow.md",
     "_posts/2022-07-30-The-Secret-Speech.md",
     "_posts/2023-09-20-Excerpt-From-On-Anarchism.md",
-    "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
     "_posts/2023-09-18-Introduction-to-Higher-Form-Symmetry.md",
-    "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
     "_drafts/调档函.md",
     "_drafts/君主论书摘.md",
     "_drafts/2023-04-dd-Confinement-in-Toy-Models-Lecture-4.md",
