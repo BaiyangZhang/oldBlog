@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-21-The-Dirac-Equation.md",
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-21-The-Dirac-Equation.md",
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-21-The-Dirac-Equation.md"
+                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md"
               }
             }
           },
@@ -215,13 +215,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "873e811742ce72d3",
+  "active": "b820202f1b6d5d70",
   "lastOpenFiles": [
-    "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
-    "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
-    "_posts/2022-7-17-Conventions-and-Formula.md",
-    "_posts/2023-09-22-Mathematical-Economics.md",
     "_posts/2023-09-21-The-Dirac-Equation.md",
+    "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
+    "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
+    "_posts/2023-09-22-Mathematical-Economics.md",
+    "_posts/2022-7-17-Conventions-and-Formula.md",
     "Note-on-RG-Flow.md",
     "_posts/2022-07-30-The-Secret-Speech.md",
     "_posts/2023-09-20-Excerpt-From-On-Anarchism.md",

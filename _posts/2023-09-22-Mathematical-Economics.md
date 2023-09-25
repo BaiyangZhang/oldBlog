@@ -44,7 +44,7 @@ CW = Chaing and Wainwright, GS = Grinstead and Snell, W = Wooldridge.
 Additional review sessions may be scheduled in advance of exams.
 
 |**Lecture**|**Topics**|**Reading**|
-|----------|----------|
+|----------|----------|----------|
 | 1  | Introduction and Basics of Analysis | CW, Ch. 1 and 2|
 | 2-4 | Linear Algebra  | CW, Ch. 4 and 5|
 | 5-6 | Derivatives | CW, Ch. 5, 6, and 7|
@@ -100,7 +100,7 @@ Thus, as a first approximation, one might say that a branch of mathematics belon
 - Probability
 - Mathematical Physics
 
-Let's go to basics of algebra now.
+- - -
 
 *Explain variables, parameters and constants.*
 

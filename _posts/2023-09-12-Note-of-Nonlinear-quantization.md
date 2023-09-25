@@ -275,7 +275,7 @@ where $\epsilon$ is positive and infinitesimal. In this limit, at leading order 
 $$
 \begin{align}
 \Lambda_ {1} &\equiv\alpha= \frac{16\pi}{3}\int d r\; r^2\left[  \sin^2f  +\sin^2(f)(f')^2  +\frac{\sin^4f}{r^2}  \right], \\
-\Lambda_ {2} &\equiv-\beta= \epsilon\; \frac{64\pi}{15}\int d r\;r^2\sin^4f=:-\epsilon K.
+\Lambda_ {2} &\equiv-\beta= \boxed { \epsilon\; \frac{64\pi}{15}\int d r\;r^2\sin^4f=:-\epsilon K}.
 \end{align}
 $$
 $K$ goes to a constant in the classical Skyrme limit. We have (at $\epsilon\to 0$)
@@ -308,6 +308,26 @@ x_ {\text{min}} &= \frac{4}{\sqrt{ 3 }}\sqrt{ -p }\,\sin ^{2}\left( \frac{\theta
 $$
 The boxed term is the correction resulting from the cubic terms. As for how useful this linearized expression is, I don not know, for in theory we already have a analytical expression, which we could use to fit $\eta$ according to various data.
 
+**The other two roots**
+
+Now let's turn to the remaining two roots of the cubic equation. They have no correspondence in the classical Skyrme model, since as $\epsilon\to 0$ both of them goes to infinity, but it is helpful having their closed form written down for $\eta < 1$. 
+
+Regarding the three positive roots, let's call them $x_ {\text{min}}, x_ {\text{mid}}$ and $x_ {\text{max}}$. We have already studied $x_ {\text{min}}$ in length in the previous section, some calculation shows that 
+$$
+x_ {\text{mid}} = \frac{4 \sqrt{-p} }{\sqrt{3}}\cos ^2\left(\frac{\theta-\pi }{6}\right),
+$$
+at $\eta=1-\epsilon$ the asymptotic behavior is
+$$
+x_ {\text{mid}} =\frac{1}{\epsilon}\frac{\alpha }{K} 
+-\frac{1}{\sqrt{ \epsilon }} \sqrt{-\frac{J^{2}}{\alpha  K}}
+-\frac{27 J^2 K}{\alpha ^3}.
+$$
+As we can see, in the Skyrme limit the root diverges.
+
+Similarly, the greatest root is 
+$$
+x_ {\text{max}} = 
+$$
 
 
 
