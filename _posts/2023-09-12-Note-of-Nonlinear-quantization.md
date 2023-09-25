@@ -326,7 +326,7 @@ As we can see, in the Skyrme limit the root diverges.
 
 Similarly, the greatest root is 
 $$
-x_ {\text{max}} = 
+x_ {\text{max}} = \frac{\left(4 \sqrt{-p}\right) }{\sqrt{3}}\cos ^2\left(\frac{\theta }{6}+\frac{\pi }{6}\right)
 $$
 
 
