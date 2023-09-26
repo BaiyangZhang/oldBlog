@@ -25,49 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "873e811742ce72d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-09-21-The-Dirac-Equation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8bcdf69bb990aa39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-7-17-Conventions-and-Formula.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69e8cbe5e46792f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-09-22-Mathematical-Economics.md",
+                "file": "_posts/2023-09-25-Electrodynamics-in-Terms-of-Forms.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -142,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "_posts/2023-09-25-Electrodynamics-in-Terms-of-Forms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "_posts/2023-09-25-Electrodynamics-in-Terms-of-Forms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md"
+                "file": "_posts/2023-09-25-Electrodynamics-in-Terms-of-Forms.md"
               }
             }
           },
@@ -214,19 +178,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6cb4353d33bdbc50",
+  "active": "b820202f1b6d5d70",
   "lastOpenFiles": [
-    "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
-    "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
-    "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
-    "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
-    "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
-    "_drafts/2023-06-16-Representables-in-Category-Theory.md",
-    "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
     "_posts/2023-09-22-Mathematical-Economics.md",
-    "_posts/2023-09-21-The-Dirac-Equation.md",
+    "_drafts/2023-05-31-Analytic-Structure.md",
+    "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
+    "_drafts/2023-06-16-Representables-in-Category-Theory.md",
+    "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
     "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
+    "_posts/2023-09-21-The-Dirac-Equation.md",
     "_posts/2022-7-17-Conventions-and-Formula.md",
+    "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
+    "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
+    "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",
+    "_drafts/2023-mm-dd-Clasical-Lumps-and-Their-Quantum-Descendants.md",
     "Note-on-RG-Flow.md",
     "_posts/2022-07-30-The-Secret-Speech.md",
     "_posts/2023-09-20-Excerpt-From-On-Anarchism.md",
@@ -237,8 +202,7 @@
     "_drafts/2023-05-07-Gauge-Theory-in-Two-Dimension.md",
     "_drafts/2023-05-07-soliton-particle-duality.md",
     "_drafts/2023-05-09-Notes-on-(Anti-)-de-Sitter-Space.md",
-    "_drafts/2023-05-31-Analytic-Structure.md",
-    "_posts/2023-09-05-Electrodynamics-in-Terms-of-Forms.md",
+    "_posts/2023-09-25-Electrodynamics-in-Terms-of-Forms.md",
     "2023-09-13.md",
     "_drafts/2022-12-30-Gauge-Gravity-Duality-I.md",
     "_drafts/2023mm-dd--Basic-Algebraic-Geometry-n.md"

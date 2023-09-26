@@ -13,5 +13,7 @@ tags:
 
 For conventions used in this note, see my blog [here](http://www.mathlimbo.net/2022/07/17/Conventions-and-Formula/). 
 
-In lecture 2 we have talked about classic symmetry and their re-interpretation using the language of differential (exterior) form. We have made the connection between the so-called symmetry defect operator (SDO) and a 
+In lecture 2 we have talked about classic symmetry and their re-interpretation using the language of differential (exterior) form. We have made the connection between the so-called symmetry defect operator (SDO) and a charged, point operator. In this note we try to generalized this concept to charged operators defined on manifolds of dimension more than zero, that is, a line, a surface, etc. 
+
+
 
