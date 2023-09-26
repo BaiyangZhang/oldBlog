@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8536710f72bb6f37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-09-26-Note-of-Nonlinear-quantization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "_posts/2023-09-26-Note-of-Nonlinear-quantization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "_posts/2023-09-26-Note-of-Nonlinear-quantization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md"
+                "file": "_posts/2023-09-26-Note-of-Nonlinear-quantization.md"
               }
             }
           },
@@ -191,19 +203,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ece48e9a4389f639",
+  "active": "8536710f72bb6f37",
   "lastOpenFiles": [
-    "_posts/2023-09-18-Introduction-to-Higher-Form-Symmetry.md",
-    "_posts/2023-09-25-Electrodynamics-in-Terms-of-Forms.md",
     "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
-    "_posts/2023-09-20-Excerpt-From-On-Anarchism.md",
+    "_posts/2023-09-18-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-09-21-The-Dirac-Equation.md",
     "_posts/2023-09-22-Mathematical-Economics.md",
+    "_posts/2023-09-25-Electrodynamics-in-Terms-of-Forms.md",
+    "_posts/2023-09-20-Excerpt-From-On-Anarchism.md",
     "_drafts/2023-05-31-Analytic-Structure.md",
     "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
     "_drafts/2023-06-16-Representables-in-Category-Theory.md",
     "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
-    "_posts/2023-09-12-Note-of-Nonlinear-quantization.md",
+    "_posts/2023-09-26-Note-of-Nonlinear-quantization.md",
     "_posts/2022-7-17-Conventions-and-Formula.md",
     "_drafts/2023-mm-dd-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023-mm-dd-Confinement-in-Toy-Models-Lecture-.md",

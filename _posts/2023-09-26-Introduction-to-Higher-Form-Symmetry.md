@@ -33,8 +33,9 @@ In the language of differential forms, we can regard $\epsilon$ as a $0$-form, w
 $$
 \boxed { 
 \delta S = \int_ {M^{(D)}} (\star J)\wedge d\epsilon,
+\tag{2}
 }
 $$
 where $\star J$ is a $(D-1)$-form, $d \epsilon$ is a $1$-form (since $\epsilon$ is a zero form), hence their wedge product is a $D$-form, something can be integrated over $D$-dimensional manifold $M$, whose boundary is $\Sigma$, by the way. 
 
-The advantage of the above equation is that, 
+The advantage of Eq. (2) is that it can be generalized to higher forms. 

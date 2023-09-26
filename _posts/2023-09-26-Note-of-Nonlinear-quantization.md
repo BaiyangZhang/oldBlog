@@ -2,11 +2,11 @@
 layout: post
 title: Note of Nonlinear Quantization
 subtitle: 
-date: 2023-09-12
+date: 2023-09-26
 author: Baiyang Zhang
 header-img: img/lib13.jpg
 catalog: true
-tags: []
+tags:
 ---
 
 ### The Lagrangian
