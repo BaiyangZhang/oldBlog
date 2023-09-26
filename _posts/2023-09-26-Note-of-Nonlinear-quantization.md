@@ -263,7 +263,9 @@ $$
 \boxed { x_ {\text{min}} = \frac{4}{\sqrt{ 3 }}\sqrt{ -p }\,\sin ^{2}\left( \frac{\theta}{6}\right)} ,\quad  \theta=\arctan \left( \frac{\sqrt{-12 p^3-81 q^2}}{-9q} \right)
 \tag{4}.
 $$
-This is as simple as I can get. I check it numerically, it works out.
+This is as simple as I can get. I check it numerically, it works out. A natural question to ask is, what is the range of $\theta$? We could choose the principal value of the Arctan function, but the most reliable method to fix the ambiguities is still to compare the numerical results. 
+
+- - -
 
 **Behavior at $\eta\to 1$**
 
@@ -332,6 +334,19 @@ $$
 x_ {\text{max}} = \frac{4 \sqrt{-p} }{\sqrt{3}}\cos ^2\left(\frac{\theta+\pi }{6}\right)
 .}
 $$
-Compare with $x_ {\text{mid}}$, we find that the $\theta-\pi$ term under $\cos$ is replace by $\theta+\pi$.
+Compare with $x_ {\text{mid}}$, we find that the $\theta-\pi$ term under $\cos$ is replace by $\theta+\pi$. 
+
+The difference between $x_ {\text{max}}$ and $x_ {\text{mid}}$ is 
+$$
+\boxed { 
+x_ {\text{max}} - x_ {\text{mid}} = -2 \sqrt{-p}\, \sin \left(\frac{\theta }{3}\right),
+}
+$$
+at $\eta=1-\epsilon$ the asymptotic behavior is 
+$$
+x_ {\text{max}} - x_ {\text{mid}} = \frac{1}{\sqrt{\epsilon }} \frac{-2 \sqrt{ J^2 }}{ \sqrt{-K \alpha}}
+- \sqrt{\epsilon } \frac{ 13 J^4\, \sqrt{-K}}{4 \,\alpha ^{7/2} \sqrt{J^2}}.
+$$
+It shows that close to the Skyrme limit, the distance between those two roots also becomes divergent.
 
 
