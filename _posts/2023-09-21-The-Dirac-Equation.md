@@ -128,5 +128,3 @@ It can be shown that $L$ breaks down to four connected components, depending on 
 Similar to $SO(3)$ is double-covered by $SU(2)$, $L_ {0}$ turns out to be double covered by $SL(2,\mathbb{C})$, the special linear $2\times 2$ complex matrix. 
 
 
-#### The Dirac Algebra
-

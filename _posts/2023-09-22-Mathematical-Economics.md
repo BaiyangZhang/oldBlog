@@ -88,7 +88,7 @@ Thus, as a first approximation, one might say that a branch of mathematics belon
 
 - Algebra. Deals with number systems, polynomials, and more abstract structures such as groups, fields, vector spaces, and rings. 
 - Number theory.
-- Algebraic geomety
+- Algebraic geometry
 - Analysis
     - The study of PDE, ODE.
     - Dynamics. What happens when you take a simple process and do it over and over again?
@@ -104,8 +104,9 @@ Thus, as a first approximation, one might say that a branch of mathematics belon
 
 *Explain variables, parameters and constants.*
 
-*Integers, rational numbers, real numbers and complex numbers.* Explain what is a ring and what is a field. 
+*Integers, rational numbers, real numbers and complex numbers.* Explain what is a ring and what is a field, namely the most basic algebraic structure. 
 
 Explain the Concept of Sets. $\mathbb{R},\mathbb{N}, \mathbb{Z}, \mathbb{Q}$. 
 
+### Linear algebra
 

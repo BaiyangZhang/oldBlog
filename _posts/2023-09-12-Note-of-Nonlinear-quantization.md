@@ -314,7 +314,9 @@ Now let's turn to the remaining two roots of the cubic equation. They have no co
 
 Regarding the three positive roots, let's call them $x_ {\text{min}}, x_ {\text{mid}}$ and $x_ {\text{max}}$. We have already studied $x_ {\text{min}}$ in length in the previous section, some calculation shows that 
 $$
+\boxed { 
 x_ {\text{mid}} = \frac{4 \sqrt{-p} }{\sqrt{3}}\cos ^2\left(\frac{\theta-\pi }{6}\right),
+}
 $$
 at $\eta=1-\epsilon$ the asymptotic behavior is
 $$
@@ -326,8 +328,10 @@ As we can see, in the Skyrme limit the root diverges.
 
 Similarly, the greatest root is 
 $$
-x_ {\text{max}} = \frac{\left(4 \sqrt{-p}\right) }{\sqrt{3}}\cos ^2\left(\frac{\theta }{6}+\frac{\pi }{6}\right)
+\boxed {
+x_ {\text{max}} = \frac{4 \sqrt{-p} }{\sqrt{3}}\cos ^2\left(\frac{\theta+\pi }{6}\right)
+.}
 $$
-
+Compare with $x_ {\text{mid}}$, we find that the $\theta-\pi$ term under $\cos$ is replace by $\theta+\pi$.
 
 
