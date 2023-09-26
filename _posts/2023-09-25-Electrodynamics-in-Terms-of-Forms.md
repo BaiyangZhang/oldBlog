@@ -2,7 +2,7 @@
 layout: post
 title: Electrodynamics in Terms of Differential Forms
 subtitle: A thorough introduction
-date: 2023-09-05
+date: 2023-09-25
 author: Baiyang Zhang
 header-img: img/background13.jpg
 catalog: true
@@ -84,7 +84,7 @@ Although forms can be expanded in any bases, the geometric meaning of differenti
 $$
 \left\langle dx^{i},\mathbf{v} \right\rangle = v^{i}.
 $$
-Note that there will be problem if you think of $dx^{i}$ as an infinitesimal quantity, as is the case in the classical real analysis! Because then on the left hand side we have the inner product between an infinitesimal thing and one regular-sized thing, the final product should be infinitesimal of order one, but on the right hand side we clearly have a regular-sized thing, the i-th component of a finite-sized vector. In fact, $dx^{i}$ is a special case of $d\mathbf{v}$ for arbitrary vector $\mathbf{v}$, and $d\mathbf{v}$ should be regarded as a **vector-valued 1-form**! That is, something that takes an vector and spits out an vector. For more details, please refer to the other notes in this blog.
+Note that there will be problem if you think of $dx^{i}$ as an infinitesimal quantity, as is the case in the classical real analysis! Because then on the left hand side we have the inner product between an infinitesimal thing and one regular-sized thing, the final product should be infinitesimal of order one, but on the right hand side we clearly have a regular-sized thing, the i-th component of a finite-sized vector. In fact, $dx^{i}$ is a special case of $d\mathbf{v}$ for arbitrary vector $\mathbf{v}$, and $d\mathbf{v}$ should be regarded as a **vector-valued 1-form**! That is, something that takes an vector and spits out an vector. For more details, please refer to Frankel etc.
 
 Let's start with the 2-dimensional Euclidean space. Given two vectors $\mathbf{v,w}$ we have 
 $$

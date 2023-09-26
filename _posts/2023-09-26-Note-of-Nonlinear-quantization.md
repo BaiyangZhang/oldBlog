@@ -1,13 +1,12 @@
 ---
-layout:     post   				    # 使用的布局（不需要改）
-title:     Note of Nonlinear Quantization 			# 标题 
-subtitle:   
-date:       2023-09-01 				# 时间
-author:     Baiyang Zhang 						# 作者
-header-img: img/lib13.jpg 	#这篇文章标题背景图片
-catalog: true 						# 是否归档
-tags:								#标签
-    - 
+layout: post
+title: Note of Nonlinear Quantization
+subtitle: 
+date: 2023-09-26
+author: Baiyang Zhang
+header-img: img/lib13.jpg
+catalog: true
+tags:
 ---
 
 ### The Lagrangian
@@ -226,7 +225,10 @@ and see if we can express $x$ in terms of $J^{2}$ explicitly. The `discriminant`
 $$
 \Delta = -J^{2} \beta^3  \left(4 \alpha ^3+27 \beta  J^{2}\right).
 $$
-where $\alpha :=\Lambda_ {1}>0$, $\beta:=-\Lambda_ {2}<0$ and $J^{2}>0$. If the discriminant $\Delta>0$ then we have three non-degenerate roots, the positivity of $\Delta$ means
+where 
+$$
+\alpha :=\Lambda_ {1}>0,\quad \beta:=-\Lambda_ {2}<0$$
+and $J^{2}>0$. If the discriminant $\Delta>0$ then we have three non-degenerate roots, the positivity of $\Delta$ means
 $$
 \alpha^{3}>- \frac{27}{4} \beta J^{2}.
 $$
@@ -234,17 +236,102 @@ In the limit $\eta\to 1$, $\beta\to 0$ so we require $\alpha^{3}>0$, which is au
 
 Define 
 $$
-x=t-\frac{2\alpha}{3\beta}
-$$
-the cubic equation adopts the depressed form,
-$$
-t^{3}+p y^{2} +q=0
+x=t-\frac{2\alpha}{3\beta}=:t+\frac{2\sqrt{ -p }}{\sqrt{ 3 }}
 $$
 where
 $$
 \begin{align}
-p&= -\frac{\alpha^{2}}{3\beta^{2}}, \\
-q&= - \frac{2\alpha^{3}}{27\beta^{3}}-\frac{J^{2}}{\beta^{2}}.
+p&= -\frac{\alpha^{2}}{3\beta^{2}} = - \frac{\Lambda_ {1}^{2}}{3\Lambda_ {2}^{2}}, \\
+q&= - \frac{2\alpha^{3}}{27\beta^{3}}-\frac{J^{2}}{\beta^{2}}= \frac{2\Lambda_ {1}^{3}}{27\Lambda_ {2}^{3}}-\frac{J^{2}}{\Lambda_ {2}^{2}},
 \end{align}
 $$
-We can see that $p<0$ but $q$ is not necessarily so. 
+then the cubic equation adopts the depressed form,
+$$
+t^{3}+p t +q=0.
+$$
+The discriminant in terms of $p$ and $q$ is 
+$$
+\Delta = -4 p^3 - 27 q^2, \quad  \Delta > 0 \implies 4 p^3 + 27 q^2<0.
+$$
+We can see from the definition that $p<0$ but $q$ is not necessarily so. If we solve for the minimum root $x$, we get (from mathematica)
+$$
+x_ {\text{min}}=\frac{i \left(\sqrt{3}+i\right) \sqrt[3]{\sqrt{12 p^3+81 q^2}-9 q}}{2 \sqrt[3]{2} 3^{2/3}}+\frac{p+i \sqrt{3} p}{2^{2/3} \sqrt[3]{3} \sqrt[3]{\sqrt{12 p^3+81 q^2}-9 q}}+\frac{2}{3} \sqrt{ -3p }
+\tag{3}
+$$
+which simplifies to (by hand mostly) 
+$$
+\boxed { x_ {\text{min}} = \frac{4}{\sqrt{ 3 }}\sqrt{ -p }\,\sin ^{2}\left( \frac{\theta}{6}\right)} ,\quad  \theta=\arctan \left( \frac{\sqrt{-12 p^3-81 q^2}}{-9q} \right)
+\tag{4}.
+$$
+This is as simple as I can get. I check it numerically, it works out.
+
+**Behavior at $\eta\to 1$**
+
+Write 
+$$
+\eta := 1-\epsilon
+$$
+where $\epsilon$ is positive and infinitesimal. In this limit, at leading order we have
+$$
+\begin{align}
+\Lambda_ {1} &\equiv\alpha= \frac{16\pi}{3}\int d r\; r^2\left[  \sin^2f  +\sin^2(f)(f')^2  +\frac{\sin^4f}{r^2}  \right], \\
+\Lambda_ {2} &\equiv-\beta= \boxed { \epsilon\; \frac{64\pi}{15}\int d r\;r^2\sin^4f=:-\epsilon K}.
+\end{align}
+$$
+$K$ goes to a constant in the classical Skyrme limit. We have (at $\epsilon\to 0$)
+$$
+K<0,\quad \alpha>0, \quad  \beta<0.
+$$
+
+Substitute $\beta=\epsilon K$ and leave $\alpha$ as it is, we get
+$$
+\begin{align}
+p&= -\frac{\alpha^{2}}{3\beta^{2}} = \frac{1}{\epsilon^{2}}\left( -\frac{\alpha^{2}}{3K^{2}} \right) , \\
+q&= - \frac{2\alpha^{3}}{27\beta^{3}}-\frac{J^{2}}{\beta^{2}}= \frac{2\Lambda_ {1}^{3}}{27\Lambda_ {2}^{3}}-\frac{J^{2}}{\Lambda_ {2}^{2}}=\frac{1}{\epsilon^{3}}\left( -\frac{2\alpha^{3}}{27K^{3}} \right)+\frac{1}{\epsilon^{2}}\left( -\frac{J^{2}}{K^{2}} \right),
+\end{align}
+$$
+up to the NLO we have 
+$$
+\begin{align}
+\theta &= \arctan \left(-\sqrt{\epsilon } \sqrt{-\frac{27 J^2 K}{\alpha ^3}}\right)\\
+&\approx -\sqrt{\epsilon } \sqrt{-\frac{27 J^2 K}{\alpha ^3}}+ \frac{1}{3} \epsilon ^{3/2} \left(-\frac{27 J^2 k}{\alpha ^3}\right)^{3/2} 
++\mathcal{O}(\epsilon^{5/2}),
+\end{align}
+$$
+Consequently, up to NLO 
+$$
+\begin{align}
+x_ {\text{min}} &= \frac{4}{\sqrt{ 3 }}\sqrt{ -p }\,\sin ^{2}\left( \frac{\theta}{6}\right) \\
+&=-\frac{1}{\epsilon} \frac{4\alpha}{ 3K } \left( -\frac{3 J^2 K \epsilon }{4 \alpha ^3}-\frac{219 J^4 K^2 \epsilon ^2}{16 \alpha ^6} \right) \\
+&= \frac{J^{2}}{\alpha ^2} +\boxed { \epsilon \frac{73 K J^{4} }{4 \alpha ^5}}.
+\end{align}
+$$
+The boxed term is the correction resulting from the cubic terms. As for how useful this linearized expression is, I don not know, for in theory we already have a analytical expression, which we could use to fit $\eta$ according to various data.
+
+**The other two roots**
+
+Now let's turn to the remaining two roots of the cubic equation. They have no correspondence in the classical Skyrme model, since as $\epsilon\to 0$ both of them goes to infinity, but it is helpful having their closed form written down for $\eta < 1$. 
+
+Regarding the three positive roots, let's call them $x_ {\text{min}}, x_ {\text{mid}}$ and $x_ {\text{max}}$. We have already studied $x_ {\text{min}}$ in length in the previous section, some calculation shows that 
+$$
+\boxed { 
+x_ {\text{mid}} = \frac{4 \sqrt{-p} }{\sqrt{3}}\cos ^2\left(\frac{\theta-\pi }{6}\right),
+}
+$$
+at $\eta=1-\epsilon$ the asymptotic behavior is
+$$
+x_ {\text{mid}} =\frac{1}{\epsilon}\frac{\alpha }{K} 
+-\frac{1}{\sqrt{ \epsilon }} \sqrt{-\frac{J^{2}}{\alpha  K}}
+-\frac{27 J^2 K}{\alpha ^3}.
+$$
+As we can see, in the Skyrme limit the root diverges.
+
+Similarly, the greatest root is 
+$$
+\boxed {
+x_ {\text{max}} = \frac{4 \sqrt{-p} }{\sqrt{3}}\cos ^2\left(\frac{\theta+\pi }{6}\right)
+.}
+$$
+Compare with $x_ {\text{mid}}$, we find that the $\theta-\pi$ term under $\cos$ is replace by $\theta+\pi$.
+
+
