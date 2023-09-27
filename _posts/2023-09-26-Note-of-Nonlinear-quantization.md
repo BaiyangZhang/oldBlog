@@ -344,8 +344,7 @@ x_ {\text{max}} - x_ {\text{mid}} = -2 \sqrt{-p}\, \sin \left(\frac{\theta }{3}\
 $$
 at $\eta=1-\epsilon$ the asymptotic behavior is
 $$
-x_ {\text{max}} - x_ {\text{mid}} = \frac{1}{\sqrt{\epsilon }} \frac{-2 \sqrt{ J^2 }}{ \sqrt{-K \alpha}}
-- \sqrt{\epsilon } \frac{ 13 J^4\, \sqrt{-K}}{4 \,\alpha ^{7/2} \sqrt{J^2}}.
+x_ {\text{max}} - x_ {\text{mid}} = \frac{1}{\sqrt{\epsilon }} \frac{-2 \sqrt{ J^2 }}{ \sqrt{-K \alpha}}-\sqrt{\epsilon } \frac{ 13 J^4\, \sqrt{-K}}{4 \,\alpha ^{7/2} \sqrt{J^2}}.
 $$
 It shows that close to the Skyrme limit, the distance between those two roots also becomes divergent.
 
