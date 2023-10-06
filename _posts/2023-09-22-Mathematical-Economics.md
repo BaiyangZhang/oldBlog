@@ -2,7 +2,7 @@
 layout: post
 title: Lecture Notes on Mathematics in Economics
 subtitle: 
-date: 2023-09-22
+date: 2023-10-02
 author: Baiyang Zhang
 header-img: img/background2.jpg
 catalog: true
@@ -13,23 +13,25 @@ tags:
 
 **Semester**: Fall 2023
 
-**Lecturer**: James Fisher
+**Duration:** 40 Real hours (54 teaching hours), 3 real hours per class, 14 classes / 7 weeks 
+
+**Lecturer**: Dr. Baiyang Zhang
 
 **Office Address:** TBA
 
 **Email**: [byzhang@henu.edu.cn](mailto:james.fisher@henu.edu.cn)
 
-**Lecture Schedule**： Monday and Thursday TBA
+**Lecture Schedule**： Monday and Thursday (TBA)
 
 **Classroom:** TBA
 
 **Textbooks and References:**
 
-“*Fundamental Methods of Mathematical Economics*” by Chaing and Wainwright
+1. “*Fundamental Methods of Mathematical Economics*” by Chaing and Wainwright
 
-“*Introduction to Probability*” by Grinstead and Snell
+2. “*Introduction to Probability*” by Grinstead and Snell
 
-"*Introduction to Linear Algebra*" by Strang.
+3. "*Introduction to Linear Algebra*" by Strang.
 
 **Course Objectives:**  This course will include the basics of analysis, derivatives and integration, linear algebra, optimization, and probability, with the goal of preparing students for further course work within the School of Economics.
 
