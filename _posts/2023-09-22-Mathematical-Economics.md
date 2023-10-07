@@ -56,7 +56,6 @@ Additional review sessions may be scheduled in advance of exams.
 | 12 | Probability Distributions and Combinatorics | Reading: GS, Ch. 1, 2 and 3|
 | 13 | Common Distributions and Conditional Probability | Reading: GS, Ch. 4 and 5|
 | 14 | Expected Values | Reading: GS, Ch. 6|
-| 15 |  Law of Large Numbers | Reading: GS, Ch. 8|
 
 - - -
 
