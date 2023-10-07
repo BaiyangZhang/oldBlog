@@ -107,11 +107,13 @@ Thus, as a first approximation, one might say that a branch of mathematics belon
 
 *Explain variables, parameters and constants.*
 
-*Integers, rational numbers, real numbers and complex numbers.* Explain what is a ring and what is a field, namely the most basic algebraic structure. 
+*Explain integers, rational numbers, real numbers and complex numbers.* Explain what is a ring and what is a field, emphasize on the most basic algebraic structure. 
 
 Explain the Concept of Sets. $\mathbb{R},\mathbb{N}, \mathbb{Z}, \mathbb{Q}$. 
 
+
+
 ## Lecture 2
 
-### Linear algebra
+### 
 
