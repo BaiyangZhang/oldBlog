@@ -59,11 +59,13 @@ Additional review sessions may be scheduled in advance of exams.
 
 - - -
 
+## Lecture 1
+
 ### Introduction and Basics of Analysis
 
 **Mathematical Economics versus Econometrics** 
 
-Econometrics is concerned mainly with the measurement of economic data. Hence it deals with the study of empirical observations using statistical methods of estimation and hypothesis testing. Indeed, empirical studies and theoretical analyses are often complementary and muturally reinforcing. On the one hand, theories must be tested against empirical data for validity before they can be applied with confidence. On the other, statistical work needs economic theory as a guide, in order to determine the most relevant and fruitful direction of research.
+Econometrics is concerned mainly with the measurement of economic data. Hence it deals with the study of empirical observations using statistical methods of estimation and hypothesis testing. Indeed, empirical studies and theoretical analyses are often complementary and mutually reinforcing. On the one hand, theories must be tested against empirical data for validity before they can be applied with confidence. On the other, statistical work needs economic theory as a guide, in order to determine the most relevant and fruitful direction of research.
 
 **Economic Models**
 
@@ -108,6 +110,8 @@ Thus, as a first approximation, one might say that a branch of mathematics belon
 *Integers, rational numbers, real numbers and complex numbers.* Explain what is a ring and what is a field, namely the most basic algebraic structure. 
 
 Explain the Concept of Sets. $\mathbb{R},\mathbb{N}, \mathbb{Z}, \mathbb{Q}$. 
+
+## Lecture 2
 
 ### Linear algebra
 
