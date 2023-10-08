@@ -27,7 +27,7 @@ tags:
 
 **Textbooks and References:**
 
-1. “*Fundamental Methods of Mathematical Economics*” by Chaing and Wainwright
+1. “*Fundamental Methods of Mathematical Economics*” by Chiang and Wainwright
 
 2. “*Introduction to Probability*” by Grinstead and Snell
 
@@ -41,7 +41,7 @@ In general, the final grade is an A when the final score is 85% or better, a B w
 
 **Tentative Weekly Schedule:**
 
-CW = Chaing and Wainwright, GS = Grinstead and Snell, W = Wooldridge.
+CW = Chiang and Wainwright, GS = Grinstead and Snell, W = Wooldridge.
 
 Additional review sessions may be scheduled in advance of exams.
 
