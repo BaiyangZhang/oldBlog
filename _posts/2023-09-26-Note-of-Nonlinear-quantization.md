@@ -23,11 +23,11 @@ $$
 $$
 (k for kinetic) is re-expressed as
 $$
-L_ {k} = \frac{F_ {\pi}^{2} \lambda^{-2}}{16}\mathrm{Tr}\,(R_ {\mu'}^{2})
+\mathcal{L}_ {k} = \frac{F_ {\pi}^{2} \lambda^{-2}}{16}\mathrm{Tr}\,(R_ {\mu'}^{2})
 $$
 since $R_ {\mu} \sim \partial_ {\mu}(-) = \lambda ^{-1}\partial_ {\mu'}(-)$, where $\partial_ {\mu'}$ is the derivative with respect to $x'$. Then the according contribution to the energy (Denoted by $E_ {k}$)
 $$
-E_ {k} = \int d^{3}x \,  \mathcal{L}_ {k}
+E_ {k} = \int d^{3}x \,  -\mathcal{L}_ {k}
 $$
 takes the new form
 $$
@@ -228,7 +228,7 @@ $$
 where 
 $$
 \alpha :=\Lambda_ {1}>0,\quad \beta:=-\Lambda_ {2}<0$$
-and $J^{2}>0$. If the discriminant $\Delta>0$ then we have three non-degenerate roots, the positivity of $\Delta$ means
+and $J^{2}>0$. (Note the $\alpha,\beta$ defined here are not the ones appeared earlier.) If the discriminant $\Delta>0$ then we have three non-degenerate roots, the positivity of $\Delta$ means
 $$
 \alpha^{3}>- \frac{27}{4} \beta J^{2}.
 $$

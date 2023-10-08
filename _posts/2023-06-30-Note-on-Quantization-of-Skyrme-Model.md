@@ -389,7 +389,7 @@ $$
 We adopt the "spherical symmetric" ansatz (`hedgehog ansatz`)
 $$
 \boxed{
-U_ {0}(x) = \exp[iF(r) \tau \cdot \hat{x}], \quad  F(r){\Large\mid}_ {r=0} =\pi,\,F(r){\Large\mid}_ {r=\infty} =0.
+U_ {0}(x) = \exp[iF(r) \vec{\tau} \cdot \hat{x}], \quad  F(r){\Large\mid}_ {r=0} =\pi,\,F(r){\Large\mid}_ {r=\infty} =0.
 }  \tag{hedgehog}
 $$
 where $\hat{x}$ is the unit vector in the direction of $\mathbf{x}$. The reason why I put quotes around "spherical symmetric" is that, the hedgehog solution is not really spherical symmetric like two sphere. To make it easier to visualize it, imagine an actual prickly hedgehog whose spines gives the direction of $U_ {0}(x)$, $\hat{x}$ in the exponent to be more specific. 
@@ -402,7 +402,7 @@ When speaking of rotation there are two things we could rotate,
 
 When rotating a hedgehog, to fully realized the invariance, we must rotate both the position of the spines and their directions at the same pace! Of course this is taken care of automatically when you rotate a real hedgehog, because both the spines and their directions live in the same space, the physical space. However, regarding a hedgehog solution, the spines live in a different space, so remember to rotate it as well if you want the invariance!
 
-Anyways. Taking the hedgehog ansatz it to the Lagrangian, Legendre transform the Lagrangian to energy functional, we have the expression of the energy of the soliton in terms of the profile function $F(r)$:
+We proceed by substituting the hedgehog ansatz into the Lagrangian, Legendre transform the Lagrangian to energy functional, we have the expression of the soliton energy in terms of the profile function $F(r)$:
 $$
 M = 4\pi \int_{0}^{\infty} dr \, r^{2}\left\{ \frac{1}{8}F_ {\pi}^{2}\left[ (\partial _ {r}F)^{2}+2\frac{\sin ^{2}F}{r^{2}} \right] + \frac{1}{2e^{2}} \frac{\sin ^{2}F}{r^{2}}
 \left[ \frac{\sin ^{2}F}{r^{2}}+2(\partial _ {r}F)^{2} \right]\right\} , 
@@ -415,9 +415,9 @@ $$
 $$
 Next, we can use numerical methods to solve it, with suitable boundary conditions, which are 
 - $F(x){\Large\mid}_ {x=0}=\mathbb{Z}\pi$, to make sure the Skyrmion is well defined at the origin,
-- $F(x){\Large\mid}_ {x=\infty}=0$, to make sure the total energy is finite.
+- $F(x){\Large\mid}_ {x=\infty}=0$, otherwise the total energy won't be finite.
 
-$F(x)$ is a monotonically increasing function, and *the energy of this solution turns out to be about 25% higher than the bound*. So the Bogomolnyi bound can not be saturated for Skyrmions.
+$F(x)$ is a monotonically decreasing function, and *the energy of this solution turns out to be about 25% higher than the Bogomolnyi bound*. So the Bogomolnyi bound can not be saturated for Skyrmions.
 
 The winding number can also be written in terms of $F$,
 $$
@@ -441,7 +441,7 @@ for if left-handed and right-handed rotations are different, then $\mathbb{1}$ w
 
 We can also add the mass term to the pion field. The physical vacuum is set to be $\mathbb{1}$, thus the mass term should vanish at $U=1$. Then of course it should respect the $SU(2)_ {L}\times SU(2)_ {R}$ symmetry. The mass term with correct normalization is 
 $$
-\mathcal{L}_ {\text{mass}} = \frac{m^{2}_ {\pi} F^{2}_ {\pi}}{2}\mathrm{Tr}\,(U+U^{\dagger}-2\mathbb{1}).
+\mathcal{L}_ {\text{mass}} = \frac{m^{2}_ {\pi} F^{2}_ {\pi}}{2}\mathrm{Tr}\,(U+U^{\dagger}-2\cdot\mathbb{1}).
 $$
 
 ### How to parametrized the rotation
@@ -605,7 +605,7 @@ Recall the canonical quantization of quantum mechanics is to endow the generaliz
 
 We can write 
 $$
-A = a_ {0} + i \mathbf{a}\cdot \mathbf{\tau},\quad a_ {\mu}a_ {\mu}=1,\quad  \mu=0,1,2,3.
+A = a_ {0} + i \vec{a}\cdot \vec{\tau},\quad a_ {\mu}a_ {\mu}=1,\quad  \mu=0,1,2,3.
 $$
 where the summation convention has been adopted. It is a general property for all $SU(2)$ matrices. In terms of $a$'s the Lagrangian becomes 
 $$
@@ -636,34 +636,36 @@ $$
 
 The constraint suggests that $\sum_ {i}\partial^{2} / \partial a_ {i}^{2}$ should be interpreted as the Laplacian $\nabla^{2}$ on $\mathbb{S}^{3}$. And, Laplacian on a sphere is just the angular-momentum operator in disguise! 
 
-
 **Laplacian on a $\mathbb{S}^{3}$**
 
-The Laplacian on a three-sphere, also known as the Laplace-Beltrami operator, acts on a scalar function $f(x1, x2, x3, x4)$ with the constraint $x1^2 + x2^2 + x3^2 + x4^2 = 1$. This operator is usually defined in terms of the spherical coordinates on the 3-sphere, rather than the Cartesian coordinates $(x1, x2, x3, x4)$.
+The Laplacian on a three-sphere, also known as the Laplace-Beltrami operator, acts on a scalar function $f(x_ {1}, x_ {2}, x_ {3}, x_ {4})$ with the constraint $x_ {1}^2 + x_ {2}^2 + x_ {3}^2 + x_ {4}^2 = 1$. This operator is usually defined in terms of the spherical coordinates on the 3-sphere, rather than the Cartesian coordinates $(x_ {1}, x_ {2}, x_ {3}, x_ {4})$.
 
 When the Laplacian is applied to a scalar function on a three-sphere, it is most commonly written in a form like this (in spherical coordinates):
 
 $$
-∆f = 1/sin²(χ) [(sin²(χ) f')' - sin(χ) cos(χ) f'] + 1/(sin²(χ) sin²(θ)) (sin(θ) f_φφ) + 1/(sin(χ) sin(θ)) f_θθ
+\begin{align}
+\Delta f &= 1/\sin²(χ) [(\sin²(\chi) f')' - \sin(\chi) \cos(\chi) f'] + 1/(\sin²(\chi) \sin²(\theta)) (\sin(\theta) f_ {\phi \phi})  \\
+&\;\;\;\, + 1/(\sin(\chi) \sin(\theta)) f_ {\theta \theta}
+\end{align}
 $$
 where:
 
 - $f'$ denotes the derivative of f with respect to $\chi$
-- f_φφ denotes the second derivative of f with respect to φ
-- f_θθ denotes the second derivative of f with respect to θ
-- χ is the "azimuthal" angle ranging from 0 to π
-- θ is the polar angle ranging from 0 to π
-- φ is the azimuthal angle ranging from 0 to 2π
+- $f_ {\phi \phi}$ denotes the second derivative of f with respect to $\phi$
+- $f_ {\theta \theta}$ denotes the second derivative of f with respect to $\theta$
+- $\chi$ is the "azimuthal" angle ranging from 0 to $\pi$
+- $\theta$ is the polar angle ranging from 0 to $\pi$
+- $\phi$ is the azimuthal angle ranging from 0 to $2\pi$
 
 The eigenvalue problem for the Laplacian on the three-sphere is then given by:
-
-∆f = λf
-
-The eigenvalues λ of the Laplacian operator on a 3-sphere are given by:
-
-λ = l*(l+2)
-
-where l is a nonnegative integer. These eigenvalues can be derived by solving the eigenvalue problem using separation of variables and spherical harmonics.
+$$
+\Delta f = \lambda f
+$$
+The eigenvalues $\lambda$ of the Laplacian operator on a 3-sphere are given by:
+$$
+\lambda=l(l+2)
+$$
+where $l$ is a nonnegative integer. These eigenvalues can be derived by solving the eigenvalue problem using separation of variables and spherical harmonics.
 
 Note that the eigenfunctions (the functions f that satisfy the above equation) are the spherical harmonics on the 3-sphere, which are the generalization of the usual spherical harmonics on a 2-sphere. The parameter l is the degree of the spherical harmonics, which corresponds to the total angular momentum quantum number in quantum mechanics.
 
@@ -691,6 +693,3 @@ Then the rest of the story is just standard QM, not even QFT now. Having the ope
 $$
 I^{2}\left\lvert{j,m,m'}\right\rangle  = -m(m+2)\left\lvert{j,m,m'}\right\rangle 
 $$
-
-
-
