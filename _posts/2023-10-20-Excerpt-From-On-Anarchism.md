@@ -2,7 +2,7 @@
 layout: post
 title: Excerpt From "On Anarchism" by Noam Chomsky
 subtitle: 
-date: 2023-09-20
+date: 2023-10-20
 author: Baiyang Zhang
 header-img: img/background2.jpg
 catalog: true
