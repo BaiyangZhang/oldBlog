@@ -96,7 +96,7 @@ Thus, as a first approximation, one might say that a branch of mathematics belon
     - The study of PDE, ODE.
     - Dynamics. What happens when you take a simple process and do it over and over again?
 - Logic
-	- set theory
+	- Set theory
 	- Category theory
 - Combinatorics
 - Theoretical Computer Science
@@ -105,13 +105,10 @@ Thus, as a first approximation, one might say that a branch of mathematics belon
 
 - - -
 
-*Explain variables, parameters and constants.*
-
-*Explain integers, rational numbers, real numbers and complex numbers.* Explain what is a ring and what is a field, emphasize on the most basic algebraic structure. 
-
-Explain the Concept of Sets. $\mathbb{R},\mathbb{N}, \mathbb{Z}, \mathbb{Q}$. 
-
-
+1. *Math as a language with its own vocabulary and syntax.* 
+2. *Introduction of set theory, including the basic concepts and operations that can be done to them.*
+3. *Introduce the concept of function and functional. They are nothing but various maps from one set to another.* 
+4. The number system. Explain integers, rational numbers, real numbers and complex numbers. $\mathbb{R},\mathbb{N}, \mathbb{Z}, \mathbb{Q}$. 
 
 ## Lecture 2
 

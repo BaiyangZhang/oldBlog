@@ -43,4 +43,5 @@ From $\nabla \phi=\partial \phi+\omega \phi$ and $\delta \partial=\partial \delt
 $$
 \delta (\nabla \phi) = \nabla (\delta \phi).
 $$
- 
+
+It can be shown that if $\phi_ {U}^{a}$ is a function 
