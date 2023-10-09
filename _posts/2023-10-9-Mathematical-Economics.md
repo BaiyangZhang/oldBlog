@@ -52,10 +52,10 @@ Additional review sessions may be scheduled in advance of exams.
 | 5-6 | Derivatives | CW, Ch. 5, 6, and 7|
 | 7 | Integrals | CW, Ch. 13|
 | 8-10 |Unconstrained Optimization | CW, Ch. 9, 10, and 11|
-| 11 | Constrained Optimization with Equality Constraints | Reading: CW, Ch. 12|
-| 12 | Probability Distributions and Combinatorics | Reading: GS, Ch. 1, 2 and 3|
-| 13 | Common Distributions and Conditional Probability | Reading: GS, Ch. 4 and 5|
-| 14 | Expected Values | Reading: GS, Ch. 6|
+| 11 | Constrained Optimization with Equality Constraints | CW, Ch. 12|
+| 12 | Probability Distributions and Combinatorics | GS, Ch. 1, 2 and 3|
+| 13 | Common Distributions and Conditional Probability | GS, Ch. 4 and 5|
+| 14 | Expected Values | GS, Ch. 6|
 
 - - -
 
@@ -71,7 +71,7 @@ Econometrics is concerned mainly with the measurement of economic data. Hence it
 
 A model is essentially and necessarily an abstraction from the real world. The sensible procedure is to pick out what appeals to our reason to be the primary factors and relationships relevant to our problem and to focus our attention on these alone. 
 
-**Mathematics from a bird view**
+**Mathematics from a bird's eye view**
 
 Explain: Algebra, Geometry, and Analysis.
 

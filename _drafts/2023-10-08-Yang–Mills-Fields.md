@@ -44,4 +44,26 @@ $$
 \delta (\nabla \phi) = \nabla (\delta \phi).
 $$
 
-It can be shown that if $\phi_ {U}^{a}$ is a function 
+It can be shown that if $\phi_ {U}^{a}$ is a section on $E$, then $\partial \mathcal{L} / \partial \phi_ {U}^{a}$ define a section of the **dual bundle** $E^{\ast}$. The difference between $E$ and $E^{\ast}$ can be distinguished from how the transition functions act on the sections, whether it is from the left or from the right. 
+
+Recall that $\delta \phi$ is a section of $E$, so if $\partial \mathcal{L} / \partial \phi$ is a section of $E^{\ast}$ then
+$$
+\frac{\partial \mathcal{L}}{\partial \phi} \delta \phi \text{ is a scalar.}
+$$
+If there are more than one $\phi$ we just sum over all of them. 
+
+Spare the details, we finally arrive at the equation of motion:
+$$
+\frac{\delta \mathcal{L}}{\delta \phi} = \frac{\partial \mathcal{L}}{\partial \phi}-\nabla_ {\mu} \frac{\partial \mathcal{L}}{\partial(\nabla_ {\mu}\phi)}=0.
+$$
+
+That is, if we choose the `essential` or `imposed` boundary condition to be that $\delta \phi$ vanishes on the boundary. 
+
+Assume the Lagrangian is invariant under the fiber motion $\phi\to \phi(\alpha)$, we shall mainly be interested in the case where there is a 1-parameter subgroup 
+$$
+g(\alpha) = e^{ \alpha E }
+$$
+where $E$ is an element of the Lie algebra of the transition group, $E \in {\frak g}$. The fiber transformation is 
+$$
+\phi \mapsto g(\alpha) \phi.
+$$
