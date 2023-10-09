@@ -81,7 +81,7 @@ There is, however, a different contrast, between algebra and geometry, which is 
 
 Some parts of mathematics involve manipulating symbols according to certain rules: for example, a true equation remains true if you “do the same to both sides.” These parts would typically be thought of as algebraic, whereas other parts are concerned with concepts that can be visualized, and these are typically thought of as geometrical.
 
-One more symbolic and one more pictorial.
+One is more symbolic and the other more pictorial.
 
 The word “analysis,” used to denote a branch of mathematics, is not one that features at high school level. However, the word “calculus” is much more familiar, and differentiation and integration are good examples of mathematics that would be classified as analysis rather than algebra or geometry. The reason for this is that they involve limiting processes. For example, the derivative of a function f at a point x is the limit of the gradients of a sequence of chords of the graph of $f$ , and the area of a shape with a curved boundary is defined to be the limit of the areas of rectilinear regions that fill up more and more of the shape. 
 
