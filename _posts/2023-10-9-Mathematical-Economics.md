@@ -2,7 +2,7 @@
 layout: post
 title: Lecture Notes on Mathematics in Economics
 subtitle: 
-date: 2023-10-02
+date: 2023-10-09
 author: Baiyang Zhang
 header-img: img/background2.jpg
 catalog: true
@@ -17,11 +17,11 @@ tags:
 
 **Lecturer**: Dr. Baiyang Zhang
 
-**Office Address:** TBA
+**Office Address:** N/A
 
 **Email**: [byzhang@henu.edu.cn](mailto:james.fisher@henu.edu.cn)
 
-**Lecture Schedule**： Monday and Thursday (TBA)
+**Lecture Schedule**: Monday (Teaching building Room 3502) and Wednesday (Room 109, School of Economics ) 2:30 - 5:30
 
 **Classroom:** TBA
 
