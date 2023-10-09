@@ -21,9 +21,9 @@ tags:
 
 **Email**: [byzhang@henu.edu.cn](mailto:james.fisher@henu.edu.cn)
 
-**Lecture Schedule**: Monday (Teaching building Room 3502) and Wednesday (Room 109, School of Economics ) 2:30 - 5:30
+**Lecture Schedule**: Monday and Wednesday, 2:30 - 5:30
 
-**Classroom:** TBA
+**Classroom:** Monday at Teaching building Room 3502, Wednesday at Room 109 at the School of Economics
 
 **Textbooks and References:**
 
@@ -69,7 +69,7 @@ Econometrics is concerned mainly with the measurement of economic data. Hence it
 
 **Economic Models**
 
-A model is essentially and necessarily an abstraction from the real world. The sensible procedure is to pick out what appeals to our reason to be the primary factors and relationships relevant to our problem and to focus our attention on these alone.
+A model is essentially and necessarily an abstraction from the real world. The sensible procedure is to pick out what appeals to our reason to be the primary factors and relationships relevant to our problem and to focus our attention on these alone. 
 
 **Mathematics from a bird view**
 
