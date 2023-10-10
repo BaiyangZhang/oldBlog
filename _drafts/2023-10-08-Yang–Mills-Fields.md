@@ -67,3 +67,18 @@ where $E$ is an element of the Lie algebra of the transition group, $E \in {\fra
 $$
 \phi \mapsto g(\alpha) \phi.
 $$
+If $\phi$ is a `critical` section, that is a section satisfies the equation of motion, let $\delta \phi$ be the variation of some symmetry transformation, then we have the 
+
+**Noether's theorem for internal symmetry.**  
+$$
+\text{div} \left[ \frac{\partial \mathcal{L}}{\partial \nabla\phi^{a}}\delta \phi^{a} \right] = 0.
+$$
+
+The *principal* behind Noether's theorem is more important. All internal first-variation problems lead to an expression of the form 
+$$
+\delta \int_ {U} \, \mathcal{L} \text{ Vol}  = \int_ {U} \,  \left( \frac{\delta \mathcal{L}}{\delta \phi} \right)\delta \phi \text{ Vol} + \int _ {U} \, G(x,\phi,\delta \phi) \text{ Vol} .
+$$
+Again, if $\phi$ is critical and $\delta \phi$ be the variation of some internal symmetry, then by the definition of internal symmetry, the action is left alone (free from surface contribution), then $G(x,\phi,\delta \phi)=0$. This is sometimes referred to as the `Noether's principal.` 
+
+### Weyl's gauge invariance
+
