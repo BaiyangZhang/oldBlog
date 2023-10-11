@@ -112,5 +112,26 @@ Thus, as a first approximation, one might say that a branch of mathematics belon
 
 ## Lecture 2
 
-### 
+#### Vectors
 
+"You can't add apples and oranges." In a strange way, this is the reason for vectors. We have two separate numbers $v_ {1}$ and $v_ {2}$. The pair produces a two-dimensional vector $\vec{v}$. Explain the following concepts:
+- column,
+- components.
+
+We don't add $v_ {1}$ and $v_ {2}$, but we do add vectors of the same type. Explain vector addition. We want to add apples with apples. 
+
+Explain what is a scalar, and scalar multiplication. 
+
+Given two vectors $\vec{v}$ and $\vec{w}$, explain the linear combination of them. 
+
+This big view, taking all the combinations of $\vec{v}$ and $\vec{w}$, is linear algebra at work.
+
+Illustrate the addition of vectors using arrows.
+
+Introduce 
+- dot product,
+- length.
+
+The dot product is gonna be needed when defining the action of a matrix on a vector. 
+
+After introducing the product rules in two different ways, we introduce the linear equations. 
