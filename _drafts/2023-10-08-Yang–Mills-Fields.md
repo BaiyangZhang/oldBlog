@@ -82,3 +82,4 @@ Again, if $\phi$ is critical and $\delta \phi$ be the variation of some internal
 
 ### Weyl's gauge invariance
 
+A guiding principle of Einstein’s theories of relativity is that the laws of physics should be expressed in a form that is independent of any particular coordinate system used. But gravitation is too weak, we can safely ignore it. What we should do, is 

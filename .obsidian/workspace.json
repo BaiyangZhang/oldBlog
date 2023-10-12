@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2023-10-08-Yang–Mills-Fields.md",
+                "file": "_posts/2023-09-21-The-Dirac-Equation.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2023-10-08-Yang–Mills-Fields.md",
+                "file": "_posts/2023-09-21-The-Dirac-Equation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2023-10-08-Yang–Mills-Fields.md",
+                "file": "_posts/2023-09-21-The-Dirac-Equation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2023-10-08-Yang–Mills-Fields.md"
+                "file": "_posts/2023-09-21-The-Dirac-Equation.md"
               }
             }
           },
@@ -189,7 +188,13 @@
   },
   "active": "52cbb4ca59c2dc7e",
   "lastOpenFiles": [
+    "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
+    "_posts/2023-09-26-Note-of-Nonlinear-quantization.md",
     "_posts/2023-10-9-Mathematical-Economics.md",
+    "_posts/2023-10-12-The-Moral-Foundations-of-Politics.md",
+    "_posts/2023-10-20-Excerpt-From-On-Anarchism.md",
+    "_posts/2023-09-25-Electrodynamics-in-Terms-of-Forms.md",
+    "_posts/2023-10-02-Mathematical-Economics.md",
     "_drafts/2023-10-08-Yang–Mills-Fields.md",
     "Untitled.md",
     "img/lib19.jpg.crdownload",
@@ -202,11 +207,6 @@
     "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
     "_drafts/2023-06-16-Representables-in-Category-Theory.md",
     "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
-    "_posts/2023-09-26-Note-of-Nonlinear-quantization.md",
-    "_posts/2023-10-20-Excerpt-From-On-Anarchism.md",
-    "_posts/2023-10-02-Mathematical-Economics.md",
-    "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
-    "_posts/2023-09-25-Electrodynamics-in-Terms-of-Forms.md",
     "_posts/2023-09-21-The-Dirac-Equation.md",
     "_posts/2023-09-20-Excerpt-From-On-Anarchism.md",
     "_posts/2023-09-18-Introduction-to-Higher-Form-Symmetry.md",
@@ -219,7 +219,6 @@
     "_posts/2023-07-03-The-Electromagnetic-Connection.md",
     "_posts/2023-09-05-Note-of-Nonlinear-quantization.md",
     "_posts/2023-07-17-历史笔记若干.md",
-    "2023-09-05.md",
-    "_drafts/2023-mm-dd-共和国史笔记.md"
+    "2023-09-05.md"
   ]
 }
