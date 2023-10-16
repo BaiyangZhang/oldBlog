@@ -2,7 +2,7 @@
 layout: post
 title: Yang–Mills Fields
 subtitle: 
-date: 2023-10-08
+date: 2023-10-13
 author: Baiyang Zhang
 header-img: img/background19.jpg
 catalog: true
@@ -80,6 +80,63 @@ $$
 $$
 Again, if $\phi$ is critical and $\delta \phi$ be the variation of some internal symmetry, then by the definition of internal symmetry, the action is left alone (free from surface contribution), then $G(x,\phi,\delta \phi)=0$. This is sometimes referred to as the `Noether's principal.` 
 
-### Weyl's gauge invariance
+### Yang–Mills Nucleon
 
-A guiding principle of Einstein’s theories of relativity is that the laws of physics should be expressed in a form that is independent of any particular coordinate system used. But gravitation is too weak, we can safely ignore it. What we should do, is 
+Heisenberg postulated that the proton and the neutron behave identically with respect to the “strong” interactions between nuclei. The isospin group is 
+$$
+U(2) / U(1) = SU(2),
+$$
+but why $U(1)$ should be excluded? It is because given a nucleon state, which is a mixture of proton and neutron state, 
+a global rotation by a constant $e^{ i\alpha }$ gives the same state!
+
+Yukawa, in 1935, introduced the idea that one should explain the strong nuclear force between nucleons by assuming that the force arises from the exchange of certain particles, mesons, unobserved at that time, just as the force between electrons results from the exchange of photons. Yang and Mills in 1954 suggested that we can arrive at exchange mesons by assuming that the correct Lagrangian for the nucleon will admit $SU(2)$ as a local symmetry group, rather than the global one of Heisenberg. the nucleon field should be considered not as a $\mathbb{C}^{2}$ function on space–time but rather as a section of a $\mathbb{C}^{2}$ vector bundle, whose structure group is $SU(2)$. Bundles has much advantage over functions, besides that it is defined globally, bundle is the most natural language for gauge theories, bundles contain the information of frames, and the free change of frames (gauge transformation). In a bundle, the different choice of frames will result in a extra piece to the curvature, that is why in comparison with the Riemannian manifold curvature, except for $\omega$ curvature which is there in both cases, there is also a $g^{-1}dg$ in the curvature of a bundle. This really comes from the associated bundle of frames. 
+
+### Compact Groups and Yang–Mills Action
+
+The $U(N)$ group is compact. To see that, consider the components $u_ {ij}$ of $U\in U(N)$. The unitarity translates to
+$$
+\mathrm{Tr}\,U^{\dagger} U = N \implies \sum_ {ij} {u}^{\ast }_ {ij} u_ {ij} = N = \sum_ {ij} \left\lvert u_ {ij} \right\rvert ^{2},
+$$
+thus all the $u_ {ij}$ live on a complex sphere, hence must be compact.
+
+The advantage of compact group is that 
+
+**Theorem.**  In a compact Lie group, the left and right Haar measures coincide (the Haar measure is bi-invariant).
+
+**Proof.** Let 
+$$
+\omega = \sigma_ {1} \wedge  \dots \wedge  \sigma_ {n}
+$$
+be the *left invariant* volume form. To say $\omega$ is *right invariant* is to say the for $g \in G$, 
+$$
+R_ {g}^{\ast } (\omega {\Large\mid}_ {g} ) = \omega {\Large\mid}_ {1}, \quad  1 \text{ is the identity.} 
+$$
+Let $e$ be an orthonormal basis of left invariant vector fields and 
+$$
+\left\langle \omega,e \right\rangle =1.
+$$
+If $\omega$ is **not** right invariant, we will have 
+$$
+\left\langle R_ {g}^{\ast }(\omega), e \right\rangle = \left\langle \omega, R_ {g\ast } e \right\rangle =c \neq 1,
+$$
+where we have omitted some notations. Let's just write 
+$$
+R_ {g\ast } e = e g.
+$$
+This would mean that 
+$$
+\left\langle \omega, g^{-1} eg \right\rangle =c.
+$$
+Thus under this adjoint action $\text{Ad}(g)$, the orthonormal $e$ at the identity is sent into a frame at the identity with volume $c > 1$. Under $Ad(g^{n})$, the frame $e$ is sent into a frame with volume $c^{n}\to \infty$ as $n\to \infty$. This means that a continuous function 
+$$
+F: G \to \mathbb{R}, \quad  g \mapsto \omega(g ^{-1}e g)
+$$
+is not bounded on $G$ (think hard about it!). Here comes the key point: *any continuous real-valued function on a compact space is bounded*! A contradiction. Q.E.D.
+
+Leg $\omega_ {h}$ be the volume form at $h$. For any continuous function $f$ and for all $g$ in the compact group $G$ we have
+
+$$
+\int _ {G} \, f(h) \omega_ {h} = \int _ {G} \, f(gh) \omega_ {h} =   \int _ {G} \, f(hg) \omega_ {h}.
+$$
+This should be intuitive since $g$ is a isomorphism from the group to itself. 
+

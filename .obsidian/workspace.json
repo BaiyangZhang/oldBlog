@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-09-21-The-Dirac-Equation.md",
+                "file": "_posts/2023-10-14-Some-Numerical-Methods-in-Solving-ODE.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -105,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-21-The-Dirac-Equation.md",
+                "file": "_posts/2023-10-9-Mathematical-Economics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-21-The-Dirac-Equation.md",
+                "file": "_posts/2023-10-9-Mathematical-Economics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-21-The-Dirac-Equation.md"
+                "file": "_posts/2023-10-9-Mathematical-Economics.md"
               }
             }
           },
@@ -186,16 +188,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "52cbb4ca59c2dc7e",
+  "active": "426963cc2ae023c6",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "_posts/2023-10-9-Mathematical-Economics.md",
+    "_posts/2023-10-14-Some-Numerical-Methods-in-Solving-ODE.md",
+    "_drafts/2023-10-13-Yang–Mills-Fields.md",
+    "_posts/2023-09-21-The-Dirac-Equation.md",
     "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-09-26-Note-of-Nonlinear-quantization.md",
-    "_posts/2023-10-9-Mathematical-Economics.md",
     "_posts/2023-10-12-The-Moral-Foundations-of-Politics.md",
     "_posts/2023-10-20-Excerpt-From-On-Anarchism.md",
     "_posts/2023-09-25-Electrodynamics-in-Terms-of-Forms.md",
     "_posts/2023-10-02-Mathematical-Economics.md",
-    "_drafts/2023-10-08-Yang–Mills-Fields.md",
     "Untitled.md",
     "img/lib19.jpg.crdownload",
     "img/lib18.jpg.crdownload",
@@ -207,7 +212,6 @@
     "_drafts/2023-06-02-Introduction-to-Resurgence-and-Transseries-Lecture-4.md",
     "_drafts/2023-06-16-Representables-in-Category-Theory.md",
     "_drafts/2023-09-14-The-Geometry-of-WKB-Method.md",
-    "_posts/2023-09-21-The-Dirac-Equation.md",
     "_posts/2023-09-20-Excerpt-From-On-Anarchism.md",
     "_posts/2023-09-18-Introduction-to-Higher-Form-Symmetry.md",
     "_drafts/2023mm-dd--Basic-Algebraic-Geometry-n.md",
@@ -217,8 +221,6 @@
     "_posts/2023-09-05-Electrodynamics-in-Terms-of-Forms.md",
     "_posts/2023-04-10-Electrodynamics-in-Terms-of-Forms.md",
     "_posts/2023-07-03-The-Electromagnetic-Connection.md",
-    "_posts/2023-09-05-Note-of-Nonlinear-quantization.md",
-    "_posts/2023-07-17-历史笔记若干.md",
-    "2023-09-05.md"
+    "_posts/2023-09-05-Note-of-Nonlinear-quantization.md"
   ]
 }

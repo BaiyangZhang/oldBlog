@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to Higher Form Symmetry
 subtitle: Lecture 3
-date: 2023-09-26
+date: 2023-10-12
 author: Baiyang Zhang
 header-img: img/lib3.jpg
 catalog: true
