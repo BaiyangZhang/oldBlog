@@ -305,4 +305,175 @@ So, you'll need:
 - 200 units of leather (100 for the sneakers and 150 for the boots)
 - 350 units of rubber (200 for the sneakers and 150 for the boots)
 
-This simple example demonstrates the power of vectors and matrices in understanding and organizing economic production. By extending this model with more products and more inputs, students can grasp the importance and utility of linear algebra in economics.
+This simple example demonstrates the power of vectors and matrices in understanding and organizing economic production.
+
+- - -
+
+Apply the multiplication of matrices to the product of:
+1. row vector times column vector,
+2. column vector times row vector (this one is strange).
+
+- - -
+Certainly! Let's embark on this journey to understand transposes and inverses using clear examples and relatable analogies tailored for students stepping into the realm of mathematical economics.
+
+---
+**Transposes**
+
+**What is a Transpose?**
+The transpose of a matrix is obtained by flipping the matrix over its main diagonal (the diagonal from the top-left to the bottom-right). In simpler terms, the rows of the matrix become the columns, and the columns become the rows.
+
+**Visual Analogy**: 
+Imagine you have a bookshelf full of books (your matrix). If you were to tip that bookshelf onto its side (so that it's lying down), the rows of books would now appear as columns. That's the transpose!
+
+**Example**:
+Given the matrix:
+$$
+A = \begin{bmatrix}
+2 & 5 \\
+3 & 7 \\
+1 & 4 \\
+\end{bmatrix}
+$$
+
+The transpose, denoted as $A^T$, is:
+$$
+A^T = \begin{bmatrix}
+2 & 3 & 1 \\
+5 & 7 & 4 \\
+\end{bmatrix}
+$$
+
+**In Mathematical Economics**: 
+Transposing can be useful for various reasons, such as making certain operations or calculations easier or more intuitive. For instance, when working with data sets or in regression analysis, transposes come in handy.
+
+**Inverses**
+
+**What is an Inverse?**
+The inverse of a matrix, if it exists, is a matrix that, when multiplied with the original matrix, results in the identity matrix. The identity matrix is a special square matrix with ones on the main diagonal and zeros elsewhere.
+
+In symbols, for a matrix $A$, its inverse is denoted $A^{-1}$, such that:
+$$ A \times A^{-1} = I $$
+where $I$ is the identity matrix.
+
+**Real-life Analogy**: 
+Think of the process of multiplication and its inverse, division. When you multiply a number by its reciprocal, you get 1. Similarly, in the world of matrices, when you multiply a matrix by its inverse, you get the identity matrix.
+
+**Properties**: 
+1. Not all matrices have inverses. Only square matrices (matrices with the same number of rows and columns) have the potential to have an inverse, and even among them, not all do.
+2. A matrix that does not have an inverse is called "singular" or "non-invertible". 
+
+**Example**:
+For a 2x2 matrix:
+$$
+A = \begin{bmatrix}
+a & b \\
+c & d \\
+\end{bmatrix}
+$$
+
+Its inverse is:
+$$
+A^{-1} = \frac{1}{ad-bc} \begin{bmatrix}
+d & -b \\
+-c & a \\
+\end{bmatrix}
+$$
+
+However, this inverse exists only if $ad-bc$ is not zero. If $ad-bc = 0$, then the matrix is singular and does not have an inverse.
+
+**In Mathematical Economics**: 
+The concept of an inverse matrix is fundamental when solving systems of linear equations, which frequently appear in economics. For example, determining equilibrium in markets, analyzing input-output models, or finding solutions to optimization problems often involve the use of matrix inverses.
+
+Both transposes and inverses are fundamental tools in the toolbox of mathematical economics. Just as we learn to add, subtract, multiply, and divide with numbers, we learn operations and manipulations with matrices to understand and solve intricate economic phenomena. As students progress, they'll witness the power and elegance of linear algebra in analyzing economic systems.
+
+
+
+- - -
+
+**Square Matrix vs. Non-Square Matrix**
+
+**1. Square Matrix**:
+A matrix is called a "square matrix" if it has the same number of rows and columns. In other words, its dimensions look like $n \times n$, where $n$ is a positive integer. You can visualize it as a perfect square filled with numbers, just like a chess or checkerboard.
+
+**Example**: A 2x2 matrix:
+$$
+\begin{bmatrix}
+2 & 5 \\
+3 & 7 \\
+\end{bmatrix}
+$$
+
+**2. Non-Square Matrix**:
+Any matrix that doesn't have the same number of rows and columns is a "non-square matrix". Its dimensions might look like $m \times n$, where $m$ and $n$ are positive integers, and $m \neq n$.
+
+**Example**: A 2x3 matrix:
+$$
+\begin{bmatrix}
+1 & 4 & 7 \\
+2 & 5 & 8 \\
+\end{bmatrix}
+$$
+
+---
+
+**Square Matrices are Special in Multiplication.**
+
+When we talk about multiplication in the world of matrices, square matrices have a unique property: they're "closed under multiplication". This might sound fancy, but let's break it down:
+
+**Closed Under Multiplication**: This means that if you multiply two square matrices of the same size, you'll get another square matrix of that same size as the result.
+
+Let's say you have two square matrices, both of size $2 \times 2$. When you multiply them, the resulting matrix will also be $2 \times 2$. This property will hold true no matter how big or small the matrices are, as long as they're square.
+
+**Economic Analogy**: Imagine each square matrix as a factory machine. When a factory machine (a square matrix) processes another machine of the same size (another square matrix), the result is always a new machine of the same dimensions. This predictable outcome allows for consistent planning and operation, making these "machines" reliable and preferred in many scenarios.
+
+**Forming a Nice Algebra**: The fact that square matrices are closed under multiplication means they form a consistent system, or a "nice algebra". In this system, you can perform operations, like multiplication, and always know what kind of result to expect (another square matrix). This consistency is useful in mathematical economics because it provides a stable framework for analysis and predictions.
+
+---
+
+**What is a Linear Equation?**
+
+**Definition**: 
+A linear equation is an equation of the form:
+$$a_1x_1 + a_2x_2 + ... + a_nx_n = b$$
+where $x_1, x_2, ... x_n$ are the variables, $a_1, a_2, ... a_n$ are constants (known as coefficients), and $b$ is another constant. 
+
+**Key Features**:
+1. Each term consists of a variable multiplied by a constant.
+2. No term has a variable raised to a power higher than one.
+3. There are no products of variables (e.g., $x_1 \times x_2$).
+
+**Simple Example**: 
+Consider the equation $3x + 2y = 12$. Here, $x$ and $y$ are the variables, and the numbers 3 and 2 are their respective coefficients.
+
+**Why "Linear"?**
+Imagine you're graphing this equation on a coordinate plane. For an equation with two variables, the graph would be a straight line. That's why it's called "linear" – the graph is a line.
+
+**2. What is a System of Linear Equations?**
+
+**Definition**: 
+A system of linear equations is just a collection of two or more linear equations that involve the same set of variables.
+
+**Simple Example**:
+$$
+\begin{align*}
+3x + 2y &= 12 \quad \text{(Equation 1)} \\
+x - y &= 5 \quad \text{(Equation 2)}
+\end{align*}
+$$
+
+In this system, you have two linear equations, and you'd typically try to find values for $x$ and $y$ that satisfy both equations simultaneously.
+
+**Graphical Interpretation**:
+When you plot both equations on a graph:
+1. If they intersect at a point, that point is the solution to the system (i.e., the values of $x$ and $y$ at that point satisfy both equations).
+2. If they never meet (parallel lines), the system has no solution.
+3. If the two equations represent the same line, then there are infinitely many solutions - any point on that line is a solution.
+
+**In Mathematical Economics**: 
+Such systems help in understanding multiple interdependencies. For instance, if you have a market with two goods, and each equation represents how demand or supply changes based on the price of both goods, the system helps find an equilibrium where both goods' demands are satisfied.
+
+---
+
+### **In Conclusion**:
+
+Think of a linear equation as a single straight path (line) and a system of linear equations as multiple paths. Our goal is often to find where these paths meet or if they never do. In the context of economics, these meeting points can represent equilibrium states, optimal solutions, or any scenario where multiple conditions are satisfied at once. As students dive deeper into mathematical economics, they'll see that these simple linear systems can be powerful tools for understanding complex economic relationships.
