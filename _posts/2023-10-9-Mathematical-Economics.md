@@ -61,8 +61,6 @@ Additional review sessions may be scheduled in advance of exams.
 
 ## Lecture 1
 
-### Introduction and Basics of Analysis
-
 **Mathematical Economics versus Econometrics** 
 
 Econometrics is concerned mainly with the measurement of economic data. Hence it deals with the study of empirical observations using statistical methods of estimation and hypothesis testing. Indeed, empirical studies and theoretical analyses are often complementary and mutually reinforcing. On the one hand, theories must be tested against empirical data for validity before they can be applied with confidence. On the other, statistical work needs economic theory as a guide, in order to determine the most relevant and fruitful direction of research.
@@ -498,7 +496,8 @@ $$ X = \begin{bmatrix} x \\ y \end{bmatrix} $$ (Our unknowns)
 
 $$ B = \begin{bmatrix} 8 \\ -3 \end{bmatrix} $$ (Results of the equations)
 
----
+## Lecture 4
+
 ### **Solving Using the Inverse**
 
 Here's the magic part: If we multiply both sides of our matrix equation $AX = B$ by the inverse of matrix $A$, which we'll call $A^{-1}$, we can isolate $X$ (our unknowns).
@@ -513,10 +512,6 @@ In economics, we often deal with many variables and relationships at the same ti
 For example, imagine you're studying how the price of one product affects the demand for another, and vice versa. Instead of solving each relationship individually, we can group them in a system of equations, represent them as matrices, and solve them all at once.
 
 Using the inverse matrix to solve a system of linear equations is like having a secret decoder ring. It's a powerful tool that can make solving complex problems more manageable. As students dive deeper into mathematical economics, they'll find that these tools, while initially seeming abstract, can be invaluable in understanding and analyzing economic relationships and behaviors.
-
-- - -
-
-Alright! Let's embark on this journey, building on what the students already know about matrices, and introduce them to the concept of singularity and determinants.
 
 ---
 
