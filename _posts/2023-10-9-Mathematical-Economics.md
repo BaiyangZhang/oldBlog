@@ -445,13 +445,12 @@ where $x_1, x_2, ... x_n$ are the variables, $a_1, a_2, ... a_n$ are constants (
 **Simple Example**: 
 Consider the equation $3x + 2y = 12$. Here, $x$ and $y$ are the variables, and the numbers 3 and 2 are their respective coefficients.
 
-**Why "Linear"?**
 Imagine you're graphing this equation on a coordinate plane. For an equation with two variables, the graph would be a straight line. That's why it's called "linear" – the graph is a line.
 
-**2. What is a System of Linear Equations?**
+**What is a System of Linear Equations?**
 
 **Definition**: 
-A system of linear equations is just a collection of two or more linear equations that involve the same set of variables.
+A system of linear equations is just a collection of two or more linear equations that involve the *same set of variables*.
 
 **Simple Example**:
 $$
@@ -469,11 +468,88 @@ When you plot both equations on a graph:
 2. If they never meet (parallel lines), the system has no solution.
 3. If the two equations represent the same line, then there are infinitely many solutions - any point on that line is a solution.
 
-**In Mathematical Economics**: 
 Such systems help in understanding multiple interdependencies. For instance, if you have a market with two goods, and each equation represents how demand or supply changes based on the price of both goods, the system helps find an equilibrium where both goods' demands are satisfied.
+
+Think of a linear equation as a single straight path (line) and a system of linear equations as multiple paths. Our goal is often to find where these paths meet or if they never do. In the context of economics, these meeting points can represent equilibrium states, optimal solutions, or any scenario where multiple conditions are satisfied at once. As students dive deeper into mathematical economics, they'll see that these simple linear systems can be powerful tools for understanding complex economic relationships.
+
+- - -
+
+Certainly! Let's simplify the concept and lay it out for students transitioning from a high school math background.
 
 ---
 
-### **In Conclusion**:
+### **Using Matrices to Represent Equations**
 
-Think of a linear equation as a single straight path (line) and a system of linear equations as multiple paths. Our goal is often to find where these paths meet or if they never do. In the context of economics, these meeting points can represent equilibrium states, optimal solutions, or any scenario where multiple conditions are satisfied at once. As students dive deeper into mathematical economics, they'll see that these simple linear systems can be powerful tools for understanding complex economic relationships.
+Let's say we have the following system of equations:
+
+$$
+\begin{align*}
+2x + 3y &= 8 \\
+x - 4y &= -3
+\end{align*}
+$$
+
+This can be represented in a matrix format as $AX = B$:
+
+Where:
+$$ A = \begin{bmatrix} 2 & 3 \\ 1 & -4 \end{bmatrix} $$ (Coefficients of the variables)
+
+$$ X = \begin{bmatrix} x \\ y \end{bmatrix} $$ (Our unknowns)
+
+$$ B = \begin{bmatrix} 8 \\ -3 \end{bmatrix} $$ (Results of the equations)
+
+---
+### **Solving Using the Inverse**
+
+Here's the magic part: If we multiply both sides of our matrix equation $AX = B$ by the inverse of matrix $A$, which we'll call $A^{-1}$, we can isolate $X$ (our unknowns).
+
+Doing the math:
+$$ A^{-1}AX = X = A^{-1}B $$
+
+So, if we can find the inverse of $A$ (remember, not all matrices have inverses!), then we can multiply it with $B$ to get our solution, $X$.
+
+In economics, we often deal with many variables and relationships at the same time. Instead of trying to solve each relationship individually, matrices allow us to represent these complex relationships together and solve them in a more streamlined way. 
+
+For example, imagine you're studying how the price of one product affects the demand for another, and vice versa. Instead of solving each relationship individually, we can group them in a system of equations, represent them as matrices, and solve them all at once.
+
+Using the inverse matrix to solve a system of linear equations is like having a secret decoder ring. It's a powerful tool that can make solving complex problems more manageable. As students dive deeper into mathematical economics, they'll find that these tools, while initially seeming abstract, can be invaluable in understanding and analyzing economic relationships and behaviors.
+
+- - -
+
+Alright! Let's embark on this journey, building on what the students already know about matrices, and introduce them to the concept of singularity and determinants.
+
+---
+
+Let's think about 2D space for a moment. We've all seen the classic X-Y coordinate plane. Imagine you've got two vectors (think of them as arrows) on this plane. Sometimes, these two arrows will point in completely different directions. But occasionally, they might just lay flat on top of one another or be exactly opposite.
+
+Now, if we use these vectors as rows or columns in a matrix, the question becomes: Does this matrix have a unique way to revert any transformation it causes? Or in other words, can we find its inverse?
+
+This is where the idea of a matrix being "singular" comes in. A **singular matrix** doesn't have an inverse. Visually, if you were to transform the entire 2D space using a singular matrix, some areas would scrunch up so much that they'd be impossible to revert to their original form.
+
+To figure out if a matrix is singular, we need a tool, and that tool is the **determinant**.
+
+Think of the determinant as a special number associated with a matrix. If the determinant is zero, our matrix is singular (it can't be inverted). If the determinant isn't zero, then the matrix can be inverted.
+
+For our 2x2 matrices (which are often the starting point in learning), the determinant gives us a sense of the "area scaling factor" when the matrix is used for a transformation. If the determinant is zero, it means the matrix squishes everything down to a line or a point, losing all the original area, making it impossible to revert.
+
+### **Calculating the Determinant for 2x2 Matrices**:
+
+Let's say you have a 2x2 matrix:
+$$A = \begin{bmatrix} a & b \\ c & d \end{bmatrix} $$
+
+The determinant, often denoted as |A| or det(A), is calculated as:
+$$|A| = ad - bc $$
+
+If |A| equals zero, then A is singular.
+
+**Why Does This Matter?**
+
+Back to our 2D space analogy: If our matrix is singular, it means that after transforming, we've lost some information, making it impossible to revert or find an original form. This is critical in economics when using matrices to model relationships. If a matrix representing an economic system is singular, it means there's some redundancy in our system, and we can't uniquely determine all the variables.
+
+---
+
+**In Conclusion**:
+
+Determinants are like a health check for matrices. They tell us if a matrix can be inverted or not, indicating how the matrix transforms space. Just like how some economic relationships can't be reversed easily, some matrix transformations can't be inverted. Understanding which is which is crucial for mathematical economics.
+
+### Lecture 4
