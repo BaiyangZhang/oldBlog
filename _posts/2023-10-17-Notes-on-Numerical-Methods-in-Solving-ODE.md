@@ -172,4 +172,11 @@ which clearly doesn't make any sense. Thus we have to consider a different metho
 
 [^1]:Nuclear Physics B233 (1984) 109-115, doi: 10.1016/0550-3213(84)90172-x
 
-### 
+### The continuation method
+
+The core idea behind the "continuation method" is  that, instead of trying to solve a super-hard problem right away, we start with a simpler version of it that we can solve. Then, we "continue" from that solution, making small changes step by step, until we reach the solution of the original, harder problem.
+
+1. **Start Simple**: Begin with a version of the problem that's easy to solve.
+2. **Make Small Changes**: Adjust the problem little by little, using the solution from the last step as the starting point for the next.
+3. **Reach the Target**: Continue this process until you've transformed your simple problem's solution into a solution for your original, harder problem.
+

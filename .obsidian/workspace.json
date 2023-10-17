@@ -102,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -201,11 +202,11 @@
   },
   "active": "d1aecae605d42eca",
   "lastOpenFiles": [
-    "_posts/2023-09-26-Note-of-Nonlinear-quantization.md",
-    "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
-    "_posts/2023-10-9-Mathematical-Economics.md",
-    "_posts/2023-10-12-The-Moral-Foundations-of-Politics.md",
     "_posts/2023-10-17-Notes-on-Numerical-Methods-in-Solving-ODE.md",
+    "_posts/2023-10-9-Mathematical-Economics.md",
+    "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
+    "_posts/2023-09-26-Note-of-Nonlinear-quantization.md",
+    "_posts/2023-10-12-The-Moral-Foundations-of-Politics.md",
     "_posts/2023-10-20-Excerpt-From-On-Anarchism.md",
     "img/eom.png",
     "img/eom.pdf",
