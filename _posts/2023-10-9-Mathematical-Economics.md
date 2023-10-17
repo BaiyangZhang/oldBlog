@@ -546,5 +546,3 @@ Back to our 2D space analogy: If our matrix is singular, it means that after tra
 **In Conclusion**:
 
 Determinants are like a health check for matrices. They tell us if a matrix can be inverted or not, indicating how the matrix transforms space. Just like how some economic relationships can't be reversed easily, some matrix transformations can't be inverted. Understanding which is which is crucial for mathematical economics.
-
-### Lecture 4
