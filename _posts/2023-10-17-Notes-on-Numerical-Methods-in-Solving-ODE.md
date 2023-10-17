@@ -2,7 +2,7 @@
 layout: post
 title: Note on Numerical Methods in Solving ODE
 subtitle: 
-date: 2023-10-16
+date: 2023-10-17
 author: Baiyang Zhang
 header-img: img/background2.jpg
 catalog: true
