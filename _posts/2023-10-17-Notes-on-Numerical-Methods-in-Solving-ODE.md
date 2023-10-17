@@ -76,7 +76,7 @@ Similarly, in the context of differential equations, there can be parts of the s
 
 To efficiently and accurately solve stiff differential equations, specialized numerical methods have been developed, known as "stiff solvers." These solvers are designed to adaptively handle the challenges posed by stiffness, allowing for stable and efficient computation.
 
-### Some parameters
+### numerical values of parameters
 
 I collected the following values from the Adkins:Nappi:1984 paper[^1],  
 $$
@@ -89,6 +89,15 @@ m_ {1} &= 0.526, \\
 m_ {2} &= 1.052.
 \end{align}
 $$
+
+In the chiral case, pion is massless and we have
+$$
+\begin{align}
+m_ {1} &= 0, \\
+m_ {2} &= 1.052.
+\end{align}
+$$
+
 ### The shooting method
 
 The shooting method is a numerical technique used to solve boundary value problems (BVPs) for ordinary differential equations (ODEs). *It's especially useful for second-order ODEs, but can be applied to higher-order equations as well*.
@@ -163,3 +172,4 @@ which clearly doesn't make any sense. Thus we have to consider a different metho
 
 [^1]:Nuclear Physics B233 (1984) 109-115, doi: 10.1016/0550-3213(84)90172-x
 
+### 

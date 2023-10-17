@@ -31,7 +31,7 @@ $$
 
 In the language of differential forms, we can regard $\epsilon$ as a $0$-form, which is (by definition) a function. Then the variation of action reads
 $$
-\boxed { 
+\boxed{ 
 \delta S = \int_ {M^{(D)}} (\star J)\wedge d\epsilon,
 \tag{2}
 }

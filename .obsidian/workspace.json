@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d1aecae605d42eca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "5f16c9608f79f67e",
@@ -107,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-10-17-Notes-on-Numerical-Methods-in-Solving-ODE.md",
+                "file": "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-10-17-Notes-on-Numerical-Methods-in-Solving-ODE.md",
+                "file": "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-10-17-Notes-on-Numerical-Methods-in-Solving-ODE.md"
+                "file": "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md"
               }
             }
           },
@@ -188,19 +199,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c941c15a12c3be08",
+  "active": "d1aecae605d42eca",
   "lastOpenFiles": [
+    "_posts/2023-09-26-Note-of-Nonlinear-quantization.md",
+    "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
+    "_posts/2023-10-9-Mathematical-Economics.md",
+    "_posts/2023-10-12-The-Moral-Foundations-of-Politics.md",
+    "_posts/2023-10-17-Notes-on-Numerical-Methods-in-Solving-ODE.md",
+    "_posts/2023-10-20-Excerpt-From-On-Anarchism.md",
     "img/eom.png",
     "img/eom.pdf",
-    "_posts/2023-10-9-Mathematical-Economics.md",
-    "_posts/2023-10-17-Notes-on-Numerical-Methods-in-Solving-ODE.md",
     "Untitled 1.md",
     "_drafts/2023-10-13-Yang–Mills-Fields.md",
     "_posts/2023-09-21-The-Dirac-Equation.md",
-    "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
-    "_posts/2023-09-26-Note-of-Nonlinear-quantization.md",
-    "_posts/2023-10-12-The-Moral-Foundations-of-Politics.md",
-    "_posts/2023-10-20-Excerpt-From-On-Anarchism.md",
     "_posts/2023-09-25-Electrodynamics-in-Terms-of-Forms.md",
     "_posts/2023-10-02-Mathematical-Economics.md",
     "Untitled.md",
