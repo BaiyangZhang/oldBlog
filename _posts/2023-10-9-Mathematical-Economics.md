@@ -49,7 +49,7 @@ Additional review sessions may be scheduled in advance of exams.
 |----------|----------|----------|
 | 1  | Introduction and Basics of Analysis | CW, Ch. 1 and 2|
 | 2-4 | Linear Algebra  | CW, Ch. 4 and 5|
-| 5-6 | Derivatives | CW, Ch. 5, 6, and 7|
+| 5-6 | Derivatives | CW, Ch. 6,7 and 8|
 | 7 | Integrals | CW, Ch. 13|
 | 8-10 |Unconstrained Optimization | CW, Ch. 9, 10, and 11|
 | 11 | Constrained Optimization with Equality Constraints | CW, Ch. 12|
@@ -666,3 +666,121 @@ The addition (subtraction) of a multiple of any row to (from) another row will l
 
 **Finding the Inverse Matrix**
 
+Introduce the adjoint of a matrix, and then the inverse. 
+
+**Cramer's rule**
+
+Let's break down Cramer's rule into a simple-to-understand explanation.
+
+Imagine you're trying to solve a system of equations. This system might represent different scenarios. For instance, let's say you and a friend are buying apples and bananas. Two different days, two different scenarios:
+
+1. On Monday, you bought 3 apples and 2 bananas, and it cost you $13.
+2. On Tuesday, you bought 4 apples and 5 bananas, and it cost you $31.
+
+From this, you have:
+1) 3A + 2B = 13
+2) 4A + 5B = 31
+
+Where A represents the cost of an apple and B represents the cost of a banana.
+
+Cramer's rule helps you find the cost of A and B using determinants of matrices. 
+
+**Step-by-step with Cramer's Rule:**
+
+1. **Main Determinant (D)**:
+   First, make a matrix of the coefficients of A and B:
+$$ 
+\begin{pmatrix}
+3 & 2 \\
+4 & 5 \\
+\end{pmatrix}
+$$
+Calculate its determinant (D). This determinant represents the "base scenario" of our system.
+
+2. **Determinant with respect to A:**
+   Replace the first column (which represents apples) with the numbers on the right side of our equations (13 and 31):
+$$ 
+\begin{pmatrix}
+13 & 2 \\
+31 & 5 \\
+\end{pmatrix}
+$$
+Calculate its determinant. This determinant represents the scenario when we're focusing just on the apples.
+
+3. **Determinant with respect to B**:
+   Replace the second column (which represents bananas) with the numbers on the right side:
+$$ 
+\begin{pmatrix}
+3 & 13 \\
+4 & 31 \\
+\end{pmatrix}
+$$
+Calculate its determinant. This represents the scenario when we're focusing just on the bananas.
+
+4. **Solving for A and B**:
+   - The cost of an apple (A) is found by $A = D_A / D$
+   - The cost of a banana (B) is found by $B = D_B / D$
+
+This gives you the individual prices of apples and bananas!
+
+**In simple words:** Cramer's rule lets you focus on one variable at a time (like just apples or just bananas) and then combine the results to find out the cost of each. It does this using determinants, which are a special number for matrices, like a fingerprint for the matrix.
+
+Remember, Cramer's rule works best for systems where the number of equations matches the number of unknowns, and the main determinant (D) is not zero. If D were zero, it would be like trying to divide by zero, which we can't do.
+
+**Application**
+
+Let's walk through a simplified example of Input-Output Analysis using a hypothetical economy with just three industries: Agriculture, Manufacturing, and Services.
+
+
+Imagine the following table showing how each industry's output is used as input by the others:
+
+|                     | To Agriculture | To Manufacturing | To Services | Final Demand |
+|---------------------|----------------|------------------|-------------|--------------|
+| **From Agriculture**    | 10            | 30               | 10          | 50           |
+| **From Manufacturing**  | 20            | 40               | 20          | 20           |
+| **From Services**       | 10            | 10               | 30          | 50           |
+
+Each row represents the output of an industry, and each column (excluding the Final Demand column) represents the input to an industry. For example, the number 30 in the 'From Agriculture' row and 'To Manufacturing' column means that the Manufacturing sector uses 30 units of the Agriculture sector's output.
+
+1. **Creating the A matrix (Input-Output Coefficient Matrix):** This matrix is obtained by dividing each element of the table by the total output of the corresponding industry. The total output for each industry is the sum of its outputs to all industries plus its final demand.
+
+   Total output for each sector:
+   - Agriculture: 10 + 30 + 10 + 50 = 100
+   - Manufacturing: 20 + 40 + 20 + 20 = 100
+   - Services: 10 + 10 + 30 + 50 = 100
+
+   Now, construct the A matrix:
+   ``` 
+   |  0.1  0.3  0.1 |
+   |  0.2  0.4  0.2 |
+   |  0.1  0.1  0.3 |
+   ```
+
+2. **The Leontief Inverse**: To find the total output required to satisfy a given final demand, we use:
+   \[ X = (I - A)^{-1} Y \]
+   Where:
+   - \( X \) is the total output vector.
+   - \( Y \) is the final demand vector.
+   - \( I \) is the identity matrix.
+
+   In our case, \( Y \) is:
+   ```
+   | 50 |
+   | 20 |
+   | 50 |
+   ```
+
+   And \( I \) is:
+   ```
+   | 1  0  0 |
+   | 0  1  0 |
+   | 0  0  1 |
+   ```
+
+   Calculating \( (I - A) \), and then finding its inverse can be done using a tool or software that supports matrix operations, such as MATLAB, Python (using NumPy), or even specialized calculators.
+
+3. **Computing the Result**: Once you have the Leontief inverse, you multiply it by the final demand vector \( Y \) to get the total output vector \( X \).
+
+The resulting \( X \) vector will tell you how much each industry needs to produce in total to meet the given final demand, taking into account not just the direct demand for each industry's products, but also the indirect demand generated by the need for inputs from other industries.
+
+In practice, real-world Input-Output tables are much larger and more complex, often involving hundreds of industries. Still, the basic principles and steps remain the same. Modern software tools make handling and analyzing these large matrices feasible.
