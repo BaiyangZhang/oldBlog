@@ -527,7 +527,55 @@ Think of the determinant as a special number associated with a matrix. If the de
 
 For our 2x2 matrices (which are often the starting point in learning), the determinant gives us a sense of the "area scaling factor" when the matrix is used for a transformation. If the determinant is zero, it means the matrix squishes everything down to a line or a point, losing all the original area, making it impossible to revert.
 
-### **Calculating the Determinant for 2x2 Matrices**:
+For a matrix to be nonsingular (i.e., to have an inverse), each row (like our detectives) has to bring something unique to the table. If even one row is just a repeat or combination of others, it's like missing out on crucial information. And without that unique contribution from every row, we can't find an inverse for our matrix.
+
+****Rank of a Matrix****
+
+The rank of a matrix is a measure of the "dimension" of the linear space spanned by its rows or columns. In simpler terms, it tells us the number of linearly independent rows or columns in the matrix.
+
+*The Library Analogy:*
+
+- Imagine you have a library of books. Some books might be exactly the same, and some might be different.
+- If you were asked, "How many unique books do you have?", you would ignore all duplicates and count only the distinct ones.
+- The rank of a matrix is similar: It tells us how many "unique" rows (or columns) there are, ignoring any that can be made by combining others.
+
+*Determining Rank:*
+
+1. If a matrix has all zeros, its rank is 0.
+2. If a matrix has some non-zero elements but some rows (or columns) are just scalar multiples or combinations of other rows (or columns), its rank will be less than the total number of rows (or columns).
+3. If no row (or column) can be expressed as a combination of any other rows (or columns), the matrix is said to have full rank, meaning its rank is equal to the smaller of the number of rows or columns.
+
+---
+
+**Rank of a Matrix:**
+
+The rank of a matrix is a measure of the "dimension" of the linear space spanned by its rows or columns. In simpler terms, it tells us the number of linearly independent rows or columns in the matrix.
+
+**Analogies & Insights:**
+
+1. **The Library Analogy:**
+    
+    - Imagine you have a library of books. Some books might be exactly the same, and some might be different.
+    - If you were asked, "How many unique books do you have?", you would ignore all duplicates and count only the distinct ones.
+    - The rank of a matrix is similar: It tells us how many "unique" rows (or columns) there are, ignoring any that can be made by combining others.
+
+---
+
+**Rank of a Matrix:**
+
+The rank of a matrix is a measure of the "dimension" of the linear space spanned by its rows or columns. In simpler terms, it tells us the number of linearly independent rows or columns in the matrix.
+
+**Analogies & Insights:**
+
+1. **The Library Analogy:**
+    
+    - Imagine you have a library of books. Some books might be exactly the same, and some might be different.
+    - If you were asked, "How many unique books do you have?", you would ignore all duplicates and count only the distinct ones.
+    - The rank of a matrix is similar: It tells us how many "unique" rows (or columns) there are, ignoring any that can be made by combining others.
+
+**Determinant**:
+
+The term "determinant" was used because it can "determine" whether or not a matrix has an inverse.
 
 Let's say you have a 2x2 matrix:
 $$A = \begin{bmatrix} a & b \\ c & d \end{bmatrix} $$
@@ -537,12 +585,13 @@ $$|A| = ad - bc $$
 
 If |A| equals zero, then A is singular.
 
-**Why Does This Matter?**
+Introduce the Levi-Civita tensor. Use it to define the determinant. 
 
-Back to our 2D space analogy: If our matrix is singular, it means that after transforming, we've lost some information, making it impossible to revert or find an original form. This is critical in economics when using matrices to model relationships. If a matrix representing an economic system is singular, it means there's some redundancy in our system, and we can't uniquely determine all the variables.
+**Properties of determinants**
 
----
+The addition (subtraction) of a multiple of any row to (from) another row will leave the value of the determinant unaltered. The same holds true if we replace the word row by column in the previous statement. 
 
-**In Conclusion**:
+*It preserves the multiplication of matrices.* $\left\lvert A \cdot B \right\rvert = \left\lvert A \right\rvert \times \left\lvert B \right\rvert$. 
 
-Determinants are like a health check for matrices. They tell us if a matrix can be inverted or not, indicating how the matrix transforms space. Just like how some economic relationships can't be reversed easily, some matrix transformations can't be inverted. Understanding which is which is crucial for mathematical economics.
+**Finding the Inverse Matrix**
+

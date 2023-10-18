@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "_posts/2023-10-9-Mathematical-Economics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
+                "file": "_posts/2023-10-9-Mathematical-Economics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md"
+                "file": "_posts/2023-10-9-Mathematical-Economics.md"
               }
             }
           },
@@ -200,11 +199,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d1aecae605d42eca",
+  "active": "52cbb4ca59c2dc7e",
   "lastOpenFiles": [
+    "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-10-17-Notes-on-Numerical-Methods-in-Solving-ODE.md",
     "_posts/2023-10-9-Mathematical-Economics.md",
-    "_posts/2023-09-26-Introduction-to-Higher-Form-Symmetry.md",
     "_posts/2023-09-26-Note-of-Nonlinear-quantization.md",
     "_posts/2023-10-12-The-Moral-Foundations-of-Politics.md",
     "_posts/2023-10-20-Excerpt-From-On-Anarchism.md",

@@ -168,15 +168,47 @@ $$
 However the computation takes a long time and yields a nonsensical result, 
 ![](/img/eom.png)
 
-which clearly doesn't make any sense. Thus we have to consider a different method, the so-called `continuation method` or `homotopy method`.
+which clearly doesn't make any sense. 
+
+Maybe we can make it work by providing a super accurate initial condition? With this hope I try to solve the equation at the origin, namely $r=0$. Expand $f(r)$ about the origin we get
+$$
+f(r) = f(0) + r f'(r) = \pi + rg(r),\quad  g(r) := f'(r)
+$$
+where we have made use of the initial condition that $f(0)=\pi$, and $r$ is supposed to be very small. Take this to the equation of motion, with some manipulation we get 
+$$
+\left(-4 r^4 g^{2}(r)-2 r^4\right) g'(r)-2 m_ 1^2 r^5 g(r)-4 m_ 2^2 r^5 g(r)-4 r^3 g^{3}(r) =0
+$$
+keep the leading order and NLO in $r$ we have
+$$
+\left(2 r g^{2}(r)+r\right) g'(r)+2 g^{3}(r)=0
+$$
+In paper arXiv:hep-ph/0106150v2, Ponchiano etc. adopted Pade approximation and it seems to be working good. But it's not directly useful to me.
+
+Well let's move on to the next method.
+
+
 
 [^1]:Nuclear Physics B233 (1984) 109-115, doi: 10.1016/0550-3213(84)90172-x
 
-### The continuation method
+### The continuation (homotopy, embedding) method
 
 The core idea behind the "continuation method" is  that, instead of trying to solve a super-hard problem right away, we start with a simpler version of it that we can solve. Then, we "continue" from that solution, making small changes step by step, until we reach the solution of the original, harder problem.
 
 1. **Start Simple**: Begin with a version of the problem that's easy to solve.
 2. **Make Small Changes**: Adjust the problem little by little, using the solution from the last step as the starting point for the next.
 3. **Reach the Target**: Continue this process until you've transformed your simple problem's solution into a solution for your original, harder problem.
+
+Let us apply the aforementioned philosophical ideas into practice. Suppose we wish to solve a system of $N$ non-linear equations in $N$ variables, say
+$$
+F(x) = 0,\quad  F: \mathbb{R}^{n} \to \mathbb{R}^{n}.
+$$
+We assume $F$ is $C^{\infty}$. Suppose that we don't know a lot about the initial value of the derivative, then we can't effectively adopt the shooting method. As a possible remedy, define a homotopy or deformation $H(x,t)$ which deforms from some simpler equations $G(x)$ to $F(x)$ when $t$ smoothly changes, to be specific define
+$$
+H(x,0) = G(x),\quad  H(x,1) = F(x).
+$$
+Everything is required to be smooth here. Typically, one can choose a so-called `convex homotopy` such as 
+$$
+H(x,t) = t\,F(x) + (1-t)\, G(x).
+$$
+$H(x,t)$ is the function we are trying to solve. Our job is to find $G(x)$ with known solution, then the PDE that $H(x,t)$ satisfies, offer the initial condition, then try to solve it. 
 
