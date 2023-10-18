@@ -587,6 +587,77 @@ If |A| equals zero, then A is singular.
 
 Introduce the Levi-Civita tensor. Use it to define the determinant. 
 
+Of course! The Laplace Expansion is an important technique for calculating the determinant of a matrix. It's especially useful when we have a matrix larger than $3 \times 3$, though it can be used for smaller matrices as well. The method is essentially a recursive process that breaks down a larger matrix into smaller ones.
+
+**Steps for Laplace Expansion:**
+
+1. **Choosing a Row or Column:**
+   You can choose any row or column to expand upon. For the sake of simplicity, we often choose a row or column with the most zeros because it reduces the number of calculations we have to make (since any term multiplied by zero is zero).
+
+2. **Calculate Minors:**
+   For each element $a_{ij}$ of the matrix, remove the i-th row and the j-th column, and compute the determinant of the resulting $(n-1) \times (n-1)$ matrix. This determinant is called the "`minor`" of the element, often denoted $M_{ij}$.
+
+3. **Calculate Cofactors:**
+   Associated with each minor is a cofactor, which is defined as: $C_{ij} = (-1)^{i+j} \times M_{ij}$. This alternating sign pattern helps ensure the determinant computation is accurate.
+
+4. **Compute the Determinant:**
+   The determinant of the matrix is the sum of the products of the elements of your chosen row or column with their respective cofactors. Mathematically, if you chose the i-th row, this can be written as:
+$$\text{det}(A) = \sum_{j=1}^{n} a_{ij} C_{ij} $$
+   
+Alternatively, if you chose the j-th column, it is:
+$$\text{det}(A) = \sum_{i=1}^{n} a_{ij} C_{ij} $$
+
+**Example: Determinant of a $3 \times 3$ Matrix using Laplace Expansion:**
+
+Given matrix A:
+$$
+\begin{pmatrix}
+1 & 3 & 2 \\
+4 & 1 & 3 \\
+2 & 2 & 1 \\
+\end{pmatrix}
+$$
+
+To compute its determinant, let's expand using the first row:
+
+1. For the element $a_{11} = 1$:
+   - Minor $M_{11}$ is the determinant of:
+$$
+\begin{pmatrix}
+1 & 3 \\
+2 & 1 \\
+\end{pmatrix}
+$$
+   - $M_{11} = 1 - 6 = -5$
+   - Cofactor $C_{11} = (-1)^{1+1} \times (-5) = 5$
+
+2. For the element $a_{12} = 3$:
+   - Minor $M_{12}$ is the determinant of:
+$$
+\begin{pmatrix}
+4 & 3 \\
+2 & 1 \\
+\end{pmatrix}
+$$
+   - $M_{12} = 4 - 6 = -2$
+   - Cofactor $C_{12} = (-1)^{1+2} \times (-2) = 2$
+
+3. For the element $a_{13} = 2$:
+   - Minor $M_{13}$ is the determinant of:
+$$
+\begin{pmatrix}
+4 & 1 \\
+2 & 2 \\
+\end{pmatrix}
+$$
+   - $M_{13} = 8 - 2 = 6$
+   - Cofactor $C_{13} = (-1)^{1+3} \times 6 = -6$
+
+Combining the results, 
+$$\text{det}(A) = 1 \times 5 + 3 \times 2 + 2 \times (-6) = 5 + 6 - 12 = -1 $$
+
+And that's how you can use the Laplace Expansion to compute the determinant of a matrix! This method becomes more cumbersome for larger matrices, but the principles remain the same.
+
 **Properties of determinants**
 
 The addition (subtraction) of a multiple of any row to (from) another row will leave the value of the determinant unaltered. The same holds true if we replace the word row by column in the previous statement. 
